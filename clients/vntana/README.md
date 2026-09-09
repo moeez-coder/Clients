@@ -1,0 +1,28 @@
+# VNTANA
+
+## Profile
+
+- **Status:** active
+- **Package tier:** Custom
+- **Website:** https://www.vntana.com/
+- **Contact:** ashley@vntana.com
+- **Slack channel ID:** C0BA8RZKFF1
+- **Tracking client ID:** `5e0a22cf-6efb-432d-bc3c-6eb914440f13`
+
+## Sourcing configs
+
+| Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
+|---|---|---|---|---|---|---|
+| VNTANA Casual Connections Sourcing | VNTANA Casual Connections - Senior Stakeholders | Industrial Equipment/Machinery, Manufacturing, Construction Equipment, Agricultural Machinery, Industrial Pumps & Valves, Heavy-duty Trucks, Mining Equipment, Industrial Automation, Hydraulics & Pneumatics, Power Transmission, Industrial Tools, Process Equipment | draft | 0 | 0 | - |
+| iVT Expo - Off-Highway Vehicle Sourcing | iVT Expo - Off-Highway Vehicle Technology | Off-Highway Vehicle OEMs, Off-Highway Component Suppliers, Agricultural Machinery, Construction Equipment, Mining Equipment | draft | 1 | 0 | - |
+| IMTS 2026 - Precision Components Sourcing | IMTS 2026 - Precision Components, Instruments & Consumables | Precision Component Manufacturers, Precision Instruments, Tooling & Consumables Suppliers, Machine Tool Accessories | draft | 1 | 0 | - |
+| IMTS 2026 - Machine Tools, Automation & Robotics Sourcing | IMTS 2026 - Machine Tools, Automation & Robotics | Machine Tool Manufacturers, Robotics & Automation Equipment Manufacturers, CNC Machining Center Builders, Industrial Automation, Robotics | draft | 1 | 0 | - |
+| Industrial Mfg PLM/CAD | Industrial Mfg PLM/CAD | Industrial Equipment/Machinery, Manufacturing, Mining, Construction Equipment, Agricultural Machinery, Industrial Pumps & Valves, Heavy-duty Trucks, Mining Equipment, Industrial Automation, Hydraulics & Pneumatics, Power transmission, Industrial Tools, Process Equipment | draft | 3 | 0 | [link](https://app.clay.com/workspaces/770250/workbooks/wb_0thwk77HpkCSnu3tHS3) |
+| VNTANA B2B eCommerce OEMs | VNTANA B2B eCommerce OEMs | Industrial Pumps & Fluid Control, Heavy Equipment, Hydraulics & Pneumatics, Engines and Power Transmission Equipment Manufacturing, Electric Power Transmission, Control and Distribution, Industrial Tools, Process Equipment, Construction Equipment, Construction Hardware Manufacturing | ready | 1 | 99 | - |
+| VNTANA Aftermarket OEMs | VNTANA Aftermarket OEMs | Construction Equipment, Agricultural Machinery, Industrial Pumps & Valves, Heavy-duty Trucks, Communications Equipment Manufacturing, Mining Equipment, Material Handling, Industrial Automation, Agriculture, Construction, Mining Machinery Manufacturing, Retail Building Materials and Garden Equipment, Wholesale Building Materials | ready | 1 | 99 | - |
+
+## Sourced data in this repo
+
+- `sourcing/vntana_b2b_ecommerce_oems.csv` — 99 companies from **VNTANA B2B eCommerce OEMs** (config `ce119be1-eb15-4eaa-b01d-3d8570c7ebda`)
+- `sourcing/vntana_aftermarket_oems.csv` — 99 companies from **VNTANA Aftermarket OEMs** (config `4cf01c51-4158-4108-aada-9fddc6ef5a48`)
+
