@@ -19,5 +19,5 @@
 
 ## Sourced data in this repo
 
-- `sourcing/epic_special_ed_education_job_scraper.csv` — 170 companies from **Education - Job Scraper Static** (config `24ef6166-a3e7-4c84-8eac-701ef5785145`)
+- `sourcing/education-job-scraper-static/2026-09-10-companies.csv` — 170 companies from **Education - Job Scraper Static** (config `24ef6166-a3e7-4c84-8eac-701ef5785145`)
 

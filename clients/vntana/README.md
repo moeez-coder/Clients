@@ -23,6 +23,6 @@
 
 ## Sourced data in this repo
 
-- `sourcing/vntana_b2b_ecommerce_oems.csv` — 99 companies from **VNTANA B2B eCommerce OEMs** (config `ce119be1-eb15-4eaa-b01d-3d8570c7ebda`)
-- `sourcing/vntana_aftermarket_oems.csv` — 99 companies from **VNTANA Aftermarket OEMs** (config `4cf01c51-4158-4108-aada-9fddc6ef5a48`)
+- `sourcing/b2b-ecommerce-oems/2026-09-10-companies.csv` — 99 companies from **VNTANA B2B eCommerce OEMs** (config `ce119be1-eb15-4eaa-b01d-3d8570c7ebda`)
+- `sourcing/aftermarket-oems/2026-09-10-companies.csv` — 99 companies from **VNTANA Aftermarket OEMs** (config `4cf01c51-4158-4108-aada-9fddc6ef5a48`)
 

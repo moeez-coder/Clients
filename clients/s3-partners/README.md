@@ -21,5 +21,5 @@
 
 ## Sourced data in this repo
 
-- `sourcing/s3_partners_short_side_blind_spot_salesnav.csv` — 7 companies from **Short-Side Blind Spot (Long/Short Equity Hedge Funds) - Sales Nav - static** (config `ccdd21a0-6b77-4dbe-9686-27aab6d8a8c2`)
+- `sourcing/short-side-blind-spot-salesnav/2026-09-10-companies.csv` — 7 companies from **Short-Side Blind Spot (Long/Short Equity Hedge Funds) - Sales Nav - static** (config `ccdd21a0-6b77-4dbe-9686-27aab6d8a8c2`)
 
