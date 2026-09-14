@@ -20,17 +20,28 @@ context with each other.
 3. **Snapshots are append-only.** Never overwrite a dated `*-companies.csv` /
    `*-leads.csv` file. A new pull is a new dated file, even same-day (append
    `-2`, `-3`, ... on a second same-day pull).
-3a. **Anything pulled via an API lands in the repo, in a readily accessible
-   format.** If a session calls Blitz, AI Ark, Prospeo, or any other sourcing
-   API and gets back companies/people/enrichment results, that data does not
-   stay only in chat output, a temp file, or a third-party tool (Clay is the
-   exception — see below) — it gets written to
+3a. **Anything pulled via an API or Clay lands in the repo, in a readily
+   accessible format.** If a session calls Blitz, AI Ark, Prospeo, Clay
+   (`mcp__Clay__*`), or any other sourcing tool and gets back
+   companies/people/enrichment results, that data does not stay only in chat
+   output, a temp file, or the third-party tool's own UI — it gets written to
    `sourcing/<config-slug>/<date>-companies.csv` or `-leads.csv` (plain CSV,
    one row per record, header row with clear column names) so any future
-   session or human can open it directly, no API replay required. Results
-   that Clay itself enriches and stores can stay referenced by workbook link
-   instead of duplicated here, but a raw API pull done *in a session* is not
-   "stored" until it's a file in this repo.
+   session or human can open it directly, no API replay or Clay login
+   required. The Clay workbook link in the README stays as a pointer to where
+   the config lives and keeps growing/enriching — it is not a substitute for
+   the CSV export of what's in it as of the pull date. No sourcing tool gets
+   a free pass on this.
+3b. **Every prospect-level (`-leads.csv`) record is keyed by LinkedIn URL.**
+   The prospect's LinkedIn profile URL is the unique identifier across every
+   tool, snapshot, and session — not an internal ID from Blitz/AI Ark/Clay,
+   not email or name (both can collide or change). Every `-leads.csv` must
+   have a `linkedin_url` column (the full profile URL,
+   `https://www.linkedin.com/in/...`), and it should be the first column.
+   Use it to dedupe within and across snapshots for the same config, and to
+   cross-reference a prospect between a `-leads.csv` and its parent
+   `-companies.csv` row. (Companies already follow the equivalent pattern via
+   `company_linkedin_tag` / a standardised domain — keep using that.)
 4. **No silent blanks.** If a field has no value (no Clay workbook, no contact
    email), write `-` explicitly. An empty cell reads as "not checked yet"; a
    `-` reads as "checked, none exists."

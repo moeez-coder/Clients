@@ -26,9 +26,16 @@ is required, not optional.
 
 ## Sourced data in this repo
 
-<!-- One line per file under sourcing/. Update in the same commit that adds the file. -->
+<!--
+One line per file under sourcing/. Update in the same commit that adds the
+file. This includes Clay-sourced pulls, not just direct API calls — a Clay
+workbook link is a pointer to where the config lives, not a substitute for
+exporting what's in it. Every -leads.csv must have `linkedin_url` (the
+prospect's full LinkedIn profile URL) as its first column and unique key.
+-->
 
 - `sourcing/<config-slug>/<YYYY-MM-DD>-companies.csv` — <row count> companies from **<config name>** (config `<uuid>`), pulled via <tool + endpoint/subroutine>
+- `sourcing/<config-slug>/<YYYY-MM-DD>-leads.csv` — <row count> prospects from **<config name>** (config `<uuid>`), pulled via <tool + endpoint/subroutine>, keyed by `linkedin_url`
 
 ## History
 

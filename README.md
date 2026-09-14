@@ -46,9 +46,13 @@ silent blank field, no number that can't be traced back to a source, tool,
 date, and reason. The full standard — required README sections, the
 snapshot/commit workflow, and cross-referencing rules — lives in
 `/CLAUDE.md` at the repo root so it's loaded automatically by every session
-working here. Any data pulled live from a sourcing API must be written into
-this repo as a CSV snapshot (not left only in chat output or a temp file) —
-see "Anything pulled via an API lands in the repo" in `/CLAUDE.md`.
+working here. Any data pulled live from a sourcing API **or from Clay** must
+be written into this repo as a CSV snapshot (not left only in chat output, a
+temp file, or Clay's own UI) — see "Anything pulled via an API or Clay lands
+in the repo" in `/CLAUDE.md`. Every prospect-level CSV is keyed by
+**LinkedIn URL** (`linkedin_url` column) as the unique identifier per
+prospect — see "Every prospect-level record is keyed by LinkedIn URL" in
+`/CLAUDE.md`.
 
 ## Source of truth
 
