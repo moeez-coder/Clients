@@ -142,6 +142,10 @@ and campaign work gets scoped and recorded:
      and deliberately not final: improve it as real runs surface what
      actually works, the same way this repo's own standards evolve.
 
+The skill roster for this workflow is expected to keep growing — don't treat
+the list above as fixed. Check what's actually available (the skills listing
+surfaced to the session) rather than assuming only these exist.
+
 ## Required sections in every `clients/<slug>/README.md`
 
 Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
@@ -149,7 +153,10 @@ Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
 - **Profile** — as today, plus a `**Last synced:**` line (date + which MCP
   calls confirmed it, e.g. `2026-09-14 via get_client + list_sourcing_configs`).
 - **Sourcing configs** table — mirrored verbatim from `tracking_clients` at
-  sync time. Don't hand-adjust `company_count`; re-sync instead.
+  sync time, plus a **Scope** column (`General` or `Campaign-specific: <name>`)
+  that isn't in `tracking_clients` — set it from the scope decision made
+  before that config's data was pulled (see "Sourcing protocol" below). Don't
+  hand-adjust `company_count`; re-sync instead.
 - **Sourced data in this repo** — one line per snapshot file already in this
   folder's `sourcing/` tree: file path, row count, config name **and its
   tracking_clients UUID**, the tool that produced it, and the pull date (the
@@ -261,6 +268,37 @@ No delete-campaign tool exists — only pause; a wrongly-created campaign gets
 paused and flagged for manual deletion in the UI. `delete_webhook` requires
 deactivating it first (`update_webhook`, `isActive: false`).
 
+## Sourcing protocol — tool order, scope, and what to pull
+
+- **Tool priority is cost order — cheapest first, escalate only when needed.**
+  For any sourcing pull, try tools in this order and move to the next only
+  when the current one can't cover what's needed (missing companies/people,
+  weak match quality, no LinkedIn found) — don't reach for a pricier tool by
+  default just because it's more capable:
+  1. **Clay** (`mcp__Clay__*`)
+  2. **Blitz API**
+  3. **Prospeo API**
+  4. **AI Ark API**
+  Check "Sourcing tools" below for whether a given tool is actually live in
+  *this* session before planning to use it.
+- **LinkedIn is the only identifier we need — don't spend on email
+  enrichment.** A sourcing pull only needs each prospect's `linkedin_url`
+  (and each company's `company_linkedin_tag`/domain) — skip any step that
+  enriches for email unless a specific campaign explicitly requires outbound
+  email. This keeps cost down and matches LinkedIn URL already being the
+  required unique key for prospect records (see 3b above).
+- **Two sourcing scopes exist — ask which one before pulling, don't infer
+  it:**
+  - **General** — a larger, broader audience for the client, not tied to any
+    one campaign's exact requirements.
+  - **Specific** — narrower, built to one campaign's exact targeting
+    criteria, pulled only when that particular campaign actually needs it.
+  - Default posture is to **ask the user which scope they want** before
+    starting a pull. Once decided, record it — in the config's row/History
+    entry, e.g. "General" or "Campaign-specific: `<campaign name>`" — so a
+    future session understands why that pull's breadth was chosen without
+    having to ask again.
+
 ## Sourcing tools — check status before assuming a tool is live
 
 Confirm the relevant API key is actually present in *this* session's
@@ -269,16 +307,16 @@ environments are fixed at provisioning, so a key added to the environment
 config after a session started won't appear until a fresh session is spun up.
 As of the last check (2026-09-14):
 
+- **Clay** — `mcp__Clay__*` tools, live.
 - **Blitz API** — confirmed live (`BLITZ_API_KEY` present). Call directly over
   HTTPS; the `Blitz-API` MCP tool only searches Blitz's own docs, it does not
   proxy live requests.
-- **AI Ark API** — confirmed live (`AIARK_API_KEY` present). No MCP tool at
-  all for this one (not even docs) — call directly. Rate limit 5 req/s.
 - **Prospeo API** — key reported added to the cloud environment but not yet
   visible in a session's env as of 2026-09-14; re-check
   (`env | grep -i PROSPEO`) before relying on it, and update this file plus
   the root `README.md` once confirmed.
-- **Clay** — `mcp__Clay__*` tools, live.
+- **AI Ark API** — confirmed live (`AIARK_API_KEY` present). No MCP tool at
+  all for this one (not even docs) — call directly. Rate limit 5 req/s.
 - Any config brief mentioning DiscoLike, EXA, or Sales Navigator names a tool
   not wired into these sessions — run those steps wherever they *are*
   connected and bring the resulting export back here, cited the same way.

@@ -20,9 +20,16 @@ is required, not optional.
 
 ## Sourcing configs
 
-| Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
-|---|---|---|---|---|---|---|
-| <config name> | <icp> | <market> | <draft/ready/...> | <n> | <n> | [link](<url>) or `-` |
+<!--
+Scope: "General" (broader audience, not tied to one campaign) or
+"Campaign-specific: <campaign name>" (narrow, built to that campaign's exact
+targeting). Ask the user which scope is wanted before pulling data for a new
+config — don't infer it. See "Sourcing protocol" in /CLAUDE.md.
+-->
+
+| Config | ICP | Market | Scope | Status | Campaigns | Companies sourced | Clay workbook |
+|---|---|---|---|---|---|---|---|
+| <config name> | <icp> | <market> | <General / Campaign-specific: name> | <draft/ready/...> | <n> | <n> | [link](<url>) or `-` |
 
 ## Sourced data in this repo
 
