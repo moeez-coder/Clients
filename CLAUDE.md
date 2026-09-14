@@ -105,6 +105,43 @@ conversation.
 5. **Commits are the audit log.** Write them to be read later, out of context,
    by someone who wasn't in this session.
 
+## Campaign build standard per client
+
+Clients aren't one ICP. Most have several segments in play at once, and this
+agency reaches out across every segment worth pursuing for a client — not
+just whichever one happened to get sourced first. That shapes how sourcing
+and campaign work gets scoped and recorded:
+
+- **Segment = sourcing config.** Each `sourcing/<config-slug>/` folder is one
+  segment. A brand-new config-slug appearing means a new segment is being
+  opened up; a new dated CSV inside an *existing* config-slug means that
+  segment is being expanded or refreshed. Say explicitly which one it is in
+  the pull's History entry ("new segment" vs "expanding existing segment") —
+  that distinction is exactly the kind of thing this repo exists to keep
+  visible instead of buried in someone's memory of a session.
+- **Outreach depth follows TAM/SAM, inversely.** When deciding how many
+  contacts to pull per company for a segment: a **small** TAM/SAM (few
+  target companies in the segment) means reach out to **more** people at
+  each one; a **large** TAM/SAM (many target companies) means reach out to
+  **fewer** people at each one. Record the TAM/SAM read and the per-company
+  contact count that decision produced in the pull's History entry or its
+  `.query.md` file — that number should never show up unexplained.
+- **The full build for a client/segment has three parts**, and all three
+  should end up traceable in this repo, not just remembered:
+  1. **Implement the campaign(s) already defined for the client in
+     `tracking_clients`.** That MCP server holds the client's actual
+     configured campaign/sequence per segment (`get_campaign`,
+     `get_campaign_sequence`) — build it out for real wherever it needs to
+     run (HeyReach, Clay, etc.), don't leave it sitting as tracked metadata
+     only.
+  2. **Run the HeyReach Vertical Launch structure** (4 campaigns + 2
+     webhooks) per segment/vertical — condensed steps further below so this
+     doesn't require re-invoking the skill just to recall them.
+  3. **Run a Casual Connections campaign on behalf of the client** — see the
+     `anthropic-skills:casual-connections-campaign` skill. This one is new
+     and deliberately not final: improve it as real runs surface what
+     actually works, the same way this repo's own standards evolve.
+
 ## Required sections in every `clients/<slug>/README.md`
 
 Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
@@ -158,6 +195,71 @@ For non-snapshot changes (profile resync, config edit), drop the row count:
   Clay subroutine).
 - Always link the Clay workbook when one exists; write `-` when it doesn't —
   never leave the cell blank.
+
+## HeyReach Vertical Launch — condensed reference
+
+Full skill: `anthropic-skills:heyreach-vertical-launch`. Condensed here so a
+session doesn't have to re-invoke the skill just to recall the steps — if
+anything here looks like it's drifted from the actual skill, re-read the
+skill before relying on this section.
+
+**4 campaign types, in dependency order:**
+
+| # | Type | Sequence | Feeds |
+|---|---|---|---|
+| 1 | Con Req | single `CONNECTION_REQUEST`, withdraws unaccepted after 25 days | fires `CONNECTION_REQUEST_ACCEPTED` — this is what the **Acc webhook** scopes to |
+| 2 | Con Acc | 3-message `MESSAGE` sequence (`{message1}`/`{message2}`/`{message3}`, 3-day then 1-day delays) | terminal — receives leads from Clay once accepted, no webhook |
+| 3 | Open Check | `CHECK_IS_OPEN_PROFILE` → `VIEW_PROFILE` | fires `VIEWED_PROFILE` — this is what the **Open webhook** scopes to |
+| 4 | Open Profile | single `INMAIL` (`{subject}`/`{inmail}`) | terminal — receives leads from Clay once confirmed open-profile, no webhook |
+
+**The trap:** each webhook scopes to the *check/request* campaign, not the
+*message-sending* campaign whose name matches the event — Acc webhook → Con
+Req campaign; Open webhook → Open Check campaign. Getting this backwards is
+a real bug that has happened (Vertical 3).
+
+**Default templates to clone** (Vertical 1's canonical campaigns, unless
+told to clone from a different vertical): Con Req `567452`, Con Acc
+`554375`, Open Check `567476`, Open Profile `557771`.
+
+**Naming:** `{Region} | {Type} | Vertical {N} |Moe {version}`, applied to
+both the campaign and its dedicated list. One list per campaign type — never
+shared across types, never reused from another vertical.
+
+**Steps:**
+
+0. **Gather inputs — ask, don't guess:** vertical id + region prefix,
+   version label, sender pool (LinkedIn account IDs), and both Clay webhook
+   URLs (Connection Accepted, Open Profile/Viewed Profile).
+1. **Create 4 lists** (`create_empty_list`, `USER_LIST`), one per type,
+   named per convention.
+2. **Create 4 campaigns** (`create_campaign_from_template`) — first 100
+   sender IDs from the pool go to every campaign (hard API cap, confirmed no
+   workaround; anything beyond 100 gets added manually in the UI
+   afterward). Verify each cloned sequence immediately with
+   `get_campaign_sequence`.
+3. **For Con Req and Open Check only:** `start_campaign` then immediately
+   `pause_campaign`, and confirm `startedAt` is non-null via `get_campaign`.
+   This is the only way to make a DRAFT campaign webhook-eligible —
+   `create_webhook` 404s on a campaign that's never been started. Con
+   Acc/Open Profile stay in DRAFT; they don't need this. A campaign's list
+   can't be changed once it's ever been started (even paused, even empty) —
+   the list must be right *before* this step. A `500` from `start_campaign`
+   is a known transient platform issue: retry once, and if it still fails,
+   tell the user to start that one manually in the UI and continue with
+   whatever else can be completed rather than blocking the whole build.
+4. **Create 2 webhooks** (`create_webhook`): Acc webhook
+   (`CONNECTION_REQUEST_ACCEPTED`) scoped to Con Req's campaign ID; Open
+   webhook (`VIEWED_PROFILE`) scoped to Open Check's campaign ID. Verify each
+   immediately with `get_webhook_by_id` — this is exactly where the
+   Vertical 3 bug slipped through.
+5. **Report back:** all 4 campaigns (id/name/list/sender count/sequence
+   verified), both webhooks (id/event/scoped campaign/active), and anything
+   incomplete (senders beyond 100 to add manually, a campaign stuck in
+   DRAFT pending manual start, a webhook not yet attached).
+
+No delete-campaign tool exists — only pause; a wrongly-created campaign gets
+paused and flagged for manual deletion in the UI. `delete_webhook` requires
+deactivating it first (`update_webhook`, `isActive: false`).
 
 ## Sourcing tools — check status before assuming a tool is live
 
