@@ -8,6 +8,63 @@ file, number, and folder must be traceable to a source, a date, and a reason.
 These rules exist so that traceability survives across sessions that don't share
 context with each other.
 
+This file is auto-loaded as project instructions in every session opened
+against this repo — you are reading it because the harness put it in front of
+you before your first action, not because you went looking for it. Treat it
+that way: nothing below is optional context, it overrides default behavior.
+
+## Initialization protocol — when a session starts
+
+The repo owner's normal way of starting a per-client session is a single
+line like *"this session is for `<client>`"* — no other setup. Treat that
+line as the initialization directive and, before doing anything else the
+message asks for:
+
+1. Resolve `<client>` to its folder slug under `clients/`. If it doesn't
+   exist yet, create it from `clients/_TEMPLATE/README.md` — don't invent an
+   ad hoc structure.
+2. Resync that client's Profile and Sourcing-configs table from
+   `tracking_clients` (`get_client`, `list_sourcing_configs`) immediately —
+   before reading further into whatever else the message asks, since
+   everything after depends on this being current.
+3. Read the client's existing **History** section for prior reasoning/context
+   left by earlier sessions — don't re-derive decisions that are already on
+   record.
+4. Scope all work for the rest of the session to `clients/<slug>/` unless the
+   user explicitly asks for something repo-wide.
+5. Confirm back in one line what client/config you're now scoped to before
+   moving on, so drift between what the user meant and what got loaded shows
+   up immediately instead of at the end of a session.
+
+If a session is *not* told a specific client (e.g. this is the orchestrator
+doing repo-wide maintenance), this protocol doesn't apply — go straight to
+"Session responsibilities" below instead.
+
+## System-level change control
+
+"The overall system" means anything that governs *every* client, not just
+one: this file (`CLAUDE.md`), the root `README.md`, `clients/_TEMPLATE/**`,
+and `.claude/**` (hooks/settings). These are load-bearing for every session
+that will ever run here, including ones with no shared memory of this
+conversation.
+
+- **Any change to these requires the repo owner's explicit approval, given
+  in that session's own conversation, before the change is made.** A broad
+  standing instruction, an inferred preference, or Auto Mode's normal bias
+  toward not stopping to ask does **not** count — this is the deliberate
+  exception to that bias. Propose the change and stop; don't edit or commit
+  it on your own judgment, even if it looks like a small fix or an obvious
+  improvement to the standard.
+- This applies regardless of which session notices the gap — a per-client
+  session that spots a hole in the standard should raise it to the user and
+  keep working its own client folder, not patch the system files itself.
+- It does **not** apply to anything under `clients/<slug>/**` for the client
+  a session is actually scoped to — maintaining that, per the standard
+  below, is routine work and needs no special sign-off. It also doesn't
+  apply when the user's own message in the current conversation *is* the
+  request to change a system file (as with the standards this file already
+  documents) — that message is the explicit approval.
+
 ## Golden rules
 
 1. **`tracking_clients` MCP is the source of truth**, not this repo. Never
@@ -126,12 +183,17 @@ As of the last check (2026-09-14):
 
 ## Session responsibilities
 
-**Any session working a specific client**, at the start: read that client's
-`README.md`, diff it against `tracking_clients` (`get_client`,
-`list_sourcing_configs`, `get_sourcing_companies`/`get_sourcing_leads`), and
-resync if it's drifted. At the end: every new file is referenced in the
-README, every change has a History entry, everything is committed — don't
-leave the working tree holding undocumented work.
+**Any session working a specific client**, at the start: follow the
+Initialization protocol above, then diff the client's `README.md` against
+`tracking_clients` (`get_client`, `list_sourcing_configs`,
+`get_sourcing_companies`/`get_sourcing_leads`) and resync if it's drifted.
+**During the session, not just at the end:** re-check each rule above before
+every commit, not only once at wrap-up — a session that pulls three
+snapshots should document and commit each one against this standard as it
+goes, not batch the documentation into one pass at the end where something
+gets missed. At the end: every new file is referenced in the README, every
+change has a History entry, everything is committed — don't leave the
+working tree holding undocumented work.
 
 **This orchestrator session's ongoing job**: periodically audit that every
 client folder still matches this standard — README present with all four
