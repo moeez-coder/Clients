@@ -224,6 +224,14 @@ skill before relying on this section.
 Req campaign; Open webhook → Open Check campaign. Getting this backwards is
 a real bug that has happened (Vertical 3).
 
+**Open Check needs senders with active Sales Navigator.** `CHECK_IS_OPEN_PROFILE`
+only works from a LinkedIn account that has an active Sales Nav seat —
+assign a sender pool without one to Open Check and the campaign won't launch
+out of DRAFT (Step 3's start-then-pause fails). Confirm Sales Nav status for
+the sender pool at Step 0, before Step 2 assigns senders — if the pool
+lacks Sales Nav coverage, flag it and ask rather than assigning senders that
+will make Open Check un-launchable.
+
 **Default templates to clone** (Vertical 1's canonical campaigns, unless
 told to clone from a different vertical): Con Req `567452`, Con Acc
 `554375`, Open Check `567476`, Open Profile `557771`.
@@ -235,15 +243,18 @@ shared across types, never reused from another vertical.
 **Steps:**
 
 0. **Gather inputs — ask, don't guess:** vertical id + region prefix,
-   version label, sender pool (LinkedIn account IDs), and both Clay webhook
-   URLs (Connection Accepted, Open Profile/Viewed Profile).
+   version label, sender pool (LinkedIn account IDs) **with each account's
+   Sales Navigator status confirmed**, and both Clay webhook URLs (Connection
+   Accepted, Open Profile/Viewed Profile).
 1. **Create 4 lists** (`create_empty_list`, `USER_LIST`), one per type,
    named per convention.
 2. **Create 4 campaigns** (`create_campaign_from_template`) — first 100
    sender IDs from the pool go to every campaign (hard API cap, confirmed no
    workaround; anything beyond 100 gets added manually in the UI
-   afterward). Verify each cloned sequence immediately with
-   `get_campaign_sequence`.
+   afterward). **Open Check gets only senders with active Sales Navigator**
+   (see above) — don't assign it the same unfiltered pool as the other
+   three if the pool includes non-Sales-Nav accounts. Verify each cloned
+   sequence immediately with `get_campaign_sequence`.
 3. **For Con Req and Open Check only:** `start_campaign` then immediately
    `pause_campaign`, and confirm `startedAt` is non-null via `get_campaign`.
    This is the only way to make a DRAFT campaign webhook-eligible —
