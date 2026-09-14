@@ -22,10 +22,17 @@
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
 | Retail - Custom | Retail | Retail, Restaurants & Food Service, Food & Beverage, Retail Groceries, Hospitality | draft | 1 | 0 | - |
-| US & Canada chains (501+) with older-gen payment terminals: PCI/terminal upgrade job posts, PCI fine history, or no refresh in 4+ years | US & Canada Multi-Location Retail, Restaurant & Hospitality Chains - 501+, aging payment terminal fleets | US & Canada multi-location retail, restaurant, and hospitality chains running aging payment terminal fleets | draft | 1 | 0 | - |
+| US & Canada chains (501+) with older-gen payment terminals: PCI/terminal upgrade job posts, PCI fine history, or no refresh in 4+ years | US & Canada Multi-Location Retail, Restaurant & Hospitality Chains - 501+, aging payment terminal fleets | US & Canada multi-location retail, restaurant, and hospitality chains running aging payment terminal fleets | draft | 1 | 4,377 (this repo, via Blitz + AI Ark) | - |
 | US & Canada chains (501+) announcing POS/self-checkout refresh, new store rollout or POS platform switch (1-4mo) | US & Canada Multi-Location Retail, Restaurant & Hospitality Chains - 501+, POS/self-checkout refresh underway | US & Canada multi-location retail, restaurant, and hospitality chains going through a POS or self-checkout hardware refresh | draft | 1 | 0 | - |
 
-All three sourcing configs are `draft` with 0 companies landed yet — nothing to pull into `sourcing/` for this repo until a config moves to `ready` and gets run.
+The other two sourcing configs are still `draft` with 0 companies landed — nothing to pull into `sourcing/` for those until they move to `ready` and get run.
+
+## Sourced data in this repo
+
+- `sourcing/aging-payment-terminal-fleets/2026-09-14-companies.csv` — **4,377 unique companies** for **US & Canada chains (501+) with older-gen payment terminals** (config `da5c381f-a917-481e-882b-7b250527bc54`, the segment behind **The PCI Time Bomb**, the one campaign currently in `implementing`), sourced against the segment's own filters (US/Canada HQ, 501+ employees, $20M+ revenue, industries Retail/Restaurants/Food and Beverage Services/Supermarkets/Hospitality) via two tools, concatenated and deduplicated by domain/LinkedIn URL:
+  - **Blitz API** `/v2/search/companies` — 2,222 total matches (full pull, 89 pages).
+  - **AI Ark** `/v1/companies` — 3,278 total matches (full pull, 33 pages). Note: Clay's bulk company-search/Audiences feature is not enabled for this workspace, so Clay could not be used as a third bulk source — only its single-entity enrichment subroutines are available here.
+  - 859 companies appeared in both sources (cross-validating the match); 1,248 were Blitz-only and 2,270 were AI Ark-only, for **4,377 unique companies total** — this is the addressable segment size before the ICP's behavioral/temporal signals (PCI compliance hiring, hardware-refresh age, breach history) are applied to qualify individual accounts.
 
 ## ICP notes
 
