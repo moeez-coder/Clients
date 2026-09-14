@@ -1,0 +1,128 @@
+# Repository standards (read this before touching anything here)
+
+This repo is Algo Acquisition's sourcing-data working layer (see `README.md` for
+the structure). It is worked on by many separate sessions over time — usually
+one session per client, sometimes an orchestrator session like this one doing
+maintenance across all clients. Nothing here should ever be "in the air": every
+file, number, and folder must be traceable to a source, a date, and a reason.
+These rules exist so that traceability survives across sessions that don't share
+context with each other.
+
+## Golden rules
+
+1. **`tracking_clients` MCP is the source of truth**, not this repo. Never
+   hand-edit a client's Profile or Sourcing-configs table without first
+   re-pulling it (`get_client`, `list_sourcing_configs`) — this repo's copy can
+   drift, the MCP server can't.
+2. **Every artifact is traceable.** A CSV snapshot, a README edit, a config
+   change — each must show *what* produced it, *when*, with *what tool/query*,
+   and *why*. If you can't answer all four, don't commit it yet.
+3. **Snapshots are append-only.** Never overwrite a dated `*-companies.csv` /
+   `*-leads.csv` file. A new pull is a new dated file, even same-day (append
+   `-2`, `-3`, ... on a second same-day pull).
+3a. **Anything pulled via an API lands in the repo, in a readily accessible
+   format.** If a session calls Blitz, AI Ark, Prospeo, or any other sourcing
+   API and gets back companies/people/enrichment results, that data does not
+   stay only in chat output, a temp file, or a third-party tool (Clay is the
+   exception — see below) — it gets written to
+   `sourcing/<config-slug>/<date>-companies.csv` or `-leads.csv` (plain CSV,
+   one row per record, header row with clear column names) so any future
+   session or human can open it directly, no API replay required. Results
+   that Clay itself enriches and stores can stay referenced by workbook link
+   instead of duplicated here, but a raw API pull done *in a session* is not
+   "stored" until it's a file in this repo.
+4. **No silent blanks.** If a field has no value (no Clay workbook, no contact
+   email), write `-` explicitly. An empty cell reads as "not checked yet"; a
+   `-` reads as "checked, none exists."
+5. **Commits are the audit log.** Write them to be read later, out of context,
+   by someone who wasn't in this session.
+
+## Required sections in every `clients/<slug>/README.md`
+
+Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
+
+- **Profile** — as today, plus a `**Last synced:**` line (date + which MCP
+  calls confirmed it, e.g. `2026-09-14 via get_client + list_sourcing_configs`).
+- **Sourcing configs** table — mirrored verbatim from `tracking_clients` at
+  sync time. Don't hand-adjust `company_count`; re-sync instead.
+- **Sourced data in this repo** — one line per snapshot file already in this
+  folder's `sourcing/` tree: file path, row count, config name **and its
+  tracking_clients UUID**, the tool that produced it, and the pull date (the
+  filename already carries the date, but call it out in prose too since this
+  section is the audit index humans and future sessions scan first).
+- **History** — reverse-chronological log. One entry per meaningful change to
+  this folder: date, what happened, why (one sentence), and what
+  session/commit did it. This is the "reasoning" record — the *why*, not just
+  the *what* the diff already shows.
+
+## Every time you add a sourcing snapshot
+
+1. Pull the data with the tool the config calls for (see "Sourcing tools"
+   below) — record the exact query/filters used.
+2. Save the CSV as `sourcing/<config-slug>/<YYYY-MM-DD>-companies.csv` (or
+   `-leads.csv`). Never overwrite an existing dated file.
+3. If the query had more than a trivial filter or two, save it next to the CSV
+   as `<YYYY-MM-DD>-companies.query.md` (or `.json`) — a one-time chat
+   explanation is not a durable record; a future session re-reading this repo
+   needs the query on disk to reproduce or extend the pull.
+4. Update the client's README **in the same commit**: add the row to "Sourced
+   data in this repo" and a "History" entry stating tool, row count, and the
+   purpose (which ICP/segment/campaign this feeds).
+5. Commit with the convention below.
+
+## Commit message convention
+
+```
+<client-slug>: <action> — <config-slug> (<tool>, <row-count> rows)
+```
+Example: `s3-partners: add 2026-09-14 companies snapshot — short-side-blind-spot-salesnav (Blitz API, 42 companies)`
+
+For non-snapshot changes (profile resync, config edit), drop the row count:
+`vntana: resync profile + sourcing configs from tracking_clients`
+
+## Cross-referencing rules
+
+- Always give both the human name and the `tracking_clients` UUID for a
+  client or config, at least once in the README (the table can use names
+  only; the "Sourced data" and "History" sections must carry the UUID).
+- Always name the source tool and, where relevant, the exact endpoint (e.g.
+  `Blitz API /v2/search/companies`, `AI Ark API POST /v1/companies`, a named
+  Clay subroutine).
+- Always link the Clay workbook when one exists; write `-` when it doesn't —
+  never leave the cell blank.
+
+## Sourcing tools — check status before assuming a tool is live
+
+Confirm the relevant API key is actually present in *this* session's
+environment before using a tool (`env | grep -i <NAME>_API_KEY`) — session
+environments are fixed at provisioning, so a key added to the environment
+config after a session started won't appear until a fresh session is spun up.
+As of the last check (2026-09-14):
+
+- **Blitz API** — confirmed live (`BLITZ_API_KEY` present). Call directly over
+  HTTPS; the `Blitz-API` MCP tool only searches Blitz's own docs, it does not
+  proxy live requests.
+- **AI Ark API** — confirmed live (`AIARK_API_KEY` present). No MCP tool at
+  all for this one (not even docs) — call directly. Rate limit 5 req/s.
+- **Prospeo API** — key reported added to the cloud environment but not yet
+  visible in a session's env as of 2026-09-14; re-check
+  (`env | grep -i PROSPEO`) before relying on it, and update this file plus
+  the root `README.md` once confirmed.
+- **Clay** — `mcp__Clay__*` tools, live.
+- Any config brief mentioning DiscoLike, EXA, or Sales Navigator names a tool
+  not wired into these sessions — run those steps wherever they *are*
+  connected and bring the resulting export back here, cited the same way.
+
+## Session responsibilities
+
+**Any session working a specific client**, at the start: read that client's
+`README.md`, diff it against `tracking_clients` (`get_client`,
+`list_sourcing_configs`, `get_sourcing_companies`/`get_sourcing_leads`), and
+resync if it's drifted. At the end: every new file is referenced in the
+README, every change has a History entry, everything is committed — don't
+leave the working tree holding undocumented work.
+
+**This orchestrator session's ongoing job**: periodically audit that every
+client folder still matches this standard — README present with all four
+sections, every CSV referenced, no unexplained drift from `tracking_clients` —
+and fix or flag anything that slipped through a per-client session.
