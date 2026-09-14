@@ -119,13 +119,18 @@ and campaign work gets scoped and recorded:
   the pull's History entry ("new segment" vs "expanding existing segment") —
   that distinction is exactly the kind of thing this repo exists to keep
   visible instead of buried in someone's memory of a session.
-- **Outreach depth follows TAM/SAM, inversely.** When deciding how many
-  contacts to pull per company for a segment: a **small** TAM/SAM (few
-  target companies in the segment) means reach out to **more** people at
-  each one; a **large** TAM/SAM (many target companies) means reach out to
-  **fewer** people at each one. Record the TAM/SAM read and the per-company
-  contact count that decision produced in the pull's History entry or its
-  `.query.md` file — that number should never show up unexplained.
+- **Outreach depth *per company* follows TAM/SAM, inversely — but total
+  volume is never the thing being cut.** When deciding how many contacts to
+  pull per company for a segment: a **small** TAM/SAM (few target companies
+  in the segment) means reach out to **more** people at each one; a
+  **large** TAM/SAM (many target companies) means reach out to **fewer**
+  people at each one, because there are more companies to spread across, not
+  because the segment should be pursued more conservatively overall. **We
+  always want more people reached, not less** — when genuinely unsure how
+  many contacts to pull, per company or in total, err toward more. Record
+  the TAM/SAM read and the per-company contact count that decision produced
+  in the pull's History entry or its `.query.md` file — that number should
+  never show up unexplained.
 - **The full build for a client/segment has three parts**, and all three
   should end up traceable in this repo, not just remembered:
   1. **Implement the campaign(s) already defined for the client in
