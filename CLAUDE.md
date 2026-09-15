@@ -352,9 +352,22 @@ As of the last check (2026-09-14):
   the root `README.md` once confirmed.
 - **AI Ark API** — confirmed live (`AIARK_API_KEY` present). No MCP tool at
   all for this one (not even docs) — call directly. Rate limit 5 req/s.
-- Any config brief mentioning DiscoLike, EXA, or Sales Navigator names a tool
-  not wired into these sessions — run those steps wherever they *are*
-  connected and bring the resulting export back here, cited the same way.
+- **Exa** (`EXA_API_KEY`) — confirmed live as of 2026-09-15 (`POST
+  https://api.exa.ai/search`, `x-api-key` header, returned real results).
+  This is a web-search API, not a people/company database — treat it as a
+  research/signal tool (e.g. "why now" triggers, company news) alongside the
+  sourcing tools above, not a substitute for them in the cost-priority list.
+- **ColdIQ** (`COLDIQ_API_KEY`) — confirmed live as of 2026-09-15 (`POST
+  https://api.coldiq.com/v1/apollo/people/search`, `Authorization: Bearer`
+  header, returned real preview results). A GTM-data gateway wrapping
+  several providers (Apollo, Hunter, RocketReach, Saleshandy, and others)
+  behind one API — functionally a sourcing tool like Clay/Blitz/Prospeo/AI
+  Ark. **Not yet placed in the cost-priority order in "Sourcing protocol"
+  above** — ask the user where it ranks before treating it as
+  default-preferred over any of those four.
+- Any config brief mentioning DiscoLike or Sales Navigator names a tool not
+  wired into these sessions; run those steps wherever they *are* connected
+  and bring the resulting export back here, cited the same way.
 
 ## Session responsibilities
 
