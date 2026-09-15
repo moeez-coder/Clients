@@ -1,5 +1,42 @@
 # VNTANA — ICP universe map (2026-09-15)
 
+> ## ⚠️ MAJOR CORRECTION — read this before §3/§5
+>
+> §3 and §5 sized these segments from Blitz and AI Ark and concluded the universe was
+> "genuinely niche" (~120 CNC companies, 414 across all seven at $100M+). **Ground truth
+> from the client says that undercounts badly.**
+>
+> The repo owner supplied VNTANA's own ICP verdicts on IMTS 2026 exhibitors: **250 marked
+> "ICP Yes" and 113 "Near-ICP"** — 363 fits from **one trade show**, against an API-derived
+> estimate of ~120 for the whole CNC/machine-tools segment. Every one of the 250 "Yes"
+> companies is $100M+ revenue; 104 are $500M+. The client draws their ICP line at ~$100M,
+> which does validate the revenue bar — but not the size of the pool.
+>
+> **Our sourcing had only 100 of those 250 (40%). We missed 142 client-confirmed fits**,
+> including FANUC, KUKA, Sandvik, Iscar, ZEISS, Keyence, Thermo Fisher, Nikon Metrology,
+> Stratasys, JTEKT, NSK, SICK, Weidmüller, Amada, Mitsubishi EDM, Okamoto and Tsugami.
+>
+> **Why we missed them** (diagnosed in Supabase against the enriched exhibitor list):
+> 1. **The 201+ employee floor is wrong for this market.** 27 of 41 missed US companies
+>    have <201 employees on LinkedIn because they are *US subsidiaries of large foreign
+>    parents* (Chiron America, Tsugami America, Star CNC, Hwacheon America…). The parent
+>    clears $100M+ easily; the US LinkedIn page does not clear 201 headcount. Filter on
+>    **revenue**, not headcount, or drop the floor to ~50 for subsidiary-heavy segments.
+> 2. **The 10-country geography is wrong for machine tools.** Missed companies sit in CH,
+>    ES, AT, JP, CN, IL, IN, IE — none of which were in our `US CA GB DE AU FR IT SE NL MX`
+>    set. Switzerland, Austria, Spain, Japan, Korea and Taiwan are core machine-tool
+>    countries and were excluded by construction.
+>
+> **Methodological conclusion: for niche industrial segments, trade-show exhibitor lists
+> and association member lists beat API taxonomy queries.** One exhibitor list produced 3×
+> the fits our best API query could find. Treat Blitz/AI Ark as *enrichment and
+> qualification* layers over an acquired list, not as the discovery layer. §3/§5 numbers
+> should be read as a floor on each segment, not a ceiling.
+>
+> Working data now lives in Supabase (`vntana-universe`, project `xjhkjkjdidixdhqysdth`),
+> table `public.companies` with `universe` and `addressable` views — 12,789 rows across
+> four sources. See §10.
+
 Reference doc, not a sourcing snapshot. Written to answer: *what industry taxonomy are we
 using, and how big is the universe for Physical AI / plumbing-HVAC small parts / CNC /
 off-highway, plus Bobcat- and Astec-lookalikes.* All counts are live Blitz
@@ -222,3 +259,52 @@ both are governed system files):
    truth and needs your sign-off.
 4. **Switch the size bar from headcount to `revenue.min`?** The ICP says $100M+ / $500M+
    preferred; the filter exists and we have never used it.
+
+## 10. Supabase working database
+
+Project **`vntana-universe`** (`xjhkjkjdidixdhqysdth`, us-east-1, free tier, $0/mo) in org
+`moeez-coder's Org`. Created 2026-09-15 as the working layer for universe refinement —
+the repo stays the audit trail, Supabase is where the set gets sliced and enriched.
+
+**`public.companies`** — 12,789 rows, one row per (company, source) observation:
+
+| source | rows | what it is |
+|---|---|---|
+| `repo_sourcing` | 10,388 | every company CSV in `clients/vntana/sourcing/**` |
+| `imts_exhibitor` | 1,738 | IMTS 2026 exhibitor list, enriched via Blitz (87% LinkedIn match, 85% employee count) |
+| `client_icp_verdict` | 363 | **VNTANA's own ICP verdicts** — 250 Yes / 113 Near-ICP, with revenue band, products and their `3D Model` demo-asset call |
+| `aiark_lookalike` | 300 | Bobcat/Astec lookalike peers from AI Ark |
+
+Refinement columns added in-database: `is_dnc` (VNTANA's `dncList`), `exclusion_reason`
+(dealer / rental / distributor / services / education-nonprofit / software-services /
+contractor — 421 rows flagged), `size_band`.
+
+Views: **`universe`** (11,949 — deduped on domain→linkedin→name, best source wins, client
+verdict ranked first) and **`addressable`** (10,692 — DNC-clean, no exclusion reason,
+201+ employees *or* unknown).
+
+RLS is enabled with no policies, and both views are `security_invoker` — nothing is
+readable through the anon/publishable key. Access is via the MCP server's privileged
+connection. Verified clean on the security advisor apart from the informational
+"RLS enabled, no policy" notice, which is the intended state for a private working table.
+
+**Caveat on `addressable`:** it still applies the 201+ headcount floor that the correction
+at the top of this document shows is wrong for subsidiary-heavy segments. Re-cut it on
+revenue once revenue coverage is filled in.
+
+## 11. Client's own segmentation (from their IMTS verdicts)
+
+Worth mirroring in how we build campaigns — this is VNTANA telling us how they see the
+market, including which 3D demo asset each group needs:
+
+| Client's group | Companies | `3D Model` they'd build |
+|---|---|---|
+| Machine Tools & Fabrication Machinery | 168 | CNC Machine |
+| Automation, Robotics & Material Handling | 58 | Robotic Arm |
+| Cutting Tools, Tooling & Workholding | 57 | "Small like Caplugs" |
+| Shop Support, Components & Consumables | 45 | mixed |
+| Metrology & Inspection | 35 | mixed |
+
+Note the middle row: **"Small like Caplugs"** is exactly the small-mechanical-parts
+catalogue motion — the client already thinks in that shape, which supports the
+plumbing/HVAC-parts segment thesis alongside Kohler and Taco Comfort as reference logos.
