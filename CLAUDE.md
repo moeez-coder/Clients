@@ -89,16 +89,30 @@ conversation.
    the config lives and keeps growing/enriching — it is not a substitute for
    the CSV export of what's in it as of the pull date. No sourcing tool gets
    a free pass on this.
-3b. **Every prospect-level (`-leads.csv`) record is keyed by LinkedIn URL.**
+3b. **Every prospect-level (`-leads.csv`) record is keyed by LinkedIn URL —
+   this is *why* every pull gets stored, not just a formatting rule.** The
+   whole point of 3a landing every pull on disk is to make deduplication
+   possible: without the file, there's nothing to check a new pull against.
    The prospect's LinkedIn profile URL is the unique identifier across every
-   tool, snapshot, and session — not an internal ID from Blitz/AI Ark/Clay,
-   not email or name (both can collide or change). Every `-leads.csv` must
-   have a `linkedin_url` column (the full profile URL,
-   `https://www.linkedin.com/in/...`), and it should be the first column.
-   Use it to dedupe within and across snapshots for the same config, and to
-   cross-reference a prospect between a `-leads.csv` and its parent
-   `-companies.csv` row. (Companies already follow the equivalent pattern via
-   `company_linkedin_tag` / a standardised domain — keep using that.)
+   tool, snapshot, config, and session for that client — not an internal ID
+   from Blitz/AI Ark/Clay/Prospeo, not email or name (both can collide or
+   change). Every `-leads.csv` must have a `linkedin_url` column (the full
+   profile URL, `https://www.linkedin.com/in/...`), and it should be the
+   first column. Use it to dedupe:
+   - within and across snapshots for the *same* config (a re-pull growing
+     the same segment),
+   - and **across a client's other configs/segments** too — since this
+     agency pursues every segment for a client (see "Campaign build
+     standard" below), the same prospect can legitimately surface in more
+     than one segment's pull, and it's worth knowing that rather than
+     discovering it downstream. Before or after a new `-leads.csv` lands,
+     check it against that client's other existing `-leads.csv` files for
+     `linkedin_url` overlap, and note anything meaningful in the pull's
+     History entry (e.g. "N of these also appear in `<other config-slug>`").
+   Also use `linkedin_url` to cross-reference a prospect between a
+   `-leads.csv` and its parent `-companies.csv` row. (Companies already
+   follow the equivalent pattern via `company_linkedin_tag` / a standardised
+   domain — keep using that, unchanged, for company-level dedup.)
 4. **No silent blanks.** If a field has no value (no Clay workbook, no contact
    email), write `-` explicitly. An empty cell reads as "not checked yet"; a
    `-` reads as "checked, none exists."
@@ -182,9 +196,14 @@ Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
    as `<YYYY-MM-DD>-companies.query.md` (or `.json`) — a one-time chat
    explanation is not a durable record; a future session re-reading this repo
    needs the query on disk to reproduce or extend the pull.
+3a. For a new `-leads.csv`: check its `linkedin_url` values against that
+   client's other existing `-leads.csv` files (this is the dedup this repo's
+   storage exists to enable — see 3b above). Note any overlap in the History
+   entry rather than silently dropping or silently keeping duplicates.
 4. Update the client's README **in the same commit**: add the row to "Sourced
-   data in this repo" and a "History" entry stating tool, row count, and the
-   purpose (which ICP/segment/campaign this feeds).
+   data in this repo" and a "History" entry stating tool, row count, the
+   purpose (which ICP/segment/campaign this feeds), and any cross-segment
+   overlap found in step 3a.
 5. Commit with the convention below.
 
 ## Commit message convention
