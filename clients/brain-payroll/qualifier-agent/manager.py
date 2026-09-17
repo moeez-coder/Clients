@@ -177,6 +177,19 @@ def cmd_shard(args):
             except Exception: pass
     if args.only_unresolved:
         ev=[e for e in ev if not any(p.get('payroll_mentioned') for p in e.get('pages',[]))]
+    if args.skip_adjudicated:
+        # Companies already carrying a verdict, so a re-shard (e.g. at a different
+        # --size) never sends the same company to a second sub-agent.
+        done=set()
+        if os.path.isdir(VERDICTS):
+            for fn in os.listdir(VERDICTS):
+                if not fn.endswith('.json'): continue
+                try: data=json.load(open(os.path.join(VERDICTS,fn)))
+                except Exception: continue
+                for v in (data if isinstance(data,list) else [data]):
+                    if v.get('company_linkedin_tag'): done.add(v['company_linkedin_tag'])
+        before=len(ev); ev=[e for e in ev if e['company_linkedin_tag'] not in done]
+        print(f'skipping {before-len(ev)} already-adjudicated companies')
     packs=[]
     for e in ev:
         u=uni.get(e['company_linkedin_tag'])
@@ -260,7 +273,10 @@ if __name__=='__main__':
                    help='re-queue rows whose previous attempt errored (not no-domain)')
     e.set_defaults(fn=cmd_evidence)
     s=sub.add_parser('shard'); s.add_argument('--size',type=int,default=60)
-    s.add_argument('--only-unresolved',action='store_true'); s.set_defaults(fn=cmd_shard)
+    s.add_argument('--only-unresolved',action='store_true')
+    s.add_argument('--skip-adjudicated',action='store_true',
+                   help='exclude companies that already have a verdict')
+    s.set_defaults(fn=cmd_shard)
     m=sub.add_parser('merge'); m.add_argument('--only-verdicts',action='store_true'); m.set_defaults(fn=cmd_merge)
     st=sub.add_parser('status'); st.set_defaults(fn=cmd_status)
     a=ap.parse_args(); a.fn(a)
