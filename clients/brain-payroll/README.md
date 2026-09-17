@@ -57,12 +57,43 @@ Config UUIDs (all module `custom`, granularity `company`, refresh `static`):
   wealth manager, foreign TLD). Kept as the audit trail behind the number above, so a future
   session can re-judge a rejection rule without re-running the whole harvest.
 
-No `-leads.csv` yet — this is a company-level universe only; no prospect-level pull has been
+- `sourcing/2026-09-17-combined-universe-leads.csv` — **2,056 decision-maker prospects**
+  across 1,270 companies, keyed by `linkedin_url` (first column, unique — 2,056 distinct
+  URLs for 2,056 rows). Pulled 2026-09-17 via **Prospeo** `POST /search-person`, two passes
+  over the company domains in batches of 50: payroll-title holders (`person_job_title`
+  CONTAINS "payroll") and practice leadership (managing partner, practice manager, MD, FD,
+  CFO, client services director, owner/founder). Contact depth follows the repo's inverse-TAM
+  rule — **2 per accountancy practice** (large segment), **4 per bureau/umbrella/recruitment-
+  umbrella** (small segment). Seniority gated to the brief's own list (C-Suite, Director,
+  Head, Manager, Partner, Founder/Owner, VP): Partner 749, Manager 586, Founder/Owner 302,
+  C-Suite 257, Director 102, Head 62. 83% carry a verified (masked) work email. Each row
+  carries its company's `company_verdict` from the qualifier agent so Clay can filter to
+  confirmed buyers.
+- `sourcing/2026-09-17-combined-universe-verdicts.csv` — per-company verdicts from the
+  qualifier agent (see `qualifier-agent/README.md`).
+
+Historical note: no `-leads.csv` existed — this is a company-level universe only; no prospect-level pull has been
 run for this client, so the `linkedin_url`-keyed leads standard does not apply to these files.
 Company rows follow the equivalent company pattern via `company_linkedin_tag` + `domain`.
 
 ## History
 
+- **2026-09-17** — Pulled the **decision-maker layer**: 2,056 prospects across 1,270
+  companies (`sourcing/2026-09-17-combined-universe-leads.csv`), keyed by `linkedin_url` per
+  the repo standard, via Prospeo `POST /search-person`. Two passes — payroll-title holders
+  and practice leadership — with contact depth set inversely to segment size as the campaign
+  standard requires. A first pass let through 210 people tagged `Entry` seniority (Payroll
+  Specialist, Clerk, Officer, Analyst); the brief bars junior roles outright and title-string
+  exclusions had missed those variants, so the gate now uses Prospeo's own seniority field
+  with the title list as backup. Two Prospeo findings recorded: `match_mode: CONTAINS` is
+  required for substring title matching (the default is exact, which silently returns
+  NO_RESULTS), and a company whose recorded domain was `linkedin.com` would have returned
+  **LinkedIn Corp employees** as its buying committee — Prospeo rejected the batch with
+  INVALID_FILTERS, which is how that defect surfaced. Also built `qualifier-agent/push_to_clay.py`
+  to push qualified companies and prospects to their Clay webhooks: one JSON object per
+  request as that source expects, rate-limited, with sent-state tracking because the webhook
+  source has **no upsert** and a re-run would duplicate every row. Session: client session
+  for brain-payroll.
 - **2026-09-17** — Added a **`description`** column to the universe CSV (2,467 of 2,492
   populated) and built the **qualifier agent** in `qualifier-agent/`. The agent exists to
   settle the open question the universe build left behind: 2,021 rows are `icp_confidence:
