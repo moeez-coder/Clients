@@ -80,7 +80,15 @@ def build_companies(verdicts=('QUALIFIED',)):
     return out
 
 def build_prospects():
-    return [dict(r) for r in csv.DictReader(open(PROSPECTS))]
+    """Never send a prospect whose company the qualifier agent disqualified. 237 went out
+    before qualification finished — including the co-founder of ANNA Money, which sells
+    payroll software. Those are listed in 2026-09-17-clay-suppression-list.csv for
+    removal on the Clay side; this filter stops it recurring."""
+    out=[]
+    for r in csv.DictReader(open(PROSPECTS)):
+        if r.get('company_verdict')=='DISQUALIFIED': continue
+        out.append(dict(r))
+    return out
 
 def main():
     ap=argparse.ArgumentParser()

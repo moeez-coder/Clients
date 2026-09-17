@@ -57,18 +57,20 @@ Config UUIDs (all module `custom`, granularity `company`, refresh `static`):
   wealth manager, foreign TLD). Kept as the audit trail behind the number above, so a future
   session can re-judge a rejection rule without re-running the whole harvest.
 
-- `sourcing/2026-09-17-combined-universe-leads.csv` — **2,056 decision-maker prospects**
-  across 1,270 companies, keyed by `linkedin_url` (first column, unique — 2,056 distinct
-  URLs for 2,056 rows). Pulled 2026-09-17 via **Prospeo** `POST /search-person`, two passes
-  over the company domains in batches of 50: payroll-title holders (`person_job_title`
-  CONTAINS "payroll") and practice leadership (managing partner, practice manager, MD, FD,
-  CFO, client services director, owner/founder). Contact depth follows the repo's inverse-TAM
-  rule — **2 per accountancy practice** (large segment), **4 per bureau/umbrella/recruitment-
-  umbrella** (small segment). Seniority gated to the brief's own list (C-Suite, Director,
-  Head, Manager, Partner, Founder/Owner, VP): Partner 749, Manager 586, Founder/Owner 302,
-  C-Suite 257, Director 102, Head 62. 83% carry a verified (masked) work email. Each row
-  carries its company's `company_verdict` from the qualifier agent so Clay can filter to
-  confirmed buyers.
+- `sourcing/2026-09-17-combined-universe-leads.csv` — **3,389 decision-maker prospects**
+  across **2,082 of the 2,492 companies**, keyed by `linkedin_url`. Three sources, unioned
+  and deduped (LinkedIn URL where present, else company + normalised name):
+  **Prospeo** `POST /search-person` 2,056 (company-domain scoped, carries verified-but-masked
+  email and seniority); **Blitz** `POST /v2/search/employee-finder` 1,018 (company-LinkedIn
+  scoped, so it reaches the 153 firms with no domain on record); **agent research** 315
+  (hand-researched from company websites, Companies House officer registers and ICAEW
+  listings, for the 407 firms no people database covers at all). Contact depth follows the
+  inverse-TAM rule — 2 per accountancy practice, 4 per bureau/umbrella. `source`,
+  `evidence_source_url` and `research_confidence` columns record provenance per row.
+- `sourcing/2026-09-17-clay-suppression-list.csv` — **237 prospects that were pushed to Clay
+  before qualification finished and whose companies were later DISQUALIFIED**, across 141
+  companies. Includes the co-founder of ANNA Money, which sells payroll software. These need
+  removing on the Clay side; the pusher now filters them so it cannot recur.
 - `sourcing/2026-09-17-combined-universe-verdicts.csv` — **all 2,492 companies adjudicated**
   by the qualifier agent: **1,395 QUALIFIED** (every one carrying a payroll-service URL on
   the company's own domain), 757 LIKELY, **340 DISQUALIFIED (13.6%)** — all of them rows the
