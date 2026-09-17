@@ -29,27 +29,31 @@ Config UUIDs (all module `custom`, granularity `company`, refresh `static`):
 
 ## Sourced data in this repo
 
-- `sourcing/2026-09-17-combined-universe-companies.csv` — **1,442 ICP-qualified target
+- `sourcing/2026-09-17-combined-universe-companies.csv` — **2,492 ICP-qualified target
   companies**, the combined target-company universe spanning **all four sourcing configs**
   (`a47f2b39-0aaf-48d4-a1e0-45909b305979`, `cb081b3d-9e0c-44ce-aa5e-364cc4d8a249`,
   `b790b5bd-eb5b-4e68-a807-5c674138dd1a`, `7806e67e-a2e9-4fff-91a3-5982cbde52b5`).
-  Pulled 2026-09-17 from four tools, unioned and deduped on LinkedIn company URL:
-  **Blitz API** `POST /v2/search/companies` (industry drains + a 38-term payroll keyword
-  matrix, GB and IE) and `POST /v2/jobs/search` + `POST /v2/enrichment/company` (payroll-role
-  hiring signal, last 90 days); **EXA Websets** `POST /websets/v0/websets` (12 company-entity
-  queries incl. BACS/CIPP/FCSA accreditation framings), resolved through Blitz
-  `domain-to-linkedin`; and **AI Ark** `POST /v1/companies` `lookalikeDomains` seeded by the
-  LinkedIn URL of each already-qualified bureau/practice. 27,333 raw records → 17,039 unique
-  → 1,442 qualified. Segment split: accountancy practices 1,306 / payroll bureaus 49 /
-  recruitment-umbrella 45 / umbrella-contractor 42. Geography GB 1,285 / IE 157. The
-  `icp_confidence` column is load-bearing: **291 `high`** carry explicit payroll-provider
-  wording, **1,151 `medium`** are confirmed UK/IE practices of 11+ staff whose payroll
-  service line is *inferred, not verified*. Feeds all four segments' campaigns.
-  Query, funnel and health warnings: `2026-09-17-combined-universe-companies.query.md`.
-- `sourcing/2026-09-17-combined-universe-rejected.csv` — 15,597 rejected companies with the
-  reason each failed (size, not-a-provider, geography, DNC, competitor, professional body).
-  Kept as the audit trail behind the number above, so a future session can re-judge a
-  rejection rule without re-running the whole harvest.
+  Pulled 2026-09-17 from **six tools**, unioned and deduped on LinkedIn company URL then on
+  domain: **Blitz API** `POST /v2/search/companies` (industry drains + a 38-term payroll
+  keyword matrix, GB and IE) and `POST /v2/jobs/search` + `POST /v2/enrichment/company`
+  (payroll-role hiring signal, last 90 days); **EXA Websets** `POST /websets/v0/websets`
+  (12 company-entity queries incl. BACS/CIPP/FCSA accreditation framings), resolved through
+  Blitz `domain-to-linkedin`; **AI Ark** `POST /v1/companies` `lookalikeDomains` seeded by
+  the LinkedIn URL of each already-qualified bureau/practice; **Prospeo**
+  `POST /search-company` (industry/keyword × GB+IE × headcount 11+ — the single biggest
+  contributor, see below); and **DiscoLike** via the **ColdIQ** proxy
+  `GET /v1/discolike/discover` (natural-language ICP text, 3 queries). 51,357 raw records →
+  29,096 unique → 2,492 qualified. Segment split: accountancy practices 2,229 / payroll
+  bureaus 112 / umbrella-contractor 82 / recruitment-umbrella 69. Geography GB 2,295 /
+  IE 197. The `icp_confidence` column is load-bearing: **471 `high`** carry explicit
+  payroll-provider wording, **2,021 `medium`** are confirmed UK/IE practices of 11+ staff
+  whose payroll service line is *inferred, not verified*. Feeds all four segments'
+  campaigns. Query, funnel and health warnings:
+  `2026-09-17-combined-universe-companies.query.md`.
+- `sourcing/2026-09-17-combined-universe-rejected.csv` — 26,604 rejected companies with the
+  reason each failed (size, not-a-provider, geography, DNC, competitor, professional body,
+  wealth manager, foreign TLD). Kept as the audit trail behind the number above, so a future
+  session can re-judge a rejection rule without re-running the whole harvest.
 
 No `-leads.csv` yet — this is a company-level universe only; no prospect-level pull has been
 run for this client, so the `linkedin_url`-keyed leads standard does not apply to these files.
@@ -57,6 +61,24 @@ Company rows follow the equivalent company pattern via `company_linkedin_tag` + 
 
 ## History
 
+- **2026-09-17** — **Extended the universe from 1,442 to 2,492 companies (+73%) by adding the
+  three sourcing tools the first pass had skipped** — Prospeo, ColdIQ and DiscoLike. Prospeo
+  turned out to be the strongest single source for this ICP: Blitz returns 459 UK accounting
+  companies at 11+ employees, Prospeo returns **2,430** on the same filter (and 163 Irish
+  against Blitz's 94 total), because Blitz's coverage of this sector is weighted to
+  1-10-employee micro-practices that the ICP excludes. **ColdIQ turned out not to be a data
+  source at all but a metered unified proxy over ~60 B2B providers** (Apollo, LimaData,
+  TheirStack, Icypeas, LinkupAPI, PredictLeads, and DiscoLike/AI Ark/Prospeo themselves) —
+  666 endpoints, documented at `GET /openapi.json`; it is also how DiscoLike is reachable,
+  which is why the earlier direct attempt at `api.discolike.com` 404'd. DiscoLike's
+  natural-language `icp_text` search is well suited to this niche but costs ~111 credits per
+  100 records, so only 3 calls were made pending clarification of a **contradiction in its
+  credit reporting** (the balance endpoint says 166 remaining, the response header says
+  ~16,400). High-confidence rows rose 291 → 471. A third dedupe bug surfaced and was fixed:
+  keying only on LinkedIn URL left 910 duplicate pairs where one firm holds two LinkedIn
+  pages after a rebrand or merger, so a second domain-keyed pass now collapses them; a
+  wealth-manager/IFA filter was also added after firms like Craven Street Wealth qualified on
+  a passing "our accountants" mention. Session: client session for brain-payroll.
 - **2026-09-17** — **Built the combined ICP-fit target-company universe across all four
   sourcing configs: 1,442 qualified companies** (`sourcing/2026-09-17-combined-universe-companies.csv`).
   This is a *new* universe for every segment — no `sourcing/` tree existed and all four
