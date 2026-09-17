@@ -48,8 +48,10 @@ Config UUIDs (all module `custom`, granularity `company`, refresh `static`):
   IE 197. The `icp_confidence` column is load-bearing: **471 `high`** carry explicit
   payroll-provider wording, **2,021 `medium`** are confirmed UK/IE practices of 11+ staff
   whose payroll service line is *inferred, not verified*. Feeds all four segments'
-  campaigns. Query, funnel and health warnings:
-  `2026-09-17-combined-universe-companies.query.md`.
+  campaigns. Includes a **`description`** column — the company's own description of itself,
+  from its LinkedIn About or website (2,467 of 2,492 populated; the 193 gaps left by the
+  source APIs were filled via ColdIQ `POST /v1/company/enrich` in batches of 50). Query,
+  funnel and health warnings: `2026-09-17-combined-universe-companies.query.md`.
 - `sourcing/2026-09-17-combined-universe-rejected.csv` — 26,604 rejected companies with the
   reason each failed (size, not-a-provider, geography, DNC, competitor, professional body,
   wealth manager, foreign TLD). Kept as the audit trail behind the number above, so a future
@@ -61,6 +63,23 @@ Company rows follow the equivalent company pattern via `company_linkedin_tag` + 
 
 ## History
 
+- **2026-09-17** — Added a **`description`** column to the universe CSV (2,467 of 2,492
+  populated) and built the **qualifier agent** in `qualifier-agent/`. The agent exists to
+  settle the open question the universe build left behind: 2,021 rows are `icp_confidence:
+  medium`, meaning a confirmed UK/IE practice of 11+ staff whose payroll service line was
+  *assumed* rather than verified. It is deliberately two-tier rather than one sub-agent per
+  company — 2,492 LLM agents to answer a question a single site-scoped search usually
+  settles would be indefensible. Tier 1 searches each company's **own domain** for a payroll
+  service page via ColdIQ's EXA proxy (~1.47 credits each, resumable, parallel); on the
+  first 25 companies it confirmed 21 outright with an exact URL and verbatim quote. Tier 2
+  shards whatever is left to LLM sub-agents that apply `qualifier-agent/rubric.md` — the
+  judgment calls: competitor vs customer, bureau vs end employer, acquisitions. Two
+  operational findings recorded in the tool: ColdIQ rate-limits **per account, not per
+  connection**, so 14 workers merely converted throughput into 429s (it rate-limited an
+  unrelated credits call) — the manager now runs a single global token bucket tuned by
+  `COLDIQ_RPS` rather than by worker count; and a transient API failure is now re-queued by
+  `--retry-failed` rather than being silently cached as a result. Session: client session
+  for brain-payroll.
 - **2026-09-17** — **Extended the universe from 1,442 to 2,492 companies (+73%) by adding the
   three sourcing tools the first pass had skipped** — Prospeo, ColdIQ and DiscoLike. Prospeo
   turned out to be the strongest single source for this ICP: Blitz returns 459 UK accounting
