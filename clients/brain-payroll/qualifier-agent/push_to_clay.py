@@ -55,13 +55,15 @@ def post(url,rec,rps,tries=4):
             time.sleep(2**a)
     return 'ERR','retries exhausted'
 
-def build_companies():
-    """Qualified companies only: the verdict file is the source of truth for who is in,
-    joined back to the universe row for the firmographics Clay will want."""
+def build_companies(verdicts=('QUALIFIED',)):
+    """The verdict file is the source of truth for who is in, joined back to the universe
+    row for the firmographics Clay will want. `verdicts` selects which verdicts to send —
+    the verdict travels with every record so LIKELY rows stay distinguishable in Clay
+    rather than being silently mixed in with confirmed ones."""
     uni={r['company_linkedin_tag']:r for r in csv.DictReader(open(COMPANIES))}
     out=[]
     for v in csv.DictReader(open(VERDICTS)):
-        if v['verdict']!='QUALIFIED': continue
+        if v['verdict'] not in verdicts: continue
         u=uni.get(v['company_linkedin_tag'],{})
         out.append({
           'company_linkedin_url':u.get('linkedin_url') or v.get('domain') or '',
@@ -88,9 +90,11 @@ def main():
     ap.add_argument('--rps',type=float,default=8)
     ap.add_argument('--workers',type=int,default=8)
     ap.add_argument('--state',default=None,help='file of already-sent keys (skip these)')
+    ap.add_argument('--verdict',default='QUALIFIED',
+                    help='comma-separated verdicts to send, e.g. LIKELY or QUALIFIED,LIKELY')
     a=ap.parse_args()
 
-    recs=build_companies() if a.what=='companies' else build_prospects()
+    recs=build_companies(tuple(a.verdict.split(','))) if a.what=='companies' else build_prospects()
     keyf=(lambda r:r.get('company_linkedin_url') or r.get('domain')) if a.what=='companies' \
          else (lambda r:r.get('linkedin_url'))
     state=a.state or os.path.join(HERE,'work',f'clay-sent-{a.what}.txt')
