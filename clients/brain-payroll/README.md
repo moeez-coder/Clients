@@ -69,8 +69,13 @@ Config UUIDs (all module `custom`, granularity `company`, refresh `static`):
   C-Suite 257, Director 102, Head 62. 83% carry a verified (masked) work email. Each row
   carries its company's `company_verdict` from the qualifier agent so Clay can filter to
   confirmed buyers.
-- `sourcing/2026-09-17-combined-universe-verdicts.csv` — per-company verdicts from the
-  qualifier agent (see `qualifier-agent/README.md`).
+- `sourcing/2026-09-17-combined-universe-verdicts.csv` — **all 2,492 companies adjudicated**
+  by the qualifier agent: **1,395 QUALIFIED** (every one carrying a payroll-service URL on
+  the company's own domain), 757 LIKELY, **340 DISQUALIFIED (13.6%)** — all of them rows the
+  firmographic pass had accepted. Qualified by segment: accountancy practices 1,188, payroll
+  bureaus 114, umbrella/contractor 76, recruitment-umbrella 17. Produced by 36 LLM sub-agents
+  over Tier-1 website evidence; see `qualifier-agent/README.md` for the method and what it
+  caught.
 
 Historical note: no `-leads.csv` existed — this is a company-level universe only; no prospect-level pull has been
 run for this client, so the `linkedin_url`-keyed leads standard does not apply to these files.
