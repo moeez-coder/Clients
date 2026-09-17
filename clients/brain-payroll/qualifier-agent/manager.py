@@ -64,6 +64,30 @@ def load_universe():
 
 # ---------------------------------------------------------------- Tier 1: evidence
 PAYROLL_PAGE_HINTS=('payroll','bureau','umbrella','cis','paye','auto enrolment','auto-enrolment')
+_STOP={'limited','ltd','llp','group','the','and','accountants','accountancy','chartered',
+       'services','service','company','partners','associates','consulting','consultants',
+       'solutions','payroll','advisory','advisers','advisors','financial','business','tax',
+       'uk','ireland','plc','co','part','of'}
+
+def name_tokens(name):
+    import re as _r
+    return {t for t in _r.findall(r'[a-z0-9]{3,}',(name or '').lower()) if t not in _STOP}
+
+def pages_mention_company(name,pages):
+    """Does the fetched content actually belong to THIS company?
+
+    Source APIs sometimes attach a domain belonging to an entirely different entity —
+    observed live: an accountancy practice carrying mail.co.uk (a German email provider),
+    another carrying bms.com, a third carrying a borough council's site. Because Tier-1
+    evidence is domain-scoped, a wrong domain silently returns a *different company's*
+    payroll page and would manufacture a confident false QUALIFIED. Cheap guard: at least
+    one distinctive token of the company name should appear in the fetched title/text.
+    Abbreviated domains are fine (hwca.com for Haines Watts) — this checks the CONTENT,
+    not the domain string."""
+    toks=name_tokens(name)
+    if not toks or not pages: return None          # unknown, not a failure
+    blob=' '.join(((p.get('title') or '')+' '+(p.get('text') or '')) for p in pages).lower()
+    return any(t in blob for t in toks)
 
 def collect_one(row):
     dom=row.get('domain','-')
@@ -88,7 +112,8 @@ def collect_one(row):
                       'text':' '.join(txt.split())[:900],
                       'payroll_mentioned':any(h in low for h in PAYROLL_PAGE_HINTS)})
     return {'company_linkedin_tag':row['company_linkedin_tag'],'name':row['name'],
-            'domain':dom,'pages':pages,'error':''}
+            'domain':dom,'pages':pages,'error':'',
+            'domain_matches_company':pages_mention_company(row['name'],pages)}
 
 def cmd_evidence(args):
     os.makedirs(WORK,exist_ok=True)
@@ -161,7 +186,12 @@ def cmd_shard(args):
             'size_band':u['size_band'],'industry':u['industry'],'hq_country':u['hq_country'],
             'current_segment':u['segment'],'current_confidence':u['icp_confidence'],
             'description':u['description'][:700],
-            'evidence_pages':e.get('pages',[])[:4]})
+            'evidence_pages':e.get('pages',[])[:4],
+            'evidence_domain_matches_company':e.get('domain_matches_company'),
+            'evidence_warning':('' if e.get('domain_matches_company') is not False else
+                'The fetched pages do not mention this company by name — the domain on this '
+                'record may belong to a different entity. Verify the real website before '
+                'trusting this pack, and do NOT qualify on it alone.')})
     n=args.size; made=[]
     for i in range(0,len(packs),n):
         idx=i//n

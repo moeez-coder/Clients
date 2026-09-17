@@ -65,6 +65,43 @@ line in any future edit.
 `work/` is regenerable scratch and is **git-ignored**. The verdicts CSV in `../sourcing/`
 is the durable artifact.
 
+## First run — 4 shards, 260 companies (2026-09-17)
+
+| | |
+|---|---|
+| QUALIFIED | 185 (every one carries a real evidence URL on the company's own domain) |
+| LIKELY | 39 |
+| DISQUALIFIED | 36 — **13.8%** |
+
+The disqualification rate is the headline: these are all companies the firmographic pass
+had already accepted. What the sub-agents caught that no keyword filter could:
+
+- **Six direct competitors** posing as accountancy practices — ANNA Money, Capium, Nomi,
+  kpi.com, Sargent-Disc, and Dext. The Tier-1 search made several look *more* qualified,
+  because a payroll-software vendor's product page reads exactly like a payroll service page.
+- **Network head offices**, which are duplicates at the wrong level of the hierarchy: PKF
+  Global, Russell Bedford International, Clarkson Hyde Global. Payroll is delivered by
+  legally independent member firms, several of which are separately in the same list.
+- **Live acquisitions the firmographics missed** — Critchleys → Gravita, Raffingers →
+  Xeinadin, McBrides → DJH, Nicklin → DJH. Their domains now 301 to the acquirer.
+- **Adjacent-but-wrong**: the Financial Reporting Council (the regulator), Kaplan and Mercia
+  (training), Accountex (a trade show), AccountingFirms (a directory), KBS Corporate (an M&A
+  broker whose site is full of payroll-sector deal news, which is exactly why it looked like
+  a bureau).
+- **Geography errors** that survived the HQ filter: Sonstige Software (Germany),
+  Intelligent Outsourcing (Philippines), AACSL (Lagos).
+
+It also surfaced intel the firmographic pass could not:
+
+- **Competitor-in-situ displacement targets** — Bishop Fleming runs client payroll on
+  **IRIS**; Shaw Gibbs has just migrated to **Paycircle** and is publicly repositioning
+  payroll as "a growth lever, not a loss leader". These are arguably the best leads in the file.
+- **Roll-ups change who buys.** Sumer Group (HW Fisher, Monahans, Carpenter Box, Cowgills,
+  EQ, Scrutton Bland, Simmons Gainsford, Jerroms), Kinbrook (Duncan & Toplis, Old Mill),
+  Dains (HURST, William Duncan, HSKS Greenhalgh). Payroll-software buying may now sit at
+  group level rather than firm level, which changes both targeting and contact depth.
+- **CIPP Payroll Assurance Scheme** accreditations: Kreston Reeves, Burgess Hodgson.
+
 ## Known gotchas
 
 - **ColdIQ blocks the default Python user-agent.** `Python-urllib` is refused at the
@@ -75,6 +112,17 @@ is the durable artifact.
   is not evidence that the firm offers payroll.
 - **Tier 1 finding no page is not a disqualification.** Small practices often have no
   crawlable payroll page. That is what the `LIKELY` verdict is for.
+- **A wrong domain silently returns a different company's payroll page.** Source APIs
+  sometimes attach a domain belonging to another entity entirely — observed live: an
+  accountancy practice carrying `mail.co.uk` (a German email provider), another carrying
+  `bms.com` (Bristol Myers Squibb), a third carrying a borough council's site, and several
+  carrying `scoreapp.com` (a shared third-party landing-page platform). Because Tier-1
+  evidence is domain-scoped, this manufactures a *confident false* QUALIFIED. `collect_one`
+  now sets `domain_matches_company`: at least one distinctive token of the company name must
+  appear in the fetched title/text. It checks the CONTENT, not the domain string, so
+  legitimately abbreviated domains (`hwca.com` for Haines Watts, `om.uk` for Old Mill) pass.
+  Where it fails, the shard pack carries an `evidence_warning` telling the sub-agent to find
+  the real website rather than trust the pack. 36 of the first 1,323 packs tripped it.
 - **ColdIQ's two credit readings disagree.** `GET /v1/me/credits` and the
   `X-ColdIQ-Credits-Remaining` response header have reported very different balances. Check
   both before a bulk run.
