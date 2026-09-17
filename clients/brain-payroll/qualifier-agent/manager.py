@@ -177,6 +177,10 @@ def cmd_shard(args):
             except Exception: pass
     if args.only_unresolved:
         ev=[e for e in ev if not any(p.get('payroll_mentioned') for p in e.get('pages',[]))]
+    if args.only_tags:
+        want=set(json.load(open(args.only_tags)))
+        ev=[e for e in ev if e['company_linkedin_tag'] in want]
+        print(f'restricted to {len(ev)} companies from {args.only_tags}')
     if args.skip_adjudicated:
         # Companies already carrying a verdict, so a re-shard (e.g. at a different
         # --size) never sends the same company to a second sub-agent.
@@ -206,13 +210,14 @@ def cmd_shard(args):
                 'record may belong to a different entity. Verify the real website before '
                 'trusting this pack, and do NOT qualify on it alone.')})
     n=args.size; made=[]
+    tag=args.tag
     for i in range(0,len(packs),n):
         idx=i//n
-        sp=os.path.join(SHARDS,f'shard-{idx:03d}.json')
+        sp=os.path.join(SHARDS,f'{tag}-{idx:03d}.json')
         json.dump(packs[i:i+n],open(sp,'w'),indent=1)
-        bp=os.path.join(SHARDS,f'shard-{idx:03d}.brief.txt')
+        bp=os.path.join(SHARDS,f'{tag}-{idx:03d}.brief.txt')
         open(bp,'w').write(BRIEF.format(rubric=os.path.join(HERE,'rubric.md'),shard=sp,
-            outfile=os.path.join(VERDICTS,f'shard-{idx:03d}.verdicts.json'),n=len(packs[i:i+n])))
+            outfile=os.path.join(VERDICTS,f'{tag}-{idx:03d}.verdicts.json'),n=len(packs[i:i+n])))
         made.append(sp)
     print(f'{len(packs)} companies -> {len(made)} shards of <= {n} in {SHARDS}')
 
@@ -276,6 +281,14 @@ if __name__=='__main__':
     s.add_argument('--only-unresolved',action='store_true')
     s.add_argument('--skip-adjudicated',action='store_true',
                    help='exclude companies that already have a verdict')
+    # Shard/verdict filenames are namespaced by this tag. Re-sharding at a new --size
+    # under the SAME tag silently overwrites the previous run's verdict files, because
+    # shard-000 of run 2 holds different companies than shard-000 of run 1 — that cost
+    # 260 completed verdicts once. Always give a re-shard its own tag.
+    s.add_argument('--tag',default='shard',
+                   help='filename namespace for this shard set, e.g. --tag wave2')
+    s.add_argument('--only-tags',
+                   help='JSON file holding a list of company_linkedin_tag to shard (recovery)')
     s.set_defaults(fn=cmd_shard)
     m=sub.add_parser('merge'); m.add_argument('--only-verdicts',action='store_true'); m.set_defaults(fn=cmd_merge)
     st=sub.add_parser('status'); st.set_defaults(fn=cmd_status)
