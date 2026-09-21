@@ -23,13 +23,13 @@ firm, which makes this a non-standard client relative to most of this repo.
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
-| newco-countdown-sponsor-side | PE firms, medtech portfolio, carve-out/divestiture strategy | US | draft (companies only) | Campaign 1 | 43 | `-` |
-| before-the-buyer-arrives-seller-side | Medtech/diagnostics parents, $250M+, separation-announced | US | draft (companies only) | Campaign 2 | 94 | `-` |
-| newco-countdown-newco-leadership | Newly separated medtech/diagnostics, $250M+ carved-out revenue | US | draft (companies only) | Campaign 3 | 99 | `-` |
-| new-leader-old-portfolio | Multi-BU device/diagnostics, $250M-$3B, 3+ brands | US | draft (companies only) | Campaign 4 | 44 | `-` |
-| exit-ready | PE-backed medtech/diagnostics platforms, $100M-$1B, 3+ yr hold | US | draft (companies only) | Campaign 5 | 51 | `-` |
-| import-without-a-playbook | US subsidiaries of non-US medtech/diagnostics parents | DE/JP/IL/KR/CH/FR/SE/NL (HQ) | draft (companies only) | Campaign 6 | 27 | `-` |
-| portfolio-without-a-throughline | Same universe as new-leader-old-portfolio (reused, not resourced) | US | draft (companies only) | Campaign 7 | 44 (reused) | `-` |
+| newco-countdown-sponsor-side | PE firms, medtech portfolio, carve-out/divestiture strategy | US | draft (companies only) | Campaign 1 | 41 | `-` |
+| before-the-buyer-arrives-seller-side | Medtech/diagnostics parents, $250M+, separation-announced | US | draft (companies only), full universe at filter | Campaign 2 | 113 | `-` |
+| newco-countdown-newco-leadership | Newly separated medtech/diagnostics, $250M+ carved-out revenue | US | draft (companies only), full universe at filter | Campaign 3 | 186 | `-` |
+| new-leader-old-portfolio | 4(a) multi-BU device/diagnostics $250M-$3B + 4(b) PE-backed roll-ups $100M-$1B | US | draft (companies only) | Campaign 4 | 141 + 91 | `-` |
+| exit-ready | PE-backed medtech/diagnostics platforms, $100M-$1B, 3+ yr hold | US | draft (companies only), full universe at filter | Campaign 5 | 185 | `-` |
+| import-without-a-playbook | US subsidiaries of non-US medtech/diagnostics parents | DE/JP/IL/KR (HQ, full-universe pass) | draft (companies only), full universe at filter | Campaign 6 | 85 | `-` |
+| portfolio-without-a-throughline | Same universe as new-leader-old-portfolio 4(a) (reused, not resourced) | US | draft (companies only) | Campaign 7 | 141 (reused) | `-` |
 
 **None of these seven configs exist in `tracking_clients` yet** — this table is this repo's own
 tracking of the sourcing work, not a mirror of a `tracking_clients` record. Create them there before
@@ -150,3 +150,26 @@ go-ahead before it runs.
   Clay's own MCP tools were confirmed live but not used this pass — Blitz alone resolved the one gap
   that mattered; no reason yet to reach for the others until prospect sourcing or campaign 4(b) is
   taken up.
+- **2026-09-21 (same day, third pass)** — User asked to "use all tools and give the complete
+  universe of these campaigns." Re-ran every segment's firmographic filter through **Blitz API**
+  (unlimited plan, $0 marginal cost), fully paginated to exhaustion rather than a single capped page,
+  and merged the results into the existing ColdIQ-sourced CSVs (deduped by domain — Blitz and ColdIQ's
+  FullEnrich each found companies the other missed). Confirmed genuine finite `total_results` per
+  filter from Blitz's own response (36 to 186 depending on segment) rather than an arbitrary page
+  limit, so these six CSVs now represent the full universe at each filter, not a sample of it — the
+  trigger/verification caveats already on record for each segment (separation date, brand count, hold
+  period, etc.) still apply per row regardless of source. Also resolved segment 4(b) (PE-backed
+  roll-up platforms, $100M-$1B), unsourced in the prior pass: Blitz keyword search still only returned
+  4-5 generic hits, so used **AI Ark's lookalike-company search (via ColdIQ)**, seeded with 3 known
+  PE-backed medtech CDMO/roll-up platforms (Cirtec Medical, Viant Medical, Integer Holdings) — this
+  correctly surfaced platform-level entities (Phillips Medisize, Cretex Medical, Paragon Medical,
+  Orchid Orthopedic Solutions, Norwood Medical), 91 rows after filtering to a plausible employee range.
+  Stopped at 5 AI Ark pages (~51.5 ColdIQ credits) on the user's explicit instruction to leave some
+  ColdIQ/AI Ark credit balance rather than exhaust it — this is therefore NOT a complete universe pull
+  for 4(b) the way the Blitz-sourced segments are (AI Ark's own `totalElements: 10000` in the raw
+  response is a provider cap/sentinel, not a real count). Total company rows across all
+  seven-plus-4(b) segments after this pass: 983 (up from 601). All new rows (384 total: 250 Blitz
+  universe-expansion + 43 propagated into campaign 7 + 91 AI Ark 4(b)) pushed to the client's Clay
+  webhook with the same `campaign`/`sourcing_reasoning` schema, zero failures. Prospeo, EXA, DiscoLike,
+  and Clay's own MCP tools remain unused — nothing in this pass required them; Apollo remains confirmed
+  non-functional on this account (see the first History entry).
