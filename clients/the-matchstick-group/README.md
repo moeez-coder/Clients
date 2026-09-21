@@ -173,3 +173,10 @@ go-ahead before it runs.
   webhook with the same `campaign`/`sourcing_reasoning` schema, zero failures. Prospeo, EXA, DiscoLike,
   and Clay's own MCP tools remain unused — nothing in this pass required them; Apollo remains confirmed
   non-functional on this account (see the first History entry).
+- **2026-09-21 (same day, fourth pass)** — Backfilled `company_linkedin` for every company row that had
+  `-` (558 of 983 rows, mostly the ColdIQ/FullEnrich-sourced ones — Blitz- and AI Ark-sourced rows
+  already carried it), via **Blitz API's `/v2/enrichment/domain-to-linkedin`** (domain → company
+  LinkedIn URL). 557 of 558 resolved (222 unique domains looked up, deduplicated across segments where
+  the same company appears in more than one campaign's CSV); one domain (`bit-analytical.de`) had no
+  match in Blitz's dataset and remains `-`. All 557 updated rows re-sent to the client's Clay webhook
+  with the same schema. This does not add new companies — it fills a field on the existing 983.
