@@ -5,9 +5,9 @@ using cheap-model agents calibrated earlier the same day (see
 `2026-09-16-icp-agent-calibration.query.md`, which must be read first — it establishes
 why the prompt looks the way it does).
 
-**Status: 5,106 of 5,227 US companies classified. One batch of 120 (`b039`) was still
-running when this was committed and is not yet included.** The counts below will move
-by up to 120 rows when it lands.
+**Status: COMPLETE — all 5,227 US companies classified and written back to Supabase**
+(`agent_run = 'us-triage-t2-2026-09-16'`; verified 2,520 / 1,755 / 952 in the database,
+matching this CSV exactly).
 
 ## Scope
 Source: Supabase `companies`, `country in (US, USA, United States)`, `is_dnc=false`,
@@ -57,18 +57,19 @@ Two client rules applied mid-run, both from the repo owner:
   Mercedes national arms.
 - Independent dealers, resellers and pure systems integrators are out.
 
-## Results (5,106 of 5,227)
+## Results (all 5,227)
 | Verdict | Count | Share |
 |---|---|---|
-| FIT | 2,433 | 48% |
-| UNSURE | 945 | 19% |
-| NO | 1,728 | 34% |
+| FIT | 2,520 | 48% |
+| UNSURE | 952 | 18% |
+| NO | 1,755 | 34% |
 
-945 UNSURE includes **381 rows where Blitz returned no description at all** — a missing
+952 UNSURE includes **381 rows where Blitz returned no description at all** — a missing
 input, not a judgement, and marked as such in `agent_reason`.
 
-FIT by headcount: 1,000+ → 203 · 500-999 → 186 · 200-499 → 492 · 50-199 → 799 ·
-under 50/unknown → 668.
+FIT by headcount: **398 have 500+ employees** (the interim YES tier). One company was
+omitted entirely by its agent and is recorded as UNSURE with that stated as the reason —
+no row is silently lost.
 
 **~34% of the US universe was never sellable.** The rejections are auto dealership groups,
 Caterpillar/John Deere equipment dealers, systems integrators, steel job shops, building
@@ -77,8 +78,8 @@ bucket in the US set (1,145 rows) and splits almost entirely into dealerships an
 OEMs — both out of scope. These were all inside the "addressable" count.
 
 ## A bug that nearly corrupted the write-back — read this before reusing the method
-Each agent was asked to echo the company id (`cid`) beside its verdict. **1,352 of 4,233
-rows (32%) came back with the wrong id** — models mis-transcribe long numeric keys across
+Each agent was asked to echo the company id (`cid`) beside its verdict. **1,546 of 5,227 rows (30%)
+came back with the wrong id** — models mis-transcribe long numeric keys across
 long lists.
 
 The verdicts themselves were *not* wrong. Checking each reason against the company at its
