@@ -340,18 +340,22 @@ Confirm the relevant API key is actually present in *this* session's
 environment before using a tool (`env | grep -i <NAME>_API_KEY`) — session
 environments are fixed at provisioning, so a key added to the environment
 config after a session started won't appear until a fresh session is spun up.
-As of the last check (2026-09-14):
+As of the last full check (2026-09-24, all six tools live-tested with real
+calls, not just env presence):
 
-- **Clay** — `mcp__Clay__*` tools, live.
-- **Blitz API** — confirmed live (`BLITZ_API_KEY` present). Call directly over
-  HTTPS; the `Blitz-API` MCP tool only searches Blitz's own docs, it does not
-  proxy live requests.
-- **Prospeo API** — key reported added to the cloud environment but not yet
-  visible in a session's env as of 2026-09-14; re-check
-  (`env | grep -i PROSPEO`) before relying on it, and update this file plus
-  the root `README.md` once confirmed.
-- **AI Ark API** — confirmed live (`AIARK_API_KEY` present). No MCP tool at
-  all for this one (not even docs) — call directly. Rate limit 5 req/s.
+- **Clay** — `mcp__Clay__*` tools, live (confirmed via
+  `get-current-workspace`: workspace `algoacqusition`, id `770250`).
+- **Blitz API** — confirmed live (`BLITZ_API_KEY` present, `POST
+  /v2/company/tam-by-jobs` returned `200`). Call directly over HTTPS; the
+  `Blitz-API` MCP tool only searches Blitz's own docs, it does not proxy
+  live requests.
+- **Prospeo API** — confirmed live as of 2026-09-24 (`GET
+  https://api.prospeo.io/account-information`, `X-KEY` header, `200`: PRO
+  plan, credits remaining). `PROSPEO_API_KEY` is now visible in session
+  env — the earlier "not yet visible" note (2026-09-14) is resolved.
+- **AI Ark API** — confirmed live (`AIARK_API_KEY` present, `GET
+  /v1/payments/credits` returned `200`). No MCP tool at all for this one
+  (not even docs) — call directly. Rate limit 5 req/s.
 - **Exa** (`EXA_API_KEY`) — confirmed live as of 2026-09-15 (`POST
   https://api.exa.ai/search`, `x-api-key` header, returned real results).
   This is a web-search API, not a people/company database — treat it as a
