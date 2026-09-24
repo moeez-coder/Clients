@@ -8,16 +8,20 @@
 
 ## FULL universe (superseding pull, same day)
 
-**File:** `sourcing/2026-09-24-target-universe-FULL-companies.csv` — **21,122 unique companies**.
+**File:** `sourcing/2026-09-24-target-universe-FULL-companies.csv` — **21,138 unique companies**.
 
 **Source 1 — Blitz API, fully paginated to completion:**
 - `sourcing/sensor-bio-clinical-health-systems-custom/2026-09-24-companies-FULL.csv` — 16,999 companies (all 681 pages, cursor → `null`)
 - `sourcing/campaign-1-enterprise-platforms-casual-connections/2026-09-24-companies-FULL.csv` — 4,302 companies (all 173 pages, cursor → `null`)
 
-**Source 2 — Clay (`mcp__Clay__search-companies` / `load-more-search-results`), supplementary:**
-Pulled 3 pages (60 companies total: 2 pages / 40 companies for Clinical & Health Systems via `industry in ("Hospitals and Health Care")` + `employee_count` range; 1 page / 20 companies for Enterprise & Platforms via `description contains "digital health"` + `employee_count` range). Clay's DSL has **no HQ/country filter** (`hq_country`, `country` both rejected as unknown fields) — results span many countries and were filtered to US HQ client-side after the fact. Of 60 raw Clay results, **20 were US-HQ'd**; of those, **6 were net-new** (not already present in the Blitz pull) and were added — see `source` column (`Blitz API`, `Clay`, or `Blitz API + Clay` where both tools surfaced the same company).
+**Source 2 — Clay (`mcp__Clay__search-companies` / `load-more-search-results`), fully paginated to completion:**
+Two DSL queries, each paginated to `hasMore: false` (confirmed via `get-current-workspace`: connected to the live `algoacqusition` workspace, `770250` — the same workspace as Sensor Bio's Clay workbooks):
+- Clinical & Health Systems: `industry in ("Hospitals and Health Care")` + `employee_count` 201–5000 → **100 companies, exhausted after 5 pages**
+- Enterprise & Platforms: `description contains "digital health"` + `employee_count` 51–500 → **100 companies, exhausted after 5 pages**
 
-**Why Clay wasn't fully paginated:** Clay's `search-companies`/`load-more-search-results` never discloses a total result count — `hasMore: true` keeps returning indefinitely with no visible end (unlike Blitz's cursor, which reaches `null`). Pagination is also strictly sequential (each page requires the prior page's `taskId`) and expensive (~10–15K tokens per 20-company page, since Clay returns full company descriptions rather than compact records). Observed US-match yield across the pages pulled was only ~30% (10–11 of ~20 per page), and this repo's own standard already documents Clay's role here: *"Single-company enrichment and Company Competitors; not a bulk sizing tool"* (see `CLAUDE.md` → Sourcing tools). Given no terminable end state and low yield, pagination was capped rather than run unbounded — flagged to the user, who has not yet confirmed whether to extend it further.
+200 raw Clay results total. Clay's DSL has **no HQ/country filter** (`hq_country`, `country`, `state`, `locality`, `headquarters_country` all rejected as unknown fields — only `industry`, `employee_count`, `annual_revenue`, `total_funding_amount_range_usd`, `type`, `description`, `domain`, `name` appear to be real filterable fields) — results span many countries (UAE, Brazil, Saudi Arabia, India, etc. dominate) and were filtered to US HQ client-side after the fact. Of 200 raw Clay results, **63 were US-HQ'd**; of those, **22 were net-new** (not already present in the Blitz pull) and were added — see `source` column (`Blitz API`, `Clay`, or `Blitz API + Clay` where both tools surfaced the same company).
+
+*(Earlier note in this file said Clay pagination never terminates — that was based on stopping after only 3 pages per query. Continuing both queries to completion showed `hasMore` does resolve to `false`, just later than Blitz's per-page density suggested. Correcting the record here rather than deleting the wrong claim.)*
 
 Deduped by `company_linkedin_tag` across both sources and both ICP segments. 55 companies matched both Blitz segment pulls; `icp_segments` lists all matching segment names (`|`-separated) for any company appearing in more than one.
 
