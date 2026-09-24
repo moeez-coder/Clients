@@ -351,11 +351,25 @@ As of the last full check (2026-09-24, all six tools live-tested with real
 calls, not just env presence):
 
 - **Clay** — `mcp__Clay__*` tools, live (confirmed via
-  `get-current-workspace`: workspace `algoacqusition`, id `770250`).
+  `get-current-workspace`: workspace `algoacqusition`, id `770250`). **Never
+  guess an `industry` filter value** — `search-companies`'s `industry` field
+  is an exact-match enum (free text like `"Software"` errors) drawn from
+  Clay's own 457-value canonical taxonomy, supplied by the repo owner
+  2026-09-24 and saved at `docs/clay/industry-taxonomy.csv` (source, as
+  given) and `docs/clay/industry-taxonomy.txt` (plain one-per-line). Copy
+  values from there verbatim — this is a **different** list from Blitz's
+  534-value industry enum below; never substitute one for the other.
 - **Blitz API** — confirmed live (`BLITZ_API_KEY` present, `POST
   /v2/company/tam-by-jobs` returned `200`). Call directly over HTTPS; the
   `Blitz-API` MCP tool only searches Blitz's own docs, it does not proxy
-  live requests.
+  live requests. **Don't guess `POST /v2/search/companies` param names** —
+  an earlier session did (`employee_count_min`, `country`) and got a
+  silent-`200`-but-wrong-filter result, since Blitz doesn't reject unknown
+  fields. The real schema (all fields, ranges, enums) is saved at
+  `docs/blitz-api/company-search.md`, with the full 534-value industry
+  enum in `docs/blitz-api/company-search-industries.txt` (pulled from
+  Blitz's own OpenAPI spec 2026-09-24) — read those before building a
+  Blitz company-search request instead of re-deriving or guessing params.
 - **Prospeo API** — confirmed live as of 2026-09-24 (`GET
   https://api.prospeo.io/account-information`, `X-KEY` header, `200`: PRO
   plan, credits remaining). `PROSPEO_API_KEY` is now visible in session
