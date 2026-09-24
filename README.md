@@ -31,10 +31,11 @@ clients/<client-slug>/
 
 ## Sourcing tools available to this repo
 
-Company/lead data going into `sourcing/` can come from any of these, per
-config. **Use them in cost order — cheapest first, escalate only when the
-cheaper tool can't cover what's needed** (see "Sourcing protocol" in
-`/CLAUDE.md`); listed here in that same priority order:
+Company/lead data going into `sourcing/` can come from any of these (see
+"Sourcing protocol" in `/CLAUDE.md`). **Clay and Blitz run on every sourcing
+pull, always** — not escalation-only; combine what both return into one
+snapshot. Prospeo and AI Ark are escalate-only, reached for only when Clay +
+Blitz combined don't cover what's needed:
 
 1. **Clay** (`mcp__Clay__*`) — company/contact find-and-enrich tools plus this workspace's configured custom subroutines.
 2. **Blitz API** (`https://api.blitz-api.ai`, auth via `x-api-key`, key in the `BLITZ_API_KEY` session env var) — live sourcing API, Agency Premium plan. Endpoints: `/v2/search/companies`, `/v2/search/people`, `/v2/search/employee-finder`, `/v2/search/waterfall-icp-keyword` / `waterfall-icp`, `/v2/jobs/search` + `/v2/jobs/company`, `/v2/enrichment/*` (email, phone, company, domain↔linkedin), `/v2/company/tam-by-jobs`. Call it directly over HTTPS — the `Blitz-API` MCP tool in this session only searches Blitz's documentation, it does not proxy live requests. We only need the LinkedIn identifier, not email — skip the email-enrichment endpoints unless a campaign specifically calls for outbound email.

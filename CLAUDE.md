@@ -305,15 +305,22 @@ deactivating it first (`update_webhook`, `isActive: false`).
 
 ## Sourcing protocol — tool order, scope, and what to pull
 
-- **Tool priority is cost order — cheapest first, escalate only when needed.**
-  For any sourcing pull, try tools in this order and move to the next only
-  when the current one can't cover what's needed (missing companies/people,
-  weak match quality, no LinkedIn found) — don't reach for a pricier tool by
-  default just because it's more capable:
-  1. **Clay** (`mcp__Clay__*`)
-  2. **Blitz API**
-  3. **Prospeo API**
-  4. **AI Ark API**
+- **Every sourcing pull runs both Clay and Blitz API — always, not just on
+  escalation.** These two are the standing pair: run the same targeting
+  through both, combine what they return (dedupe on `linkedin_url` for
+  people / `company_linkedin_tag`/domain for companies per 3b above), and
+  save the combined result as the pull's CSV. This maximizes coverage per
+  the "always want more people reached, not less" principle above — two
+  tools searching the same criteria surface different records, not just
+  redundant ones. Note which tool contributed which rows if that's easy to
+  preserve (e.g. a `source_tool` column), but don't let that block combining
+  them into one snapshot.
+- **Prospeo and AI Ark stay escalate-only, cheapest-of-the-two-first.** Reach
+  for these only when Clay + Blitz combined still don't cover what's needed
+  (missing companies/people, weak match quality, no LinkedIn found) — don't
+  reach for a pricier tool by default just because it's more capable:
+  1. **Prospeo API**
+  2. **AI Ark API**
   Check "Sourcing tools" below for whether a given tool is actually live in
   *this* session before planning to use it.
 - **LinkedIn is the only identifier we need — don't spend on email
