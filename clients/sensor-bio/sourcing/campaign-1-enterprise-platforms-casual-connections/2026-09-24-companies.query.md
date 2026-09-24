@@ -20,7 +20,7 @@ Filter maps to the ICP config `eb764c7c-13f0-4b7c-905b-816df3b7cae1` ("Campaign 
 
 **Blitz-reported TAM size:** `total_results` = **4,305** companies matching this filter (indicative only — see the same Blitz accuracy caveat noted in the sibling query file for the Clinical & Health Systems pull).
 
-**What's in this CSV:** the first **1,000 companies** (40 pages × 25, cursor-paginated, deduped by `company_linkedin_tag` — all 1,000 came back unique) returned by that filter, in Blitz's default result order. Sample of the 4,305-company TAM, not the full enumeration.
+**Update — 2026-09-24, same day:** re-ran to full completion per follow-up request ("I want the full universe completely"). Paginated all 173 pages (cursor → `null`) via a backgrounded shell loop. Final count: **4,302 unique companies** (vs. the 4,305 `total_results` estimate — same minor drift noted in the sibling query file). Full set saved to `2026-09-24-companies-FULL.csv`; the original `2026-09-24-companies.csv` (1,000-row sample) is left in place for reference/diff purposes.
 
 **Overlap with the Clinical & Health Systems pull (same date):** 55 companies appear in both segment CSVs (e.g. large health systems that also show up under the digital-health keyword search) — expected given some accounts qualify for both Sensor Bio ICPs; not deduped across segments in these per-segment files.
 
