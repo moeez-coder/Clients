@@ -4,3 +4,14 @@
 
 # scratch exports
 *.tmp
+
+# secrets: API keys come from session env vars, never a committed file
+.env
+
+# listbuild workspaces (clients/<slug>/listbuild/): config/*.yaml is committed as
+# the query record; the resumable ledger and raw exports are not. The curated
+# export lands in sourcing/<config-slug>/ per CLAUDE.md instead.
+**/listbuild/out/
+*.sqlite
+__pycache__/
+.pytest_cache/

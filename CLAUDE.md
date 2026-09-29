@@ -165,6 +165,75 @@ The skill roster for this workflow is expected to keep growing — don't treat
 the list above as fixed. Check what's actually available (the skills listing
 surfaced to the session) rather than assuming only these exist.
 
+## listbuild — the exhaustive-recall engine (project skill, `.claude/skills/listbuild/`)
+
+A self-contained, tested (123 tests) Python pipeline shipped *inside this repo*
+as a project skill, so every session here loads it automatically. It builds an
+exhaustive contact list for an ICP by running Blitz → Clay → DiscoLike (all
+three, every run), deduping on LinkedIn URL **and** first+last+domain (catches
+changed LinkedIn slugs), excluding prior prospects, guarding titles, and
+classifying company fit. Full usage lives in its own `SKILL.md`; this section
+covers only how it plugs into this repo's standard.
+
+**Where it fits:** listbuild is the *recall* layer — casting the widest
+defensible net for a segment. It is not the precision layer: its company fit
+is industry-label + keyword only (~30% precise on catch-all labels). A
+session's own qualification work (e.g. Haiku agent scoring calibrated against
+client verdicts, signal research) runs *on top of* listbuild's output, not
+instead of it. Use it for **General**-scope builds (see "Sourcing protocol");
+Campaign-specific pulls still go through a session's targeted sourcing.
+
+**Workspace convention — one per client:** set
+`LISTBUILD_WORKSPACE=clients/<slug>/listbuild` and run the CLI as
+`python .claude/skills/listbuild/scripts/listbuild.py ...`.
+- `clients/<slug>/listbuild/config/<icp>.yaml` **is committed** — it is the
+  query record for the build (industries per provider, countries, revenue
+  floor, seniority, fit rules), satisfying the `.query.md` requirement.
+- `clients/<slug>/listbuild/out/` (SQLite ledger, raw exports) is
+  git-ignored. The ledger makes reruns resume within a session, but it does
+  **not** survive the container being reclaimed.
+
+**Don't run its `setup.py` in these sessions.** Keys already come from session
+env vars, which listbuild reads directly. `setup.py` run *without* key
+arguments writes an empty `.env` that silently overrides every env-var key
+(verified 2026-09-29) — all providers then fail. Install deps with
+`pip install -r .claude/skills/listbuild/requirements.txt` instead.
+
+**Mandatory gates (from the skill's own rules, restated because they cost
+money or credibility if skipped):**
+1. `new-icp` → read the mapping notes; never silently add its "related
+   labels" or accept unmapped labels — confirm with the user.
+2. `preview` is free and **must be shown to the user and approved** before any
+   `run`. Pass every prior-prospect CSV for that client via `--seeds` (their
+   existing `sourcing/**/*-leads.csv` files and any HeyReach exports).
+3. `run` always starts with `--discolike-cap-usd 0` (estimate only). A paid
+   DiscoLike cap is set only after the user approves the printed estimate and
+   the balance covers it.
+4. Relay the closing "PROVIDER LIMITS HIT" list verbatim.
+
+**Seniority is a deliberate choice, not a default.** listbuild defaults to
+`director_plus`; this repo's principle is "more people reached, not less", and
+sessions have deliberately widened to Manager level with documented reasoning.
+Pick `director_plus` | `vp_plus` | `manager_plus` against the client's ICP and
+record why in the History entry.
+
+**Long runs in cloud sessions:** the full `run` can take 20 min to hours; a
+foreground tool call caps at 10 min. Run it **stage by stage**
+(`run --stages blitz`, then `clay merge`, then `companies companies-kw domains
+consolidate`, etc.) and simply rerun the same command if a call times out —
+every stage is idempotent and resumes from the ledger. (Untested at full scale
+in this environment yet; note what happens in History on first real use.)
+
+**Landing the output in the repo (rule 3a still applies):** copy the export
+from `out/` into the client's `sourcing/<config-slug>/`:
+- main list `<name>_<date>_partNN.csv` → `<date>-leads.csv` (concatenate parts)
+- `*_consulting_candidates_*` → `<date>-leads-candidates.csv` (needs review)
+- `*_unverified_*` → `<date>-leads-unverified.csv`
+Reorder columns so `linkedin_url` is **first** (rule 3b); keep `all_sources`
+as the per-row provider record. Put `cost_report.md` and the `consolidate`
+QA counts into that snapshot's `.query.md` alongside a pointer to the config
+YAML, then run the normal step 3a overlap check and History entry.
+
 ## Required sections in every `clients/<slug>/README.md`
 
 Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
@@ -390,9 +459,19 @@ calls, not just env presence):
   Ark. **Not yet placed in the cost-priority order in "Sourcing protocol"
   above** — ask the user where it ranks before treating it as
   default-preferred over any of those four.
-- Any config brief mentioning DiscoLike or Sales Navigator names a tool not
-  wired into these sessions; run those steps wherever they *are* connected
-  and bring the resulting export back here, cited the same way.
+- **Clay public REST API** (`CLAY_API_KEY`, `api.clay.com/public/v0`,
+  `clay-api-key` header — what listbuild uses, separate from the `mcp__Clay__*`
+  MCP connection) — **key present but returns `401 Authentication required`**
+  on `GET /me` as of 2026-09-29. listbuild's Clay layer will fail until a
+  working public-API key is set; the MCP tools are unaffected.
+- **DiscoLike** (`DISCOLIKE_API_KEY`, `api.discolike.com/v1`) — key works,
+  account active, but **overdrawn (~$4 below zero, $202.19 month-to-date)** as
+  of 2026-09-29. Any paid pull fails until topped up; run listbuild with
+  `--discolike-cap-usd 0`. Paid ($0.0035/contact) and cannot honor exclusion
+  lists, so it is estimate-gated, never a default spend.
+- Any config brief mentioning Sales Navigator names a tool not wired into
+  these sessions; run those steps wherever it *is* connected and bring the
+  resulting export back here, cited the same way.
 
 ## Session responsibilities
 

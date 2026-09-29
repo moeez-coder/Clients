@@ -1,0 +1,20 @@
+blitz:
+  base_url: https://api.blitz-api.ai
+  page_size: 50
+  shard_cap: 45000          # hard cap is 50,000 results per query
+  workers: 20
+  cost_per_record_usd: 0.0
+clay:
+  base_url: https://api.clay.com/public/v0
+  page_size: 500
+  workers: 2
+  quota_reserve: 150000      # stop people sweep when period_quota.remaining falls below this
+  cost_per_result_usd: 0.0
+discolike:
+  base_url: https://api.discolike.com/v1
+  max_records: 10000
+  cost_per_contact_usd: 0.0035
+  exclusion_list_cap: 250000
+coldiq:
+  enabled: false
+  base_url: https://api.coldiq.com/v1
