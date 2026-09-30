@@ -44,7 +44,8 @@ doing repo-wide maintenance), this protocol doesn't apply — go straight to
 
 "The overall system" means anything that governs *every* client, not just
 one: this file (`CLAUDE.md`), the root `README.md`, `clients/_TEMPLATE/**`,
-and `.claude/**` (hooks/settings). These are load-bearing for every session
+`.claude/**` (hooks, settings, project skills), `tools/**` (shared code every
+session runs) and `docs/**` (shared tool references). These are load-bearing for every session
 that will ever run here, including ones with no shared memory of this
 conversation.
 
@@ -193,11 +194,12 @@ Campaign-specific pulls still go through a session's targeted sourcing.
   git-ignored. The ledger makes reruns resume within a session, but it does
   **not** survive the container being reclaimed.
 
-**Don't run its `setup.py` in these sessions.** Keys already come from session
-env vars, which listbuild reads directly. `setup.py` run *without* key
-arguments writes an empty `.env` that silently overrides every env-var key
-(verified 2026-09-29) — all providers then fail. Install deps with
-`pip install -r .claude/skills/listbuild/requirements.txt` instead.
+**Skip its `setup.py` in these sessions.** Keys already come from session env
+vars, which listbuild reads directly; install deps with
+`pip install -r .claude/skills/listbuild/requirements.txt`. (Upstream,
+`setup.py` without key arguments wrote an empty `.env` that silently erased
+every env-var key. That is patched here — see the skill's `LOCAL_CHANGES.md`
+— but setup still adds nothing a cloud session needs.)
 
 **Mandatory gates (from the skill's own rules, restated because they cost
 money or credibility if skipped):**
@@ -224,15 +226,15 @@ consolidate`, etc.) and simply rerun the same command if a call times out —
 every stage is idempotent and resumes from the ledger. (Untested at full scale
 in this environment yet; note what happens in History on first real use.)
 
-**Landing the output in the repo (rule 3a still applies):** copy the export
-from `out/` into the client's `sourcing/<config-slug>/`:
-- main list `<name>_<date>_partNN.csv` → `<date>-leads.csv` (concatenate parts)
-- `*_consulting_candidates_*` → `<date>-leads-candidates.csv` (needs review)
-- `*_unverified_*` → `<date>-leads-unverified.csv`
-Reorder columns so `linkedin_url` is **first** (rule 3b); keep `all_sources`
-as the per-row provider record. Put `cost_report.md` and the `consolidate`
-QA counts into that snapshot's `.query.md` alongside a pointer to the config
-YAML, then run the normal step 3a overlap check and History entry.
+**Landing the output in the repo (rule 3a still applies):** run
+`python tools/leads.py from-listbuild --client <slug> --icp <name>
+--config-slug <slug>`. It concatenates the export parts into
+`<date>-leads.csv`, `-leads-candidates.csv` (catch-all industries, needs
+review) and `-leads-unverified.csv`, in the canonical schema with
+`linkedin_url` first and `all_sources` as the per-row provider record, never
+overwriting a dated file, and writes a `.query.md` with the config pointer,
+`consolidate` QA counts and `cost_report.md`. Fill in its TODO purpose line,
+then run the normal step 3a overlap check and History entry.
 
 ## Required sections in every `clients/<slug>/README.md`
 
@@ -260,20 +262,93 @@ Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
 1. Pull the data with the tool the config calls for (see "Sourcing tools"
    below) — record the exact query/filters used.
 2. Save the CSV as `sourcing/<config-slug>/<YYYY-MM-DD>-companies.csv` (or
-   `-leads.csv`). Never overwrite an existing dated file.
+   `-leads.csv`). Never overwrite an existing dated file. **For leads, write
+   them through `python tools/leads.py normalize RAW.csv
+   sourcing/<config-slug>/<date>-leads.csv --source <tool>`** — it applies the
+   canonical leads schema (below), canonical LinkedIn/domain forms, rule-4
+   dashes, in-file dedupe on both keys, and a `title_check` column, instead of
+   each session hand-rolling that. Extra columns a pull carries (scores,
+   evidence, InMail copy) are kept after the canonical ones, never dropped.
 3. If the query had more than a trivial filter or two, save it next to the CSV
    as `<YYYY-MM-DD>-companies.query.md` (or `.json`) — a one-time chat
    explanation is not a durable record; a future session re-reading this repo
    needs the query on disk to reproduce or extend the pull.
-3a. For a new `-leads.csv`: check its `linkedin_url` values against that
-   client's other existing `-leads.csv` files (this is the dedup this repo's
-   storage exists to enable — see 3b above). Note any overlap in the History
-   entry rather than silently dropping or silently keeping duplicates.
+3a. For a new `-leads.csv`: check it against that client's other existing
+   `-leads.csv` files (this is the dedup this repo's storage exists to enable
+   — see 3b above) with `python tools/leads.py overlap <new file> --client
+   <slug>`. It matches on LinkedIn URL **and** first+last+domain (the second
+   key catches people whose LinkedIn slug changed — on VNTANA's real files it
+   found overlaps the URL alone missed) and prints a ready-made History line.
+   Note any overlap in the History entry rather than silently dropping or
+   silently keeping duplicates.
 4. Update the client's README **in the same commit**: add the row to "Sourced
    data in this repo" and a "History" entry stating tool, row count, the
    purpose (which ICP/segment/campaign this feeds), and any cross-segment
    overlap found in step 3a.
 5. Commit with the convention below.
+
+## Shared tooling — `tools/leads.py` (don't rewrite these per session)
+
+Sessions used to rebuild their own filter/dedupe scripts each time and never
+commit them (e.g. VNTANA's `filter_mega.py`, which decided which of 10,350 raw
+contacts were kept, exists in no repo). Reusable logic belongs in `tools/`,
+committed and tested (`python -m pytest -q tools/tests`). `tools/leads.py`
+reuses listbuild's own identity and title-guard modules, so there is one copy
+of that logic in the repo:
+
+| Command | What it enforces |
+|---|---|
+| `normalize IN OUT --source <tool>` | canonical leads schema, `https://www.linkedin.com/in/<slug>` form, bare domains, rule-4 dashes, in-file dedupe on both keys, `title_check` |
+| `overlap NEW --client <slug>` | rule 3a overlap check across the client's other lead files, both keys, History-ready line |
+| `titles FILE` | title-guard tally + most common failing titles — a **report**, not an auto-drop: if the ICP deliberately includes managers, fails are expected |
+| `from-listbuild --client --icp --config-slug` | lands a listbuild export as `<date>-leads.csv` / `-leads-candidates.csv` / `-leads-unverified.csv` + a `.query.md` stub, append-only |
+
+If a session writes a new filter or transform that another session would
+reasonably need again, add it to `tools/` with a test (system-level change:
+ask first) rather than leaving it in scratch.
+
+**Canonical leads schema** (what `normalize` writes; extra columns follow):
+`linkedin_url, first_name, last_name, full_name, job_title, seniority,
+company_name, company_domain, company_linkedin_url, industry, revenue_hint,
+person_country, company_country, first_source, all_sources, title_check,
+icp_fit, fit_reason` — listbuild's export columns with `linkedin_url` moved
+first, so every tool's output lands in one comparable shape.
+
+## Sourcing lessons (from listbuild's real-failure rules + our own runs)
+
+These apply to every pull, whether or not listbuild is used:
+
+- **Catch-all LinkedIn industries are never core.** "Business Consulting and
+  Services", "Management Consulting", "Strategic Management Services",
+  "Professional Services", "Professional Training and Coaching", "Operations
+  Consulting", "Outsourcing and Offshoring Consulting", "Business
+  Intelligence Platforms" hold everything from engineers to headhunters
+  (~30% precise even with a keyword gate). Keep them in a separate,
+  keyword-gated candidates file for review — never mixed into a main list.
+- **Blitz carries legacy *and* current label names as separate values** (e.g.
+  `Marketing Services` + `Marketing and Advertising`, `Software Development`
+  + `Computer Software`, `IT Services and IT Consulting` + `Information
+  Technology and Services`). Request both or silently lose accounts. The
+  maintained mapping is `LEGACY_LABELS` in
+  `.claude/skills/listbuild/listbuild/icp_gen.py`.
+- **Blitz caps a query at 50,000 results and its `total_results` is not
+  trustworthy** (a VNTANA session found real counts far below it). Split large
+  pulls into slices (country × seniority × revenue/size) under the cap and
+  treat "cursor returned null" as the only proof a slice is exhausted.
+- **Clay's public API is quota-bound:** 500 rows per run, 1M results per
+  period shared across everyone using the key; stop sweeps with ≥150k
+  remaining. People rows carry company name only — join domains afterward.
+- **Paid providers are estimate-first, approval-gated, capped.** Price the
+  pull (count × rate, adjusted for expected overlap with what's already held),
+  show the user, and set an explicit spend cap before fetching. DiscoLike in
+  particular ignores exclusion lists, so ~40% of a paid pull duplicates the
+  free layers.
+- **Spend truth is the provider's billing log, not its balance field** —
+  other processes may share the key.
+- **Seniority filters leak.** Provider seniority enums let a few percent of
+  sub-director titles through; run `tools/leads.py titles` and decide
+  deliberately. In recruiting firms "Partner" / "Talent Partner" can be
+  fee-earner titles; in agencies "Art Director" is mid-level.
 
 ## Commit message convention
 
@@ -461,9 +536,9 @@ calls, not just env presence):
   default-preferred over any of those four.
 - **Clay public REST API** (`CLAY_API_KEY`, `api.clay.com/public/v0`,
   `clay-api-key` header — what listbuild uses, separate from the `mcp__Clay__*`
-  MCP connection) — **key present but returns `401 Authentication required`**
-  on `GET /me` as of 2026-09-29. listbuild's Clay layer will fail until a
-  working public-API key is set; the MCP tools are unaffected.
+  MCP connection) — **confirmed working as of 2026-09-30** (`GET /me` returns
+  200 for the `algoacquisition` user). The key set on 2026-09-29 returned
+  `401`; it has since been replaced.
 - **DiscoLike** (`DISCOLIKE_API_KEY`, `api.discolike.com/v1`) — key works,
   account active, but **overdrawn (~$4 below zero, $202.19 month-to-date)** as
   of 2026-09-29. Any paid pull fails until topped up; run listbuild with

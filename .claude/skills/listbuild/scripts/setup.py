@@ -27,8 +27,6 @@ def write_env(ws, keys):
     for k, v in keys.items():
         if v:
             current[k] = v
-    for k in ("BLITZ_API_KEY", "CLAY_API_KEY", "DISCOLIKE_API_KEY", "COLDIQ_API_KEY"):
-        current.setdefault(k, "")
     env.write_text("".join(f"{k}={v}\n" for k, v in current.items()), encoding="utf-8")
     return current
 
@@ -48,7 +46,7 @@ def main():
         print("dependencies : installed")
 
     keys = write_env(ws, {"BLITZ_API_KEY": a.blitz, "CLAY_API_KEY": a.clay, "DISCOLIKE_API_KEY": a.discolike, "COLDIQ_API_KEY": a.coldiq})
-    missing = [k for k in ("BLITZ_API_KEY", "CLAY_API_KEY", "DISCOLIKE_API_KEY") if not keys.get(k)]
+    missing = [k for k in ("BLITZ_API_KEY", "CLAY_API_KEY", "DISCOLIKE_API_KEY") if not (keys.get(k) or os.getenv(k))]
     print(f".env         : {ws / '.env'}" + (f"  (missing: {', '.join(missing)})" if missing else ""))
 
     (ws / "config" / "examples").mkdir(parents=True, exist_ok=True)
