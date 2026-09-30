@@ -526,14 +526,35 @@ calls, not just env presence):
   This is a web-search API, not a people/company database — treat it as a
   research/signal tool (e.g. "why now" triggers, company news) alongside the
   sourcing tools above, not a substitute for them in the cost-priority list.
-- **ColdIQ** (`COLDIQ_API_KEY`) — confirmed live as of 2026-09-15 (`POST
-  https://api.coldiq.com/v1/apollo/people/search`, `Authorization: Bearer`
-  header, returned real preview results). A GTM-data gateway wrapping
-  several providers (Apollo, Hunter, RocketReach, Saleshandy, and others)
-  behind one API — functionally a sourcing tool like Clay/Blitz/Prospeo/AI
-  Ark. **Not yet placed in the cost-priority order in "Sourcing protocol"
-  above** — ask the user where it ranks before treating it as
-  default-preferred over any of those four.
+- **ColdIQ** (`COLDIQ_API_KEY`, `https://api.coldiq.com`, `Authorization:
+  Bearer` header **plus a `User-Agent`** — the default Python-urllib one gets a
+  bare 403 that looks like an auth failure). A credit-metered gateway over 40
+  third-party providers plus ColdIQ's own products: 705 paths / 820
+  operations. **Full catalog, per-operation credit prices and the pinned spec
+  are in `docs/coldiq/`** (`catalog.md` to read, `catalog.json` for tooling,
+  `openapi.json` = the 2026-09-30 spec snapshot, `build_catalog.py`
+  regenerates the catalog offline). Rules:
+  - **Nothing is free except admin/billing reads.** Before any call, look up
+    its `x-credits-cost` in `docs/coldiq/openapi.json`; don't guess params
+    either (the Blitz lesson applies). Correction: the
+    `apollo/people/search` "preview" calls logged here on 2026-09-15 were
+    **not** free — 9.91 credits (~$0.14) per call, obfuscated rows included.
+  - **Check the balance first, free:** `GET /v1/me/credits` (1 credit =
+    $0.0143). On 2026-09-30: **1.72 credits left, 23,703 used this month** —
+    effectively empty; any paid call returns 402 until topped up.
+  - **Most relevant for LinkedIn-first sourcing** (details in catalog.md):
+    `POST /v1/people/search` and `/v1/companies/search` (ColdIQ's own
+    waterfall across AI Ark, Prospeo, Apollo, LinkUp, Lima Data, etc.,
+    charged on success, `max_credits` cap, 50 rows/request;
+    `similar_to_domains` routes company lookalikes to DiscoLike);
+    LeadsFactory Sales Navigator scraping (~0.35 cr per profile — the
+    cheapest LinkedIn URL per row); HarvestAPI and Lima Data searches.
+  - Several providers here (AI Ark, Prospeo, Exa, DiscoLike) are also keys
+    we hold directly — compare the direct price before routing through
+    ColdIQ. The Hunter/RocketReach/Saleshandy pages on coldiq.com are a
+    marketing directory, **not** tools reachable through this API.
+  - **Still not placed in the "Sourcing protocol" cost order** — ask the
+    user where it ranks before treating it as default-preferred.
 - **Clay public REST API** (`CLAY_API_KEY`, `api.clay.com/public/v0`,
   `clay-api-key` header — what listbuild uses, separate from the `mcp__Clay__*`
   MCP connection) — **confirmed working as of 2026-09-30** (`GET /me` returns
