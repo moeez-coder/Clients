@@ -52,6 +52,15 @@ Config UUIDs (all module `custom`, granularity `company`, refresh `static`):
   from its LinkedIn About or website (2,467 of 2,492 populated; the 193 gaps left by the
   source APIs were filled via ColdIQ `POST /v1/company/enrich` in batches of 50). Query,
   funnel and health warnings: `2026-09-17-combined-universe-companies.query.md`.
+- `sourcing/2026-10-02-combined-universe-sub11-companies.csv` — **4,114 micro companies
+  (1–10 employees)** that qualify on every ICP rule *except* the 11+ headcount floor. Same
+  four sourcing configs (UUIDs above), same 20-column schema as the 2026-09-17 universe,
+  `tier` = `micro-1-10`. Derived 2026-10-02 by re-running the 2026-09-17 qualifier over the
+  same 29,096-company pool with the `size<11` rule removed (no new API calls); with the
+  2,492 already delivered it makes 6,606 floor-free. Segment split: accountancy practices
+  3,765 / bureaus 164 / umbrella-contractor 138 / recruitment-umbrella 47; GB 3,796 / IE 318;
+  `icp_confidence` high 618 / medium 3,496. **Rule-based only — no verdicts, no prospects,
+  not sent to Clay.** Query and caveats: `2026-10-02-combined-universe-sub11-companies.query.md`.
 - `sourcing/2026-09-17-combined-universe-rejected.csv` — 26,604 rejected companies with the
   reason each failed (size, not-a-provider, geography, DNC, competitor, professional body,
   wealth manager, foreign TLD). Kept as the audit trail behind the number above, so a future
@@ -85,6 +94,14 @@ Company rows follow the equivalent company pattern via `company_linkedin_tag` + 
 
 ## History
 
+- **2026-10-02** — Repo owner asked to remove the headcount filter and list the companies it
+  had been excluding. Re-ran the 2026-09-17 rule-based qualifier over the same 29,096-company
+  pool with only `size<11` removed: 6,606 qualify = the 2,492 already delivered + **4,114 new**
+  micro companies, written to `sourcing/2026-10-02-combined-universe-sub11-companies.csv`
+  (expanding existing segments, no new segment). Reconciles to the 4,114 rows in the rejected
+  file whose sole reason was `size<11`. Zero API calls; Brain Payroll
+  `0a09f3c7-9a9b-4f57-bbec-e2fbf0dc6780`. Not qualified by the Tier-1/Tier-2 agents, no
+  prospects pulled, nothing pushed to Clay — those are separate decisions.
 - **2026-09-17** — Pulled the **decision-maker layer**: 2,056 prospects across 1,270
   companies (`sourcing/2026-09-17-combined-universe-leads.csv`), keyed by `linkedin_url` per
   the repo standard, via Prospeo `POST /search-person`. Two passes — payroll-title holders
