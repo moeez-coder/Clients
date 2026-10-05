@@ -87,12 +87,15 @@ Config UUIDs (all module `custom`, granularity `company`, refresh `static`):
   bureaus 114, umbrella/contractor 76, recruitment-umbrella 17. Produced by 36 LLM sub-agents
   over Tier-1 website evidence; see `qualifier-agent/README.md` for the method and what it
   caught.
+- `sourcing/2026-10-05-harvested-unique-companies.csv` — 17,039 rows, all four configs (Brain Payroll UK Limited `0a09f3c7-9a9b-4f57-bbec-e2fbf0dc6780`; config UUIDs as in the table above). Pre-qualification harvest: the original four-tool union (Blitz company search + Blitz jobs, EXA Websets, AI Ark `POST /v1/companies` lookalikes; 27,333 raw records) deduped on LinkedIn company URL, falling back to domain. Unqualified, no Prospeo/DiscoLike rows. Re-derived from saved raw files on 2026-10-05; see `.query.md`.
 
 Historical note: no `-leads.csv` existed — this is a company-level universe only; no prospect-level pull has been
 run for this client, so the `linkedin_url`-keyed leads standard does not apply to these files.
 Company rows follow the equivalent company pattern via `company_linkedin_tag` + `domain`.
 
 ## History
+
+- **2026-10-05** — Repo owner asked for the "17,039 unique companies" cited in the original qualification funnel. Rebuilt that exact set from the saved raw pulls (no new API calls) and wrote it to `sourcing/2026-10-05-harvested-unique-companies.csv` (17,039 rows; reconciles exactly). Expanding existing segments only as a reference export — nothing re-qualified or sent to Clay. Session: client session for brain-payroll.
 
 - **2026-10-02** — Repo owner asked to remove the headcount filter and list the companies it
   had been excluding. Re-ran the 2026-09-17 rule-based qualifier over the same 29,096-company
