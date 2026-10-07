@@ -37,3 +37,7 @@ Follows `2026-10-07-companies-wide.csv` (97,469 companies, see its `.query.md`).
 
 **Spend this stage:** EXA $13.59 (+$9.51 discovery in the wide stage) · Claude subagents for classification and extraction.
 Scripts: `2026-10-07-scripts/`.
+
+## DNC re-check (added 2026-10-07, after the repo owner uploaded the client's DNC file)
+
+The uploaded `vntana-dnc-list.csv` (21 rows) is **identical** to `tracking_clients.get_client` `dncList`. The first build dropped only **exact primary-domain** matches (3 rows), so related entities on other domains slipped through. A name + domain-brand re-check found **3 companies** in this file: *Peterson, an Astec Brand* (`petersoncorp.com`), *Doosan Industrial Vehicle America* (`doosanlift.com`), *Bobcat Portable Power SA* (`doosansa.co.za`). **No lead in `2026-10-07-leads.csv` belongs to them (0 contacts affected).** Corrected file: **`2026-10-07-companies-qualified-2.csv`** (1,664 rows); the original stays as the audit trail. The wide file is unfiltered by design (95 DNC-named rows, mostly Bobcat/Doosan dealers, which the classifier rejected as dealers). Lesson recorded: match DNC by company/brand name and domain-brand, not by exact domain alone.
