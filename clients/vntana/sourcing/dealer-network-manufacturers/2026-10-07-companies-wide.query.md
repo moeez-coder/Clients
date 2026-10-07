@@ -1,0 +1,35 @@
+# Query — 2026-10-07 companies snapshot, WIDE stage (dealer-network manufacturers)
+
+**Segment:** **new segment**, the first pull for this config.
+**tracking_clients config:** `Dealer-network manufacturers reviewed for inconsistent product imagery across 10 dealer sites`, UUID `4d4f021e-e85b-4ce9-8ec6-96bdf98870a3` (draft, 1 campaign, 0 companies in `tracking_clients` at pull time).
+**ICP:** `ebf6f79d-9a95-4912-b872-7d95b89bcc00` "Manufacturers with 50+ location dealer/distributor networks - channel marketing owners"; persona `d584cc62-e518-458a-abe9-6b229be69f84`.
+**Campaign this feeds:** "The Dealer Who Rebuilt Your Brand Badly" (campaign session `2a5ec07e-6fac-46e5-a6e4-8a0c6a3458d8`, HeyReach `637979`, status `creation`).
+**Why:** the repo owner asked to source this campaign and said **"go as wide as possible and then narrow down"**. This file is the *wide* stage: everything pulled, deduped, before any narrowing. The *narrow* stages (classification, dealer-count verification) get their own dated files; this one is the audit trail of what the wide net caught.
+
+**Who the campaign targets (from the config):** manufacturers selling through independent dealer, distributor or rep networks of **50+ locations**: construction & agricultural equipment, trailers, material handling, power equipment, HVAC, trucks & bodies. Used-equipment listings are excluded (a phone photo of the actual unit is correct there). In flow control and hydraulics the contact is the distributor-marketing or rep-program owner. Contacts: Director of Channel Marketing, Director of Dealer Marketing, Dealer Development Manager, Director of Marketing Communications, Co-op Marketing Manager.
+
+## Sources pulled (raw rows → deduped)
+
+| Tool | Endpoint | What was run | Raw rows |
+|---|---|---|---|
+| **Blitz API** | `POST /v2/search/companies` | 360 slices = 10 verticals/keyword groups × 6 employee bands (51-200 … 10001+) × 6 country groups (US; CA; GB/IE/AU/NZ; DE/FR/IT/ES/NL/BE/AT/CH; SE/DK/NO/FI/PL; MX/BR/ZA/IN/JP/KR/CN/TR). Industry-only slices (construction/ag/mining machinery; industrial machinery; power/electrical/engines; HVAC & refrigeration; valves), keyword slices (trailer/truck-body terms; power-equipment terms; HVAC terms; pump/valve/hydraulic terms) and a dealer-keyword slice (`dealer network`, `authorized dealers`, `dealer locator`, `find a dealer`, `independent dealers`, `manufacturers representatives`, …) across all the manufacturing industries. Paged to cursor-null or the 10,000 cap; **5 generic-machinery slices hit the cap**, so those are partial. | 133,132 |
+| **Prospeo API** | `POST https://api.prospeo.io/search-company` (header `X-KEY`) | 6 NAICS verticals (construction/ag 333120/333131/333111/333112; material handling 333924/333923/333922; vehicles/trailers 336212/336211/336120/336213/336214; power 335312/333618/333611/333992/333912/335311/335313; HVAC 333415/333414/333413; flow 333911/333914/333995/333996/332911/332912) × 8 headcount bands (51-100 … 10000+) × 24 countries, plus a `company_keywords` dealer-phrase × `company_industry` slice per band. **Note:** Prospeo's NAICS filter matches broad parent codes (e.g. all `333…`), so verticals overlap heavily; useful for revenue/NAICS/keyword fields, not as a vertical filter. ~1 credit per 25-company page. | 27,431 |
+| **DiscoLike API** | `GET https://api.discolike.com/v1/discover` (header `x-discolike-key`) | **`phrase_match` on the company's own site content**: `find a dealer`, `dealer locator`, `become a dealer`, `authorized dealers`, `authorised dealers`, `dealer network`, `dealer portal`, `dealer login`, `find a distributor`, `distributor locator`, `where to buy`, `find a rep`, `become a distributor`, `become an authorized dealer`. Categories MANUFACTURING (job-shop sub-industries negated), AUTOMOTIVE (dealership/repair/body/tire/detailing/towing negated), ENERGY, AGRICULTURE_AND_NATURAL_RESOURCES, MINING_AND_METALS, CONSTRUCTION × 5 country groups, `employee_range=51,`. Counts previewed free via `/v1/count` first. **First direct use of DiscoLike from a session.** | 8,096 |
+| **EXA** | `POST /search` | 104 queries (52 phrasings × with/without `category: company`), `numResults: 100`: per-vertical "manufacturer … sold through authorized dealer network / find a dealer / distributors / reps" phrasing for construction-ag, trailers & truck bodies, material handling, power equipment, HVAC, flow/hydraulics and specialty vehicles. 9,811 results → 4,854 unique non-directory domains → 1,080 already in the pool → 3,774 new → **3,325 resolved** to a LinkedIn company via Blitz `/v2/enrichment/domain-to-linkedin` + `/v2/enrichment/company`. | 3,325 net-new |
+| **AI Ark** | `POST /v1/companies` | **Not run. Blocked: every call returned `HTTP 402 "subscription past due"`** (billing on the AI Ark account). Not worked around. Re-run the keyword (WORD-mode on DESCRIPTION/SEO/KEYWORD) and lookalike steps once the subscription is paid. | 0 |
+| Previously sourced (repo) | n/a | The ~10,186 companies already in `clients/vntana/sourcing/**` were *not* re-pulled; they're only used to flag `prev_sourced_in_repo`. | n/a |
+
+**Deduped result: 97,469 unique companies** (96,949 with a company LinkedIn URL; keyed on LinkedIn URL, falling back to registrable domain). 7,604 were already in the repo (`prev_sourced_in_repo = yes`). Source overlap: 87,899 appear in one source, 8,530 in two, 912 in three, 128 in all four.
+
+**Spend:** Prospeo ≈1,166 credits (12,333 left of 13,499 on the PRO plan; renewal 2026-10-07 19:40 UTC), DiscoLike ≈$21.60 (a `GET /v1/usage` check showed month-to-date $4.69 → $26.28), EXA $9.51 for discovery. Blitz and the Blitz enrichment calls are flat-rate.
+
+## What the file contains
+
+`2026-10-07-companies-wide.csv`: one row per company. `dealer_signals` records which sources saw a dealer-network signal (`site_dealer_phrase(DiscoLike)` = the company's own site contains a dealer-locator / become-a-dealer phrase; `profile_text_dealer_network` = a regex hit on its LinkedIn/Prospeo/DiscoLike description; `matched_dealer_keyword_query`; `exa_discovery`). `rule_verticals` = which of six regex vertical patterns its text matched. **No descriptions are stored** (size); revenue is only present where Prospeo/DiscoLike supplied a band (sparse). Not vetted; this is the wide net and includes dealerships, distributors, rental firms and many non-targets by design.
+
+## Caveats
+
+- **Wide ≠ qualified.** 34,121 of the 97,469 match some vertical regex, but only ~1.9k match vertical + manufacturer + dealer-network evidence + not-a-dealer. The next stage is the narrowing.
+- DiscoLike's `site_dealer_phrase` is the strongest *dealer-network* signal here, but it flags car dealerships and parts retailers too (e.g. "Motor Vehicle Manufacturing" is mostly dealerships in Blitz/DiscoLike taxonomy, as the 2026-09-16 triage already found).
+- Blitz `total_results` is not trusted (per CLAUDE.md); counts above are rows actually returned.
+- Employee counts are LinkedIn headcounts; a 51-200 company is not automatically below the client's revenue floor.
