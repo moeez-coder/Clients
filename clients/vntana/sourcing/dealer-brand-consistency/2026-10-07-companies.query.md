@@ -1,5 +1,5 @@
 # Campaign 10 sourcing run — 2026-10-07
-Client VNTANA `5e0a22cf-6efb-432d-bc3c-6eb914440f13`; sourcing config `4d4f021e-e85b-4ce9-8ec6-96bdf98870a3` (campaign `2a5ec07e-6ad8-4e66-a759-8b23e8c2260c`). **Expanding existing segment** `dealer-brand-consistency` (adds US-wide + UK/EU to the 2026-09-28 US set). Contacts limited to US, UK and EU27 persons.
+Client VNTANA `5e0a22cf-6efb-432d-bc3c-6eb914440f13`; sourcing config `4d4f021e-e85b-4ce9-8ec6-96bdf98870a3` (campaign `2a5ec07e-6fac-46e5-a6e4-8a0c6a3458d8`). **Expanding existing segment** `dealer-brand-consistency` (adds US-wide + UK/EU to the 2026-09-28 US set). Contacts limited to US, UK and EU27 persons.
 
 ## Cut applied (repo owner had not picked a cut; this is the "independent-dealer or mixed channel" cut they asked about on 2026-10-02)
 A company qualifies when role = OEM and channel = independent_dealers or mixed.
