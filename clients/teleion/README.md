@@ -28,10 +28,11 @@
 
 ## Sourced data in this repo
 
-_None yet._
+- `clients/teleion/sourcing/fs-compliance-ops-signals-recheck/2026-10-12-companies.csv` — 1,654 rows (31 with a signal), Blitz API `POST /v2/jobs/company` (90-day job postings), pulled 2026-10-12. Spans three configs: BSA/AML (`d17cad6a-b9ee-4b07-91d5-8273c0e3dc6a`, P3), AI/Model Risk (`b3dd9cc8-7eab-4774-96d0-f5e2dc03aed3`, P5), BaaS/partnership (`41e54db9-f4f8-47b5-b976-72a2ac5ad09c`, P2). Query, rules and caveats in `2026-10-12-companies.query.md`; raw API responses in `2026-10-12-blitz-company-jobs-raw.jsonl.gz`.
 
 ## History
 
+- **2026-10-12** — Expanding existing segments (no new config-slug): re-checked the 1,666 not-yet-contacted accounts from the user's Clay export against the job-based signals P2/P3/P5 via Blitz Jobs API. Why: the 152 signalled accounts in that export were already contacted, so the next call list has to come from the rest. Result: 31 accounts with a signal (26 P3-only, 3 P5-only, 1 P2-only, 1 P3+P5), none above tier B. P1 (enforcement) and P4 (SEC filings) not yet run; DNC match not yet run. TAM/SAM read: small pool (about 1,650 accounts in the 201-5,000 band), so contacts-per-company depth deferred — user is sourcing people and phones separately. — session `moeez-coder/Clients`, branch `claude/charming-brahmagupta-a5ccvz`.
 - **2026-10-12** — Session started for Teleion (client `5072d422-da5b-44db-adab-b5c2f8d67a2f`); re-pulled `get_client` + `list_sourcing_configs`: no drift (still 11 draft configs, 0 companies sourced). User supplied a Clay export of 1,860 FS target accounts with signals (P1–P5) to analyze for cold-caller prospecting; analysis only so far, nothing sourced or stored yet. — session `moeez-coder/Clients`, branch `claude/charming-brahmagupta-a5ccvz`.
 - **2026-09-15** — Initialized session for Teleion; resynced Profile + Sourcing configs table from `tracking_clients` (`get_client`, `list_sourcing_configs`). Sourcing configs grew from 6 to 11 rows since the last snapshot in this repo (5 new Financial Services Compliance Ops segments added 2026-09-11) — table updated to match. No CSVs pulled yet. — session `moeez-coder/Clients` orchestrator, branch `claude/busy-meitner-kix5ao`.
 
