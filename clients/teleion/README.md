@@ -8,7 +8,7 @@
 - **Contact:** ryan@teleion.com
 - **Slack channel ID:** C0BRE4T0W1X
 - **Tracking client ID:** `5072d422-da5b-44db-adab-b5c2f8d67a2f`
-- **Last synced:** 2026-09-15 via get_client + list_sourcing_configs
+- **Last synced:** 2026-10-12 via get_client + list_sourcing_configs
 
 ## Sourcing configs
 
@@ -32,5 +32,6 @@ _None yet._
 
 ## History
 
+- **2026-10-12** — Session started for Teleion (client `5072d422-da5b-44db-adab-b5c2f8d67a2f`); re-pulled `get_client` + `list_sourcing_configs`: no drift (still 11 draft configs, 0 companies sourced). User supplied a Clay export of 1,860 FS target accounts with signals (P1–P5) to analyze for cold-caller prospecting; analysis only so far, nothing sourced or stored yet. — session `moeez-coder/Clients`, branch `claude/charming-brahmagupta-a5ccvz`.
 - **2026-09-15** — Initialized session for Teleion; resynced Profile + Sourcing configs table from `tracking_clients` (`get_client`, `list_sourcing_configs`). Sourcing configs grew from 6 to 11 rows since the last snapshot in this repo (5 new Financial Services Compliance Ops segments added 2026-09-11) — table updated to match. No CSVs pulled yet. — session `moeez-coder/Clients` orchestrator, branch `claude/busy-meitner-kix5ao`.
 
