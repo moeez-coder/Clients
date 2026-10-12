@@ -28,7 +28,9 @@
 
 ## Sourced data in this repo
 
-_No CSV snapshots yet. TAM estimate below is a scoping figure (company counts only), not a sourcing pull — no `-companies.csv`/`-leads.csv` produced._
+- `sourcing/ticket-case-volume-growth-flat-ops-headcount/2026-10-12-companies.csv` — 11,744 rows (4,957 qualified / 6,787 disqualified); config "1,000+ employee tech/financial services/healthcare firms showing ticket & case volume growth without ops hiring" (`bfac7bb6-4f3a-48d9-af47-2c850f1aa866`); input Clay export screened with Blitz API `/v2/company/tam-by-jobs` hiring signals + rules; pulled 2026-10-12. Query/rules: `2026-10-12-companies.query.md`.
+
+_The TAM table below is a scoping figure only (company counts), not a sourcing pull._
 
 ## TAM estimate (free tools) — 2026-09-15
 
@@ -56,6 +58,7 @@ All queries scoped to `hq.country_code`/`job.location.country_code` = `US`. This
 
 ## History
 
+- **2026-10-12** — Qualified the 11,744-company Clay export against "growing ticket/case/alert volume, flat or shrinking ops headcount" (new segment). Blitz hiring data + description rules: 4,957 qualified, 6,787 disqualified; ticket-volume growth and headcount trend not directly verifiable (see query.md). Note: Blitz renamed `company.employee_range` to `company.employee_count {min,max}` since the 2026-09-15 TAM run; those TAM queries would need updating to re-run. — session `moeez-coder/Clients`, branch `claude/busy-meitner-kix5ao`.
 - **2026-09-15** — Initialized session for Teleion; resynced Profile + Sourcing configs table from `tracking_clients` (`get_client`, `list_sourcing_configs`). Sourcing configs grew from 6 to 11 rows since the last snapshot in this repo (5 new Financial Services Compliance Ops segments added 2026-09-11) — table updated to match. No CSVs pulled yet. — session `moeez-coder/Clients` orchestrator, branch `claude/busy-meitner-kix5ao`.
 - **2026-09-15** — Ran a free-tools TAM scoping pass across all 11 sourcing configs using Blitz API (`/v2/company/tam-by-jobs` for the 5 hiring-signal configs, `/v2/search/companies` for the 6 firmographic configs). Results in "TAM estimate" above. This is a firmographic/keyword base count to size the sourcing pools, not a qualified account list — no CSV produced, no company_count updated in `tracking_clients`. — session `moeez-coder/Clients` orchestrator, branch `claude/busy-meitner-kix5ao`.
 
