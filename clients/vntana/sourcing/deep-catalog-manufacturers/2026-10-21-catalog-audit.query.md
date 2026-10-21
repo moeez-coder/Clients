@@ -7,11 +7,11 @@ Config `82d47d88-32b2-4dd8-8307-b12ac530aaf7`, campaign 6. **Expanding existing 
 ## Result (1,000 companies)
 - Auditable: 670 ok (67%); 236 unreachable (123 connection errors, 88 HTTP 403, rest 429/5xx); 83 no sitemap and no product links; 11 product pages unfetchable.
 - Sitemap found: 618; product-like URLs found: 398; **146 with >=1,000 product-like URLs** (independent confirmation of catalog size).
-- Placeholder image seen on a sampled product page: 42 raw, **36 after removing false positives** (about 5% of auditable sites). Real examples: Bosch Rexroth, LEMO, ABB, Stanley Engineered Fastening, Basler, Sunnen, Deublin, Power Packer, Peer Chain, MacPanel.
+- Placeholder image seen on a sampled product page: 42 raw, **33 after removing false positives** (about 5% of auditable sites). Real examples: Bosch Rexroth, LEMO, ABB, Stanley Engineered Fastening, Basler, Sunnen, Deublin, Power Packer, Peer Chain, MacPanel.
 - CAD/3D text on page: 253; configurator text: 172; platform fingerprinted: 361 (WordPress 255, WooCommerce 122, Cadenas 36, Sitecore 24, TraceParts 18, 3D viewer 16, Magento 14, SAP Commerce 12, Shopify 12, Salsify 9).
 
 ## Caveats
 - A 6-page random sample misses a placeholder rate under ~15%: **absence of a hit is not evidence of no gap**, and no total `{number}` can be derived from this. Needs a deeper per-site crawl (hundreds of pages) for the subset worth it.
 - No JS rendering: JS-built catalogs show few images; bot-blocked sites (403) are unaudited.
 - `shared_image_pages` is noise (74 of 150 flagged have 6 of 6 identical og:image, i.e. a logo). Do not use.
-- Some placeholder hits are plugin or lazy-load assets; `placeholder_clean` filters the common ones but not all (e.g. Stanadyne's hit was an Instagram-feed plugin image, removed only if "instagram" is in the URL, which it is).
+- Some placeholder hits are plugin or lazy-load assets; `placeholder_clean` filters the common ones but not all (e.g. a Sitecore or WordPress default asset that is not shown on the live product card).

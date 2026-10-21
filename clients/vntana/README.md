@@ -98,7 +98,7 @@ Per CLAUDE.md's per-client campaign build standard, VNTANA has run the HeyReach 
 
 ## History
 
-- **2026-10-21** — Owner asked to sample all 1,000 for personalisation. Ran a light site audit: 670 auditable, 146 confirm >=1,000 product URLs in sitemap, ~36 show a real placeholder image in a 6-page sample. Conclusion: sitemap size and platform/CAD signals are broad; the image-gap `{number}` needs a deeper crawl of a chosen subset. Orchestrator session.
+- **2026-10-21** — Owner asked to sample all 1,000 for personalisation. Ran a light site audit: 670 auditable, 146 confirm >=1,000 product URLs in sitemap, ~33 show a real placeholder image in a 6-page sample. Conclusion: sitemap size and platform/CAD signals are broad; the image-gap `{number}` needs a deeper crawl of a chosen subset. Orchestrator session.
 
 - **2026-10-21** — Owner asked for the campaign 6 list as a round 1,000. Wrote `2026-10-21-companies-qualified-2.csv` (first 1,000 rows of the tiered file, dropping the 105 lowest-confidence L4 rows) rather than overwriting the 1,105 file. Orchestrator session.
 
