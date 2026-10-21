@@ -1,0 +1,373 @@
+heyreach_list,linkedin_url,first_name,last_name,company_name,position,sku,flags
+Offer1_1049528,https://www.linkedin.com/in/chris-kolivoski-69176310,Chris,Kolivoski,FCI,"Director, Advanced Product Development",523,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/miles-wilson-999090244,Miles,Wilson,-,-,1591,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/leonard-crane-a360b616,Leonard,Crane,-,-,1184,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/richbushnell,Richard,Bushnell,GE,"Director, Business Development",350,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/steve-fiondella-923a457,Steve,Fiondella,Norgren,vp  engineering& business development,4587,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/mark-lehnert-593a7421a,Mark,Lehnert,"Stanley Black & Decker, Inc.",-,4449,null_position
+Offer1_1049528,https://www.linkedin.com/in/kevin-alberts-93aa0358,Kevin,Alberts,-,-,16358,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/shibaozhang-66690615,Shibao,Zhang,-,-,180335,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/tom-leonard-96826a34,Tom,Leonard,"LevitonManufacturing Company, Inc.","Senior Director, Marketing & Product Management",19869,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/mikethiems,Michael,Thiems,Basler,Director of Product and Design Cybersecurity,1670,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer1_1049528,https://www.linkedin.com/in/mark-shellenbarger-35124210,Mark,Shellenbarger,Norgren,Global VP Business Development,4587,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/terry-turney-3784b114,Terry,Turney,FCI,Global Marketing Director,523,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/hisashi-matsushima-4ba46570,Hisashi,Matsushima,-,-,978,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/porzia-quinn-53440133,Porzia,Quinn,ITT Inc.,Executive Dir & HR Business Partner,350,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer1_1049528,https://www.linkedin.com/in/shinji-sato-2a601a212,Shinji,Sato,KEYENCE CORPORATION,-,15928,null_position
+Offer1_1049528,https://www.linkedin.com/in/joseph-primeau-556bb28,Joseph,Primeau,-,-,88,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/ryan-stone-6b60401a,Ryan,Stone,-,-,350,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/jeff-arnold-a000262a,Jeff,Arnold,Grayhill,Business Unit Leader - Military Solutions at Grayhill,249,aerospace_defense_title
+Offer1_1049528,https://www.linkedin.com/in/chandler-duchaine-800889b0,Chandler,Duchaine,-,-,4449,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/mike-turner-843b786,Mike,Turner,Retired,Regional Business Director- Midwest,10000,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/mark-heflin-3282899b,Mark,Heflin,Water Systems Council,President,350,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/david-brooksbank-4aa85941,David.,Brooksbank,Altra Industrial Motion,Director of Marketing,1060,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/david-lepine-191b055,David,LePine,-,-,315,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/martin-cornes-79b316,Martin,Cornes,Self-employed,"Director, Product Management and Architecture",4445,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/judy-olivarez-387b00b,Judy,Olivarez,SPC,"EVP Sales Operations, Product Management",1184,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/mason-doan-55346541,Mason,Doan,Premium Guard Inc. (PGI),Director of Product Management,1526,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/tom-laguardia-2b393448,Tom,LaGuardia,Milwaukee Valve,VP Marketing,5846,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/brent-protzman-9756124b,Brent,Protzman,-,-,1591,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/sevsadura,Sev,Sadura,Belden Inc.,Platform VP Product Management - Enterprise Solutions,16358,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/louis-f-ventura-a81053b,Louis F.,Ventura,CIO Advisory Services,Independent Consultant,52,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/sallianne-williams-11243928,Sallianne,Williams,United States Steel Corporation,Director Customer Experience,52,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/alessandrorenzi,Alessandro,Renzi,ESAB,"Global MarCom, Digital Strategy Director",5439,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/chad-heimlich-9a64311a5,Chad,Heimlich,-,-,1000,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/ronsing,Ron,"Sing, MBA",Enerpac Tool Group,Vice President Global Marketing,1840,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/jonathan-prouty-b14ab210,Jonathan,Prouty,Amphenol Aerospace,Business Development Director,392,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/mark-thomas-444a2a2,Mark,Thomas,Spectrum Control,Program and Product Line Director,363,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/matt-fitzgerald-a9977a8,Matt,Fitzgerald,ITW,Commercial Director,6560,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/michael-demaria-9b90484,Michael,DeMaria,Fluke Corporation,"Director, Product Managment",3462,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/wrsetzer,Bill,Setzer,Times Microwave Systems,Business Unit Director,1184,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/lourdes-robles-b873b98,Lourdes,Robles,"First Brands Group, LLC",Vice President of Sales - Aftermarket | Commercial Leadership,1526,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/todd-theurer-4a633914,Todd,Theurer,"Campbell Scientific, Inc.",Director Product Operations,1896,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/kalpanatatineni,Kalpana,Tatineni,"Stanley Black & Decker, Inc.","Director IT, Business applications",4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/robert-willoughby-a35b5a25,Robert,Willoughby,KEMET Electronics Corporation,"Executive Vice President, Solid Capacitor Business Group",1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/maggie-kelley-59320baa,Maggie,Kelley,Milwaukee Tool,Vice President - Channel Marketing,11740,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/victoria-alia-b0837a58,Victoria,Alia,Rockwell Automation,"Vice President and General Manager, Autonomous Mobile Robot (AMR) Business",4980,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/lindsey-riner-5a524915,Lindsey,Riner,Acuity Brands,"Vice President, Marketing Operations and Creative Services",1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/simran-k-48b45241,Simran,K.,Acuity,Senior Director of AIS Cloud Marketing @ Acuity Intelligent Spaces,1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/matt-geissler-95b64916,Matt,Geissler,Deublin Company,Marketing Director,2304,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/marci-donnelly-26aaa722,Marci,Donnelly,Hilti North America,Director of Strategic Business,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/tony-gineris-a6265316b,Tony,Gineris,-,-,1591,in_both_lists; null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/david-keller-83ba471,David,Keller,Leviton,"Vice President, e-Business Marketing and Sales and Corporate Pricing",19869,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/ryan-latchman-30a3072,Ryan,Latchman,MACOM,Vice President HPC Product Marketing,8979,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/mark-lane-92bb207,Mark,Lane,Acuity,Vice President of Product Management - Controls,1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/brian-altenberger-91128914,Brian,Altenberger,TI Automotive,Aftermarket Business Director - Americas,228,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/matthew-vargo-79032834,Matthew,Vargo,Milwaukee Tool,VP of Product Marketing,11740,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/brandon-scarbel-a2a616100,Brandon,Scarbel,STANLEY Engineered Fastening,Director of Product Management - Powertools,6560,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/lloyd-falshaw-626bb79,Lloyd,Falshaw,Hilti North America,Director Of Business Development,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/meganbass,Megan Creason,Bass,Rockwell Automation,Global Director Business Operations,4980,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/brad-thomas-369a1a71,Brad,Thomas,SICK Sensor Intelligence,"Director, Market Product Management",2285,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/aparna-ruikar-50172820,Aparna,Ruikar,Diodes Incorporated,Director of Global Business Applications,28000,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/stephen-martin-boston,Stephen,Martin,Spectrum Control,Director of Marketing,363,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/patricknijsters,Patrick,Nijsters,Molex,"Senior Director Product Marketing - Enterprise Solutions, Highspeed Copper",16358,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/shawnfarley,Shawn,Farley,SICK Sensor Intelligence,"Director, Market Product Management, Services",2285,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/erich-kreuter-0238321,Erich,Kreuter,"KMC Controls, Inc.",VP of Product Development,1184,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/brwirth,Brian,Wirth,Amphenol Sensors,Director Global Sales and Marketing,1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/bryant-holt-6494261b,Bryant,Holt,Velan Inc.,"Executive Vice President, MRO Business",350,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/ashley-young-mba-5518722a,Ashley,Young,Hilti North America,Director of Customer Engagement & Strategic Business,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/cathyhuang,Cathy,H.,ITT Inc.,"Executive Director, Strategy and Business Development",350,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/kris-zabel-6020918,Kris,Zabel,Turck USA,Director of Marketing Communications,1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/stephanie-m-carter-191a508b,Stephanie M.,Carter,"Warren Rupp, Inc.",Director of Product Management,1000,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/ryan-smart-4665a8107,Ryan,Smart,Harwin,Head of Strategic Partnerships,6912,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/bradragozzino,Brad,Ragozzino,Banner Engineering,Vice President Product and Program Management - Sensors and Safety,10000,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/jordan-blockcolski-483555b,Jordan,Blockcolski,Hilti North America,Director of Strategic Business,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/aravind-venkatasubramanian-206265b,Aravind,Venkatasubramanian,"Serta Simmons Bedding, LLC",Senior Director of IT Ecommerce,4449,in_both_lists; company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/david-scelsi-b016b66,David,Scelsi,T&S Brass,-,1337,in_both_lists; null_position
+Offer1_1049528,https://www.linkedin.com/in/sandy-stoffel-56580aa,Sandy,Stoffel,Phillips & Temro Industries,Director Marketing and Customer Care,1000,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/stephen-madill-34887760,Stephen,Madill,Nichols Portland,Executive Vice President of Sales & Marketing,276,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/deepakshukkla,Deepak,S.,Gates Corporation,"Director, Global Digital Solutions and Shared Services",1060,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/chriskapuscinski,Chris,MBA,-,-,16358,in_both_lists; null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/marc-chernoff-1131991,Marc,Chernoff,John Crane,Director of Strategy and Business Development,6560,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/larry-horton-b1278523,Larry,Horton,SKF Group,Vice President Aftermarket Sales North America,286162,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/kellywigginton,Kelly,Wigginton,Bel Fuse Inc.,Sr. Director of Marketing,4000,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/matt-petti-4314342b,Matt,Petti,Gates Corporation,"Director, Global Product Line Management",1060,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/kelly-schachenman-b4565520,Kelly,Schachenman,Rockwell Automation,"Portfolio & Business Director, Industrial Components Business",4980,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/emily-yang-153a69,Emily,Yang,Diodes Incorporated,"Sr. Vice President, WW Sales & Marketing",28000,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/tylerfsterner,Tyler,Sterner,Graco,Director of Global Product Management,29707,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/shanari-baird,Shanari,Baird,Same Sky,VP of Marketing,2144,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/kamatala-srikanth-4a603a5,Kamatala,Srikanth,Klein Tools,Director Business Intelligence,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/jshoynes,Jennifer,Salera Hoynes,Ashcroft Inc.,Global Marketing Director,315,in_both_lists; already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/jeffreykemnitz,Jeffrey,Kemnitz,Wiha Tools USA,Director of Ecommerce,3833,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/todd-plajzer-484b6859,Todd,Plajzer,-,-,4449,in_both_lists; null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/randymortensenrcdd,Randy,"Mortensen, RCDD",Leviton,EVP Global Sales & Marketing,19869,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/sebastianschneidergermany,Sebastian,S.,KYOCERA AVX Components Corporation,"Vice President Sales & Marketing, Connector Segment",978,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/haresh-ghansyam-523a666,Haresh,Ghansyam,"Stanley Black & Decker, Inc.",VP of Engineering & Technology|Product Management|Digital,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/arikka-hall-54ba5412,Arikka,Hall,Fluke Corporation,"Director, Commercial Marketing & Enablement",3462,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/meredith-sobieck,Meredith,"Sobieck, MBA",Graco,Brand and Product Public Relations Leader,29707,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/nick-costanzo-59617626,Nick,Costanzo,Techtronic Industries - TTI,Vice President of Product Management and Engineering,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/salvador-ibarra-b9b39a,Salvador,Ibarra,SKF Group,Global Director Business Development Off Highway Business Unit,286162,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/rj-gates-aba41856,RJ,Gates,Franklin Electric,Senior Director Global Product - Large Centrifugal Pumping,350,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/biren-patel3,Biren,Patel,maxon USA,Head of Business Development - USA,1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/amandamcsherry325,Amanda,McSherry,Techtronic Industries - TTI,Sr. Director of Brand Marketing,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/matt-sallee-1986ba12,Matt,Sallee,"Stanley Black & Decker, Inc.",Sr. Director of Product Management - Automotive Hand Tools & Storage,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/angelawallace1,Angie,"Wallace, MBA",Enerpac Tool Group,"Product Line Director, Pumps & Cylinders",1840,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/matt-fuss-b17b402,Matt,Fuss,"Bison®, An AMETEK® Business","Division Vice President, Business Unit Manager",900,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/andrewschenone,Andrew,Schenone,MacLean-Fogg Company,Director of IT Business Systems,6560,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/rscottmadison,Scott,Madison,Zoeller Company,Digital Marketing Director,219,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/kevin-waring-a29b19a6,Kevin,Waring,ASSA ABLOY Opening Solutions Americas,Director of Business Development - ASSA ABLOY ACCENTRA,1526,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/robertstoner,Robert,Stoner,S&C Electric Company,Director - Product Support & Technical Marketing,128,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/ashley-a-pearson,Ashley,Pearson,Hubbell Incorporated,"Vice President, Product Management and New Growth Initiatives",180335,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/steve-peters-735384,Steve,Peters,MACOM,"Director, New Product Introduction, RF Power BU",8979,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/paul-lemens-0a844a3,Paul,Lemens,Graco,Director Of Business Development | Global Manufacturing Partnerships,29707,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/beth-liptak-7998a41,Beth,Liptak,Dayton Lamina Corporation,Senior Director of Customer Service and Product Management,21840,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/kimon-symeonidis-1799271b,Kimon,Symeonidis,Victaulic,Director of Product Development,500,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/david-veprek-aa41725,David,Veprek,"Stanley Black & Decker, Inc.","Vice President of Channel Marketing , Commercial & Industrial",4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/jamal-smith-5b401779,Jamal,"Smith, MBA",Acuity,Director of Product Management,1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/steven-hoppa-7840993b,Steven,Hoppa,Techtronic Industries - TTI,Sr. Director of Product Management,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/sarah-ashe-433985140,Sarah,Ashe,Acuity,"Director Product Management, AI & Business Transformation",1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/alex-wiegmann-70131666,Alex,Wiegmann,Nidec Motor Corporation,Director of Marketing,934,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/brian-everhart-498125111,Brian,Everhart,"Stanley Black & Decker, Inc.",Senior Director of Channel Marketing,4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/darren-tolsma-04855435,Darren,Tolsma,ITT Inc.,Executive Director - Product Design Engineering,350,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/alex-p-45818a40,Alex,P.,KEYENCE CORPORATION,"Director, Marketing & Strategic Business Development",15928,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/alexandravpetrov,Alexandra,"Petrov, MBA","First Brands Group, LLC",Global Director - Digital Marketing & Media,1526,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/mario-d-ambrosio-24278190,Mario,D'Ambrosio,Victaulic Company,Chief Information Officer,500,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/kellysadler19,Kelly,Sadler,Sensata Technologies,"Vice President & General Manager, Aftermarket",1910,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/ralph-bright-mba-6402823,Ralph,"Bright, MBA",Tassel Ridge Winery,Vice President Marketing,1000000,in_both_lists; company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/kevin-parsons-a64520a,Kevin,Parsons,Molex,"Director, Business Systems & Processes",16358,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/david-zizzi-675a41,David,Zizzi,Acuity Brands,VP Outsourced Product Development,1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/tammie-scadden-1a48155,Tammie,Scadden,Franklin Electric,"Vice President, Global Marketing",350,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/deb-anderson-a200333b,Deb,Anderson,"Webster Industries, Inc.",Chief Information Officer,61,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/tim-wells-20643b4,Tim,Wells,SPX,VP of Global Business Development and Marketing,431,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/freddie-giddens-17568551,Freddie,Giddens,Acuity Brands,Business Process Improvement Consulting Director,1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/alberto-bertomeu-7438b710,Alberto,Bertomeu,Datalogic,VP Industrial Automation & GM Global ID & Systems Business,1591,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/jeff-sousa,Jeff,Sousa,Diablo/Freud Tools,Chief Information Officer,3896,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/ryan-johnson-0b37a063,Ryan,Johnson,Saint-Gobain Abrasives,"Director, Technical Business Development",4449,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/william-randall-07860530,William,Randall,-,-,19869,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/steve-hepner-315b81215,Steve,Hepner,Schneider Electric,EcoXpert Partner Sales Manager,19869,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/elia-carreno,Elia,C.,John Crane,Regional Marketing Director for North America,6560,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/jodi-marose-mba-4b0b4b5,Jodi,"Marose, MBA",Enerpac Tool Group,"Director of Marketing, Commercial Americas",1840,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/sandeepkalelkar,Sandeep,Kalelkar,NeuPathiX,Director of Marketing and Product Management,6560,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/kristin-l-evans,Kristin,Evans,SSP ,VP of Marketing,89,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/kristin-breakell-7aa88474,Kristin,Breakell,Optical Cable Corporation,"Vice President, HR Strategies and Marketing",270,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer1_1049528,https://www.linkedin.com/in/lynne-k-0949483,Lynne,Knittel,Barnes Group Inc.,"Director, Global Benefits & HR Digital Solutions",6560,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer1_1049528,https://www.linkedin.com/in/davidmkrafft,David,MBA,HydraForce Inc. ,Marketing and Communication Director,1228,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/kate-jones-sphr-88140b7,Kate Perry,"Jones, SPHR","Stanley Black & Decker, Inc.",Vice President DEWALT Human Resources,4449,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer1_1049528,https://www.linkedin.com/in/troy-kaster-5aa7961,Troy,Kaster,Penguin Solutions,"VP of Global Partners, Alliances, and Strategic Business Development",4445,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/dan-walsh-8b229514,Dan,Walsh,Vantage Elevation,Director of Marketing And Communications,1591,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/dan-colvin-01b2a27,Dan,Colvin,ESAB,Vice President of Robotics and Digital Solutions ,5439,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/erichollister,Eric,Hollister,STANLEY Engineered Fastening,Director Global Product Management,6560,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/jay-campbell-2861488,Jay,Campbell,EIS,Product Manager,286162,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/patrick-mcquillan-a5182012,Patrick,McQuillan,Techtronic Industries - TTI,Senior Vice President of Sales,11740,sku_mismatch(file=4449)
+Offer1_1049528,https://www.linkedin.com/in/jay-stacey,Jay,Stacey,-,-,4980,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/rapko-angela,Angela,Rapko,-,-,4980,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/williamstutz,Billy,"Stutz, MBA",Zoeller Company,Chief Marketing Officer,219,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/john-stanko,John,Stanko,-,-,4449,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/jim-small-a7643ab,Jim,Small,Kito Crosby,Vice President Sales and Marketing Harrington,1526,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/christopheri-cannon,Chris,Cannon,"Stanley Black & Decker, Inc.",-,4449,null_position
+Offer1_1049528,https://www.linkedin.com/in/travis-bradley-trb40,Travis,Bradley,-,-,350,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/akshay-rajeev-18a3276,Akshay,Rajeev,-,-,52,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/craig-lawson-20b1011b,Craig,Lawson,CONNECTOR MANUFACTURING COMPANY,Director Sales and Marketing ,180335,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/ron-pound-189b6113,Ron,Pound,Reliable Safety & Flow Corporation,Senior Vice President,1840,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/jeff-l-9314064,Jeff,Little,Aclara,"Director, Software Product Management",180335,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/jeremy-hayes-160b8577,Jeremy,Hayes,Senstar,Vice President of Sales North America & Latam ,1591,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/jonny-minder-16561b73,Jonny,Minder,Mott Corporation,Senior Director Business Development - Space Programs,86,aerospace_defense_title
+Offer1_1049528,https://www.linkedin.com/in/tyler-murphey-526b28a7,Tyler,Murphey,-,-,4449,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/dan-goncalves-5929125,Dan,Goncalves,-,-,1910,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/chris-gotwald-51b71b5,Chris,Gotwald,-,-,1069,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/kate-smith-5b208566,Kate,Smith,Porvair Filtration Group,Head of Marketing - Porvair Aerospace and Industrial,276,aerospace_defense_title
+Offer1_1049528,https://www.linkedin.com/in/jason-dengler-1880672a,Jason,Dengler,"Stanley Black & Decker, Inc.",-,4449,null_position
+Offer1_1049528,https://www.linkedin.com/in/charles-starrett-9836ba62,Charles,Starrett,The L.S. Starrett Company,Director of Product Management,4449,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/john-h-1a772b6,John,H.,SMC,Director of Marketing,5356,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/silvija-papka-295a073,Silvija,Papka,Snap-on Incorporated,"Director, Strategic Programs & Marketing",80000,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/dereksmassey,Derek,Massey,PXL Graphics LLC,Creative Director & Co-Founder,234,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/jacobhaas,Jacob,Haas,Pexco,Chief Commercial Officer (CCO),371,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/rhonda-gass-4ba1861,Rhonda,Gass,W. P. Carey Inc.,Board Member,4449,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/greg-zimmerman-b050992,Greg,Zimmerman,-,-,286162,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/noah-daniels-0a0b911,Noah,Daniels,Simpson Strong-Tie,SVP Digital Solutions - Product and Market,1562,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/agnes-tuttle-16825116,Agnes,Tuttle,Red Rocks Credit Union,Board Member & Chair of Compensation Committee,1060,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/arashbazrafshan,Arash,Bazrafshan,Mott Corporation,Director of Business Development - Defense Programs,86,aerospace_defense_title
+Offer1_1049528,https://www.linkedin.com/in/steve-klein-61128824,Steve,Klein,-,-,1591,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/james-r-demers-044a3a14,James,Demers,Molex,Vice President Business Development - Aerospace & Defense,16358,aerospace_defense_title
+Offer1_1049528,https://www.linkedin.com/in/alyssa-miszkiewicz-hernandez-cpa-a5211a22,Alyssa,"Miszkiewicz (Hernandez), CPA",-,-,1910,null_company_name(fallback message would send); null_position
+Offer1_1049528,https://www.linkedin.com/in/marty-heyen-45b4744,Marty,Heyen,Spraying Systems Co.,"Director of Marketing, TeeJet Technologies",1089,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/georgianne-dickey-38136046,Georgianne,Dickey,NTN Bearing Corporation,Director of Marketing,39000,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/jillianswift,Jillian,Swift,Pentair,Chief Marketing Officer Pool,1069,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/andrewmcknight,Andy,"McKnight, MBA",Simpson Strong-Tie,"Vice President, Platform Engineering and Digital R&D",1562,already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/elizabeth-minehart,Elizabeth,"Minehart, PMP",Mimi and Philip Designs,Small Business Owner,1591,company_name_not_matching_sku_source(person may have moved); already_in_earlier_repo_leads_file
+Offer1_1049528,https://www.linkedin.com/in/erich-loacker-8384b16,Erich,Loacker,"Diamond-Roltran, LLC",Managing Director,2304,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/brent-peterman-7341726a,Brent,Peterman,Retired,Retired & exploring the world,523,company_name_not_matching_sku_source(person may have moved)
+Offer1_1049528,https://www.linkedin.com/in/sean-kane-b2966923,Sean,Kane,Mott Corporation,"GM, Aerospace & Defense and VP, Business Development",86,aerospace_defense_title
+Offer1_1049528,https://www.linkedin.com/in/al-ryding-808ba634,Al,Ryding,Wright Tool,Vice President Of Business Development,698,in_both_lists
+Offer1_1049528,https://www.linkedin.com/in/kyle-harkema-dba,Kyle,MBA,KMC Controls,Chief Marketing Officer,1184,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/james-kang-461540105,James,Kang,-,-,700,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/jay-sofianek-b170881a4,Jay,Sofianek,-,-,168,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/johnny-chang-285a9316,Johnny,Chang,-,-,1591,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/tgrunbeck,Thomas,Grunbeck,"Advent Aircraft Systems, Inc. Tulsa OK","Group Director, Strategic Business Development",6560,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/amy-morissette-38369910,Amy,Morissette,Dayton Superior,"Director, Environmental Health & Safety",4449,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/joyce-gregory-b4349a6a,Joyce,Gregory,Wilden,Product Assurance Director,350,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/steve-egleston-3401b310,Steve,Egleston,"Flexfab, LLC",Business Unit Director - Aerospace,276,aerospace_defense_title
+Offer2_1049529,https://www.linkedin.com/in/hmanne,HimaBindu,Manne,Terabase Energy,Sr. Director SCADA Product Engineering,128,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/taylor-gledhill-453807112,Taylor,Gledhill,Blue-White Industries,Vice President Marketing,651,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/jidavid,Jim,David,Business,Global product portfolio director,1591,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/george-basel-2a918515,George,Basel,"U.S. Tsubaki Power Transmission, LLC",Director of Marketing & Product Management,488,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/lisa-hall-13642242,Lisa,Hall,Milwaukee Valve,-,5846,null_position
+Offer2_1049529,https://www.linkedin.com/in/boyd-miller-0681bb5,Boyd,Miller,Rexnord,Director of Marketing,94763,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/sheila-schnoor-345b7213,Sheila,Schnoor,-,-,1060,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/ed-bishop-60719269,Ed,Bishop,Franklin Electric,Marketing Director,350,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/jonathan-andersen-2416bb7,Jonathan,Andersen,-,-,80000,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/dave-schaar-02747711,Dave,Schaar,SPX Service Solutions,Director of Marketing,431,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/david-brooksbank-10380211,David,Brooksbank,Altra Industrial Motion,Director of Marketing,1060,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/brian-lacy-00b7b04,Brian,Lacy,IMI,Director of Marketing,1800,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/chris-blatherwick-680b385,Chris,Blatherwick,-,-,315,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/abelardo-afable-1b62301b,Abelardo,Afable,"Milton Industries, Inc.",Director Of Business Development Defense & Aerospace/ Gauges,1750,aerospace_defense_title
+Offer2_1049529,https://www.linkedin.com/in/mike-gentile-487bb52a,Mike,Gentile,Froedtert South,Chairman of the Board of Directors,80000,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/daniel-milam-1bb236158,Daniel,Milam,Renold PLC,Director of Marketing And Product Management,538,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/ignacio-garcia-herrera-aa313668,Ignacio,Garcia Herrera,TI Fluid Systems,Business Unit Director,228,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/darrengreene10,Darren,Greene,DESTACO,"Global Director, Marketing Communications and Digital Transformation",30862,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/david-hedstrom,David,Hedstrom,-,-,16358,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/fei-fiona-lin-0a121726,Fei (Fiona),LIN,-,Product and Marketing Director China,4449,null_company_name(fallback message would send)
+Offer2_1049529,https://www.linkedin.com/in/mahoffmann,Michael,Hoffmann,-,-,4449,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/david-mesick-b1843858,David,Mesick,"Stanley Black & Decker, Inc.",-,4449,null_position
+Offer2_1049529,https://www.linkedin.com/in/bill-warnock-893b7417a,Bill,Warnock,Tekton Inc.,-,4369,null_position
+Offer2_1049529,https://www.linkedin.com/in/deepak-nayar-87830a7,Deepak,Nayar,-,-,1591,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/gregmosermba,Greg,Moser,-,-,431,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/anthony-avila-569a213,Anthony,Avila,Molex,Product Director - Aerospace & Defense Solutions,16358,aerospace_defense_title
+Offer2_1049529,https://www.linkedin.com/in/tom-laughlin-353b4b127,Tom,Laughlin,-,-,19869,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/jesse-collier-737741182,Jesse,Collier,-,-,1591,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/josh-dawson-11842637,Josh,Dawson,-,-,16358,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/sally-a-boyer-79846a12,Sally A.,Boyer,NIBCO INC.,Director - Marketing Communications,13773,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/sarah-eull-06a19155,Sarah,Eull,Graco,"Director, Global Channel Marketing, Contractor Division",29707,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/rick-harris-b341a21,Rick,Harris,FW Murphy Production Controls,"Director, Engineering & Product Management",88,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/william-thiel,William,MAABS,HBK - Hottinger Brüel & Kjær,Americas HR Director & HR Business Partner In Process,1591,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer2_1049529,https://www.linkedin.com/in/katesokolnicki,Kate,Sokolnicki,-,-,4980,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/dustin-hayt-802b5a39,Dustin,Hayt,"Kimray, Inc",-,3645,null_position
+Offer2_1049529,https://www.linkedin.com/in/mike-hassinger-844b5b17,Mike,Hassinger,Trombetta,Vice President of Sales and Marketing,125,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/victor-coppola-92458613,Victor,Coppola,Belimo,Vice President Product Management and Marketing Americas,1009,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/garrettbogart,Garrett,Bogart,-,-,29707,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/nayan-shetty-694ab622,Nayan,Shetty,SKF Group,Head of IT and Digital transformation - SKF Aerospace,286162,aerospace_defense_title
+Offer2_1049529,https://www.linkedin.com/in/matt-hanson-5507328,Matt,Hanson,Reliance Gear Corporation,VP Business Development,900,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/bob-b-63355037,Bob,B.,Banner Engineering,Sr Director of Product Management - Connectivity and Remote I/O,10000,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/leo-minervini-4348504,Leo,Minervini,Emerson Actuation Technologies,President,1069,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/nishan-pethiyagoda-12997b2,Nishan,Pethiyagoda,AMFP Chicago - Association of Medical Facility Professionals Chicago Chapter ,Executive Board of Directors - Secretary,4449,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/nickstauffer,Nick,Stauffer,MacLean-Fogg,Director of Organizational Development & Marketing,6560,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/courtneys-nagle,Courtney ,Nagle,maxon USA,"Head of Marketing, North America ",1591,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/matt-wolford-05505968,Matt,Wolford,"Dodge Industrial, Inc.","Director, Communications & Digital Marketing",1060,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/pratibha-phuyal-018a2213,Pratibha,Phuyal,Kellogg Alumni Club of Chicago- West,"Director, Digital Science",16358,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/lindseymuchka,Lindsey,Muchka,Columbus McKinnon,"Director of Marketing, Americas",1526,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/francisco-esquer-pmp-0ba6775,Francisco,"Esquer, PMP",TE Connectivity,Director of Engineering - Artificial Intelligence and Strategic Initiatives,523,sku_mismatch(file=1591)
+Offer2_1049529,https://www.linkedin.com/in/justinkutney,Justin,Kutney,Pentair,Director Global Product Management,1069,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/jill-hart-mba,Jill,H.,Franklin Electric,Marketing Director,350,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/mike-mattingly-cem-4605bb2,Mike,CEM,-,-,4980,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/jonathan-prouty-b14ab210,Jonathan,Prouty,Amphenol Aerospace,Business Development Director,392,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/mark-thomas-444a2a2,Mark,Thomas,Spectrum Control,Program and Product Line Director,363,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/matt-fitzgerald-a9977a8,Matt,Fitzgerald,ITW,Commercial Director,6560,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/michael-demaria-9b90484,Michael,DeMaria,Fluke Corporation,"Director, Product Managment",3462,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/wrsetzer,Bill,Setzer,Times Microwave Systems,Business Unit Director,1184,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/lourdes-robles-b873b98,Lourdes,Robles,"First Brands Group, LLC",Vice President of Sales - Aftermarket | Commercial Leadership,1526,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/todd-theurer-4a633914,Todd,Theurer,"Campbell Scientific, Inc.",Director Product Operations,1896,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/kalpanatatineni,Kalpana,Tatineni,"Stanley Black & Decker, Inc.","Director IT, Business applications",4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/robert-willoughby-a35b5a25,Robert,Willoughby,KEMET Electronics Corporation,"Executive Vice President, Solid Capacitor Business Group",1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/maggie-kelley-59320baa,Maggie,Kelley,Milwaukee Tool,Vice President - Channel Marketing,11740,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/victoria-alia-b0837a58,Victoria,Alia,Rockwell Automation,"Vice President and General Manager, Autonomous Mobile Robot (AMR) Business",4980,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/lindsey-riner-5a524915,Lindsey,Riner,Acuity Brands,"Vice President, Marketing Operations and Creative Services",1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/simran-k-48b45241,Simran,K.,Acuity,Senior Director of AIS Cloud Marketing @ Acuity Intelligent Spaces,1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/matt-geissler-95b64916,Matt,Geissler,Deublin Company,Marketing Director,2304,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/marci-donnelly-26aaa722,Marci,Donnelly,Hilti North America,Director of Strategic Business,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/tony-gineris-a6265316b,Tony,Gineris,-,-,1591,in_both_lists; null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/david-keller-83ba471,David,Keller,Leviton,"Vice President, e-Business Marketing and Sales and Corporate Pricing",19869,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/ryan-latchman-30a3072,Ryan,Latchman,MACOM,Vice President HPC Product Marketing,8979,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/mark-lane-92bb207,Mark,Lane,Acuity,Vice President of Product Management - Controls,1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/brian-altenberger-91128914,Brian,Altenberger,TI Automotive,Aftermarket Business Director - Americas,228,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/matthew-vargo-79032834,Matthew,Vargo,Milwaukee Tool,VP of Product Marketing,11740,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/brandon-scarbel-a2a616100,Brandon,Scarbel,STANLEY Engineered Fastening,Director of Product Management - Powertools,6560,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/lloyd-falshaw-626bb79,Lloyd,Falshaw,Hilti North America,Director Of Business Development,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/meganbass,Megan Creason,Bass,Rockwell Automation,Global Director Business Operations,4980,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/brad-thomas-369a1a71,Brad,Thomas,SICK Sensor Intelligence,"Director, Market Product Management",2285,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/aparna-ruikar-50172820,Aparna,Ruikar,Diodes Incorporated,Director of Global Business Applications,28000,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/stephen-martin-boston,Stephen,Martin,Spectrum Control,Director of Marketing,363,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/patricknijsters,Patrick,Nijsters,Molex,"Senior Director Product Marketing - Enterprise Solutions, Highspeed Copper",16358,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/shawnfarley,Shawn,Farley,SICK Sensor Intelligence,"Director, Market Product Management, Services",2285,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/erich-kreuter-0238321,Erich,Kreuter,"KMC Controls, Inc.",VP of Product Development,1184,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/brwirth,Brian,Wirth,Amphenol Sensors,Director Global Sales and Marketing,1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/bryant-holt-6494261b,Bryant,Holt,Velan Inc.,"Executive Vice President, MRO Business",350,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/ashley-young-mba-5518722a,Ashley,Young,Hilti North America,Director of Customer Engagement & Strategic Business,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/cathyhuang,Cathy,H.,ITT Inc.,"Executive Director, Strategy and Business Development",350,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/kris-zabel-6020918,Kris,Zabel,Turck USA,Director of Marketing Communications,1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/stephanie-m-carter-191a508b,Stephanie M.,Carter,"Warren Rupp, Inc.",Director of Product Management,1000,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/ryan-smart-4665a8107,Ryan,Smart,Harwin,Head of Strategic Partnerships,6912,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/bradragozzino,Brad,Ragozzino,Banner Engineering,Vice President Product and Program Management - Sensors and Safety,10000,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/jordan-blockcolski-483555b,Jordan,Blockcolski,Hilti North America,Director of Strategic Business,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/aravind-venkatasubramanian-206265b,Aravind,Venkatasubramanian,"Serta Simmons Bedding, LLC",Senior Director of IT Ecommerce,4449,in_both_lists; company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/david-scelsi-b016b66,David,Scelsi,T&S Brass,-,1337,in_both_lists; null_position
+Offer2_1049529,https://www.linkedin.com/in/sandy-stoffel-56580aa,Sandy,Stoffel,Phillips & Temro Industries,Director Marketing and Customer Care,1000,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/stephen-madill-34887760,Stephen,Madill,Nichols Portland,Executive Vice President of Sales & Marketing,276,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/deepakshukkla,Deepak,S.,Gates Corporation,"Director, Global Digital Solutions and Shared Services",1060,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/chriskapuscinski,Chris,MBA,-,-,16358,in_both_lists; null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/marc-chernoff-1131991,Marc,Chernoff,John Crane,Director of Strategy and Business Development,6560,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/larry-horton-b1278523,Larry,Horton,SKF Group,Vice President Aftermarket Sales North America,286162,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/kellywigginton,Kelly,Wigginton,Bel Fuse Inc.,Sr. Director of Marketing,4000,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/matt-petti-4314342b,Matt,Petti,Gates Corporation,"Director, Global Product Line Management",1060,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/kelly-schachenman-b4565520,Kelly,Schachenman,Rockwell Automation,"Portfolio & Business Director, Industrial Components Business",4980,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/emily-yang-153a69,Emily,Yang,Diodes Incorporated,"Sr. Vice President, WW Sales & Marketing",28000,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/tylerfsterner,Tyler,Sterner,Graco,Director of Global Product Management,29707,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/shanari-baird,Shanari,Baird,Same Sky,VP of Marketing,2144,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/kamatala-srikanth-4a603a5,Kamatala,Srikanth,Klein Tools,Director Business Intelligence,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/jshoynes,Jennifer,Salera Hoynes,Ashcroft Inc.,Global Marketing Director,315,in_both_lists; already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/jeffreykemnitz,Jeffrey,Kemnitz,Wiha Tools USA,Director of Ecommerce,3833,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/todd-plajzer-484b6859,Todd,Plajzer,-,-,4449,in_both_lists; null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/randymortensenrcdd,Randy,"Mortensen, RCDD",Leviton,EVP Global Sales & Marketing,19869,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/sebastianschneidergermany,Sebastian,S.,KYOCERA AVX Components Corporation,"Vice President Sales & Marketing, Connector Segment",978,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/haresh-ghansyam-523a666,Haresh,Ghansyam,"Stanley Black & Decker, Inc.",VP of Engineering & Technology|Product Management|Digital,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/arikka-hall-54ba5412,Arikka,Hall,Fluke Corporation,"Director, Commercial Marketing & Enablement",3462,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/meredith-sobieck,Meredith,"Sobieck, MBA",Graco,Brand and Product Public Relations Leader,29707,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/nick-costanzo-59617626,Nick,Costanzo,Techtronic Industries - TTI,Vice President of Product Management and Engineering,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/salvador-ibarra-b9b39a,Salvador,Ibarra,SKF Group,Global Director Business Development Off Highway Business Unit,286162,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/rj-gates-aba41856,RJ,Gates,Franklin Electric,Senior Director Global Product - Large Centrifugal Pumping,350,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/biren-patel3,Biren,Patel,maxon USA,Head of Business Development - USA,1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/amandamcsherry325,Amanda,McSherry,Techtronic Industries - TTI,Sr. Director of Brand Marketing,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/matt-sallee-1986ba12,Matt,Sallee,"Stanley Black & Decker, Inc.",Sr. Director of Product Management - Automotive Hand Tools & Storage,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/angelawallace1,Angie,"Wallace, MBA",Enerpac Tool Group,"Product Line Director, Pumps & Cylinders",1840,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/matt-fuss-b17b402,Matt,Fuss,"Bison®, An AMETEK® Business","Division Vice President, Business Unit Manager",900,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/andrewschenone,Andrew,Schenone,MacLean-Fogg Company,Director of IT Business Systems,6560,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/rscottmadison,Scott,Madison,Zoeller Company,Digital Marketing Director,219,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/kevin-waring-a29b19a6,Kevin,Waring,ASSA ABLOY Opening Solutions Americas,Director of Business Development - ASSA ABLOY ACCENTRA,1526,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/robertstoner,Robert,Stoner,S&C Electric Company,Director - Product Support & Technical Marketing,128,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/ashley-a-pearson,Ashley,Pearson,Hubbell Incorporated,"Vice President, Product Management and New Growth Initiatives",180335,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/steve-peters-735384,Steve,Peters,MACOM,"Director, New Product Introduction, RF Power BU",8979,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/paul-lemens-0a844a3,Paul,Lemens,Graco,Director Of Business Development | Global Manufacturing Partnerships,29707,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/beth-liptak-7998a41,Beth,Liptak,Dayton Lamina Corporation,Senior Director of Customer Service and Product Management,21840,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/kimon-symeonidis-1799271b,Kimon,Symeonidis,Victaulic,Director of Product Development,500,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/david-veprek-aa41725,David,Veprek,"Stanley Black & Decker, Inc.","Vice President of Channel Marketing , Commercial & Industrial",4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/jamal-smith-5b401779,Jamal,"Smith, MBA",Acuity,Director of Product Management,1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/steven-hoppa-7840993b,Steven,Hoppa,Techtronic Industries - TTI,Sr. Director of Product Management,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/sarah-ashe-433985140,Sarah,Ashe,Acuity,"Director Product Management, AI & Business Transformation",1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/alex-wiegmann-70131666,Alex,Wiegmann,Nidec Motor Corporation,Director of Marketing,934,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/brian-everhart-498125111,Brian,Everhart,"Stanley Black & Decker, Inc.",Senior Director of Channel Marketing,4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/darren-tolsma-04855435,Darren,Tolsma,ITT Inc.,Executive Director - Product Design Engineering,350,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/alex-p-45818a40,Alex,P.,KEYENCE CORPORATION,"Director, Marketing & Strategic Business Development",15928,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/alexandravpetrov,Alexandra,"Petrov, MBA","First Brands Group, LLC",Global Director - Digital Marketing & Media,1526,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/mario-d-ambrosio-24278190,Mario,D'Ambrosio,Victaulic Company,Chief Information Officer,500,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/kellysadler19,Kelly,Sadler,Sensata Technologies,"Vice President & General Manager, Aftermarket",1910,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/ralph-bright-mba-6402823,Ralph,"Bright, MBA",Tassel Ridge Winery,Vice President Marketing,1000000,in_both_lists; company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/kevin-parsons-a64520a,Kevin,Parsons,Molex,"Director, Business Systems & Processes",16358,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/david-zizzi-675a41,David,Zizzi,Acuity Brands,VP Outsourced Product Development,1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/tammie-scadden-1a48155,Tammie,Scadden,Franklin Electric,"Vice President, Global Marketing",350,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/deb-anderson-a200333b,Deb,Anderson,"Webster Industries, Inc.",Chief Information Officer,61,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/tim-wells-20643b4,Tim,Wells,SPX,VP of Global Business Development and Marketing,431,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/freddie-giddens-17568551,Freddie,Giddens,Acuity Brands,Business Process Improvement Consulting Director,1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/alberto-bertomeu-7438b710,Alberto,Bertomeu,Datalogic,VP Industrial Automation & GM Global ID & Systems Business,1591,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/jeff-sousa,Jeff,Sousa,Diablo/Freud Tools,Chief Information Officer,3896,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/ryan-johnson-0b37a063,Ryan,Johnson,Saint-Gobain Abrasives,"Director, Technical Business Development",4449,in_both_lists
+Offer2_1049529,https://www.linkedin.com/in/beckievaughn,Beckie,Vaughn,Fluke Corporation,"Senior Director , HR Business Partner",3462,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer2_1049529,https://www.linkedin.com/in/wesley-thomas-17595281,Wesley,Thomas,Milwaukee Tool,-,11740,null_position
+Offer2_1049529,https://www.linkedin.com/in/jestevez2,Jose,Estevez,ITT Inc.,Director of Product Management,350,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/brett-ricci-b7386514,Brett,Ricci,GGB,Aerospace Business Unit Leader,1060,aerospace_defense_title
+Offer2_1049529,https://www.linkedin.com/in/damon-holmes-8064b018,Damon,Holmes,Home,"Director, RF Product Design",8979,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/marclippa,Marc,Lippa,Kennametal,"Vice President, Global HR Service Delivery and Operations",4449,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer2_1049529,https://www.linkedin.com/in/eric-lee-strickler,Eric,"Strickler, MBA","Functional Devices, Inc.",Head of Marketing,1179,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/dan-kuzniewski-b8204b1,Dan,Kuzniewski,Molex,"Director, Divisional Marketing (Aerospace & Defense Systems)",16358,aerospace_defense_title
+Offer2_1049529,https://www.linkedin.com/in/carey-vollmers-6ba7905,Carey,Vollmers,Enerpac Tool Group,VP - Talent & Executive HR Business Partner,1840,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer2_1049529,https://www.linkedin.com/in/donaldeichman,Donald,Eichman,Turck USA,Director of Product Management,1591,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/dan-shinners-01028415,Dan,Shinners,-,-,27000,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/roz-biencourt-2ba4b223,Roz,Biencourt,Pall - Industrial,"Global Director, Transformative Marketing & Lead Management",1840,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/joseph-m-schultz-94b96318,Joseph M.,Schultz,Retired and enjoying time to pursue personal interests and family,CEO of me,4449,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/karen-bach-83765223,Karen,Bach,None,Marketing Director,1000,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/craig-fischer-0b13541a7,Craig,Fischer,-,-,175,null_company_name(fallback message would send); null_position
+Offer2_1049529,https://www.linkedin.com/in/riveracharlie,Charlie,Rivera,Jabil,"Sr. Global Director, Process Excellence & Intelligence (SAP S/4HANA RISE))",175,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/chrisnardecchia,Chris,Nardecchia,Rockwell Automation,"Senior Vice President, Chief Digital & Information Officer",4980,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/bhovey,Brian,Hovey,Rockwell Automation,"Vice President, Chief Marketing Officer",4980,already_in_earlier_repo_leads_file
+Offer2_1049529,https://www.linkedin.com/in/iwhouston,Ian,Houston,Nelson Stud Welding,Director of Application Engineering and Technical Services,6560,company_name_not_matching_sku_source(person may have moved)
+Offer2_1049529,https://www.linkedin.com/in/doug-kuhlman-3384a858,Doug,Kuhlman,Lutron Electronics,Sr. Director of Product Cybersecurity,1591,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer2_1049529,https://www.linkedin.com/in/brandi-ledet-1275a422,Brandi,Ledet,Enerpac Tool Group,"Global Sr HR Director, Commercial, Marketing, Services & Innovation",1840,excluded_title(security/cyber/HR/finance/legal/procurement)
+Offer2_1049529,https://www.linkedin.com/in/al-ryding-808ba634,Al,Ryding,Wright Tool,Vice President Of Business Development,698,in_both_lists
