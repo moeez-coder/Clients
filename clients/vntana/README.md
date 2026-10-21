@@ -77,6 +77,7 @@
 - `sourcing/deep-catalog-manufacturers/2026-10-21-companies-qualified-2.csv` — **1,000 companies**, the owner-requested even-1k trim of the 1,105-row file above (cuts only the 105 smallest L4 low-confidence rows; all L1/L2/L3 kept), config `82d47d88-32b2-4dd8-8307-b12ac530aaf7`, campaign 6. No new pull. Details: `2026-10-21-companies-qualified-2.query.md`.
 - `sourcing/deep-catalog-manufacturers/2026-10-21-catalog-audit.csv` — **1,000 rows**, site audit pilot (sitemap size, sampled product-page placeholder check, platform, CAD/3D text) joined to `2026-10-21-companies-qualified-2.csv`, config `82d47d88-32b2-4dd8-8307-b12ac530aaf7`, campaign 6. Tool: direct HTTPS crawl (`2026-10-21-scripts/crawl_audit.py`). Findings and caveats: `2026-10-21-catalog-audit.query.md`.
 - `sourcing/deep-catalog-manufacturers/2026-10-21-missing-image-estimates.csv` — **1,000 rows**, modeled missing-image estimates (low/mid/high) per company from sitemap/stated SKU counts or peer medians; derived from the 2026-10-21 qualified-2 and catalog-audit files (no new pull), config `82d47d88-32b2-4dd8-8307-b12ac530aaf7`, campaign 6. **Estimates, not counts; mid/high rates are assumptions.** Method/caveats: `2026-10-21-missing-image-estimates.query.md`.
+- `sourcing/deep-catalog-manufacturers/2026-10-21-sku-counts.csv` — **1,000 rows**, one SKU/product count per company (sitemap product URLs, count stated on site, or peer-median model for 540 low-confidence rows) with basis and confidence; a slimmed view of `2026-10-21-missing-image-estimates.csv` (no new pull), config `82d47d88-32b2-4dd8-8307-b12ac530aaf7`, campaign 6. Method: `2026-10-21-missing-image-estimates.query.md`.
 
 ## HeyReach campaigns (HeyReach Vertical Launch structure)
 
@@ -98,6 +99,8 @@ Per CLAUDE.md's per-client campaign build standard, VNTANA has run the HeyReach 
 - `sourcing/2026-09-16-us-icp-triage.csv` + `.query.md`, prompt `clients/vntana/icp-triage-spec-t2.md` — **US ICP qualification at scale**: every US company in the Supabase universe (client **VNTANA**, `a8d4e2f1-9c3b-4e7a-b5d8-6f2a1c9e3b7d`) scored FIT/UNSURE/NO by calibrated Haiku agents. 5,227 distinct US companies pulled from `universe` (deliberately **not** `addressable`, whose 201+ employee floor contradicts the client's own verdicts). Enriched via Blitz `/v2/enrichment/company`, then text-only triage at ~780 tokens/account. **Complete: 5,227 scored — 2,520 FIT / 952 UNSURE / 1,755 NO**, written back to Supabase (`agent_run='us-triage-t2-2026-09-16'`, verified against the CSV). Pulled 2026-09-16. The `.query.md` carries the full method, the 100%-recall filter validation, the agent-id transcription bug and how the verdicts were proven position-aligned, and the unresolved revenue-tier decision.
 
 ## History
+
+- **2026-10-21** — Owner asked for the SKU count for all accounts as its own file: `sku-counts.csv` (derived from the estimates file, same method, 540 of 1,000 are peer-median modeled). Orchestrator session.
 
 - **2026-10-21** — Owner asked for an estimate for all accounts. Built `missing-image-estimates.csv`: SKU count (sitemap, stated, or peer-median model for 540 rows) x gap-rate scenarios 2.7% observed floor / 5% / 10% assumed. Why: Message 1 needs `{number}` everywhere; rate must be replaced with a VNTANA benchmark before sending specifics. Orchestrator session.
 
