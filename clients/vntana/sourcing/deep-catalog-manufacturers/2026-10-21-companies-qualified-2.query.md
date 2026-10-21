@@ -1,0 +1,4 @@
+# Query — 2026-10-21 companies, QUALIFIED stage, trimmed to 1,000 (deep-catalog-manufacturers)
+
+Config `82d47d88-32b2-4dd8-8307-b12ac530aaf7`, campaign 6 "The Long Tail Nobody Photographed or Rendered". **Expanding existing segment (same-day second file; `-2` per repo rule).**
+**Why:** repo owner asked for "a nice even 1k". `2026-10-21-companies-qualified.csv` (1,105) is untouched (append-only audit trail); this file is its first 1,000 rows in the file's existing order: tier (L1 stated 1,000+ -> L1 placeholder -> L2 -> L3 -> L4) then headcount descending. The 105 cut are the **smallest-headcount L4_low_confidence** rows (the weakest tier, no catalog evidence either way), so every L1, L2 and L3 row is kept. Same columns, same funnel and caveats as the 1,105 file's `.query.md`. No new data pulled.
