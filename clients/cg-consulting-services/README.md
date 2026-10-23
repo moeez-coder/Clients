@@ -75,9 +75,11 @@ Config detail (tracking_clients):
 - `sourcing/security-and-data-bench/2026-10-23-2-leads.csv`: the same **11,594 leads**, **Haiku-qualified** (8,332 QUALIFIED, 3,257 NOT_QUALIFIED, 5 PENDING; 6,591 qualified within the cap). Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`. Produced 2026-10-23 by Claude Haiku 5.5 workflow agents against `2026-10-23-qualification-spec.md`, keyed by `linkedin_url`. Query: `2026-10-23-2-leads.query.md`.
 - `sourcing/security-and-data-bench/2026-10-23-2-companies.csv`: the **4,618** lead-bearing companies with Haiku verdicts (**3,668 QUALIFIED**). Config `09be87f3-…`, same run.
 - `sourcing/security-and-data-bench/2026-10-23-2-heyreach-wave1.csv`: **500 leads** (500 companies, all Northeast) selected for HeyReach `677893` wave 1. Config `09be87f3-…`.
+- `sourcing/security-and-data-bench/2026-10-23-3-leads.csv` / `-companies.csv`: the complete Haiku qualification after re-running 4 incomplete batches. **8,330 of 11,594 leads QUALIFIED, 0 PENDING; 3,668 of 4,618 companies QUALIFIED.** Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`. Claude Haiku 5.5 workflow agents, 2026-10-23. Notes in `2026-10-23-2-leads.query.md` § Follow-up. **This is the source for future waves.**
 
 ## History
 
+- **2026-10-23**: The 4 incomplete Haiku batches were re-run. All 99 pass, and the result is the new `2026-10-23-3-*` snapshot (8,330 qualified leads, 0 pending); `-2` is unchanged. One wave-1 lead flipped to NOT_QUALIFIED and is to be removed from HeyReach. Per-client CG session.
 - **2026-10-23**: **Haiku qualification complete (expanding the existing segment's snapshot, not a new segment).**
   - 99 Claude Haiku 5.5 agents judged 4,618 companies and 11,594 leads individually: 3,668 companies and 8,332 leads qualified. 5 leads came back without a verdict and are marked PENDING.
   - Wave 1 is 500 Northeast leads, one per company, about two days of the 10 senders' ~250 requests a day.
