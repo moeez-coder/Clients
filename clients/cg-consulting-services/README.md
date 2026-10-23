@@ -49,7 +49,7 @@ Config detail (tracking_clients):
 
 ### HeyReach (workspace 169110)
 
-- **Campaign `677893`** "Security and Data Bench", status **PAUSED**, 0 leads.
+- **Campaign `677893`** "Security and Data Bench": **LIVE since 2026-10-23 ~16:56 UTC**. 500 loaded, 493 effective after 7 blacklisted. Schedule weekdays 07:00–19:00 ET. The details below are the pre-launch state.
   - It was **already started once**: `startedAt` 2026-10-23T13:13:58Z, then paused, by someone outside this session. A started campaign's list can't be changed, so list `1056840` is now locked to it. The list is `USER_LIST`, has 0 items and is used only by this campaign, so that is fine.
   - Settings: exclude-from-lead/company-blacklist is on; exclude-in-other-campaigns, exclude-has-other-conversations and exclude-contacted-from-sender are off.
   - It is the only campaign in the workspace.
@@ -79,6 +79,14 @@ Config detail (tracking_clients):
 
 ## History
 
+- **2026-10-23 ~16:56 UTC**: **HeyReach `677893` resumed on Moe's instruction: LIVE.**
+  - Status after the resume: `STARTING`, which tracking_clients `get_campaign_live_status` maps to `running`. 10 senders, weekdays 07:00–19:00 ET.
+  - The campaign still reported `totalUsers 500` after the 7 list deletions, so deleting from the list does not remove leads already loaded into the campaign. `stop_lead_in_campaign` returned 404 for all 7.
+  - The 7 were added to the **workspace lead blacklist** instead (ids 108273–108279; 5 Matched, 2 still resolving with member ids). Blacklist exclusion is on for this campaign, so they are excluded.
+  - **Effective wave 1: 493 leads.**
+  - **Lesson for the next wave:** check greeting names and final verdicts *before* the push. Removal after the push only works through the blacklist.
+  - Still open: no reply-workflow type is set (1a/2b/2c), the client's `Non_Connect` DNC file is not loaded, Jon hasn't approved the copy, the ManpowerGroup stat is unverified.
+  - Per-client CG session.
 - **2026-10-23**: **Wave 1 pushed to HeyReach `677893` and checked for parity before resuming.**
   - **Push:** `add_leads_to_campaign_v2`, 5 batches of 100 from `2026-10-23-2-heyreach-wave1.csv`: **500 added, 0 updated, 0 failed**.
   - **Removed:**
