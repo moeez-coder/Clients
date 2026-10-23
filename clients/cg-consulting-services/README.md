@@ -74,6 +74,7 @@ Config detail (tracking_clients):
 
 ## History
 
+- **2026-10-23**: Moe asked for **every company and every person to be qualified individually by Haiku agents**. I added `sourcing/security-and-data-bench/2026-10-23-qualification-spec.md`, the rules each agent applies. A company qualifies if it is a US operating company with an in-house tech team in software, fintech/banking, insurance carriers, education companies/publishers or retail, and is not staffing, IT services, government or a university. A person qualifies if they hold one of the persona's seven roles for real and are US-based. Agents run only after the Blitz snapshot is committed and Moe approves the cost estimate. Per-client CG session.
 - **2026-10-23**: **Sourcing scope set by Moe: campaign-specific, for "Security and Data Bench"** (his words: "Do sourcing for security and data breach", read as the Bench campaign).
   - Added the pull code under `sourcing/security-and-data-bench/`:
     - `spec.py`: industry labels copied verbatim from the PR #7 Clay and Blitz enums, size 201-5000, revenue $20M+, the persona's seven titles plus their spelled-out variants.
