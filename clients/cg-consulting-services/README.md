@@ -79,6 +79,19 @@ Config detail (tracking_clients):
 
 ## History
 
+- **2026-10-23**: **Wave 1 pushed to HeyReach `677893` and checked for parity before resuming.**
+  - **Push:** `add_leads_to_campaign_v2`, 5 batches of 100 from `2026-10-23-2-heyreach-wave1.csv`: **500 added, 0 updated, 0 failed**.
+  - **Removed:**
+    - 1 lead that flipped to NOT_QUALIFIED in `-3` (`siva-krishna-burra-1aa3562b`, ICONIQ). `stop_lead_in_campaign` returned 500 on the paused campaign, so it was deleted from list `1056840`.
+    - 6 leads whose LinkedIn-resolved first name would render badly in `{FIRST_NAME}`. HeyReach used its own name over the cleaned one we sent: "Stoyan (Tony)", "Leszek (Les)", "John B.", "Shawn G.A.", "Naresh H.", "Jason T.". Slugs: stoyan-tony-stoyanov-07690a53, lkaldus, jbriii, shawnhouston, nareshsingh, jtordway.
+  - **Parity:**
+    - **Leads:** list `1056840` has **493** leads, exactly the wave file minus those 7. The two URL differences were only percent-encoding of the same profiles. Every remaining lead is QUALIFIED in `-3`.
+    - **Sequence:** matches tracking_clients: blank connection request withdrawn at 21 days, then messages at +1, +3 and +4 days, `{FIRST_NAME}`, "Great to connect!" fallbacks.
+    - **Senders:** 10/10 attached, all auth-valid, no cooldowns, 2 with Sales Nav.
+    - **Schedule:** weekdays 07:00–19:00 ET. Blacklist exclusions are on, but both blacklists are empty.
+    - **tracking_clients:** campaign `running`, `heyreachCampaignId 677893` linked.
+  - **Known gaps at launch, Moe's call to go live anyway:** the client's `Non_Connect` file is not loaded; no reply-workflow type is set (replies reach the `hr-inbox` webhooks only); Jon has not approved the copy; the ManpowerGroup stat is not verified.
+  - Per-client CG session.
 - **2026-10-23**: **Moe: "make it live in tracking clients first."** Changes in tracking_clients:
   - Campaign `c8855ae2-5c95-419b-8d8e-000c13cc757a` moved `creation` → **`running`** via `move_campaign` (mark-running, confirm). This did not resume HeyReach `677893`, which is still PAUSED.
   - The structured sequence was saved with `set_campaign_sequence` and passed the rules gate. It mirrors HeyReach exactly: blank connection request on day 0, then messages 1, 2 and 3 at +1, +3 and +4 days, first name as `{{module.standard.first_name}}`.
