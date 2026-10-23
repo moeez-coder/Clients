@@ -21,7 +21,7 @@
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
-| Security and Data Bench - Clay (firmographic + title search) | Security and Data Bench | Technology, Financial Services and Education | draft | 1 | 0 (lead_count 0) | `-` |
+| Security and Data Bench - Clay (firmographic + title search) | Security and Data Bench | Technology, Financial Services and Education | draft | 1 | 0 (lead_count 0; tracking_clients not yet updated, repo snapshot below) | `-` |
 
 Config detail (tracking_clients):
 - Sourcing config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, module **Custom** (`dd10c77c-109c-42e0-bc9a-a34ee0844fad`, granularity `company`), refresh `static`, `platform_leads_enabled: true`, `distribution_enabled: false`, empty module_config, no Clay table, workbook or webhook.
@@ -70,10 +70,18 @@ Config detail (tracking_clients):
 
 ## Sourced data in this repo
 
-- `-` (no snapshots yet)
+- `sourcing/security-and-data-bench/2026-10-23-leads.csv`: **11,594 prospects at 4,618 companies** from **Security and Data Bench - Clay (firmographic + title search)** (config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`), pulled 2026-10-23 via **Blitz API `POST /v2/search/people`** and keyed by `linkedin_url`. 8,393 are within the 3-per-company cap; 3,201 are flagged `within_company_cap=no` and kept. Not yet qualified by Haiku or checked against a DNC list. Query: `2026-10-23-leads.query.md`.
+- `sourcing/security-and-data-bench/2026-10-23-companies.csv`: **28,579 companies** (the firmographic universe) from the same config `09be87f3-…`, pulled 2026-10-23 via **Blitz API `POST /v2/search/companies`**. `leads_in_snapshot` links each company to the leads file. Same `.query.md`.
 
 ## History
 
+- **2026-10-23**: **First snapshot, new segment** (Security and Data Bench, config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`).
+  - Pulled from Blitz: 28,579 companies and 12,482 raw title matches. After the persona title check and company join, **11,594 leads at 4,618 companies**.
+  - **TAM/SAM:** TAM is large (~28.6k companies), so the cap is **3 per company**. Leads over the cap are flagged, not deleted, so total volume isn't cut.
+  - **Clay:** its public API is out of quota (402, resets 2027-01-01), so this snapshot is Blitz-only.
+  - The first title check was too strict and dropped titles like "Chief Product & Technology Officer" and "VP Platform Engineering"; it was loosened before the build.
+  - **Next:** Haiku qualification per company and per person (spec committed), pending Moe's approval of the cost estimate. Nothing is in HeyReach.
+  - Per-client CG session.
 - **2026-10-23**: Moe asked for **every company and every person to be qualified individually by Haiku agents**. I added `sourcing/security-and-data-bench/2026-10-23-qualification-spec.md`, the rules each agent applies. A company qualifies if it is a US operating company with an in-house tech team in software, fintech/banking, insurance carriers, education companies/publishers or retail, and is not staffing, IT services, government or a university. A person qualifies if they hold one of the persona's seven roles for real and are US-based. Agents run only after the Blitz snapshot is committed and Moe approves the cost estimate. Per-client CG session.
 - **2026-10-23**: **Sourcing scope set by Moe: campaign-specific, for "Security and Data Bench"** (his words: "Do sourcing for security and data breach", read as the Bench campaign).
   - Added the pull code under `sourcing/security-and-data-bench/`:

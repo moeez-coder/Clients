@@ -8,22 +8,24 @@ Steps (all recorded in the .query.md):
      field/advisory/fractional/deputy variant. Rows failing the guard are dropped, counted by reason.
   3. Company join: lead's company_linkedin_url must be in the Blitz company sweep (same firmographic
      filter), which drops leads whose matched job is at a company outside the filter.
-  4. Per-company cap (default 3), ranked by role priority so each company keeps its top tech leaders.
+  4. Per-company cap (default 3), ranked by role priority. Leads over the cap are KEPT and flagged
+     within_company_cap=no (never cut volume); the cap is applied when loading into HeyReach.
 """
 import csv, json, re, sys
 from collections import Counter, defaultdict
 
-ROLE_RULES = [  # (role, regex) in priority order for the per-company cap
-    ("CIO", r"\bCIO\b|chief information officer"),
-    ("CTO", r"\bCTO\b|chief technology officer"),
-    ("CISO", r"\bCISO\b|chief information security officer"),
-    ("VP Engineering", r"\b(s?vp|evp|vice president)\b[\s,of-]*\b(software\s+)?engineering\b"),
-    ("VP of Data", r"\b(s?vp|evp|vice president)\b[\s,of-]*\bdata\b"),
-    ("Head of Data", r"\bhead of data\b"),
-    ("Head of IT", r"\bhead of (it|information technology)\b"),
+ROLE_RULES = [  # (role, regex) in priority order for the per-company cap; CISO is tested before CIO
+    ("CIO", r"\bCIO\b|\bchief\b[^|]*\binformation\b[^|]*\bofficer\b"),
+    ("CTO", r"\bCTO\b|\bchief\b[^|]*\btechnology\b[^|]*\bofficer\b"),
+    ("CISO", r"\bCISO\b|\bchief\b[^|]*\binformation (and |& )?security\b[^|]*\bofficer\b|\bchief (information )?security officer\b"),
+    ("VP Engineering", r"\b(s?vp|evp|vice president)\b[^|]*\bengineering\b|\bengineering vice president\b"),
+    ("VP of Data", r"\b(s?vp|evp|vice president)\b[^|]*\bdata\b"),
+    ("Head of Data", r"\bhead of\b[^|]*\bdata\b"),
+    ("Head of IT", r"\bhead of\b[^|]*\b(it|information technology)\b"),
 ]
+MATCH_ORDER = ["CISO", "CIO", "CTO", "VP Engineering", "VP of Data", "Head of Data", "Head of IT"]
 REJECT = [
-    ("field/partner-facing", r"\bfield cto\b|\bcto\s*[-–,]\s*(channels|alliances|partners)|\bsolutions engineering\b|\bsales engineering\b"),
+    ("field/partner-facing", r"\bfield cto\b|\bcto\s*[-–,]\s*(channels|alliances|partners)|\b(solutions?|sales|pre-?sales|customer|field) engineering\b"),
     ("fractional/advisory/consultant", r"\bfractional\b|\badvis(or|ory)\b|\bconsultant\b|\bconsulting\b|\bvirtual (ciso|cio|cto)\b|\bvciso\b"),
     ("deputy/assistant/associate", r"\bdeputy\b|\bassistant\b|\bassociate (vp|vice president)\b|\bavp\b"),
     ("in residence/former/board", r"\bin residence\b|\bformer\b|\bex-|\bboard (member|advisor)\b"),
@@ -43,8 +45,9 @@ def classify(title):
     for reason, rx in REJECT:
         if re.search(rx, t, re.I):
             return None, reason
-    for role, rx in ROLE_RULES:
-        if re.search(rx, t, re.I):
+    rules = dict(ROLE_RULES)
+    for role in MATCH_ORDER:
+        if re.search(rules[role], t, re.I):
             return role, None
     return None, "not a persona role"
 
@@ -96,8 +99,11 @@ def main(raw, date, cap):
     final = []
     for ck, rows in by_co.items():
         rows.sort(key=lambda r: (PRIO[r["persona_role"]], r["job_start_date"] == "-", r["job_start_date"]))
-        final += rows[:cap]
-        drops["per-company cap"] += max(0, len(rows) - cap)
+        for i, r in enumerate(rows, 1):
+            r["company_rank"] = i
+            r["within_company_cap"] = "yes" if i <= cap else "no"
+        final += rows
+        drops["over per-company cap (kept, flagged)"] += max(0, len(rows) - cap)
     final.sort(key=lambda r: (r["company_name"].lower(), PRIO[r["persona_role"]]))
     cols = list(final[0].keys())
     with open(f"{date}-leads.csv", "w", newline="") as f:
