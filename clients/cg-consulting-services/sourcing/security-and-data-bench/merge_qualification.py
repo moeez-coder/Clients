@@ -9,7 +9,7 @@ company or lead from the source is missing a verdict.
 import csv, glob, json, sys
 from collections import Counter
 
-out_dir, src, new = sys.argv[1:4]
+out_dir, src, new = sys.argv[1:4]  # optional 4th flag: --allow-pending
 cv, lv = {}, {}
 for p in sorted(glob.glob(f"{out_dir}/batch_*.jsonl")):
     for line in open(p):
@@ -23,15 +23,20 @@ for p in sorted(glob.glob(f"{out_dir}/batch_*.jsonl")):
 
 leads = list(csv.DictReader(open(f"{src}-leads.csv")))
 missing = [r["linkedin_url"] for r in leads if r["linkedin_url"] not in lv or r["company_linkedin_url"] not in cv]
-if missing:
+allow = "--allow-pending" in sys.argv
+if missing and not allow:
     sys.exit(f"ABORT: {len(missing)} leads without a verdict, e.g. {missing[:3]}")
+for r in leads:  # with --allow-pending, unjudged rows are kept and marked PENDING (never pushed)
+    cv.setdefault(r["company_linkedin_url"], ("PENDING", "no verdict returned by the agent"))
+    lv.setdefault(r["linkedin_url"], ("PENDING", "no verdict returned by the agent"))
 
 rows = []
 for r in leads:
     c, l = cv[r["company_linkedin_url"]], lv[r["linkedin_url"]]
     lead_ok = l[0] == "QUALIFIED" and c[0] == "QUALIFIED"   # a lead never outranks its company
+    pending = "PENDING" in (c[0], l[0])
     rows.append(dict(r, company_verdict=c[0], company_reason=c[1],
-                     lead_verdict="QUALIFIED" if lead_ok else "NOT_QUALIFIED",
+                     lead_verdict="PENDING" if pending else ("QUALIFIED" if lead_ok else "NOT_QUALIFIED"),
                      lead_reason=l[1] if c[0] == "QUALIFIED" else "company not qualified"))
 # re-rank within company among QUALIFIED leads only, so the cap applies to the people we'd actually send to
 by = {}

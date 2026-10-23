@@ -72,9 +72,17 @@ Config detail (tracking_clients):
 
 - `sourcing/security-and-data-bench/2026-10-23-leads.csv`: **11,594 prospects at 4,618 companies** from **Security and Data Bench - Clay (firmographic + title search)** (config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`), pulled 2026-10-23 via **Blitz API `POST /v2/search/people`** and keyed by `linkedin_url`. 8,393 are within the 3-per-company cap; 3,201 are flagged `within_company_cap=no` and kept. Not yet qualified by Haiku or checked against a DNC list. Query: `2026-10-23-leads.query.md`.
 - `sourcing/security-and-data-bench/2026-10-23-companies.csv`: **28,579 companies** (the firmographic universe) from the same config `09be87f3-…`, pulled 2026-10-23 via **Blitz API `POST /v2/search/companies`**. `leads_in_snapshot` links each company to the leads file. Same `.query.md`.
+- `sourcing/security-and-data-bench/2026-10-23-2-leads.csv`: the same **11,594 leads**, **Haiku-qualified** (8,332 QUALIFIED, 3,257 NOT_QUALIFIED, 5 PENDING; 6,591 qualified within the cap). Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`. Produced 2026-10-23 by Claude Haiku 5.5 workflow agents against `2026-10-23-qualification-spec.md`, keyed by `linkedin_url`. Query: `2026-10-23-2-leads.query.md`.
+- `sourcing/security-and-data-bench/2026-10-23-2-companies.csv`: the **4,618** lead-bearing companies with Haiku verdicts (**3,668 QUALIFIED**). Config `09be87f3-…`, same run.
+- `sourcing/security-and-data-bench/2026-10-23-2-heyreach-wave1.csv`: **500 leads** (500 companies, all Northeast) selected for HeyReach `677893` wave 1. Config `09be87f3-…`.
 
 ## History
 
+- **2026-10-23**: **Haiku qualification complete (expanding the existing segment's snapshot, not a new segment).**
+  - 99 Claude Haiku 5.5 agents judged 4,618 companies and 11,594 leads individually: 3,668 companies and 8,332 leads qualified. 5 leads came back without a verdict and are marked PENDING.
+  - Wave 1 is 500 Northeast leads, one per company, about two days of the 10 senders' ~250 requests a day.
+  - **Committed before any lead went into HeyReach.**
+  - Per-client CG session.
 - **2026-10-23**: **First snapshot, new segment** (Security and Data Bench, config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`).
   - Pulled from Blitz: 28,579 companies and 12,482 raw title matches. After the persona title check and company join, **11,594 leads at 4,618 companies**.
   - **TAM/SAM:** TAM is large (~28.6k companies), so the cap is **3 per company**. Leads over the cap are flagged, not deleted, so total volume isn't cut.
