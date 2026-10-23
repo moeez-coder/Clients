@@ -74,6 +74,15 @@ Config detail (tracking_clients):
 
 ## History
 
+- **2026-10-23**: **Sourcing scope set by Moe: campaign-specific, for "Security and Data Bench"** (his words: "Do sourcing for security and data breach", read as the Bench campaign).
+  - Added the pull code under `sourcing/security-and-data-bench/`:
+    - `spec.py`: industry labels copied verbatim from the PR #7 Clay and Blitz enums, size 201-5000, revenue $20M+, the persona's seven titles plus their spelled-out variants.
+    - `pull_blitz.py`: Blitz `/v2/search/companies` + `/v2/search/people`.
+    - `build_csv.py`: URL dedupe, persona title check, company join, per-company cap.
+  - Sizing (Blitz, indicative): **~28,850 US companies** and **12,482 title matches**.
+  - **Clay public API is out of quota.** It returned 402: 999,988 of 1,000,000 annual results used, resets 2027-01-01. The Clay MCP connector still works but takes at most 10 companies per call, so it can only cross-check, not sweep.
+  - The Blitz pull is running; its snapshot will be committed separately.
+  - Per-client CG session.
 - **2026-10-23**: Folder created from `clients/_TEMPLATE/README.md`. Profile, ICP config `885e8da7-6318-4ede-b434-68cf84512790`, sourcing config `09be87f3-0db4-4e2d-842d-b70af7d29d7c` and campaign `c8855ae2-5c95-419b-8d8e-000c13cc757a` synced from tracking_clients (client `4ca09bb2-25f9-4410-b269-9c8bcb816881`). HeyReach `677893` and its senders were read from workspace 169110.
   - The brief, ICP form, description, caller briefing and FAQs were saved to `context/`.
   - **Slug:** `cg-consulting-services`, not `cg`. "CG" is only the short tracking_clients name, and this matches how other folders are named after the company (e.g. `insurance-technology-services`).
