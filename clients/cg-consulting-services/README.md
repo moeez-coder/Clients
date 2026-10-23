@@ -39,7 +39,7 @@ Config detail (tracking_clients):
 
 ## Campaigns (tracking_clients)
 
-- **Security and Data Bench**, campaign `c8855ae2-5c95-419b-8d8e-000c13cc757a`. LinkedIn, status `creation`, step 18, identity `-`, not approved, approval not sent, unclaimed. Linked to sourcing config `09be87f3-…`, persona `e399896d-…` and HeyReach campaign `677893`.
+- **Security and Data Bench**, campaign `c8855ae2-5c95-419b-8d8e-000c13cc757a`. LinkedIn, status **`running`** (since 2026-10-23, set by Moe's instruction), identity `-`, client approval not sent, unclaimed. Linked to sourcing config `09be87f3-…`, persona `e399896d-…` and HeyReach campaign `677893`.
 - Campaign notes: the copy comes from the C&G LinkedIn Campaign Plan (Ali, sent to Jon 2026-10-19, **not yet approved by Jon**). Angle: AI, data and security roles are the hardest technical seats to fill this year; privately held so pricing stays fair; onshore team. Copy is static except the first name. **The ManpowerGroup 2026 stat still needs verifying before launch.**
 - **Sequence in tracking_clients:** only in the freeform `linkedInSequence` text. The structured `sequenceJsonb` is **empty** (`steps: []`), so nothing has gone through `set_campaign_sequence` or the rules gate yet. The freeform version has a connection-request **note** ("We help tech teams fill security, data and engineering roles with a 100% onshore recruiting team. Most of our clients have stayed with us for over 15 years. Would like to connect.") followed by messages 1 to 3.
 - **Reply handling:**
@@ -79,6 +79,14 @@ Config detail (tracking_clients):
 
 ## History
 
+- **2026-10-23**: **Moe: "make it live in tracking clients first."** Changes in tracking_clients:
+  - Campaign `c8855ae2-5c95-419b-8d8e-000c13cc757a` moved `creation` → **`running`** via `move_campaign` (mark-running, confirm). This did not resume HeyReach `677893`, which is still PAUSED.
+  - The structured sequence was saved with `set_campaign_sequence` and passed the rules gate. It mirrors HeyReach exactly: blank connection request on day 0, then messages 1, 2 and 3 at +1, +3 and +4 days, first name as `{{module.standard.first_name}}`.
+  - The freeform `linkedInSequence` was rewritten to match. The old connection-request note was removed, per the org rule that connection requests are always blank (heyreach-campaign-launch-prep skill).
+  - Sourcing config `09be87f3-0db4-4e2d-842d-b70af7d29d7c` → `ready`.
+  - HeyReach schedule set: weekdays 07:00–19:00, timezone "Eastern Standard Time".
+  - `create_reply_workflow` returned **400 "Campaign has no reply workflow type set (need 1a, 2b, 2c)"**. That is Moe's decision; until then replies reach only the workspace-wide `hr-inbox` webhooks.
+  - Per-client CG session.
 - **2026-10-23**: The 4 incomplete Haiku batches were re-run. All 99 pass, and the result is the new `2026-10-23-3-*` snapshot (8,330 qualified leads, 0 pending); `-2` is unchanged. One wave-1 lead flipped to NOT_QUALIFIED and is to be removed from HeyReach. Per-client CG session.
 - **2026-10-23**: **Haiku qualification complete (expanding the existing segment's snapshot, not a new segment).**
   - 99 Claude Haiku 5.5 agents judged 4,618 companies and 11,594 leads individually: 3,668 companies and 8,332 leads qualified. 5 leads came back without a verdict and are marked PENDING.
