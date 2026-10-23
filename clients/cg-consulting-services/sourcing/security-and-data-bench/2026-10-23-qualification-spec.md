@@ -29,7 +29,8 @@ C&G Consulting Services is a New Jersey staffing firm. It fills **technology** r
 
 - **Staffing, recruiting, RPO, executive search or talent marketplace.** These are competitors.
 - **IT services, IT consulting, outsourcing, offshore development or MSP firms** whose business is supplying technologists to others. They are competitors for the same talent and budget.
-- **Government agency, public school district, university or college, nonprofit or association.** The qualifier says "companies"; an education *company* or *publisher* is fine.
+- **Government agency, public school district, university or college, charity, or trade association.** The qualifier says "companies"; an education *company* or *publisher* is fine.
+  - **Credit unions and mutual insurers are NOT excluded by this rule.** They are member-owned financial institutions that run their own IT, security and data teams, so judge them as banking or insurance. (Pilot fix, 2026-10-23: the first pass wrongly rejected credit unions as "nonprofits".)
 - **Insurance agencies and brokerages** with no meaningful in-house tech team, or a company in an obviously different sector that Blitz mis-tagged (e.g. a construction firm labelled software).
 - **Clearly outside the size band**, or defunct, acquired and absorbed, or a holding shell.
 - Any company on the client's DNC list, if one is provided in the batch (none loaded yet).
