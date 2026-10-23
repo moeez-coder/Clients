@@ -5,7 +5,7 @@ Usage: python3 pull_blitz.py <out_dir>
   people:    POST /v2/search/people     (same company filter + persona title keywords, person in US)
 Cursor-paged at max_results=25 (Blitz cap). Both totals are under the 50k/query cap, so no sharding.
 """
-import json, os, sys, time, urllib.request, urllib.error
+import http.client, json, os, sys, time, urllib.request, urllib.error
 from spec import (BLITZ_INDUSTRIES, EMPLOYEE_RANGES_BLITZ, REVENUE_MIN_USD, TITLE_KEYWORDS, TITLE_EXCLUDE)
 
 H = {"x-api-key": os.environ["BLITZ_API_KEY"], "Content-Type": "application/json"}
@@ -23,25 +23,35 @@ def post(path, body):
             if e.code in (429, 500, 502, 503, 504):
                 time.sleep(2 ** attempt); continue
             raise RuntimeError(f"{e.code} {e.read()[:500]}")
-        except (urllib.error.URLError, TimeoutError):
+        except (urllib.error.URLError, TimeoutError, http.client.IncompleteRead, ConnectionError, json.JSONDecodeError):
             time.sleep(2 ** attempt)
     raise RuntimeError("Blitz retries exhausted")
 
 
 def sweep(path, body, out):
-    cursor, n, total = None, 0, None
-    with open(out, "w") as f:
+    """Resumable: the next-page cursor is saved to <out>.cursor after each page is written."""
+    state = out + ".cursor"
+    cursor, mode = None, "w"
+    if os.path.exists(state):
+        cursor, mode = open(state).read().strip() or None, "a"
+        if cursor is None:
+            print(f"{path}: already complete -> {out}", flush=True)
+            return
+    total = None
+    with open(out, mode) as f:
         while True:
             b = dict(body, max_results=25, **({"cursor": cursor} if cursor else {}))
             d = post(path, b)
             total = d.get("total_results", total)
             for row in d.get("results", []):
-                f.write(json.dumps(row) + "\n"); n += 1
-            cursor = d.get("cursor")
-            if not cursor or not d.get("results"):
+                f.write(json.dumps(row) + "\n")
+            f.flush()
+            cursor = d.get("cursor") if d.get("results") else None
+            open(state, "w").write(cursor or "")
+            if not cursor:
                 break
+    n = sum(1 for _ in open(out))
     print(f"{path}: {n} rows written (total_results {total}) -> {out}", flush=True)
-    return n, total
 
 
 if __name__ == "__main__":
