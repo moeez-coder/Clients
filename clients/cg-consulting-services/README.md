@@ -80,6 +80,10 @@ Config detail (tracking_clients):
 
 ## History
 
+- **2026-10-27**: **Moe's decision: push wave 2 into `686451` "Security and Data Bench 2.0" and leave both campaigns running** (option chosen: "Push into 2.0, leave both").
+  - Accepted risk: both campaigns share list `1056840` and neither excludes leads in other campaigns, so the same people can get duplicate connection requests and messages. Wave 2 added through `686451` also lands on the shared list, so `677893` may pick it up too.
+  - 686451's sequence was checked before the push and is identical to `677893`: blank connection request withdrawn at 21 days, messages at +1, +3 and +4 days, `{FIRST_NAME}`, "Great to connect!" fallbacks.
+  - Per-client CG session.
 - **2026-10-27**: Moe asked for ~2,500 more leads in the live campaign. The HeyReach check before pushing found:
   1. **A second campaign, `686451` "Security and Data Bench 2.0"**, created in the workspace at 16:53 UTC 2026-10-27, not by this session. It is `IN_PROGRESS` on **the same list `1056840`**, so the same 493 wave-1 leads (310 in progress, 183 pending). It has 9 senders (everything but 252010). Neither campaign has "exclude in other campaigns" on, so wave-1 leads risk duplicate connection requests and messages.
   2. **Sender 252010 (Hans Lobos) now has `authIsValid: false`.** It is still attached to `677893`.
