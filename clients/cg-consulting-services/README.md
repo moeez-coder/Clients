@@ -76,9 +76,17 @@ Config detail (tracking_clients):
 - `sourcing/security-and-data-bench/2026-10-23-2-companies.csv`: the **4,618** lead-bearing companies with Haiku verdicts (**3,668 QUALIFIED**). Config `09be87f3-…`, same run.
 - `sourcing/security-and-data-bench/2026-10-23-2-heyreach-wave1.csv`: **500 leads** (500 companies, all Northeast) selected for HeyReach `677893` wave 1. Config `09be87f3-…`.
 - `sourcing/security-and-data-bench/2026-10-23-3-leads.csv` / `-companies.csv`: the complete Haiku qualification after re-running 4 incomplete batches. **8,330 of 11,594 leads QUALIFIED, 0 PENDING; 3,668 of 4,618 companies QUALIFIED.** Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`. Claude Haiku 5.5 workflow agents, 2026-10-23. Notes in `2026-10-23-2-leads.query.md` § Follow-up. **This is the source for future waves.**
+- `sourcing/security-and-data-bench/2026-10-27-heyreach-wave2.csv`: **2,500 leads** (2,240 companies, 678 Northeast) selected from `2026-10-23-3-leads.csv` for HeyReach wave 2. Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, built 2026-10-27 with `build_wave.py --drop-odd-names`. Query: `2026-10-27-heyreach-wave2.query.md`.
 
 ## History
 
+- **2026-10-27**: Moe asked for ~2,500 more leads in the live campaign. The HeyReach check before pushing found:
+  1. **A second campaign, `686451` "Security and Data Bench 2.0"**, created in the workspace at 16:53 UTC 2026-10-27, not by this session. It is `IN_PROGRESS` on **the same list `1056840`**, so the same 493 wave-1 leads (310 in progress, 183 pending). It has 9 senders (everything but 252010). Neither campaign has "exclude in other campaigns" on, so wave-1 leads risk duplicate connection requests and messages.
+  2. **Sender 252010 (Hans Lobos) now has `authIsValid: false`.** It is still attached to `677893`.
+  3. **5 senders are on connection-request cooldown:** 249296, 252010, 263687, 264146, 264519.
+  4. **Wave-1 results so far:** 443 connection requests sent, 10 accepted (2.3%), 3 conversations started, 0 replies. `677893`: 0 pending, 166 in progress, 319 finished, 8 failed.
+  - Wave 2 (2,500 leads) was built and committed. **It is not pushed until Moe picks which campaign it goes into and what happens to the duplicate.**
+  - Per-client CG session.
 - **2026-10-23 ~16:56 UTC**: **HeyReach `677893` resumed on Moe's instruction: LIVE.**
   - Status after the resume: `STARTING`, which tracking_clients `get_campaign_live_status` maps to `running`. 10 senders, weekdays 07:00–19:00 ET.
   - The campaign still reported `totalUsers 500` after the 7 list deletions, so deleting from the list does not remove leads already loaded into the campaign. `stop_lead_in_campaign` returned 404 for all 7.
