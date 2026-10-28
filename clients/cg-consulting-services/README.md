@@ -80,6 +80,12 @@ Config detail (tracking_clients):
 
 ## History
 
+- **2026-10-28**: **Wave 2 push to `686451` is partial and being resumed.**
+  - Five push agents (`add_leads_to_campaign_v2`, batches of 100 from `2026-10-27-heyreach-wave2.csv` in file order) were cut off twice by container restarts.
+  - **Verified landed:** batches 00, 05, 10, 15 and 20, rows 1–100, 501–600, 1001–1100, 1501–1600 and 2001–2100 of the wave file. That is **500 leads**, checked by looking up each batch's first and last profile in list `1056840`.
+  - The list holds **993** (493 wave 1 + 500 wave 2). Both `677893` and `686451` report 993, which confirms wave-2 leads flow into the original campaign through the shared list.
+  - Remaining 20 batches being pushed now.
+  - Per-client CG session.
 - **2026-10-27**: **Moe's decision: push wave 2 into `686451` "Security and Data Bench 2.0" and leave both campaigns running** (option chosen: "Push into 2.0, leave both").
   - Accepted risk: both campaigns share list `1056840` and neither excludes leads in other campaigns, so the same people can get duplicate connection requests and messages. Wave 2 added through `686451` also lands on the shared list, so `677893` may pick it up too.
   - 686451's sequence was checked before the push and is identical to `677893`: blank connection request withdrawn at 21 days, messages at +1, +3 and +4 days, `{FIRST_NAME}`, "Great to connect!" fallbacks.
