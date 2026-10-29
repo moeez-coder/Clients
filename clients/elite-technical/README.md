@@ -67,6 +67,11 @@ None yet. **Campaign 1, "Cleared Talent for New Federal Contracts"**, was approv
 
   Every message exits on reply. The fallbacks drop the agency name ("the recent contract award").
 - The positive-reply message (step 5 in the doc) is **manual**. It is not automated.
+- **Wave 1 is in list `1082101`: 16 leads, with `contract_or_agency` and `award_id` custom fields set on every one.**
+  - Parity was checked with `get_leads_from_list`: 16/16 present, with custom fields.
+  - HeyReach's own profile data showed 3 Blitz contacts had **changed jobs** and they were removed: Nathan McFarland (Cadmus), Devin Brown (Tria) and Kameron Turner (Tria).
+  - Tria was replaced with Steven Hardesty (VP IT & Quality), confirmed current. Cadmus has no other P1/P2 contact, so it sits out wave 1.
+  - The campaign is **still DRAFT**: not started.
 
 ### HeyReach (workspace 170370), checked 2026-10-29
 
@@ -106,11 +111,16 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 - `sourcing/cleared-talent-federal-contracts/2026-10-29-leads.csv`: 98 prospects at 24 companies, keyed by `linkedin_url`, 2026-10-29.
   - Pulled via Blitz `POST /v2/search/waterfall-icp-keyword` and Clay `search-contacts`.
   - Each row carries its verified award (ID, signed date, USAspending URL), `title_priority`, `revenue_status` and `company_wave_rank`.
-- `sourcing/cleared-talent-federal-contracts/2026-10-29-heyreach-wave1.csv`: the 17-lead wave 1, one contact per revenue-confirmed company, P1/P2 titles only.
+- `sourcing/cleared-talent-federal-contracts/2026-10-29-heyreach-wave1.csv`: the 17-lead wave 1 as first planned, one contact per revenue-confirmed company, P1/P2 titles only. **Superseded by `-2`.**
+- `sourcing/cleared-talent-federal-contracts/2026-10-29-2-heyreach-wave1.csv`: **the 16 leads actually in HeyReach list `1082101`**, after the job-change parity check below.
 - Query, filters, TAM read and cost: `sourcing/cleared-talent-federal-contracts/2026-10-29-leads.query.md`. Scripts are in `.../scripts/`.
 
 ## History
 
+- **2026-10-29**: Pushed wave 1 to HeyReach list `1082101` and ran sanity checks. The campaign was **not started**; that waits on Moe's go-ahead.
+  - The final list is 16 leads (`2026-10-29-2-heyreach-wave1.csv`). 3 stale contacts were swapped out after HeyReach showed job changes; that is about 18% staleness in Blitz contact data, so check current employment before every future push.
+  - The sequence copy was checked word for word against the client doc and matches. The longest connection note is 144 characters.
+  - The oldest trigger is DLH's award (2026-08-31): it is 59 days old today and leaves the 60-day window tomorrow.
 - **2026-10-29**: **New segment: Campaign 1 "Cleared Talent for New Federal Contracts"**, approved by Joseph Monaco on 2026-10-28.
   - Saved the approval doc and email to `context/`.
   - Sourced from scratch: USAspending awards signed in the prior 60 days, then Blitz company match, then a Blitz + Clay revenue cross-check, then Blitz + Clay contacts. LinkedIn URLs only; no emails.
