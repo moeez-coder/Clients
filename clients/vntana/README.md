@@ -95,6 +95,15 @@ Per CLAUDE.md's per-client campaign build standard, VNTANA has run the HeyReach 
 
 **Still open on the General quadset:** the Con Req (`601750`) Acc webhook (`CONNECTION_REQUEST_ACCEPTED`) has no URL yet — ask the repo owner for the Connection-Accepted Clay webhook URL, then `create_webhook` scoped to campaign `601750` and verify with `get_webhook_by_id` before this quadset is considered complete. Con Acc (`601751`) and Open Profile (`601753`) are intentionally left in DRAFT (terminal campaigns, no webhook needed) until leads flow in from Clay.
 
+**Render campaign offer test (2026-10-29, tracker row "The Shoot You Cannot Book, Render you're stuck with - with the offer", Ashley's sheet "VNTANA Algo Campaigns Oct 2026", Go Live Ready 2026-10-29):** two campaigns cloned from the approved HeyReach campaign `661048` "The Render You're Stuck With" (left untouched, PAUSED, 0 leads), approved copy unchanged except one offer sentence appended to Message 1's last paragraph:
+
+| Campaign | HeyReach id | List id | Offer added to Message 1 | Status |
+|---|---|---|---|---|
+| Render Stuck \| Offer 1 Cost+Speed | `693232` | `1082187` | "We cut render costs by 50% and take CAD to finished image in a day instead of a month, or you get your money back." | DRAFT, 0 leads, 16 senders |
+| Render Stuck \| Offer 2 Conversion | `693233` | `1082188` | "We guarantee a 10% lift in online conversion within 6 months, or your money back." | DRAFT, 0 leads, 16 senders |
+
+Sequences verified with `get_campaign_sequence`. Custom variables inherited from the approved copy: `{product}`, `{category}`, `{demo_link}` (plus `{FIRST_NAME}`). Cross-campaign exclusion turned on (`excludeContactedFromOtherCampaigns`) so one person cannot receive both offers. Senders: the 17 on `661048` minus `243418` (auth invalid). **Not yet done:** leads, reply webhooks, VNTANA/Ashley sign-off on the guarantee wording, never started.
+
 **Campaign 6 offer test (2026-10-21, config `82d47d88-32b2-4dd8-8307-b12ac530aaf7`, tracking campaign "The Long Tail Nobody Photographed or Rendered"):** two single-sequence HeyReach campaigns cloned (`create_campaign_from_template`) from the existing approved-copy campaign `661049` (left untouched as control, PAUSED, 0 leads):
 
 | Campaign | HeyReach id | List id | Offer in Message 1 | Status |
@@ -109,6 +118,8 @@ Sequence (verified with `get_campaign_sequence`): connection request (blank note
 - `sourcing/2026-09-16-us-icp-triage.csv` + `.query.md`, prompt `clients/vntana/icp-triage-spec-t2.md` — **US ICP qualification at scale**: every US company in the Supabase universe (client **VNTANA**, `a8d4e2f1-9c3b-4e7a-b5d8-6f2a1c9e3b7d`) scored FIT/UNSURE/NO by calibrated Haiku agents. 5,227 distinct US companies pulled from `universe` (deliberately **not** `addressable`, whose 201+ employee floor contradicts the client's own verdicts). Enriched via Blitz `/v2/enrichment/company`, then text-only triage at ~780 tokens/account. **Complete: 5,227 scored — 2,520 FIT / 952 UNSURE / 1,755 NO**, written back to Supabase (`agent_run='us-triage-t2-2026-09-16'`, verified against the CSV). Pulled 2026-09-16. The `.query.md` carries the full method, the 100%-recall filter validation, the agent-id transcription bug and how the verdicts were proven position-aligned, and the unresolved revenue-tier decision.
 
 ## History
+
+- **2026-10-29** — Owner asked to build the Render campaign "with the offer" from Ashley's tracker, using the approved "The Render You're Stuck With" copy and the two offers as done for Long Tail. Created lists `1082187`/`1082188` and DRAFT campaigns `693232`/`693233` (cloned from `661048`), offer sentence added to Message 1, cross-campaign exclusion on. Empty until leads are loaded. Orchestrator session.
 
 - **2026-10-21** — Owner loaded leads to both test campaigns and asked for a check. Read both lists in full (868 / 864), checked `{sku}` parity, duplicates, titles, aerospace/defense, DNC and blanks; flagged 372 leads. Found: 101 people in both lists, 48 with null company, 12 aerospace/defense, 11 excluded titles, 51 company/sku mismatches, 50 already in earlier repo leads. Nothing changed in HeyReach. Orchestrator session.
 
