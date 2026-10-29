@@ -36,7 +36,9 @@
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
-| `-`: no lead list (sourcing config) yet. The ICP config exists (below); the lead list and campaign are pending Moe's `campaign_split` answer | Cleared Talent for New Federal Contracts | Government Contractors, IT Services, Engineering, Defense, Research | `-` | `-` | `-` | `-` |
+| USAspending awards (60d) + Blitz/Clay — Cleared Talent Fed Contracts | Cleared Talent for New Federal Contracts | Government Contractors, IT Services, Engineering, Defense, Research | draft | 1 | 0 | `-` |
+
+Lead list (sourcing config) `f52caf59-e687-4ec4-94de-5d4d2862bc55` was created 2026-10-29: Custom module, static, `campaign_split: false` (Moe's choice: every linked campaign gets every lead), no Clay table or workbook.
 
 ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf-3a800c3e4d08` was created 2026-10-29:
 - segment `16e8421d-b9e3-4c44-a4b9-cb80714bbdad`: 501–10,000 employees, DC Metro then East Coast then Midwest, signal "federal award in prior 60 days"
@@ -45,9 +47,10 @@ ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf
 
 ## Campaigns (tracking_clients)
 
-None yet. **Campaign 1, "Cleared Talent for New Federal Contracts"**, was approved by the client by email on 2026-10-28; see [context/2026-10-28-campaign-1-approval.md](context/2026-10-28-campaign-1-approval.md).
-- The campaign record is pending its lead list.
-- Its 4-step sequence (connection request plus 3 DMs, with `{{module.custom.contract_or_agency}}`) passes `validate_sequence`, checked 2026-10-29.
+**Campaign 1, "Cleared Talent for New Federal Contracts"**: campaign `46e24967-fdc8-4d7e-8c04-0e5e8af84afe`, status `creation`, linked to lead list `f52caf59-…` and persona `df04cee8-…`. The client approved it by email on 2026-10-28; see [context/2026-10-28-campaign-1-approval.md](context/2026-10-28-campaign-1-approval.md).
+- The structured 4-step sequence (connection request plus 3 DMs, with `{{module.custom.contract_or_agency}}`) was saved through `set_campaign_sequence` and passed validation. The freeform `linkedin_sequence` also has the manual positive-reply step.
+- The HeyReach link can't be set: `link_platform_campaign` supports only Smartlead for new-system campaigns. HeyReach `693168` is recorded in the campaign notes instead.
+- **Reply handling** (Moe, 2026-10-29): Algo triages replies in the HeyReach/dashboard inbox and hands interested prospects to Elite (Joseph/Phil/Mike/Jeff) for the personal response, as Joseph's doc asks. No calendar link until a prospect shows interest.
 - The other 9 proposed campaigns are **not approved**: Joseph will review them one by one.
 
 ### Campaign 1 in HeyReach
@@ -117,6 +120,7 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-10-29**: Created tracking_clients lead list `f52caf59-…` (no split, per Moe) and campaign `46e24967-…`, and saved the sequence. Recorded Moe's reply-handling decision. Launch is still pending.
 - **2026-10-29**: Pushed wave 1 to HeyReach list `1082101` and ran sanity checks. The campaign was **not started**; that waits on Moe's go-ahead.
   - The final list is 16 leads (`2026-10-29-2-heyreach-wave1.csv`). 3 stale contacts were swapped out after HeyReach showed job changes; that is about 18% staleness in Blitz contact data, so check current employment before every future push.
   - The sequence copy was checked word for word against the client doc and matches. The longest connection note is 144 characters.
