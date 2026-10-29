@@ -36,16 +36,42 @@
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
-| `-` (none exist in tracking_clients as of 2026-10-29) | `-` | `-` | `-` | `-` | `-` | `-` |
+| `-`: no lead list (sourcing config) yet. The ICP config exists (below); the lead list and campaign are pending Moe's `campaign_split` answer | Cleared Talent for New Federal Contracts | Government Contractors, IT Services, Engineering, Defense, Research | `-` | `-` | `-` | `-` |
+
+ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf-3a800c3e4d08` was created 2026-10-29:
+- segment `16e8421d-b9e3-4c44-a4b9-cb80714bbdad`: 501–10,000 employees, DC Metro then East Coast then Midwest, signal "federal award in prior 60 days"
+- persona `df04cee8-a69d-4b48-ac84-6d6e3657417f`: VP/Director, with the client's IT/Eng/TA titles
+- the qualifier text holds the $100M–$1B hard filter
 
 ## Campaigns (tracking_clients)
 
-None. `list_campaigns` returned 0 on 2026-10-29.
+None yet. **Campaign 1, "Cleared Talent for New Federal Contracts"**, was approved by the client by email on 2026-10-28; see [context/2026-10-28-campaign-1-approval.md](context/2026-10-28-campaign-1-approval.md).
+- The campaign record is pending its lead list.
+- Its 4-step sequence (connection request plus 3 DMs, with `{{module.custom.contract_or_agency}}`) passes `validate_sequence`, checked 2026-10-29.
+- The other 9 proposed campaigns are **not approved**: Joseph will review them one by one.
+
+### Campaign 1 in HeyReach
+
+- **Campaign `693168`**, "US | C1 Cleared Talent Fed Contracts | Moe v1", status **DRAFT**, created 2026-10-29.
+- **List:** `1082101` (USER_LIST), used only by this campaign.
+- **Senders (6):** 232663, 263924, 266010, 266511, 267035, 267167. These are the VA accounts with 25/day connection limits. Left out:
+  - Mike Gerardo (267224), Elite staff
+  - the 4 low-limit accounts
+- **Schedule:** Mon–Fri 08:00–17:00 America/New_York.
+- **Exclusions:** company and lead blacklist on, exclude-in-other-campaigns on, exclude-has-other-conversations on.
+- **Sequence**, read back with `get_campaign_sequence` and identical to the client's approved copy:
+  1. Connection request with note, `{FIRST_NAME}` + `{contract_or_agency}`, withdrawn after 25 days
+  2. On accept, +3h: message 1
+  3. +7 days if no reply: message 2
+  4. +7 days if no reply: message 3
+
+  Every message exits on reply. The fallbacks drop the agency name ("the recent contract award").
+- The positive-reply message (step 5 in the doc) is **manual**. It is not automated.
 
 ### HeyReach (workspace 170370), checked 2026-10-29
 
 - **Campaigns:** 0. **Lists:** 0.
-- **Company blacklist:** 0 entries. **Lead blacklist:** 0 entries. **The 160-company DNC list is not loaded into HeyReach.**
+- **Company blacklist:** all 160 DNC company names loaded 2026-10-29 (IDs 83568–83727), matched by name only because the DNC has no URLs or domains. **Lead blacklist:** 0 entries.
 - **Webhooks:** three workspace-wide `hr-inbox` webhooks go to `dashboard.algoacquisition.ai/api/hr-inbox/webhook/254dc33b-…`. All are active and cover all campaigns:
   - EVERY_MESSAGE_REPLY_RECEIVED (95980)
   - MESSAGE_SENT (95981)
@@ -72,10 +98,33 @@ None. `list_campaigns` returned 0 on 2026-10-29.
 
 ## Sourced data in this repo
 
-`-` (no snapshots yet)
+All rows below are for ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf-3a800c3e4d08`. No lead-list UUID exists yet.
+
+- `sourcing/cleared-talent-federal-contracts/2026-10-29-companies.csv`: 33 award-recipient companies, 2026-10-29.
+  - Pulled via USAspending `POST /api/v2/search/spending_by_award/` (awards), Blitz `POST /v2/search/companies` (match and revenue) and Clay `search-contacts` (revenue cross-check).
+  - The `decision` column records 26 included and 7 excluded, with reasons.
+- `sourcing/cleared-talent-federal-contracts/2026-10-29-leads.csv`: 98 prospects at 24 companies, keyed by `linkedin_url`, 2026-10-29.
+  - Pulled via Blitz `POST /v2/search/waterfall-icp-keyword` and Clay `search-contacts`.
+  - Each row carries its verified award (ID, signed date, USAspending URL), `title_priority`, `revenue_status` and `company_wave_rank`.
+- `sourcing/cleared-talent-federal-contracts/2026-10-29-heyreach-wave1.csv`: the 17-lead wave 1, one contact per revenue-confirmed company, P1/P2 titles only.
+- Query, filters, TAM read and cost: `sourcing/cleared-talent-federal-contracts/2026-10-29-leads.query.md`. Scripts are in `.../scripts/`.
 
 ## History
 
+- **2026-10-29**: **New segment: Campaign 1 "Cleared Talent for New Federal Contracts"**, approved by Joseph Monaco on 2026-10-28.
+  - Saved the approval doc and email to `context/`.
+  - Sourced from scratch: USAspending awards signed in the prior 60 days, then Blitz company match, then a Blitz + Clay revenue cross-check, then Blitz + Clay contacts. LinkedIn URLs only; no emails.
+  - Results: 98 leads at 24 companies, and a 17-lead wave 1.
+  - **TAM is small** (17 revenue-confirmed companies), so up to 4 contacts per company, but **staggered one per company per wave**. The client's doc forbids sending identical sequences to several contacts at one company at once.
+  - DNC: none of the 33 companies matched the 160 DNC names on normalized name or token overlap. The near-misses checked by hand were:
+    - IDA vs "United Defense"/"Department of Defense"
+    - Manhattan Associates vs "Chase Manhattan"
+    - MIL Corp vs "Booz Allen Hamilton", a substring false positive
+  - ILC Dover was dropped anyway; its parent, Ingersoll Rand, is on the DNC.
+  - Loaded all 160 DNC names into the HeyReach company blacklist.
+  - Created ICP config `d286c219-…` in tracking_clients.
+  - Created HeyReach list `1082101` and campaign `693168` (DRAFT).
+  - Why: this is the client's first approved campaign; build it to their exact spec before launch. Blitz used ~1.7k of 6.2M records; Clay ran 4 searches with no enrichment credits.
 - **2026-10-29**: Folder created and initialized for client `254dc33b-4f9f-4712-9b6b-eca49c5a5ffc`, following the CLAUDE.md init protocol.
   - Synced the profile from `get_client`. `list_sourcing_configs`, `list_icp_configs` and `list_campaigns` all came back empty.
   - Saved the ICP form, caller briefing/FAQs and the 160-row DNC list to `context/` verbatim. The Typeform response token and workflow IDs were left out of the ICP form.
