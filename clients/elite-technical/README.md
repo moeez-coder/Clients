@@ -55,7 +55,9 @@ ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf
 
 ### Campaign 1 in HeyReach
 
-- **Campaign `693168`**, "US | C1 Cleared Talent Fed Contracts | Moe v1", status **DRAFT**, created 2026-10-29.
+- **Campaign `693168`**, "US | C1 Cleared Talent Fed Contracts | Moe v1", status **IN_PROGRESS since 2026-10-30 09:52 UTC**, started on Moe's instruction. It was created 2026-10-29.
+  - At start: 72 leads (54 in progress, 18 pending, 0 failed, 0 excluded).
+  - The final list is `sourcing/cleared-talent-federal-contracts/2026-10-30-heyreach-launch.csv`: 72 leads at 33 companies, 2–3 per company.
 - **List:** `1082101` (USER_LIST), used only by this campaign.
 - **Senders (6):** 232663, 263924, 266010, 266511, 267035, 267167. These are the VA accounts with 25/day connection limits. Left out:
   - Mike Gerardo (267224), Elite staff
@@ -126,6 +128,16 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-10-30**: **Campaign 1 went live.** HeyReach `693168` started at 09:52 UTC with 72 leads at 33 companies, on Moe's go-ahead.
+  - Before starting, list `1082101` was synced to the 2026-10-30 selection:
+    - removed DLH, whose award is now outside 60 days
+    - removed 4 job-changers flagged by HeyReach, including Steven Hardesty, whose HeyReach record changed overnight
+    - fixed a first/last-name swap (Brian Goins)
+  - Parity: 72/72 leads, all with `contract_or_agency` set. All 6 senders are auth-valid with no cooldowns.
+  - The tracking_clients campaign notes were updated. **The status field can't be set through the tool**, so it still reads `creation`; set it to running in the dashboard.
+  - **Open with Joseph:**
+    - tell him 2–3 contacts per company are being messaged at once
+    - send the pre-launch confirmations his doc asked for: sender profiles, award source, DNC suppression, reply handling, weekly reporting
 - **2026-10-30**: **Expanding existing segment** (Campaign 1) after Moe asked for 1,000 leads.
   - Widened the trigger pull: all NAICS, ≥$250k, IDVs, and DoD awards from war.gov via Exa.
   - Result: 3,172 recipients; 211 in the $100M–$1B band; 43 relevant with an award in 60 days. The final list is 145 leads, of which 76 are selected at 2–3 per company (34 companies).
