@@ -116,10 +116,22 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Each row carries its verified award (ID, signed date, USAspending URL), `title_priority`, `revenue_status` and `company_wave_rank`.
 - `sourcing/cleared-talent-federal-contracts/2026-10-29-heyreach-wave1.csv`: the 17-lead wave 1 as first planned, one contact per revenue-confirmed company, P1/P2 titles only. **Superseded by `-2`.**
 - `sourcing/cleared-talent-federal-contracts/2026-10-29-2-heyreach-wave1.csv`: **the 16 leads actually in HeyReach list `1082101`**, after the job-change parity check below.
-- Query, filters, TAM read and cost: `sourcing/cleared-talent-federal-contracts/2026-10-29-leads.query.md`. Scripts are in `.../scripts/`.
+- Query, filters, TAM read and cost: `sourcing/cleared-talent-federal-contracts/2026-10-29-leads.query.md`.
+- `sourcing/cleared-talent-federal-contracts/2026-10-30-companies.csv`: 43 companies from the **widened** pull, 2026-10-30.
+  - Sources: USAspending (all NAICS, ≥$250k, contracts + IDVs) plus DoD awards from war.gov daily announcements (via Exa), then Blitz company match, then Clay revenue check. Same ICP config `d286c219-…` and lead list `f52caf59-…`.
+- `sourcing/cleared-talent-federal-contracts/2026-10-30-leads.csv`: 145 prospects at 38 companies, keyed by `linkedin_url`, 2026-10-30.
+  - Pulled via Blitz `waterfall-icp-keyword` and Clay `search-contacts`.
+  - 76 are flagged `selected_for_launch` (2–3 per company, 34 companies).
+  - Method and changes: `2026-10-30-leads.query.md`. Scripts are in `.../scripts/`.
 
 ## History
 
+- **2026-10-30**: **Expanding existing segment** (Campaign 1) after Moe asked for 1,000 leads.
+  - Widened the trigger pull: all NAICS, ≥$250k, IDVs, and DoD awards from war.gov via Exa.
+  - Result: 3,172 recipients; 211 in the $100M–$1B band; 43 relevant with an award in 60 days. The final list is 145 leads, of which 76 are selected at 2–3 per company (34 companies).
+  - Moe approved 2–3 contacts per company at once, which **departs from Joseph's one-at-a-time rule**; Joseph still needs to be told.
+  - **1,000 leads is not reachable inside Campaign 1's definition.** The trigger and revenue band cap it at about 40 companies.
+  - Cost: Blitz ~6.6k records, Exa $0.34, Clay 2 searches.
 - **2026-10-29**: Created tracking_clients lead list `f52caf59-…` (no split, per Moe) and campaign `46e24967-…`, and saved the sequence. Recorded Moe's reply-handling decision. Launch is still pending.
 - **2026-10-29**: Pushed wave 1 to HeyReach list `1082101` and ran sanity checks. The campaign was **not started**; that waits on Moe's go-ahead.
   - The final list is 16 leads (`2026-10-29-2-heyreach-wave1.csv`). 3 stale contacts were swapped out after HeyReach showed job changes; that is about 18% staleness in Blitz contact data, so check current employment before every future push.
