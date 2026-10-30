@@ -1,0 +1,68 @@
+{
+ "c8": {
+  "num": 8,
+  "name": "The Role Behind the Posting",
+  "offer": "B",
+  "vars": [
+   "role_title",
+   "location",
+   "key_skills"
+  ],
+  "cr": "Saw the {role_title} opening on your team. Would like to connect.",
+  "m1": "Thanks for connecting, {first_name}.\n\nIs the {role_title} role in {location} still open?\n\nIt reads like {key_skills} experience matters most, and Elite Technical works on IT and engineering searches like it.",
+  "m2": "Is the harder part of that role finding {key_skills} together in one person, or keeping good candidates engaged through your process?",
+  "m3": "Asking because we handle those two problems differently. We can run a complimentary talent availability assessment on this role, covering who is available, what the market looks like and what a realistic timeline is. Would a brief 15-minute call work?",
+  "yes": "Thank you, {first_name}. We will look at the {role_title} role and send back availability, market conditions and a timeline. Or grab 15 minutes here: {meeting_link}"
+ },
+ "c9": {
+  "num": 9,
+  "name": "Candidate Fraud in Technical Hiring",
+  "offer": "A",
+  "vars": [],
+  "cr": "Saw the technical hiring happening on your team. Would like to connect.",
+  "m1": "Thanks for connecting, {first_name}.\n\nCandidate misrepresentation is becoming a bigger issue in technical hiring, especially for remote roles.\n\nElite Technical built InterviewMyCandidate to add video interviews and identity verification before a candidate reaches a hiring manager. We have placed over 4,500 professionals in 34 years.\n\nOpen to a conversation on what you are seeing.",
+  "m2": "Have you run into a candidate who did not match their résumé once they reached a technical interview?",
+  "m3": "Asking because if you have, the cost was probably higher than a screening step would have been. We can give you a complimentary AI-powered candidate screening experience so you can see it firsthand. Would a brief 15-minute call next week work?",
+  "yes": "Happy to set it up, {first_name}. We will walk you through the video interview, the identity verification and the AI-generated interview summary. Grab 15 minutes here: {meeting_link}"
+ },
+ "c10": {
+  "num": 10,
+  "name": "New Seat, Fresh Team",
+  "offer": "B",
+  "vars": [
+   "new_role"
+  ],
+  "cr": "Congratulations on the new {new_role} role. Would like to connect.",
+  "m1": "Thanks for connecting, {first_name}.\n\nNew leaders often inherit open roles and a hiring process they did not design.\n\nElite Technical has supported IT and engineering hiring for 34 years, and our candidate submissions include a video interview and identity verification step.\n\nOpen to a conversation if building out the team is part of your first year.",
+  "m2": "As you settle in, is the bigger priority filling the roles already open or reshaping the team for what comes next?",
+  "m3": "Asking because one needs speed and the other needs a clearer picture of available talent. We can run a complimentary talent availability assessment on your hardest role to fill. Would a brief 15-minute call work?",
+  "yes": "Thank you, {first_name}. Tell me the role you would fill first and we will send back availability and a realistic timeline. Or grab 15 minutes here: {meeting_link}"
+ },
+ "c2": {
+  "num": 2,
+  "name": "Engineers for the Program Ramp",
+  "offer": "B",
+  "vars": [
+   "program_or_product",
+   "engineering_focus"
+  ],
+  "cr": "Saw your team is scaling engineering around {program_or_product}. Would like to connect.",
+  "m1": "Thanks for connecting, {first_name}.\n\nElite Technical pairs AI-powered recruiting with recruiters who specialize in engineering roles, which gets us to niche talent faster than a generic search.\n\nWe have been doing this for 34 years.\n\nOpen to a conversation if hiring for {engineering_focus} is a priority this year.",
+  "m2": "Is the bottleneck usually finding enough qualified engineers at all, or getting good candidates through your process before they accept elsewhere?",
+  "m3": "Asking because the first is a sourcing problem and the second is a speed problem, and we approach them differently. We can run a complimentary talent availability assessment on one of your toughest engineering roles. Worth a brief 15-minute call?",
+  "yes": "Thank you, {first_name}. Tell me which engineering role is hardest to fill and where it sits, and we will send back availability, market conditions and a realistic timeline. Or grab 15 minutes here: {meeting_link}"
+ },
+ "c3": {
+  "num": 3,
+  "name": "Hiring Security Talent Without the Fraud Risk",
+  "offer": "A",
+  "vars": [
+   "security_focus"
+  ],
+  "cr": "Saw your team is growing its security engineering group. Would like to connect.",
+  "m1": "Thanks for connecting, {first_name}.\n\nFor a security company, hiring someone who misrepresented themselves is a real risk.\n\nElite Technical adds video interviews and identity verification to our candidate submissions through our InterviewMyCandidate platform. We have worked with over 400 clients across IT and engineering.\n\nOpen to a conversation on how you verify {security_focus} candidates today.",
+  "m2": "When a strong security candidate reaches your team, who verifies their claims first, your recruiters or the hiring manager?",
+  "m3": "Asking because if it falls on the hiring manager, it is usually the most expensive place to catch a problem. We can give you a complimentary AI-powered candidate screening experience so you can see how it works firsthand. Would a brief 15-minute call next week work?",
+  "yes": "Happy to set it up, {first_name}. We will walk you through the full flow: the video interview, the identity verification and the AI-generated interview summary. Grab 15 minutes here: {meeting_link}"
+ }
+}

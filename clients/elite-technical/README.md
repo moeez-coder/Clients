@@ -37,6 +37,13 @@
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
 | USAspending awards (60d) + Blitz/Clay — Cleared Talent Fed Contracts | Cleared Talent for New Federal Contracts | Government Contractors, IT Services, Engineering, Defense, Research | ready | 1 | 0 (leads live in this repo; see note) | `-` |
+| TheirStack/Coresignal live postings (30d) + Blitz contacts — C8 Role Behind the Posting | The Role Behind the Posting | Technology, Financial Services, Health Care, Defense and Space | draft | 1 | 0 | `-` |
+| TheirStack remote/hybrid tech roles + Blitz TA contacts — C9 Candidate Fraud | Candidate Fraud in Technical Hiring | Technology, Financial Services, Health Care, Defense and Space | draft | 1 | 0 | `-` |
+| Job-change (90d) senior IT/Eng via Clay/Blitz — C10 New Seat Fresh Team | New Seat, Fresh Team | Technology, Financial Services, Health Care, Defense and Space | draft | 1 | 0 | `-` |
+| Eng hiring surge/program news + Blitz contacts — C2 Program Ramp | Engineers for the Program Ramp | Defense and Space Mfg, Aerospace Components, Engineering Services, Defense Electronics | draft | 1 | 0 | `-` |
+| Open security eng roles + Blitz contacts — C3 Security Talent | Hiring Security Talent Without the Fraud Risk | Computer and Network Security, Software Development, Data Infrastructure | draft | 1 | 0 | `-` |
+
+The five draft rows above were created 2026-10-30 from this session's own `create_*` calls, not a re-pull. They are static, `campaign_split: false`, with no Clay table, and none has leads yet.
 
 Lead list (sourcing config) `f52caf59-e687-4ec4-94de-5d4d2862bc55` was created 2026-10-29: Custom module, static, `campaign_split: false` (Moe's choice: every linked campaign gets every lead), no Clay table or workbook.
 
@@ -52,6 +59,32 @@ ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf
 - The HeyReach link can't be set: `link_platform_campaign` supports only Smartlead for new-system campaigns. HeyReach `693168` is recorded in the campaign notes instead.
 - **Reply handling** (Moe, 2026-10-29): Algo triages replies in the HeyReach/dashboard inbox and hands interested prospects to Elite (Joseph/Phil/Mike/Jeff) for the personal response, as Joseph's doc asks. No calendar link until a prospect shows interest.
 - The other 9 proposed campaigns are **not approved**: Joseph will review them one by one.
+
+### Campaigns 8, 9, 10, 2, 3 — set up as drafts 2026-10-30 (not client-approved)
+
+On 2026-10-30 Moe asked to set up the "top 5" campaigns from the Oct 26 proposal doc (Google Doc `1Xt95ZV3VODh6TKRUEwwn2gfWgzo21DCv_i9yPo9qv-4`, "Elite Technical Outbound Campaigns, 26 October 2026").
+- Moe picked campaigns 8, 9, 10, 2 and 3: the next five after Campaign 1 in the doc's suggested launch order.
+- **All five are drafts.** No leads are loaded and nothing has started, because Joseph's 2026-10-28 approval says "Do not launch the remaining nine campaigns without separate approval".
+- Copy is the Oct 26 doc's text, unchanged and with the default offer. It is in [campaigns/2026-10-30-campaigns-2-3-8-9-10-copy.json](campaigns/2026-10-30-campaigns-2-3-8-9-10-copy.json).
+  - The structure matches C1: connection request, message 1 three hours after acceptance, then +7 days and +7 days, each exiting on reply.
+  - The doc's "when they say yes" message is a manual reply.
+- Each campaign has its own ICP config, segment, persona and lead list. Each qualifier carries the $100M–$1B revenue hard filter, which Joseph said applies to all ten campaigns.
+- HeyReach (workspace 170370): every campaign is DRAFT with all 11 senders, the 7-day 08:00–17:00 America/New_York schedule and the same exclusions as C1. Each sequence was read back with `get_campaign_sequence` and matched what was sent.
+- Fallback copy drops each custom variable and is only used when a lead lacks the field.
+
+| # | Campaign | tracking_clients campaign | ICP config / persona | Lead list | HeyReach campaign / list | Offer | Custom vars |
+|---|---|---|---|---|---|---|---|
+| 8 | The Role Behind the Posting | `70e7eda4-c094-45da-8b4e-da6305527261` | `5a45a70c-f5a8-44ff-a41a-aab977a0c3aa` / `8fa09e7c-152b-4d14-bd7f-143faa5b6857` | `82457586-7a88-4943-80b3-5552c1fc2d94` | `695764` / `1086161` | B | role_title, location, key_skills |
+| 9 | Candidate Fraud in Technical Hiring | `413dfae6-ff9e-4335-9e9f-73ff347f9b9c` | `935c0326-200a-464d-88e0-b6a0952cf95e` / `dd9eca26-6774-4301-9aa2-fbbd89c69a2c` | `78d2a5a3-2dc4-49be-afa1-43d44235a0b5` | `695765` / `1086162` | A | - |
+| 10 | New Seat, Fresh Team | `d2d02a2c-a147-420d-af05-27d76bd19064` | `790aa42b-7e14-4e58-a31a-ae6e529e8b87` / `02cfd049-0147-4a2f-8254-6595d82dfbd3` | `fcd62dbd-f43a-46d0-b07b-2271569412e3` | `695766` / `1086164` | B | new_role |
+| 2 | Engineers for the Program Ramp | `549697ad-d2f5-4226-952a-e9999fb6092c` | `7e296131-0361-438b-96b8-74b15d0a421b` / `371a2f2d-eea0-4fa5-884c-f94e5c840c93` | `70f4cd52-6d09-4902-b38b-79af38253826` | `695767` / `1086165` | B | program_or_product, engineering_focus |
+| 3 | Hiring Security Talent Without the Fraud Risk | `4dedf327-4b4d-40a0-b284-56beb2be9f29` | `026c3a22-1de1-4f39-820d-1136c14831ad` / `8885ecca-9236-4f83-990a-f1d4d33ffc7a` | `77a81db4-8496-4bdc-a8cb-7e58025f14e5` | `695768` / `1086166` | A | security_focus |
+
+**Before any of these can go live:**
+1. Joseph has to approve them.
+2. The copy probably needs Joseph's C1 rewrites applied. In C1 he dropped the formal "complimentary assessment", moved the 15-minute ask to the positive reply, and made the tone more conversational.
+3. Elite has to confirm the claims: 4,500 vs 3,000 placements, the "400 clients" figure, and IMC wording that doesn't imply guaranteed fraud prevention.
+4. Each campaign needs sourcing for its trigger, with leads keyed by `linkedin_url` and the custom vars filled.
 
 ### Campaign 1 in HeyReach
 
@@ -134,6 +167,12 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 - `sourcing/cleared-talent-federal-contracts/2026-10-30-3-heyreach-c1b.csv`: the 141 leads at 62 companies pushed to HeyReach list `1086068`, 2026-10-30. One was then deleted as a job change, which leaves 140 live.
 
 ## History
+
+- **2026-10-30**: **Campaigns 8, 9, 10, 2 and 3 were set up as drafts** on Moe's instruction ("set up the top 5 campaigns … from the document that we sent to them"). Moe chose these five, the next ones after C1 in the Oct 26 doc's launch order.
+  - These are **5 new segments**, each with its own ICP config, lead list and campaign in tracking_clients. Sequences were saved and validated through `set_campaign_sequence`.
+  - In HeyReach, each has a DRAFT campaign and an empty list: `695764`–`695768` and `1086161`–`1086166`.
+  - Nothing was sourced or started, because Joseph's approval covers Campaign 1 only. There is no TAM read or per-company contact count yet; that comes with sourcing.
+  - IDs are in the table under "Campaigns 8, 9, 10, 2, 3".
 
 - **2026-10-30**: **C1b went live.** This is an **expanding existing segment** for Campaign 1, using a 12-month award window.
   - 141 leads at 62 companies were pushed to list `1086068`. The Blitz-sweep × award-match method is Moe's option 1.
