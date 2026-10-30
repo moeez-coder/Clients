@@ -59,10 +59,12 @@ ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf
   - At start: 72 leads (54 in progress, 18 pending, 0 failed, 0 excluded).
   - The final list is `sourcing/cleared-talent-federal-contracts/2026-10-30-heyreach-launch.csv`: 72 leads at 33 companies, 2–3 per company.
 - **List:** `1082101` (USER_LIST), used only by this campaign.
-- **Senders (6):** 232663, 263924, 266010, 266511, 267035, 267167. These are the VA accounts with 25/day connection limits. Left out:
-  - Mike Gerardo (267224), Elite staff
-  - the 4 low-limit accounts
-- **Schedule:** Mon–Fri 08:00–17:00 America/New_York.
+- **Senders (11, all workspace accounts, since 2026-10-30 per Moe):** 232663, 263924, 264166, 264348, 265355, 265543, 266010, 266511, 267035, 267167, and 267224 (Mike Gerardo, Elite staff). Until then the campaign ran on the first 6 only.
+- **Schedule:** **7 days a week**, 08:00–17:00 America/New_York, since 2026-10-30 per Moe. Before that it was Mon–Fri.
+- **Leads:** 106 as of 2026-10-30, after a +34 push. The record of that push is `2026-10-30-2-heyreach-push.csv`.
+- **Campaign `695698`** "US | C1b Fed Contracts 12mo | Moe v1" is for the 12-month award window, with list `1086068`.
+  - Status: DRAFT. Same 11 senders, schedule and exclusions.
+  - Copy is identical to the live campaign except the connection note drops "recent": "congratulations on the {contract_or_agency} award!"
 - **Exclusions:** company and lead blacklist on, exclude-in-other-campaigns on, exclude-has-other-conversations on.
 - **Sequence**, read back with `get_campaign_sequence` and identical to the client's approved copy:
   1. Connection request with note, `{FIRST_NAME}` + `{contract_or_agency}`, withdrawn after 25 days
@@ -127,6 +129,13 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Method and changes: `2026-10-30-leads.query.md`. Scripts are in `.../scripts/`.
 
 ## History
+
+- **2026-10-30**: Moe widened Campaign 1's award window to 12 months and asked for leads to be pushed as they arrive.
+  - Live campaign `693168`:
+    - The 34 remaining Director/VP leads were pushed after a freshness check (72 → 106).
+    - Paused briefly to switch to all 11 senders and a 7-day New York schedule, then resumed. It is IN_PROGRESS.
+  - Created draft campaign `695698` (C1b), list `1086068`, for 12-month-window leads.
+  - The 12-month USAspending pull (IT/eng NAICS, ≥$500k) is running.
 
 - **2026-10-30**: **Campaign 1 went live.** HeyReach `693168` started at 09:52 UTC with 72 leads at 33 companies, on Moe's go-ahead.
   - Before starting, list `1082101` was synced to the 2026-10-30 selection:
