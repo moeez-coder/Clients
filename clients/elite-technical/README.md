@@ -36,7 +36,7 @@
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
-| USAspending awards (60d) + Blitz/Clay — Cleared Talent Fed Contracts | Cleared Talent for New Federal Contracts | Government Contractors, IT Services, Engineering, Defense, Research | draft | 1 | 0 | `-` |
+| USAspending awards (60d) + Blitz/Clay — Cleared Talent Fed Contracts | Cleared Talent for New Federal Contracts | Government Contractors, IT Services, Engineering, Defense, Research | ready | 1 | 0 (leads live in this repo; see note) | `-` |
 
 Lead list (sourcing config) `f52caf59-e687-4ec4-94de-5d4d2862bc55` was created 2026-10-29: Custom module, static, `campaign_split: false` (Moe's choice: every linked campaign gets every lead), no Clay table or workbook.
 
@@ -47,7 +47,7 @@ ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf
 
 ## Campaigns (tracking_clients)
 
-**Campaign 1, "Cleared Talent for New Federal Contracts"**: campaign `46e24967-fdc8-4d7e-8c04-0e5e8af84afe`, status `creation`, linked to lead list `f52caf59-…` and persona `df04cee8-…`. The client approved it by email on 2026-10-28; see [context/2026-10-28-campaign-1-approval.md](context/2026-10-28-campaign-1-approval.md).
+**Campaign 1, "Cleared Talent for New Federal Contracts"**: campaign `46e24967-fdc8-4d7e-8c04-0e5e8af84afe`, status **`running`** (moved 2026-10-30 via `move_campaign` → mark-running, on Moe's instruction), linked to lead list `f52caf59-…` and persona `df04cee8-…`. The client approved it by email on 2026-10-28; see [context/2026-10-28-campaign-1-approval.md](context/2026-10-28-campaign-1-approval.md).
 - The structured 4-step sequence (connection request plus 3 DMs, with `{{module.custom.contract_or_agency}}`) was saved through `set_campaign_sequence` and passed validation. The freeform `linkedin_sequence` also has the manual positive-reply step.
 - The HeyReach link can't be set: `link_platform_campaign` supports only Smartlead for new-system campaigns. HeyReach `693168` is recorded in the campaign notes instead.
 - **Reply handling** (Moe, 2026-10-29): Algo triages replies in the HeyReach/dashboard inbox and hands interested prospects to Elite (Joseph/Phil/Mike/Jeff) for the personal response, as Joseph's doc asks. No calendar link until a prospect shows interest.
@@ -134,7 +134,13 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
     - removed 4 job-changers flagged by HeyReach, including Steven Hardesty, whose HeyReach record changed overnight
     - fixed a first/last-name swap (Brian Goins)
   - Parity: 72/72 leads, all with `contract_or_agency` set. All 6 senders are auth-valid with no cooldowns.
-  - The tracking_clients campaign notes were updated. **The status field can't be set through the tool**, so it still reads `creation`; set it to running in the dashboard.
+  - tracking_clients was synced to match (Moe's request):
+    - campaign `46e24967-…` moved `creation` → `running`
+    - lead list `f52caf59-…` set to `ready`
+    - campaign notes updated, and the Claude chat link saved on the campaign
+    - **Not done:**
+      - Linking HeyReach `693168` to the campaign. The tool refuses HeyReach links for new-system campaigns (only Smartlead works), so `693168` shows as an unlinked platform campaign; link it in the dashboard if the UI allows.
+      - Loading the companies into the lead list. The lead list's `company_count` stays 0, the same as the C&G worked example: ingest for the Custom module goes through a Clay table, which this list doesn't have.
   - **Open with Joseph:**
     - tell him 2–3 contacts per company are being messaged at once
     - send the pre-launch confirmations his doc asked for: sender profiles, award source, DNC suppression, reply handling, weekly reporting
