@@ -63,7 +63,7 @@ ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf
 - **Schedule:** **7 days a week**, 08:00–17:00 America/New_York, since 2026-10-30 per Moe. Before that it was Mon–Fri.
 - **Leads:** 106 as of 2026-10-30, after a +34 push. The record of that push is `2026-10-30-2-heyreach-push.csv`.
 - **Campaign `695698`** "US | C1b Fed Contracts 12mo | Moe v1" is for the 12-month award window, with list `1086068`.
-  - Status: DRAFT. Same 11 senders, schedule and exclusions.
+  - Status: **IN_PROGRESS since 2026-10-30 17:18 UTC**, with 140 leads. Same 11 senders, schedule and exclusions.
   - Copy is identical to the live campaign except the connection note drops "recent": "congratulations on the {contract_or_agency} award!"
 - **Exclusions:** company and lead blacklist on, exclude-in-other-campaigns on, exclude-has-other-conversations on.
 - **Sequence**, read back with `get_campaign_sequence` and identical to the client's approved copy:
@@ -127,8 +127,20 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Pulled via Blitz `waterfall-icp-keyword` and Clay `search-contacts`.
   - 76 are flagged `selected_for_launch` (2–3 per company, 34 companies).
   - Method and changes: `2026-10-30-leads.query.md`. Scripts are in `.../scripts/`.
+- `sourcing/cleared-talent-federal-contracts/2026-10-30-3-leads.csv`: 301 prospects at 74 companies, keyed by `linkedin_url`, 2026-10-30. **12-month award window**, for C1b.
+  - Method: a Blitz `POST /v2/search/companies` sweep ($100M–$1B, 29 states, 19 industries) matched against USAspending `spending_by_award` (12 months, ≥$500k, IT/eng NAICS) and war.gov DoD awards. Contacts came from Blitz `waterfall-icp-keyword`.
+  - Same ICP config `d286c219-…` and lead list `f52caf59-…`. 159 are flagged `selected_for_launch`.
+  - Details: `2026-10-30-3-leads.query.md`.
+- `sourcing/cleared-talent-federal-contracts/2026-10-30-3-heyreach-c1b.csv`: the 141 leads at 62 companies pushed to HeyReach list `1086068`, 2026-10-30. One was then deleted as a job change, which leaves 140 live.
 
 ## History
+
+- **2026-10-30**: **C1b went live.** This is an **expanding existing segment** for Campaign 1, using a 12-month award window.
+  - 141 leads at 62 companies were pushed to list `1086068`. The Blitz-sweep × award-match method is Moe's option 1.
+  - The freshness check removed 1 job change (Andrew Heckel).
+  - HeyReach `695698` started at 17:18 UTC with 140 leads.
+  - The TAM is small (about 150 qualifying companies), so we pull 2–3 contacts per company.
+  - The background `blitz_match_12mo.py` matched 2,562 of 3,825 recipients. Those are not yet filtered or pushed.
 
 - **2026-10-30**: Moe widened Campaign 1's award window to 12 months and asked for leads to be pushed as they arrive.
   - Live campaign `693168`:
