@@ -38,7 +38,7 @@
 |---|---|---|---|---|---|---|
 | USAspending awards (60d) + Blitz/Clay — Cleared Talent Fed Contracts | Cleared Talent for New Federal Contracts | Government Contractors, IT Services, Engineering, Defense, Research | ready | 1 | 0 (leads live in this repo; see note) | `-` |
 | TheirStack/Coresignal live postings (30d) + Blitz contacts — C8 Role Behind the Posting | The Role Behind the Posting | Technology, Financial Services, Health Care, Defense and Space | draft | 1 | 0 | `-` |
-| TheirStack remote/hybrid tech roles + Blitz TA contacts — C9 Candidate Fraud | Candidate Fraud in Technical Hiring | Technology, Financial Services, Health Care, Defense and Space | draft | 1 | 0 | `-` |
+| TheirStack remote/hybrid tech roles + Blitz TA contacts — C9 Candidate Fraud | Candidate Fraud in Technical Hiring | Technology, Financial Services, Health Care, Defense and Space | ready | 1 | 0 (2,633 leads live in this repo; source was Blitz, not TheirStack) | `-` |
 | Job-change (90d) senior IT/Eng via Clay/Blitz — C10 New Seat Fresh Team | New Seat, Fresh Team | Technology, Financial Services, Health Care, Defense and Space | draft | 1 | 0 | `-` |
 | Eng hiring surge/program news + Blitz contacts — C2 Program Ramp | Engineers for the Program Ramp | Defense and Space Mfg, Aerospace Components, Engineering Services, Defense Electronics | draft | 1 | 0 | `-` |
 | Open security eng roles + Blitz contacts — C3 Security Talent | Hiring Security Talent Without the Fraud Risk | Computer and Network Security, Software Development, Data Infrastructure | draft | 1 | 0 | `-` |
@@ -75,7 +75,7 @@ On 2026-10-30 Moe asked to set up the "top 5" campaigns from the Oct 26 proposal
 | # | Campaign | tracking_clients campaign | ICP config / persona | Lead list | HeyReach campaign / list | Offer | Custom vars |
 |---|---|---|---|---|---|---|---|
 | 8 | The Role Behind the Posting | `70e7eda4-c094-45da-8b4e-da6305527261` | `5a45a70c-f5a8-44ff-a41a-aab977a0c3aa` / `8fa09e7c-152b-4d14-bd7f-143faa5b6857` | `82457586-7a88-4943-80b3-5552c1fc2d94` | `695764` / `1086161` | B | role_title, location, key_skills |
-| 9 | Candidate Fraud in Technical Hiring | `413dfae6-ff9e-4335-9e9f-73ff347f9b9c` | `935c0326-200a-464d-88e0-b6a0952cf95e` / `dd9eca26-6774-4301-9aa2-fbbd89c69a2c` | `78d2a5a3-2dc4-49be-afa1-43d44235a0b5` | `695765` / `1086162` | A | - |
+| 9 | Candidate Fraud in Technical Hiring | `413dfae6-ff9e-4335-9e9f-73ff347f9b9c` (**running**) | `935c0326-200a-464d-88e0-b6a0952cf95e` / `dd9eca26-6774-4301-9aa2-fbbd89c69a2c` | `78d2a5a3-2dc4-49be-afa1-43d44235a0b5` | `695765` / `1086162` (**LIVE 2026-11-02, 2,513 leads, US-wide**) | A | - |
 | 10 | New Seat, Fresh Team | `d2d02a2c-a147-420d-af05-27d76bd19064` | `790aa42b-7e14-4e58-a31a-ae6e529e8b87` / `02cfd049-0147-4a2f-8254-6595d82dfbd3` | `fcd62dbd-f43a-46d0-b07b-2271569412e3` | `695766` / `1086164` | B | new_role |
 | 2 | Engineers for the Program Ramp | `549697ad-d2f5-4226-952a-e9999fb6092c` | `7e296131-0361-438b-96b8-74b15d0a421b` / `371a2f2d-eea0-4fa5-884c-f94e5c840c93` | `70f4cd52-6d09-4902-b38b-79af38253826` | `695767` / `1086165` | B | program_or_product, engineering_focus |
 | 3 | Hiring Security Talent Without the Fraud Risk | `4dedf327-4b4d-40a0-b284-56beb2be9f29` | `026c3a22-1de1-4f39-820d-1136c14831ad` / `8885ecca-9236-4f83-990a-f1d4d33ffc7a` | `77a81db4-8496-4bdc-a8cb-7e58025f14e5` | `695768` / `1086166` | A | security_focus |
@@ -187,6 +187,9 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Moe removed the DC/East/Midwest region filter for this campaign, so West Coast companies are now included.
   - It added 1,175 leads at 797 companies, for 2,633 leads at 1,811 companies in total.
   - Biggest filters: revenue outside $100M–$1B (36% of hiring companies), and no TA leader findable in Blitz (39% of the companies that remained).
+- **2026-11-02**: **Campaign 9 went live.** HeyReach `695765` started at 12:12 UTC with **2,513 leads**, on Moe's go-ahead (relaying that Joseph told him to proceed as he sees fit).
+  - All 2,629 unique leads were loaded through the HeyReach MCP. The freshness check removed 116 job changes and side-role profiles; they are listed in `sourcing/candidate-fraud-technical-hiring/2026-11-02-heyreach-removed.csv`.
+  - tracking_clients campaign `413dfae6-ff9e-4335-9e9f-73ff347f9b9c` is now **running**, lead list `78d2a5a3-…` is **ready**, and the ICP geos are set to the US-wide scope.
 
 - **2026-11-02**: **New segment: Campaign 9 "Candidate Fraud in Technical Hiring" sourced, with 1,458 leads at 1,014 companies.**
   - Moe asked for a campaign from the Oct 26 doc that can produce 1,000+ leads. C9 has the widest TAM, and its copy has no per-lead variables.
