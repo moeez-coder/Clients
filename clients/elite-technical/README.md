@@ -96,7 +96,7 @@ On 2026-10-30 Moe asked to set up the "top 5" campaigns from the Oct 26 proposal
 - **Schedule:** **7 days a week**, 08:00–17:00 America/New_York, since 2026-10-30 per Moe. Before that it was Mon–Fri.
 - **Leads:** 106 as of 2026-10-30, after a +34 push. The record of that push is `2026-10-30-2-heyreach-push.csv`.
 - **Campaign `695698`** "US | C1b Fed Contracts 12mo | Moe v1" is for the 12-month award window, with list `1086068`.
-  - Status: **IN_PROGRESS since 2026-10-30 17:18 UTC**, with 140 leads. Same 11 senders, schedule and exclusions.
+  - Status: **IN_PROGRESS since 2026-10-30 17:18 UTC**. It had 140 leads at start and **221 after the 2026-11-02 top-up**. Same 11 senders, schedule and exclusions.
   - Copy is identical to the live campaign except the connection note drops "recent": "congratulations on the {contract_or_agency} award!"
 - **Exclusions:** company and lead blacklist on, exclude-in-other-campaigns on, exclude-has-other-conversations on.
 - **Sequence**, read back with `get_campaign_sequence` and identical to the client's approved copy:
@@ -165,8 +165,21 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Same ICP config `d286c219-…` and lead list `f52caf59-…`. 159 are flagged `selected_for_launch`.
   - Details: `2026-10-30-3-leads.query.md`.
 - `sourcing/cleared-talent-federal-contracts/2026-10-30-3-heyreach-c1b.csv`: the 141 leads at 62 companies pushed to HeyReach list `1086068`, 2026-10-30. One was then deleted as a job change, which leaves 140 live.
+- `sourcing/cleared-talent-federal-contracts/2026-11-02-companies.csv`: 77 companies from the 12-month award match, with an include/exclude `decision` per company. 38 have contacts and 30 are excluded. Pulled 2026-11-02.
+  - Source: USAspending/war.gov award recipients matched to Blitz `POST /v2/search/companies`, then filtered to $100M–$1B revenue, target regions, the DNC list and the ICP.
+  - Same ICP config `d286c219-…` and lead list `f52caf59-…`.
+- `sourcing/cleared-talent-federal-contracts/2026-11-02-leads.csv`: 174 prospects at 47 companies, keyed by `linkedin_url`, from Blitz `waterfall-icp-keyword`, 2026-11-02. 83 are flagged `selected_for_launch`.
+  - Details: `2026-11-02-leads.query.md`.
+- `sourcing/cleared-talent-federal-contracts/2026-11-02-heyreach-c1b.csv`: the 83 leads pushed into running campaign `695698`, 2026-11-02. Two job changes were then removed, which leaves 81 live.
 
 ## History
+
+- **2026-11-02**: **C1b topped up with 81 leads at 38 companies.** This is an **expanding existing segment**.
+  - Both live campaigns had 0 pending leads, and Moe said "Push those to the campaigns".
+  - The 12-month award match (2,562 recipients matched to Blitz) was filtered to 77 companies by revenue, region, novelty and the DNC list. A manual ICP review then excluded 30: universities, health systems, nonprofits, construction general contractors, and awards that are only maintenance or data purchases.
+  - 83 contacts went into `695698`. The freshness check removed 2 job changes, which needed a brief pause and resume. The campaign is IN_PROGRESS with 221 leads.
+  - The TAM is still small (about 47 qualifying companies in this batch), so we keep 2–3 contacts per company.
+  - Details: `2026-11-02-leads.query.md`.
 
 - **2026-10-30**: **Campaigns 8, 9, 10, 2 and 3 were set up as drafts** on Moe's instruction ("set up the top 5 campaigns … from the document that we sent to them"). Moe chose these five, the next ones after C1 in the Oct 26 doc's launch order.
   - These are **5 new segments**, each with its own ICP config, lead list and campaign in tracking_clients. Sequences were saved and validated through `set_campaign_sequence`.
