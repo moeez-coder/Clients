@@ -171,8 +171,20 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 - `sourcing/cleared-talent-federal-contracts/2026-11-02-leads.csv`: 174 prospects at 47 companies, keyed by `linkedin_url`, from Blitz `waterfall-icp-keyword`, 2026-11-02. 83 are flagged `selected_for_launch`.
   - Details: `2026-11-02-leads.query.md`.
 - `sourcing/cleared-talent-federal-contracts/2026-11-02-heyreach-c1b.csv`: the 83 leads pushed into running campaign `695698`, 2026-11-02. Two job changes were then removed, which leaves 81 live.
+- `sourcing/candidate-fraud-technical-hiring/2026-11-02-companies.csv`: 1,733 companies with open remote or hybrid technical roles, 2026-11-02.
+  - Belongs to ICP config **Candidate Fraud in Technical Hiring** `935c0326-200a-464d-88e0-b6a0952cf95e`, lead list `78d2a5a3-2dc4-49be-afa1-43d44235a0b5`.
+  - Source: Blitz `POST /v2/company/tam-by-jobs`, filtered to $100M–$1B, 501–10,000 employees, target states and the DNC list.
+- `sourcing/candidate-fraud-technical-hiring/2026-11-02-leads.csv`: 1,867 TA leaders and recruiting managers, keyed by `linkedin_url`, from Blitz `waterfall-icp-keyword`, 2026-11-02. **1,458 are selected, at 1,014 companies (2 per company).** Same config and UUIDs.
+  - Details: `2026-11-02-leads.query.md`.
 
 ## History
+
+- **2026-11-02**: **New segment: Campaign 9 "Candidate Fraud in Technical Hiring" sourced, with 1,458 leads at 1,014 companies.**
+  - Moe asked for a campaign from the Oct 26 doc that can produce 1,000+ leads. C9 has the widest TAM, and its copy has no per-lead variables.
+  - The trigger is open remote or hybrid technical roles, found with Blitz tam-by-jobs (30-day core titles, then 90-day wider titles). That gave 1,733 companies after the revenue, industry and DNC filters.
+  - The large TAM means 2 contacts per company: a TA leader and a recruiting manager.
+  - Leads go into the **draft** HeyReach list `1086162` (campaign `695765`). It is **not started**, because Joseph's approval covers Campaign 1 only.
+  - Details: `sourcing/candidate-fraud-technical-hiring/2026-11-02-leads.query.md`.
 
 - **2026-11-02**: **C1b topped up with 81 leads at 38 companies.** This is an **expanding existing segment**.
   - Both live campaigns had 0 pending leads, and Moe said "Push those to the campaigns".
