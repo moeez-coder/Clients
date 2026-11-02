@@ -176,8 +176,17 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Source: Blitz `POST /v2/company/tam-by-jobs`, filtered to $100M–$1B, 501–10,000 employees, target states and the DNC list.
 - `sourcing/candidate-fraud-technical-hiring/2026-11-02-leads.csv`: 1,867 TA leaders and recruiting managers, keyed by `linkedin_url`, from Blitz `waterfall-icp-keyword`, 2026-11-02. **1,458 are selected, at 1,014 companies (2 per company).** Same config and UUIDs.
   - Details: `2026-11-02-leads.query.md`.
+- `sourcing/candidate-fraud-technical-hiring/2026-11-02-2-companies.csv` and `2026-11-02-2-leads.csv`: the **US-wide expansion** (region filter removed per Moe), 2026-11-02.
+  - 1,376 new companies and 1,531 prospects. **1,175 are selected, at 797 companies.**
+  - Same config `935c0326-…`, lead list `78d2a5a3-…`, tool (Blitz `tam-by-jobs` + `waterfall-icp-keyword`) and cap.
+  - Details and the filter-impact table: `2026-11-02-2-leads.query.md`.
 
 ## History
+
+- **2026-11-02**: **Campaign 9 expanded to the whole US.** This is an expanding existing segment.
+  - Moe removed the DC/East/Midwest region filter for this campaign, so West Coast companies are now included.
+  - It added 1,175 leads at 797 companies, for 2,633 leads at 1,811 companies in total.
+  - Biggest filters: revenue outside $100M–$1B (36% of hiring companies), and no TA leader findable in Blitz (39% of the companies that remained).
 
 - **2026-11-02**: **New segment: Campaign 9 "Candidate Fraud in Technical Hiring" sourced, with 1,458 leads at 1,014 companies.**
   - Moe asked for a campaign from the Oct 26 doc that can produce 1,000+ leads. C9 has the widest TAM, and its copy has no per-lead variables.
