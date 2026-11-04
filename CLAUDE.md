@@ -267,21 +267,41 @@ Confirm the relevant API key is actually present in *this* session's
 environment before using a tool (`env | grep -i <NAME>_API_KEY`) — session
 environments are fixed at provisioning, so a key added to the environment
 config after a session started won't appear until a fresh session is spun up.
-As of the last check (2026-09-14):
+As of the last check (2026-09-15) **six sourcing API keys are present** —
+re-verify with `env | grep -iE 'api|key'` at the start of a session:
 
-- **Blitz API** — confirmed live (`BLITZ_API_KEY` present). Call directly over
+- **Blitz API** — confirmed live (`BLITZ_API_KEY`). Call directly over
   HTTPS; the `Blitz-API` MCP tool only searches Blitz's own docs, it does not
-  proxy live requests.
-- **AI Ark API** — confirmed live (`AIARK_API_KEY` present). No MCP tool at
-  all for this one (not even docs) — call directly. Rate limit 5 req/s.
-- **Prospeo API** — key reported added to the cloud environment but not yet
-  visible in a session's env as of 2026-09-14; re-check
-  (`env | grep -i PROSPEO`) before relying on it, and update this file plus
-  the root `README.md` once confirmed.
-- **Clay** — `mcp__Clay__*` tools, live.
-- Any config brief mentioning DiscoLike, EXA, or Sales Navigator names a tool
-  not wired into these sessions — run those steps wherever they *are*
-  connected and bring the resulting export back here, cited the same way.
+  proxy live requests. `max_results` caps at **25** (not 50). Supports far more
+  than the industry filter we historically used: `naics_code`, `revenue.min/max`,
+  `keywords.include/exclude`, `employee_count`, `type`, `founded_year`.
+  **Two accuracy warnings:** its `total_results` disagreed with its own history
+  by ~6× on an identical filter (see `clients/vntana/icp-universe-map.md` §6),
+  and its NAICS tagging is noisy — a plastics-packaging group and a mining
+  software vendor both came back under aggregate-machinery codes. Treat Blitz
+  counts as indicative and always eyeball the companies behind them.
+- **AI Ark API** — confirmed live (`AIARK_API_KEY`). No MCP tool at all for this
+  one (not even docs) — call directly. Rate limit 5 req/s. **It 403s the default
+  Python user-agent** (`403 error code 1010`); send `User-Agent: curl/8.5.0`.
+  Best available **lookalike** search, but seed it with the target's *LinkedIn
+  company URL* — domain seeds silently fail (seeding `astecindustries.com`
+  returned government agencies and a fried-chicken chain).
+- **Clay** — `mcp__Clay__*` tools, live, plus a direct `CLAY_API_KEY`.
+  Single-company enrichment and `Company Competitors`; not a bulk sizing tool.
+- **Prospeo API** — **key now present** (`PROSPEO_API_KEY`, confirmed
+  2026-09-15). Not yet exercised — record base URL, auth header and endpoints
+  here the first time a session uses it.
+- **EXA** — **key present** (`EXA_API_KEY`). `findSimilar` is a *web-page*
+  similarity engine, not a company-entity engine: on company seeds it returns
+  Wikipedia/Bloomberg/Owler profile pages about the seed. Use Websets for
+  entity work, or prefer AI Ark lookalikes.
+- **DiscoLike** — **key present** (`DISCOLIKE_API_KEY`). Original source of the
+  two 99-company VNTANA DiscoLike configs. Not yet exercised directly from a
+  session; document endpoints here when first used.
+- **ColdIQ** — **key present** (`COLDIQ_API_KEY`), purpose not yet established.
+  Document it here once a session works out what it does.
+- Sales Navigator remains unwired — run those steps wherever it *is* connected
+  and bring the resulting export back here, cited the same way.
 
 ## Session responsibilities
 
