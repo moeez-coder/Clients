@@ -122,6 +122,8 @@ Sequence (verified with `get_campaign_sequence`): connection request (blank note
 
 ## History
 
+- **2026-11-04** — Repo owner decided to skip the post-load audit and make both Render offer campaigns live. Started `693232` (Offer 1 Cost+Speed, list `1082187`, 386 leads) and `693233` (Offer 2 Conversion, list `1082188`, 386 leads) via `start_campaign`; both showed STARTING (HeyReach still ingesting). Known and accepted at launch: no title/exclusion audit of the loaded leads (HeyReach overwrote titles on import), guarantee wording not yet signed off by VNTANA/Ashley, no campaign-specific reply webhooks yet. Orchestrator session.
+
 - **2026-11-04** — Owner asked to source more Render leads and push them randomly into both offer lists. Re-ranked existing Blitz results (min score 65, up to 12 per account), dropped 23 at not-ready accounts and 12 already in earlier lead files, loaded 772 leads (386 / 386) with `product`, `category`, `demo_link`. Campaigns `693232`/`693233` still DRAFT. A spot-check found HeyReach overwrites titles on import, so a post-load title/exclusion audit is advisable. Orchestrator session.
 
 - **2026-10-30** — Repo owner asked for product and category research for each Render-campaign account (plus a demo link chosen from the VNTANA demo site) and then for sourcing. Scoped to 158 industrial render-agency clients (owner's choice). Researched product/category/demo per account (EXA + Claude, quotes verified), resolved company pages (fixed several wrong-entity matches), pulled 297 contacts at 99 accounts with the Slack-approved titles. New segment; config `7166f187-d30d-4d52-86be-79ba8f4f3dbf`. Orchestrator session.
