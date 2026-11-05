@@ -78,8 +78,25 @@ Config detail (tracking_clients):
 - `sourcing/security-and-data-bench/2026-10-23-3-leads.csv` / `-companies.csv`: the complete Haiku qualification after re-running 4 incomplete batches. **8,330 of 11,594 leads QUALIFIED, 0 PENDING; 3,668 of 4,618 companies QUALIFIED.** Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`. Claude Haiku 5.5 workflow agents, 2026-10-23. Notes in `2026-10-23-2-leads.query.md` § Follow-up. **This is the source for future waves.**
 - `sourcing/security-and-data-bench/2026-10-27-heyreach-wave2.csv`: **2,500 leads** (2,240 companies, 678 Northeast) selected from `2026-10-23-3-leads.csv` for HeyReach wave 2. Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, built 2026-10-27 with `build_wave.py --drop-odd-names`. Query: `2026-10-27-heyreach-wave2.query.md`.
 
+### Open-role segments (Moe's recruiter brief, 2026-11-05)
+
+Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_open_roles.py` (Blitz pull) and `sourcing/build_open_roles.py` (CSVs and dedupe). Each segment will get its own tracking_clients lead list. **Those lists don't exist yet**: they wait on Moe's `campaign_split` answer, and their UUIDs are added here once created. Until then each file is tied to its segment slug and to client `4ca09bb2-25f9-4410-b269-9c8bcb816881`. Nothing is in HeyReach.
+
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-05-leads.csv`: **273 leads** (240 tier-1 hiring managers, 33 talent fallback) at 104 companies, keyed by `linkedin_url`. 0 in HeyReach list `1056840`, 0 dupes, 273 `live_eligible`. Segment **LS Clinical & Data**. Pulled 2026-11-05 via **Blitz API `POST /v2/search/waterfall-icp-keyword`**. Query: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-05-companies.csv`: **126 hiring companies**, with each company's most recent posting as `open_role`. Same segment, pulled 2026-11-05 via **Blitz `POST /v2/company/tam-by-jobs`**.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-05-jobs.csv`: **297 open jobs** (US, last 30 days). Same segment, pulled 2026-11-05 via **Blitz `POST /v2/jobs/search`**.
+
 ## History
 
+- **2026-11-05**: **New segment: LS Clinical & Data (`recruiter-open-role-ls-clinical-data`), first of Moe's 4 open-role segments. Blitz API, 273 leads.**
+  - Third CG session (hand-off from `session_013MzxQfNdrQFixGQbZkZLsH`). Resynced first: `get_client`, `list_sourcing_configs` and `list_icp_configs` match this README. `dncList` is still empty and the `Non_Connect` file is still not loaded.
+  - **Source change from the brief above:** the sourcing goes through **Blitz only**: `jobs/search` → `tam-by-jobs` → `waterfall-icp-keyword`. ColdIQ/HarvestAPI was not used. That was Moe's instruction for this session.
+  - Widened job-title keywords took the count from 199 to **297 jobs** at **126 companies** (59 Northeast).
+  - **TAM/SAM is small, so 3 contacts per company.** The waterfall uses tier 1 (Head/Director/VP of Biostatistics, Clinical Data Management, Drug Safety/PV or Data Science) and falls back to talent leaders. 104 companies returned someone.
+  - **Blitz records used: 696.**
+  - **Dedupe** checked HeyReach list `1056840` (via the wave files) and all CG leads files: 0 overlaps.
+  - No email enrichment.
+  - Per-client CG session.
 - **2026-11-05**: **Moe's brief: recruiter-specific open-role campaigns. Opens 4 new segments.**
   - **Sequence (Moe, verbatim source: the "Open-role sequence", 19.4% reply rate at Talent Edge and Alcor):** a connection request **with a note** ("Hi {FIRST_NAME}, saw the {Open_Role} opening at {Company_Name}. Figured it was worth connecting given the space you're in."), then messages 1–3 at **+2, +2 and +2 days**. Message 1 uses `{COMPANY}`/`{Open_Role}`/`{JD}`; messages 2–3 name the segment's role family.
   - **Persona:** the hiring manager for the role family. Head of Talent / Talent Director / VP People is the fallback when no hiring manager can be identified.
