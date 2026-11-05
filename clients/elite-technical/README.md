@@ -208,6 +208,15 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-11-05**: **Paused all live Elite campaigns** on Moe's instruction ("Pause those that are running currently"), to make room for the recruiter open-role campaigns.
+  - Paused in HeyReach:
+    - C1 `693168`: 106 leads, 73 finished
+    - C1b `695698`: 221 leads, 170 finished
+    - C9 `695765`: 2,513 leads, 1,808 still pending
+  - tracking_clients campaigns `46e24967-…` (C1) and `413dfae6-…` (C9) were moved to **paused**.
+  - Moe chose to launch the best-fit recruiter segments first: **Software Engineering, IT Infrastructure & Support, and Cybersecurity**, 9,153 leads in total. The other five recruiter campaigns stay in draft with their leads in the repo only.
+  - Note: at the time of pausing, C9 showed `excludeInOtherCampaigns: false` and `excludeContactedFromSenderInOtherCampaign: true`, which differs from the settings it was created with. This was not changed here.
+
 - **2026-11-05**: **8 new segments: recruiter-specific open-role campaigns**, on Moe's instructions:
   - the "open-role sequence" (Talent Edge/Alcor, 19.4% reply)
   - "recruiter specific in the name"
