@@ -157,25 +157,32 @@ On 2026-10-30 Moe asked to set up the "top 5" campaigns from the Oct 26 proposal
 
 Folder **Clients / Elite Technical** (`b87ff0a8-59d1-4093-af63-b9e38440ed60`), at https://dashboard.algoacquisition.ai/gtm-sheet#/gtm-sheet?folder=b87ff0a8-59d1-4093-af63-b9e38440ed60.
 
-Workbook **Recruiter Open Roles (2026-11-05)** (`d3e065f2-57d9-4145-b4c4-f75453f529cb`) was built 2026-11-05. It has one webhook table per recruiter segment. Rows were POSTed from this repo's `sourcing/recruiter-open-roles-*/2026-11-05-leads.csv` (`selected_for_launch = yes` only) by `gtm-sheets/push_leads_to_gtm_sheet.py`. Every CSV column sits in the row's Webhook JSON; field columns expose the useful ones.
+There is **one workbook per recruiter campaign** (CLAUDE.md "GTM Sheets build standard per campaign"), each linked to its tracking_clients campaign. Each has three tables:
+- **1. Companies:** `<date>-companies.csv`, every hiring company that passed the filters, with `Leads Selected`
+- **2. Jobs:** `<date>-jobs.csv`, one posting per company, derived from `leads.csv`
+- **3. Leads:** `selected_for_launch = yes`, with `Status` and a Push to HeyReach column
 
-| Table | Table id | Rows | Lead list (sourcing config) | Push to HeyReach column → campaign |
+They are loaded by `gtm-sheets/build_gtm_payloads.py` and then `gtm-sheets/push_rows.py`. Every table's server row count matches its CSV.
+
+| Campaign (workbook) | Workbook id | Companies / Jobs / Leads table ids | Rows (C / J / L) | HeyReach |
 |---|---|---|---|---|
-| Software Engineering | `fd174fd8-3abe-4980-94f3-71a1cef7b459` | 4,836 | `779a36ad-e82b-41a9-b84f-56e3ea506b2d` | `710042` |
-| IT Infrastructure & Support | `8f807c69-992b-4643-b458-82edd0e569b3` | 2,817 | `8ebe4aaa-4274-4ab5-bb4e-624207494122` | `710044` |
-| Cybersecurity | `fd0e939f-6e73-4b28-84e3-14ba333c4478` | 1,500 | `578098d3-e9c9-46d4-ad50-4eccde29e95c` | `710103` |
-| Data & AI | `b621e6f7-4c1c-4f24-835e-87bf074956aa` | 2,837 | `23583ae2-8ac2-4c35-9d3c-36b6905c338d` | `710104` |
-| Cloud & DevOps | `afffc439-3e25-49d9-be37-9017c2432b3b` | 406 | `20fa81f6-6e8d-435c-bc2a-bd1b87655fa1` | `710105` |
-| Enterprise Applications (ERP/CRM) | `c14707d8-5e66-43f9-913c-98bacd5ed85b` | 513 | `fac25c58-8e0c-4e81-aa3c-c1e6ad096017` | `710107` |
-| Electrical, Controls & Embedded | `8aff4d48-dab8-4826-9c83-388b33bf4977` | 2,859 | `164e8069-adfa-4864-98f7-120d3c82c5fa` | `710046` |
-| Mechanical, Manufacturing & Quality | `a4f73dde-5357-4669-b69f-85cb9ccaf00b` | 3,675 | `e47ff0ce-c3a6-4620-b76f-502cc332ed84` | `710108` |
+| Software Eng | `068a6922-d3a1-468b-b1d6-6873845ff1dd` | `6bae1b09-…` / `9e7c4384-…` / `caaeb0a7-6e5f-4c8f-b4fc-0de4422d7862` | 1,047 / 866 / 4,836 | `710042` |
+| IT Support | `98e95f3e-86e3-45a9-bc21-fae9490184b8` | `60458d32-…` / `9809c3ab-…` / `96dcb4cb-5894-46d7-9c5d-f556277dacea` | 1,268 / 912 / 2,817 | `710044` |
+| Cybersecurity | `62fe0343-bbee-4bab-ab5d-a66916b7f0e6` | `b94c9eea-…` / `e9943b46-…` / `7f2af1a9-5912-43d0-8e33-0f26b078c2df` | 617 / 450 / 1,500 (98 marked removed) | `710103` |
+| Data & AI | `8f124457-0723-4382-b0a9-829e540d4418` | `aeea816e-…` / `0702058b-…` / `8d884a27-36ef-483e-97b2-3953ed4ac5cd` | 1,258 / 805 / 2,837 | `710104` |
+| Cloud & DevOps | `930522ac-94b4-4de1-9fa6-93c4d6171e89` | `4fd1e259-…` / `d660f218-…` / `95ce8880-7d27-4d69-83d9-5b7a321cc922` | 567 / 239 / 406 | `710105` |
+| ERP & Apps | `65b767bc-592f-41aa-a4dc-19460150d298` | `2af8d2a4-…` / `ff90ec1e-…` / `e960a576-282a-4b82-b7fe-bb8b55406a64` | 534 / 230 / 513 | `710107` |
+| Elec & Controls | `d1331512-09bb-4c2e-92f3-39294d72af45` | `6e70c771-…` / `2b57837d-…` / `c0b0ba42-6bf5-483b-a1a9-e78161b556a6` | 973 / 607 / 2,859 | `710046` |
+| Mech & Mfg | `9e0def87-9083-4100-a173-e56219a8297d` | `9bbcad93-…` / `05d12cb2-…` / `9a536d62-bda8-46d4-a812-7d59ce7a1912` | 1,090 / 759 / 3,675 | `710108` |
 
-**Push to HeyReach** columns:
-- Inputs: `linkedin_url` / `first_name` / `last_name` / `company_name` (the cleaned name) / `position` (job title) / `location`.
-- Custom fields: `open_role`, `open_role_with_article`, `company_name`, `jd`. These are the same variables the sequences use.
-- Every column is **auto-run off and has not been run**. HeyReach refuses leads into a DRAFT campaign, so run it only once the campaign is started, and only for leads not already in the HeyReach list. Re-pushing an existing lead only updates it.
-- Each tracking_clients recruiter campaign's `clay_table_url` points to the folder URL above. The tool gives no per-table deep link, so use the table ids in this section to find a table.
-- The webhook tables append rows: re-running the push script duplicates them. The webhook URLs can write to the tables, so they are deliberately not stored in the repo. Get them from `gtm_sheet_get_table`.
+- **Push to HeyReach:**
+  - Inputs: `linkedin_url` / `first_name` / `last_name` / `company_name` (cleaned) / `position` / `location`.
+  - Custom fields: `open_role`, `open_role_with_article`, `company_name`, `jd`.
+  - Auto-run is off, with `run_if` Status = "launch set". **It has not been run.** HeyReach refuses leads into a DRAFT campaign. Leads already in a HeyReach list are only updated, and HeyReach keeps LinkedIn's first name regardless.
+- **Jobs caveat:** the raw Blitz `/v2/jobs/company` pulls (up to 5 jobs per company, `pull8_<seg>.json`) were never committed. So the Jobs table holds only the posting that drove each company's leads, one per company. Showing every matched posting would need a fresh Blitz pull.
+- Each tracking_clients recruiter campaign's `clay_table_url` points to the folder URL above.
+- The first build (one combined workbook `d3e065f2-…` with 8 tables) was deleted on 2026-11-05 when this structure replaced it.
+- Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`.
 
 ## Sourced data in this repo
 
@@ -243,6 +250,15 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
 
 ## History
+
+- **2026-11-05**: **GTM Sheets restructured to one workbook per campaign, each with Companies → Jobs → Leads tables** (Moe: "Have a different workbook for each campaign … one sheet with the jobs as well and then companies from which those jobs are. We will use GTM Sheets to display all of the working. Add this into the SOPs as well").
+  - 8 new workbooks were created, each linked to its tracking_clients campaign, with 24 tables in total. Ids are in **GTM Sheets** above.
+  - Rows loaded: 7,354 companies, 4,868 jobs and 19,443 leads. Every table's server count matches its CSV.
+  - New derived files `sourcing/recruiter-open-roles-*/2026-11-05-jobs.csv` hold one posting per company, built from each `leads.csv`. They are not a new API pull.
+  - The Cybersecurity Leads table marks the 98 freshness-check removals in `Status`, and its Push column skips them.
+  - The old combined workbook `d3e065f2-…` was deleted.
+  - The standard was added to the repo `CLAUDE.md` as "GTM Sheets build standard per campaign". Moe's message was the explicit approval for that system-file change.
+  - It was **not** added to the brain repo SOPs (`AdmiralGeneralBaba/algoacquisition-brain`): the auto-mode classifier refused attaching that repo.
 
 - **2026-11-05**: **Paused the last non-recruiter campaign and prepped Cybersecurity as the first recruiter launch** (Moe: "Pause all that are not recruiters"; "Use the most fitting recruitment section first").
   - Paused HeyReach `695700` "US | C1 Cleared Talent Fed Contracts | Moe v2". It was IN_PROGRESS with 106 leads: 85 finished, 11 in progress, 0 pending. It uses the same list `1082101` as C1 v1. After this, no Elite HeyReach campaign is IN_PROGRESS.
