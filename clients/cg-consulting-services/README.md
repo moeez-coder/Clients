@@ -91,9 +91,19 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-05-leads.csv`: **338 leads** (299 tier 1, 39 fallback) at 123 companies, keyed by `linkedin_url`. 0 in list `1056840`. **6 flagged `dupe_of` LS Clinical & Data**, so 332 are `live_eligible`. Segment **LS Medical Affairs**. Blitz `waterfall-icp-keyword`, 2026-11-05. Query: `2026-11-05-leads.query.md`.
 - `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-05-companies.csv`: **141 hiring companies**. Blitz `tam-by-jobs`, 2026-11-05.
 - `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-05-jobs.csv`: **438 open jobs**. Blitz `jobs/search`, 2026-11-05.
+- `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-05-leads.csv`: **1,267 leads** (1,236 tier 1, 31 fallback; 1 per company, 648 at Northeast companies), keyed by `linkedin_url`. **120 already in HeyReach list `1056840`** and **410 in Security and Data Bench snapshots** (`dupe_of`), so **857 are `live_eligible`**. Segment **Tech Eng, Security & Data**. Blitz `waterfall-icp-keyword`, 2026-11-05. Query: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-05-companies.csv`: **1,479 hiring companies** (760 Northeast). Blitz `tam-by-jobs` for the Northeast pass and `enrichment/company` for the rest, 2026-11-05.
+- `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-05-jobs.csv`: **5,000 open jobs** (cap): all 3,064 Northeast-HQ jobs plus the 1,936 most recent elsewhere. Blitz `jobs/search`, 2026-11-05.
 
 ## History
 
+- **2026-11-05**: **New segment: Tech Eng, Security & Data (`recruiter-open-role-tech-eng-security-data`). Blitz API, 1,267 leads.** The snapshot files are in commit `02ee3de`; the README rows were added in the commit after it.
+  - Widened keywords took the count from 12,807 to **15,296 jobs**. Capped at 5,000, with Northeast first: all 3,064 jobs at Northeast-HQ companies, then the most recent 1,936 elsewhere.
+  - That gives **1,479 companies** (760 Northeast).
+  - **TAM/SAM is large, so 1 hiring manager per company.** Industries are the ICP-form verticals (Technology, Finance, Healthcare, Retail, Education, Consulting) as exact Blitz labels. "IT Services and IT Consulting" was left out as staffing-heavy.
+  - **Blitz records used: 7,747.** Running total for the 4 segments: **12,169**, within Moe's 15–25k.
+  - **Dedupe:** 120 in list `1056840` and 410 in Security and Data Bench snapshots. That overlap is expected, because it is the same CTO/CISO persona. **857 are live-eligible.**
+  - Per-client CG session.
 - **2026-11-05**: **New segment: LS Medical Affairs (`recruiter-open-role-ls-medical-affairs`). Blitz API, 338 leads.** The snapshot files are in commit `0b245b3`. Their README rows were added in the commit after it, because a script anchor missed.
   - Widened keywords took the count from 423 to **438 jobs** at **141 companies** (73 Northeast).
   - **TAM/SAM is small, so 3 per company.** Tier 1 is VP/Head/Director of Medical Affairs, Medical Information, Writing or Communications, plus the CMO. 123 companies returned someone.
