@@ -80,6 +80,12 @@ Config detail (tracking_clients):
 
 ## History
 
+- **2026-11-05**: **Wave 2 push to `686451` paused by Moe at 2,100 of 2,500.**
+  - Batches 00–20 (`add_leads_to_campaign_v2`, 100 each, in file order) all returned 100 added and 0 failed. That is rows 1–2100 of `2026-10-27-heyreach-wave2.csv`.
+  - Batch 21 was declined by Moe mid-push and did not run. Batches 21–24 (rows 2101–2500, 400 leads) are **not in HeyReach**.
+  - Moe redirected the session to a new set of recruiter-specific open-role campaigns.
+  - The list `1056840` count was not re-checked after this push.
+  - Per-client CG session.
 - **2026-10-28**: **Wave 2 push to `686451` is partial and being resumed.**
   - Five push agents (`add_leads_to_campaign_v2`, batches of 100 from `2026-10-27-heyreach-wave2.csv` in file order) were cut off twice by container restarts.
   - **Verified landed:** batches 00, 05, 10, 15 and 20, rows 1–100, 501–600, 1001–1100, 1501–1600 and 2001–2100 of the wave file. That is **500 leads**, checked by looking up each batch's first and last profile in list `1056840`.
