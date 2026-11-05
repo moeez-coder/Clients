@@ -142,6 +142,27 @@ and campaign work gets scoped and recorded:
      and deliberately not final: improve it as real runs surface what
      actually works, the same way this repo's own standards evolve.
 
+## GTM Sheets build standard per campaign
+
+GTM Sheets is Algo Acquisition's own Clay-style table app inside Tracking Clients (`gtm_sheet_*` tools on the tracking_clients MCP, dashboard.algoacquisition.ai/gtm-sheet). Never call it Clay. **GTM Sheets is where all of a campaign's working is displayed**, not just its final lead list. Anyone opening it should see how the leads were arrived at. (Standard set by the repo owner, 2026-11-05.)
+
+- **One workbook per campaign.** Don't put several campaigns in one workbook as separate tables.
+  - Create it in the client's folder (`gtm_sheet_open_client_folder`), and link it to its tracking_clients campaign (`gtm_sheet_create_workbook` with `campaign`) so the campaign page shows its tables.
+  - Name it after the campaign, e.g. the HeyReach campaign name `US | Recruiter | Cybersecurity Open Roles | Moe v1`.
+- **The workbook shows the funnel as numbered tables, from widest to narrowest.** For a job-signal campaign that is:
+  1. **Companies:** every company that passed the firmographic, revenue, industry and DNC filters, with a column for how many leads each produced. Companies that produced none stay in the table, so the drop-off is visible.
+  2. **Jobs:** the postings behind the outreach, with title, cleaned role, posted date, URL, the summary, the `jd` phrase, and the company.
+  3. **Leads:** the prospects, keyed by LinkedIn URL. Include a `Status` column ("launch set", or "removed: <reason>" after a freshness check, so removals are shown rather than deleted), and a **Push to HeyReach** column wired to the campaign with its custom fields. The Push column has auto-run off and `run_if` Status = "launch set".
+
+  Non-job campaigns keep the same idea: one table per funnel stage, with the source and signal table first.
+- **Each table's rows come from the repo's CSVs, not the other way round.** The repo stays the audit record (Golden rule 3a).
+  - Load from the shell through each table's webhook (`gtm_sheet_build_table` with `source: "webhook"` and field columns). For an example, see `clients/elite-technical/gtm-sheets/`.
+  - Don't load through chat, and don't load with per-lead MCP calls.
+  - Afterwards, check each table's row count against its CSV (`gtm_sheet_get_workbook`).
+  - Webhook URLs can write to their tables: never commit them.
+  - A webhook load appends, so a re-run duplicates rows.
+- Link the Leads table to its lead list (`gtm_sheet_update_table` `lead_list`). Record every workbook and table id in the client README.
+
 ## Required sections in every `clients/<slug>/README.md`
 
 Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:

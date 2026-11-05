@@ -5,13 +5,16 @@
 > - [caller briefing and FAQs](context/caller-briefing.md)
 > - [DNC list](context/dnc-list.csv), 160 rows
 >
-> tracking_clients has no client brief, client description or call transcript.
+> - [client brief](context/client-brief.md) and [client description](context/client-description.md), first present in tracking_clients at the 2026-11-05 resync
+>
+> tracking_clients still has no call transcript.
 
 ## Profile
 
 - **Status:** active (isApproved: true, isAlgo: false), created 2026-10-22 by `sales`
 - **Package tier:** Standard
-- **Website:** `-` in tracking_clients (`website` is blank). The ICP form and caller briefing both give https://www.elitetechnical.com/
+- **Website:** https://elitetechnical.com (set in tracking_clients as of the 2026-11-05 resync; it was blank on 2026-10-29)
+- **Billing:** $5,000 monthly (`billingAmount` / `billingFrequency`), client type `core`
 - **Contact:** Joseph Monaco <jmonaco@elitetechnical.com>. The ICP form also asks for Slack invites for jjkeller@, pmosca@ and mgerardo@elitetechnical.com.
 - **Staff:**
   - GTM engineer and campaign strategist: moeez@algoacquisition.ai
@@ -23,14 +26,13 @@
 - **Infrastructure:** not submitted to infra (`infrastructure` is `{}`).
 - **Booking link:** `-` (blank)
 - **Gaps in tracking_clients:** these are recorded, not filled by guessing.
-  - `website`, `clientBrief`, `clientDescription` and `callTranscript` are empty.
+  - `callTranscript` is empty. (`website`, `clientBrief` and `clientDescription` were filled in tracking_clients between 2026-10-29 and 2026-11-05.)
   - SDR defaults (headline, about, position, location, banner) are empty.
-  - There are no ICP configs, sourcing configs or campaigns.
 - **DNC:** `dncList` has 160 entries and `dncSkipped` is false. All 160 are historical clients scraped from `elitetechnical.com/for-business/clients-served/`. Every row has the status "Review before outreach; exclude pending account-owner confirmation". **No row has a domain** (`Company Domain (verify)` is blank on all 160), so exclusion has to match on company name.
   - By industry: Aerospace & Defense 53; Commercial Enterprise/Financial/Media 43; Health Care/Medical Device 21; Systems Integrators 16; Emerging Technology 14; Federal & State Governments 13.
   - None of the five "dream companies" in the ICP form (AeroVironment, TransMedics, Varonis, Tenable, Commvault) is on the DNC list.
 - **Tracking client ID:** `254dc33b-4f9f-4712-9b6b-eca49c5a5ffc`
-- **Last synced:** 2026-10-29 via `get_client` + `list_sourcing_configs` (+ `list_icp_configs`, `list_campaigns`)
+- **Last synced:** 2026-11-05 via `get_client` + `list_sourcing_configs`
 
 ## Sourcing configs
 
@@ -42,6 +44,16 @@
 | Job-change (90d) senior IT/Eng via Clay/Blitz — C10 New Seat Fresh Team | New Seat, Fresh Team | Technology, Financial Services, Health Care, Defense and Space | draft | 1 | 0 | `-` |
 | Eng hiring surge/program news + Blitz contacts — C2 Program Ramp | Engineers for the Program Ramp | Defense and Space Mfg, Aerospace Components, Engineering Services, Defense Electronics | draft | 1 | 0 | `-` |
 | Open security eng roles + Blitz contacts — C3 Security Talent | Hiring Security Talent Without the Fraud Risk | Computer and Network Security, Software Development, Data Infrastructure | draft | 1 | 0 | `-` |
+| Blitz jobs (30d software eng postings) + hiring managers — Recruiter Software Eng | Recruiter Open Roles — Software Engineering | Technology, Financial Services, Health Care, Other (any industry posting software roles) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d IT/security postings) + hiring managers — Recruiter IT & Security | Recruiter Open Roles — IT Infrastructure & Support | Financial Services, Health Care, Technology, Other (any industry posting IT roles) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d hardware eng postings) + hiring managers — Recruiter Hardware Eng | Recruiter Open Roles — Electrical, Controls & Embedded Engineering | Defense and Space, Aerospace, Manufacturing, Medical Devices, Engineering Services, Other | draft | 1 | 0 | `-` |
+| Blitz jobs (30d cybersecurity postings) + hiring managers — Recruiter Cybersecurity | Recruiter Open Roles — Cybersecurity | Any industry posting cybersecurity roles (Technology, Financial Services, Health Care, Defense, Other) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d data & AI postings) + hiring managers — Recruiter Data & AI | Recruiter Open Roles — Data & AI | Any industry posting data & AI roles (Technology, Financial Services, Health Care, Other) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d cloud/DevOps postings) + hiring managers — Recruiter Cloud & DevOps | Recruiter Open Roles — Cloud & DevOps | Any industry posting cloud/DevOps roles (Technology, Financial Services, Health Care, Other) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d enterprise apps postings) + hiring managers — Recruiter ERP & Apps | Recruiter Open Roles — Enterprise Applications (ERP/CRM) | Any industry posting enterprise application roles (Health Care, Financial Services, Manufacturing, Technology, Other) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d mech/mfg/quality postings) + hiring managers — Recruiter Mech & Mfg | Recruiter Open Roles — Mechanical, Manufacturing & Quality Engineering | Manufacturing, Aerospace & Defense, Medical Devices, Industrial, Energy, Engineering Services, Other | draft | 1 | 0 | `-` |
+
+The 8 recruiter rows (created 2026-11-05) are mirrored verbatim from `list_sourcing_configs`. Two still carry names from the superseded 3-segment build: "Recruiter IT & Security" now feeds IT Infrastructure & Support, and "Recruiter Hardware Eng" now feeds Electrical, Controls & Embedded. Their ICPs were renamed but the configs were not. All 8 show `company_count`/`lead_count` 0, because the leads live in this repo (`sourcing/recruiter-open-roles-*`) and in HeyReach, not in tracking_clients.
 
 The five draft rows above were created 2026-10-30 from this session's own `create_*` calls, not a re-pull. They are static, `campaign_split: false`, with no Clay table, and none has leads yet.
 
@@ -141,6 +153,37 @@ On 2026-10-30 Moe asked to set up the "top 5" campaigns from the Oct 26 proposal
 
   That gives about 7×25 + 4×3 = **187 connection requests a day** across the pool at current limits. With no Sales Nav seat on any account, Sales Nav search URLs can't be run from this workspace.
 
+## GTM Sheets
+
+Folder **Clients / Elite Technical** (`b87ff0a8-59d1-4093-af63-b9e38440ed60`), at https://dashboard.algoacquisition.ai/gtm-sheet#/gtm-sheet?folder=b87ff0a8-59d1-4093-af63-b9e38440ed60.
+
+There is **one workbook per recruiter campaign** (CLAUDE.md "GTM Sheets build standard per campaign"), each linked to its tracking_clients campaign. Each has three tables:
+- **1. Companies:** `<date>-companies.csv`, every hiring company that passed the filters, with `Leads Selected`
+- **2. Jobs:** `<date>-jobs.csv`, one posting per company, derived from `leads.csv`
+- **3. Leads:** `selected_for_launch = yes`, with `Status` and a Push to HeyReach column
+
+They are loaded by `gtm-sheets/build_gtm_payloads.py` and then `gtm-sheets/push_rows.py`. Every table's server row count matches its CSV.
+
+| Campaign (workbook) | Workbook id | Companies / Jobs / Leads table ids | Rows (C / J / L) | HeyReach |
+|---|---|---|---|---|
+| Software Eng | `068a6922-d3a1-468b-b1d6-6873845ff1dd` | `6bae1b09-…` / `9e7c4384-…` / `caaeb0a7-6e5f-4c8f-b4fc-0de4422d7862` | 1,047 / 866 / 4,836 | `710042` |
+| IT Support | `98e95f3e-86e3-45a9-bc21-fae9490184b8` | `60458d32-…` / `9809c3ab-…` / `96dcb4cb-5894-46d7-9c5d-f556277dacea` | 1,268 / 912 / 2,817 | `710044` |
+| Cybersecurity | `62fe0343-bbee-4bab-ab5d-a66916b7f0e6` | `b94c9eea-…` / `e9943b46-…` / `7f2af1a9-5912-43d0-8e33-0f26b078c2df` | 617 / 450 / 1,500 (98 marked removed) | `710103` |
+| Data & AI | `8f124457-0723-4382-b0a9-829e540d4418` | `aeea816e-…` / `0702058b-…` / `8d884a27-36ef-483e-97b2-3953ed4ac5cd` | 1,258 / 805 / 2,837 | `710104` |
+| Cloud & DevOps | `930522ac-94b4-4de1-9fa6-93c4d6171e89` | `4fd1e259-…` / `d660f218-…` / `95ce8880-7d27-4d69-83d9-5b7a321cc922` | 567 / 239 / 406 | `710105` |
+| ERP & Apps | `65b767bc-592f-41aa-a4dc-19460150d298` | `2af8d2a4-…` / `ff90ec1e-…` / `e960a576-282a-4b82-b7fe-bb8b55406a64` | 534 / 230 / 513 | `710107` |
+| Elec & Controls | `d1331512-09bb-4c2e-92f3-39294d72af45` | `6e70c771-…` / `2b57837d-…` / `c0b0ba42-6bf5-483b-a1a9-e78161b556a6` | 973 / 607 / 2,859 | `710046` |
+| Mech & Mfg | `9e0def87-9083-4100-a173-e56219a8297d` | `9bbcad93-…` / `05d12cb2-…` / `9a536d62-bda8-46d4-a812-7d59ce7a1912` | 1,090 / 759 / 3,675 | `710108` |
+
+- **Push to HeyReach:**
+  - Inputs: `linkedin_url` / `first_name` / `last_name` / `company_name` (cleaned) / `position` / `location`.
+  - Custom fields: `open_role`, `open_role_with_article`, `company_name`, `jd`.
+  - Auto-run is off, with `run_if` Status = "launch set". **It has not been run.** HeyReach refuses leads into a DRAFT campaign. Leads already in a HeyReach list are only updated, and HeyReach keeps LinkedIn's first name regardless.
+- **Jobs caveat:** the raw Blitz `/v2/jobs/company` pulls (up to 5 jobs per company, `pull8_<seg>.json`) were never committed. So the Jobs table holds only the posting that drove each company's leads, one per company. Showing every matched posting would need a fresh Blitz pull.
+- Each tracking_clients recruiter campaign's `clay_table_url` points to the folder URL above.
+- The first build (one combined workbook `d3e065f2-…` with 8 tables) was deleted on 2026-11-05 when this structure replaced it.
+- Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`.
+
 ## Sourced data in this repo
 
 All rows below are for ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf-3a800c3e4d08`. No lead-list UUID exists yet.
@@ -213,6 +256,44 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - C1: 73 requests, 6.8% accepted
   - C1b: 170 requests, 5.3% accepted
   - C9: 415 requests, 12.3% accepted
+
+- **2026-11-05**: **GTM Sheets restructured to one workbook per campaign, each with Companies → Jobs → Leads tables** (Moe: "Have a different workbook for each campaign … one sheet with the jobs as well and then companies from which those jobs are. We will use GTM Sheets to display all of the working. Add this into the SOPs as well").
+  - 8 new workbooks were created, each linked to its tracking_clients campaign, with 24 tables in total. Ids are in **GTM Sheets** above.
+  - Rows loaded: 7,354 companies, 4,868 jobs and 19,443 leads. Every table's server count matches its CSV.
+  - New derived files `sourcing/recruiter-open-roles-*/2026-11-05-jobs.csv` hold one posting per company, built from each `leads.csv`. They are not a new API pull.
+  - The Cybersecurity Leads table marks the 98 freshness-check removals in `Status`, and its Push column skips them.
+  - The old combined workbook `d3e065f2-…` was deleted.
+  - The standard was added to the repo `CLAUDE.md` as "GTM Sheets build standard per campaign". Moe's message was the explicit approval for that system-file change.
+  - It was **not** added to the brain repo SOPs (`AdmiralGeneralBaba/algoacquisition-brain`): the auto-mode classifier refused attaching that repo.
+
+- **2026-11-05**: **Paused the last non-recruiter campaign and prepped Cybersecurity as the first recruiter launch** (Moe: "Pause all that are not recruiters"; "Use the most fitting recruitment section first").
+  - Paused HeyReach `695700` "US | C1 Cleared Talent Fed Contracts | Moe v2". It was IN_PROGRESS with 106 leads: 85 finished, 11 in progress, 0 pending. It uses the same list `1082101` as C1 v1. After this, no Elite HeyReach campaign is IN_PROGRESS.
+  - **Cybersecurity was chosen as the most fitting segment.** Three of Joseph's five dream companies are security vendors (Varonis, Tenable, Commvault). The ICP form names Director of Cybersecurity as a target title and "cybersecurity initiatives" as a buying signal. Elite's DoD Top Secret facility clearance also fits best here.
+  - **Reconciling HeyReach list `1118017` against `leads.csv`:**
+    - all 1,500 selected leads are present; the 4 apparent misses are the same profiles with percent-encoded URLs
+    - all four custom fields match on every lead
+  - **Freshness check.** HeyReach has already pulled live LinkedIn data. 350 `companyName` values differ from the expected company:
+    - 32 have no company yet
+    - 196 plus 31 (checked by hand) are aliases or renames, and are kept
+    - **91 are at a different company**: a job change, or a side role (advisory board, investor, member, founder) listed as their current position. They are removed, following the C9 precedent.
+  - **First names.** HeyReach overwrote our cleaned first names with LinkedIn's display names in 40 cases. Re-importing with a clean `firstName` was tested and does **not** override this. **7** would render broken in `{first_name}` (an emoji, "Dr.", "A", "Sandoval,", hidden Unicode characters, a name with a trailing comma, "Beverly J (SN)"), so they are removed too. The other 33 are names people chose themselves ("Tracy T.", "Dr. Curtis") and are kept.
+  - The 98 removals are listed in `sourcing/recruiter-open-roles-cybersecurity/2026-11-05-heyreach-removed.csv`.
+  - **Blocked:** the auto-mode classifier refused `delete_leads_from_list_by_profile_url`. The 98 are therefore **still in the list**, and the campaign was **not started**: the list can't be edited after start. Leads intended for launch: 1,402.
+  - The GTM Sheets Cybersecurity table still holds all 1,500 rows. Its push column is not needed for this launch, because the leads are already in the list.
+  - Repo data issue found along the way: 3 rows in this segment's `leads.csv` have `first_name = Dr`. They were not edited, because snapshots are append-only.
+
+- **2026-11-05**: **All 8 recruiter open-role segments built in GTM Sheets** on Moe's ask ("Make all of these in gtm-sheets").
+  - New workbook `d3e065f2-…` in the Elite Technical client folder, with one table per segment (ids in **GTM Sheets** above).
+  - 19,443 rows were loaded from the repo CSVs by `gtm-sheets/push_leads_to_gtm_sheet.py` via each table's inbound webhook. Each server-side row count matches the repo's `selected_for_launch = yes` count exactly.
+  - Each table is linked to its lead list.
+  - Each table has a **Push to HeyReach** column wired to its DRAFT campaign with the four custom vars. It has not been run.
+  - tracking_clients `clay_table_url` is set on all 8 recruiter campaigns.
+  - Why webhook tables: they load directly from files in the shell. That avoids the per-100-lead token cost of the earlier `add_leads_to_list_v2` agent uploads, and avoids pasting CSVs through chat.
+  - Seen while listing HeyReach campaigns: **`695700` "US | C1 Cleared Talent Fed Contracts | Moe v2" is IN_PROGRESS**. It is not recorded anywhere in this README and was not part of the 2026-11-05 pause. It was flagged to Moe and not touched.
+
+- **2026-11-05**: **Resynced Profile and Sourcing configs from tracking_clients** (`get_client` + `list_sourcing_configs`) at the start of a new session (Initialization protocol).
+  - Drift found: `website` is now set (https://elitetechnical.com), and `clientBrief` and `clientDescription` are now filled. They are saved verbatim as `context/client-brief.md` and `context/client-description.md`. `callTranscript` is still empty. The DNC list is unchanged at 160.
+  - Added the 8 recruiter open-role sourcing configs to the table. tracking_clients now has 14 configs.
 
 - **2026-11-05**: **Paused all live Elite campaigns** on Moe's instruction ("Pause those that are running currently"), to make room for the recruiter open-role campaigns.
   - Paused in HeyReach:
