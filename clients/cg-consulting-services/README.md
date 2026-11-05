@@ -80,6 +80,24 @@ Config detail (tracking_clients):
 
 ## History
 
+- **2026-11-05**: **Moe's brief: recruiter-specific open-role campaigns. Opens 4 new segments.**
+  - **Sequence (Moe, verbatim source: the "Open-role sequence", 19.4% reply rate at Talent Edge and Alcor):** a connection request **with a note** ("Hi {FIRST_NAME}, saw the {Open_Role} opening at {Company_Name}. Figured it was worth connecting given the space you're in."), then messages 1–3 at **+2, +2 and +2 days**. Message 1 uses `{COMPANY}`/`{Open_Role}`/`{JD}`; messages 2–3 name the segment's role family.
+  - **Persona:** the hiring manager for the role family. Head of Talent / Talent Director / VP People is the fallback when no hiring manager can be identified.
+  - **Company entry point:** ICP-form companies with a live open job in the role family.
+  - **Segments chosen by Moe (each gets its own sourcing config and `sourcing/<slug>/` folder; sourcing is campaign-specific):**
+    1. LS Clinical & Data: Biostats, Clinical Data, Pharmacovigilance, Data Science.
+    2. LS Regulatory & Quality: Regulatory Affairs, QC, Lab Tech.
+    3. LS Medical Affairs.
+    4. Tech Eng, Security & Data: Engineer, Developer, PM, IT Security, Data Science.
+  - **Connection-request note: Moe chose to use the note as written.** This is a deliberate exception to the blank-request rule that `677893`/`686451` follow.
+  - **HeyReach:** one campaign per segment. It is not the Vertical Launch quadset. Each gets its own list, with exclude-in-other-campaigns ON. "Recruiter" goes in the campaign name.
+  - **Data source:**
+    - **Open jobs:** ColdIQ → HarvestAPI LinkedIn job search for `{Open_Role}`/`{JD}`. The ColdIQ balance was checked at 70,456 credits on 2026-11-05.
+    - **Live-hiring firmographic cross-check:** Clay `search-companies` with `jobs.exists(...)`. A test query returned 10 US pharma/biotech companies with open Regulatory/QC roles, but no job text.
+    - **Hiring managers:** Blitz people search. LinkedIn URL only, no email.
+    - Cost is shown to Moe before anything runs.
+  - Per-client CG session.
+
 - **2026-11-05**: **Second CG session started (hand-off from `session_01NpLnZe7WyswDJnoQs47pRp`). Resynced and checked HeyReach.**
   - tracking_clients matches this README: client, ICP `885e8da7-…` and campaign `c8855ae2-…` (`running`) are unchanged. Sourcing config `09be87f3-0db4-4e2d-842d-b70af7d29d7c` is `ready`, still with company_count / lead_count 0. `dncList` is still empty and `bookingLink` is still blank.
   - **List `1056840` = 2,593 leads**, exactly 493 (wave 1) + 2,100 (wave 2 rows 1–2100). That confirms the paused push. Both `677893` and `686451` are `IN_PROGRESS` on that list, and both still have exclude-in-other-campaigns **off**.
