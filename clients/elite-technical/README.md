@@ -181,7 +181,53 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Same config `935c0326-…`, lead list `78d2a5a3-…`, tool (Blitz `tam-by-jobs` + `waterfall-icp-keyword`) and cap.
   - Details and the filter-impact table: `2026-11-02-2-leads.query.md`.
 
+- `sourcing/recruiter-open-roles-cybersecurity/2026-11-05-leads.csv` (+ `-companies.csv`): **1500 selected leads at 450 companies** (1481 hiring managers), each tied to a live 30-day posting, 2026-11-05.
+  - ICP config **Recruiter Open Roles — Cybersecurity** `4c0c3fb1-cd38-41e4-9aa2-7ea5d3e37b75`, lead list `578098d3-e9c9-46d4-ad50-4eccde29e95c`.
+  - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-roles-data-ai/2026-11-05-leads.csv` (+ `-companies.csv`): **2837 selected leads at 805 companies** (2787 hiring managers), each tied to a live 30-day posting, 2026-11-05.
+  - ICP config **Recruiter Open Roles — Data & AI** `78751c5e-06e7-4a67-9a77-816332575d17`, lead list `23583ae2-8ac2-4c35-9d3c-36b6905c338d`.
+  - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-roles-cloud-devops/2026-11-05-leads.csv` (+ `-companies.csv`): **406 selected leads at 239 companies** (365 hiring managers), each tied to a live 30-day posting, 2026-11-05.
+  - ICP config **Recruiter Open Roles — Cloud & DevOps** `47337ded-24ef-49cf-9929-918508139019`, lead list `20fa81f6-6e8d-435c-bc2a-bd1b87655fa1`.
+  - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-roles-enterprise-apps/2026-11-05-leads.csv` (+ `-companies.csv`): **513 selected leads at 230 companies** (500 hiring managers), each tied to a live 30-day posting, 2026-11-05.
+  - ICP config **Recruiter Open Roles — Enterprise Applications (ERP/CRM)** `b216733d-1138-4c1d-af43-93bb20b36a2c`, lead list `fac25c58-8e0c-4e81-aa3c-c1e6ad096017`.
+  - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-roles-it-support/2026-11-05-leads.csv` (+ `-companies.csv`): **2817 selected leads at 912 companies** (2799 hiring managers), each tied to a live 30-day posting, 2026-11-05.
+  - ICP config **Recruiter Open Roles — IT Infrastructure & Support** `4a3c91bb-5d0a-48a5-9bf6-c43210f67742`, lead list `8ebe4aaa-4274-4ab5-bb4e-624207494122`.
+  - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-roles-electrical-controls/2026-11-05-leads.csv` (+ `-companies.csv`): **2859 selected leads at 607 companies** (2848 hiring managers), each tied to a live 30-day posting, 2026-11-05.
+  - ICP config **Recruiter Open Roles — Electrical, Controls & Embedded Engineering** `11db2394-cd9e-4e55-8d49-782962272f97`, lead list `164e8069-adfa-4864-98f7-120d3c82c5fa`.
+  - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-roles-mechanical-mfg/2026-11-05-leads.csv` (+ `-companies.csv`): **3675 selected leads at 759 companies** (3672 hiring managers), each tied to a live 30-day posting, 2026-11-05.
+  - ICP config **Recruiter Open Roles — Mechanical, Manufacturing & Quality Engineering** `ec056c9a-f579-4e4a-a56e-108e29256509`, lead list `e47ff0ce-c3a6-4620-b76f-502cc332ed84`.
+  - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-roles-software-eng/2026-11-05-leads.csv` (+ `-companies.csv`): **4836 selected leads at 866 companies** (4835 hiring managers), each tied to a live 30-day posting, 2026-11-05.
+  - ICP config **Recruiter Open Roles — Software Engineering** `cde7d704-2497-45b6-a1f6-7da87fbfdc75`, lead list `779a36ad-e82b-41a9-b84f-56e3ea506b2d`.
+  - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
+
 ## History
+
+- **2026-11-05**: **8 new segments: recruiter-specific open-role campaigns**, on Moe's instructions:
+  - the "open-role sequence" (Talent Edge/Alcor, 19.4% reply)
+  - "recruiter specific in the name"
+  - "don't limit it per the company"
+  - "keep segments as many as needed"
+
+  The sequence is a connection request, then message 1 two days after connecting and the next two messages two days apart. Each campaign is one role family. Each lead is a hiring manager tied to a live 30-day posting at a $100M–$1B, 501–10,000-employee US company, with no per-company cap. A talent fallback (Head of Talent / Talent Director / VP People) is used only when no hiring manager is found.
+  - Custom vars: `open_role`, `open_role_with_article`, `company_name`, `jd`. The `jd` phrase is model-written from each posting's summary, and all were checked against their postings.
+  - **19,443 leads** in all, across:
+    - Cybersecurity: 1500 leads. tracking_clients `b8e4cb3d-6475-42a0-8df2-0e28d8b95965`; HeyReach DRAFT `710103` / list `1118017`
+    - Data & AI: 2837 leads. tracking_clients `8bacac47-ccdb-4355-986b-ea741c0f2ae6`; HeyReach DRAFT `710104` / list `1118018`
+    - Cloud & DevOps: 406 leads. tracking_clients `990afbc9-4d56-47bf-b6b2-c557bc6faee0`; HeyReach DRAFT `710105` / list `1118019`
+    - Enterprise Applications (ERP/CRM): 513 leads. tracking_clients `65c82e90-5454-4b09-a566-8350c6570bf1`; HeyReach DRAFT `710107` / list `1118020`
+    - IT Infrastructure & Support: 2817 leads. tracking_clients `5565a579-3839-4fa6-a667-62e43719b2ff`; HeyReach DRAFT `710044` / list `1118014`
+    - Electrical, Controls & Embedded Engineering: 2859 leads. tracking_clients `36bf2aef-1098-499c-91c2-6eaf5eadad42`; HeyReach DRAFT `710046` / list `1118016`
+    - Mechanical, Manufacturing & Quality Engineering: 3675 leads. tracking_clients `f99ad2d7-39c9-451b-a769-f517460b19f7`; HeyReach DRAFT `710108` / list `1118021`
+    - Software Engineering: 4836 leads. tracking_clients `a42dd5f3-3ea3-421e-ac47-b09899fc2125`; HeyReach DRAFT `710042` / list `1117915`
+  - All 8 HeyReach campaigns use all 11 senders and the 7-day NY schedule.
+  - An earlier 3-segment, 1-per-company build from the same day was superseded before it was committed or loaded. Its tracking_clients and HeyReach records were repurposed: IT & Security became IT Infrastructure & Support, and Hardware became Electrical & Controls.
+  - The 3-segment build's empty HeyReach lists `1117916` and `1117917` are unused.
 
 - **2026-11-02**: **Campaign 9 expanded to the whole US.** This is an expanding existing segment.
   - Moe removed the DC/East/Midwest region filter for this campaign, so West Coast companies are now included.
