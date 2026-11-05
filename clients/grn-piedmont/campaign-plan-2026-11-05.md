@@ -221,17 +221,19 @@ Owner, Founder, President, CEO only.
 
 ### Lead list
 
-**Custom qualifiers:** The company's LinkedIn page, website or state records show it is privately held and founder-led or family-owned (exclude PE-backed and public companies). The current Owner, Founder, President or CEO has been in that seat for 15 or more years according to LinkedIn.
+**Custom qualifiers:** The company's LinkedIn page, website or state records show it is privately held and founder-led or family-owned (exclude PE-backed and public companies). The current Owner, Founder, President or CEO has been in that seat for 15 or more years according to LinkedIn, where that data is available.
 
-**Signal (Claygent-verified, gates inclusion):** ownership type and the leader's tenure. Claygent returns {years_in_role} and {ownership} ("family-owned" or "founder-led").
+**Signal (Claygent-verified, gates inclusion):** ownership type, and the leader's tenure where available. Claygent returns {ownership} ("family-owned" or "founder-led") and, if available, {years_in_role}.
 
 **Lead magnet:** The Complimentary Hiring Process Effectiveness Review, framed around succession planning for the top two or three roles.
 
 ### Messaging
 
-**Message 1:** Hello {first_name}, {years_in_role} years leading {company} is a real run.
+**Message 1:** Hello {first_name}, {years_in_role} years leading {company} is a real run. (*)
 
 A question I ask {ownership} manufacturers: if a key leader gave notice tomorrow, would you know who you'd call?
+
+(*) The tenure line depends on the data: if available, we will use it. Where the leader's tenure can't be confirmed, Message 1 opens straight with the question: "Hello {first_name}, a question I ask {ownership} manufacturers: if a key leader gave notice tomorrow, would you know who you'd call?"
 
 **Message 2:** Happy to keep it light, {first_name}.
 
@@ -255,10 +257,10 @@ Great, thank you {first_name}. To get it right, I'd like Harvey to spend 15 minu
 ## Before launch
 
 - **Do-Not-Contact list must be loaded.** The file was uploaded on the onboarding form but is not yet in the system. Nothing launches until it is loaded and existing GRN Piedmont clients are added.
-- **Position profile turnaround needs confirming by Harvey.** Campaigns 1 and 3 offer a one-page first-year position profile. GRN Piedmont needs to commit to sending one within a few business days whenever a prospect says yes. If that isn't possible, those campaigns switch to their question-only CTA or the Hiring Process Effectiveness Review.
+- **Position profile offer.** Campaigns 1 and 3 offer a one-page first-year position profile, which we prepare and send within a few business days whenever a prospect says yes. If GRN Piedmont has any concerns about this offer, please flag them here and we will adjust.
 - **Senior HR titles.** The client asked us to avoid Directors. At companies under about 500 employees, the most senior HR person is often an HR Director. Campaign 4 only reaches them if Harvey approves that exception.
 - **GRN Network conflicts.** We need to know whether other GRN offices' clients or territories should be excluded.
 - **Claims:** every message stays within the stats from the onboarding form: over 90% presentation-to-interview ratio, eight single-candidate hires in 2026, 85% repeat business, the fire & life safety engagement (380 searched, 10 presented, 8 hired), GSA contract holder. No client names, pricing, fee structure, speed promises or guarantees in the messages. The "eight vs nine" single-candidate figure needs confirming; we use eight until then.
-- **Launch order:** Campaigns 1 and 3 first, as their signals point most directly at a current need and Campaign 3 carries the strongest proof. Campaigns 2, 4 and 5 run alongside to test which angle replies best.
+- **Launch order:** campaigns launch one at a time, each after the previous one has had time to show reply data. Proposed order: Campaign 1 first (its signal points most directly at a current need), then Campaign 3 (strongest proof), then Campaigns 2, 4 and 5.
 - **Senders:** five client LinkedIn seats and five virtual SDR seats are being set up. Campaign 4 and 5 copy uses "I" and suits Harvey's own profile best; we'd like to confirm which campaigns run from whose account.
 - **Lead handling:** interested replies go to Harvey through the agreed Slack channel and booking link. Candidate and job-seeker replies are passed to GRN Piedmont separately.
