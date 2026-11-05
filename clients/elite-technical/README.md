@@ -252,8 +252,9 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 ## History
 
 - **2026-11-05**: Added `2026-11-05-client-overview.pdf`, a client overview for Moe covering the profile and ICP, live HeyReach results, campaign inventory, list-building method, capacity and open items. Stats were pulled live with `get_overall_stats` (workspace 170370):
-  - all campaigns: 658 connection requests, 65 accepted (9.9%), 1 reply
+  - all campaigns: 750 connection requests, 71 accepted (9.5%), 13 conversations, 1 reply
   - C1: 73 requests, 6.8% accepted
+  - C1 v2 (`695700`): 92 requests, 6.5% accepted
   - C1b: 170 requests, 5.3% accepted
   - C9: 415 requests, 12.3% accepted
 
