@@ -55,9 +55,16 @@ Session ID `84fdb583-6cb5-4920-99c7-3004d79e8aca`.
 
 ## Analysis
 
+- `campaign-ideas.md`: GigWorx Campaign Ideas, six signal-led LinkedIn campaigns, modelled on the Nextwo RaaS campaign-ideas doc. Uploaded to `tracking_clients` as campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` (draft, not shared with the client). Which campaigns run is decided on the pre-launch call.
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-05** — Wrote `campaign-ideas.md` in the layout of the Nextwo RaaS campaign-ideas doc the repo owner supplied as the model. It has six signal-led campaigns: Hourly Roles That Won't Close, Peak Season Crews, RV Corridor Ramps, Try Before You Hire, Owner on the Floor, and Construction and Event Crews (the last one only if Mathew confirms "Other").
+  - Each campaign offers the comped first shift and stays within the client's claim limits: no pricing, no conversion fee, no fill-rate figures and no non-local client names.
+  - The repo owner reviewed the draft and asked for every campaign to stay in, so the choice can be made on Mathew's pre-launch call.
+  - Uploaded to `tracking_clients` with `create_campaign_doc` as doc `4d41ad80-0451-4524-bf83-819a4418be7b`: draft, not shared with the client. No campaign configs were created.
+  - Session: branch `claude/stoic-hawking-utkftq`.
 
 - **2026-11-05** — Repo owner asked for a thorough client analysis based on the onboarding form. Read the full Typeform answers, brief, caller briefing and FAQs, campaign and campaign-plan doc from `tracking_clients`. Sized the market with Blitz, which opens a **new segment** for config `184a0f39-d738-4f8f-a908-3c97d71dd4cf` (first pull; nothing pushed to Clay or HeyReach).
   - **Market size:** the configured core (manufacturing, warehousing, retail, 11+ employees) is **1,052 companies by headquarters, 329 of them with 51+ employees**. The brief had guessed 300–800.
