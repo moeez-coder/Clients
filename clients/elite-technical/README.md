@@ -153,6 +153,30 @@ On 2026-10-30 Moe asked to set up the "top 5" campaigns from the Oct 26 proposal
 
   That gives about 7×25 + 4×3 = **187 connection requests a day** across the pool at current limits. With no Sales Nav seat on any account, Sales Nav search URLs can't be run from this workspace.
 
+## GTM Sheets
+
+Folder **Clients / Elite Technical** (`b87ff0a8-59d1-4093-af63-b9e38440ed60`), at https://dashboard.algoacquisition.ai/gtm-sheet#/gtm-sheet?folder=b87ff0a8-59d1-4093-af63-b9e38440ed60.
+
+Workbook **Recruiter Open Roles (2026-11-05)** (`d3e065f2-57d9-4145-b4c4-f75453f529cb`) was built 2026-11-05. It has one webhook table per recruiter segment. Rows were POSTed from this repo's `sourcing/recruiter-open-roles-*/2026-11-05-leads.csv` (`selected_for_launch = yes` only) by `gtm-sheets/push_leads_to_gtm_sheet.py`. Every CSV column sits in the row's Webhook JSON; field columns expose the useful ones.
+
+| Table | Table id | Rows | Lead list (sourcing config) | Push to HeyReach column → campaign |
+|---|---|---|---|---|
+| Software Engineering | `fd174fd8-3abe-4980-94f3-71a1cef7b459` | 4,836 | `779a36ad-e82b-41a9-b84f-56e3ea506b2d` | `710042` |
+| IT Infrastructure & Support | `8f807c69-992b-4643-b458-82edd0e569b3` | 2,817 | `8ebe4aaa-4274-4ab5-bb4e-624207494122` | `710044` |
+| Cybersecurity | `fd0e939f-6e73-4b28-84e3-14ba333c4478` | 1,500 | `578098d3-e9c9-46d4-ad50-4eccde29e95c` | `710103` |
+| Data & AI | `b621e6f7-4c1c-4f24-835e-87bf074956aa` | 2,837 | `23583ae2-8ac2-4c35-9d3c-36b6905c338d` | `710104` |
+| Cloud & DevOps | `afffc439-3e25-49d9-be37-9017c2432b3b` | 406 | `20fa81f6-6e8d-435c-bc2a-bd1b87655fa1` | `710105` |
+| Enterprise Applications (ERP/CRM) | `c14707d8-5e66-43f9-913c-98bacd5ed85b` | 513 | `fac25c58-8e0c-4e81-aa3c-c1e6ad096017` | `710107` |
+| Electrical, Controls & Embedded | `8aff4d48-dab8-4826-9c83-388b33bf4977` | 2,859 | `164e8069-adfa-4864-98f7-120d3c82c5fa` | `710046` |
+| Mechanical, Manufacturing & Quality | `a4f73dde-5357-4669-b69f-85cb9ccaf00b` | 3,675 | `e47ff0ce-c3a6-4620-b76f-502cc332ed84` | `710108` |
+
+**Push to HeyReach** columns:
+- Inputs: `linkedin_url` / `first_name` / `last_name` / `company_name` (the cleaned name) / `position` (job title) / `location`.
+- Custom fields: `open_role`, `open_role_with_article`, `company_name`, `jd`. These are the same variables the sequences use.
+- Every column is **auto-run off and has not been run**. HeyReach refuses leads into a DRAFT campaign, so run it only once the campaign is started, and only for leads not already in the HeyReach list. Re-pushing an existing lead only updates it.
+- Each tracking_clients recruiter campaign's `clay_table_url` points to the folder URL above. The tool gives no per-table deep link, so use the table ids in this section to find a table.
+- The webhook tables append rows: re-running the push script duplicates them. The webhook URLs can write to the tables, so they are deliberately not stored in the repo. Get them from `gtm_sheet_get_table`.
+
 ## Sourced data in this repo
 
 All rows below are for ICP config **Cleared Talent for New Federal Contracts** `d286c219-eb64-4aa8-bccf-3a800c3e4d08`. No lead-list UUID exists yet.
@@ -219,6 +243,15 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
 
 ## History
+
+- **2026-11-05**: **All 8 recruiter open-role segments built in GTM Sheets** on Moe's ask ("Make all of these in gtm-sheets").
+  - New workbook `d3e065f2-…` in the Elite Technical client folder, with one table per segment (ids in **GTM Sheets** above).
+  - 19,443 rows were loaded from the repo CSVs by `gtm-sheets/push_leads_to_gtm_sheet.py` via each table's inbound webhook. Each server-side row count matches the repo's `selected_for_launch = yes` count exactly.
+  - Each table is linked to its lead list.
+  - Each table has a **Push to HeyReach** column wired to its DRAFT campaign with the four custom vars. It has not been run.
+  - tracking_clients `clay_table_url` is set on all 8 recruiter campaigns.
+  - Why webhook tables: they load directly from files in the shell. That avoids the per-100-lead token cost of the earlier `add_leads_to_list_v2` agent uploads, and avoids pasting CSVs through chat.
+  - Seen while listing HeyReach campaigns: **`695700` "US | C1 Cleared Talent Fed Contracts | Moe v2" is IN_PROGRESS**. It is not recorded anywhere in this README and was not part of the 2026-11-05 pause. It was flagged to Moe and not touched.
 
 - **2026-11-05**: **Resynced Profile and Sourcing configs from tracking_clients** (`get_client` + `list_sourcing_configs`) at the start of a new session (Initialization protocol).
   - Drift found: `website` is now set (https://elitetechnical.com), and `clientBrief` and `clientDescription` are now filled. They are saved verbatim as `context/client-brief.md` and `context/client-description.md`. `callTranscript` is still empty. The DNC list is unchanged at 160.
