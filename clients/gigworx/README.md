@@ -49,8 +49,20 @@ Session ID `84fdb583-6cb5-4920-99c7-3004d79e8aca`.
 
 ## Sourced data in this repo
 
-- `-`: no snapshots pulled yet.
+- `sourcing/michiana-shift-employers/2026-11-05-companies.csv`: 4,378 companies with 11+ employees headquartered in 17 St. Joseph and Elkhart County towns, tagged with `icp_bucket` (628 manufacturing, 196 warehousing and logistics, 228 retail, 191 construction, 357 hospitality, events and facilities, 14 staffing competitors, 713 with unknown industry, 2,051 out of ICP). Config **GigWorx - Michiana shift employers** (`184a0f39-d738-4f8f-a908-3c97d71dd4cf`). Pulled 2026-11-05 via Blitz API `POST /v2/search/companies`. Used for market sizing; nothing was pushed anywhere.
+- `sourcing/michiana-shift-employers/2026-11-05-hiring-signal-companies.csv`: 140 companies with 462 hourly or production job postings in South Bend, Mishawaka, Elkhart, Goshen and Nappanee in the last 60 days, from the same config (`184a0f39-d738-4f8f-a908-3c97d71dd4cf`). Pulled 2026-11-05 via Blitz API `POST /v2/company/tam-by-jobs`. Only 32 of the 140 are headquartered in Indiana.
+- `sourcing/michiana-shift-employers/2026-11-05-companies.query.md`: exact queries, bucket rules and known limits for both files.
+
+## Analysis
+
+- `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-05** — Repo owner asked for a thorough client analysis based on the onboarding form. Read the full Typeform answers, brief, caller briefing and FAQs, campaign and campaign-plan doc from `tracking_clients`. Sized the market with Blitz, which opens a **new segment** for config `184a0f39-d738-4f8f-a908-3c97d71dd4cf` (first pull; nothing pushed to Clay or HeyReach).
+  - **Market size:** the configured core (manufacturing, warehousing, retail, 11+ employees) is **1,052 companies by headquarters, 329 of them with 51+ employees**. The brief had guessed 300–800.
+  - **Headquarters search misses most hirers:** 108 of 140 local hourly hirers are headquartered out of state, so the lead list must filter on where the person works, not company headquarters.
+  - **Contacts per company** (inverse to market size): 3–4 at 51+ employees and 1–2 at 11–50, about 2,200 contacts in total.
+  - Wrote `client-analysis.md`. Its pre-launch call agenda comes first: a suppression list, local proof, and the "Other" industries.
 
 - **2026-11-05** — Created the folder from `clients/_TEMPLATE/README.md` and synced the profile, ICP, sourcing config and campaign from `tracking_clients` (client `94da4a2f-8f90-4bc0-87e6-22ff98fafd6a`). This is the first per-client session for GigWorx, which was onboarded on 2026-11-02 with one draft config and one campaign still in creation. The `tracking_clients` connector wasn't loaded in this session, so the sync went straight to its HTTP MCP endpoint (`tracking-clients.onrender.com/mcp`, JSON-RPC `tools/call`) using the same tools. Session: branch `claude/stoic-hawking-utkftq`.
