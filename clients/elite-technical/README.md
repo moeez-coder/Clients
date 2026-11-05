@@ -244,6 +244,22 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-11-05**: **Paused the last non-recruiter campaign and prepped Cybersecurity as the first recruiter launch** (Moe: "Pause all that are not recruiters"; "Use the most fitting recruitment section first").
+  - Paused HeyReach `695700` "US | C1 Cleared Talent Fed Contracts | Moe v2". It was IN_PROGRESS with 106 leads: 85 finished, 11 in progress, 0 pending. It uses the same list `1082101` as C1 v1. After this, no Elite HeyReach campaign is IN_PROGRESS.
+  - **Cybersecurity was chosen as the most fitting segment.** Three of Joseph's five dream companies are security vendors (Varonis, Tenable, Commvault). The ICP form names Director of Cybersecurity as a target title and "cybersecurity initiatives" as a buying signal. Elite's DoD Top Secret facility clearance also fits best here.
+  - **Reconciling HeyReach list `1118017` against `leads.csv`:**
+    - all 1,500 selected leads are present; the 4 apparent misses are the same profiles with percent-encoded URLs
+    - all four custom fields match on every lead
+  - **Freshness check.** HeyReach has already pulled live LinkedIn data. 350 `companyName` values differ from the expected company:
+    - 32 have no company yet
+    - 196 plus 31 (checked by hand) are aliases or renames, and are kept
+    - **91 are at a different company**: a job change, or a side role (advisory board, investor, member, founder) listed as their current position. They are removed, following the C9 precedent.
+  - **First names.** HeyReach overwrote our cleaned first names with LinkedIn's display names in 40 cases. Re-importing with a clean `firstName` was tested and does **not** override this. **7** would render broken in `{first_name}` (an emoji, "Dr.", "A", "Sandoval,", hidden Unicode characters, a name with a trailing comma, "Beverly J (SN)"), so they are removed too. The other 33 are names people chose themselves ("Tracy T.", "Dr. Curtis") and are kept.
+  - The 98 removals are listed in `sourcing/recruiter-open-roles-cybersecurity/2026-11-05-heyreach-removed.csv`.
+  - **Blocked:** the auto-mode classifier refused `delete_leads_from_list_by_profile_url`. The 98 are therefore **still in the list**, and the campaign was **not started**: the list can't be edited after start. Leads intended for launch: 1,402.
+  - The GTM Sheets Cybersecurity table still holds all 1,500 rows. Its push column is not needed for this launch, because the leads are already in the list.
+  - Repo data issue found along the way: 3 rows in this segment's `leads.csv` have `first_name = Dr`. They were not edited, because snapshots are append-only.
+
 - **2026-11-05**: **All 8 recruiter open-role segments built in GTM Sheets** on Moe's ask ("Make all of these in gtm-sheets").
   - New workbook `d3e065f2-…` in the Elite Technical client folder, with one table per segment (ids in **GTM Sheets** above).
   - 19,443 rows were loaded from the repo CSVs by `gtm-sheets/push_leads_to_gtm_sheet.py` via each table's inbound webhook. Each server-side row count matches the repo's `selected_for_launch = yes` count exactly.
