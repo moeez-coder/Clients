@@ -5,13 +5,16 @@
 > - [caller briefing and FAQs](context/caller-briefing.md)
 > - [DNC list](context/dnc-list.csv), 160 rows
 >
-> tracking_clients has no client brief, client description or call transcript.
+> - [client brief](context/client-brief.md) and [client description](context/client-description.md), first present in tracking_clients at the 2026-11-05 resync
+>
+> tracking_clients still has no call transcript.
 
 ## Profile
 
 - **Status:** active (isApproved: true, isAlgo: false), created 2026-10-22 by `sales`
 - **Package tier:** Standard
-- **Website:** `-` in tracking_clients (`website` is blank). The ICP form and caller briefing both give https://www.elitetechnical.com/
+- **Website:** https://elitetechnical.com (set in tracking_clients as of the 2026-11-05 resync; it was blank on 2026-10-29)
+- **Billing:** $5,000 monthly (`billingAmount` / `billingFrequency`), client type `core`
 - **Contact:** Joseph Monaco <jmonaco@elitetechnical.com>. The ICP form also asks for Slack invites for jjkeller@, pmosca@ and mgerardo@elitetechnical.com.
 - **Staff:**
   - GTM engineer and campaign strategist: moeez@algoacquisition.ai
@@ -23,14 +26,13 @@
 - **Infrastructure:** not submitted to infra (`infrastructure` is `{}`).
 - **Booking link:** `-` (blank)
 - **Gaps in tracking_clients:** these are recorded, not filled by guessing.
-  - `website`, `clientBrief`, `clientDescription` and `callTranscript` are empty.
+  - `callTranscript` is empty. (`website`, `clientBrief` and `clientDescription` were filled in tracking_clients between 2026-10-29 and 2026-11-05.)
   - SDR defaults (headline, about, position, location, banner) are empty.
-  - There are no ICP configs, sourcing configs or campaigns.
 - **DNC:** `dncList` has 160 entries and `dncSkipped` is false. All 160 are historical clients scraped from `elitetechnical.com/for-business/clients-served/`. Every row has the status "Review before outreach; exclude pending account-owner confirmation". **No row has a domain** (`Company Domain (verify)` is blank on all 160), so exclusion has to match on company name.
   - By industry: Aerospace & Defense 53; Commercial Enterprise/Financial/Media 43; Health Care/Medical Device 21; Systems Integrators 16; Emerging Technology 14; Federal & State Governments 13.
   - None of the five "dream companies" in the ICP form (AeroVironment, TransMedics, Varonis, Tenable, Commvault) is on the DNC list.
 - **Tracking client ID:** `254dc33b-4f9f-4712-9b6b-eca49c5a5ffc`
-- **Last synced:** 2026-10-29 via `get_client` + `list_sourcing_configs` (+ `list_icp_configs`, `list_campaigns`)
+- **Last synced:** 2026-11-05 via `get_client` + `list_sourcing_configs`
 
 ## Sourcing configs
 
@@ -42,6 +44,16 @@
 | Job-change (90d) senior IT/Eng via Clay/Blitz — C10 New Seat Fresh Team | New Seat, Fresh Team | Technology, Financial Services, Health Care, Defense and Space | draft | 1 | 0 | `-` |
 | Eng hiring surge/program news + Blitz contacts — C2 Program Ramp | Engineers for the Program Ramp | Defense and Space Mfg, Aerospace Components, Engineering Services, Defense Electronics | draft | 1 | 0 | `-` |
 | Open security eng roles + Blitz contacts — C3 Security Talent | Hiring Security Talent Without the Fraud Risk | Computer and Network Security, Software Development, Data Infrastructure | draft | 1 | 0 | `-` |
+| Blitz jobs (30d software eng postings) + hiring managers — Recruiter Software Eng | Recruiter Open Roles — Software Engineering | Technology, Financial Services, Health Care, Other (any industry posting software roles) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d IT/security postings) + hiring managers — Recruiter IT & Security | Recruiter Open Roles — IT Infrastructure & Support | Financial Services, Health Care, Technology, Other (any industry posting IT roles) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d hardware eng postings) + hiring managers — Recruiter Hardware Eng | Recruiter Open Roles — Electrical, Controls & Embedded Engineering | Defense and Space, Aerospace, Manufacturing, Medical Devices, Engineering Services, Other | draft | 1 | 0 | `-` |
+| Blitz jobs (30d cybersecurity postings) + hiring managers — Recruiter Cybersecurity | Recruiter Open Roles — Cybersecurity | Any industry posting cybersecurity roles (Technology, Financial Services, Health Care, Defense, Other) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d data & AI postings) + hiring managers — Recruiter Data & AI | Recruiter Open Roles — Data & AI | Any industry posting data & AI roles (Technology, Financial Services, Health Care, Other) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d cloud/DevOps postings) + hiring managers — Recruiter Cloud & DevOps | Recruiter Open Roles — Cloud & DevOps | Any industry posting cloud/DevOps roles (Technology, Financial Services, Health Care, Other) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d enterprise apps postings) + hiring managers — Recruiter ERP & Apps | Recruiter Open Roles — Enterprise Applications (ERP/CRM) | Any industry posting enterprise application roles (Health Care, Financial Services, Manufacturing, Technology, Other) | draft | 1 | 0 | `-` |
+| Blitz jobs (30d mech/mfg/quality postings) + hiring managers — Recruiter Mech & Mfg | Recruiter Open Roles — Mechanical, Manufacturing & Quality Engineering | Manufacturing, Aerospace & Defense, Medical Devices, Industrial, Energy, Engineering Services, Other | draft | 1 | 0 | `-` |
+
+The 8 recruiter rows (created 2026-11-05) are mirrored verbatim from `list_sourcing_configs`. Two still carry names from the superseded 3-segment build: "Recruiter IT & Security" now feeds IT Infrastructure & Support, and "Recruiter Hardware Eng" now feeds Electrical, Controls & Embedded. Their ICPs were renamed but the configs were not. All 8 show `company_count`/`lead_count` 0, because the leads live in this repo (`sourcing/recruiter-open-roles-*`) and in HeyReach, not in tracking_clients.
 
 The five draft rows above were created 2026-10-30 from this session's own `create_*` calls, not a re-pull. They are static, `campaign_split: false`, with no Clay table, and none has leads yet.
 
@@ -207,6 +219,10 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
 
 ## History
+
+- **2026-11-05**: **Resynced Profile and Sourcing configs from tracking_clients** (`get_client` + `list_sourcing_configs`) at the start of a new session (Initialization protocol).
+  - Drift found: `website` is now set (https://elitetechnical.com), and `clientBrief` and `clientDescription` are now filled. They are saved verbatim as `context/client-brief.md` and `context/client-description.md`. `callTranscript` is still empty. The DNC list is unchanged at 160.
+  - Added the 8 recruiter open-role sourcing configs to the table. tracking_clients now has 14 configs.
 
 - **2026-11-05**: **Paused all live Elite campaigns** on Moe's instruction ("Pause those that are running currently"), to make room for the recruiter open-role campaigns.
   - Paused in HeyReach:
