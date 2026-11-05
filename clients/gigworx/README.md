@@ -55,10 +55,12 @@ Session ID `84fdb583-6cb5-4920-99c7-3004d79e8aca`.
 
 ## Analysis
 
-- `campaign-ideas.md`: GigWorx Campaign Ideas, six signal-led LinkedIn campaigns, modelled on the Nextwo RaaS campaign-ideas doc. Uploaded to `tracking_clients` as campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` (draft, not shared with the client). Which campaigns run is decided on the pre-launch call.
+- `campaign-ideas.md`: GigWorx Campaign Ideas, six signal-led LinkedIn campaigns, modelled on the Nextwo RaaS campaign-ideas doc. Uploaded to `tracking_clients` as campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` (draft, not shared with the client). Sent to the client on 2026-11-05 (status `client_review`). Which campaigns run is decided on the pre-launch call.
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-05** — At the repo owner's request, sent campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` (all six campaigns) to the client with `send_campaign_doc_to_client`. Status is now `client_review` and the doc is visible in the client portal. The Slack notification went to the client's channel (`C0CDR13H0MV`) with a short note: pick the campaigns on the pre-launch call, and the notes at the end list what to confirm. Session: branch `claude/stoic-hawking-utkftq`.
 
 - **2026-11-05** — Wrote `campaign-ideas.md` in the layout of the Nextwo RaaS campaign-ideas doc the repo owner supplied as the model. It has six signal-led campaigns: Hourly Roles That Won't Close, Peak Season Crews, RV Corridor Ramps, Try Before You Hire, Owner on the Floor, and Construction and Event Crews (the last one only if Mathew confirms "Other").
   - Each campaign offers the comped first shift and stays within the client's claim limits: no pricing, no conversion fee, no fill-rate figures and no non-local client names.
