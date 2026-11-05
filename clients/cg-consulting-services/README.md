@@ -78,6 +78,19 @@ Config detail (tracking_clients):
 - `sourcing/security-and-data-bench/2026-10-23-3-leads.csv` / `-companies.csv`: the complete Haiku qualification after re-running 4 incomplete batches. **8,330 of 11,594 leads QUALIFIED, 0 PENDING; 3,668 of 4,618 companies QUALIFIED.** Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`. Claude Haiku 5.5 workflow agents, 2026-10-23. Notes in `2026-10-23-2-leads.query.md` § Follow-up. **This is the source for future waves.**
 - `sourcing/security-and-data-bench/2026-10-27-heyreach-wave2.csv`: **2,500 leads** (2,240 companies, 678 Northeast) selected from `2026-10-23-3-leads.csv` for HeyReach wave 2. Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, built 2026-10-27 with `build_wave.py --drop-odd-names`. Query: `2026-10-27-heyreach-wave2.query.md`.
 
+### GTM Sheets (open-role segments)
+
+Folder **Clients / CG** (`06f39f3e-bdcc-4712-8f02-af8c33b0d8b8`): <https://dashboard.algoacquisition.ai/gtm-sheet#/gtm-sheet?folder=06f39f3e-bdcc-4712-8f02-af8c33b0d8b8>. The client tab is <https://dashboard.algoacquisition.ai/#/clients/4ca09bb2-25f9-4410-b269-9c8bcb816881/gtm-sheet>.
+
+Each segment has its own workbook (per Moe: one workbook per campaign, holding the open jobs and companies as well as the leads). Each workbook has three tables, imported 2026-11-05 with `gtm_sheet_import_csv` (`url` = the raw GitHub file at commit `e7f347d`, `auto_run: false`, so no rows passed through chat and no columns ran). Row counts match the CSVs exactly. **Nothing is pushed to HeyReach, and no workbook is linked to a campaign yet.**
+
+| Workbook | id | Leads | Companies | Open Jobs |
+|---|---|---|---|---|
+| CG \| Recruiter \| Open Role \| LS Clinical & Data | `85133b7d-ee4b-4504-9fc9-ae6845a4a47a` | 273 (`022a1c01-…`) | 126 (`9db7f159-…`) | 297 (`0c5fca46-…`) |
+| CG \| Recruiter \| Open Role \| LS Regulatory & Quality | `9e3d2bc6-8ee0-4470-b788-9e96f543da3a` | 999 (`41f4e717-…`) | 523 (`2c6f113d-…`) | 1,286 (`b793fcc9-…`) |
+| CG \| Recruiter \| Open Role \| LS Medical Affairs | `ffdf9aaf-749e-4b24-a671-e4609be1b6c2` | 338 (`6026df43-…`) | 141 (`a202051d-…`) | 438 (`f2ef3426-…`) |
+| CG \| Recruiter \| Open Role \| Tech Eng, Security & Data | `a230d29b-21e5-42ec-a688-a19baadf916e` | 1,267 (`723e1b21-…`) | 1,479 (`bb5f7055-…`) | 5,000 (`feea6fc0-…`) |
+
 ### Open-role segments (Moe's recruiter brief, 2026-11-05)
 
 Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_open_roles.py` (Blitz pull) and `sourcing/build_open_roles.py` (CSVs and dedupe). Each segment will get its own tracking_clients lead list. **Those lists don't exist yet**: they wait on Moe's `campaign_split` answer, and their UUIDs are added here once created. Until then each file is tied to its segment slug and to client `4ca09bb2-25f9-4410-b269-9c8bcb816881`. Nothing is in HeyReach.
@@ -97,6 +110,12 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-05**: **GTM Sheets: one workbook per open-role segment in Clients/CG, each with Leads, Companies and Open Jobs tables** (Moe, mid-session: "each campaign will have its own workbook… include open jobs and companies… to clearly visualize whatever is being done").
+  - All 12 tables were imported from the committed CSVs by URL (commit `e7f347d`), and the row counts were verified.
+  - The workbook and table ids are in the GTM Sheets table above.
+  - **No HeyReach push and no campaign link.**
+  - The brain-repo SOPs (`AdmiralGeneralBaba/algoacquisition-brain`) could not be read: `add_repo` was denied by the session's auto-mode classifier. The import followed the tool's own `url` option instead of the shell route.
+  - Per-client CG session.
 - **2026-11-05**: **New segment: Tech Eng, Security & Data (`recruiter-open-role-tech-eng-security-data`). Blitz API, 1,267 leads.** The snapshot files are in commit `02ee3de`; the README rows were added in the commit after it.
   - Widened keywords took the count from 12,807 to **15,296 jobs**. Capped at 5,000, with Northeast first: all 3,064 jobs at Northeast-HQ companies, then the most recent 1,936 elsewhere.
   - That gives **1,479 companies** (760 Northeast).
