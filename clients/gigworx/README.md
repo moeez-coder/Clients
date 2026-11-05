@@ -64,5 +64,6 @@ Session ID `84fdb583-6cb5-4920-99c7-3004d79e8aca`.
   - **Headquarters search misses most hirers:** 108 of 140 local hourly hirers are headquartered out of state, so the lead list must filter on where the person works, not company headquarters.
   - **Contacts per company** (inverse to market size): 3–4 at 51+ employees and 1–2 at 11–50, about 2,200 contacts in total.
   - Wrote `client-analysis.md`. Its pre-launch call agenda comes first: a suppression list, local proof, and the "Other" industries.
+  - Session: branch `claude/stoic-hawking-utkftq`, commit `db664ff`.
 
 - **2026-11-05** — Created the folder from `clients/_TEMPLATE/README.md` and synced the profile, ICP, sourcing config and campaign from `tracking_clients` (client `94da4a2f-8f90-4bc0-87e6-22ff98fafd6a`). This is the first per-client session for GigWorx, which was onboarded on 2026-11-02 with one draft config and one campaign still in creation. The `tracking_clients` connector wasn't loaded in this session, so the sync went straight to its HTTP MCP endpoint (`tracking-clients.onrender.com/mcp`, JSON-RPC `tools/call`) using the same tools. Session: branch `claude/stoic-hawking-utkftq`.
