@@ -256,6 +256,13 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - `start_campaign`, then `get_campaign`, shows status **IN_PROGRESS** with `startedAt` 2026-11-05T18:21:45Z. HeyReach's progress counter still showed 1,500 right after the start.
   - **tracking_clients campaign `b8e4cb3d-6475-42a0-8df2-0e28d8b95965` is NOT running.** `move_campaign` to running returned `409: Cannot go live until the launch checks pass`. The campaign is still `creation`, `approved: false`, `heyreachCampaignId: null`. This gate is newer than C1's move to running on 2026-10-30. It was not forced through approval stages that could message the client; it was flagged to Moe.
 
+- **2026-11-05**: Added `2026-11-05-client-overview.pdf`, a client overview for Moe covering the profile and ICP, live HeyReach results, campaign inventory, list-building method, capacity and open items. Stats were pulled live with `get_overall_stats` (workspace 170370):
+  - all campaigns: 750 connection requests, 71 accepted (9.5%), 13 conversations, 1 reply
+  - C1: 73 requests, 6.8% accepted
+  - C1 v2 (`695700`): 92 requests, 6.5% accepted
+  - C1b: 170 requests, 5.3% accepted
+  - C9: 415 requests, 12.3% accepted
+
 - **2026-11-05**: **GTM Sheets restructured to one workbook per campaign, each with Companies → Jobs → Leads tables** (Moe: "Have a different workbook for each campaign … one sheet with the jobs as well and then companies from which those jobs are. We will use GTM Sheets to display all of the working. Add this into the SOPs as well").
   - 8 new workbooks were created, each linked to its tracking_clients campaign, with 24 tables in total. Ids are in **GTM Sheets** above.
   - Rows loaded: 7,354 companies, 4,868 jobs and 19,443 leads. Every table's server count matches its CSV.
