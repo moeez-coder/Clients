@@ -15,13 +15,13 @@
 - **LinkedIn health flag:** `linkedinIsBelowRed: true`, but `linkedinRedThreshold` is **null**. The flag is set even though no threshold is configured and no outreach has run. Treat it as unexplained until someone confirms how it is computed. Sender check results are below.
 - **DNC:** `dncList` is empty and `dncSkipped: false`. **However, the ICP form has an uploaded do-not-contact file (`bf13fb07587e-Non_Connect`)** that was never loaded into tracking_clients. This must be resolved before any leads go live.
 - **Tracking client ID:** `4ca09bb2-25f9-4410-b269-9c8bcb816881`
-- **Last synced:** 2026-10-23 via `get_client` + `list_sourcing_configs` (+ `list_icp_configs`, `get_campaign`, `get_campaign_sequence`, `get_campaign_live_status`)
+- **Last synced:** 2026-11-05 via `get_client` + `list_sourcing_configs` + `list_icp_configs` + `list_campaigns` (no drift from the record below; previous sync 2026-10-23)
 
 ## Sourcing configs
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
-| Security and Data Bench - Clay (firmographic + title search) | Security and Data Bench | Technology, Financial Services and Education | draft | 1 | 0 (lead_count 0; tracking_clients not yet updated, repo snapshot below) | `-` |
+| Security and Data Bench - Clay (firmographic + title search) | Security and Data Bench | Technology, Financial Services and Education | ready | 1 | 0 (lead_count 0; tracking_clients not yet updated, repo snapshot below) | `-` |
 
 Config detail (tracking_clients):
 - Sourcing config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, module **Custom** (`dd10c77c-109c-42e0-bc9a-a34ee0844fad`, granularity `company`), refresh `static`, `platform_leads_enabled: true`, `distribution_enabled: false`, empty module_config, no Clay table, workbook or webhook.
@@ -79,6 +79,13 @@ Config detail (tracking_clients):
 - `sourcing/security-and-data-bench/2026-10-27-heyreach-wave2.csv`: **2,500 leads** (2,240 companies, 678 Northeast) selected from `2026-10-23-3-leads.csv` for HeyReach wave 2. Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, built 2026-10-27 with `build_wave.py --drop-odd-names`. Query: `2026-10-27-heyreach-wave2.query.md`.
 
 ## History
+
+- **2026-11-05**: **Second CG session started (hand-off from `session_01NpLnZe7WyswDJnoQs47pRp`). Resynced and checked HeyReach.**
+  - tracking_clients matches this README: client, ICP `885e8da7-…` and campaign `c8855ae2-…` (`running`) are unchanged. Sourcing config `09be87f3-0db4-4e2d-842d-b70af7d29d7c` is `ready`, still with company_count / lead_count 0. `dncList` is still empty and `bookingLink` is still blank.
+  - **List `1056840` = 2,593 leads**, exactly 493 (wave 1) + 2,100 (wave 2 rows 1–2100). That confirms the paused push. Both `677893` and `686451` are `IN_PROGRESS` on that list, and both still have exclude-in-other-campaigns **off**.
+  - **The DNC file is still not applied in HeyReach.** The lead blacklist holds only the 7 wave-1 removals, and the company blacklist is empty. The client's `Non_Connect` file has not been loaded anywhere.
+  - Next: Moe's brief for recruiter-specific open-role campaigns.
+  - Per-client CG session.
 
 - **2026-11-05**: **Wave 2 push to `686451` paused by Moe at 2,100 of 2,500.**
   - Batches 00–20 (`add_leads_to_campaign_v2`, 100 each, in file order) all returned 100 added and 0 failed. That is rows 1–2100 of `2026-10-27-heyreach-wave2.csv`.
