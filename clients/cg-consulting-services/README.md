@@ -88,9 +88,18 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-ls-regulatory-quality/2026-11-05-leads.csv`: **999 leads** (942 tier 1, 57 fallback) at 414 companies, keyed by `linkedin_url`. 0 in list `1056840`. **12 flagged `dupe_of` LS Clinical & Data**, so 987 are `live_eligible`. Segment **LS Regulatory & Quality**. Blitz `waterfall-icp-keyword`, 2026-11-05. Query: `2026-11-05-leads.query.md`.
 - `sourcing/recruiter-open-role-ls-regulatory-quality/2026-11-05-companies.csv`: **523 hiring companies**. Blitz `tam-by-jobs`, 2026-11-05.
 - `sourcing/recruiter-open-role-ls-regulatory-quality/2026-11-05-jobs.csv`: **1,286 open jobs**. Blitz `jobs/search`, 2026-11-05.
+- `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-05-leads.csv`: **338 leads** (299 tier 1, 39 fallback) at 123 companies, keyed by `linkedin_url`. 0 in list `1056840`. **6 flagged `dupe_of` LS Clinical & Data**, so 332 are `live_eligible`. Segment **LS Medical Affairs**. Blitz `waterfall-icp-keyword`, 2026-11-05. Query: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-05-companies.csv`: **141 hiring companies**. Blitz `tam-by-jobs`, 2026-11-05.
+- `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-05-jobs.csv`: **438 open jobs**. Blitz `jobs/search`, 2026-11-05.
 
 ## History
 
+- **2026-11-05**: **New segment: LS Medical Affairs (`recruiter-open-role-ls-medical-affairs`). Blitz API, 338 leads.** The snapshot files are in commit `0b245b3`. Their README rows were added in the commit after it, because a script anchor missed.
+  - Widened keywords took the count from 423 to **438 jobs** at **141 companies** (73 Northeast).
+  - **TAM/SAM is small, so 3 per company.** Tier 1 is VP/Head/Director of Medical Affairs, Medical Information, Writing or Communications, plus the CMO. 123 companies returned someone.
+  - **Blitz records used: 917.**
+  - **Dedupe:** 0 in list `1056840`. **6 people are also in LS Clinical & Data** and are flagged `dupe_of`.
+  - Per-client CG session.
 - **2026-11-05**: **New segment: LS Regulatory & Quality (`recruiter-open-role-ls-regulatory-quality`). Blitz API, 999 leads.**
   - Widened keywords took the count from 921 to **1,286 jobs** at **523 companies** (168 Northeast).
   - **TAM/SAM is small to mid, so 3 per company** (Moe allowed 2–3). Why 3 is in the `.query.md`. 414 companies returned someone.
