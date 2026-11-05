@@ -85,9 +85,18 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-ls-clinical-data/2026-11-05-leads.csv`: **273 leads** (240 tier-1 hiring managers, 33 talent fallback) at 104 companies, keyed by `linkedin_url`. 0 in HeyReach list `1056840`, 0 dupes, 273 `live_eligible`. Segment **LS Clinical & Data**. Pulled 2026-11-05 via **Blitz API `POST /v2/search/waterfall-icp-keyword`**. Query: `2026-11-05-leads.query.md`.
 - `sourcing/recruiter-open-role-ls-clinical-data/2026-11-05-companies.csv`: **126 hiring companies**, with each company's most recent posting as `open_role`. Same segment, pulled 2026-11-05 via **Blitz `POST /v2/company/tam-by-jobs`**.
 - `sourcing/recruiter-open-role-ls-clinical-data/2026-11-05-jobs.csv`: **297 open jobs** (US, last 30 days). Same segment, pulled 2026-11-05 via **Blitz `POST /v2/jobs/search`**.
+- `sourcing/recruiter-open-role-ls-regulatory-quality/2026-11-05-leads.csv`: **999 leads** (942 tier 1, 57 fallback) at 414 companies, keyed by `linkedin_url`. 0 in list `1056840`. **12 flagged `dupe_of` LS Clinical & Data**, so 987 are `live_eligible`. Segment **LS Regulatory & Quality**. Blitz `waterfall-icp-keyword`, 2026-11-05. Query: `2026-11-05-leads.query.md`.
+- `sourcing/recruiter-open-role-ls-regulatory-quality/2026-11-05-companies.csv`: **523 hiring companies**. Blitz `tam-by-jobs`, 2026-11-05.
+- `sourcing/recruiter-open-role-ls-regulatory-quality/2026-11-05-jobs.csv`: **1,286 open jobs**. Blitz `jobs/search`, 2026-11-05.
 
 ## History
 
+- **2026-11-05**: **New segment: LS Regulatory & Quality (`recruiter-open-role-ls-regulatory-quality`). Blitz API, 999 leads.**
+  - Widened keywords took the count from 921 to **1,286 jobs** at **523 companies** (168 Northeast).
+  - **TAM/SAM is small to mid, so 3 per company** (Moe allowed 2–3). Why 3 is in the `.query.md`. 414 companies returned someone.
+  - **Blitz records used: 2,809.**
+  - **Dedupe:** 0 in list `1056840`. **12 people are also in LS Clinical & Data**; they are flagged `dupe_of` and `live_eligible=no` here, so they stay live only in Clinical & Data.
+  - Per-client CG session.
 - **2026-11-05**: **New segment: LS Clinical & Data (`recruiter-open-role-ls-clinical-data`), first of Moe's 4 open-role segments. Blitz API, 273 leads.**
   - Third CG session (hand-off from `session_013MzxQfNdrQFixGQbZkZLsH`). Resynced first: `get_client`, `list_sourcing_configs` and `list_icp_configs` match this README. `dncList` is still empty and the `Non_Connect` file is still not loaded.
   - **Source change from the brief above:** the sourcing goes through **Blitz only**: `jobs/search` → `tam-by-jobs` → `waterfall-icp-keyword`. ColdIQ/HarvestAPI was not used. That was Moe's instruction for this session.
