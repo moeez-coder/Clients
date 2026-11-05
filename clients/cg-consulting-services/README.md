@@ -15,13 +15,17 @@
 - **LinkedIn health flag:** `linkedinIsBelowRed: true`, but `linkedinRedThreshold` is **null**. The flag is set even though no threshold is configured and no outreach has run. Treat it as unexplained until someone confirms how it is computed. Sender check results are below.
 - **DNC:** `dncList` is empty and `dncSkipped: false`. **However, the ICP form has an uploaded do-not-contact file (`bf13fb07587e-Non_Connect`)** that was never loaded into tracking_clients. This must be resolved before any leads go live.
 - **Tracking client ID:** `4ca09bb2-25f9-4410-b269-9c8bcb816881`
-- **Last synced:** 2026-11-05 via `get_client` + `list_sourcing_configs` + `list_icp_configs` + `list_campaigns` (no drift from the record below; previous sync 2026-10-23)
+- **Last synced:** 2026-11-05 via `get_client` + `list_sourcing_configs` + `list_icp_configs` + `list_campaigns`; the open-role ICP configs and lead lists below were written by this session the same day (no drift from the record below; previous sync 2026-10-23)
 
 ## Sourcing configs
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
 | Security and Data Bench - Clay (firmographic + title search) | Security and Data Bench | Technology, Financial Services and Education | ready | 1 | 0 (lead_count 0; tracking_clients not yet updated, repo snapshot below) | `-` |
+| Recruiter Open Role LS Clinical & Data - Blitz (jobs + waterfall) | Recruiter | Open Role | LS Clinical & Data | Life Sciences | draft | 0 | 0 (repo snapshot below) | `-` |
+| Recruiter Open Role LS Regulatory & Quality - Blitz (jobs + waterfall) | Recruiter | Open Role | LS Regulatory & Quality | Life Sciences | draft | 0 | 0 (repo snapshot below) | `-` |
+| Recruiter Open Role LS Medical Affairs - Blitz (jobs + waterfall) | Recruiter | Open Role | LS Medical Affairs | Life Sciences | draft | 0 | 0 (repo snapshot below) | `-` |
+| Recruiter Open Role Tech Eng, Security & Data - Blitz (jobs + waterfall) | Recruiter | Open Role | Tech Eng, Security & Data | Technology, Financial Services, Healthcare, Retail, Education, Consulting | draft | 0 | 0 (repo snapshot below) | `-` |
 
 Config detail (tracking_clients):
 - Sourcing config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, module **Custom** (`dd10c77c-109c-42e0-bc9a-a34ee0844fad`, granularity `company`), refresh `static`, `platform_leads_enabled: true`, `distribution_enabled: false`, empty module_config, no Clay table, workbook or webhook.
@@ -36,6 +40,12 @@ Config detail (tracking_clients):
 
   The config drops 51-200, sets $20M+, has no Healthcare, Consulting or Life Sciences, and covers the whole US. That fits a technology-only first segment, but it is recorded here so nobody mistakes the config for the full ICP.
 - Repo folder when sourcing starts: `sourcing/security-and-data-bench/`.
+
+Open-role lead lists (created 2026-11-05 by the third CG session, Custom module, `static`, **`campaign_split: false`** by Moe's choice). Each sits on its own new ICP config, with one US segment of 51–5,000 employees and one persona of hiring managers plus the talent fallback:
+- **Recruiter Open Role LS Clinical & Data - Blitz (jobs + waterfall)** `992bac4f-c50a-4f2b-9b45-c266b9179b2e` on ICP `0ccd6264-95c4-4ab8-b993-7181c9a401fa` "Recruiter | Open Role | LS Clinical & Data", segment `3e5dbb37-b4df-4e73-afff-78ad765bc43e`, persona `064bc496-5000-4f67-88a8-1d82f11c1c03`. Repo `sourcing/recruiter-open-role-ls-clinical-data/`.
+- **Recruiter Open Role LS Regulatory & Quality - Blitz (jobs + waterfall)** `26c54bea-041c-49ea-ba08-fbca9dc2dc76` on ICP `167fae20-ae3b-4327-8550-fe29403e7ea8` "Recruiter | Open Role | LS Regulatory & Quality", segment `63a22b23-5db6-4f97-9571-ca4b251bfaa6`, persona `08b14309-f0c6-4a90-8c40-2cf6e2bce08a`. Repo `sourcing/recruiter-open-role-ls-regulatory-quality/`.
+- **Recruiter Open Role LS Medical Affairs - Blitz (jobs + waterfall)** `a53e5de4-2b64-4f0d-9805-f507d8650130` on ICP `a2fa171a-e858-4552-887f-d8c4183c96cb` "Recruiter | Open Role | LS Medical Affairs", segment `9a13378b-13c6-4f08-81c8-cc66be3d63e1`, persona `e5f0b1cf-cf18-4dd5-bbf1-c6ea1678f270`. Repo `sourcing/recruiter-open-role-ls-medical-affairs/`.
+- **Recruiter Open Role Tech Eng, Security & Data - Blitz (jobs + waterfall)** `a28b5183-8b8d-487d-a198-f3086d62915b` on ICP `bf606c11-7809-4379-b546-69b2ad87a97a` "Recruiter | Open Role | Tech Eng, Security & Data", segment `cd7a2b49-2f6a-4010-82b8-0036cf295468`, persona `eb3be27d-df7b-4cff-8bbb-48f12e63ca37`. Repo `sourcing/recruiter-open-role-tech-eng-security-data/`.
 
 ## Campaigns (tracking_clients)
 
@@ -93,7 +103,7 @@ Each segment has its own workbook (per Moe: one workbook per campaign, holding t
 
 ### Open-role segments (Moe's recruiter brief, 2026-11-05)
 
-Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_open_roles.py` (Blitz pull) and `sourcing/build_open_roles.py` (CSVs and dedupe). Each segment will get its own tracking_clients lead list. **Those lists don't exist yet**: they wait on Moe's `campaign_split` answer, and their UUIDs are added here once created. Until then each file is tied to its segment slug and to client `4ca09bb2-25f9-4410-b269-9c8bcb816881`. Nothing is in HeyReach.
+Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_open_roles.py` (Blitz pull) and `sourcing/build_open_roles.py` (CSVs and dedupe). Each segment's files belong to its tracking_clients lead list: LS Clinical & Data `992bac4f-c50a-4f2b-9b45-c266b9179b2e`, LS Regulatory & Quality `26c54bea-041c-49ea-ba08-fbca9dc2dc76`, LS Medical Affairs `a53e5de4-2b64-4f0d-9805-f507d8650130`, Tech Eng, Security & Data `a28b5183-8b8d-487d-a198-f3086d62915b`. These were created after the pull; see Sourcing configs. Nothing is in HeyReach.
 
 - `sourcing/recruiter-open-role-ls-clinical-data/2026-11-05-leads.csv`: **273 leads** (240 tier-1 hiring managers, 33 talent fallback) at 104 companies, keyed by `linkedin_url`. 0 in HeyReach list `1056840`, 0 dupes, 273 `live_eligible`. Segment **LS Clinical & Data**. Pulled 2026-11-05 via **Blitz API `POST /v2/search/waterfall-icp-keyword`**. Query: `2026-11-05-leads.query.md`.
 - `sourcing/recruiter-open-role-ls-clinical-data/2026-11-05-companies.csv`: **126 hiring companies**, with each company's most recent posting as `open_role`. Same segment, pulled 2026-11-05 via **Blitz `POST /v2/company/tam-by-jobs`**.
@@ -110,6 +120,12 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-05**: **tracking_clients: 4 ICP configs and 4 lead lists created for the open-role segments.** Moe chose **`campaign_split: false`**, which can't be changed later.
+  - One ICP config per role family (US, 51–5,000 employees, hiring-manager persona plus talent fallback, live-open-role custom signal). One `static` Custom lead list on each.
+  - The UUIDs are in Sourcing configs above and in each `.query.md`.
+  - Each GTM Sheets **Leads** table is labelled with its lead list (`gtm_sheet_update_table`). That is a label only: **no `route_lead_list`, nothing ingested, nothing pushed to HeyReach.**
+  - The lists are in `draft` with 0 leads.
+  - Per-client CG session.
 - **2026-11-05**: **GTM Sheets: one workbook per open-role segment in Clients/CG, each with Leads, Companies and Open Jobs tables** (Moe, mid-session: "each campaign will have its own workbook… include open jobs and companies… to clearly visualize whatever is being done").
   - All 12 tables were imported from the committed CSVs by URL (commit `e7f347d`), and the row counts were verified.
   - The workbook and table ids are in the GTM Sheets table above.
