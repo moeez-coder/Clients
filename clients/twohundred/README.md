@@ -75,11 +75,31 @@ The ICP form (2026-11-04) is the client's own answer. The brief was written with
 | Proof | Workday, Ivalua | 80+ events a year, 1,500+ executives; Oracle, Palo Alto Networks, SAP, Workday, Wonderful, Wiz, Zscaler | **Fills the gap** (also the likely DNC) |
 | Exclusions | `[MISSING]` | DNC xlsx uploaded, but not in `dncList` | **Gap still open.** See DNC above. |
 
+## Campaign docs
+
+| Doc | tracking_clients doc id | Status | Shared with client | Repo copy |
+|---|---|---|---|---|
+| twoHundred Campaign Ideas | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | draft | no | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
+
 ## Sourced data in this repo
 
 - `-`: no snapshots yet.
 
 ## History
+
+- **2026-11-06**: Campaign doc "twoHundred Campaign Ideas" uploaded to the dashboard (`create_campaign_doc`, doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51`). It is a draft and not shared with the client. The repo copy is `campaigns/2026-11-06-campaign-ideas.md`.
+  - **Why:** Moe asked for a campaigns doc "like we have created before". It follows the format of the GigWorx and GRN Piedmont "Campaign Ideas" docs: shared section, then ICP / Persona / Lead list / Messaging per campaign, a yes-reply and Before launch.
+  - **The 7 campaigns:**
+    1. CPO and CSCO Table (supply chain/procurement vendors, the dream list)
+    2. Beyond the Expo Hall (Nordic/NL event sponsors)
+    3. New in the Seat (new regional leaders)
+    4. Building the Nordic Team (hiring Nordic commercial leadership)
+    5. CISO Room
+    6. Nordic CIO Pulse (research hook)
+    7. Finance and People Leaders (CFO/CHRO)
+  - **Contacts per company:** follows segment size inversely. Narrow segments get 4–5 contacts per company, wide segments 2–3. The segment sizes are estimates; no sourcing has run.
+  - **Open points (in the doc's Before launch):** DNC still not loaded, the partner-exclusion decision, permission to name partners in messages, a shareable CIO Pulse, senders and the booking link.
+  - **Nothing created** in tracking_clients configs/campaigns or HeyReach.
 
 - **2026-11-06**: Folder created from `clients/_TEMPLATE/README.md`. Profile synced from tracking_clients (`get_client`, `list_sourcing_configs`, `list_icp_configs`, `list_campaigns`: all empty), and context saved to `context/`.
   - **Why:** this is the first per-client session for twoHundred. It follows the orchestrator's hand-off and Moe's "this session is for twoHundred".
