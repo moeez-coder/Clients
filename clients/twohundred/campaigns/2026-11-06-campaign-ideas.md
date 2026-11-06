@@ -1,8 +1,8 @@
 # twoHundred Campaign Ideas
 
-Invitation-only executive communities and events for C-level leaders from the 200 largest enterprises in Denmark, Sweden, Norway, Finland and the Netherlands. These campaigns go to the technology vendors who partner with twoHundred, not to the executives who attend. There are seven signal-led LinkedIn campaigns, each built around one of twoHundred's executive communities or a clear buying signal. Every campaign offers something concrete before any commitment: a free, tailored 2027 executive engagement plan showing which forums and roundtables match the prospect's target buyers, markets and accounts. The CIO campaign also offers the Nordic CIO Pulse 2026 findings.
+Invitation-only executive communities and events for C-level leaders from the 200 largest enterprises in Denmark, Sweden, Norway, Finland and the Netherlands. These campaigns go to the technology vendors who partner with twoHundred, not to the executives who attend. There are ten signal-led LinkedIn campaigns. Campaigns 1 to 7 are each built around one of twoHundred's executive communities or a clear buying signal. Campaigns 8 to 10 are open-role campaigns: they start from a commercial role the vendor is hiring for in the Nordics or the Netherlands. They offer a ready-made executive programme that fits that hire, the way a recruiter offers a candidate who fits an open role. Every campaign offers something concrete before any commitment: a free, tailored 2027 executive engagement plan showing which forums and roundtables match the prospect's target buyers, markets and accounts. The CIO campaign also offers the Nordic CIO Pulse 2026 findings.
 
-## Shared across all seven
+## Shared across all ten
 
 Market: technology vendors and consultancies that sell to large enterprises in Denmark, Sweden, Norway, Finland and the Netherlands. A vendor can be headquartered anywhere, and most will be US or European HQ. The contact must be located in one of those five countries, or hold an EMEA, Northern Europe, Nordic or Benelux role that covers them.
 Segment: Technology and Consulting companies with 501 or more employees and over $20M annual revenue
@@ -17,7 +17,8 @@ Exclusions:
 - The large enterprises whose executives are twoHundred members. They are the audience, not the buyers.
 - Contacts already in another live twoHundred sequence. One person is in one campaign only, and suppression is refreshed right before launch.
 Language and tone: English. Friendly, consultative and plain, as the client asked. We never sound like a sponsorship sales pitch. We never promise leads, meetings or pipeline numbers. We talk about conversations and relationships. "We" for twoHundred and its communities, "I" for the ask.
-Channel: LinkedIn. Connection request with no note, then Message 1 on acceptance, Message 2 on day 4, Message 3 on day 9.
+Channel: LinkedIn. Campaigns 1 to 7 send the connection request with no note. Campaigns 8 to 10 send a short note that names the open role. Message 1 goes on acceptance, Message 2 on day 4, Message 3 on day 9.
+One campaign per company: a company that qualifies for an open-role campaign (8 to 10) goes there first, because that is the strongest current-need signal. The next priorities are Campaign 2 (event sponsor), 3 (new in the seat) and 4 (entering the market), and finally the community campaigns (1, 5, 6, 7).
 
 ## Campaign 1: The CPO and CSCO Table
 
@@ -114,37 +115,37 @@ CTA variants to test in Message 1:
 - Which accounts are top of your list for the first year? (question only, no offer)
 - Worth a 20-minute call to compare notes?
 
-## Campaign 4: Building the Nordic Team
+## Campaign 4: Entering the Nordics
 
 ### ICP
 
 Market: as shared
-Segment: vendors in the shared segment that are currently hiring commercial leadership for the Nordics or the Netherlands. A new market team needs C-level access before its relationships exist.
-Angle: hiring a Country Manager, Field Marketing Director or Nordic Sales Director signals expansion into, or more investment in, the market. twoHundred gives that new team access to C-level relationships from day one.
+Segment: vendors in the shared segment with visible signs of entering or expanding in Denmark, Sweden, Norway, Finland or the Netherlands in the last 9 months: a new office or local entity, a newly announced country lead, a new Nordic reseller or partner agreement, or first named Nordic or Dutch enterprise customers. Job postings are not used here; they go to Campaigns 8 to 10.
+Angle: a vendor new to a market usually spends a year building relationships before the big enterprises will take a meeting. twoHundred gives it access to C-level relationships from day one.
 
 ### Persona
 
-The hiring leader above the open seat, not the seat itself: VP of EMEA Sales, Regional VP of Sales, EMEA Marketing Director, VP of Marketing, Chief Marketing Officer, Chief Revenue Officer. 2 or 3 contacts per company.
+VP of EMEA Sales, Regional VP of Sales, EMEA Marketing Director, Chief Marketing Officer, Chief Revenue Officer, and the Country Manager if one is already in place. 2 or 3 contacts per company.
 
 ### Lead list
 
-Custom qualifiers: Claygent checks the company's careers page and LinkedIn jobs for an open role posted in the last 60 days for Country Manager, Managing Director, General Manager, Field Marketing, Regional Marketing, Partner Marketing, Sales Director or Head of Sales. The role must be located in, or cover, one of the five countries. Exclude individual-contributor roles (account executive, SDR, marketing specialist) and agency postings.
-Signal (Claygent-verified, gates inclusion): one qualifying open role. Claygent returns {role_title}, {city} and the posting URL.
-Lead magnet: a free 2027 engagement plan for the new team's first year.
+Custom qualifiers: Claygent checks press releases, news, the company's own site and LinkedIn posts for one of the expansion events above in the last 9 months.
+Signal (Claygent-verified, gates inclusion): one qualifying event with a source URL. Claygent returns {expansion_short}, a plain 3 to 8 word phrase such as "opening an office in Stockholm", and {country}.
+Lead magnet: a free 2027 engagement plan for their first year in the market.
 
 ### Messaging
 
-Message 1: Hi {first_name}, noticed {company} is hiring a {role_title} in {city}.
-A new team in a market takes time to build relationships at the large enterprises. We can shorten that part: twoHundred runs invitation-only communities of CIOs, CISOs, CFOs, CHROs and CPOs from the 200 largest companies in each Nordic country and the Netherlands.
-Worth a 20-minute call on how partners use that in their first year in the market?
+Message 1: Hi {first_name}, saw {company} is {expansion_short}.
+A new market usually means a long stretch of building relationships before the big enterprises take a meeting. We can shorten that part: twoHundred runs invitation-only communities of CIOs, CISOs, CFOs, CHROs and CPOs from the 200 largest companies in each Nordic country and the Netherlands.
+Worth a 20-minute call on how partners use that in their first year in {country}?
 Message 2: For context, {first_name}.
 We run 80+ executive events a year, and partners like Oracle, SAP, Workday and Palo Alto Networks have used them to meet senior decision-makers face to face. We handle the executive invitations, agenda and delivery, so a new local team doesn't have to.
-Happy to share a free 2027 engagement plan for the new team.
+Happy to share a free 2027 engagement plan for {country}.
 Message 3: I'll leave it here, {first_name}.
-Once the {role_title} is in place, happy to help them hit the ground running.
+As {company} gets established in {country}, happy to help open doors.
 CTA variants to test in Message 1:
-- How are you planning to open doors at the big Nordic accounts while the team builds? (question only, no offer)
-- Would a free 2027 engagement plan for the new team be useful?
+- How are you planning to open doors at the big accounts in {country}? (question only, no offer)
+- Would a free 2027 engagement plan for {country} be useful?
 
 ## Campaign 5: The CISO Room
 
@@ -224,7 +225,7 @@ Field or Regional Marketing Director, Country Manager, Nordic or Regional Sales 
 ### Lead list
 
 Custom qualifiers: Claygent confirms from the website that the company's core product is finance or HR software, and returns {community} as "CFO" or "CHRO". It must also show a presence in, or customers in, at least one of the five countries. Exclude Workday, SAP, Oracle and any other current or past partners on the Do-Not-Contact list.
-Signal (Claygent-verified, optional, sets the message variant): a Nordic or Dutch event sponsorship (as in Campaign 2) or Nordic hiring (as in Campaign 4).
+Signal (Claygent-verified, optional, sets the message variant): a Nordic or Dutch event sponsorship (as in Campaign 2) or market expansion (as in Campaign 4).
 Lead magnet: a free 2027 engagement plan for twoHundred's {community} forums and roundtables.
 
 ### Messaging
@@ -241,21 +242,134 @@ CTA variants to test in Message 1:
 - How do you get time with Nordic {community}s today? (question only, no offer)
 - Would a free 2027 engagement plan be useful?
 
+## Open-role campaigns (8 to 10): shared rules
+
+Source: open postings from the last 60 days on the company's careers page and LinkedIn jobs (Blitz job search plus Clay), for roles located in Denmark, Sweden, Norway, Finland or the Netherlands, or covering the Nordics, Benelux or EMEA. Exclude agency postings and roles at companies outside the shared segment.
+Who we contact: the hiring manager the role reports to, not the open seat. The client's instruction to avoid individual contributors applies to who we contact, not to the posting. An open Field Marketing Manager role is a valid signal, and we write to the Head of Field Marketing or EMEA Marketing Director above it. 1 or 2 contacts per company: the likely hiring manager, plus one level above.
+Claygent returns, per posting: {open_role} (cleaned title, for example "Field Marketing Manager, Nordics"), {open_role_with_article} ("a Field Marketing Manager"), {jd}, {city}, {country} and the posting URL. {jd} is a plain 4 to 10 word phrase from the job description saying what the hire must deliver, starting with a verb, for example "build pipeline with enterprise accounts in Sweden".
+One open-role campaign per company: if a company is hiring across several role families, the most senior role decides the campaign (Campaign 9 first, then 8, then 10).
+What we offer: the open-role format offers one specific, ready-made thing that fits the open seat, just as a recruiter offers a candidate who fits an open role. Here it is a ready-made twoHundred executive programme for that hire. The programme lists which forums and roundtables, in which countries, put them in a room with the C-level buyers they will be measured on. It is sent as a one-pager when they say yes.
+Fallbacks: when Claygent can't return a clean {open_role} or {jd}, the fallback versions below are used.
+
+## Campaign 8: Open Roles, Field and Event Marketing
+
+### ICP
+
+Market: as shared
+Segment: vendors in the shared segment hiring for field marketing, event marketing or regional marketing in the Nordics, Benelux or EMEA. Qualifying postings: Field Marketing Manager or Director, Event Marketing Manager, Executive Events Manager, Regional, Nordic or Benelux Marketing Manager, Country Marketing Manager.
+Angle: a new field marketer is measured on getting the company in front of senior buyers, and usually spends the first months finding the right rooms. twoHundred has those rooms ready.
+
+### Persona
+
+The hiring manager: Head or Director of Field Marketing, EMEA Marketing Director, VP of Marketing, Chief Marketing Officer.
+
+### Lead list
+
+Custom qualifiers: as in the open-role shared rules, limited to the field, event and regional marketing postings above.
+Signal (gates inclusion): one qualifying posting in the last 60 days.
+Lead magnet: a ready-made 2027 executive events programme for that seat.
+
+### Messaging
+
+Connection request: Hi {first_name}, saw the {open_role} opening at {company}. Figured it was worth connecting given we run C-level events across the Nordics.
+Message 1: Thanks for connecting, {first_name}. Saw {company} has {open_role_with_article} role listed, and it looks like the hire will need to {jd}.
+Whether that one's fresh or has been open a while, we have something that fits it closely: a ready-made 2027 programme of twoHundred roundtables and forums with CIOs, CFOs and other C-level leaders from the 200 largest companies in each Nordic country and the Netherlands.
+Want us to send it over so you can take a look?
+Message 2: Following up so this doesn't get buried, {first_name}.
+Our roundtables seat 7 to 12 C-level executives, and we handle the invitations, agenda and delivery. That way, whoever takes the {open_role} seat has executive events running from their first quarter.
+Worth a look, even just to compare with what's already planned?
+Message 3: No worries if the timing's off, {first_name}. Roles like this sometimes get filled quietly or sit open for a while.
+If it's useful, we'll send the programme over and you can skim it whenever. If not, no hard feelings and we'll leave it there.
+Fallback connection request: Hi {first_name}, saw your team is hiring for field marketing in the Nordics. Figured it was worth connecting given we run C-level events there.
+Fallback Message 1: Thanks for connecting, {first_name}. Saw your team is hiring for field marketing in the region.
+Whether that's fresh or has been open a while, we have something that fits closely: a ready-made 2027 programme of twoHundred roundtables and forums with C-level leaders from the largest Nordic and Dutch companies.
+Want us to send it over so you can take a look?
+
+## Campaign 9: Open Roles, Country and Sales Leadership
+
+### ICP
+
+Market: as shared
+Segment: vendors in the shared segment hiring for commercial leadership in a specific country or the region. Qualifying postings: Country Manager, Managing Director or General Manager for a Nordic country or the Netherlands, Nordic or Regional Sales Director, Head of Sales Nordics or Benelux, Enterprise or Strategic Account Director covering the largest local accounts.
+Angle: the hardest part of a new country seat is getting the first meeting at the big accounts. twoHundred's communities are made of exactly those accounts' C-level leaders.
+
+### Persona
+
+The hiring manager: VP of EMEA Sales, Regional VP of Sales, Chief Revenue Officer, SVP International. When the open role is a Sales or Account Director, the Country Manager is the hiring manager.
+
+### Lead list
+
+Custom qualifiers: as in the open-role shared rules, limited to the country and sales leadership postings above.
+Signal (gates inclusion): one qualifying posting in the last 60 days.
+Lead magnet: a ready-made first-90-days executive plan for that hire in {country}.
+
+### Messaging
+
+Connection request: Hi {first_name}, saw the {open_role} opening at {company}. Figured it was worth connecting given we work with C-level leaders across the Nordics.
+Message 1: Thanks for connecting, {first_name}. Saw {company} is hiring {open_role_with_article}, and it looks like the hire will need to {jd}.
+Whether that's a fresh one or has been open a while, we have something that fits it closely: a first-90-days plan for the seat. It shows which twoHundred forums and roundtables put the new hire in a room with C-level leaders from the largest companies in {country}.
+Want us to send it over?
+Message 2: Following up so this doesn't get buried, {first_name}.
+Our communities bring together CIOs, CISOs, CFOs, CHROs and CPOs from the 200 largest companies in each Nordic country and the Netherlands. Partners like Oracle, SAP and Workday have used them to open those doors.
+Worth a look alongside the hiring plan?
+Message 3: No worries if the timing's off, {first_name}. Leadership roles like this often take a while to fill.
+If it's useful, we'll send the plan over and you can skim it whenever. If not, no hard feelings and we'll leave it there.
+Fallback connection request: Hi {first_name}, saw your team is hiring commercial leadership in the Nordics. Figured it was worth connecting given we work with C-level leaders there.
+Fallback Message 1: Thanks for connecting, {first_name}. Saw your team is hiring commercial leadership in the region.
+Whether that's fresh or has been open a while, we have something that fits closely: a first-90-days plan showing which twoHundred forums and roundtables put a new leader in front of C-level executives at the largest local companies.
+Want us to send it over?
+
+## Campaign 10: Open Roles, ABM, Demand and Partner Marketing
+
+### ICP
+
+Market: as shared
+Segment: vendors in the shared segment hiring for account-based, demand or partner marketing that covers the Nordics, Benelux or EMEA. Qualifying postings: ABM Manager or Director, Demand Generation Manager or Director, Partner or Alliance Marketing Manager, Enterprise Marketing Manager, Integrated Campaigns Manager.
+Angle: ABM in the Nordics is hard because the top accounts are few and their executives rarely take cold meetings. A twoHundred roundtable can be built around the accounts on the new hire's list.
+
+### Persona
+
+The hiring manager: Head or Director of Demand Generation, Head of ABM, Head of Partner Marketing, EMEA Marketing Director, VP of Marketing, Chief Marketing Officer.
+
+### Lead list
+
+Custom qualifiers: as in the open-role shared rules, limited to the ABM, demand and partner marketing postings above.
+Signal (gates inclusion): one qualifying posting in the last 60 days.
+Lead magnet: a ready-made target-account roundtable plan: 7 to 12 C-level executives from the largest Nordic and Dutch companies, chosen to match their account list.
+
+### Messaging
+
+Connection request: Hi {first_name}, saw the {open_role} opening at {company}. Figured it was worth connecting given we run C-level roundtables for ABM programmes in the Nordics.
+Message 1: Thanks for connecting, {first_name}. Saw {company} has {open_role_with_article} role listed, and it looks like the hire will need to {jd}.
+Whether that one's fresh or has been open a while, we have something that fits it closely: a target-account roundtable plan, with 7 to 12 C-level executives from the largest Nordic and Dutch companies, chosen to match your account list.
+Want us to send it over so you can take a look?
+Message 2: Following up so this doesn't get buried, {first_name}.
+Our roundtables are invitation-only and sales-free, which is why the executives come. That's also why partners get real conversations with the accounts on their list, not badge scans.
+Worth a look, even just to compare with the current ABM plan?
+Message 3: No worries if the timing's off, {first_name}. Roles like this sometimes get filled quietly or sit open for a while.
+If it's useful, we'll send the plan over and you can skim it whenever. If not, no hard feelings and we'll leave it there.
+Fallback connection request: Hi {first_name}, saw your team is hiring for ABM and demand marketing. Figured it was worth connecting given we run C-level roundtables in the Nordics.
+Fallback Message 1: Thanks for connecting, {first_name}. Saw your team is hiring for ABM and demand marketing in the region.
+Whether that's fresh or has been open a while, we have something that fits closely: a target-account roundtable plan, with 7 to 12 C-level executives from the largest Nordic and Dutch companies, chosen to match your account list.
+Want us to send it over so you can take a look?
+
 ## When a prospect says yes
 
 Great, thanks {first_name}. To make the engagement plan useful, we'd like 20 minutes on your target buyers, accounts and markets for 2027. Here's a link if that suits: {booking_link}
 For the CIO Pulse: Great, here are the key findings: {pulse_link}. Happy to walk through what they mean for {company} in a 20-minute call: {booking_link}
+For the open-role campaigns: Great, here it is: {programme_link}. The best version is built around the hire's actual target accounts, so a 20-minute call to tailor it is worth it: {booking_link}
 
 ## Before launch
 
 - Do-Not-Contact list must be loaded. The file "Do_Not_Contact_twoHundred_enriched.xlsx" was uploaded on the onboarding form, but it is not yet in the system. Nothing launches until it is loaded.
 - Existing partners: should current and past partners (Oracle, Palo Alto Networks, SAP, Workday, Wonderful, Wiz, Zscaler, Ivalua) be excluded completely? Or should some be approached about communities they are not yet part of? Until twoHundred decides, they are excluded.
-- Partner names in messages: Campaigns 2, 4, 5 and 7 name past partners, taken from the onboarding form. Please confirm all of them can be named publicly in outreach.
+- Open-role one-pagers: Campaigns 8 to 10 promise something ready to send on a yes: a 2027 executive events programme (8), a first-90-days plan per country (9) and a target-account roundtable plan (10). These need to exist as one-pagers before launch, ideally with the 2027 event calendar by country and community. We can draft them from the calendar for twoHundred to approve.
+- Partner names in messages: Campaigns 2, 4, 5, 7 and 9 name past partners, taken from the onboarding form. Please confirm all of them can be named publicly in outreach.
 - Nordic CIO Pulse 2026: Campaign 6 offers the findings. We need a shareable version (PDF or link) and confirmation that it can go to vendors. If it can't, Campaign 6 uses the engagement plan offer instead.
 - Free engagement plan: every campaign offers a tailored 2027 executive engagement plan. Please confirm who prepares it and how quickly it can be sent after a yes.
 - Senders: no LinkedIn sending accounts are set up yet. We need to confirm whose profiles send (for example a Community Director or partnerships lead at twoHundred), and the copy will be adjusted to their voice.
 - Claims: messages stay within the onboarding form: 80+ executive events a year, 1,500+ executive decision-makers, roundtables of 7 to 12 and forums of 20 to 50 executives, communities for CIO, CISO, CFO, CHRO and CSCO/CPO, and the named partners above. No pricing, sponsorship packages, lead or meeting guarantees, or attendee names in the messages.
 - Consulting: the onboarding form also lists Consulting. Consultancies are included in Campaigns 2, 3, 4 and 6 where they sell to enterprise IT. A separate consulting campaign can be added if twoHundred wants one.
-- Launch order: Campaign 1 first, because it matches the dream accounts most closely, together with Campaign 2 (strongest buying signal). Then Campaigns 5 and 6, then 3, 4 and 7. Each one runs after the previous one has had time to show reply data.
+- Launch order: Campaign 1 first, because it matches the dream accounts most closely, together with Campaign 9, the strongest current-need signal. Then Campaigns 8 and 10, then 2, 5 and 6, then 3, 4 and 7. Each one runs after the previous one has had time to show reply data.
 - Volume: the target is 40 qualified meetings this quarter. Segment sizes are estimates until the lead lists are pulled. Narrow segments get more contacts per company and wide segments fewer, as set out above.
 - Lead handling: interested replies go to twoHundred through the agreed Slack channel and booking link (still to be set up).

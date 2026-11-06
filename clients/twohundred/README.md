@@ -79,13 +79,29 @@ The ICP form (2026-11-04) is the client's own answer. The brief was written with
 
 | Doc | tracking_clients doc id | Status | Shared with client | Repo copy |
 |---|---|---|---|---|
-| twoHundred Campaign Ideas | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | draft | no | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
+| twoHundred Campaign Ideas (10 campaigns) | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | draft | no | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
+
+A separate dashboard-created doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 2026", created 11:18 via internal-dashboard) is an empty template: one "Campaign 1" heading with blank ICP, Persona, Lead list and Messaging. It is **shared with the client in `client_review` status**. It was not created by this session and has been left untouched. Flagged to Moe.
 
 ## Sourced data in this repo
 
 - `-`: no snapshots yet.
 
 ## History
+
+- **2026-11-06**: Campaign doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` expanded from 7 to 10 campaigns (`update_campaign_doc` replace_markdown). The doc had no comments or suggestions to lose, and the dashboard copy matched the repo before the replace. It is still a draft and not shared.
+  - **Why:** Moe asked for 3 open-role campaigns in the MPC format: the open posting is the hook, the connection note names the role, and Message 1 offers one ready-made thing that fits the seat. This mirrors Elite Technical's "we have a candidate who fits that pretty closely" copy, `clients/elite-technical/campaigns/2026-11-05-recruiter-open-role-copy.json`.
+  - **What fills the "candidate" slot:** twoHundred has no candidates to place, so the slot becomes a ready-made executive programme for the hire:
+    - Campaign 8: an events programme
+    - Campaign 9: a first-90-days plan for the country
+    - Campaign 10: a target-account roundtable plan
+  - **The three new campaigns** are all sent to the hiring manager above the open seat, never the seat itself:
+    - **8. Open Roles, Field and Event Marketing**
+    - **9. Open Roles, Country and Sales Leadership**
+    - **10. Open Roles, ABM, Demand and Partner Marketing**
+  - **Campaign 4 changed** from "Building the Nordic Team" (hiring signal) to "Entering the Nordics" (office, entity or partner news). Otherwise it would compete with 8–10 for the same companies.
+  - **New rules:** a one-campaign-per-company priority order (open roles first), with fallback copy for empty `{open_role}` and `{jd}`.
+  - **Before launch:** the three one-pagers must exist before 8–10 can launch.
 
 - **2026-11-06**: Campaign doc "twoHundred Campaign Ideas" uploaded to the dashboard (`create_campaign_doc`, doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51`). It is a draft and not shared with the client. The repo copy is `campaigns/2026-11-06-campaign-ideas.md`.
   - **Why:** Moe asked for a campaigns doc "like we have created before". It follows the format of the GigWorx and GRN Piedmont "Campaign Ideas" docs: shared section, then ICP / Persona / Lead list / Messaging per campaign, a yes-reply and Before launch.
