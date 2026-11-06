@@ -60,6 +60,13 @@ Session ID `84fdb583-6cb5-4920-99c7-3004d79e8aca`.
 
 ## History
 
+- **2026-11-06** — Resolved the client's 4 comments on campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` and sent it back (`send_campaign_doc_to_client`, Slack notice to `C0CDR13H0MV`). Each edit went in as a tracked suggestion, then all 32 were accepted, and every comment thread has a reply.
+  - **Hospitality and food & beverage added:** both are now in the shared segment, and Campaign 6 changed from Construction and Event Crews to **Hospitality, Food and Event Crews**. Construction is out unless Mathew asks for it.
+  - **Housekeeping Manager added** to the primary persona (General Manager was already there). Food and Beverage, Kitchen and Banquet Managers were added to the secondary persona.
+  - **W-2 workers** are now named in the connection request, which also mentions hotels.
+  - **Comped shift confirmed** as one worker for one shift.
+  - `campaign-ideas.md` updated to match. Session: branch `claude/stoic-hawking-utkftq`.
+
 - **2026-11-05** — At the repo owner's request, sent campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` (all six campaigns) to the client with `send_campaign_doc_to_client`. Status is now `client_review` and the doc is visible in the client portal. The Slack notification went to the client's channel (`C0CDR13H0MV`) with a short note: pick the campaigns on the pre-launch call, and the notes at the end list what to confirm. Session: branch `claude/stoic-hawking-utkftq`.
 
 - **2026-11-05** — Wrote `campaign-ideas.md` in the layout of the Nextwo RaaS campaign-ideas doc the repo owner supplied as the model. It has six signal-led campaigns: Hourly Roles That Won't Close, Peak Season Crews, RV Corridor Ramps, Try Before You Hire, Owner on the Floor, and Construction and Event Crews (the last one only if Mathew confirms "Other").

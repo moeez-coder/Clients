@@ -1,16 +1,16 @@
 # GigWorx Campaign Ideas
 
-On-demand shift staffing in Michiana only. Six signal-led LinkedIn campaigns sent from Mathew's own profile. All six are options; which ones run is decided on the pre-launch call. Each one offers something concrete tied to the prospect's own open shifts: their first shift with GigWorx, comped. That way they can judge the workers before any commitment.
+On-demand shift staffing in Michiana only. Six signal-led LinkedIn campaigns sent from Mathew's own profile. All six are options; which ones run is decided on the pre-launch call. Each one offers something concrete tied to the prospect's own open shifts: their first shift with GigWorx, comped (one worker for one shift). That way they can judge the workers before any commitment.
 
 ## Shared across all six
 
 **Market:** Saint Joseph County and Elkhart County, Indiana (South Bend, Mishawaka, Granger, Elkhart, Goshen, Nappanee, Middlebury, Bristol and surrounding towns). Location is matched on where the person works, not where the company is headquartered. Most of the largest local hourly employers are headquartered out of state.
 
-**Segment:** Manufacturing plants (including RV and RV-supplier plants), warehouses and distribution centres, and retail operations with 11 or more employees at a Michiana site, that staff hourly, shift-based roles
+**Segment:** Manufacturing plants (including RV and RV-supplier plants), warehouses and distribution centres, retail operations, hospitality (hotels, restaurants, event venues and caterers) and food and beverage operations with 11 or more employees at a Michiana site, that staff hourly, shift-based roles
 
-**Persona, primary:** Plant Manager, Operations Manager, Production Manager, Warehouse Manager, General Manager, Owner, President
+**Persona, primary:** Plant Manager, Operations Manager, Production Manager, Warehouse Manager, General Manager, Housekeeping Manager, Owner, President
 
-**Persona, secondary:** Production Supervisor, Shift Supervisor, Distribution Center Manager, Store Manager (large-format stores only), HR Manager, HR Business Partner, HR Director
+**Persona, secondary:** Production Supervisor, Shift Supervisor, Distribution Center Manager, Store Manager (large-format stores only), Food and Beverage Manager, Kitchen Manager, Banquet Manager, HR Manager, HR Business Partner, HR Director
 
 **Exclusions:**
 
@@ -20,7 +20,7 @@ On-demand shift staffing in Michiana only. Six signal-led LinkedIn campaigns sen
 - Any site outside Saint Joseph and Elkhart County
 - Current GigWorx clients, open deals and previous opt-outs, from HubSpot (the DNC list is empty today). Contacts already in another live sequence. One person is in one campaign only. Suppression is refreshed right before launch.
 
-**Connection request (all six):** Hi {first_name}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses and stores with vetted workers. Would be good to connect.
+**Connection request (all six):** Hi {first_name}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect.
 
 **Language:** English. Plain, short, owner to owner, in Mathew's voice. No corporate staffing language.
 
@@ -182,21 +182,21 @@ If you're short-handed on a busy week, reply "shift" and the first one's on us.
 - Who covers when your crew is short? (question only, no offer)
 - Would a free shift on your next busy week help?
 
-## Campaign 6: Construction and Event Crews
+## Campaign 6: Hospitality, Food and Event Crews
 
-**Custom Qualifiers:** General contractors, specialty trade contractors, restoration and cleaning companies, event venues, caterers and event producers with 11 or more employees at a Michiana site. Claygent checks for either general labour, helper, event staff, setup or banquet postings in the last 60 days, or a project start, contract award or large event announced in the last 3 months. Exclude staffing agencies and any role needing a trade licence. This campaign only runs if Mathew confirms construction and events sit under "Other" on the onboarding form. That would add about 550 local companies.
+**Custom Qualifiers:** Hotels, restaurants, caterers, event venues, event producers and food and beverage operations with 11 or more employees at a Michiana site. Claygent checks for housekeeping, banquet, server, dishwasher, prep cook, event staff or setup postings in the last 60 days, or a new opening, large event or busy season announced in the last 3 months. Exclude staffing agencies. Construction stays out unless Mathew wants it added.
 
-**Persona:** Owner, President, General Manager, Operations Manager, Project Manager, Superintendent, Event Manager, Banquet Manager.
+**Persona:** General Manager, Housekeeping Manager, Food and Beverage Manager, Kitchen Manager, Banquet Manager, Event Manager, Operations Manager, Owner.
 
-**Signal (Claygent-verified, gates inclusion):** a labour or event-staff posting, or a new project or event, at a Michiana site. Claygent returns {role_title} or {project_note}, {city} and the source URL.
+**Signal (Claygent-verified, gates inclusion):** a hospitality, food service or event-staff posting, or a new opening or large event, at a Michiana site. Claygent returns {role_title} or {event_note}, {city} and the source URL.
 
-**Angle:** Projects and events need extra hands for days, not months. Hiring for a short job, or begging an agency for a same-week crew, costs more than the work.
+**Angle:** Hotels, kitchens and events need extra hands for a busy weekend, a wedding season or a game day, not a permanent hire. A call-off on a full house costs more than the shift.
 
-**Lead magnet:** Their first shift on the next job or event, comped.
+**Lead magnet:** One worker for one shift on their next busy day or event, comped.
 
 **Message 1:** Hi {first_name}, saw {company} is looking for {role_title} help in {city}.
 
-GigWorx fills short-notice shifts with vetted local workers, so you can add hands for a job or an event and only pay for the hours worked.
+GigWorx fills short-notice shifts with vetted local W-2 workers, so you can add hands for a busy weekend or an event and only pay for the hours worked.
 
 Want me to comp a shift on your next one?
 
@@ -206,7 +206,7 @@ There's no contract and no minimums, so it's there for the days you need it. If 
 
 **Message 3:** I'll leave it here, {first_name}.
 
-When the next big job or event lands, reply "shift" and the first one's on us.
+When the next big weekend or event lands, reply "shift" and the first one's on us.
 
 **CTA variants to test in Message 1:**
 
@@ -219,11 +219,11 @@ Great, glad to set that up. I just need the role, the shift time and the site, s
 
 ## Before launch
 
-- **Mathew needs to confirm the comped-shift terms.** Every campaign offers it, so we need to know what it covers (one worker for one shift, a crew, or up to a set number of hours), which roles it applies to, and whether GigWorx can fill it within a week anywhere in both counties. If any of that isn't possible, each campaign switches to its question-only CTA.
+- **Comped shift (confirmed by Mathew):** one worker for one shift. Still to confirm on the pre-launch call: whether it applies to every role in these campaigns, and whether GigWorx can fill it within a week anywhere in both counties. If not, that campaign switches to its question-only CTA.
 - **Suppression:** export current GigWorx clients, open deals and past opt-outs from HubSpot before launch. The DNC list is empty today.
 - **Approved claims:** vetted W-2 workers; no subscription, no minimums and no contract; pay only for hours worked; block a worker in the app and GigWorx handles it; hire a worker with no minimum hours first; local team; first shift comped.
 - **Never in the messages:** pricing, markup, the conversion fee amount, fill-rate figures or client names. The fee and pricing are for the call. Montana and Utah clients are not presented as local. Local names are added only once Mathew confirms Michiana clients we can mention.
-- **One sending profile:** all six campaigns share Mathew's LinkedIn profile, so we pick which ones run, and in what order, on the pre-launch call. Suggested order: Campaigns 2 and 1 first, from now, because peak season and open roles point most directly at a current need. Campaign 3 from January, ahead of the RV spring ramp. Campaigns 4 and 5 alongside at lower volume, to test whether HR or owners reply better. Campaign 6 only if Mathew confirms construction and events.
-- **Volume:** the configured market is about 1,050 companies headquartered locally, plus out-of-state employers' local sites. Small and mid-size sites get 1 to 2 contacts; 51+ employee sites get 3 to 4.
+- **One sending profile:** all six campaigns share Mathew's LinkedIn profile, so we pick which ones run, and in what order, on the pre-launch call. Suggested order: Campaigns 2 and 1 first, from now, because peak season and open roles point most directly at a current need. Campaign 3 from January, ahead of the RV spring ramp. Campaigns 4 and 5 alongside at lower volume, to test whether HR or owners reply better. Campaign 6 for hotels, restaurants, food and beverage and events, in the order Mathew prefers.
+- **Volume:** the configured market is about 1,050 companies headquartered locally, plus out-of-state employers' local sites. Small and mid-size sites get 1 to 2 contacts; 51+ employee sites get 3 to 4. Adding hospitality and food service brings in about 350 more local companies.
 - **Lead handling:** interested replies get the booking link. Replies from people looking for work are classified separately and pointed to the GigWorx worker app (link to confirm with Mathew).
 - **Pre-launch call:** Mathew asked for a call before launch. This doc is the agenda for it, and the call decides which campaigns go first.
