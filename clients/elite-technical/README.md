@@ -251,6 +251,19 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-11-06**: **IT Infrastructure & Support job-change check via GTM Sheets Enrich Person; 80 leads excluded from HeyReach `710044`** (scheduled follow-up to the launch).
+  - Enrich Person was filled on 2,816 of 2,817 rows. Row 2069 has a Sales-Nav-style URL, and the only provider for that kind of URL (HarvestAPI) is out of credits.
+  - **Still at Company = NO on 95 rows.** 12 were already removed by the HeyReach check. 3 are kept as aliases:
+    - BKD LLP → Forvis Mazars
+    - Mercy Health Services ≈ Mercy Medical Center Baltimore
+    - NCAR is operated by UCAR
+  - **80 excluded:** 71 from today's GTM Sheets push, and 9 in the first 800 that HeyReach's own `companyName` check missed because HeyReach hadn't enriched them yet. They are listed in `sourcing/recruiter-open-roles-it-support/2026-11-06-2-heyreach-removed.csv`.
+  - **How they were excluded:**
+    - `stop_lead_in_campaign` worked for 3 in-progress leads.
+    - 1 lead was already FAILED in HeyReach.
+    - For still-pending leads (no workflow yet) it errors, so all 80 were added to the **workspace lead blacklist** (`add_blacklist_leads`, entries 139345–139424). The campaign has `excludeFromLeadBlacklist: true`, so they are skipped when reached. The blacklist is workspace-wide; undo with `remove_blacklist_leads` if needed.
+  - Lesson for the next launch: run Enrich Person in GTM Sheets **before** pushing to HeyReach. It catches job changes HeyReach hasn't enriched yet.
+
 - **2026-11-06**: **Reply handling corrected; IT workbook enrichment added.**
   - Moe clarified that replies are not answered with a profile. The goal of every reply is a **call**, where we confirm our candidate fits; the profile is shared after the call. Joseph does not need profiles ready.
   - The client PDF (regenerated, same filename) and the consolidated doc `c43affbb-…` were corrected to match.
