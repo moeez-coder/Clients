@@ -120,6 +120,13 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-05**: **`JD Phrase` AI column added to all 4 open-role Leads tables in GTM Sheets** (Moe: "Add the AI column"). It is the value for `{JD}` in message 1.
+  - Columns: `JD Phrase AI` (Claude Haiku 5.5, JSON field `phrase`) and `JD Phrase` (a field column).
+  - Runs only where `live_eligible = yes`.
+  - Tested on 10 rows. The first plain-text version leaked word-count working in 1 of 10 rows, so it was switched to JSON output.
+  - Full run queued: 273 / 987 / 332 / 857 rows, about $0.15 of OpenRouter usage.
+  - Spec and prompt: SOP [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-moe-mpc.md) Step 7a.
+  - Per-client CG session.
 - **2026-11-05**: **The full Open-role sequence copy (connection request plus messages 1–3, verbatim from Moe) is now on file** in [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-moe-mpc.md) §3. Earlier only the connection-request note was recorded here.
   - Still open for C&G: the role-family wording for messages 2–3 in each of the 4 segments.
   - Also open: a short `{JD}` phrase per lead. The `jd_summary` column is a two-sentence Blitz summary and won't read naturally after "looks like you need someone with".

@@ -39,7 +39,7 @@ Collect these before running anything. Record each in the client README History,
   > Hi {FIRST_NAME}, saw the {Open_Role} opening at {Company_Name}. Figured it was worth connecting given the space you're in.
 - **Messages 1–3 at +2, +2 and +2 days.**
 
-**Full copy (verbatim from Moe, 2026-11-05). Used by Talent Edge (Finance & Accounting) and Alcor (Recruiters), 19.4% reply rate. Only the role family changes between clients and segments.**
+**Full copy (verbatim from Moe, 2026-11-05).** This is the well-performing MPC messaging already running for Talent Edge (Finance & Accounting) and Alcor (Recruiters), at a 19.4% reply rate. Use it as written: only the role family changes between clients and segments.
 
 **Connection request**
 
@@ -72,7 +72,7 @@ Collect these before running anything. Record each in the client README History,
 **Before building, note:**
 - `{Accounting or Finance / engineering}` (message 2) and `{Finance / Engineering}` (message 3) are the **role-family slots**. Fill them per segment and record the wording in the client README.
 - `{COMPANY}` and `{Company_Name}` are the same value (`company_name`).
-- `{JD}` has to fit "looks like you need someone with {JD}". Blitz's `ai_summary` is a two-sentence job description, not a phrase, so it reads badly here. Generate a short "someone with …" phrase per row (e.g. a GTM Sheets AI column over `jd_summary`). Review it before any push.
+- `{JD}` has to fit "looks like you need someone with {JD}". Blitz's `ai_summary` is a two-sentence job description, not a phrase, so **map `{JD}` to the `JD Phrase` column** built in Step 7a, never to `jd_summary`.
 
 - Variables map to lead columns:
   - `{Open_Role}` = `open_role`
@@ -163,6 +163,44 @@ Moe's rule: **every campaign gets its own workbook, and it holds the open jobs a
    - Check that each `inserted` count equals the CSV's row count.
 4. Record the workbook and table ids in the client README.
 
+### Step 7a: `JD Phrase` AI column (fills `{JD}`)
+
+Add these two columns to every Leads table:
+
+| Column | Type | Settings |
+|---|---|---|
+| `JD Phrase AI` | ai | Model `anthropic/claude-haiku-5.5`, no web access, `output_fields: [{name: "phrase", type: "string"}]` (JSON output), `required: ["open_role", "jd_summary"]`, `run_if: live_eligible equals "yes"`, `auto_run: false` |
+| `JD Phrase` | field | `source: "JD Phrase AI"`, `path: "phrase"`. **This column is what `{JD}` maps to.** |
+
+Prompt (verbatim):
+
+```
+You write one short phrase for a LinkedIn message to a hiring manager. The message reads:
+
+"Saw {{company_name}} has a {{open_role}} role listed, looks like you need someone with ____."
+
+Fill the blank using this job description summary:
+{{jd_summary}}
+
+Rules for the phrase:
+- 4 to 10 words, lowercase start, no ending punctuation, no quotes.
+- Name the concrete experience or skill the role needs (e.g. "hands-on SAS programming for oncology trials", "GMP QC testing experience in biologics").
+- Do not repeat the job title, the company name, or words like "strong", "proven", "excellent", "a candidate".
+- Must read naturally after "someone with".
+
+Return only the JSON object with the field "phrase". No explanation, no word counts.
+```
+
+How to run it:
+1. Test with `gtm_sheet_run_column` (`scope: "first"`, `limit: 10`) and read the rows.
+2. Then run `scope: "all"`, `only_empty: true`, `confirm: true`. The `run_if` keeps it to live-eligible rows.
+
+**Why JSON output:** in plain-text mode, Haiku occasionally wrote its own word-count working into the cell (seen in 1 of 10 test rows on C&G). The JSON field plus the `field` column fixed it.
+
+**Cost:** about $0.15 for ~2,450 rows at Haiku 5.5's $0.10/$0.50 per 1M tokens.
+
+**Review:** spot-check before any push. Phrases can differ between leads at the same company, because each row runs on its own; that's fine.
+
 ### Step 8: tracking_clients
 
 1. `create_icp_config`, **one per segment**:
@@ -181,7 +219,7 @@ Moe's rule: **every campaign gets its own workbook, and it holds the open jobs a
 - [ ] The user has reviewed each workbook. Look for adjacent-title noise and public bodies picked up by Education/Finance industry labels.
 - [ ] The client's **DNC file is loaded** (`update_client_dnc` and/or the HeyReach blacklist), and leads are checked against it.
 - [ ] The role-family wording for messages 2–3 is chosen per segment and saved in the client README.
-- [ ] A short `{JD}` phrase exists for every lead and has been reviewed.
+- [ ] `JD Phrase` is filled for every live-eligible lead (Step 7a) and has been spot-checked.
 - [ ] Only `live_eligible=yes` leads go in.
 
 Only then: build one HeyReach campaign per segment (§3) and push.
@@ -219,5 +257,6 @@ Record the read and the resulting number in each `.query.md`.
 
 ## Change log
 
+- **2026-11-05**: Added Step 7a, the `JD Phrase` AI column (Haiku 5.5, JSON output, live-eligible rows only). §3 now notes this is the proven MPC messaging and maps `{JD}` to `JD Phrase`.
 - **2026-11-05**: §3 now has the full Open-role sequence copy (verbatim from Moe), plus notes on the role-family slots and the `{JD}` phrase.
 - **2026-11-05**: v1 from the C&G run. Named "Open Role Moe MPC" at Moe's request.
