@@ -251,6 +251,17 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-11-06**: **Reply handling corrected; IT workbook enrichment added.**
+  - Moe clarified that replies are not answered with a profile. The goal of every reply is a **call**, where we confirm our candidate fits; the profile is shared after the call. Joseph does not need profiles ready.
+  - The client PDF (regenerated, same filename) and the consolidated doc `c43affbb-…` were corrected to match.
+  - The 2026-11-05 note that "M1 claims a candidate, so Elite must be ready to send a profile" is superseded.
+  - Moe asked to set the IT Infrastructure & Support workbook up completely and run enrichment where needed. The **3. Leads** table (`96dcb4cb-…`) now has:
+    - **Enrich Person**: GTM Sheets free person lookup by LinkedIn URL, run on all rows
+    - field columns **Current Company**, **Current Title**, **Current Company LinkedIn**, **In Role Since**, **Work Email (enrich)**
+    - a **Still at Company** formula (yes / NO / unknown)
+  - Its first flags matched people the HeyReach freshness check had already removed. It is the job-change check for the 2,018 leads pushed into the live campaign today. NO rows get `stop_lead_in_campaign` at the follow-up check.
+  - Paid email/phone enrichment (Findymail/BetterContact) was **not** run, because a LinkedIn-only campaign doesn't need it. Moe can decide.
+
 - **2026-11-06**: **Client-facing campaign update PDF for Joseph** (`reports/2026-11-06-elite-campaign-update.pdf`, built by `reports/build_2026-11-06_campaign_update.py`). Moe asked for an overview of what has run, what is queued, and how strategy moved toward the campaigns showing the most interest.
   - Numbers: HeyReach `get_overall_stats` per campaign, pulled 2026-11-06 ~12:50 UTC.
     - C1 v1: 73 sent, 5 accepted

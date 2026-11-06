@@ -59,7 +59,7 @@ s += [Paragraph('<b>What the first week showed.</b> The federal contract campaig
 s += bullets([
     '<b>Every lead is tied to a real job post</b> at their company, posted in the last 30 days. The first message names that exact role, so it reads as relevant from the first line.',
     '<b>We message the hiring manager for that role</b>, for example the Director of IT for an IT job or the security lead for a security job. A talent leader is used only when no hiring manager can be found.',
-    '<b>We use a proven sequence.</b> This open-role sequence produced a <b>19.4% reply rate</b> for two other staffing firms we run campaigns for. It is short: a connection request, then three short messages two days apart, offering to send a matching candidate profile.',
+    '<b>We use a proven sequence.</b> This open-role sequence produced a <b>19.4% reply rate</b> for two other staffing firms we run campaigns for. It is short: a connection request, then three short messages two days apart. The goal of every reply is a short call, where we confirm our candidate really fits the role before sharing their profile.',
     '<b>We split by role family</b> so each message fits the reader: Cybersecurity, IT Infrastructure, Software, Data and AI, Cloud, Enterprise Apps, Electrical and Controls, and Mechanical and Manufacturing.',
     '<b>Your rules stay in place</b>: $100M to $1B revenue, 501 to 10,000 employees, US based, no staffing firms, education, government or nonprofits, and none of your past clients from your do-not-contact list.',
     '<b>We check every lead against their live LinkedIn profile before launch.</b> We removed 142 people who had changed jobs or whose names would not print cleanly in the message.',
@@ -79,9 +79,10 @@ s += [KeepTogether([Paragraph('What is live and what is queued', H2),
             [3.0*inch, 0.8*inch, 0.9*inch, 1.9*inch], hl_rows=(1, 2))])]
 s += [Spacer(1, 4), Paragraph('About 19,000 hiring managers in total, at companies with an open technical role posted in the last 30 days. Sending runs at about 190 connection requests a day across 11 LinkedIn profiles, 7 days a week. We launch the queued campaigns one at a time as the live ones work through their lists, so each one gets a clean read.', B)]
 
-s += [Paragraph('What we need from you', H2)]
+s += [Paragraph('How replies are handled', H2)]
+s += [Paragraph('When a hiring manager replies with interest, we book a short call. On the call we learn what the role really needs and confirm our candidate is a good fit. The profile is shared after the call, not before. Nothing is needed from you to start this.', B)]
+s += [Paragraph('A few things that help', H2)]
 s += bullets([
-    '<b>A candidate profile ready for each reply.</b> The first message offers a candidate who fits the open role. When someone says yes, we pass them to you (Joseph, Phil, Mike or Jeff) right away, and a quick, specific profile is what turns that reply into a meeting.',
     '<b>Tell us about any companies to skip</b> that are not on your do-not-contact list yet, such as current clients or companies in active talks.',
     '<b>Tell us which role families you can fill fastest.</b> We will move those campaigns up the queue.',
 ])
