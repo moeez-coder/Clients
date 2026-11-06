@@ -38,9 +38,42 @@ Collect these before running anything. Record each in the client README History,
 - **Connection request *with* a note.** This is a deliberate exception to the org's blank-request rule (Moe, 2026-11-05):
   > Hi {FIRST_NAME}, saw the {Open_Role} opening at {Company_Name}. Figured it was worth connecting given the space you're in.
 - **Messages 1–3 at +2, +2 and +2 days.**
-  - Message 1 uses `{COMPANY}`, `{Open_Role}` and `{JD}`.
-  - Messages 2–3 name the segment's role family.
-  - The full message copy is not yet on file in the Clients repo. Get it from Moe (the "Open-role sequence", reported 19.4% reply rate at Talent Edge and Alcor) and save it to the client's README before building.
+
+**Full copy (verbatim from Moe, 2026-11-05). Used by Talent Edge (Finance & Accounting) and Alcor (Recruiters), 19.4% reply rate. Only the role family changes between clients and segments.**
+
+**Connection request**
+
+> Hi {FIRST_NAME}, saw the {Open_Role} opening at {Company_Name}. Figured it was worth connecting given the space you’re in.
+
+**Message 1 (2 days after connecting)**
+
+> Hey {FIRST_NAME}, thanks for connecting. Saw {COMPANY} has a {Open_Role} role listed, looks like you need someone with {JD}.
+>
+> Not sure if that’s a fresh one or something you’ve had open for a bit, but either way we have a candidate who fits that pretty closely.
+>
+> Want us to send their profile over so you can take a look?
+
+**Message 2 (2 days later)**
+
+> Hey {FIRST_NAME}, following up on this, didn’t want it to get buried.
+>
+> If there’s an {Accounting or Finance / engineering} open role that has been sitting open for a while, we can send over a profile that fits what you need. Even roles that have been open a while tend to still be live.
+>
+> Worth a quick look, even just to compare against who you already have in the pipeline?
+
+**Message 3 (2 days later)**
+
+> No worries if the timing’s off, {FIRST_NAME}. {Finance / Engineering} roles sometimes get filled quietly or just sit for a while without much movement.
+>
+> If you have a role open we’ll send a profile over and you can skim it whenever. If not, no hard feelings and we’ll leave it there.
+>
+> Just let us know either way.
+
+**Before building, note:**
+- `{Accounting or Finance / engineering}` (message 2) and `{Finance / Engineering}` (message 3) are the **role-family slots**. Fill them per segment and record the wording in the client README.
+- `{COMPANY}` and `{Company_Name}` are the same value (`company_name`).
+- `{JD}` has to fit "looks like you need someone with {JD}". Blitz's `ai_summary` is a two-sentence job description, not a phrase, so it reads badly here. Generate a short "someone with …" phrase per row (e.g. a GTM Sheets AI column over `jd_summary`). Review it before any push.
+
 - Variables map to lead columns:
   - `{Open_Role}` = `open_role`
   - `{JD}` = `jd_summary`
@@ -147,7 +180,8 @@ Moe's rule: **every campaign gets its own workbook, and it holds the open jobs a
 
 - [ ] The user has reviewed each workbook. Look for adjacent-title noise and public bodies picked up by Education/Finance industry labels.
 - [ ] The client's **DNC file is loaded** (`update_client_dnc` and/or the HeyReach blacklist), and leads are checked against it.
-- [ ] The full message copy is saved in the client README.
+- [ ] The role-family wording for messages 2–3 is chosen per segment and saved in the client README.
+- [ ] A short `{JD}` phrase exists for every lead and has been reviewed.
 - [ ] Only `live_eligible=yes` leads go in.
 
 Only then: build one HeyReach campaign per segment (§3) and push.
@@ -185,4 +219,5 @@ Record the read and the resulting number in each `.query.md`.
 
 ## Change log
 
+- **2026-11-05**: §3 now has the full Open-role sequence copy (verbatim from Moe), plus notes on the role-family slots and the `{JD}` phrase.
 - **2026-11-05**: v1 from the C&G run. Named "Open Role Moe MPC" at Moe's request.
