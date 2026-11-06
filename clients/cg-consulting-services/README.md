@@ -120,6 +120,7 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-05**: **The open-role campaign process from this client became the repo SOP [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-moe-mpc.md) ("Open Role Moe MPC")**, at Moe's request. The C&G run is its worked example. Per-client CG session.
 - **2026-11-05**: **tracking_clients: 4 ICP configs and 4 lead lists created for the open-role segments.** Moe chose **`campaign_split: false`**, which can't be changed later.
   - One ICP config per role family (US, 51–5,000 employees, hiring-manager persona plus talent fallback, live-open-role custom signal). One `static` Custom lead list on each.
   - The UUIDs are in Sourcing configs above and in each `.query.md`.
