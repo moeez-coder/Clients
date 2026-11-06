@@ -251,6 +251,11 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-11-06**: **tracking_clients Cybersecurity campaign `b8e4cb3d-6475-42a0-8df2-0e28d8b95965` moved to running** on Moe's instruction ("make it live").
+  - The missing launch check was the HeyReach link. `link_platform_campaign` (heyreach, `710103`) now succeeds for new-system campaigns; on 2026-10-29 it was Smartlead-only.
+  - `move_campaign` then went from creation to running via mark-running.
+  - `get_campaign_live_status`: IN_PROGRESS, 1,402 leads (147 finished, 18 failed, 274 in progress, 1,237 remaining).
+
 - **2026-11-05**: **Cybersecurity recruiter campaign launched: HeyReach `710103` started 18:21 UTC with 1,402 leads.**
   - After Moe moved the session out of auto mode, the 98 freshness-check removals (`sourcing/recruiter-open-roles-cybersecurity/2026-11-05-heyreach-removed.csv`) were deleted from list `1118017` with `delete_leads_from_list_by_profile_url`. None were reported missing, and the list now holds 1,402.
   - `start_campaign`, then `get_campaign`, shows status **IN_PROGRESS** with `startedAt` 2026-11-05T18:21:45Z. HeyReach's progress counter still showed 1,500 right after the start.
