@@ -36,7 +36,6 @@ Field or Regional Marketing Director, EMEA Marketing Director, Country Manager o
 
 Custom qualifiers: Claygent confirms from the website and LinkedIn that the company's core product is supply chain planning, procurement, source-to-pay, spend management, logistics, transport or warehouse software. It must also show a presence in, or customers in, at least one of the five countries (an office, local team members on LinkedIn, or named Nordic or Dutch customers).
 Signal (Claygent-verified, sets the message variant): Nordic or Dutch customers named on the website or in news in the last 12 months. Claygent returns {nordic_customer} where one is found.
-Lead magnet: a free 2027 engagement plan showing which twoHundred CSCO/CPO forums and roundtables fit their target accounts.
 
 ### Messaging
 
@@ -67,7 +66,6 @@ Field Marketing, Regional Marketing or EMEA Marketing Director first, because th
 
 Custom qualifiers: Claygent checks event sponsor and exhibitor pages, speaker lists, press releases and the company's own news and LinkedIn posts. It looks for sponsorship, exhibiting or a speaking slot at a B2B technology or executive event held in Denmark, Sweden, Norway, Finland or the Netherlands in the last 12 months. Exclude consumer events, job fairs and purely online webinars.
 Signal (Claygent-verified, gates inclusion): one qualifying event with a source URL. Claygent returns {event_name}, {event_city} and {event_month}.
-Lead magnet: a free 2027 engagement plan comparing what twoHundred's forums and roundtables would add next to the events they already do.
 
 ### Messaging
 
@@ -99,7 +97,6 @@ Only the person who is new in the role: Country Manager, Managing Director, Nord
 
 Custom qualifiers: the contact's current role on LinkedIn started in the last 6 months, and its title or location covers at least one of the five countries.
 Signal (gates inclusion): role start date in the last 6 months. Claygent returns {new_title} and {start_month}.
-Lead magnet: a free 2027 engagement plan built around the accounts on their target list.
 
 ### Messaging
 
@@ -131,7 +128,6 @@ VP of EMEA Sales, Regional VP of Sales, EMEA Marketing Director, Chief Marketing
 
 Custom qualifiers: Claygent checks press releases, news, the company's own site and LinkedIn posts for one of the expansion events above in the last 9 months.
 Signal (Claygent-verified, gates inclusion): one qualifying event with a source URL. Claygent returns {expansion_short}, a plain 3 to 8 word phrase such as "opening an office in Stockholm", and {country}.
-Lead magnet: a free 2027 engagement plan for their first year in the market.
 
 ### Messaging
 
@@ -163,7 +159,6 @@ Field or Regional Marketing Director, Head of Partner Marketing, Country Manager
 
 Custom qualifiers: Claygent confirms from the website that the company's core product is cybersecurity. It must also show a presence in, or customers in, at least one of the five countries. Exclude current and past twoHundred security partners (Palo Alto Networks, Wiz, Zscaler and any on the Do-Not-Contact list).
 Signal (Claygent-verified, optional, sets the message variant): sponsorship of a Nordic or Dutch security event in the last 12 months (as in Campaign 2). Leads with no signal get the base version of Message 1.
-Lead magnet: a free 2027 engagement plan for twoHundred's CISO forums and roundtables.
 
 ### Messaging
 
@@ -195,7 +190,6 @@ Field or Regional Marketing Director, Head of Demand Generation or ABM, Country 
 
 Custom qualifiers: Claygent confirms from the website that the company sells technology or IT services to enterprise IT leaders. It must also show a presence in, or customers in, at least one of the five countries. Exclude Oracle, SAP and any other current or past partners on the Do-Not-Contact list.
 Signal: none required. Claygent returns {category_short}, a 2 to 4 word description such as "data platforms" or "cloud infrastructure", for Message 2.
-Lead magnet: the key findings of the Nordic CIO Pulse 2026.
 
 ### Messaging
 
@@ -226,7 +220,6 @@ Field or Regional Marketing Director, Country Manager, Nordic or Regional Sales 
 
 Custom qualifiers: Claygent confirms from the website that the company's core product is finance or HR software, and returns {community} as "CFO" or "CHRO". It must also show a presence in, or customers in, at least one of the five countries. Exclude Workday, SAP, Oracle and any other current or past partners on the Do-Not-Contact list.
 Signal (Claygent-verified, optional, sets the message variant): a Nordic or Dutch event sponsorship (as in Campaign 2) or market expansion (as in Campaign 4).
-Lead magnet: a free 2027 engagement plan for twoHundred's {community} forums and roundtables.
 
 ### Messaging
 
@@ -267,7 +260,6 @@ The hiring manager: Head or Director of Field Marketing, EMEA Marketing Director
 
 Custom qualifiers: as in the open-role shared rules, limited to the field, event and regional marketing postings above.
 Signal (gates inclusion): one qualifying posting in the last 60 days.
-Lead magnet: a ready-made 2027 executive events programme for that seat.
 
 ### Messaging
 
@@ -301,7 +293,6 @@ The hiring manager: VP of EMEA Sales, Regional VP of Sales, Chief Revenue Office
 
 Custom qualifiers: as in the open-role shared rules, limited to the country and sales leadership postings above.
 Signal (gates inclusion): one qualifying posting in the last 60 days.
-Lead magnet: a ready-made first-90-days executive plan for that hire in {country}.
 
 ### Messaging
 
@@ -335,7 +326,6 @@ The hiring manager: Head or Director of Demand Generation, Head of ABM, Head of 
 
 Custom qualifiers: as in the open-role shared rules, limited to the ABM, demand and partner marketing postings above.
 Signal (gates inclusion): one qualifying posting in the last 60 days.
-Lead magnet: a ready-made target-account roundtable plan: 7 to 12 C-level executives from the largest Nordic and Dutch companies, chosen to match their account list.
 
 ### Messaging
 

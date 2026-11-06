@@ -79,15 +79,21 @@ The ICP form (2026-11-04) is the client's own answer. The brief was written with
 
 | Doc | tracking_clients doc id | Status | Shared with client | Repo copy |
 |---|---|---|---|---|
-| twoHundred Campaign Ideas (10 campaigns) | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | draft | no | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
+| twoHundred Campaign Ideas (10 campaigns) | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | client_review (sent 2026-11-06) | yes, [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=a4c10f55-28e7-420e-9040-d8fe8a80ee51) | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
 
-A separate dashboard-created doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 2026", created 11:18 via internal-dashboard) is an empty template: one "Campaign 1" heading with blank ICP, Persona, Lead list and Messaging. It is **shared with the client in `client_review` status**. It was not created by this session and has been left untouched. Flagged to Moe.
+A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 2026") existed briefly. By 11:30 it no longer appeared in `list_campaign_docs`, so it was removed from the dashboard (not by this session).
 
 ## Sourced data in this repo
 
 - `-`: no snapshots yet.
 
 ## History
+
+- **2026-11-06**: Removed the "Lead magnet:" line from all 10 campaigns (Moe: "remove the lead magnet section for now"). Then sent doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` to the client with `send_campaign_doc_to_client`.
+  - **Result:** status `client_review`, shared with the client, and the portal link was posted to twoHundred's Slack channel (`notified_client.ok: true`).
+  - **Before replacing:** Moe had edited the doc at 11:27, but that change only set sharing. The text matched the repo copy and there were no comments, so `replace_markdown` lost nothing.
+  - **Still in the doc:** the offers inside the messages (engagement plan, CIO Pulse, open-role one-pagers) and the matching Before launch items. Only the per-campaign Lead magnet field was removed.
+  - **Next:** wait for the client's comments (status flips to `internal_review`), then revise and re-send.
 
 - **2026-11-06**: Campaign doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` expanded from 7 to 10 campaigns (`update_campaign_doc` replace_markdown). The doc had no comments or suggestions to lose, and the dashboard copy matched the repo before the replace. It is still a draft and not shared.
   - **Why:** Moe asked for 3 open-role campaigns in the MPC format: the open posting is the hook, the connection note names the role, and Message 1 offers one ready-made thing that fits the seat. This mirrors Elite Technical's "we have a candidate who fits that pretty closely" copy, `clients/elite-technical/campaigns/2026-11-05-recruiter-open-role-copy.json`.
