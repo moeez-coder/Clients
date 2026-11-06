@@ -251,6 +251,22 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-11-06**: **IT Infrastructure & Support recruiter campaign launched; consolidated live-campaigns doc created** (Moe: "Make the next logical one live as well … the ones that we are making live create a consolidated document for it and put it in the docs").
+  - **Why IT next:** it is the other of Moe's best-fit three (Software / IT / Cyber). Elite's ICP form leads with IT titles (VP of IT, Director of IT, IT Operations, Infrastructure), and IT staffing is Elite's core.
+  - **Pre-launch checks on the 800 leads already in HeyReach list `1118014`:**
+    - custom fields matched on all 800
+    - 55 `companyName` differences; 15 are clear aliases and are kept
+    - **40 removed** for a company change or a side role
+    - **4 removed** whose LinkedIn first name would render badly ("Carl (Casey)", "Anjan (AJ)", "Erin (Gardner)", "David.")
+    - **1 wrong profile** from the 2026-11-05 hand-typed upload (`deanna-walton2024`; the correct `deanna-walton-4653812` was pushed instead)
+  - 44 unique profiles were deleted from the list (aj-shah failed two checks). They are recorded in `sourcing/recruiter-open-roles-it-support/2026-11-06-heyreach-removed.csv`.
+  - HeyReach `710044` started 2026-11-06 11:58 UTC with 756 leads; `get_campaign` shows IN_PROGRESS.
+  - The other **2,016 launch-set leads** (GTM Sheets Leads rows 802–2817, plus row 141 for the corrected Deanna) were pushed into the running campaign through the GTM Sheets **Push to HeyReach** column (`gtm_sheet_run_column`, rows scope). No per-lead MCP calls were used. 995 had been processed at the time of commit.
+  - **They still need the same freshness check** once HeyReach has enriched their profiles; any failures get `stop_lead_in_campaign` before contact.
+  - tracking_clients campaign `5565a579-3839-4fa6-a667-62e43719b2ff` is linked to HeyReach `710044` and marked **running**.
+  - **Consolidated doc:** "Live Recruiter Campaigns (consolidated)", campaign doc `c43affbb-58f5-4c8c-bd4a-28ee4cdfb90b` on the client's Docs tab. It is a **draft and hidden from the client**. It has one section per live campaign: ICP, persona, lead-list funnel, messaging, ids and open items. Update it each time a campaign goes live.
+  - The GTM Sheets IT Leads table still shows the 43 removed rows as "launch set". Webhook field columns can't be edited in place, so the removal record is the CSV above.
+
 - **2026-11-06**: **tracking_clients Cybersecurity campaign `b8e4cb3d-6475-42a0-8df2-0e28d8b95965` moved to running** on Moe's instruction ("make it live").
   - The missing launch check was the HeyReach link. `link_platform_campaign` (heyreach, `710103`) now succeeds for new-system campaigns; on 2026-10-29 it was Smartlead-only.
   - `move_campaign` then went from creation to running via mark-running.
