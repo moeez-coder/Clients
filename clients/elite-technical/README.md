@@ -251,6 +251,18 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-11-06**: **Client-facing campaign update PDF for Joseph** (`reports/2026-11-06-elite-campaign-update.pdf`, built by `reports/build_2026-11-06_campaign_update.py`). Moe asked for an overview of what has run, what is queued, and how strategy moved toward the campaigns showing the most interest.
+  - Numbers: HeyReach `get_overall_stats` per campaign, pulled 2026-11-06 ~12:50 UTC.
+    - C1 v1: 73 sent, 5 accepted
+    - C1 v2: 92 sent, 7 accepted
+    - C1b: 170 sent, 10 accepted, 1 reply
+    - C9: 415 sent, 59 accepted (14.2%)
+    - Cybersecurity: 148 sent, 7 accepted
+    - IT: 0 sent
+    - Total: 898 sent, 88 accepted, 15 conversations, 1 reply
+  - The story it tells: C9 (a hiring signal) got about 2× the acceptance of the federal-award campaigns, which justified the move to job-post-based recruiter campaigns.
+  - The PDF follows the client-facing rules: no em dashes, Central Time, no internal IDs or tool names.
+
 - **2026-11-06**: **IT Infrastructure & Support recruiter campaign launched; consolidated live-campaigns doc created** (Moe: "Make the next logical one live as well … the ones that we are making live create a consolidated document for it and put it in the docs").
   - **Why IT next:** it is the other of Moe's best-fit three (Software / IT / Cyber). Elite's ICP form leads with IT titles (VP of IT, Director of IT, IT Operations, Infrastructure), and IT staffing is Elite's core.
   - **Pre-launch checks on the 800 leads already in HeyReach list `1118014`:**
