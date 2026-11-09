@@ -47,4 +47,17 @@ No ICP configs, sourcing configs or campaigns exist in tracking_clients as of 20
 
 ## History
 
+- **2026-11-09**: Moe answered the three questions that were blocking campaign doc 1.
+  - **MPC = "Most Placeable Candidate"**, the open-jobs campaign. Confirmed against the SOP `docs/sops/open-role-moe-mpc.md`, which is on branch `origin/claude/cg-open-role-campaigns` and not on main. Its worked example is C&G, and its proven copy runs at a 19.4% reply rate for Talent Edge and Alcor.
+  - **Non-recruiter precedent:** twoHundred (branch `origin/claude/twohundred-init`, doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51`, campaigns 8–10).
+    - The live posting is the hook, and the message goes to the hiring manager above the open seat.
+    - Since the client has no candidates, the "candidate" slot becomes one ready-made deliverable.
+  - **Campaigns 6–10** are trigger-based variants of segments 1–5.
+  - **Segments** follow the client's own ICP form (submitted 2026-11-04), not the earlier auto-generated brief. The five segments:
+    1. Specialty pharma and commercial biotech
+    2. Pre-launch and newly launched biotech
+    3. Specialist med device
+    4. Large pharma brand/data teams
+    5. HCP agencies with media or programmatic arms
+  - **Dropped for now:** the brief's hospitals, health plans and CME segments. They appear in the brief only, not in the client's form.
 - **2026-11-09**: Folder created from `clients/_TEMPLATE/README.md`. Profile synced from tracking_clients (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`), and brief, ICP form, description and caller notes saved to `context/`. This is the first session for the client: it starts campaign doc 1 (10 campaigns, the first 5 being one MPC campaign per segment). The orchestrator resolved Moe's "healthkit" to this client, which is the only "health" match in `list_clients`. Session: claude.ai/code session_013MzxQeqnTt4RM93i4VniUQ.
