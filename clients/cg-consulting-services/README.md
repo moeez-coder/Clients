@@ -122,6 +122,51 @@ Built from the SOP [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-
   - **No reply workflow:** replies reach the workspace-wide `hr-inbox` webhooks only.
 - **Live without the DNC file:** Moe chose this on 2026-11-11. C&G's `Non_Connect` file is still not loaded, and the workspace blacklists hold only the 7 wave-1 removals.
 
+### MQC campaign (reply-only test): `CG | MQC | TA Leaders | v1`
+
+**Goal:** any reply at all (MQC = a prospect who responded), and learning which messaging draws one. Moe gave full control on 2026-11-12 ("for this one no need to go through the document, I give you full control, get me some result"), so there is no campaign doc and no copy sign-off. The reasoning is recorded here instead.
+
+| Thing | Id |
+|---|---|
+| HeyReach campaign | `727548` "CG \| MQC \| TA Leaders \| v1" |
+| HeyReach list | `1149590` (same name) |
+| tracking_clients campaign | `295bad5e-03c3-4be5-9b4b-41b9d2d2c580` |
+| tracking_clients lead list | `34f9a071-4735-42a7-b969-fad77babec80` "MQC Talent Leaders - Blitz (tam-by-jobs + waterfall)", `campaign_split: false` |
+| ICP config / segment / persona | `86480269-f973-4ead-9857-1697b1009b2d` "MQC \| Talent Leaders \| Hiring Companies" / `8b365ec3-7dc9-41e2-a1fe-b38c2a46db53` / `426fc5b0-57d9-4e33-9714-65164dee583d` |
+| GTM Sheets workbook | `3cc74894-86db-4bd8-92e8-99c0e13ef8d2` "CG \| MQC \| TA Leaders \| v1" (linked to the campaign): `1 Companies` `bd739c38-2597-4001-a0d1-7ea095ed25ac` (813), `2 Jobs` `942d6afe-9977-4fa1-bbff-3d284e5b56ef` (813), `3 Leads` `45a473a7-b3ea-4b72-8425-a134399232e1` (503; Status, Open Role Var, Push to HeyReach; linked to the lead list) |
+| Data | `sourcing/mqc-talent-leaders/2026-11-12-*` |
+
+**Why this design (from the live campaigns' data, 2026-11-12):**
+- **Bench (`677893`/`686451`)**: CTO/CISO persona, blank request, pitch-led message 1 (the ManpowerGroup stat, pricing, onshore team). 2,418 requests → 91 accepted (**3.8%**) → 52 conversations → **5 replies** (9.6%). All five said no: "not hiring", "not a fit", and two were job-seekers. One easy either/or question ("permanent hires or contract roles?") drew a reply where the pitch hadn't. Algo's own campaigns in the same inbox show the same thing: short low-effort asks get "Sure!" and "Okay".
+- So the MQC changes **who** (TA/HR leaders, who buy from agencies and live on LinkedIn, at 51–1,000-staff companies with a live posting in a C&G role family) and **what** (question-only openers with no pitch until the last message).
+- **Clean measurement:** companies already in any CG campaign are excluded, so no company is double-touched and a reply can't be credited elsewhere. HeyReach exclude-in-other-campaigns and exclude-has-other-conversations are both ON.
+- **Capacity:** the 7 auth-valid senders are shared by 7 campaigns. On 2026-11-12, 4 of them (261910, 263687, 263737, 264146) were on connection-request cooldown. So the list is a sharp 499 rather than thousands, and the test runs on fewer, more distinct variants. **No existing campaign was paused.**
+
+**Settings:** senders 243652, 249292, 249296, 261910, 263687, 263737, 264146 (203834, 252010 and 264519 have invalid auth). Weekdays 08:00–18:00 Eastern Standard Time. Lead and company blacklists ON. Connection request withdrawn after 21 days. Created with `create_campaign_v2`; sequence verified with `get_campaign_sequence_v2` (source JSON: `heyreach/mqc-v1-sequence.json`).
+
+**Variants (HeyReach picks one version at random per lead):**
+
+| Step | Variant | Copy | HeyReach messageId |
+|---|---|---|---|
+| Connection request | **CR-A** blank | (no note) | – |
+| Connection request | **CR-B** question note | "Hi {FIRST_NAME}, quick question for someone who runs hiring at {Company_Name}: is the hard part right now finding people, or getting them to say yes?" | – |
+| Message 1 (+1 day after accept) | **V1** hardest-role question | "Thanks for connecting, {FIRST_NAME}. Curious, which role is giving the {Company_Name} team the most trouble to fill right now?" | `9d42e860-853c-49bf-8523-6ae20a6e272b` |
+| Message 1 | **V2** either/or (contract vs full-time) | "Thanks for connecting, {FIRST_NAME}. Quick one: is {Company_Name} leaning more on contract or full-time hires for the rest of this year?" | `16628344-c21d-4638-b9dc-9671b44e44db` |
+| Message 1 | **V3** open-role signal | "Thanks for connecting, {FIRST_NAME}. Saw {Company_Name} has a {Open_Role} opening up. Is that one moving, or has it been sitting a while?" | `db1f543a-3c65-4b21-8e86-c0c65a6a26d3` |
+| Message 1 fallback | (12 leads with no usable `{Open_Role}` who draw V3) | "Thanks for connecting, {FIRST_NAME}. Curious, which role is your team finding hardest to fill right now?" | – |
+| Message 2 (+3 days) | one-word ask | "No pressure, {FIRST_NAME}. Even a one-word answer helps me get a read on the market: is hiring at {Company_Name} busy, steady, or on hold right now?" | `b212a41c-d9fb-435e-835e-19071b14a779` |
+| Message 3 (+4 days) | first mention of C&G, soft close | "Last one from me, {FIRST_NAME}. I'm with C&G Consulting, a New Jersey staffing firm for life sciences and tech roles (contract and direct hire, 100% onshore recruiters). If an extra pair of hands on a tough req is ever useful, I'm here. Otherwise, should I check back in the new year?" | `0f1fb271-4127-4fff-915d-7b6bb3dd66c9` |
+
+The connection-request fallback ("Hi {FIRST_NAME}, figured it was worth connecting since we both spend our days on hiring.") is required by HeyReach and fires only if a variable is missing. Every lead has both variables, so if that text shows up in a thread, HeyReach treated the blank version as missing. That would be a finding in itself.
+
+**How replies are attributed:** the opener text in each thread (`get_conversations_v2` filtered to `727548`) identifies V1/V2/V3. Whether a thread starts with the CR-B note identifies the request arm. A reply counts for the last message sent before it.
+
+**Results:** logged per check-in in History (newest first), with the running per-variant table below.
+
+| Date | Requests sent | Accepted | Replies (CR-B note / V1 / V2 / V3 / M2 / M3) | Notes |
+|---|---|---|---|---|
+| 2026-11-12 | 0 (launch) | – | – | baseline |
+
 ## Sourced data in this repo
 
 - `sourcing/security-and-data-bench/2026-10-23-leads.csv`: **11,594 prospects at 4,618 companies** from **Security and Data Bench - Clay (firmographic + title search)** (config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`), pulled 2026-10-23 via **Blitz API `POST /v2/search/people`** and keyed by `linkedin_url`. 8,393 are within the 3-per-company cap; 3,201 are flagged `within_company_cap=no` and kept. Not yet qualified by Haiku or checked against a DNC list. Query: `2026-10-23-leads.query.md`.
@@ -131,6 +176,10 @@ Built from the SOP [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-
 - `sourcing/security-and-data-bench/2026-10-23-2-heyreach-wave1.csv`: **500 leads** (500 companies, all Northeast) selected for HeyReach `677893` wave 1. Config `09be87f3-…`.
 - `sourcing/security-and-data-bench/2026-10-23-3-leads.csv` / `-companies.csv`: the complete Haiku qualification after re-running 4 incomplete batches. **8,330 of 11,594 leads QUALIFIED, 0 PENDING; 3,668 of 4,618 companies QUALIFIED.** Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`. Claude Haiku 5.5 workflow agents, 2026-10-23. Notes in `2026-10-23-2-leads.query.md` § Follow-up. **This is the source for future waves.**
 - `sourcing/security-and-data-bench/2026-10-27-heyreach-wave2.csv`: **2,500 leads** (2,240 companies, 678 Northeast) selected from `2026-10-23-3-leads.csv` for HeyReach wave 2. Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, built 2026-10-27 with `build_wave.py --drop-odd-names`. Query: `2026-10-27-heyreach-wave2.query.md`.
+
+- `sourcing/mqc-talent-leaders/2026-11-12-leads.csv`: **503 leads, 499 `live_eligible`** (197 talent-acquisition leaders, 302 HR leaders, 1 per company) at hiring companies no CG campaign has touched, keyed by `linkedin_url`. 0 overlap with any other CG leads file. Segment **MQC (talent leaders)**, campaign-specific for `CG | MQC | TA Leaders | v1`; the tracking_clients lead list id is in the MQC section below. Pulled 2026-11-12 via **Blitz API `POST /v2/search/waterfall-icp-keyword`**. Query: `2026-11-12-leads.query.md`; request log `2026-11-12-requests.jsonl`.
+- `sourcing/mqc-talent-leaders/2026-11-12-companies.csv`: **813 hiring companies** (91 Northeast-HQ, 722 rest of US) not in any CG campaign or snapshot, 51–1,000 staff. Blitz `POST /v2/company/tam-by-jobs`, 2026-11-12.
+- `sourcing/mqc-talent-leaders/2026-11-12-jobs.csv`: **813 open jobs**, one current C&G-role-family posting per company (`{Open_Role}`). Blitz `POST /v2/jobs/company`, 2026-11-12.
 
 ### GTM Sheets (open-role segments)
 
@@ -175,6 +224,22 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
+
+- **2026-11-12**: **MQC campaign built: HeyReach `727548` on list `1149590` (DRAFT while the push runs), tracking_clients `295bad5e-…`, GTM Sheets workbook `3cc74894-…`.** Full ids, design reasoning and the variant table are in "MQC campaign" above.
+  - **Test design:** connection request CR-A blank vs CR-B question note; message 1 V1 (hardest role) / V2 (contract vs full-time) / V3 (open-role signal); then a one-word follow-up and a soft close that first names C&G. One version is picked at random per lead.
+  - **tracking_clients:** ICP `86480269-…`, lead list `34f9a071-…` (`campaign_split: false`) and campaign `295bad5e-…` created and linked to HeyReach `727548`. tracking_clients warned that no campaign doc is linked; that is expected, because Moe waived the doc for this one.
+  - **GTM Sheets:** row counts match the CSVs: 813 / 813 / 503. The Push column was tested on 3 leads (custom fields `Company_Name` and `Open_Role` arrived), then run on all 499 live rows.
+  - **HeyReach quirk:** a connection request needs a non-empty `fallbackMessage`, even with a blank version; the first create got a 400 without one.
+  - Per-client CG session (MQC).
+
+- **2026-11-12**: **New segment: MQC talent leaders (`mqc-talent-leaders`). Blitz API, 503 leads, 499 live-eligible, for the MQC campaign** (Moe: a campaign whose only goal is a reply, labelled MQC; "I give you full control, get me some result").
+  - **Why this audience:** Security and Data Bench (CTO/CISO, blank request, pitch-led message) has 2,418 requests, 3.8% accepted, 52 conversations and 5 replies, all "not hiring". So the MQC targets the people who buy from agencies (TA leaders, HR leaders as the fallback) at 51–1,000-staff companies with a live C&G-role-family posting.
+  - **Company-level exclusion** of the 5,280 companies already in any CG campaign or snapshot. The Northeast pool gave only 91 untouched companies, so the rest of the US was added (722).
+  - **TAM/SAM:** large relative to capacity, so **1 contact per company**.
+  - **Blitz records used: 4,484. CG running total ~24.0k** (under the 40k stop line).
+  - **Dedupe:** 0 overlap with every other CG leads file (`tools/leads.py overlap`, both keys).
+  - Code: `sourcing/mqc_spec.py`, `sourcing/pull_mqc.py`. Query: `2026-11-12-leads.query.md`.
+  - Per-client CG session (MQC).
 
 - **2026-11-12**: **The top-up is in GTM Sheets and being pushed to the 4 live campaigns.**
   - The 2026-11-12 Leads, Companies and Open Jobs CSVs were appended to each workbook's existing tables (url at commit `67c4cc1`). Row counts match.

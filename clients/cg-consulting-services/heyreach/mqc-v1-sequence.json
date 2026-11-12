@@ -1,0 +1,88 @@
+{
+ "nodeType": "CONNECTION_REQUEST",
+ "actionDelay": 0,
+ "actionDelayUnit": "HOUR",
+ "payload": {
+  "messages": [
+   "",
+   "Hi {FIRST_NAME}, quick question for someone who runs hiring at {Company_Name}: is the hard part right now finding people, or getting them to say yes?"
+  ],
+  "fallbackMessage": "Hi {FIRST_NAME}, figured it was worth connecting since we both spend our days on hiring.",
+  "toBeWithdrawnAfterDays": 21
+ },
+ "conditionalNode": {
+  "nodeType": "MESSAGE",
+  "actionDelay": 1,
+  "actionDelayUnit": "DAY",
+  "payload": {
+   "messageVersions": [
+    {
+     "type": "TEXT",
+     "message": "Thanks for connecting, {FIRST_NAME}. Curious, which role is giving the {Company_Name} team the most trouble to fill right now?"
+    },
+    {
+     "type": "TEXT",
+     "message": "Thanks for connecting, {FIRST_NAME}. Quick one: is {Company_Name} leaning more on contract or full-time hires for the rest of this year?"
+    },
+    {
+     "type": "TEXT",
+     "message": "Thanks for connecting, {FIRST_NAME}. Saw {Company_Name} has a {Open_Role} opening up. Is that one moving, or has it been sitting a while?"
+    }
+   ],
+   "fallbackMessage": "Thanks for connecting, {FIRST_NAME}. Curious, which role is your team finding hardest to fill right now?"
+  },
+  "conditionalNode": {
+   "nodeType": "END",
+   "actionDelay": 0,
+   "actionDelayUnit": "HOUR"
+  },
+  "unconditionalNode": {
+   "nodeType": "MESSAGE",
+   "actionDelay": 3,
+   "actionDelayUnit": "DAY",
+   "payload": {
+    "messageVersions": [
+     {
+      "type": "TEXT",
+      "message": "No pressure, {FIRST_NAME}. Even a one-word answer helps me get a read on the market: is hiring at {Company_Name} busy, steady, or on hold right now?"
+     }
+    ],
+    "fallbackMessage": "No pressure, {FIRST_NAME}. Even a one-word answer helps me get a read on the market: is hiring on your side busy, steady, or on hold right now?"
+   },
+   "conditionalNode": {
+    "nodeType": "END",
+    "actionDelay": 0,
+    "actionDelayUnit": "HOUR"
+   },
+   "unconditionalNode": {
+    "nodeType": "MESSAGE",
+    "actionDelay": 4,
+    "actionDelayUnit": "DAY",
+    "payload": {
+     "messageVersions": [
+      {
+       "type": "TEXT",
+       "message": "Last one from me, {FIRST_NAME}. I'm with C&G Consulting, a New Jersey staffing firm for life sciences and tech roles (contract and direct hire, 100% onshore recruiters).\n\nIf an extra pair of hands on a tough req is ever useful, I'm here. Otherwise, should I check back in the new year?"
+      }
+     ],
+     "fallbackMessage": "Last one from me, {FIRST_NAME}. I'm with C&G Consulting, a New Jersey staffing firm for life sciences and tech roles (contract and direct hire, 100% onshore recruiters).\n\nIf an extra pair of hands on a tough req is ever useful, I'm here. Otherwise, should I check back in the new year?"
+    },
+    "conditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 0,
+     "actionDelayUnit": "HOUR"
+    },
+    "unconditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 1,
+     "actionDelayUnit": "DAY"
+    }
+   }
+  }
+ },
+ "unconditionalNode": {
+  "nodeType": "END",
+  "actionDelay": 1,
+  "actionDelayUnit": "DAY"
+ }
+}
