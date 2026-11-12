@@ -22,10 +22,10 @@
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
 | Security and Data Bench - Clay (firmographic + title search) | Security and Data Bench | Technology, Financial Services and Education | ready | 1 | 0 (lead_count 0; tracking_clients not yet updated, repo snapshot below) | `-` |
-| Recruiter Open Role LS Clinical & Data - Blitz (jobs + waterfall) | Recruiter | Open Role | LS Clinical & Data | Life Sciences | draft | 0 | 0 (repo snapshot below) | `-` |
-| Recruiter Open Role LS Regulatory & Quality - Blitz (jobs + waterfall) | Recruiter | Open Role | LS Regulatory & Quality | Life Sciences | draft | 0 | 0 (repo snapshot below) | `-` |
-| Recruiter Open Role LS Medical Affairs - Blitz (jobs + waterfall) | Recruiter | Open Role | LS Medical Affairs | Life Sciences | draft | 0 | 0 (repo snapshot below) | `-` |
-| Recruiter Open Role Tech Eng, Security & Data - Blitz (jobs + waterfall) | Recruiter | Open Role | Tech Eng, Security & Data | Technology, Financial Services, Healthcare, Retail, Education, Consulting | draft | 0 | 0 (repo snapshot below) | `-` |
+| Recruiter Open Role LS Clinical & Data - Blitz (jobs + waterfall) | Recruiter \| Open Role \| LS Clinical & Data | Life Sciences | ready | 1 | 0 (lead_count not updated by tracking_clients; leads pushed via GTM Sheets, see below) | `-` |
+| Recruiter Open Role LS Regulatory & Quality - Blitz (jobs + waterfall) | Recruiter \| Open Role \| LS Regulatory & Quality | Life Sciences | ready | 1 | 0 (lead_count not updated by tracking_clients; leads pushed via GTM Sheets, see below) | `-` |
+| Recruiter Open Role LS Medical Affairs - Blitz (jobs + waterfall) | Recruiter \| Open Role \| LS Medical Affairs | Life Sciences | ready | 1 | 0 (lead_count not updated by tracking_clients; leads pushed via GTM Sheets, see below) | `-` |
+| Recruiter Open Role Tech Eng, Security & Data - Blitz (jobs + waterfall) | Recruiter \| Open Role \| Tech Eng, Security & Data | Technology, Financial Services, Healthcare, Retail, Education, Consulting | ready | 1 | 0 (lead_count not updated by tracking_clients; leads pushed via GTM Sheets, see below) | `-` |
 
 Config detail (tracking_clients):
 - Sourcing config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, module **Custom** (`dd10c77c-109c-42e0-bc9a-a34ee0844fad`, granularity `company`), refresh `static`, `platform_leads_enabled: true`, `distribution_enabled: false`, empty module_config, no Clay table, workbook or webhook.
@@ -78,6 +78,50 @@ Open-role lead lists (created 2026-11-05 by the third CG session, Custom module,
   - The connection-request limit is 25/day on every account (max 40), about **250 requests a day** across the pool.
   - InMail limit is 8/day on 203834, 249292, 249296 and 261910, and 40 on the rest.
 
+### Open-role campaigns (Open Role Moe MPC): LIVE since 2026-11-12
+
+Built from the SOP [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-moe-mpc.md). Each segment is one HeyReach campaign on its own list, mirrored by one tracking_clients campaign (`running`) linked to the segment's lead list and persona.
+
+| Segment | tracking_clients campaign | HeyReach campaign | HeyReach list | Leads pushed | Started (UTC) |
+|---|---|---|---|---|---|
+| LS Clinical & Data | `a3efa662-365b-4b2b-b6e3-f297697f147e` | `723837` | `1141179` | 273 | 2026-11-12 13:08:09 |
+| LS Regulatory & Quality | `42dce2da-c02c-4fea-97c0-8fd9b7c6f50b` | `723838` "…LS Reg & Quality" | `1141180` | 987 | 2026-11-12 13:08:36 |
+| LS Medical Affairs | `a5165241-e67b-4f59-9d2a-9035eb7dbda3` | `723839` | `1141181` | 332 | 2026-11-12 13:08:41 |
+| Tech Eng, Security & Data | `cc731812-d3e3-4e8c-9bb1-28f2c448cd19` | `723841` "…Tech Eng/Sec/Data" | `1141182` | 857 | 2026-11-12 13:08:49 |
+
+- **HeyReach settings (all 4):**
+  - Campaigns created with `create_campaign_v2`.
+  - **7 auth-valid senders:** 243652, 249292, 249296, 261910, 263687, 263737, 264146. 203834, 252010 and 264519 were left off with invalid auth.
+  - Weekdays 07:00–19:00 Eastern Standard Time.
+  - **exclude-in-other-campaigns ON**, lead and company blacklists on.
+  - Connection request with a note, withdrawn after 21 days.
+  - Messages at +2/+2/+2 days; a reply ends the sequence.
+- **Copy:** the Open-role sequence, verbatim (SOP §3). Role-family wording (Moe chose the suggested wording, 2026-11-11):
+
+  | Segment | Message 2 | Message 3 |
+  |---|---|---|
+  | Clinical | "a clinical data or biostatistics" | "Clinical data" |
+  | Reg & Quality | "a regulatory or quality" | "Regulatory and quality" |
+  | Medical Affairs | "a medical affairs" | "Medical affairs" |
+  | Tech | "an engineering, security or data" | "Engineering" |
+
+  Message 1's fallback drops `{Open_Role}`/`{JD}`.
+- **Variables:**
+  - `{Open_Role}` = `open_role`
+  - `{Company_Name}` = `company_name`
+  - `{JD}` = the GTM Sheets `JD Phrase` column
+  - `{FIRST_NAME}` = `First Name Clean`, a formula that strips nicknames in brackets, e.g. "Sihui (Bruce)" → "Sihui"
+- **How leads were pushed:**
+  - Through a `Push to HeyReach` column on each GTM Sheets Leads table, with `run_if` = live-eligible and JD Phrase present.
+  - Every list count equals the live-eligible count, and the custom fields were verified on the first leads.
+- **tracking_clients:**
+  - All 4 are linked to their HeyReach ids via `link_platform_campaign` and set to `running` (`move_campaign`, mark-running).
+  - The 4 lead lists are set to `ready`.
+  - `get_campaign_live_status` maps HeyReach to `running`.
+  - **No campaign doc is linked:** tracking_clients warned on create. The structured `sequenceJsonb` hasn't been set either; only the freeform `linkedin_sequence` holds the copy.
+  - **No reply workflow:** replies reach the workspace-wide `hr-inbox` webhooks only.
+- **Live without the DNC file:** Moe chose this on 2026-11-11. C&G's `Non_Connect` file is still not loaded, and the workspace blacklists hold only the 7 wave-1 removals.
+
 ## Sourced data in this repo
 
 - `sourcing/security-and-data-bench/2026-10-23-leads.csv`: **11,594 prospects at 4,618 companies** from **Security and Data Bench - Clay (firmographic + title search)** (config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`), pulled 2026-10-23 via **Blitz API `POST /v2/search/people`** and keyed by `linkedin_url`. 8,393 are within the 3-per-company cap; 3,201 are flagged `within_company_cap=no` and kept. Not yet qualified by Haiku or checked against a DNC list. Query: `2026-10-23-leads.query.md`.
@@ -120,6 +164,22 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-12**: **The 4 open-role campaigns are LIVE in HeyReach and tracking_clients** (Moe: "Make it live", then "Make it live in tracking clients as well as heyreach").
+  - **Moe's decisions (2026-11-11):**
+    - Role-family wording: the suggested wording.
+    - **Go live without the `Non_Connect` DNC file.**
+    - Senders: the 7 auth-valid accounts, shared with Security and Data Bench.
+  - **HeyReach:** campaigns 723837/723838/723839/723841 on lists 1141179–1141182, with 273/987/332/857 leads. All started 2026-11-12 13:08 UTC and are `IN_PROGRESS`.
+  - **tracking_clients:** campaigns `a3efa662-…`, `42dce2da-…`, `a5165241-…` and `cc731812-…`, linked to the HeyReach ids and `running`. The 4 lead lists are `ready`. Details are in "Open-role campaigns" above.
+  - **Process notes:**
+    - `gtm_sheet_create_heyreach_campaign` failed with "sender disconnected", so the campaigns were built with `create_campaign_v2` directly.
+    - A worker restart interrupted the start calls. The state was re-read before retrying, and only the 3 still in DRAFT were started.
+  - **Open:**
+    - Load the DNC file.
+    - Reconnect 3 senders.
+    - Link campaign docs.
+    - Set a reply workflow.
+  - Per-client CG session.
 - **2026-11-05**: **`JD Phrase` AI column added to all 4 open-role Leads tables in GTM Sheets** (Moe: "Add the AI column"). It is the value for `{JD}` in message 1.
   - Columns: `JD Phrase AI` (Claude Haiku 5.5, JSON field `phrase`) and `JD Phrase` (a field column).
   - Runs only where `live_eligible = yes`.

@@ -222,7 +222,41 @@ How to run it:
 - [ ] `JD Phrase` is filled for every live-eligible lead (Step 7a) and has been spot-checked.
 - [ ] Only `live_eligible=yes` leads go in.
 
-Only then: build one HeyReach campaign per segment (§3) and push.
+Only then: build one HeyReach campaign per segment (§3) and push. If the user decides to go live with a gate still open (e.g. no DNC file), record that decision in the client README History.
+
+### Step 10: build, push and start in HeyReach
+
+1. **Senders:** run `get_all_linked_in_accounts`. Use only accounts with `authIsValid: true`.
+2. **Create the campaigns directly in HeyReach,** not with `gtm_sheet_create_heyreach_campaign`.
+   - That helper attaches a default sender. On C&G it picked a disconnected one, and HeyReach refused with 400 "This LinkedIn sender is disconnected".
+   - Instead:
+     1. `create_empty_list` (`USER_LIST`), one per campaign, with the same name as the campaign.
+     2. `create_campaign_v2` with:
+        - `linkedInUserListId`
+        - `linkedInAccountIds` = the auth-valid senders
+        - `excludeContactedFromOtherCampaigns: true`
+        - the lead and company blacklists on
+        - schedule weekdays 07:00–19:00 `Eastern Standard Time`
+        - `sequenceJson`
+   - Campaign names are capped at **50 characters**, so shorten long segment names (e.g. `LS Reg & Quality`, `Tech Eng/Sec/Data`).
+3. **Sequence JSON:**
+   - Connection request: the note, `toBeWithdrawnAfterDays: 21`, and a no-variable fallback note.
+   - Accepted → message 1 (+2 days), then +2, then +2.
+   - On each message, `conditionalNode` is END, so a reply stops the sequence.
+   - Use TEXT `messageVersions`. Message 1's fallback drops `{Open_Role}`/`{JD}`.
+   - Verify with `get_campaign_sequence` straight after creating.
+   - Build all segments from one template that only swaps the role-family words. C&G's generator is recorded in its README.
+4. **Clean first names:** add a `First Name Clean` formula column. It strips parenthetical nicknames ("Sihui (Bruce)" → "Sihui"), anything after a comma, and a trailing initial. Push that column as `first_name`.
+5. **Push** with a `heyreach` column on each Leads table:
+   - `campaign` = the campaign id
+   - `inputs`: `linkedin_url`, `first_name` = First Name Clean, `last_name`, `company_name`, `position` = `title`
+   - `custom_fields`: `Open_Role` ← `open_role`, `Company_Name` ← `company_name`, `JD` ← `JD Phrase`
+   - `run_if` formula: `{{live_eligible}} === 'yes' && !!{{JD Phrase}}`
+   - Test on 3 rows, then check the custom fields arrived with `get_leads_from_list`.
+   - Then run `scope: "all"` with `confirm: true`.
+   - The push lands leads on the campaign's list (`via: list`). It runs in the background, so poll `get_list_by_id` until each list's count equals the live-eligible count.
+6. **Start** with `start_campaign` only when every list is complete. Confirm with `get_campaign` (`status` `IN_PROGRESS`/`STARTING`, `startedAt` set).
+7. **Record** campaign ids, list ids, senders, lead counts and the start time in the client README.
 
 ## 5. TAM/SAM → contacts per company (inverse rule, CLAUDE.md)
 
@@ -257,6 +291,7 @@ Record the read and the resulting number in each `.query.md`.
 
 ## Change log
 
+- **2026-11-11**: Added Step 10, the HeyReach build, push and start, from the C&G go-live: direct `create_campaign_v2` because the GTM helper picked a disconnected sender; the 50-character name cap; the First Name Clean formula; the push column spec and verification.
 - **2026-11-05**: Added Step 7a, the `JD Phrase` AI column (Haiku 5.5, JSON output, live-eligible rows only). §3 now notes this is the proven MPC messaging and maps `{JD}` to `JD Phrase`.
 - **2026-11-05**: §3 now has the full Open-role sequence copy (verbatim from Moe), plus notes on the role-family slots and the `{JD}` phrase.
 - **2026-11-05**: v1 from the C&G run. Named "Open Role Moe MPC" at Moe's request.
