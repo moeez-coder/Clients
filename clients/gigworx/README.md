@@ -71,6 +71,12 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `sourcing/c5-owner-on-the-floor/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `0b60bfec-6f20-4a36-bb76-7458d741bfcf` (campaign `af97c845-2ab3-4a1d-97d1-4b0dd477784f`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **2 of 25 fit** (status Review); the rest are Excluded.
 - `sourcing/c6-hospitality-food-event-crews/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `7aa78a73-31b7-4e42-9146-3ef473098294` (campaign `b6ef20e9-9668-4644-b10f-ab91002b238d`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **6 of 25 fit** (status Review); the rest are Excluded.
 
+- `sourcing/c1-hourly-roles-wont-close/2026-11-12-2-leads.csv` (+ `.query.md`): full `Leads` table, 163 prospects from lead list `1a08c3fa-8c11-43dc-9ef9-366b21965940`, keyed by `linkedin_url`. GetLeads by company domain via GTM Sheets, then `Qualify`. **17 fit.**
+- `sourcing/c2-peak-season-crews/2026-11-12-2-leads.csv` (+ `.query.md`): full `Leads` table, 110 prospects from lead list `fb7a5cef-ca1d-455b-b95d-933801c8a972`, keyed by `linkedin_url`. GetLeads by company domain via GTM Sheets, then `Qualify`. **6 fit.**
+- `sourcing/c3-rv-corridor-ramps/2026-11-12-2-leads.csv` (+ `.query.md`): full `Leads` table, 295 prospects from lead list `792638af-0371-4099-9177-50c4d4f91ca8`, keyed by `linkedin_url`. GetLeads by company domain via GTM Sheets, then `Qualify`. **36 fit.**
+- `sourcing/c4-try-before-you-hire/2026-11-12-2-leads.csv` (+ `.query.md`): full `Leads` table, 151 prospects from lead list `963e4fd4-c230-48b9-abf5-69efc8625ebe`, keyed by `linkedin_url`. GetLeads by company domain via GTM Sheets, then `Qualify`. **11 fit.**
+- `sourcing/c5-owner-on-the-floor/2026-11-12-2-leads.csv` (+ `.query.md`): full `Leads` table, 140 prospects from lead list `0b60bfec-6f20-4a36-bb76-7458d741bfcf`, keyed by `linkedin_url`. GetLeads by company domain via GTM Sheets, then `Qualify`. **47 fit.**
+- `sourcing/c6-hospitality-food-event-crews/2026-11-12-2-leads.csv` (+ `.query.md`): full `Leads` table, 221 prospects from lead list `7aa78a73-31b7-4e42-9146-3ef473098294`, keyed by `linkedin_url`. GetLeads by company domain via GTM Sheets, then `Qualify`. **33 fit.**
 - `sourcing/list-build-comparison/` (2026-11-12): head-to-head list-building test on 50 Elkhart County manufacturers for C3 (campaign `020a9904-2e57-4fe1-aa0b-2bc1776603db`, lead list `792638af-0371-4099-9177-50c4d4f91ca8`).
   - `2026-11-12-cc-companies.csv` / `-cc-leads.csv`: the Claude Code run. Blitz API `/v2/enrichment/company`, `/v2/jobs/company`, `/v2/search/waterfall-icp-keyword` and `/v2/enrichment/email`. 15 fit, 14 people, keyed by `linkedin_url`.
   - `2026-11-12-gtm-companies.csv` / `-gtm-leads.csv`: the GTM Sheets run. Workbook `2e7fb17a-cb99-4a09-97ac-14804e3f0fa7`. 14 fit, 12 people.
@@ -82,6 +88,8 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-12** — Bulk qualification finished. `Qualify` ran on all 1,080 people: **150 fit** (C1 17, C2 6, C3 36, C4 11, C5 47, C6 33). Statuses set to Review or Excluded; C5 keeps its launch review. Snapshots `2026-11-12-2-leads.csv` saved per campaign, expanding each existing segment. Session: branch `claude/stoic-hawking-utkftq`.
 
 - **2026-11-12** — The repo owner asked to take the campaign with the largest numbers live.
   - **Choice:** C5 Owner on the Floor (`af97c845-2ab3-4a1d-97d1-4b0dd477784f`) had the most `Qualify` fits: 47. The others: C3 35, C6 31, C1 14, C4 11, C2 6.
