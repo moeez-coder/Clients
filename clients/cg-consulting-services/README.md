@@ -176,6 +176,13 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-12**: **The top-up is in GTM Sheets and being pushed to the 4 live campaigns.**
+  - The 2026-11-12 Leads, Companies and Open Jobs CSVs were appended to each workbook's existing tables (url at commit `67c4cc1`). Row counts match.
+  - `JD Phrase AI` is running on the new live-eligible rows: 152 / 448 / 180 / 754.
+  - `Push to HeyReach` is queued `only_empty` for the same rows, into the running campaigns 723837 / 723838 / 723839 / 723841.
+  - Expected list totals once the pushes finish: 1141179 = 425, 1141180 = 1,435, 1141181 = 512, 1141182 = 1,611.
+  - **Blitz running total: ~19.5k records** (12,169 + 7,294).
+  - Per-client CG session.
 - **2026-11-12**: **Top-up: expanding the existing segment Tech Eng, Security & Data (`recruiter-open-role-tech-eng-security-data`). Blitz API, 1099 leads, 754 live-eligible, for HeyReach `723841`** (Moe: "add more leads into all of the campaigns").
   - New companies only: `tam-by-jobs` (30-day window), skipping the companies already sourced, then `jobs/company`, then the waterfall at the same per-company count. That gives 1300 new companies.
   - **Blitz records used: 4865.**
