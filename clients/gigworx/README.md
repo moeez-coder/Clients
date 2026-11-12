@@ -83,6 +83,13 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 
 ## History
 
+- **2026-11-12** — The repo owner asked to take the campaign with the largest numbers live.
+  - **Choice:** C5 Owner on the Floor (`af97c845-2ab3-4a1d-97d1-4b0dd477784f`) had the most `Qualify` fits: 47. The others: C3 35, C6 31, C1 14, C4 11, C2 6.
+  - **Manual review cut 8:** two VPs (off-persona), one non-local lead, one garbled name, three weak shift-labour fits (jewellery store, home-decor micro-business, tyre shop), and Lloyd Troyer, whose LinkedIn URL belongs to another person. Also fixed: Thomas Lowe's company DELTA FARMS → Round 2 (matches his email domain and products), and Mike Caurro's mismatched `nick@` email was dropped.
+  - **Loaded:** 39 leads into HeyReach list **1148709** in the GigWorx workspace (172344), with `{COMPANY}` cleaned and `what_they_make` as a custom field. They are marked `Launch set` in the C5 GTM `Leads` table.
+  - **Blocked:** the workspace has **no LinkedIn sender connected**, and `tracking_clients` has no LinkedIn seats for GigWorx. HeyReach requires at least one sender account to create a campaign, even a draft, so `create_platform_campaign` was skipped (`client_has_no_linkedin_accounts`). The ready-to-send create payload (sequence with connection request + 3 messages at +1/+4/+7 days, Mon–Fri 08:30–17:30 Eastern, list 1148709) is saved in `sourcing/c5-owner-on-the-floor/2026-11-12-heyreach-launch.json`. Once Mathew's account is connected: create, start.
+  - Session: branch `claude/stoic-hawking-utkftq`.
+
 - **2026-11-12** — The repo owner asked to source the data with the available tools and add it to the sheets, and to compare list building in GTM Sheets against Claude Code.
   - **Bulk sourcing** (in progress at commit time): companies first.
     - Per-campaign domain lists came from the 2026-11-05 Blitz company file and the hiring-signal file, split by county, size and persona so no person lands in two campaigns.
