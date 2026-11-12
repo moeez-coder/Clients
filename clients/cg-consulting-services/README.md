@@ -164,6 +164,12 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-12**: **DNC search: the `Non_Connect` file is not in Gmail or Slack.**
+  - **Gmail (moeez@):** checked "Non_Connect", "DNC", "do not contact", "blacklist", "exclusion", and everything to or from cgcsinc.net. That turned up only the Oct 19 campaign-plan email (no reply) and the bi-weekly catch-up invite; neither has the file.
+  - **Slack:** checked every message in #client-cg-algoacquisition (C0C9UTECUNA), all its files (the only one is the Oct 23 to Nov 2 campaign report PDF), and a workspace-wide search. Nothing.
+  - **ICP form:** shows only the upload's stored name `bf13fb07587e-Non_Connect`, with no link to download it.
+  - **Next step:** ask Jon to re-send the file. He asked on 2026-11-11 for a catch-up on Thu/Fri before he's away next week.
+  - Per-client CG session.
 - **2026-11-12**: **The 4 open-role campaigns are LIVE in HeyReach and tracking_clients** (Moe: "Make it live", then "Make it live in tracking clients as well as heyreach").
   - **Moe's decisions (2026-11-11):**
     - Role-family wording: the suggested wording.
