@@ -40,7 +40,7 @@ None exist in tracking_clients as of 2026-11-12 (`list_sourcing_configs` count 0
 
 | Date | Doc | tracking_clients id | Status |
 |---|---|---|---|
-| - | - | - | - |
+| 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `draft` (hidden from the client; not sent) |
 
 ## Sourced data in this repo
 
@@ -48,6 +48,12 @@ None exist in tracking_clients as of 2026-11-12 (`list_sourcing_configs` count 0
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-12**: Campaign doc 1 created in tracking_clients with `create_campaign_doc`: doc `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` ("Nov 12, 2026"), status **draft**, `shared_with_client: false`. The repo copy is `campaign-docs/2026-11-12-doc-1.md`.
+  - **Contents:** 10 campaigns. Campaigns 1–5 are open-role MPC, one per approved segment: SOP connection note, then +2/+2/+2 messages, AI visibility audit CTA, and a sector proof point each. Campaigns 6–10 are the approved triggers. UK English, no em or en dashes, every connection note ≤166 chars.
+  - **Not sent:** `send_campaign_doc_to_client` waits for Moe's explicit "send" in-session.
+  - **Variables needed at build:** `{first_name}`, `{company}`, `{open_role}` (1–5); `{industry}` (8 and 10). Campaigns 1–5 don't use the SOP's `{JD}`/`JD Phrase`, because message 1 is about the hiring load, not a candidate fit.
+  - **Note:** the MCP stamped `created_by: mcp:dave@algoacquisition.com`, which is the MCP key's identity, not this session's user.
 
 - **2026-11-12**: TAM/SAM read for doc 1 (`sourcing/tam/2026-11-12-tam-read.query.md`), using Blitz counts and samples plus a Clay fit check, with no full pulls (145 Blitz records). This opens 5 **new segments**:
   - Health & Care, Retail & Hospitality, Manufacturing/Engineering, and Financial Services: about 1,000–3,000 UK companies each are hiring for hook roles in any 90 days. The pools are large, so **2 contacts per company**.
