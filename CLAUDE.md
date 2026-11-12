@@ -236,6 +236,27 @@ overwriting a dated file, and writes a `.query.md` with the config pointer,
 `consolidate` QA counts and `cost_report.md`. Fill in its TODO purpose line,
 then run the normal step 3a overlap check and History entry.
 
+## GTM Sheets build standard per campaign
+
+GTM Sheets is Algo Acquisition's own Clay-style table app inside Tracking Clients (`gtm_sheet_*` tools on the tracking_clients MCP, dashboard.algoacquisition.ai/gtm-sheet). Never call it Clay. **GTM Sheets is where all of a campaign's working is displayed**, not just its final lead list. Anyone opening it should see how the leads were arrived at. (Standard set by the repo owner, 2026-11-05.)
+
+- **One workbook per campaign.** Don't put several campaigns in one workbook as separate tables.
+  - Create it in the client's folder (`gtm_sheet_open_client_folder`), and link it to its tracking_clients campaign (`gtm_sheet_create_workbook` with `campaign`) so the campaign page shows its tables.
+  - Name it after the campaign, e.g. the HeyReach campaign name `US | Recruiter | Cybersecurity Open Roles | Moe v1`.
+- **The workbook shows the funnel as numbered tables, from widest to narrowest.** For a job-signal campaign that is:
+  1. **Companies:** every company that passed the firmographic, revenue, industry and DNC filters, with a column for how many leads each produced. Companies that produced none stay in the table, so the drop-off is visible.
+  2. **Jobs:** the postings behind the outreach, with title, cleaned role, posted date, URL, the summary, the `jd` phrase, and the company.
+  3. **Leads:** the prospects, keyed by LinkedIn URL. Include a `Status` column ("launch set", or "removed: <reason>" after a freshness check, so removals are shown rather than deleted), and a **Push to HeyReach** column wired to the campaign with its custom fields. The Push column has auto-run off and `run_if` Status = "launch set".
+
+  Non-job campaigns keep the same idea: one table per funnel stage, with the source and signal table first.
+- **Each table's rows come from the repo's CSVs, not the other way round.** The repo stays the audit record (Golden rule 3a).
+  - Load from the shell through each table's webhook (`gtm_sheet_build_table` with `source: "webhook"` and field columns). For an example, see `clients/elite-technical/gtm-sheets/`.
+  - Don't load through chat, and don't load with per-lead MCP calls.
+  - Afterwards, check each table's row count against its CSV (`gtm_sheet_get_workbook`).
+  - Webhook URLs can write to their tables: never commit them.
+  - A webhook load appends, so a re-run duplicates rows.
+- Link the Leads table to its lead list (`gtm_sheet_update_table` `lead_list`). Record every workbook and table id in the client README.
+
 ## Required sections in every `clients/<slug>/README.md`
 
 Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
@@ -514,6 +535,13 @@ calls, not just env presence):
   enum in `docs/blitz-api/company-search-industries.txt` (pulled from
   Blitz's own OpenAPI spec 2026-09-24) — read those before building a
   Blitz company-search request instead of re-deriving or guessing params.
+  **Field lessons (VNTANA sessions, 2026-09/10):** the spec allows
+  `max_results` 1–50 but a session observed it capping at **25** — page with
+  ≤25. Its `total_results` disagreed with its own history by ~6× on an
+  identical filter (`clients/vntana/icp-universe-map.md` §6) and its NAICS
+  tagging is noisy (a plastics-packaging group and a mining software vendor
+  came back under aggregate-machinery codes) — treat counts as indicative and
+  eyeball the companies behind them.
 - **Prospeo API** — confirmed live as of 2026-09-24 (`GET
   https://api.prospeo.io/account-information`, `X-KEY` header, `200`: PRO
   plan, credits remaining). `PROSPEO_API_KEY` is now visible in session
@@ -521,11 +549,19 @@ calls, not just env presence):
 - **AI Ark API** — confirmed live (`AIARK_API_KEY` present, `GET
   /v1/payments/credits` returned `200`). No MCP tool at all for this one
   (not even docs) — call directly. Rate limit 5 req/s.
+  **It 403s the default Python user-agent** (`403 error code 1010`); send
+  `User-Agent: curl/8.5.0`. Best available **lookalike** search, but seed it
+  with the target's *LinkedIn company URL* — domain seeds silently fail
+  (seeding `astecindustries.com` returned government agencies and a
+  fried-chicken chain).
 - **Exa** (`EXA_API_KEY`) — confirmed live as of 2026-09-15 (`POST
   https://api.exa.ai/search`, `x-api-key` header, returned real results).
   This is a web-search API, not a people/company database — treat it as a
   research/signal tool (e.g. "why now" triggers, company news) alongside the
   sourcing tools above, not a substitute for them in the cost-priority list.
+  `findSimilar` is a *web-page* similarity engine: on company seeds it returns
+  Wikipedia/Bloomberg/Owler pages about the seed, not peer companies — use
+  Websets for entity work, or prefer AI Ark lookalikes.
 - **ColdIQ** (`COLDIQ_API_KEY`, `https://api.coldiq.com`, `Authorization:
   Bearer` header **plus a `User-Agent`** — the default Python-urllib one gets a
   bare 403 that looks like an auth failure). A credit-metered gateway over 40
@@ -565,6 +601,7 @@ calls, not just env presence):
   of 2026-09-29. Any paid pull fails until topped up; run listbuild with
   `--discolike-cap-usd 0`. Paid ($0.0035/contact) and cannot honor exclusion
   lists, so it is estimate-gated, never a default spend.
+  (It is the original source of the two 99-company VNTANA DiscoLike configs.)
 - Any config brief mentioning Sales Navigator names a tool not wired into
   these sessions; run those steps wherever it *is* connected and bring the
   resulting export back here, cited the same way.
