@@ -81,6 +81,14 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
   - `2026-11-12-cc-companies.csv` / `-cc-leads.csv`: the Claude Code run. Blitz API `/v2/enrichment/company`, `/v2/jobs/company`, `/v2/search/waterfall-icp-keyword` and `/v2/enrichment/email`. 15 fit, 14 people, keyed by `linkedin_url`.
   - `2026-11-12-gtm-companies.csv` / `-gtm-leads.csv`: the GTM Sheets run. Workbook `2e7fb17a-cb99-4a09-97ac-14804e3f0fa7`. 14 fit, 12 people.
   - `2026-11-12-comparison.md`: results, the GTM Sheets bugs found and the verdict.
+- **Claude Code-built lists (2026-11-12, snapshot `-3`)**: 166 unique prospects across C1–C6, keyed by `linkedin_url`. Built with the Blitz API (`/v2/jobs/company`, `/v2/search/waterfall-icp-keyword`, `/v2/enrichment/email`) plus Claude Code segment judgment. These are the lists loaded into HeyReach.
+  - `sourcing/michiana-shift-employers/2026-11-12-companies.csv` (+ `.query.md`, `2026-11-12-cc_build.py`): 1,595 companies with segment labels and the campaigns they were planned for and assigned to. Config **GigWorx - Michiana shift employers** (`184a0f39-d738-4f8f-a908-3c97d71dd4cf`). The `.query.md` holds the full method, gates and per-company depth.
+  - `sourcing/c1-hourly-roles-wont-close/2026-11-12-3-leads.csv` (+ `.query.md`): 17 leads, 9 with email. Lead list `1a08c3fa-8c11-43dc-9ef9-366b21965940`, HeyReach list 1148941.
+  - `sourcing/c2-peak-season-crews/2026-11-12-3-leads.csv` (+ `.query.md`): 14 leads, 8 with email. Lead list `fb7a5cef-ca1d-455b-b95d-933801c8a972`, HeyReach list 1148942.
+  - `sourcing/c3-rv-corridor-ramps/2026-11-12-3-leads.csv` (+ `.query.md`): 85 leads, 40 with email. Lead list `792638af-0371-4099-9177-50c4d4f91ca8`, HeyReach list 1148943 (84 loaded).
+  - `sourcing/c4-try-before-you-hire/2026-11-12-3-leads.csv` (+ `.query.md`): 4 leads, 4 with email. Lead list `963e4fd4-c230-48b9-abf5-69efc8625ebe`, HeyReach list 1148944.
+  - `sourcing/c5-owner-on-the-floor/2026-11-12-3-leads.csv` (+ `.query.md`): 43 leads, 28 with email. Lead list `0b60bfec-6f20-4a36-bb76-7458d741bfcf`, HeyReach list 1148945.
+  - `sourcing/c6-hospitality-food-event-crews/2026-11-12-3-leads.csv` (+ `.query.md`): 3 leads, 0 with email. Lead list `7aa78a73-31b7-4e42-9146-3ef473098294`, HeyReach list 1148946.
 
 ## Analysis
 
@@ -88,6 +96,20 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-12** — The repo owner asked to set GigWorx up in HeyReach with the Claude Code leads and to add the same leads to GTM Sheets. Scope: all six campaigns.
+  - **Built:** Claude Code lists for C1–C6, 166 unique prospects (snapshot `-3`, expanding each existing segment). Method is in `sourcing/michiana-shift-employers/2026-11-12-companies.query.md`.
+  - **HeyReach (workspace 172344):** one list per campaign: C1 1148941 (17), C2 1148942 (14), C3 1148943 (84 of 85), C4 1148944 (4), C5 1148945 (43), C6 1148946 (3). Custom fields `role_title` and `city`; emails only where Blitz found one. The earlier C5 list 1148709 (39 GTM-built leads) is left as it was.
+  - **GTM Sheets:** every campaign workbook has a new table `Leads (Claude Code)` holding the same 166 rows, with Status `Review` and the HeyReach list id on each row.
+    - Table ids: C1 `9383b9dd-0b19-4151-85cc-46e4b332f25b`, C2 `5dd8bd9d-f88c-4383-a4bd-d1ad872af7f3`, C3 `ea7c4d64-4129-4c84-bccd-46b17b4eb76a`, C4 `6bb6c0af-6985-4646-ae10-ab2db2f95fc1`, C5 `2813535c-dbfb-4de1-94f6-df50ca9e11c4`, C6 `1e3527d1-9fb6-4358-a7bf-8aa1a6a8b836`.
+  - **Not loaded:** one C3 lead (Ember RV, `linkedin.com/in/ashleybontrager`). Blitz returned no name for them, and HeyReach skips leads with no first name. They are held in GTM with Status `Hold - no name`.
+  - **Needs a manual fix in the HeyReach UI:** while loading C1, a hand-typed email (`jeffrey.willard@voyantbeauty.com`) was attached to Jeffrey Willard (Voyant Beauty), but Blitz found no email for him.
+    - He was deleted from list 1148941 and re-added without the email.
+    - HeyReach keeps it as a workspace-level `customEmailAddress`, and the API can't clear it. Delete it in the UI.
+    - The repo CSV correctly has `-` for his email.
+  - **Still blocked:** there are no HeyReach campaigns yet, because no LinkedIn sender is connected to the workspace (see the C5 entry below).
+  - **Thin lists:** C4 has 4 leads and C6 has 3. Blitz people coverage is thin for these segments.
+  - Session: branch `claude/stoic-hawking-utkftq`.
 
 - **2026-11-12** — Bulk qualification finished. `Qualify` ran on all 1,080 people: **150 fit** (C1 17, C2 6, C3 36, C4 11, C5 47, C6 33). Statuses set to Review or Excluded; C5 keeps its launch review. Snapshots `2026-11-12-2-leads.csv` saved per campaign, expanding each existing segment. Session: branch `claude/stoic-hawking-utkftq`.
 
