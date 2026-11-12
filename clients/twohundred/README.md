@@ -79,7 +79,7 @@ The ICP form (2026-11-04) is the client's own answer. The brief was written with
 
 | Doc | tracking_clients doc id | Status | Shared with client | Repo copy |
 |---|---|---|---|---|
-| twoHundred Campaign Ideas (10 campaigns) | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | internal_review: client comments resolved 2026-11-12, not yet re-sent | yes, [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=a4c10f55-28e7-420e-9040-d8fe8a80ee51) | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
+| twoHundred Campaign Ideas (10 campaigns) | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | client_review (re-sent 2026-11-12 after resolving client comments) | yes, [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=a4c10f55-28e7-420e-9040-d8fe8a80ee51) | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
 
 A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 2026") existed briefly. By 11:30 it no longer appeared in `list_campaign_docs`, so it was removed from the dashboard (not by this session).
 
@@ -88,6 +88,10 @@ A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 20
 - `-`: no snapshots yet.
 
 ## History
+
+- **2026-11-12**: Re-sent campaign doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` to twoHundred (`send_campaign_doc_to_client`, Moe: "Send it"). Status is back to `client_review`, and the portal link was posted to the client's Slack (`notified_client.ok: true`).
+  - **Slack note:** summarised the changes (partners excluded, CIO Pulse link in, Forum-overview offer) and asked for the Forum overview as a link or PDF.
+  - **Next:** the client approves (then build the campaigns), comments again (`internal_review`), or sends the Forum overview link.
 
 - **2026-11-12**: Resolved twoHundred's 4 portal comments on campaign doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` (status `internal_review`) with `review_campaign_doc`: 35 tracked edits, all accepted, plus a reply on each comment. `replace_markdown` was not used, so the client's comment threads stay visible. The comments and how each was resolved are in `campaigns/2026-11-06-campaign-ideas.client-comments.md`.
   - **What changed in the plan:**
