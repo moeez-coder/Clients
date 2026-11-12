@@ -115,11 +115,9 @@ A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 20
 
 ## History
 
-- **2026-11-12**: Sent a sender-setup reminder to John Paul (infra, `john.paul@algoacquisition.com`), cc Dave, in a Slack group DM (channel `C0CH4BWE5KL`; message https://algoacquisitiongroup.slack.com/archives/C0CH4BWE5KL/p1794485320760809).
-  - **Why:** HeyReach workspace 172772 has no LinkedIn accounts, so the HeyReach campaigns can't be built.
-  - **Also flagged:** infrastructure was never submitted, and there are no client accounts or VSDRs.
-  - **Channel choice:** sent internally, not in the client channel C0CEBCSU53R.
-
+- **2026-11-12**: Sent a sender-setup reminder to John Paul (infra), cc Dave, in **#gtm-john** (`C0BUMA50B4M`): https://algoacquisitiongroup.slack.com/archives/C0BUMA50B4M/p1794485411896349
+  - **Why:** HeyReach workspace 172772 has no LinkedIn accounts, infrastructure was never submitted, and there are no client accounts or VSDRs.
+  - **Earlier copy:** the same message went first to a new group DM (`C0CH4BWE5KL`, p1794485320760809). Moe asked for that one to be deleted and the reminder sent to the GTM/John channel instead. The Slack connector has no delete tool, so the DM copy has to be deleted by hand in Slack.
 - **2026-11-12**: Built all 10 campaigns from the approved doc in tracking_clients (Moe: "set up the campaign from the document and bring them to make live position"). Each one has its own ICP config (one segment and one persona), its own lead list and its own new-system campaign. The ids are in the Campaigns table.
   - **Sequences:** saved with `set_campaign_sequence`, all passing validation. Variables follow the rules namespace: `{{module.standard.first_name|company_name}}` and `{{module.custom.*}}` for event_name, event_city, expansion_short, country, category_short, community, open_role, open_role_with_article and jd. Campaigns 1 to 7 send the connection request blank (no note), which the validator accepts.
   - **Copy kept elsewhere:** the open-role fallback copy and the CTA variants are stored in each campaign's `linkedin_sequence` text and notes, not in the structured sequence. The sequencer is dumb, and Clay assembles fallbacks upstream.
