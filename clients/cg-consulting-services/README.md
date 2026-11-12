@@ -161,9 +161,18 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-05-leads.csv`: **1,267 leads** (1,236 tier 1, 31 fallback; 1 per company, 648 at Northeast companies), keyed by `linkedin_url`. **120 already in HeyReach list `1056840`** and **410 in Security and Data Bench snapshots** (`dupe_of`), so **857 are `live_eligible`**. Segment **Tech Eng, Security & Data**. Blitz `waterfall-icp-keyword`, 2026-11-05. Query: `2026-11-05-leads.query.md`.
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-05-companies.csv`: **1,479 hiring companies** (760 Northeast). Blitz `tam-by-jobs` for the Northeast pass and `enrichment/company` for the rest, 2026-11-05.
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-05-jobs.csv`: **5,000 open jobs** (cap): all 3,064 Northeast-HQ jobs plus the 1,936 most recent elsewhere. Blitz `jobs/search`, 2026-11-05.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-12-leads.csv`: **155 leads (top-up)** at 66 new companies, keyed by `linkedin_url`. 0 in list `1056840`, 3 flagged `dupe_of`, **152 `live_eligible`**, pushed to HeyReach `723837`. Lead list **LS Clinical & Data** `992bac4f-c50a-4f2b-9b45-c266b9179b2e`. Blitz `waterfall-icp-keyword`, 2026-11-12. Query: `2026-11-12-leads.query.md`.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-12-companies.csv`: **89 new hiring companies** (60-day window, none from an earlier snapshot). Blitz `tam-by-jobs`, 2026-11-12.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-12-jobs.csv`: **89 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
 
+- **2026-11-12**: **Top-up: expanding the existing segment LS Clinical & Data (`recruiter-open-role-ls-clinical-data`). Blitz API, 155 leads, 152 live-eligible, for HeyReach `723837`** (Moe: "add more leads into all of the campaigns").
+  - New companies only: `tam-by-jobs` (60-day window), skipping the companies already sourced, then `jobs/company`, then the waterfall at the same per-company count. That gives 89 new companies.
+  - **Blitz records used: 459.**
+  - **Dedupe:** 0 in list `1056840`, 3 in earlier CG leads files. The live rows of earlier open-role snapshots now block a lead in any segment.
+  - Method and requests: `2026-11-12-leads.query.md`.
+  - Per-client CG session.
 - **2026-11-12**: **DNC search: the `Non_Connect` file is not in Gmail or Slack.**
   - **Gmail (moeez@):** checked "Non_Connect", "DNC", "do not contact", "blacklist", "exclusion", and everything to or from cgcsinc.net. That turned up only the Oct 19 campaign-plan email (no reply) and the bi-weekly catch-up invite; neither has the file.
   - **Slack:** checked every message in #client-cg-algoacquisition (C0C9UTECUNA), all its files (the only one is the Oct 23 to Nov 2 campaign report PDF), and a workspace-wide search. Nothing.

@@ -107,7 +107,8 @@ def main(slug, raw, date):
     earlier = ORDER[:ORDER.index(slug)]
     for p in sorted(glob(os.path.join(HERE, "*", "*-leads.csv"))):
         seg_dir = os.path.basename(os.path.dirname(p))
-        if seg_dir == slug or (seg_dir in SEGMENTS and seg_dir not in earlier):
+        older = os.path.basename(p)[:10] < date[:10]  # an earlier snapshot: its live rows are in campaigns now
+        if seg_dir in SEGMENTS and not older and (seg_dir == slug or seg_dir not in earlier):
             continue
         tag = f"{seg_dir}/{os.path.basename(p)}"
         for r in csv.DictReader(open(p)):
