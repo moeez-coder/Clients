@@ -1,0 +1,82 @@
+{
+ "security": {
+  "name": "Cybersecurity",
+  "heyreach_name": "US | Recruiter | Cybersecurity Open Roles | Moe v1",
+  "cr": "Hi {first_name}, saw the {open_role} opening at {company_name}. Figured it was worth connecting given the space you’re in.",
+  "m1": "Hey {first_name}, thanks for connecting. Saw {company_name} has {open_role_with_article} role listed, looks like you need someone with {jd}.\n\nNot sure if that’s a fresh one or something you’ve had open for a bit, but either way we have a candidate who fits that pretty closely.\n\nWant us to send their profile over so you can take a look?",
+  "m2": "Hey {first_name}, following up on this, didn’t want it to get buried.\n\nIf there’s a security open role that has been sitting open for a while, we can send over a profile that fits what you need. Even roles that have been open a while tend to still be live.\n\nWorth a quick look, even just to compare against who you already have in the pipeline?",
+  "m3": "No worries if the timing’s off, {first_name}. Security roles sometimes get filled quietly or just sit for a while without much movement.\n\nIf you have a role open we’ll send a profile over and you can skim it whenever. If not, no hard feelings and we’ll leave it there.\n\nJust let us know either way.",
+  "cr_fb": "Hi {FIRST_NAME}, saw your team is hiring for security roles. Figured it was worth connecting given the space you’re in.",
+  "m1_fb": "Hey {FIRST_NAME}, thanks for connecting. Saw your team has security roles listed.\n\nNot sure if they’re fresh or something you’ve had open for a bit, but either way we have a candidate who fits pretty closely.\n\nWant us to send their profile over so you can take a look?"
+ },
+ "data": {
+  "name": "Data & AI",
+  "heyreach_name": "US | Recruiter | Data & AI Open Roles | Moe v1",
+  "cr": "Hi {first_name}, saw the {open_role} opening at {company_name}. Figured it was worth connecting given the space you’re in.",
+  "m1": "Hey {first_name}, thanks for connecting. Saw {company_name} has {open_role_with_article} role listed, looks like you need someone with {jd}.\n\nNot sure if that’s a fresh one or something you’ve had open for a bit, but either way we have a candidate who fits that pretty closely.\n\nWant us to send their profile over so you can take a look?",
+  "m2": "Hey {first_name}, following up on this, didn’t want it to get buried.\n\nIf there’s a data open role that has been sitting open for a while, we can send over a profile that fits what you need. Even roles that have been open a while tend to still be live.\n\nWorth a quick look, even just to compare against who you already have in the pipeline?",
+  "m3": "No worries if the timing’s off, {first_name}. Data roles sometimes get filled quietly or just sit for a while without much movement.\n\nIf you have a role open we’ll send a profile over and you can skim it whenever. If not, no hard feelings and we’ll leave it there.\n\nJust let us know either way.",
+  "cr_fb": "Hi {FIRST_NAME}, saw your team is hiring for data roles. Figured it was worth connecting given the space you’re in.",
+  "m1_fb": "Hey {FIRST_NAME}, thanks for connecting. Saw your team has data roles listed.\n\nNot sure if they’re fresh or something you’ve had open for a bit, but either way we have a candidate who fits pretty closely.\n\nWant us to send their profile over so you can take a look?"
+ },
+ "cloud": {
+  "name": "Cloud & DevOps",
+  "heyreach_name": "US | Recruiter | Cloud DevOps Open Roles | Moe v1",
+  "cr": "Hi {first_name}, saw the {open_role} opening at {company_name}. Figured it was worth connecting given the space you’re in.",
+  "m1": "Hey {first_name}, thanks for connecting. Saw {company_name} has {open_role_with_article} role listed, looks like you need someone with {jd}.\n\nNot sure if that’s a fresh one or something you’ve had open for a bit, but either way we have a candidate who fits that pretty closely.\n\nWant us to send their profile over so you can take a look?",
+  "m2": "Hey {first_name}, following up on this, didn’t want it to get buried.\n\nIf there’s a cloud open role that has been sitting open for a while, we can send over a profile that fits what you need. Even roles that have been open a while tend to still be live.\n\nWorth a quick look, even just to compare against who you already have in the pipeline?",
+  "m3": "No worries if the timing’s off, {first_name}. Cloud and DevOps roles sometimes get filled quietly or just sit for a while without much movement.\n\nIf you have a role open we’ll send a profile over and you can skim it whenever. If not, no hard feelings and we’ll leave it there.\n\nJust let us know either way.",
+  "cr_fb": "Hi {FIRST_NAME}, saw your team is hiring for cloud and DevOps roles. Figured it was worth connecting given the space you’re in.",
+  "m1_fb": "Hey {FIRST_NAME}, thanks for connecting. Saw your team has cloud and DevOps roles listed.\n\nNot sure if they’re fresh or something you’ve had open for a bit, but either way we have a candidate who fits pretty closely.\n\nWant us to send their profile over so you can take a look?"
+ },
+ "entapps": {
+  "name": "Enterprise Applications",
+  "heyreach_name": "US | Recruiter | ERP & Apps Open Roles | Moe v1",
+  "cr": "Hi {first_name}, saw the {open_role} opening at {company_name}. Figured it was worth connecting given the space you’re in.",
+  "m1": "Hey {first_name}, thanks for connecting. Saw {company_name} has {open_role_with_article} role listed, looks like you need someone with {jd}.\n\nNot sure if that’s a fresh one or something you’ve had open for a bit, but either way we have a candidate who fits that pretty closely.\n\nWant us to send their profile over so you can take a look?",
+  "m2": "Hey {first_name}, following up on this, didn’t want it to get buried.\n\nIf there’s an enterprise applications open role that has been sitting open for a while, we can send over a profile that fits what you need. Even roles that have been open a while tend to still be live.\n\nWorth a quick look, even just to compare against who you already have in the pipeline?",
+  "m3": "No worries if the timing’s off, {first_name}. Enterprise application roles sometimes get filled quietly or just sit for a while without much movement.\n\nIf you have a role open we’ll send a profile over and you can skim it whenever. If not, no hard feelings and we’ll leave it there.\n\nJust let us know either way.",
+  "cr_fb": "Hi {FIRST_NAME}, saw your team is hiring for enterprise applications roles. Figured it was worth connecting given the space you’re in.",
+  "m1_fb": "Hey {FIRST_NAME}, thanks for connecting. Saw your team has enterprise applications roles listed.\n\nNot sure if they’re fresh or something you’ve had open for a bit, but either way we have a candidate who fits pretty closely.\n\nWant us to send their profile over so you can take a look?"
+ },
+ "itinfra": {
+  "name": "IT Infrastructure & Support",
+  "heyreach_name": "US | Recruiter | IT Support Open Roles | Moe v1",
+  "cr": "Hi {first_name}, saw the {open_role} opening at {company_name}. Figured it was worth connecting given the space you’re in.",
+  "m1": "Hey {first_name}, thanks for connecting. Saw {company_name} has {open_role_with_article} role listed, looks like you need someone with {jd}.\n\nNot sure if that’s a fresh one or something you’ve had open for a bit, but either way we have a candidate who fits that pretty closely.\n\nWant us to send their profile over so you can take a look?",
+  "m2": "Hey {first_name}, following up on this, didn’t want it to get buried.\n\nIf there’s an IT open role that has been sitting open for a while, we can send over a profile that fits what you need. Even roles that have been open a while tend to still be live.\n\nWorth a quick look, even just to compare against who you already have in the pipeline?",
+  "m3": "No worries if the timing’s off, {first_name}. IT roles sometimes get filled quietly or just sit for a while without much movement.\n\nIf you have a role open we’ll send a profile over and you can skim it whenever. If not, no hard feelings and we’ll leave it there.\n\nJust let us know either way.",
+  "cr_fb": "Hi {FIRST_NAME}, saw your team is hiring for IT roles. Figured it was worth connecting given the space you’re in.",
+  "m1_fb": "Hey {FIRST_NAME}, thanks for connecting. Saw your team has IT roles listed.\n\nNot sure if they’re fresh or something you’ve had open for a bit, but either way we have a candidate who fits pretty closely.\n\nWant us to send their profile over so you can take a look?"
+ },
+ "electrical": {
+  "name": "Electrical, Controls & Embedded",
+  "heyreach_name": "US | Recruiter | Elec & Controls Roles | Moe v1",
+  "cr": "Hi {first_name}, saw the {open_role} opening at {company_name}. Figured it was worth connecting given the space you’re in.",
+  "m1": "Hey {first_name}, thanks for connecting. Saw {company_name} has {open_role_with_article} role listed, looks like you need someone with {jd}.\n\nNot sure if that’s a fresh one or something you’ve had open for a bit, but either way we have a candidate who fits that pretty closely.\n\nWant us to send their profile over so you can take a look?",
+  "m2": "Hey {first_name}, following up on this, didn’t want it to get buried.\n\nIf there’s an engineering open role that has been sitting open for a while, we can send over a profile that fits what you need. Even roles that have been open a while tend to still be live.\n\nWorth a quick look, even just to compare against who you already have in the pipeline?",
+  "m3": "No worries if the timing’s off, {first_name}. Engineering roles sometimes get filled quietly or just sit for a while without much movement.\n\nIf you have a role open we’ll send a profile over and you can skim it whenever. If not, no hard feelings and we’ll leave it there.\n\nJust let us know either way.",
+  "cr_fb": "Hi {FIRST_NAME}, saw your team is hiring for engineering roles. Figured it was worth connecting given the space you’re in.",
+  "m1_fb": "Hey {FIRST_NAME}, thanks for connecting. Saw your team has engineering roles listed.\n\nNot sure if they’re fresh or something you’ve had open for a bit, but either way we have a candidate who fits pretty closely.\n\nWant us to send their profile over so you can take a look?"
+ },
+ "mechanical": {
+  "name": "Mechanical, Manufacturing & Quality",
+  "heyreach_name": "US | Recruiter | Mech & Mfg Open Roles | Moe v1",
+  "cr": "Hi {first_name}, saw the {open_role} opening at {company_name}. Figured it was worth connecting given the space you’re in.",
+  "m1": "Hey {first_name}, thanks for connecting. Saw {company_name} has {open_role_with_article} role listed, looks like you need someone with {jd}.\n\nNot sure if that’s a fresh one or something you’ve had open for a bit, but either way we have a candidate who fits that pretty closely.\n\nWant us to send their profile over so you can take a look?",
+  "m2": "Hey {first_name}, following up on this, didn’t want it to get buried.\n\nIf there’s an engineering open role that has been sitting open for a while, we can send over a profile that fits what you need. Even roles that have been open a while tend to still be live.\n\nWorth a quick look, even just to compare against who you already have in the pipeline?",
+  "m3": "No worries if the timing’s off, {first_name}. Engineering roles sometimes get filled quietly or just sit for a while without much movement.\n\nIf you have a role open we’ll send a profile over and you can skim it whenever. If not, no hard feelings and we’ll leave it there.\n\nJust let us know either way.",
+  "cr_fb": "Hi {FIRST_NAME}, saw your team is hiring for engineering roles. Figured it was worth connecting given the space you’re in.",
+  "m1_fb": "Hey {FIRST_NAME}, thanks for connecting. Saw your team has engineering roles listed.\n\nNot sure if they’re fresh or something you’ve had open for a bit, but either way we have a candidate who fits pretty closely.\n\nWant us to send their profile over so you can take a look?"
+ },
+ "software": {
+  "name": "Software Engineering",
+  "heyreach_name": "US | Recruiter | Software Eng Open Roles | Moe v1",
+  "cr": "Hi {first_name}, saw the {open_role} opening at {company_name}. Figured it was worth connecting given the space you’re in.",
+  "m1": "Hey {first_name}, thanks for connecting. Saw {company_name} has {open_role_with_article} role listed, looks like you need someone with {jd}.\n\nNot sure if that’s a fresh one or something you’ve had open for a bit, but either way we have a candidate who fits that pretty closely.\n\nWant us to send their profile over so you can take a look?",
+  "m2": "Hey {first_name}, following up on this, didn’t want it to get buried.\n\nIf there’s an engineering open role that has been sitting open for a while, we can send over a profile that fits what you need. Even roles that have been open a while tend to still be live.\n\nWorth a quick look, even just to compare against who you already have in the pipeline?",
+  "m3": "No worries if the timing’s off, {first_name}. Engineering roles sometimes get filled quietly or just sit for a while without much movement.\n\nIf you have a role open we’ll send a profile over and you can skim it whenever. If not, no hard feelings and we’ll leave it there.\n\nJust let us know either way.",
+  "cr_fb": "Hi {FIRST_NAME}, saw your team is hiring for software engineering roles. Figured it was worth connecting given the space you’re in.",
+  "m1_fb": "Hey {FIRST_NAME}, thanks for connecting. Saw your team has software engineering roles listed.\n\nNot sure if they’re fresh or something you’ve had open for a bit, but either way we have a candidate who fits pretty closely.\n\nWant us to send their profile over so you can take a look?"
+ }
+}
