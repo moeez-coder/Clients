@@ -44,8 +44,19 @@ None exist in tracking_clients as of 2026-11-12 (`list_sourcing_configs` count 0
 
 ## Sourced data in this repo
 
-- `-`: no snapshots yet.
+- No company or lead snapshots yet. Full pulls wait until the client approves doc 1.
+- `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-12**: TAM/SAM read for doc 1 (`sourcing/tam/2026-11-12-tam-read.query.md`), using Blitz counts and samples plus a Clay fit check, with no full pulls (145 Blitz records). This opens 5 **new segments**:
+  - Health & Care, Retail & Hospitality, Manufacturing/Engineering, and Financial Services: about 1,000–3,000 UK companies each are hiring for hook roles in any 90 days. The pools are large, so **2 contacts per company**.
+  - Top 100 Law & Accounting: about 200 firms. The pool is small, so **3 per company**.
+  - Flags: Medivet and Dunbia appear in the pool and are named in the client's own "client matching" list. Treat them as exclusions until the client confirms. NHS trusts and government bodies are excluded from MPC by default.
+- **2026-11-12**: Moe's decisions for doc 1, given in this session (so nobody needs to re-ask):
+  - **Framing:** the MPC SOP is adapted for a non-recruiter. The open role is the *signal* of a talent-attraction problem, the persona is the TA/People leader, and volume or hard-to-fill roles are the hook. SOP mechanics are unchanged.
+  - **Segments 1–5:** Health, Care & Medical / Retail & Hospitality / Manufacturing, Engineering, Automotive & Defence / Top 100 Law & Accounting / Financial Services, all UK. Technology, construction/property and renewables are held for doc 2.
+  - **Campaigns 6–10:** trigger-based: PE investment / new people leader / employer-reputation pain / growth, M&A or rebrand / weak careers site.
+  - **Offer:** the AI visibility audit, across all 10 campaigns.
 
 - **2026-11-12**: Folder created from `clients/_TEMPLATE/README.md`. Profile synced from `tracking_clients`, and the brief, ICP form, description and caller notes were saved to `context/`. tracking_clients has no ICP configs, sourcing configs, campaigns or campaign docs yet. Started because Moe opened a per-client session to build We Are DNA's first campaign doc (10 campaigns: 5 open-role MPC segments plus 5 more). Gaps found: the uploaded DNC file was never loaded, no HeyReach connector serves 172307, the billing currency isn't recorded, and no GTM engineer is assigned. (session_013MzxQi4mQ4Mn8EAPSoHocN)

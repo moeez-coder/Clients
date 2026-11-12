@@ -1,0 +1,149 @@
+{
+ "tool": "Clay MCP search-companies (first page, 20 rows, no total count)",
+ "run": "2026-11-12",
+ "taskId": "mcp-task_0toe9fwySJxQNVcVXNC",
+ "dslQuery": "select from companies where industry in (\"Law Practice\", \"Legal Services\", \"Accounting\") and company_size in (\"201-500\", \"501-1,000\", \"1,001-5,000\", \"5,001-10,000\", \"10,001+\") and locations.any(country_name = \"United Kingdom\" and is_headquarters = true) and jobs.exists(job_posted_date >= today() - interval 30 days and job_title contains (\"Solicitor\", \"Paralegal\", \"Accountant\", \"Auditor\", \"Audit\", \"Tax\"))",
+ "fit": "18/20",
+ "rows": [
+  {
+   "name": "Clifford Chance",
+   "industry": "Law Practice",
+   "size": "5,001-10,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Grant Thornton UK",
+   "industry": "Accounting",
+   "size": "5,001-10,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Slaughter and May",
+   "industry": "Law Practice",
+   "size": "1,001-5,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Crown Prosecution Service",
+   "industry": "Law Practice",
+   "size": "5,001-10,000",
+   "type": "Government Agency",
+   "verdict": "noise: public body"
+  },
+  {
+   "name": "RSM UK",
+   "industry": "Accounting",
+   "size": "1,001-5,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "BDO UK",
+   "industry": "Accounting",
+   "size": "5,001-10,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Dentons",
+   "industry": "Law Practice",
+   "size": "10,001+",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Simmons & Simmons",
+   "industry": "Law Practice",
+   "size": "1,001-5,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Eversheds Sutherland",
+   "industry": "Law Practice",
+   "size": "5,001-10,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Pinsent Masons",
+   "industry": "Law Practice",
+   "size": "1,001-5,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Freshfields",
+   "industry": "Law Practice",
+   "size": "5,001-10,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "A&O Shearman",
+   "industry": "Law Practice",
+   "size": "5,001-10,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Clyde & Co",
+   "industry": "Law Practice",
+   "size": "5,001-10,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "ICAEW",
+   "industry": "Accounting",
+   "size": "501-1,000",
+   "type": "Non Profit",
+   "verdict": "noise: professional body"
+  },
+  {
+   "name": "Herbert Smith Freehills Kramer",
+   "industry": "Law Practice",
+   "size": "5,001-10,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Baker Tilly",
+   "industry": "Accounting",
+   "size": "10,001+",
+   "type": "Privately Held",
+   "verdict": "fit"
+  },
+  {
+   "name": "Linklaters",
+   "industry": "Law Practice",
+   "size": "1,001-5,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "DLA Piper",
+   "industry": "Law Practice",
+   "size": "5,001-10,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "Bird & Bird",
+   "industry": "Law Practice",
+   "size": "1,001-5,000",
+   "type": "Partnership",
+   "verdict": "fit"
+  },
+  {
+   "name": "PwC UK",
+   "industry": "Accounting",
+   "size": "10,001+",
+   "type": "Partnership",
+   "verdict": "fit"
+  }
+ ]
+}
