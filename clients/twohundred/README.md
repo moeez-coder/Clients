@@ -115,7 +115,7 @@ A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 20
 
 ## History
 
-- **2026-11-12**: Sent a sender-setup reminder to John Paul (infra), cc Dave, in **#gtm-john** (`C0BUMA50B4M`). Moe asked for a shorter version, so the short one is https://algoacquisitiongroup.slack.com/archives/C0BUMA50B4M/p1794485427712619 and the long one (p1794485411896349) is to be deleted by hand.
+- **2026-11-12**: Sent a sender-setup reminder to John Paul (infra), cc Dave, in **#gtm-john** (`C0BUMA50B4M`). Moe asked for a shorter version, then for cc at the end and no Nordic mention. The final message is https://algoacquisitiongroup.slack.com/archives/C0BUMA50B4M/p1794485486267889. Earlier versions in #gtm-john (p1794485411896349, p1794485427712619) are to be deleted by hand.
   - **Why:** HeyReach workspace 172772 has no LinkedIn accounts, infrastructure was never submitted, and there are no client accounts or VSDRs.
   - **Earlier copy:** the same message went first to a new group DM (`C0CH4BWE5KL`, p1794485320760809). Moe asked for that one to be deleted and the reminder sent to the GTM/John channel instead. The Slack connector has no delete tool, so the DM copy has to be deleted by hand in Slack.
 - **2026-11-12**: Built all 10 campaigns from the approved doc in tracking_clients (Moe: "set up the campaign from the document and bring them to make live position"). Each one has its own ICP config (one segment and one persona), its own lead list and its own new-system campaign. The ids are in the Campaigns table.
