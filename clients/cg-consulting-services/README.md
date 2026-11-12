@@ -176,6 +176,15 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-12 16:31 UTC**: **Top-up push verified.** HeyReach list totals match exactly what was expected:
+  - `1141179` = 425 (273 + 152)
+  - `1141180` = 1,435 (987 + 448)
+  - `1141181` = 512 (332 + 180)
+  - `1141182` = 1,611 (857 + 754)
+
+  All 4 campaigns are still `IN_PROGRESS`.
+  - Also on 2026-11-12: Moe asked for a reply-first **MQC** campaign with A/B messaging and gave full control. It is being built in a separate session (`session_013MzxQdxZDpgrVTxpb9ggkB`, branch `claude/cg-mqc-campaign`), which records its own work here.
+  - Per-client CG session.
 - **2026-11-12**: **The top-up is in GTM Sheets and being pushed to the 4 live campaigns.**
   - The 2026-11-12 Leads, Companies and Open Jobs CSVs were appended to each workbook's existing tables (url at commit `67c4cc1`). Row counts match.
   - `JD Phrase AI` is running on the new live-eligible rows: 152 / 448 / 180 / 754.
