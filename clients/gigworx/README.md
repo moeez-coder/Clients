@@ -17,7 +17,7 @@
 - **Meeting hours:** EDT 08:30–18:00
 - **Sales Nav:** no
 - **Onboarding form:** submitted 2026-10-29. The client was added to `tracking_clients` on 2026-11-02.
-- **Last synced:** 2026-11-05 via `get_client` + `list_sourcing_configs` (+ `list_icp_configs`, `list_campaigns`)
+- **Last synced:** 2026-11-12 via `list_sourcing_configs` + `list_campaigns` (profile last confirmed 2026-11-05 via `get_client`)
 
 ## ICP (from `list_icp_configs`)
 
@@ -36,22 +36,40 @@
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
 | GigWorx - Michiana shift employers (Clay people search) | Michiana shift employers | Manufacturing, Warehousing & Logistics, Retail | draft | 1 | 0 | `-` |
+| GigWorx C1 - Hourly Roles That Won't Close (GTM Sheets) | GigWorx C1 - Hourly Roles That Won't Close | Manufacturing, Warehousing & Logistics | draft | 1 | 0 | `-` |
+| GigWorx C2 - Peak Season Crews (GTM Sheets) | GigWorx C2 - Peak Season Crews | Warehousing & Logistics, Food & Beverage, Retail | draft | 1 | 0 | `-` |
+| GigWorx C3 - RV Corridor Ramps (GTM Sheets) | GigWorx C3 - RV Corridor Ramps | Manufacturing (RV and trailer) | draft | 1 | 0 | `-` |
+| GigWorx C4 - Try Before You Hire (GTM Sheets) | GigWorx C4 - Try Before You Hire | Manufacturing, Warehousing & Logistics, Retail, Hospitality, Food & Beverage | draft | 1 | 0 | `-` |
+| GigWorx C5 - Owner on the Floor (GTM Sheets) | GigWorx C5 - Owner on the Floor | Manufacturing, Warehousing & Logistics, Retail | draft | 1 | 0 | `-` |
+| GigWorx C6 - Hospitality, Food and Event Crews (GTM Sheets) | GigWorx C6 - Hospitality, Food and Event Crews | Hospitality, Food & Beverage, Events | draft | 1 | 0 | `-` |
 
-Config ID `184a0f39-d738-4f8f-a908-3c97d71dd4cf`. Module: Custom (company granularity), static refresh. Lead count 0. Clay table URL and webhook not set yet.
+Config IDs: Michiana shift employers `184a0f39-d738-4f8f-a908-3c97d71dd4cf`; C1 `1a08c3fa-8c11-43dc-9ef9-366b21965940`; C2 `fb7a5cef-ca1d-455b-b95d-933801c8a972`; C3 `792638af-0371-4099-9177-50c4d4f91ca8`; C4 `963e4fd4-c230-48b9-abf5-69efc8625ebe`; C5 `0b60bfec-6f20-4a36-bb76-7458d741bfcf`; C6 `7aa78a73-31b7-4e42-9146-3ef473098294`. The C1–C6 lead lists are not split between campaigns (one campaign per list). Module: Custom (company granularity), static refresh. Lead count 0. Clay table URL and webhook not set yet.
 
 ## Campaigns (from `list_campaigns`)
 
-| Campaign | Status | Channel | Identity | HeyReach ID | Approved |
-|---|---|---|---|---|---|
-| GigWorx - Michiana ops & HR - first shift comped | creation (step 18) | LinkedIn | Client | `-` | no |
+| Campaign | Status | Channel | Identity | HeyReach ID | Approved | GTM Sheets workbook |
+|---|---|---|---|---|---|---|
+| GigWorx - Michiana ops & HR - first shift comped | creation (step 18) | LinkedIn | Client | `-` | no | `-` |
+| GigWorx C1 - Hourly Roles That Won't Close | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/69715427-1a7e-404e-acde-49ff5fd29999) |
+| GigWorx C2 - Peak Season Crews | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/1311af65-9477-46e9-842e-9a832f40136c) |
+| GigWorx C3 - RV Corridor Ramps | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/8b0d1757-37c5-49ff-917a-8d55b08b6e98) |
+| GigWorx C4 - Try Before You Hire | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/423c947c-f5d2-4dcf-92f1-d9a2edae2406) |
+| GigWorx C5 - Owner on the Floor | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/a38c7c5d-4aca-433a-8ffd-fc60ac00f1e9) |
+| GigWorx C6 - Hospitality, Food and Event Crews | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/4fe52894-5a11-495b-8ddf-8e57e2037ba4) |
 
-Session ID `84fdb583-6cb5-4920-99c7-3004d79e8aca`.
+Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-doc, superseded by C1–C6); C1 `01d9de9e-fc5c-492a-8208-7df9a4221c39`; C2 `76ee58e3-3f38-4fb3-909e-2163afcdd34b`; C3 `020a9904-2e57-4fe1-aa0b-2bc1776603db`; C4 `f67ca1d8-aeb4-428c-bb3a-504826992051`; C5 `af97c845-2ab3-4a1d-97d1-4b0dd477784f`; C6 `b6ef20e9-9668-4644-b10f-ab91002b238d`. C1–C6 are built from approved campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b`.
 
 ## Sourced data in this repo
 
 - `sourcing/michiana-shift-employers/2026-11-05-companies.csv`: 4,378 companies with 11+ employees headquartered in 17 St. Joseph and Elkhart County towns, tagged with `icp_bucket` (628 manufacturing, 196 warehousing and logistics, 228 retail, 191 construction, 357 hospitality, events and facilities, 14 staffing competitors, 713 with unknown industry, 2,051 out of ICP). Config **GigWorx - Michiana shift employers** (`184a0f39-d738-4f8f-a908-3c97d71dd4cf`). Pulled 2026-11-05 via Blitz API `POST /v2/search/companies`. Used for market sizing; nothing was pushed anywhere.
 - `sourcing/michiana-shift-employers/2026-11-05-hiring-signal-companies.csv`: 140 companies with 462 hourly or production job postings in South Bend, Mishawaka, Elkhart, Goshen and Nappanee in the last 60 days, from the same config (`184a0f39-d738-4f8f-a908-3c97d71dd4cf`). Pulled 2026-11-05 via Blitz API `POST /v2/company/tam-by-jobs`. Only 32 of the 140 are headquartered in Indiana.
 - `sourcing/michiana-shift-employers/2026-11-05-companies.query.md`: exact queries, bucket rules and known limits for both files.
+- `sourcing/c1-hourly-roles-wont-close/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `1a08c3fa-8c11-43dc-9ef9-366b21965940` (campaign `01d9de9e-fc5c-492a-8208-7df9a4221c39`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **0 of 25 fit** (status Review); the rest are Excluded.
+- `sourcing/c2-peak-season-crews/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `fb7a5cef-ca1d-455b-b95d-933801c8a972` (campaign `76ee58e3-3f38-4fb3-909e-2163afcdd34b`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **1 of 25 fit** (status Review); the rest are Excluded.
+- `sourcing/c3-rv-corridor-ramps/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `792638af-0371-4099-9177-50c4d4f91ca8` (campaign `020a9904-2e57-4fe1-aa0b-2bc1776603db`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **7 of 25 fit** (status Review); the rest are Excluded.
+- `sourcing/c4-try-before-you-hire/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `963e4fd4-c230-48b9-abf5-69efc8625ebe` (campaign `f67ca1d8-aeb4-428c-bb3a-504826992051`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **3 of 25 fit** (status Review); the rest are Excluded.
+- `sourcing/c5-owner-on-the-floor/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `0b60bfec-6f20-4a36-bb76-7458d741bfcf` (campaign `af97c845-2ab3-4a1d-97d1-4b0dd477784f`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **2 of 25 fit** (status Review); the rest are Excluded.
+- `sourcing/c6-hospitality-food-event-crews/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `7aa78a73-31b7-4e42-9146-3ef473098294` (campaign `b6ef20e9-9668-4644-b10f-ab91002b238d`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **6 of 25 fit** (status Review); the rest are Excluded.
 
 ## Analysis
 
@@ -59,6 +77,14 @@ Session ID `84fdb583-6cb5-4920-99c7-3004d79e8aca`.
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-12** — The repo owner confirmed the campaign doc is approved and asked for the campaigns to be set up in GTM Sheets: **all six**, with structure plus a small sample. The doc was already at `configs_created`, but `tracking_clients` held only the original placeholder campaign, so the six campaigns were built for real.
+  - **Created in `tracking_clients`:** 6 ICP configs, 6 lead lists (not split) and 6 campaigns (C1–C6). Each campaign is linked to its persona and to doc `4d41ad80-0451-4524-bf83-819a4418be7b`, with its full LinkedIn sequence and notes. `create_campaigns_from_plan` could not be used: it demands `confirm: true`, but its schema on both connectors and on the HTTP endpoint has no `confirm` field, so the call is always refused (server bug, flagged). The individual create tools were used instead.
+  - **GTM Sheets:** one workbook per campaign, each with a `Leads` table. Each table has a GetLeads people pull (filtered on where the person works, by Michiana town), a `Qualify` AI column (Gemini 3.8 Flash, web access) that checks company type, site, exclusions and the campaign signal, field columns for each message variable, and a `Status` select (Review / Launch set / Excluded).
+  - **Sample:** 25 people per campaign, 150 credits. **19 of 150 qualified** (C1 0, C2 1, C3 7, C4 3, C5 2, C6 6), all set to Review; the rest are Excluded. Snapshots are saved per campaign under `sourcing/c*-…/` (new segments).
+  - **Why so few:** the qualifier's reasons were accurate. It caught closed businesses, out-of-state companies, nonprofits and people who had left. C1's "3+ roles, one 30+ days old" rule is too strict: PSI Molded (2 roles) and Federal-Mogul (fresh roles) were cut. C2 and C5 pull too much noise when searched by person title (Subway, Pizza Hut, banks, law offices). GetLeads industry and keyword filters returned 0–27, so they were not used.
+  - **Next:** source companies first from the 2026-11-05 Michiana company list and hiring-signal file, then find people at those domains; loosen C1's signal. Nothing has been pushed to HeyReach and no HeyReach campaigns exist yet.
+  - Session: branch `claude/stoic-hawking-utkftq`.
 
 - **2026-11-06** — Resolved the client's 4 comments on campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` and sent it back (`send_campaign_doc_to_client`, Slack notice to `C0CDR13H0MV`). Each edit went in as a tracked suggestion, then all 32 were accepted, and every comment thread has a reply.
   - **Hospitality and food & beverage added:** both are now in the shared segment, and Campaign 6 changed from Construction and Event Crews to **Hospitality, Food and Event Crews**. Construction is out unless Mathew asks for it.
