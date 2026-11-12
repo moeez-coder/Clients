@@ -71,12 +71,28 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `sourcing/c5-owner-on-the-floor/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `0b60bfec-6f20-4a36-bb76-7458d741bfcf` (campaign `af97c845-2ab3-4a1d-97d1-4b0dd477784f`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **2 of 25 fit** (status Review); the rest are Excluded.
 - `sourcing/c6-hospitality-food-event-crews/2026-11-12-leads.csv` (+ `.query.md`): 25 sample prospects from lead list `7aa78a73-31b7-4e42-9146-3ef473098294` (campaign `b6ef20e9-9668-4644-b10f-ab91002b238d`), keyed by `linkedin_url`. Pulled 2026-11-12 via GTM Sheets `gtm_sheet_find_people` (GetLeads) and qualified by the `Qualify` AI column (Gemini 3.8 Flash, web). **6 of 25 fit** (status Review); the rest are Excluded.
 
+- `sourcing/list-build-comparison/` (2026-11-12): head-to-head list-building test on 50 Elkhart County manufacturers for C3 (campaign `020a9904-2e57-4fe1-aa0b-2bc1776603db`, lead list `792638af-0371-4099-9177-50c4d4f91ca8`).
+  - `2026-11-12-cc-companies.csv` / `-cc-leads.csv`: the Claude Code run. Blitz API `/v2/enrichment/company`, `/v2/jobs/company`, `/v2/search/waterfall-icp-keyword` and `/v2/enrichment/email`. 15 fit, 14 people, keyed by `linkedin_url`.
+  - `2026-11-12-gtm-companies.csv` / `-gtm-leads.csv`: the GTM Sheets run. Workbook `2e7fb17a-cb99-4a09-97ac-14804e3f0fa7`. 14 fit, 12 people.
+  - `2026-11-12-comparison.md`: results, the GTM Sheets bugs found and the verdict.
+
 ## Analysis
 
 - `campaign-ideas.md`: GigWorx Campaign Ideas, six signal-led LinkedIn campaigns, modelled on the Nextwo RaaS campaign-ideas doc. Uploaded to `tracking_clients` as campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` (draft, not shared with the client). Sent to the client on 2026-11-05 (status `client_review`). Which campaigns run is decided on the pre-launch call.
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-12** — The repo owner asked to source the data with the available tools and add it to the sheets, and to compare list building in GTM Sheets against Claude Code.
+  - **Bulk sourcing** (in progress at commit time): companies first.
+    - Per-campaign domain lists came from the 2026-11-05 Blitz company file and the hiring-signal file, split by county, size and persona so no person lands in two campaigns.
+    - GetLeads people at those domains in Indiana were imported into each campaign's `Leads` table through the `tracking-clients` HTTP endpoint: 46 batches, 1,030 people. C6 got 123 more by job title.
+    - 223 rows removed: 126 duplicates (63 were owners in both C3 and C5; kept by priority C4 > C3 > C6 > C1 > C2 > C5) and 97 with no LinkedIn URL.
+    - That leaves **1,080 unique people**. `Qualify` is running on all of them; per-campaign snapshots get committed once it finishes.
+  - **Comparison:** the same 50 companies went through the same process in both tools. Claude Code: 15 fit, 14 people at 9 companies, about 40 s of API time. GTM Sheets: 14 fit, 12 people at 7 companies.
+  - GTM Sheets bugs found: prompts and formulas see enrichment columns only as their display value; the `blitz_waterfall_icp` action is broken (`country_code` sent as a string, Blitz returns 422); there is no fan-out from one company to many people.
+  - Verdict: build and judge lists in Claude Code, operate them in GTM Sheets. Full write-up in `sourcing/list-build-comparison/2026-11-12-comparison.md`.
+  - Session: branch `claude/stoic-hawking-utkftq`.
 
 - **2026-11-12** — The repo owner confirmed the campaign doc is approved and asked for the campaigns to be set up in GTM Sheets: **all six**, with structure plus a small sample. The doc was already at `configs_created`, but `tracking_clients` held only the original placeholder campaign, so the six campaigns were built for real.
   - **Created in `tracking_clients`:** 6 ICP configs, 6 lead lists (not split) and 6 campaigns (C1–C6). Each campaign is linked to its persona and to doc `4d41ad80-0451-4524-bf83-819a4418be7b`, with its full LinkedIn sequence and notes. `create_campaigns_from_plan` could not be used: it demands `confirm: true`, but its schema on both connectors and on the HTTP endpoint has no `confirm` field, so the call is always refused (server bug, flagged). The individual create tools were used instead.
