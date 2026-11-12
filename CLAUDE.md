@@ -44,7 +44,8 @@ doing repo-wide maintenance), this protocol doesn't apply — go straight to
 
 "The overall system" means anything that governs *every* client, not just
 one: this file (`CLAUDE.md`), the root `README.md`, `clients/_TEMPLATE/**`,
-and `.claude/**` (hooks/settings). These are load-bearing for every session
+`.claude/**` (hooks, settings, project skills), `tools/**` (shared code every
+session runs) and `docs/**` (shared tool references). These are load-bearing for every session
 that will ever run here, including ones with no shared memory of this
 conversation.
 
@@ -89,16 +90,30 @@ conversation.
    the config lives and keeps growing/enriching — it is not a substitute for
    the CSV export of what's in it as of the pull date. No sourcing tool gets
    a free pass on this.
-3b. **Every prospect-level (`-leads.csv`) record is keyed by LinkedIn URL.**
+3b. **Every prospect-level (`-leads.csv`) record is keyed by LinkedIn URL —
+   this is *why* every pull gets stored, not just a formatting rule.** The
+   whole point of 3a landing every pull on disk is to make deduplication
+   possible: without the file, there's nothing to check a new pull against.
    The prospect's LinkedIn profile URL is the unique identifier across every
-   tool, snapshot, and session — not an internal ID from Blitz/AI Ark/Clay,
-   not email or name (both can collide or change). Every `-leads.csv` must
-   have a `linkedin_url` column (the full profile URL,
-   `https://www.linkedin.com/in/...`), and it should be the first column.
-   Use it to dedupe within and across snapshots for the same config, and to
-   cross-reference a prospect between a `-leads.csv` and its parent
-   `-companies.csv` row. (Companies already follow the equivalent pattern via
-   `company_linkedin_tag` / a standardised domain — keep using that.)
+   tool, snapshot, config, and session for that client — not an internal ID
+   from Blitz/AI Ark/Clay/Prospeo, not email or name (both can collide or
+   change). Every `-leads.csv` must have a `linkedin_url` column (the full
+   profile URL, `https://www.linkedin.com/in/...`), and it should be the
+   first column. Use it to dedupe:
+   - within and across snapshots for the *same* config (a re-pull growing
+     the same segment),
+   - and **across a client's other configs/segments** too — since this
+     agency pursues every segment for a client (see "Campaign build
+     standard" below), the same prospect can legitimately surface in more
+     than one segment's pull, and it's worth knowing that rather than
+     discovering it downstream. Before or after a new `-leads.csv` lands,
+     check it against that client's other existing `-leads.csv` files for
+     `linkedin_url` overlap, and note anything meaningful in the pull's
+     History entry (e.g. "N of these also appear in `<other config-slug>`").
+   Also use `linkedin_url` to cross-reference a prospect between a
+   `-leads.csv` and its parent `-companies.csv` row. (Companies already
+   follow the equivalent pattern via `company_linkedin_tag` / a standardised
+   domain — keep using that, unchanged, for company-level dedup.)
 4. **No silent blanks.** If a field has no value (no Clay workbook, no contact
    email), write `-` explicitly. An empty cell reads as "not checked yet"; a
    `-` reads as "checked, none exists."
@@ -119,13 +134,18 @@ and campaign work gets scoped and recorded:
   the pull's History entry ("new segment" vs "expanding existing segment") —
   that distinction is exactly the kind of thing this repo exists to keep
   visible instead of buried in someone's memory of a session.
-- **Outreach depth follows TAM/SAM, inversely.** When deciding how many
-  contacts to pull per company for a segment: a **small** TAM/SAM (few
-  target companies in the segment) means reach out to **more** people at
-  each one; a **large** TAM/SAM (many target companies) means reach out to
-  **fewer** people at each one. Record the TAM/SAM read and the per-company
-  contact count that decision produced in the pull's History entry or its
-  `.query.md` file — that number should never show up unexplained.
+- **Outreach depth *per company* follows TAM/SAM, inversely — but total
+  volume is never the thing being cut.** When deciding how many contacts to
+  pull per company for a segment: a **small** TAM/SAM (few target companies
+  in the segment) means reach out to **more** people at each one; a
+  **large** TAM/SAM (many target companies) means reach out to **fewer**
+  people at each one, because there are more companies to spread across, not
+  because the segment should be pursued more conservatively overall. **We
+  always want more people reached, not less** — when genuinely unsure how
+  many contacts to pull, per company or in total, err toward more. Record
+  the TAM/SAM read and the per-company contact count that decision produced
+  in the pull's History entry or its `.query.md` file — that number should
+  never show up unexplained.
 - **The full build for a client/segment has three parts**, and all three
   should end up traceable in this repo, not just remembered:
   1. **Implement the campaign(s) already defined for the client in
@@ -142,6 +162,101 @@ and campaign work gets scoped and recorded:
      and deliberately not final: improve it as real runs surface what
      actually works, the same way this repo's own standards evolve.
 
+The skill roster for this workflow is expected to keep growing — don't treat
+the list above as fixed. Check what's actually available (the skills listing
+surfaced to the session) rather than assuming only these exist.
+
+## listbuild — the exhaustive-recall engine (project skill, `.claude/skills/listbuild/`)
+
+A self-contained, tested (123 tests) Python pipeline shipped *inside this repo*
+as a project skill, so every session here loads it automatically. It builds an
+exhaustive contact list for an ICP by running Blitz → Clay → DiscoLike (all
+three, every run), deduping on LinkedIn URL **and** first+last+domain (catches
+changed LinkedIn slugs), excluding prior prospects, guarding titles, and
+classifying company fit. Full usage lives in its own `SKILL.md`; this section
+covers only how it plugs into this repo's standard.
+
+**Where it fits:** listbuild is the *recall* layer — casting the widest
+defensible net for a segment. It is not the precision layer: its company fit
+is industry-label + keyword only (~30% precise on catch-all labels). A
+session's own qualification work (e.g. Haiku agent scoring calibrated against
+client verdicts, signal research) runs *on top of* listbuild's output, not
+instead of it. Use it for **General**-scope builds (see "Sourcing protocol");
+Campaign-specific pulls still go through a session's targeted sourcing.
+
+**Workspace convention — one per client:** set
+`LISTBUILD_WORKSPACE=clients/<slug>/listbuild` and run the CLI as
+`python .claude/skills/listbuild/scripts/listbuild.py ...`.
+- `clients/<slug>/listbuild/config/<icp>.yaml` **is committed** — it is the
+  query record for the build (industries per provider, countries, revenue
+  floor, seniority, fit rules), satisfying the `.query.md` requirement.
+- `clients/<slug>/listbuild/out/` (SQLite ledger, raw exports) is
+  git-ignored. The ledger makes reruns resume within a session, but it does
+  **not** survive the container being reclaimed.
+
+**Skip its `setup.py` in these sessions.** Keys already come from session env
+vars, which listbuild reads directly; install deps with
+`pip install -r .claude/skills/listbuild/requirements.txt`. (Upstream,
+`setup.py` without key arguments wrote an empty `.env` that silently erased
+every env-var key. That is patched here — see the skill's `LOCAL_CHANGES.md`
+— but setup still adds nothing a cloud session needs.)
+
+**Mandatory gates (from the skill's own rules, restated because they cost
+money or credibility if skipped):**
+1. `new-icp` → read the mapping notes; never silently add its "related
+   labels" or accept unmapped labels — confirm with the user.
+2. `preview` is free and **must be shown to the user and approved** before any
+   `run`. Pass every prior-prospect CSV for that client via `--seeds` (their
+   existing `sourcing/**/*-leads.csv` files and any HeyReach exports).
+3. `run` always starts with `--discolike-cap-usd 0` (estimate only). A paid
+   DiscoLike cap is set only after the user approves the printed estimate and
+   the balance covers it.
+4. Relay the closing "PROVIDER LIMITS HIT" list verbatim.
+
+**Seniority is a deliberate choice, not a default.** listbuild defaults to
+`director_plus`; this repo's principle is "more people reached, not less", and
+sessions have deliberately widened to Manager level with documented reasoning.
+Pick `director_plus` | `vp_plus` | `manager_plus` against the client's ICP and
+record why in the History entry.
+
+**Long runs in cloud sessions:** the full `run` can take 20 min to hours; a
+foreground tool call caps at 10 min. Run it **stage by stage**
+(`run --stages blitz`, then `clay merge`, then `companies companies-kw domains
+consolidate`, etc.) and simply rerun the same command if a call times out —
+every stage is idempotent and resumes from the ledger. (Untested at full scale
+in this environment yet; note what happens in History on first real use.)
+
+**Landing the output in the repo (rule 3a still applies):** run
+`python tools/leads.py from-listbuild --client <slug> --icp <name>
+--config-slug <slug>`. It concatenates the export parts into
+`<date>-leads.csv`, `-leads-candidates.csv` (catch-all industries, needs
+review) and `-leads-unverified.csv`, in the canonical schema with
+`linkedin_url` first and `all_sources` as the per-row provider record, never
+overwriting a dated file, and writes a `.query.md` with the config pointer,
+`consolidate` QA counts and `cost_report.md`. Fill in its TODO purpose line,
+then run the normal step 3a overlap check and History entry.
+
+## GTM Sheets build standard per campaign
+
+GTM Sheets is Algo Acquisition's own Clay-style table app inside Tracking Clients (`gtm_sheet_*` tools on the tracking_clients MCP, dashboard.algoacquisition.ai/gtm-sheet). Never call it Clay. **GTM Sheets is where all of a campaign's working is displayed**, not just its final lead list. Anyone opening it should see how the leads were arrived at. (Standard set by the repo owner, 2026-11-05.)
+
+- **One workbook per campaign.** Don't put several campaigns in one workbook as separate tables.
+  - Create it in the client's folder (`gtm_sheet_open_client_folder`), and link it to its tracking_clients campaign (`gtm_sheet_create_workbook` with `campaign`) so the campaign page shows its tables.
+  - Name it after the campaign, e.g. the HeyReach campaign name `US | Recruiter | Cybersecurity Open Roles | Moe v1`.
+- **The workbook shows the funnel as numbered tables, from widest to narrowest.** For a job-signal campaign that is:
+  1. **Companies:** every company that passed the firmographic, revenue, industry and DNC filters, with a column for how many leads each produced. Companies that produced none stay in the table, so the drop-off is visible.
+  2. **Jobs:** the postings behind the outreach, with title, cleaned role, posted date, URL, the summary, the `jd` phrase, and the company.
+  3. **Leads:** the prospects, keyed by LinkedIn URL. Include a `Status` column ("launch set", or "removed: <reason>" after a freshness check, so removals are shown rather than deleted), and a **Push to HeyReach** column wired to the campaign with its custom fields. The Push column has auto-run off and `run_if` Status = "launch set".
+
+  Non-job campaigns keep the same idea: one table per funnel stage, with the source and signal table first.
+- **Each table's rows come from the repo's CSVs, not the other way round.** The repo stays the audit record (Golden rule 3a).
+  - Load from the shell through each table's webhook (`gtm_sheet_build_table` with `source: "webhook"` and field columns). For an example, see `clients/elite-technical/gtm-sheets/`.
+  - Don't load through chat, and don't load with per-lead MCP calls.
+  - Afterwards, check each table's row count against its CSV (`gtm_sheet_get_workbook`).
+  - Webhook URLs can write to their tables: never commit them.
+  - A webhook load appends, so a re-run duplicates rows.
+- Link the Leads table to its lead list (`gtm_sheet_update_table` `lead_list`). Record every workbook and table id in the client README.
+
 ## Required sections in every `clients/<slug>/README.md`
 
 Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
@@ -149,7 +264,10 @@ Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
 - **Profile** — as today, plus a `**Last synced:**` line (date + which MCP
   calls confirmed it, e.g. `2026-09-14 via get_client + list_sourcing_configs`).
 - **Sourcing configs** table — mirrored verbatim from `tracking_clients` at
-  sync time. Don't hand-adjust `company_count`; re-sync instead.
+  sync time, plus a **Scope** column (`General` or `Campaign-specific: <name>`)
+  that isn't in `tracking_clients` — set it from the scope decision made
+  before that config's data was pulled (see "Sourcing protocol" below). Don't
+  hand-adjust `company_count`; re-sync instead.
 - **Sourced data in this repo** — one line per snapshot file already in this
   folder's `sourcing/` tree: file path, row count, config name **and its
   tracking_clients UUID**, the tool that produced it, and the pull date (the
@@ -165,15 +283,93 @@ Follow `clients/_TEMPLATE/README.md` for the exact layout. In short:
 1. Pull the data with the tool the config calls for (see "Sourcing tools"
    below) — record the exact query/filters used.
 2. Save the CSV as `sourcing/<config-slug>/<YYYY-MM-DD>-companies.csv` (or
-   `-leads.csv`). Never overwrite an existing dated file.
+   `-leads.csv`). Never overwrite an existing dated file. **For leads, write
+   them through `python tools/leads.py normalize RAW.csv
+   sourcing/<config-slug>/<date>-leads.csv --source <tool>`** — it applies the
+   canonical leads schema (below), canonical LinkedIn/domain forms, rule-4
+   dashes, in-file dedupe on both keys, and a `title_check` column, instead of
+   each session hand-rolling that. Extra columns a pull carries (scores,
+   evidence, InMail copy) are kept after the canonical ones, never dropped.
 3. If the query had more than a trivial filter or two, save it next to the CSV
    as `<YYYY-MM-DD>-companies.query.md` (or `.json`) — a one-time chat
    explanation is not a durable record; a future session re-reading this repo
    needs the query on disk to reproduce or extend the pull.
+3a. For a new `-leads.csv`: check it against that client's other existing
+   `-leads.csv` files (this is the dedup this repo's storage exists to enable
+   — see 3b above) with `python tools/leads.py overlap <new file> --client
+   <slug>`. It matches on LinkedIn URL **and** first+last+domain (the second
+   key catches people whose LinkedIn slug changed — on VNTANA's real files it
+   found overlaps the URL alone missed) and prints a ready-made History line.
+   Note any overlap in the History entry rather than silently dropping or
+   silently keeping duplicates.
 4. Update the client's README **in the same commit**: add the row to "Sourced
-   data in this repo" and a "History" entry stating tool, row count, and the
-   purpose (which ICP/segment/campaign this feeds).
+   data in this repo" and a "History" entry stating tool, row count, the
+   purpose (which ICP/segment/campaign this feeds), and any cross-segment
+   overlap found in step 3a.
 5. Commit with the convention below.
+
+## Shared tooling — `tools/leads.py` (don't rewrite these per session)
+
+Sessions used to rebuild their own filter/dedupe scripts each time and never
+commit them (e.g. VNTANA's `filter_mega.py`, which decided which of 10,350 raw
+contacts were kept, exists in no repo). Reusable logic belongs in `tools/`,
+committed and tested (`python -m pytest -q tools/tests`). `tools/leads.py`
+reuses listbuild's own identity and title-guard modules, so there is one copy
+of that logic in the repo:
+
+| Command | What it enforces |
+|---|---|
+| `normalize IN OUT --source <tool>` | canonical leads schema, `https://www.linkedin.com/in/<slug>` form, bare domains, rule-4 dashes, in-file dedupe on both keys, `title_check` |
+| `overlap NEW --client <slug>` | rule 3a overlap check across the client's other lead files, both keys, History-ready line |
+| `titles FILE` | title-guard tally + most common failing titles — a **report**, not an auto-drop: if the ICP deliberately includes managers, fails are expected |
+| `from-listbuild --client --icp --config-slug` | lands a listbuild export as `<date>-leads.csv` / `-leads-candidates.csv` / `-leads-unverified.csv` + a `.query.md` stub, append-only |
+
+If a session writes a new filter or transform that another session would
+reasonably need again, add it to `tools/` with a test (system-level change:
+ask first) rather than leaving it in scratch.
+
+**Canonical leads schema** (what `normalize` writes; extra columns follow):
+`linkedin_url, first_name, last_name, full_name, job_title, seniority,
+company_name, company_domain, company_linkedin_url, industry, revenue_hint,
+person_country, company_country, first_source, all_sources, title_check,
+icp_fit, fit_reason` — listbuild's export columns with `linkedin_url` moved
+first, so every tool's output lands in one comparable shape.
+
+## Sourcing lessons (from listbuild's real-failure rules + our own runs)
+
+These apply to every pull, whether or not listbuild is used:
+
+- **Catch-all LinkedIn industries are never core.** "Business Consulting and
+  Services", "Management Consulting", "Strategic Management Services",
+  "Professional Services", "Professional Training and Coaching", "Operations
+  Consulting", "Outsourcing and Offshoring Consulting", "Business
+  Intelligence Platforms" hold everything from engineers to headhunters
+  (~30% precise even with a keyword gate). Keep them in a separate,
+  keyword-gated candidates file for review — never mixed into a main list.
+- **Blitz carries legacy *and* current label names as separate values** (e.g.
+  `Marketing Services` + `Marketing and Advertising`, `Software Development`
+  + `Computer Software`, `IT Services and IT Consulting` + `Information
+  Technology and Services`). Request both or silently lose accounts. The
+  maintained mapping is `LEGACY_LABELS` in
+  `.claude/skills/listbuild/listbuild/icp_gen.py`.
+- **Blitz caps a query at 50,000 results and its `total_results` is not
+  trustworthy** (a VNTANA session found real counts far below it). Split large
+  pulls into slices (country × seniority × revenue/size) under the cap and
+  treat "cursor returned null" as the only proof a slice is exhausted.
+- **Clay's public API is quota-bound:** 500 rows per run, 1M results per
+  period shared across everyone using the key; stop sweeps with ≥150k
+  remaining. People rows carry company name only — join domains afterward.
+- **Paid providers are estimate-first, approval-gated, capped.** Price the
+  pull (count × rate, adjusted for expected overlap with what's already held),
+  show the user, and set an explicit spend cap before fetching. DiscoLike in
+  particular ignores exclusion lists, so ~40% of a paid pull duplicates the
+  free layers.
+- **Spend truth is the provider's billing log, not its balance field** —
+  other processes may share the key.
+- **Seniority filters leak.** Provider seniority enums let a few percent of
+  sub-director titles through; run `tools/leads.py titles` and decide
+  deliberately. In recruiting firms "Partner" / "Talent Partner" can be
+  fee-earner titles; in agencies "Art Director" is mid-level.
 
 ## Commit message convention
 
@@ -217,6 +413,14 @@ skill before relying on this section.
 Req campaign; Open webhook → Open Check campaign. Getting this backwards is
 a real bug that has happened (Vertical 3).
 
+**Open Check needs senders with active Sales Navigator.** `CHECK_IS_OPEN_PROFILE`
+only works from a LinkedIn account that has an active Sales Nav seat —
+assign a sender pool without one to Open Check and the campaign won't launch
+out of DRAFT (Step 3's start-then-pause fails). Confirm Sales Nav status for
+the sender pool at Step 0, before Step 2 assigns senders — if the pool
+lacks Sales Nav coverage, flag it and ask rather than assigning senders that
+will make Open Check un-launchable.
+
 **Default templates to clone** (Vertical 1's canonical campaigns, unless
 told to clone from a different vertical): Con Req `567452`, Con Acc
 `554375`, Open Check `567476`, Open Profile `557771`.
@@ -228,15 +432,18 @@ shared across types, never reused from another vertical.
 **Steps:**
 
 0. **Gather inputs — ask, don't guess:** vertical id + region prefix,
-   version label, sender pool (LinkedIn account IDs), and both Clay webhook
-   URLs (Connection Accepted, Open Profile/Viewed Profile).
+   version label, sender pool (LinkedIn account IDs) **with each account's
+   Sales Navigator status confirmed**, and both Clay webhook URLs (Connection
+   Accepted, Open Profile/Viewed Profile).
 1. **Create 4 lists** (`create_empty_list`, `USER_LIST`), one per type,
    named per convention.
 2. **Create 4 campaigns** (`create_campaign_from_template`) — first 100
    sender IDs from the pool go to every campaign (hard API cap, confirmed no
    workaround; anything beyond 100 gets added manually in the UI
-   afterward). Verify each cloned sequence immediately with
-   `get_campaign_sequence`.
+   afterward). **Open Check gets only senders with active Sales Navigator**
+   (see above) — don't assign it the same unfiltered pool as the other
+   three if the pool includes non-Sales-Nav accounts. Verify each cloned
+   sequence immediately with `get_campaign_sequence`.
 3. **For Con Req and Open Check only:** `start_campaign` then immediately
    `pause_campaign`, and confirm `startedAt` is non-null via `get_campaign`.
    This is the only way to make a DRAFT campaign webhook-eligible —
@@ -261,47 +468,143 @@ No delete-campaign tool exists — only pause; a wrongly-created campaign gets
 paused and flagged for manual deletion in the UI. `delete_webhook` requires
 deactivating it first (`update_webhook`, `isActive: false`).
 
+## Sourcing protocol — tool order, scope, and what to pull
+
+- **Every sourcing pull runs both Clay and Blitz API — always, not just on
+  escalation.** These two are the standing pair: run the same targeting
+  through both, combine what they return (dedupe on `linkedin_url` for
+  people / `company_linkedin_tag`/domain for companies per 3b above), and
+  save the combined result as the pull's CSV. This maximizes coverage per
+  the "always want more people reached, not less" principle above — two
+  tools searching the same criteria surface different records, not just
+  redundant ones. Note which tool contributed which rows if that's easy to
+  preserve (e.g. a `source_tool` column), but don't let that block combining
+  them into one snapshot.
+- **Prospeo and AI Ark stay escalate-only, cheapest-of-the-two-first.** Reach
+  for these only when Clay + Blitz combined still don't cover what's needed
+  (missing companies/people, weak match quality, no LinkedIn found) — don't
+  reach for a pricier tool by default just because it's more capable:
+  1. **Prospeo API**
+  2. **AI Ark API**
+  Check "Sourcing tools" below for whether a given tool is actually live in
+  *this* session before planning to use it.
+- **LinkedIn is the only identifier we need — don't spend on email
+  enrichment.** A sourcing pull only needs each prospect's `linkedin_url`
+  (and each company's `company_linkedin_tag`/domain) — skip any step that
+  enriches for email unless a specific campaign explicitly requires outbound
+  email. This keeps cost down and matches LinkedIn URL already being the
+  required unique key for prospect records (see 3b above).
+- **Two sourcing scopes exist — ask which one before pulling, don't infer
+  it:**
+  - **General** — a larger, broader audience for the client, not tied to any
+    one campaign's exact requirements.
+  - **Specific** — narrower, built to one campaign's exact targeting
+    criteria, pulled only when that particular campaign actually needs it.
+  - Default posture is to **ask the user which scope they want** before
+    starting a pull. Once decided, record it — in the config's row/History
+    entry, e.g. "General" or "Campaign-specific: `<campaign name>`" — so a
+    future session understands why that pull's breadth was chosen without
+    having to ask again.
+
 ## Sourcing tools — check status before assuming a tool is live
 
 Confirm the relevant API key is actually present in *this* session's
 environment before using a tool (`env | grep -i <NAME>_API_KEY`) — session
 environments are fixed at provisioning, so a key added to the environment
 config after a session started won't appear until a fresh session is spun up.
-As of the last check (2026-09-15) **six sourcing API keys are present** —
-re-verify with `env | grep -iE 'api|key'` at the start of a session:
+As of the last full check (2026-09-24, all six tools live-tested with real
+calls, not just env presence):
 
-- **Blitz API** — confirmed live (`BLITZ_API_KEY`). Call directly over
-  HTTPS; the `Blitz-API` MCP tool only searches Blitz's own docs, it does not
-  proxy live requests. `max_results` caps at **25** (not 50). Supports far more
-  than the industry filter we historically used: `naics_code`, `revenue.min/max`,
-  `keywords.include/exclude`, `employee_count`, `type`, `founded_year`.
-  **Two accuracy warnings:** its `total_results` disagreed with its own history
-  by ~6× on an identical filter (see `clients/vntana/icp-universe-map.md` §6),
-  and its NAICS tagging is noisy — a plastics-packaging group and a mining
-  software vendor both came back under aggregate-machinery codes. Treat Blitz
-  counts as indicative and always eyeball the companies behind them.
-- **AI Ark API** — confirmed live (`AIARK_API_KEY`). No MCP tool at all for this
-  one (not even docs) — call directly. Rate limit 5 req/s. **It 403s the default
-  Python user-agent** (`403 error code 1010`); send `User-Agent: curl/8.5.0`.
-  Best available **lookalike** search, but seed it with the target's *LinkedIn
-  company URL* — domain seeds silently fail (seeding `astecindustries.com`
-  returned government agencies and a fried-chicken chain).
-- **Clay** — `mcp__Clay__*` tools, live, plus a direct `CLAY_API_KEY`.
-  Single-company enrichment and `Company Competitors`; not a bulk sizing tool.
-- **Prospeo API** — **key now present** (`PROSPEO_API_KEY`, confirmed
-  2026-09-15). Not yet exercised — record base URL, auth header and endpoints
-  here the first time a session uses it.
-- **EXA** — **key present** (`EXA_API_KEY`). `findSimilar` is a *web-page*
-  similarity engine, not a company-entity engine: on company seeds it returns
-  Wikipedia/Bloomberg/Owler profile pages about the seed. Use Websets for
-  entity work, or prefer AI Ark lookalikes.
-- **DiscoLike** — **key present** (`DISCOLIKE_API_KEY`). Original source of the
-  two 99-company VNTANA DiscoLike configs. Not yet exercised directly from a
-  session; document endpoints here when first used.
-- **ColdIQ** — **key present** (`COLDIQ_API_KEY`), purpose not yet established.
-  Document it here once a session works out what it does.
-- Sales Navigator remains unwired — run those steps wherever it *is* connected
-  and bring the resulting export back here, cited the same way.
+- **Clay** — `mcp__Clay__*` tools, live (confirmed via
+  `get-current-workspace`: workspace `algoacqusition`, id `770250`). **Never
+  guess an `industry` filter value** — `search-companies`'s `industry` field
+  is an exact-match enum (free text like `"Software"` errors) drawn from
+  Clay's own 457-value canonical taxonomy, supplied by the repo owner
+  2026-09-24 and saved at `docs/clay/industry-taxonomy.csv` (source, as
+  given) and `docs/clay/industry-taxonomy.txt` (plain one-per-line). Copy
+  values from there verbatim — this is a **different** list from Blitz's
+  534-value industry enum below; never substitute one for the other.
+- **Blitz API** — confirmed live (`BLITZ_API_KEY` present, `POST
+  /v2/company/tam-by-jobs` returned `200`). Call directly over HTTPS; the
+  `Blitz-API` MCP tool only searches Blitz's own docs, it does not proxy
+  live requests. **Don't guess `POST /v2/search/companies` param names** —
+  an earlier session did (`employee_count_min`, `country`) and got a
+  silent-`200`-but-wrong-filter result, since Blitz doesn't reject unknown
+  fields. The real schema (all fields, ranges, enums) is saved at
+  `docs/blitz-api/company-search.md`, with the full 534-value industry
+  enum in `docs/blitz-api/company-search-industries.txt` (pulled from
+  Blitz's own OpenAPI spec 2026-09-24) — read those before building a
+  Blitz company-search request instead of re-deriving or guessing params.
+  **Field lessons (VNTANA sessions, 2026-09/10):** the spec allows
+  `max_results` 1–50 but a session observed it capping at **25** — page with
+  ≤25. Its `total_results` disagreed with its own history by ~6× on an
+  identical filter (`clients/vntana/icp-universe-map.md` §6) and its NAICS
+  tagging is noisy (a plastics-packaging group and a mining software vendor
+  came back under aggregate-machinery codes) — treat counts as indicative and
+  eyeball the companies behind them.
+- **Prospeo API** — confirmed live as of 2026-09-24 (`GET
+  https://api.prospeo.io/account-information`, `X-KEY` header, `200`: PRO
+  plan, credits remaining). `PROSPEO_API_KEY` is now visible in session
+  env — the earlier "not yet visible" note (2026-09-14) is resolved.
+- **AI Ark API** — confirmed live (`AIARK_API_KEY` present, `GET
+  /v1/payments/credits` returned `200`). No MCP tool at all for this one
+  (not even docs) — call directly. Rate limit 5 req/s.
+  **It 403s the default Python user-agent** (`403 error code 1010`); send
+  `User-Agent: curl/8.5.0`. Best available **lookalike** search, but seed it
+  with the target's *LinkedIn company URL* — domain seeds silently fail
+  (seeding `astecindustries.com` returned government agencies and a
+  fried-chicken chain).
+- **Exa** (`EXA_API_KEY`) — confirmed live as of 2026-09-15 (`POST
+  https://api.exa.ai/search`, `x-api-key` header, returned real results).
+  This is a web-search API, not a people/company database — treat it as a
+  research/signal tool (e.g. "why now" triggers, company news) alongside the
+  sourcing tools above, not a substitute for them in the cost-priority list.
+  `findSimilar` is a *web-page* similarity engine: on company seeds it returns
+  Wikipedia/Bloomberg/Owler pages about the seed, not peer companies — use
+  Websets for entity work, or prefer AI Ark lookalikes.
+- **ColdIQ** (`COLDIQ_API_KEY`, `https://api.coldiq.com`, `Authorization:
+  Bearer` header **plus a `User-Agent`** — the default Python-urllib one gets a
+  bare 403 that looks like an auth failure). A credit-metered gateway over 40
+  third-party providers plus ColdIQ's own products: 705 paths / 820
+  operations. **Full catalog, per-operation credit prices and the pinned spec
+  are in `docs/coldiq/`** (`catalog.md` to read, `catalog.json` for tooling,
+  `openapi.json` = the 2026-09-30 spec snapshot, `build_catalog.py`
+  regenerates the catalog offline). Rules:
+  - **Nothing is free except admin/billing reads.** Before any call, look up
+    its `x-credits-cost` in `docs/coldiq/openapi.json`; don't guess params
+    either (the Blitz lesson applies). Correction: the
+    `apollo/people/search` "preview" calls logged here on 2026-09-15 were
+    **not** free — 9.91 credits (~$0.14) per call, obfuscated rows included.
+  - **Check the balance first, free:** `GET /v1/me/credits` (1 credit =
+    $0.0143). On 2026-09-30: **1.72 credits left, 23,703 used this month** —
+    effectively empty; any paid call returns 402 until topped up.
+  - **Most relevant for LinkedIn-first sourcing** (details in catalog.md):
+    `POST /v1/people/search` and `/v1/companies/search` (ColdIQ's own
+    waterfall across AI Ark, Prospeo, Apollo, LinkUp, Lima Data, etc.,
+    charged on success, `max_credits` cap, 50 rows/request;
+    `similar_to_domains` routes company lookalikes to DiscoLike);
+    LeadsFactory Sales Navigator scraping (~0.35 cr per profile — the
+    cheapest LinkedIn URL per row); HarvestAPI and Lima Data searches.
+  - Several providers here (AI Ark, Prospeo, Exa, DiscoLike) are also keys
+    we hold directly — compare the direct price before routing through
+    ColdIQ. The Hunter/RocketReach/Saleshandy pages on coldiq.com are a
+    marketing directory, **not** tools reachable through this API.
+  - **Still not placed in the "Sourcing protocol" cost order** — ask the
+    user where it ranks before treating it as default-preferred.
+- **Clay public REST API** (`CLAY_API_KEY`, `api.clay.com/public/v0`,
+  `clay-api-key` header — what listbuild uses, separate from the `mcp__Clay__*`
+  MCP connection) — **confirmed working as of 2026-09-30** (`GET /me` returns
+  200 for the `algoacquisition` user). The key set on 2026-09-29 returned
+  `401`; it has since been replaced.
+- **DiscoLike** (`DISCOLIKE_API_KEY`, `api.discolike.com/v1`) — key works,
+  account active, but **overdrawn (~$4 below zero, $202.19 month-to-date)** as
+  of 2026-09-29. Any paid pull fails until topped up; run listbuild with
+  `--discolike-cap-usd 0`. Paid ($0.0035/contact) and cannot honor exclusion
+  lists, so it is estimate-gated, never a default spend.
+  (It is the original source of the two 99-company VNTANA DiscoLike configs.)
+- Any config brief mentioning Sales Navigator names a tool not wired into
+  these sessions; run those steps wherever it *is* connected and bring the
+  resulting export back here, cited the same way.
 
 ## Session responsibilities
 
