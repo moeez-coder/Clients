@@ -79,7 +79,7 @@ The ICP form (2026-11-04) is the client's own answer. The brief was written with
 
 | Doc | tracking_clients doc id | Status | Shared with client | Repo copy |
 |---|---|---|---|---|
-| twoHundred Campaign Ideas (10 campaigns) | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | client_review (sent 2026-11-06) | yes, [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=a4c10f55-28e7-420e-9040-d8fe8a80ee51) | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
+| twoHundred Campaign Ideas (10 campaigns) | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | internal_review: client comments resolved 2026-11-12, not yet re-sent | yes, [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=a4c10f55-28e7-420e-9040-d8fe8a80ee51) | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
 
 A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 2026") existed briefly. By 11:30 it no longer appeared in `list_campaign_docs`, so it was removed from the dashboard (not by this session).
 
@@ -88,6 +88,16 @@ A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 20
 - `-`: no snapshots yet.
 
 ## History
+
+- **2026-11-12**: Resolved twoHundred's 4 portal comments on campaign doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` (status `internal_review`) with `review_campaign_doc`: 35 tracked edits, all accepted, plus a reply on each comment. `replace_markdown` was not used, so the client's comment threads stay visible. The comments and how each was resolved are in `campaigns/2026-11-06-campaign-ideas.client-comments.md`.
+  - **What changed in the plan:**
+    - All partners are excluded.
+    - Partner names may be used in messages.
+    - The CIO Pulse link `https://hubs.ly/Q04DzhC10` was checked and now replaces `{pulse_link}`.
+    - **The offer changed:** the client says a tailored plan is only possible after a call, so messages now offer an overview of the 2027 Forum events up front, and roundtables and the tailored plan come from the call. This also replaces the open-role campaigns' bespoke one-pagers.
+  - **Waiting on the client:** the Forum overview link or PDF, requested in the reply to comment #7.
+  - **Not re-sent yet:** waiting for Moe's go-ahead, because `send_campaign_doc_to_client` posts in the client's Slack.
+  - **Attribution:** the tracking_clients connector in this session wrote these edits as `mcp:dave@algoacquisition.com`. The comment author is "Algo Acquisition".
 
 - **2026-11-06**: Removed the "Lead magnet:" line from all 10 campaigns (Moe: "remove the lead magnet section for now"). Then sent doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` to the client with `send_campaign_doc_to_client`.
   - **Result:** status `client_review`, shared with the client, and the portal link was posted to twoHundred's Slack channel (`notified_client.ok: true`).

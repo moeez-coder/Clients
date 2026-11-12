@@ -1,6 +1,6 @@
 # twoHundred Campaign Ideas
 
-Invitation-only executive communities and events for C-level leaders from the 200 largest enterprises in Denmark, Sweden, Norway, Finland and the Netherlands. These campaigns go to the technology vendors who partner with twoHundred, not to the executives who attend. There are ten signal-led LinkedIn campaigns. Campaigns 1 to 7 are each built around one of twoHundred's executive communities or a clear buying signal. Campaigns 8 to 10 are open-role campaigns: they start from a commercial role the vendor is hiring for in the Nordics or the Netherlands. They offer a ready-made executive programme that fits that hire, the way a recruiter offers a candidate who fits an open role. Every campaign offers something concrete before any commitment: a free, tailored 2027 executive engagement plan showing which forums and roundtables match the prospect's target buyers, markets and accounts. The CIO campaign also offers the Nordic CIO Pulse 2026 findings.
+Invitation-only executive communities and events for C-level leaders from the 200 largest enterprises in Denmark, Sweden, Norway, Finland and the Netherlands. These campaigns go to the technology vendors who partner with twoHundred, not to the executives who attend. There are ten signal-led LinkedIn campaigns. Campaigns 1 to 7 are each built around one of twoHundred's executive communities or a clear buying signal. Campaigns 8 to 10 are open-role campaigns: they start from a commercial role the vendor is hiring for in the Nordics or the Netherlands. They offer an overview of the 2027 Forum events that fit that hire, the way a recruiter offers a candidate who fits an open role. Every campaign offers something concrete that can be sent straight away: an overview of twoHundred's 2027 Forum events relevant to the prospect's buyers and markets. A tailored engagement plan, including roundtables built on request, follows from a 20-minute call. The CIO campaign also offers the Nordic CIO Pulse 2026 findings.
 
 ## Shared across all ten
 
@@ -12,7 +12,7 @@ Contacts per company: this follows how many companies each segment has. Narrow s
 Exclusions:
 - Individual contributors: account executives, marketing specialists, coordinators, SDRs and BDRs (client instruction)
 - twoHundred's Do-Not-Contact list (uploaded on the onboarding form, to be loaded before launch)
-- Current and past twoHundred partners (Oracle, Palo Alto Networks, SAP, Workday, Wonderful, Wiz, Zscaler, Ivalua and any others on the list), unless twoHundred wants some of them approached for new communities (see Before launch)
+- All current and past twoHundred partners (Oracle, Palo Alto Networks, SAP, Workday, Wonderful, Wiz, Zscaler, Ivalua and any others on the list), as confirmed by twoHundred
 - Other executive event organisers, executive communities, analyst firms and media companies that sell sponsorships
 - The large enterprises whose executives are twoHundred members. They are the audience, not the buyers.
 - Contacts already in another live twoHundred sequence. One person is in one campaign only, and suppression is refreshed right before launch.
@@ -43,12 +43,12 @@ Message 1: Hi {first_name}, we run twoHundred's CPO and CSCO community: procurem
 {company} sells to exactly those people, so I wanted to ask: are the Nordics and Benelux a priority market for you in 2027?
 Message 2: Our format is small on purpose, {first_name}.
 Roundtables seat 7 to 12 C-level executives around one topic, so partners get real conversations with the people they want to reach.
-Happy to put together a free 2027 engagement plan showing which of our forums and roundtables match your target accounts. Open to a 20-minute call?
+Happy to send over our 2027 Forum events for supply chain and procurement leaders. If any fit, a 20-minute call is where we'd shape a roundtable around your target accounts.
 Message 3: I'll leave it here, {first_name}.
-If the Nordic or Dutch supply chain market comes onto your 2027 plan, the offer of the engagement plan stands.
+If the Nordic or Dutch supply chain market comes onto your 2027 plan, happy to send the 2027 Forum overview.
 CTA variants to test in Message 1:
 - Who on your team owns the Nordic market today? (question only, no offer)
-- Would a free 2027 engagement plan for your Nordic target accounts be useful?
+- Would an overview of our 2027 Forum events be useful?
 
 ## Campaign 2: Beyond the Expo Hall
 
@@ -74,12 +74,12 @@ Events like that are great for reach, but it's hard to get real time with a CIO 
 Worth comparing notes on what each format brings?
 Message 2: Some context, {first_name}.
 We run 80+ executive events a year and connect partners like Oracle, SAP, Workday and Zscaler with 1,500+ senior decision-makers.
-Happy to map out which of our 2027 forums fit {company}'s target buyers and accounts, free. Open to a 20-minute call?
+Happy to send over the 2027 Forum events that fit {company}'s buyers. Open to a 20-minute call to see where a roundtable could fit too?
 Message 3: I'll leave it here, {first_name}.
 When the 2027 events plan is being set, happy to share where twoHundred could fit.
 CTA variants to test in Message 1:
 - How did {event_name} work out for meeting senior buyers? (question only, no offer)
-- Would a free 2027 engagement plan be useful while you plan next year's events?
+- Would an overview of our 2027 Forum events be useful while you plan next year's events?
 
 ## Campaign 3: New in the Seat
 
@@ -102,7 +102,7 @@ Signal (gates inclusion): role start date in the last 6 months. Claygent returns
 
 Message 1: Hi {first_name}, congrats on the new role at {company}.
 The first year in a seat like yours usually comes down to getting in front of the right executives at the biggest accounts. That's what we do at twoHundred: curated forums and roundtables with C-level leaders from the 200 largest enterprises in each Nordic country and the Netherlands.
-Would a free 2027 engagement plan built around your target accounts be useful?
+Would an overview of our 2027 Forum events be useful?
 Message 2: No rush, {first_name}, I know the first months are busy.
 Partners usually start with one roundtable of 7 to 12 executives on a topic close to their offering, and we handle everything from inviting the right executives to running the day.
 Open to a 20-minute call when things settle?
@@ -136,12 +136,12 @@ A new market usually means a long stretch of building relationships before the b
 Worth a 20-minute call on how partners use that in their first year in {country}?
 Message 2: For context, {first_name}.
 We run 80+ executive events a year, and partners like Oracle, SAP, Workday and Palo Alto Networks have used them to meet senior decision-makers face to face. We handle the executive invitations, agenda and delivery, so a new local team doesn't have to.
-Happy to share a free 2027 engagement plan for {country}.
+Happy to send over our 2027 Forum events in {country}.
 Message 3: I'll leave it here, {first_name}.
 As {company} gets established in {country}, happy to help open doors.
 CTA variants to test in Message 1:
 - How are you planning to open doors at the big accounts in {country}? (question only, no offer)
-- Would a free 2027 engagement plan for {country} be useful?
+- Would an overview of our 2027 Forum events in {country} be useful?
 
 ## Campaign 5: The CISO Room
 
@@ -167,12 +167,12 @@ Security partners like Palo Alto Networks, Wiz and Zscaler have joined those con
 Is reaching Nordic and Dutch CISOs a focus for {company} in 2027?
 Message 2: Our rooms are sales-free on purpose, {first_name}.
 CISOs come to learn from peers, and partners add to the conversation instead of pitching, which is why the executives keep coming back. That's what builds trust with the accounts.
-Happy to put together a free 2027 engagement plan for our CISO events. Open to a 20-minute call?
+Happy to send over our 2027 CISO Forum events. Open to a 20-minute call?
 Message 3: I'll leave it here, {first_name}.
-If Nordic CISOs come onto the 2027 plan, the offer stands.
+If Nordic CISOs come onto the 2027 plan, happy to send the 2027 CISO Forum overview.
 CTA variants to test in Message 1:
 - How do you get in front of Nordic CISOs today? (question only, no offer)
-- Would a free 2027 engagement plan for our CISO events be useful?
+- Would an overview of our 2027 CISO Forum events be useful?
 
 ## Campaign 6: Nordic CIO Pulse
 
@@ -228,12 +228,12 @@ Partners like Workday, SAP and Oracle have used our forums and roundtables to me
 Are Nordic {community}s a priority audience for {company} next year?
 Message 2: The format is what makes it work, {first_name}.
 Roundtables of 7 to 12 executives, built around a topic close to the partner's offering, and we handle the invitations, agenda and delivery.
-Happy to put together a free 2027 engagement plan for our {community} events. Open to a 20-minute call?
+Happy to send over our 2027 {community} Forum events. Open to a 20-minute call?
 Message 3: I'll leave it here, {first_name}.
-If Nordic {community}s come onto your 2027 plan, the offer stands.
+If Nordic {community}s come onto your 2027 plan, happy to send the 2027 {community} Forum overview.
 CTA variants to test in Message 1:
 - How do you get time with Nordic {community}s today? (question only, no offer)
-- Would a free 2027 engagement plan be useful?
+- Would an overview of our 2027 {community} Forum events be useful?
 
 ## Open-role campaigns (8 to 10): shared rules
 
@@ -241,7 +241,7 @@ Source: open postings from the last 60 days on the company's careers page and Li
 Who we contact: the hiring manager the role reports to, not the open seat. The client's instruction to avoid individual contributors applies to who we contact, not to the posting. An open Field Marketing Manager role is a valid signal, and we write to the Head of Field Marketing or EMEA Marketing Director above it. 1 or 2 contacts per company: the likely hiring manager, plus one level above.
 Claygent returns, per posting: {open_role} (cleaned title, for example "Field Marketing Manager, Nordics"), {open_role_with_article} ("a Field Marketing Manager"), {jd}, {city}, {country} and the posting URL. {jd} is a plain 4 to 10 word phrase from the job description saying what the hire must deliver, starting with a verb, for example "build pipeline with enterprise accounts in Sweden".
 One open-role campaign per company: if a company is hiring across several role families, the most senior role decides the campaign (Campaign 9 first, then 8, then 10).
-What we offer: the open-role format offers one specific, ready-made thing that fits the open seat, just as a recruiter offers a candidate who fits an open role. Here it is a ready-made twoHundred executive programme for that hire. The programme lists which forums and roundtables, in which countries, put them in a room with the C-level buyers they will be measured on. It is sent as a one-pager when they say yes.
+What we offer: the open-role format offers one specific, ready-made thing that fits the open seat, just as a recruiter offers a candidate who fits an open role. Here it is an overview of twoHundred's 2027 Forum events that fit that hire's markets and buyers, sent straight away when they say yes. Roundtables are built on request, so they come up on the 20-minute call, not in the first send.
 Fallbacks: when Claygent can't return a clean {open_role} or {jd}, the fallback versions below are used.
 
 ## Campaign 8: Open Roles, Field and Event Marketing
@@ -265,16 +265,16 @@ Signal (gates inclusion): one qualifying posting in the last 60 days.
 
 Connection request: Hi {first_name}, saw the {open_role} opening at {company}. Figured it was worth connecting given we run C-level events across the Nordics.
 Message 1: Thanks for connecting, {first_name}. Saw {company} has {open_role_with_article} role listed, and it looks like the hire will need to {jd}.
-Whether that one's fresh or has been open a while, we have something that fits it closely: a ready-made 2027 programme of twoHundred roundtables and forums with CIOs, CFOs and other C-level leaders from the 200 largest companies in each Nordic country and the Netherlands.
+Whether that one's fresh or has been open a while, we have something that fits it closely: our 2027 Forum events with CIOs, CFOs and other C-level leaders from the 200 largest companies in each Nordic country and the Netherlands.
 Want us to send it over so you can take a look?
 Message 2: Following up so this doesn't get buried, {first_name}.
 Our roundtables seat 7 to 12 C-level executives, and we handle the invitations, agenda and delivery. That way, whoever takes the {open_role} seat has executive events running from their first quarter.
 Worth a look, even just to compare with what's already planned?
 Message 3: No worries if the timing's off, {first_name}. Roles like this sometimes get filled quietly or sit open for a while.
-If it's useful, we'll send the programme over and you can skim it whenever. If not, no hard feelings and we'll leave it there.
+If it's useful, we'll send the Forum overview and you can skim it whenever. If not, no hard feelings and we'll leave it there.
 Fallback connection request: Hi {first_name}, saw your team is hiring for field marketing in the Nordics. Figured it was worth connecting given we run C-level events there.
 Fallback Message 1: Thanks for connecting, {first_name}. Saw your team is hiring for field marketing in the region.
-Whether that's fresh or has been open a while, we have something that fits closely: a ready-made 2027 programme of twoHundred roundtables and forums with C-level leaders from the largest Nordic and Dutch companies.
+Whether that's fresh or has been open a while, we have something that fits closely: our 2027 Forum events with C-level leaders from the largest Nordic and Dutch companies.
 Want us to send it over so you can take a look?
 
 ## Campaign 9: Open Roles, Country and Sales Leadership
@@ -298,16 +298,16 @@ Signal (gates inclusion): one qualifying posting in the last 60 days.
 
 Connection request: Hi {first_name}, saw the {open_role} opening at {company}. Figured it was worth connecting given we work with C-level leaders across the Nordics.
 Message 1: Thanks for connecting, {first_name}. Saw {company} is hiring {open_role_with_article}, and it looks like the hire will need to {jd}.
-Whether that's a fresh one or has been open a while, we have something that fits it closely: a first-90-days plan for the seat. It shows which twoHundred forums and roundtables put the new hire in a room with C-level leaders from the largest companies in {country}.
+Whether that's a fresh one or has been open a while, we have something that fits it closely: our 2027 Forum events in {country}, where the new hire can meet C-level leaders from the largest local companies.
 Want us to send it over?
 Message 2: Following up so this doesn't get buried, {first_name}.
 Our communities bring together CIOs, CISOs, CFOs, CHROs and CPOs from the 200 largest companies in each Nordic country and the Netherlands. Partners like Oracle, SAP and Workday have used them to open those doors.
 Worth a look alongside the hiring plan?
 Message 3: No worries if the timing's off, {first_name}. Leadership roles like this often take a while to fill.
-If it's useful, we'll send the plan over and you can skim it whenever. If not, no hard feelings and we'll leave it there.
+If it's useful, we'll send the Forum overview and you can skim it whenever. If not, no hard feelings and we'll leave it there.
 Fallback connection request: Hi {first_name}, saw your team is hiring commercial leadership in the Nordics. Figured it was worth connecting given we work with C-level leaders there.
 Fallback Message 1: Thanks for connecting, {first_name}. Saw your team is hiring commercial leadership in the region.
-Whether that's fresh or has been open a while, we have something that fits closely: a first-90-days plan showing which twoHundred forums and roundtables put a new leader in front of C-level executives at the largest local companies.
+Whether that's fresh or has been open a while, we have something that fits closely: our 2027 Forum events, where a new leader can meet C-level executives from the largest local companies.
 Want us to send it over?
 
 ## Campaign 10: Open Roles, ABM, Demand and Partner Marketing
@@ -331,32 +331,32 @@ Signal (gates inclusion): one qualifying posting in the last 60 days.
 
 Connection request: Hi {first_name}, saw the {open_role} opening at {company}. Figured it was worth connecting given we run C-level roundtables for ABM programmes in the Nordics.
 Message 1: Thanks for connecting, {first_name}. Saw {company} has {open_role_with_article} role listed, and it looks like the hire will need to {jd}.
-Whether that one's fresh or has been open a while, we have something that fits it closely: a target-account roundtable plan, with 7 to 12 C-level executives from the largest Nordic and Dutch companies, chosen to match your account list.
+Whether that one's fresh or has been open a while, we have something that fits it closely: our 2027 Forum events with C-level leaders from the largest Nordic and Dutch companies. On a call, we can also shape a roundtable of 7 to 12 executives around your account list.
 Want us to send it over so you can take a look?
 Message 2: Following up so this doesn't get buried, {first_name}.
 Our roundtables are invitation-only and sales-free, which is why the executives come. That's also why partners get real conversations with the accounts on their list, not badge scans.
 Worth a look, even just to compare with the current ABM plan?
 Message 3: No worries if the timing's off, {first_name}. Roles like this sometimes get filled quietly or sit open for a while.
-If it's useful, we'll send the plan over and you can skim it whenever. If not, no hard feelings and we'll leave it there.
+If it's useful, we'll send the Forum overview and you can skim it whenever. If not, no hard feelings and we'll leave it there.
 Fallback connection request: Hi {first_name}, saw your team is hiring for ABM and demand marketing. Figured it was worth connecting given we run C-level roundtables in the Nordics.
 Fallback Message 1: Thanks for connecting, {first_name}. Saw your team is hiring for ABM and demand marketing in the region.
-Whether that's fresh or has been open a while, we have something that fits closely: a target-account roundtable plan, with 7 to 12 C-level executives from the largest Nordic and Dutch companies, chosen to match your account list.
+Whether that's fresh or has been open a while, we have something that fits closely: our 2027 Forum events with C-level leaders from the largest Nordic and Dutch companies. On a call, we can also shape a roundtable of 7 to 12 executives around your account list.
 Want us to send it over so you can take a look?
 
 ## When a prospect says yes
 
-Great, thanks {first_name}. To make the engagement plan useful, we'd like 20 minutes on your target buyers, accounts and markets for 2027. Here's a link if that suits: {booking_link}
-For the CIO Pulse: Great, here are the key findings: {pulse_link}. Happy to walk through what they mean for {company} in a 20-minute call: {booking_link}
-For the open-role campaigns: Great, here it is: {programme_link}. The best version is built around the hire's actual target accounts, so a 20-minute call to tailor it is worth it: {booking_link}
+Great, thanks {first_name}. Here's our 2027 Forum overview: {forum_overview_link}. A tailored plan, including a roundtable built around your accounts, comes from a 20-minute call on your target buyers and markets. Here's a link if that suits: {booking_link}
+For the CIO Pulse: Great, here are the key findings: https://hubs.ly/Q04DzhC10. Happy to walk through what they mean for {company} in a 20-minute call: {booking_link}
+For the open-role campaigns: Great, here's our 2027 Forum overview: {forum_overview_link}. Roundtables are built around each partner's target accounts, so a 20-minute call is the best next step: {booking_link}
 
 ## Before launch
 
 - Do-Not-Contact list must be loaded. The file "Do_Not_Contact_twoHundred_enriched.xlsx" was uploaded on the onboarding form, but it is not yet in the system. Nothing launches until it is loaded.
-- Existing partners: should current and past partners (Oracle, Palo Alto Networks, SAP, Workday, Wonderful, Wiz, Zscaler, Ivalua) be excluded completely? Or should some be approached about communities they are not yet part of? Until twoHundred decides, they are excluded.
-- Open-role one-pagers: Campaigns 8 to 10 promise something ready to send on a yes: a 2027 executive events programme (8), a first-90-days plan per country (9) and a target-account roundtable plan (10). These need to exist as one-pagers before launch, ideally with the 2027 event calendar by country and community. We can draft them from the calendar for twoHundred to approve.
-- Partner names in messages: Campaigns 2, 4, 5, 7 and 9 name past partners, taken from the onboarding form. Please confirm all of them can be named publicly in outreach.
-- Nordic CIO Pulse 2026: Campaign 6 offers the findings. We need a shareable version (PDF or link) and confirmation that it can go to vendors. If it can't, Campaign 6 uses the engagement plan offer instead.
-- Free engagement plan: every campaign offers a tailored 2027 executive engagement plan. Please confirm who prepares it and how quickly it can be sent after a yes.
+- Existing partners: confirmed by twoHundred. All current and past partners are excluded.
+- Forum overview: every campaign now offers an overview of the 2027 Forum events relevant to the prospect, sent straight away on a yes. We need that overview as a shareable link or PDF before launch (one overview, or one per community or country).
+- Partner names in messages: Campaigns 2, 4, 5, 7 and 9 name past partners, taken from the onboarding form. Confirmed by twoHundred: all of them can be named in outreach.
+- Nordic CIO Pulse 2026: twoHundred shared a link that can go to vendors, https://hubs.ly/Q04DzhC10 (checked: it opens the HubSpot document). Campaign 6 sends it on a yes.
+- Engagement plan: confirmed by twoHundred. A tailored plan is only made after an intro call, and roundtables are built on request around each vendor's needs. So messages offer the Forum overview up front, and the tailored plan and roundtables come from the call.
 - Senders: no LinkedIn sending accounts are set up yet. We need to confirm whose profiles send (for example a Community Director or partnerships lead at twoHundred), and the copy will be adjusted to their voice.
 - Claims: messages stay within the onboarding form: 80+ executive events a year, 1,500+ executive decision-makers, roundtables of 7 to 12 and forums of 20 to 50 executives, communities for CIO, CISO, CFO, CHRO and CSCO/CPO, and the named partners above. No pricing, sponsorship packages, lead or meeting guarantees, or attendee names in the messages.
 - Consulting: the onboarding form also lists Consulting. Consultancies are included in Campaigns 2, 3, 4 and 6 where they sell to enterprise IT. A separate consulting campaign can be added if twoHundred wants one.
