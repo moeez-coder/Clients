@@ -132,6 +132,10 @@ Built from the SOP [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-
 - `sourcing/security-and-data-bench/2026-10-23-3-leads.csv` / `-companies.csv`: the complete Haiku qualification after re-running 4 incomplete batches. **8,330 of 11,594 leads QUALIFIED, 0 PENDING; 3,668 of 4,618 companies QUALIFIED.** Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`. Claude Haiku 5.5 workflow agents, 2026-10-23. Notes in `2026-10-23-2-leads.query.md` § Follow-up. **This is the source for future waves.**
 - `sourcing/security-and-data-bench/2026-10-27-heyreach-wave2.csv`: **2,500 leads** (2,240 companies, 678 Northeast) selected from `2026-10-23-3-leads.csv` for HeyReach wave 2. Config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, built 2026-10-27 with `build_wave.py --drop-odd-names`. Query: `2026-10-27-heyreach-wave2.query.md`.
 
+- `sourcing/mqc-talent-leaders/2026-11-12-leads.csv`: **503 leads, 499 `live_eligible`** (197 talent-acquisition leaders, 302 HR leaders, 1 per company) at hiring companies no CG campaign has touched, keyed by `linkedin_url`. 0 overlap with any other CG leads file. Segment **MQC (talent leaders)**, campaign-specific for `CG | MQC | TA Leaders | v1`; the tracking_clients lead list id is in the MQC section below. Pulled 2026-11-12 via **Blitz API `POST /v2/search/waterfall-icp-keyword`**. Query: `2026-11-12-leads.query.md`; request log `2026-11-12-requests.jsonl`.
+- `sourcing/mqc-talent-leaders/2026-11-12-companies.csv`: **813 hiring companies** (91 Northeast-HQ, 722 rest of US) not in any CG campaign or snapshot, 51–1,000 staff. Blitz `POST /v2/company/tam-by-jobs`, 2026-11-12.
+- `sourcing/mqc-talent-leaders/2026-11-12-jobs.csv`: **813 open jobs**, one current C&G-role-family posting per company (`{Open_Role}`). Blitz `POST /v2/jobs/company`, 2026-11-12.
+
 ### GTM Sheets (open-role segments)
 
 Folder **Clients / CG** (`06f39f3e-bdcc-4712-8f02-af8c33b0d8b8`): <https://dashboard.algoacquisition.ai/gtm-sheet#/gtm-sheet?folder=06f39f3e-bdcc-4712-8f02-af8c33b0d8b8>. The client tab is <https://dashboard.algoacquisition.ai/#/clients/4ca09bb2-25f9-4410-b269-9c8bcb816881/gtm-sheet>.
@@ -175,6 +179,15 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
+
+- **2026-11-12**: **New segment: MQC talent leaders (`mqc-talent-leaders`). Blitz API, 503 leads, 499 live-eligible, for the MQC campaign** (Moe: a campaign whose only goal is a reply, labelled MQC; "I give you full control, get me some result").
+  - **Why this audience:** Security and Data Bench (CTO/CISO, blank request, pitch-led message) has 2,418 requests, 3.8% accepted, 52 conversations and 5 replies, all "not hiring". So the MQC targets the people who buy from agencies (TA leaders, HR leaders as the fallback) at 51–1,000-staff companies with a live C&G-role-family posting.
+  - **Company-level exclusion** of the 5,280 companies already in any CG campaign or snapshot. The Northeast pool gave only 91 untouched companies, so the rest of the US was added (722).
+  - **TAM/SAM:** large relative to capacity, so **1 contact per company**.
+  - **Blitz records used: 4,484. CG running total ~24.0k** (under the 40k stop line).
+  - **Dedupe:** 0 overlap with every other CG leads file (`tools/leads.py overlap`, both keys).
+  - Code: `sourcing/mqc_spec.py`, `sourcing/pull_mqc.py`. Query: `2026-11-12-leads.query.md`.
+  - Per-client CG session (MQC).
 
 - **2026-11-12**: **The top-up is in GTM Sheets and being pushed to the 4 live campaigns.**
   - The 2026-11-12 Leads, Companies and Open Jobs CSVs were appended to each workbook's existing tables (url at commit `67c4cc1`). Row counts match.
