@@ -46,9 +46,35 @@
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
-| `-` | `-` | `-` | `-` | `-` | `-` | `-` |
+| C1 CPO/CSCO Table: Clay + Blitz (supply chain & procurement vendors) | C1 The CPO and CSCO Table | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C2 Beyond the Expo Hall: Clay + Blitz (Nordic/NL event sponsors) | C2 Beyond the Expo Hall | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C3 New in the Seat: Clay + Blitz (job changes, last 6 months) | C3 New in the Seat | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C4 Entering the Nordics: Clay + Blitz (expansion news, last 9 months) | C4 Entering the Nordics | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C5 CISO Room: Clay + Blitz (cybersecurity vendors) | C5 The CISO Room | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C6 Nordic CIO Pulse: Clay + Blitz (enterprise IT vendors) | C6 Nordic CIO Pulse | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C7 Finance and People Leaders: Clay + Blitz (finance and HR software vendors) | C7 Finance and People Leaders | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C8 Open Roles Field/Event Marketing: Blitz jobs + Clay hiring managers | C8 Open Roles, Field and Event Marketing | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C9 Open Roles Country/Sales Leadership: Blitz jobs + Clay hiring managers | C9 Open Roles, Country and Sales Leadership | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C10 Open Roles ABM/Demand/Partner Marketing: Blitz jobs + Clay hiring managers | C10 Open Roles, ABM, Demand and Partner Marketing | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
 
-As of 2026-11-06, `list_sourcing_configs` returns 0 configs, `list_icp_configs` returns `[]` and `list_campaigns` returns 0. Nothing is created yet: the segment breakdown below is waiting for Moe's OK.
+Mirrored from `list_sourcing_configs` on 2026-11-12. All 10 configs use the Custom module, are static, have `campaign_split: false` (one campaign per list, so a split has no meaning), and have no Clay table yet. `company_count` and `lead_count` are both 0.
+
+## Campaigns (tracking_clients, new system)
+
+All 10 were created 2026-11-12 from approved doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` and are linked to it (`doc_signed: true`). Every campaign is LinkedIn, identity Client, and has a validated 4-step sequence (`set_campaign_sequence`: connection request, then 3 DMs at day 0, 4 and 9). All are in status `creation`.
+
+| # | Campaign | session id | Lead list (sourcing config) | ICP config |
+|---|---|---|---|---|
+| C1 | The CPO and CSCO Table | `094e9b70-89e2-414f-b48b-8eb7d9ae45e3` | `b81f2795-76e8-4f63-a8d0-3f0d53cabf6e` | `94a6a632-88eb-43cb-8401-9b286033fa17` |
+| C2 | Beyond the Expo Hall | `a767b822-f1d5-422b-acba-e536d54882b4` | `c659923d-b864-4572-a5f9-6034425882a9` | `b359767a-463a-4e85-abe5-7b625be7f013` |
+| C3 | New in the Seat | `919f494a-06d5-439f-9f3c-7181367c75a6` | `82f47ea4-d434-444c-830f-4fffa6d5c2fe` | `92d229b6-875a-43ab-9f50-2749bd6913f9` |
+| C4 | Entering the Nordics | `51e55b6c-f97f-4a5a-9109-4bd7f730598d` | `a42149fc-d3ac-44d4-86e6-aa5a856d1827` | `35d03c8c-ab82-4053-8e9c-55e9cb1ebb01` |
+| C5 | The CISO Room | `0637bac6-5e24-41be-b829-25350eb83b25` | `3b6c78bc-ec87-4bd4-b6b6-4a0d89936f4c` | `ee1bb78d-8fd4-4826-a689-3e0a07844836` |
+| C6 | Nordic CIO Pulse | `aad8be08-a118-420c-b11c-7c1581c9baf4` | `52e26a7a-c209-42d5-b3e4-a81548a2a5f8` | `4b955c4a-326c-495c-beab-da078d093bf9` |
+| C7 | Finance and People Leaders | `fe3ef189-38f6-42ab-ae9a-712517eace39` | `d3ebc835-ae65-4777-a770-650a0ef0f417` | `0694d62b-8932-4f8c-8dc9-c9467de0cec6` |
+| C8 | Open Roles, Field and Event Marketing | `c8b08608-897e-4ec0-8568-fc26c2525827` | `41d63fbf-1b66-44d1-ba91-2ad0b2def817` | `99443fa9-fbcf-450e-bcfe-89a57e40b5a1` |
+| C9 | Open Roles, Country and Sales Leadership | `f7d16968-870a-4477-90d9-1cc32d3fd0bc` | `25cf23a0-bd3d-4d32-a8aa-9f91fb131150` | `01f08a0f-2a51-426f-9aad-7c0f8b128671` |
+| C10 | Open Roles, ABM, Demand and Partner Marketing | `65ed1c2f-4a4e-4b3e-9fe5-9b7502d6c97f` | `55fb215f-cad1-4d8b-890a-72f366e81b38` | `f9c2c642-d732-420c-bf3f-7b90812be327` |
 
 ## HeyReach state (2026-11-06)
 
@@ -79,7 +105,7 @@ The ICP form (2026-11-04) is the client's own answer. The brief was written with
 
 | Doc | tracking_clients doc id | Status | Shared with client | Repo copy |
 |---|---|---|---|---|
-| twoHundred Campaign Ideas (10 campaigns) | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | **approved** (signed "twoHundred" 2026-11-12 09:03 UTC) | yes, [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=a4c10f55-28e7-420e-9040-d8fe8a80ee51) | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
+| twoHundred Campaign Ideas (10 campaigns) | `a4c10f55-28e7-420e-9040-d8fe8a80ee51` | **configs_created** (approved by twoHundred 2026-11-12 09:03 UTC; 10 campaigns built 11:44 to 11:49 UTC) | yes, [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=a4c10f55-28e7-420e-9040-d8fe8a80ee51) | [`campaigns/2026-11-06-campaign-ideas.md`](campaigns/2026-11-06-campaign-ideas.md) |
 
 A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 2026") existed briefly. By 11:30 it no longer appeared in `list_campaign_docs`, so it was removed from the dashboard (not by this session).
 
@@ -88,6 +114,18 @@ A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 20
 - `-`: no snapshots yet.
 
 ## History
+
+- **2026-11-12**: Built all 10 campaigns from the approved doc in tracking_clients (Moe: "set up the campaign from the document and bring them to make live position"). Each one has its own ICP config (one segment and one persona), its own lead list and its own new-system campaign. The ids are in the Campaigns table.
+  - **Sequences:** saved with `set_campaign_sequence`, all passing validation. Variables follow the rules namespace: `{{module.standard.first_name|company_name}}` and `{{module.custom.*}}` for event_name, event_city, expansion_short, country, category_short, community, open_role, open_role_with_article and jd. Campaigns 1 to 7 send the connection request blank (no note), which the validator accepts.
+  - **Copy kept elsewhere:** the open-role fallback copy and the CTA variants are stored in each campaign's `linkedin_sequence` text and notes, not in the structured sequence. The sequencer is dumb, and Clay assembles fallbacks upstream.
+  - **Doc status:** set to `configs_created`.
+  - **Tool issue:** `create_campaigns_from_plan` was refused because the server asks for `confirm:true`, a field the tool schema doesn't expose on either connector. So the 30 objects were created one by one (`create_icp_config`, `create_sourcing_config`, `create_campaign`). Flag this to whoever maintains the MCP.
+  - **Lead lists:** `campaign_split: false` on all 10, chosen without asking because each list feeds exactly one campaign.
+  - **Sourcing mode:** this makes sourcing campaign-specific (one list per campaign), which answers the open "general vs campaign-specific" question by default.
+  - **Not done, and why:**
+    - `send_campaign_for_approval` needs `campaign_thinking` in the operator's own words, and the tool forbids writing it for him, so all 10 stay in `creation` until Moe supplies it.
+    - No HeyReach campaigns exist yet: there are no senders in workspace 172772.
+    - No leads exist yet: nothing has been sourced, and the DNC is not loaded.
 
 - **2026-11-12**: twoHundred **approved** campaign doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` in the portal (`signed_name: twoHundred`, `signed_at: 2026-11-12T09:03:30Z`), confirmed by `list_campaign_docs` and `get_campaign_doc`. They made no text changes and left no new comments. The 4 earlier threads stay open in the UI, each with our reply.
   - **Still not supplied:** the Forum overview link or PDF that we asked for.
