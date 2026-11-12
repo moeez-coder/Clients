@@ -170,9 +170,18 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-12-leads.csv`: **188 leads (top-up)** at 74 new companies, keyed by `linkedin_url`. 0 in list `1056840`, 8 flagged `dupe_of`, **180 `live_eligible`**, pushed to HeyReach `723839`. Lead list **LS Medical Affairs** `a53e5de4-2b64-4f0d-9805-f507d8650130`. Blitz `waterfall-icp-keyword`, 2026-11-12. Query: `2026-11-12-leads.query.md`.
 - `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-12-companies.csv`: **84 new hiring companies** (60-day window, none from an earlier snapshot). Blitz `tam-by-jobs`, 2026-11-12.
 - `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-12-jobs.csv`: **84 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
+- `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-leads.csv`: **1099 leads (top-up)** at 1099 new companies, keyed by `linkedin_url`. 81 in list `1056840`, 345 flagged `dupe_of`, **754 `live_eligible`**, pushed to HeyReach `723841`. Lead list **Tech Eng, Security & Data** `a28b5183-8b8d-487d-a198-f3086d62915b`. Blitz `waterfall-icp-keyword`, 2026-11-12. Query: `2026-11-12-leads.query.md`.
+- `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-companies.csv`: **1300 new hiring companies** (30-day window, none from an earlier snapshot). Blitz `tam-by-jobs`, 2026-11-12.
+- `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
 
+- **2026-11-12**: **Top-up: expanding the existing segment Tech Eng, Security & Data (`recruiter-open-role-tech-eng-security-data`). Blitz API, 1099 leads, 754 live-eligible, for HeyReach `723841`** (Moe: "add more leads into all of the campaigns").
+  - New companies only: `tam-by-jobs` (30-day window), skipping the companies already sourced, then `jobs/company`, then the waterfall at the same per-company count. That gives 1300 new companies.
+  - **Blitz records used: 4865.**
+  - **Dedupe:** 81 in list `1056840`, 345 in earlier CG leads files. The live rows of earlier open-role snapshots now block a lead in any segment.
+  - Method and requests: `2026-11-12-leads.query.md`.
+  - Per-client CG session.
 - **2026-11-12**: **Top-up: expanding the existing segment LS Medical Affairs (`recruiter-open-role-ls-medical-affairs`). Blitz API, 188 leads, 180 live-eligible, for HeyReach `723839`** (Moe: "add more leads into all of the campaigns").
   - New companies only: `tam-by-jobs` (60-day window), skipping the companies already sourced, then `jobs/company`, then the waterfall at the same per-company count. That gives 84 new companies.
   - **Blitz records used: 497.**
