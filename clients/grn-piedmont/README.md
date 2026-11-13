@@ -64,6 +64,18 @@ Both campaigns are **drafts**. No leads are loaded and nothing has started.
 - Campaign 5's `years_in_role` and `ownership` values need a Claygent pass.
 - Campaigns 1, 2 and 4 are not built yet.
 
+## GTM Sheets
+
+One workbook per campaign (CLAUDE.md "GTM Sheets build standard per campaign"). Folder: Clients / GRN Piedmont (`5b185300-2443-46b3-9a4d-b50cb54f4368`). Webhook URLs are not stored in the repo; get them from `gtm_sheet_get_table`.
+
+**Campaign 5, Owner Succession:** workbook **US | Owner Succession | GRN Piedmont v1** `7ec67abc-807a-48e9-8958-9a10cf87156c`, linked to campaign `250a7100-…`. Rows: 0 so far (structure only).
+
+| Table | id | Purpose |
+|---|---|---|
+| 1. Companies | `5e1a202a-af24-4c8e-894f-fe912aa9eb65` | US manufacturers 201-1,000, Eastern/Central states (Blitz count 3,700), with Ownership Check and Leads Produced columns so the drop-off is visible |
+| 2. Ownership & Tenure Check | `64dc0c5e-9534-4ddb-b587-67cd692cec44` | Founder-led / family-owned check, top leader, years in role, Qualifies + Reason |
+| 3. Leads | `1e0c689d-681d-435f-aaf5-6ac009b2290e` | Keyed by LinkedIn URL; `Status` ("launch set" / "removed: <reason>"); **Push to HeyReach** to `730731` with custom fields `ownership` and `years_in_role`, auto-run off, `run_if` Status = "launch set". Linked to lead list `88fe680f-…` |
+
 ## Sourced data in this repo
 
 - `sourcing/2026-11-13-lead-preview.query.md`: lead-count preview for all five campaigns (Blitz counts via tracking_clients `gtm_sheet_find_people` / `gtm_sheet_find_companies`), 2026-11-13.
@@ -75,6 +87,11 @@ Both campaigns are **drafts**. No leads are loaded and nothing has started.
 
 ## History
 
+- **2026-11-13**: **GTM Sheets workbook built for Campaign 5, Owner Succession** (repo owner: "Set this up in sheets", after confirming Campaign 5 is the only campaign with no client feedback).
+  - Workbook `7ec67abc-…` with three webhook tables (Companies, Ownership & Tenure Check, Leads), ids above. The Leads table's Push to HeyReach column is wired to `730731` with auto-run off.
+  - Pool for the Eastern/Central states: 3,700 companies (Blitz count, `gtm_sheet_find_companies`, same industries and sizes as the preview, `states` = the 38 Eastern/Central states + DC).
+  - No rows loaded yet: pulling the companies and their owners costs about 7,400 Blitz credits, so the pull waits on the repo owner's go-ahead.
+  - Session: `claude/grn-feedback-incorporation-lnmmb0`.
 - **2026-11-13**: Folder created. The profile was synced from `tracking_clients` (`get_client`, `list_sourcing_configs`; there were no configs or campaigns before this session).
   - The client's 8 wording comments from 2026-11-12 on the campaign doc `cae47cc4-…` were applied as written and answered, and the doc was sent back (status `client_review`).
   - The repo owner asked to preview leads and set up the campaigns with the most leads in HeyReach and tracking_clients.
