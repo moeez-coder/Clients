@@ -31,7 +31,7 @@ Verbatim copies of tracking_clients `get_client` fields, pulled 2026-11-09. Each
 
 | Doc | tracking_clients doc id | Status | Repo copy |
 |---|---|---|---|
-| HealthLink Dimensions Campaign Plan, Doc 1 (10 campaigns) | `1f2e4277-1a09-445e-8684-75cc542ab003` | `client_review` (sent 2026-11-09) | `campaign-docs/2026-11-09-doc-1.md` |
+| HealthLink Dimensions Campaign Plan, Doc 1 (10 campaigns) | `1f2e4277-1a09-445e-8684-75cc542ab003` | `internal_review` (client commented 2026-11-11; agency copy revised 2026-11-13) | `campaign-docs/2026-11-09-doc-1.md` |
 
 Portal link: https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=1f2e4277-1a09-445e-8684-75cc542ab003
 
@@ -55,6 +55,17 @@ No lead or company snapshots yet. A pull can only happen after the client approv
 - `sourcing/tam/2026-11-09-clay-sample-seg1.json`: the Clay sample, with a fit verdict per company.
 
 ## History
+
+- **2026-11-13**: **Doc 1 revised for the agency campaigns using the client's own copy** (`review_campaign_doc`, doc `1f2e4277-1a09-445e-8684-75cc542ab003`).
+  - **Status:** `internal_review`, since the client left 15 comments on 2026-11-11.
+  - **Moe's instruction:** wherever the client supplied full replacement copy, apply it.
+  - **Campaign 5** (agencies, open roles) and **Campaign 10** (agencies, account wins): the connection request and messages 1 to 3 were replaced word for word with the client's text (comments 8 to 11 and 13 to 16). That is 38 tracked changes, applied with `review_campaign_doc` rather than `replace_markdown`, so no comments are lost.
+  - **Replies posted** on comments 4 to 6 and 8 to 16.
+  - **Still open, because the client did not supply copy:**
+    - comments 1 and 2: the free-data-review offer and a "too salesy" Message 1, which affect campaigns 1 to 4 and 6 to 9
+    - comment 3: med device should reach titles beyond HCPs (campaigns 3 and 8)
+    - comment 12, second half: a separate sequence for newly appointed agency leaders in campaign 10
+  - **Doc not yet re-sent.** `campaign-docs/2026-11-09-doc-1.md` stays the as-sent version.
 
 - **2026-11-09**: **Campaign doc 1 sent to the client** (`send_campaign_doc_to_client`, on Moe's explicit instruction: "Make the doc and send it to the client").
   - Status is now `client_review` and the doc is shared in the portal. The Slack notification went to C0CD0RXFBS4 (`notified_client.ok: true`).
