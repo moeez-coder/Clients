@@ -40,14 +40,29 @@ None exist in tracking_clients as of 2026-11-12 (`list_sourcing_configs` count 0
 
 | Date | Doc | tracking_clients id | Status |
 |---|---|---|---|
-| 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (sent 2026-11-12; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
+| 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `internal_review` (client feedback 2026-11-12; 95 tracked suggestions added 2026-11-13, **not re-sent**; first sent 2026-11-12, [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
 
 ## Sourced data in this repo
 
+- `sourcing/tam/2026-11-13-signal-read.query.md` with `gpg_signal.py` and `2026-11-13-gpg-signal-companies.csv`: 3,796 employers (250+ staff) in the five doc-1 sectors from the gov.uk gender pay gap 2025 data, with a `gpg_signal_15pct` flag. This backs campaigns 3–5's new signal, pulled 2026-11-13. No config yet (config UUID `-`). Cost £0.
 - No company or lead snapshots yet. Full pulls wait until the client approves doc 1.
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-13**: **Campaigns 1–5 re-signalled after client feedback.**
+  - **Feedback:** on 2026-11-12, John Tarrant emailed that leading with an open role makes DNA look like a "low end high street recruiter", and that they sell to the C-suite and the level just below, who don't track open roles.
+  - **Moe's call:** replace the signals, keep the five sectors ("proceed with the 5 sector mapping"):
+    1. Buy-and-build groups (health, care, vet, dental)
+    2. People costs or turnover named in results, or a customer rebrand (retail and hospitality)
+    3. Gender pay gap of 15% or more (manufacturing)
+    4. Mergers, PE deals and new managing partners (Top 100 law and accounting)
+    5. Gender pay gap and Women in Finance Charter (financial services)
+  - **Personas:** moved to CEO/MD, CPO/HRD/People Director, COO and Managing Partner. Messages no longer mention roles or candidates. Campaigns 3 and 5 quote the company's own pay gap figure (`{gap}`).
+  - **Applied** through `review_campaign_doc`: 95 tracked suggestions, all ok. The client's 2 comments are kept. Status remains `internal_review` and the doc has **not** been re-sent.
+  - **Also updated:** open-role references in 6, 8, 9, 10 and "Before launch".
+  - **Still pending (6–10 pass):** move the 6–10 personas up a level; campaign 8's signal still mentions "roles reposted repeatedly"; campaign 7 should be a new CEO as well as a new people leader.
+  - **Data:** see `sourcing/tam/2026-11-13-signal-read.query.md`.
 
 - **2026-11-12**: Doc 1 updated and **sent to the client**, both at Moe's request in this session.
   - **Update:** Moe asked for 5–7 offers at the end of the doc for the client to comment on, some with money, time or money-back claims. I added an "Offers for your feedback" section with 7 offers:
