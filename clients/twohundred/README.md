@@ -131,15 +131,15 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 | # | Workbook | Workbook id | Tables (ids) | Push custom fields | Rows (2026-11-13) |
 |---|---|---|---|---|---|
 | C1 | EU \| CPO and CSCO Table | `31a3b2d8-476e-4050-9211-28b78f77fea0` | 1. Companies `d55b5692-332c-4897-ba82-279d146f74f0` · 2. Leads `0fe4a8a3-be04-48dd-a7df-dcf69647c5fd` | none | **57 / 75**, matching the CSVs |
-| C2 | EU \| Beyond the Expo Hall | `44762757-2785-41fe-adb7-138f620279be` | 1. Companies `39dee59e-6b17-45b9-992d-03645d4be3df` · 2. Events `625e5158-4ee0-46a6-8822-8efd5c6242d6` · 3. Leads `7c0d36a9-bd3f-4760-843f-22f27fb19e2b` | event_name, event_city | 0 (not sourced) |
-| C3 | EU \| New in the Seat | `9c570e1a-aea8-4b29-ba1d-b690dd240e4a` | 1. Companies `5fd30b12-26f8-4427-9746-9010e21cf436` · 2. Leads `a4eee010-0bec-4f39-94c5-a9c9069894d4` | none | 0 |
-| C4 | EU \| Entering the Nordics | `3881ea7f-c534-4fd1-a5a7-21041c7404f6` | 1. Companies `8c7965db-38c6-49e0-877e-a50716568456` · 2. Leads `d3657225-aade-4505-b7b7-fdf95e67a343` | expansion_short, country | 0 |
-| C5 | EU \| The CISO Room | `9f42bf55-e178-4f24-aaee-114f1bf667ae` | 1. Companies `e2eeb8f0-ba3b-4b94-91fd-9c3b29523694` · 2. Leads `983e9dce-5cfd-4aa6-820a-6c3cd24a87f3` | none | 0 |
-| C6 | EU \| Nordic CIO Pulse | `8a4d4698-866c-4651-b25a-b8200d8dbcb8` | 1. Companies `ca7b16ae-5e10-4292-8476-c0980d5d9966` · 2. Leads `e5076df4-c667-4709-9ac2-890b1c5ba6a8` | category_short | 0 |
-| C7 | EU \| Finance and People Leaders | `bc567d3e-925f-40a1-852c-f85164f2f7ec` | 1. Companies `78b80375-e422-4980-aea5-8a1a16a02f80` · 2. Leads `dfb1ebbb-1cb5-4581-9b7b-efde774ddcdd` | community | 0 |
-| C8 | EU \| Open Roles Field & Event Mktg | `975206e5-77fe-460e-a885-a88725ab2370` | 1. Companies `a19ca4cc-88c9-4e2b-a508-02fde75c7407` · 2. Jobs `7513b2f5-b486-4328-ab11-6424c435154c` · 3. Leads `a193164f-fffb-4f08-a6f5-e466dd4a1189` | open_role, open_role_with_article, jd | 0 |
-| C9 | EU \| Open Roles Country & Sales Lead | `33ac4fe5-1d28-46ab-9af6-378cce264efa` | 1. Companies `b743148f-1ff6-4c4c-be4f-ccf014f3df61` · 2. Jobs `4a0f88f5-4d0f-420c-abeb-c44d456badea` · 3. Leads `3ce5a309-fb59-4c8c-83b0-037b02378c45` | open_role, open_role_with_article, jd, country | 0 |
-| C10 | EU \| Open Roles ABM Demand Partner | `6b3e059b-3cd3-49fa-9b04-ad9e64c6567b` | 1. Companies `eeca528d-d95d-4819-9ff0-bab8c91b720c` · 2. Jobs `f3ce1075-f7d6-4f6a-8301-a548c0a51c6a` · 3. Leads `083ae857-32ef-459e-b408-7becce7b219e` | open_role, open_role_with_article, jd | 0 |
+| C2 | EU \| Beyond the Expo Hall | `44762757-2785-41fe-adb7-138f620279be` | 1. Companies `39dee59e-6b17-45b9-992d-03645d4be3df` · 2. Events `625e5158-4ee0-46a6-8822-8efd5c6242d6` · 3. Leads `7c0d36a9-bd3f-4760-843f-22f27fb19e2b` | event_name, event_city | 0 (not sourced — needs Clay/web) |
+| C3 | EU \| New in the Seat | `9c570e1a-aea8-4b29-ba1d-b690dd240e4a` | 1. Companies `5fd30b12-26f8-4427-9746-9010e21cf436` · 2. Leads `a4eee010-0bec-4f39-94c5-a9c9069894d4` | none | 52 / 54 |
+| C4 | EU \| Entering the Nordics | `3881ea7f-c534-4fd1-a5a7-21041c7404f6` | 1. Companies `8c7965db-38c6-49e0-877e-a50716568456` · 2. Leads `d3657225-aade-4505-b7b7-fdf95e67a343` | expansion_short, country | 0 (not sourced — needs Clay/web) |
+| C5 | EU \| The CISO Room | `9f42bf55-e178-4f24-aaee-114f1bf667ae` | 1. Companies `e2eeb8f0-ba3b-4b94-91fd-9c3b29523694` · 2. Leads `983e9dce-5cfd-4aa6-820a-6c3cd24a87f3` | none | 230 / 451 |
+| C6 | EU \| Nordic CIO Pulse | `8a4d4698-866c-4651-b25a-b8200d8dbcb8` | 1. Companies `ca7b16ae-5e10-4292-8476-c0980d5d9966` · 2. Leads `e5076df4-c667-4709-9ac2-890b1c5ba6a8` | category_short | 606 / 887 |
+| C7 | EU \| Finance and People Leaders | `bc567d3e-925f-40a1-852c-f85164f2f7ec` | 1. Companies `78b80375-e422-4980-aea5-8a1a16a02f80` · 2. Leads `dfb1ebbb-1cb5-4581-9b7b-efde774ddcdd` | community | 259 / 500 |
+| C8 | EU \| Open Roles Field & Event Mktg | `975206e5-77fe-460e-a885-a88725ab2370` | 1. Companies `a19ca4cc-88c9-4e2b-a508-02fde75c7407` · 2. Jobs `7513b2f5-b486-4328-ab11-6424c435154c` · 3. Leads `a193164f-fffb-4f08-a6f5-e466dd4a1189` | open_role, open_role_with_article, jd | 6 / 6 / 10 |
+| C9 | EU \| Open Roles Country & Sales Lead | `33ac4fe5-1d28-46ab-9af6-378cce264efa` | 1. Companies `b743148f-1ff6-4c4c-be4f-ccf014f3df61` · 2. Jobs `4a0f88f5-4d0f-420c-abeb-c44d456badea` · 3. Leads `3ce5a309-fb59-4c8c-83b0-037b02378c45` | open_role, open_role_with_article, jd, country | 36 / 36 / 70 |
+| C10 | EU \| Open Roles ABM Demand Partner | `6b3e059b-3cd3-49fa-9b04-ad9e64c6567b` | 1. Companies `eeca528d-d95d-4819-9ff0-bab8c91b720c` · 2. Jobs `f3ce1075-f7d6-4f6a-8301-a548c0a51c6a` · 3. Leads `083ae857-32ef-459e-b408-7becce7b219e` | open_role, open_role_with_article, jd | 8 / 8 / 14 |
 
 **Notes:**
 - In C4 and C9 the variable `country` lives in a column called "Target Country", because GTM Sheets treats "Country" and "country" as the same name. The lead's own country column there is "Lead Location".
@@ -149,10 +149,25 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 - `sourcing/c1-cpo-csco-table/2026-11-13-companies.csv`: **57 companies**, 24 of them with 0 leads (kept so the drop-off shows). Config "The CPO and CSCO Table" (`b81f2795-76e8-4f63-a8d0-3f0d53cabf6e`), campaign `094e9b70-89e2-414f-b48b-8eb7d9ae45e3`. Blitz API `/v2/search/companies` plus `/v2/enrichment/company`, pulled 2026-11-13. Query: `2026-11-13-leads.query.md`.
 - `sourcing/c1-cpo-csco-table/2026-11-13-leads.csv`: **75 leads** at 33 companies, keyed on `linkedin_url`. Same config. Blitz API `/v2/search/employee-finder`, pulled 2026-11-13.
+- `sourcing/c3-new-in-the-seat/`: **52 companies / 54 leads**, config `82f47ea4-d434-444c-830f-4fffa6d5c2fe`, campaign `919f494a-06d5-439f-9f3c-7181367c75a6`. Blitz `/v2/search/people` (recent-hire). 2026-11-13.
+- `sourcing/c5-ciso-room/`: **230 companies / 451 leads**, config `3b6c78bc-ec87-4bd4-b6b6-4a0d89936f4c`, campaign `0637bac6-5e24-41be-b829-25350eb83b25`. Blitz TAM + Find People. 2026-11-13.
+- `sourcing/c6-nordic-cio-pulse/`: **606 companies / 887 leads**, config `52e26a7a-c209-42d5-b3e4-a81548a2a5f8`, campaign `aad8be08-a118-420c-b11c-7c1581c9baf4`. Blitz TAM + Find People. 2026-11-13.
+- `sourcing/c7-finance-people-leaders/`: **259 companies / 500 leads**, config `d3ebc835-ae65-4777-a770-650a0ef0f417`, campaign `fe3ef189-38f6-42ab-ae9a-712517eace39`. Blitz TAM + Find People. 2026-11-13. `community` (CFO/CHRO) not yet classified per lead.
+- `sourcing/c8-open-roles-field-event-mktg/`: **6 companies / 6 jobs / 10 leads**, config `41d63fbf-1b66-44d1-ba91-2ad0b2def817`, campaign `c8b08608-897e-4ec0-8568-fc26c2525827`. Blitz jobs + employee-finder. 2026-11-13.
+- `sourcing/c9-open-roles-country-sales-lead/`: **36 companies / 36 jobs / 70 leads**, config `25cf23a0-bd3d-4d32-a8aa-9f91fb131150`, campaign `f7d16968-870a-4477-90d9-1cc32d3fd0bc`. Blitz jobs + employee-finder. 2026-11-13.
+- `sourcing/c10-open-roles-abm-demand-partner/`: **8 companies / 8 jobs / 14 leads**, config `55fb215f-cad1-4d8b-890a-72f366e81b38`, campaign `65ed1c2f-4a4e-4b3e-9fe5-9b7502d6c97f`. Blitz jobs + employee-finder. 2026-11-13.
+- `sourcing/c2-beyond-the-expo-hall/` and `sourcing/c4-entering-the-nordics/`: **sizing notes only, not sourced** — their event/expansion signals need Clay/web verification, which was unavailable this session. See each `2026-11-13-SIZING-ONLY.md`.
 - `context/dnc-2026-11-13.csv`: the client DNC, **53 companies and domains**. It was exported from tracking_clients `dncList` on 2026-11-13; the client had now loaded it from their uploaded xlsx.
 
 ## History
 
+- **2026-11-13**: **Sized and sourced C3 and C5 to C10** (Moe: "size them and actually source them"). All via the Blitz API on the flat plan, no extra spend. Each applied the 53-company DNC and kept only Nordic/NL-based or Nordic/EMEA-titled GTM leaders.
+  - **C5 CISO Room:** 230 companies, 451 leads (3/company). **C7 Finance & People Leaders:** 259 / 500 (3/company). **C6 Nordic CIO Pulse:** 606 / 887 (2/company, widest segment). These three are the largest, in that order.
+  - **C3 New in the Seat:** 52 / 54, using Blitz `is_recent_hire` (90-day) as the new-in-role signal.
+  - **C8/C9/C10 open roles:** Blitz job search (Nordic postings, last 60 days) then employee-finder for the hiring manager above the role; 10, 70 and 14 leads. The `open_role`/`jd` variables are derived per company from the posting.
+  - **C2 and C4 not sourced:** their event-sponsorship and expansion-news signals need Clay or web verification, and the Clay MCP was down this session. Sizing notes written instead (base universe ~16,700 Nordic GTM leaders before the signal filter).
+  - **Loaded into GTM Sheets:** every sourced segment's rows were pushed through the table webhooks; counts to be reconfirmed with `gtm_sheet_get_workbook` (the tracking_clients MCP was briefly disconnected at write time).
+  - **Open item:** C7 `community` (CFO vs CHRO) is not yet set per lead; fallback copy covers it until a classification step runs.
 - **2026-11-13**: **Set up all 10 campaigns in GTM Sheets** (Moe: "Set all of these campaigns up in gtm sheets").
   - **Workbooks:** 10 in folder Clients / twoHundred, one per campaign, each linked to its tracking_clients campaign. There are 23 tables in all; ids are in **GTM Sheets**.
   - **Table layout:** every campaign has a Companies table first and a Leads table last. C2 has an Events table in between (its signal), and C8 to C10 have a Jobs table in between.

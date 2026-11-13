@@ -1,0 +1,260 @@
+company_name,company_linkedin_url,domain,industry,size,hq_country,leads_found
+Amazon Web Services (AWS),https://www.linkedin.com/company/amazon-web-services,amazon.com,IT Services and IT Consulting,10001+,US,3
+Tata Consultancy Services,https://www.linkedin.com/company/tata-consultancy-services,tcs.com,IT Services and IT Consulting,10001+,IN,3
+HCLTech,https://www.linkedin.com/company/hcltech,hcltech.com,IT Services and IT Consulting,10001+,IN,3
+Fellowmind,https://www.linkedin.com/company/fellowmind,fellowmindcompany.com,IT Services and IT Consulting,1001-5000,NL,3
+Valtech,https://www.linkedin.com/company/valtech,valtech.com,IT Services and IT Consulting,5001-10000,FR,3
+Visma,https://www.linkedin.com/company/visma,visma.com,Software Development,10001+,NO,3
+UBS,https://www.linkedin.com/company/ubs,ubs.com,Financial Services,10001+,CH,3
+TOPdesk,https://www.linkedin.com/company/topdesk,topdesk.com,IT Services and IT Consulting,501-1000,NL,3
+Amadeus,https://www.linkedin.com/company/amadeus,amadeus.com,IT Services and IT Consulting,10001+,ES,3
+Pixelz Inc,https://www.linkedin.com/company/pixelz-inc,pixelz.com,Technology; Information and Internet,501-1000,US,3
+Unit4,https://www.linkedin.com/company/unit4,unit4.com,Software Development,1001-5000,-,3
+Xebia,https://www.linkedin.com/company/xebia,xebia.com,IT Services and IT Consulting,1001-5000,US,3
+Nasdaq,https://www.linkedin.com/company/nasdaq,nasdaq.com,Financial Services,1001-5000,US,3
+Microsoft,https://www.linkedin.com/company/microsoft,microsoft.com,Software Development,10001+,US,3
+Greenstep,https://www.linkedin.com/company/greenstep-oy,greenstep.com,Financial Services,501-1000,FI,3
+Salesforce,https://www.linkedin.com/company/salesforce,salesforce.com,Software Development,10001+,US,3
+IBM,https://www.linkedin.com/company/ibm,ibm.com,IT Services and IT Consulting,10001+,US,3
+Adyen,https://www.linkedin.com/company/adyen,adyen.com,Financial Services,1001-5000,NL,3
+LHH,https://www.linkedin.com/company/lhhworldwide,lhh.com,Human Resources Services,10001+,US,3
+Emixa,https://www.linkedin.com/company/emixa,emixa.com,IT Services and IT Consulting,501-1000,NL,3
+ServiceNow,https://www.linkedin.com/company/servicenow,servicenow.com,Software Development,10001+,US,3
+Indeed,https://www.linkedin.com/company/indeed-com,indeed.com,Technology; Information and Internet,10001+,US,3
+Vivicta,https://www.linkedin.com/company/vivictatech,vivicta.com,IT Services and IT Consulting,5001-10000,US,3
+SAS,https://www.linkedin.com/company/sas,sas.com,Software Development,10001+,US,3
+Mollie,https://www.linkedin.com/company/mollie,mollie.com,Financial Services,501-1000,NL,3
+HSO,https://www.linkedin.com/company/hso,hso.com,IT Services and IT Consulting,1001-5000,NL,3
+Trimble Inc.,https://www.linkedin.com/company/trimble,trimble.com,Software Development,10001+,US,3
+Google,https://www.linkedin.com/company/google,goo.gle,Software Development,10001+,US,3
+Pax8,https://www.linkedin.com/company/pax8,pax8.com,Technology; Information and Internet,1001-5000,US,3
+Adobe,https://www.linkedin.com/company/adobe,adobe.com,Software Development,10001+,US,3
+RELEX Solutions,https://www.linkedin.com/company/relexsolutions,relexsolutions.com,Software Development,1001-5000,FI,3
+Innofactor,https://www.linkedin.com/company/innofactor-plc,innofactor.com,Software Development,501-1000,FI,3
+7N,https://www.linkedin.com/company/7n,7n.com,IT Services and IT Consulting,1001-5000,DK,3
+Verifone,https://www.linkedin.com/company/verifone,verifone.com,Financial Services,1001-5000,US,3
+CM.com,https://www.linkedin.com/company/cmcom,cm.com,IT Services and IT Consulting,1001-5000,NL,3
+NOX Consulting AB,https://www.linkedin.com/company/nox-consulting-ab,noxconsulting.se,IT Services and IT Consulting,1001-5000,SE,3
+Workiva,https://www.linkedin.com/company/workiva,workiva.com,Software Development,1001-5000,US,3
+Experis,https://www.linkedin.com/company/experis,experis.com,IT Services and IT Consulting,10001+,US,3
+Amesto,https://www.linkedin.com/company/amesto-group,amesto.no,IT Services and IT Consulting,501-1000,NO,3
+TMF Group,https://www.linkedin.com/company/tmf-group,tmf-group.com,Financial Services,10001+,NL,3
+CGI,https://www.linkedin.com/company/cgi,cgi.com,IT Services and IT Consulting,10001+,CA,3
+Apex Group Ltd,https://www.linkedin.com/company/the-apex-group-ltd,apexgroup.com,Financial Services,10001+,BM,3
+Arrive,https://www.linkedin.com/company/arrive,arrive.com,IT Services and IT Consulting,1001-5000,SE,3
+Cisco,https://www.linkedin.com/company/cisco,cisco.com,Software Development,10001+,US,3
+Allianz Benelux,https://www.linkedin.com/company/allianz-benelux,allianz.nl,Financial Services,1001-5000,US,3
+Vaimo,https://www.linkedin.com/company/vaimo,vaimo.com,IT Services and IT Consulting,501-1000,SE,3
+Trustly,https://www.linkedin.com/company/trustly,trustly.com,Financial Services,1001-5000,SE,3
+Databricks,https://www.linkedin.com/company/databricks,databricks.com,Software Development,5001-10000,US,3
+Hewlett Packard Enterprise,https://www.linkedin.com/company/hewlett-packard-enterprise,hpe.com,IT Services and IT Consulting,10001+,US,3
+Denodo,https://www.linkedin.com/company/denodo-technologies,denodo.com,Software Development,501-1000,US,3
+Red Hat,https://www.linkedin.com/company/red-hat,redhat.com,Software Development,10001+,US,3
+Finago Group,https://www.linkedin.com/company/finago-group,finago.com,Software Development,501-1000,US,3
+Atos,https://www.linkedin.com/company/atos,atos.net,IT Services and IT Consulting,10001+,FR,3
+Fireblocks,https://www.linkedin.com/company/fireblocks,fireblocks.com,Software Development,501-1000,US,3
+Akkuro,https://www.linkedin.com/company/akkuro,fivedegrees.com,IT Services and IT Consulting,5001-10000,NL,3
+Sofigate,https://www.linkedin.com/company/sofigate,sofigate.com,IT Services and IT Consulting,501-1000,FI,3
+Cegeka,https://www.linkedin.com/company/cegeka,cegeka.com,IT Services and IT Consulting,5001-10000,BE,3
+Qlik,https://www.linkedin.com/company/qlik,qlik.com,Software Development,1001-5000,US,3
+Exact,https://www.linkedin.com/company/exact,exact.com,Software Development,1001-5000,NL,3
+Teamtailor,https://www.linkedin.com/company/teamtailor,teamtailor.com,Software Development,501-1000,SE,3
+Datasite,https://www.linkedin.com/company/datasiteglobal,datasite.com,Software Development,1001-5000,US,3
+Dassault Systèmes,https://www.linkedin.com/company/dassaultsystemes,3ds.com,Software Development,10001+,FR,3
+GitHub,https://www.linkedin.com/company/github,github.com,Software Development,501-1000,US,3
+Netcompany,https://www.linkedin.com/company/netcompany-a-s,netcompany.com,IT Services and IT Consulting,5001-10000,DK,3
+Infor,https://www.linkedin.com/company/infor,infor.com,Software Development,10001+,US,3
+Medius,https://www.linkedin.com/company/medius,medius.com,Software Development,501-1000,SE,3
+BNP Paribas CIB,https://www.linkedin.com/company/bnpparibascorporateandinstitutionalbanking,cib.bnpparibas,Financial Services,10001+,FR,3
+S&P Global,https://www.linkedin.com/company/spglobal,spglobal.com,Financial Services,10001+,US,3
+Epassi,https://www.linkedin.com/company/epassi,epassi.com,Financial Services,501-1000,FI,3
+Avanade,https://www.linkedin.com/company/avanade,avanade.com,IT Services and IT Consulting,10001+,US,3
+IFS,https://www.linkedin.com/company/ifs,ifs.com,Software Development,5001-10000,SE,3
+WTW,https://www.linkedin.com/company/wtwcorporate,wtwco.com,Financial Services,10001+,GB,3
+twoday Business Applications,https://www.linkedin.com/company/twoday-business-applications,relateit.dk,IT Services and IT Consulting,1001-5000,DK,3
+OneStream Software,https://www.linkedin.com/company/onestream-software,onestream.com,Software Development,1001-5000,US,3
+Wipro,https://www.linkedin.com/company/wipro,wipro.com,IT Services and IT Consulting,10001+,IN,3
+Mavenir,https://www.linkedin.com/company/mavenir,mavenir.com,Software Development,1001-5000,US,3
+Planon,https://www.linkedin.com/company/planon,planonsoftware.com,IT Services and IT Consulting,1001-5000,NL,3
+Lunar,https://www.linkedin.com/company/lunarbank,lunar.app,Financial Services,501-1000,DK,3
+Akkodis Group Nordics,https://www.linkedin.com/company/akkodis-group-nordics,akkodis.com,IT Services and IT Consulting,1001-5000,NO,3
+MUFG,https://www.linkedin.com/company/mufg,mufg.jp,Financial Services,10001+,JP,3
+International Card Services,https://www.linkedin.com/company/internationalcardservices,icscards.nl,Financial Services,501-1000,NL,3
+Nexi Group,https://www.linkedin.com/company/nexigroup,nexigroup.com,Financial Services,5001-10000,IT,3
+ORTEC,https://www.linkedin.com/company/ortec,ortec.com,Software Development,501-1000,NL,3
+FIS,https://www.linkedin.com/company/fis,fisglobal.com,IT Services and IT Consulting,10001+,US,3
+Blinqx,https://www.linkedin.com/company/blinqx,blinqx.tech,Software Development,501-1000,NL,3
+Vincit,https://www.linkedin.com/company/vincit-plc,vincit.com,IT Services and IT Consulting,501-1000,FI,3
+Ebury,https://www.linkedin.com/company/eburyfintech,ebury.com,Financial Services,1001-5000,GB,3
+Swedbank Pay,https://www.linkedin.com/company/swedbank-pay,swedbankpay.se,Financial Services,501-1000,SE,3
+BMC Software,https://www.linkedin.com/company/bmc-software,bmc.com,IT Services and IT Consulting,5001-10000,US,3
+ING Wholesale Banking,https://www.linkedin.com/company/ingwb,ingwb.com,Financial Services,10001+,NL,3
+Corpay,https://www.linkedin.com/company/corpay,corpay.com,Financial Services,10001+,US,3
+Fortnox,https://www.linkedin.com/company/fortnox,fortnox.se,Software Development,501-1000,SE,3
+Tradeweb,https://www.linkedin.com/company/tradeweb,tradeweb.com,Financial Services,1001-5000,US,3
+Solteq Plc,https://www.linkedin.com/company/solteq-oyj,solteq.com,IT Services and IT Consulting,501-1000,FI,3
+Matrix42,https://www.linkedin.com/company/matrix42,matrix42.com,Software Development,501-1000,DE,3
+Lawson Software,https://www.linkedin.com/company/lawson-software,lawson.com,Software Development,1001-5000,US,3
+Unisys,https://www.linkedin.com/company/unisys,unisys.com,IT Services and IT Consulting,10001+,US,3
+Tricentis,https://www.linkedin.com/company/tricentis,tricentis.com,Software Development,1001-5000,US,2
+Checkout.com,https://www.linkedin.com/company/checkout,checkout.com,Financial Services,1001-5000,GB,2
+Ecommpay,https://www.linkedin.com/company/ecommpay,ecommpay.com,Financial Services,501-1000,GB,2
+Infosys,https://www.linkedin.com/company/infosys,infosys.com,IT Services and IT Consulting,10001+,IN,2
+Conga,https://www.linkedin.com/company/conga,conga.com,Software Development,1001-5000,US,2
+Northern Trust,https://www.linkedin.com/company/northern-trust,northerntrust.com,Financial Services,10001+,US,2
+Neeyamo,https://www.linkedin.com/company/neeyamo,neeyamo.com,Financial Services,1001-5000,IN,2
+Revolut,https://www.linkedin.com/company/revolut,revolut.com,Financial Services,10001+,GB,2
+GitLab,https://www.linkedin.com/company/gitlab-com,gitlab.com,IT Services and IT Consulting,1001-5000,US,2
+"o9 Solutions, Inc.",https://www.linkedin.com/company/o9solutions,o9solutions.com,Software Development,1001-5000,US,2
+Mastek,https://www.linkedin.com/company/mastek,mastek.com,IT Services and IT Consulting,5001-10000,GB,2
+Zoho,https://www.linkedin.com/company/zoho,zoho.com,Software Development,10001+,IN,2
+Pleo,https://www.linkedin.com/company/pleo-company,pleo.io,Financial Services,501-1000,DK,2
+Lyvia Group,https://www.linkedin.com/company/lyvia-group,lyviagroup.com,Software Development,1001-5000,SE,2
+Finago Suomi,https://www.linkedin.com/company/finago-suomi,finago.fi,Software Development,501-1000,US,2
+Deltek,https://www.linkedin.com/company/deltek,deltek.com,Software Development,1001-5000,US,2
+Talogy,https://www.linkedin.com/company/talogy,talogy.com,Human Resources Services,501-1000,US,2
+Insight,https://www.linkedin.com/company/insight,insight.com,IT Services and IT Consulting,10001+,US,2
+Zendesk,https://www.linkedin.com/company/zendesk,zdsk.co,Software Development,5001-10000,US,2
+Nortal,https://www.linkedin.com/company/nortal,nortal.com,IT Services and IT Consulting,1001-5000,EE,2
+Medallia,https://www.linkedin.com/company/medallia-inc.,medallia.com,Software Development,1001-5000,US,2
+Verint,https://www.linkedin.com/company/verint,verint.com,Software Development,5001-10000,US,2
+Fiserv,https://www.linkedin.com/company/fiserv,fiserv.com,IT Services and IT Consulting,10001+,US,2
+NCR Corporation,https://www.linkedin.com/company/ncr-corporation,ncr.com,IT Services and IT Consulting,10001+,US,2
+Zebra Technologies,https://www.linkedin.com/company/zebra-technologies,zebra.com,IT Services and IT Consulting,10001+,US,2
+Wolters Kluwer,https://www.linkedin.com/company/wolters-kluwer,wolterskluwer.com,Software Development,10001+,NL,2
+BE-terna,https://www.linkedin.com/company/be-terna,be-terna.com,IT Services and IT Consulting,1001-5000,AT,2
+Neo4j,https://www.linkedin.com/company/neo4j,neo4j.com,Software Development,501-1000,US,2
+Ivanti,https://www.linkedin.com/company/ivanti,ivanti.com,Software Development,1001-5000,US,2
+Macaw,https://www.linkedin.com/company/macaw,macaw.nl,IT Services and IT Consulting,501-1000,NL,2
+"2BM, Part of SOA People",https://www.linkedin.com/company/2bm,2bm.dk,IT Services and IT Consulting,501-1000,DK,2
+Informatica,https://www.linkedin.com/company/informatica,informatica.com,Software Development,5001-10000,US,2
+XBP Europe,https://www.linkedin.com/company/xbp-europe,xbpeurope.com,Technology; Information and Internet,1001-5000,GB,2
+QAD,https://www.linkedin.com/company/qad,qad.com,Software Development,1001-5000,US,2
+SD Worx Nederland,https://www.linkedin.com/company/sd-worx-nederland-bv,sdworx.nl,Human Resources Services,1001-5000,NL,2
+Mambu,https://www.linkedin.com/company/mambu,mambu.com,Software Development,501-1000,NL,2
+Amdocs,https://www.linkedin.com/company/amdocs,amdocs.com,Software Development,10001+,US,2
+Spiris | Visma,https://www.linkedin.com/company/spiris-visma,vismaspcs.se,IT Services and IT Consulting,501-1000,SE,2
+Exsitec,https://www.linkedin.com/company/exsitec,exsitec.com,IT Services and IT Consulting,501-1000,SE,2
+Benifex,https://www.linkedin.com/company/benifex,hellobenefex.com,Software Development,501-1000,GB,2
+Forterro,https://www.linkedin.com/company/forterro,forterro.com,Software Development,1001-5000,GB,2
+Staria,https://www.linkedin.com/company/staria-oyj,staria.com,Financial Services,501-1000,FI,2
+ECI Software Solutions,https://www.linkedin.com/company/eci-software--solutions,ecisolutions.com,Software Development,1001-5000,US,2
+NiCE,https://www.linkedin.com/company/nice-systems,nice.com,Software Development,5001-10000,US,2
+Mobica,https://www.linkedin.com/company/mobica,tinyurl.com,Software Development,501-1000,GB,2
+SS&C Advent,https://www.linkedin.com/company/ssc-advent,advent.com,Financial Services,1001-5000,US,2
+Rantalainen Oy,https://www.linkedin.com/company/rantalainen,rantalainen.fi,Financial Services,1001-5000,FI,2
+Randstad Enterprise,https://www.linkedin.com/company/randstadenterprise,randstadenterprise.com,Human Resources Services,5001-10000,NL,1
+AFAS Software,https://www.linkedin.com/company/afas-software,afas.nl,Software Development,501-1000,NL,1
+Bloomreach,https://www.linkedin.com/company/bloomreach,bloomreach.com,Software Development,501-1000,US,1
+Airwallex,https://www.linkedin.com/company/airwallex,airwallex.com,Financial Services,1001-5000,HK,1
+Sprinklr,https://www.linkedin.com/company/sprinklr,sprinklr.com,Software Development,1001-5000,US,1
+CHAMP Cargosystems,https://www.linkedin.com/company/champ-cargosystems,champ.aero,IT Services and IT Consulting,501-1000,LU,1
+Sabre Corporation,https://www.linkedin.com/company/sabre-corporation,sabre.com,Technology; Information and Internet,5001-10000,US,1
+ITC Infotech,https://www.linkedin.com/company/itc-infotech,itcinfotech.com,IT Services and IT Consulting,10001+,IN,1
+ClickUp,https://www.linkedin.com/company/clickup-app,bit.ly,Software Development,1001-5000,US,1
+Edenred,https://www.linkedin.com/company/edenred,edenred.com,Financial Services,10001+,FR,1
+EveryMatrix,https://www.linkedin.com/company/everymatrix,everymatrix.com,Software Development,1001-5000,MT,1
+Papaya Global,https://www.linkedin.com/company/papaya-global,papayaglobal.com,Financial Services,1001-5000,US,1
+LinkedIn,https://www.linkedin.com/company/1337,linkedin.com,Software Development,10001+,US,1
+Collibra,https://www.linkedin.com/company/collibra,collibra.com,Software Development,1001-5000,US,1
+Upland Software,https://www.linkedin.com/company/upland-software,uplandsoftware.com,Software Development,1001-5000,US,1
+Five9,https://www.linkedin.com/company/five9,five9.com,Software Development,1001-5000,US,1
+ZEDRA Group,https://www.linkedin.com/company/zedra-group,zedra.com,Financial Services,1001-5000,JE,1
+Linden-IT,https://www.linkedin.com/company/lindenit,linden-it.com,IT Services and IT Consulting,501-1000,NL,1
+Nextlane,https://www.linkedin.com/company/nextlaneautomotivegroup,nextlane.com,Software Development,501-1000,FR,1
+Feedzai,https://www.linkedin.com/company/feedzai,feedzai.com,IT Services and IT Consulting,501-1000,PT,1
+SD Worx SAP solutions,https://www.linkedin.com/company/sdworx-sap-solutions,sdworx.com,IT Services and IT Consulting,501-1000,BE,1
+JDA Software,https://www.linkedin.com/company/jda-software,blueyonder.com,Software Development,5001-10000,US,1
+Staffable,https://www.linkedin.com/company/staffable-payroll-hr,staffable.com,Financial Services,1001-5000,NL,1
+Miratech,https://www.linkedin.com/company/miratech,miratechgroup.com,IT Services and IT Consulting,1001-5000,US,1
+SBS,https://www.linkedin.com/company/s-b-s,soprabanking.com,Software Development,1001-5000,FR,1
+EPI-USE Nordic & Baltic,https://www.linkedin.com/company/epi-use-nordic-&-baltic,epiuse.com,IT Services and IT Consulting,1001-5000,DK,1
+OneTrust,https://www.linkedin.com/company/onetrust,onetrust.com,Software Development,1001-5000,US,1
+Tungsten Automation,https://www.linkedin.com/company/tungstenautomation,tungstenautomation.com,Software Development,1001-5000,US,1
+Anaplan,https://www.linkedin.com/company/anaplan,anaplan.com,Software Development,1001-5000,US,1
+Onix,https://www.linkedin.com/company/onixcloud,onixnet.com,IT Services and IT Consulting,1001-5000,US,1
+Acrisure,https://www.linkedin.com/company/acrisure,acrisure.com,Financial Services,10001+,US,1
+IFS Copperleaf,https://www.linkedin.com/company/ifs-copperleaf,copperleaf.com,Software Development,501-1000,CA,1
+RIB Software,https://www.linkedin.com/company/rib-software,rib-software.com,Software Development,1001-5000,DE,1
+UserTesting,https://www.linkedin.com/company/usertesting-com,usertesting.com,Software Development,501-1000,US,1
+Techwave,https://www.linkedin.com/company/techwave-consulting-inc,techwave.net,IT Services and IT Consulting,1001-5000,US,1
+Allspring Global Investments,https://www.linkedin.com/company/allspring,allspringglobal.com,Financial Services,1001-5000,US,1
+Palantir Technologies,https://www.linkedin.com/company/palantir-technologies,palantir.com,Software Development,1001-5000,US,1
+FICO,https://www.linkedin.com/company/fico,fico.com,Software Development,1001-5000,US,1
+DynaTech Systems,https://www.linkedin.com/company/dynatechsystems,dynatechconsultancy.com,IT Services and IT Consulting,501-1000,US,1
+Sabio,https://www.linkedin.com/company/sabio,sabiogroup.com,IT Services and IT Consulting,501-1000,GB,1
+Paychex,https://www.linkedin.com/company/paychex,paychex.com,Human Resources Services,10001+,US,1
+Jedox,https://www.linkedin.com/company/jedox,jedox.com,Software Development,501-1000,DE,1
+Xoxoday,https://www.linkedin.com/company/xoxoday,xoxoday.com,Software Development,501-1000,US,1
+Aptean,https://www.linkedin.com/company/aptean,aptean.com,Software Development,1001-5000,US,1
+PPS,https://www.linkedin.com/company/pps,pps.co.za,Financial Services,1001-5000,ZA,1
+Redwood Software,https://www.linkedin.com/company/redwood-software,redwood.com,Software Development,501-1000,US,1
+J.P. Morgan Private Bank,https://www.linkedin.com/company/jpmorganprivatebank-us,jpmorgan.am,Financial Services,10001+,US,1
+EOH,https://www.linkedin.com/company/ioco-previously-eoh,ioco.tech,IT Services and IT Consulting,1001-5000,ZA,1
+In Time Tec Europe,https://www.linkedin.com/company/in-time-tec-eu,intimetec.nl,Software Development,501-1000,NL,1
+Nuance Communications,https://www.linkedin.com/company/nuance-communications,nuance.com,Software Development,10001+,US,1
+Causeway Technologies,https://www.linkedin.com/company/causeway-technologies,causeway.com,Software Development,501-1000,GB,1
+Hightekers,https://www.linkedin.com/company/hightekers,hightekers.com,Human Resources Services,1001-5000,GB,1
+CallidusCloud,https://www.linkedin.com/company/calliduscloud,calliduscloud.com,Software Development,1001-5000,US,1
+Coda,https://www.linkedin.com/company/coda,coda.co,Technology; Information and Internet,501-1000,SG,1
+Viva.com,https://www.linkedin.com/company/viva-com,viva.com,Financial Services,1001-5000,GR,1
+Hardis Supply Chain | formerly Reflex,https://www.linkedin.com/company/hardis-supplychain,hardis-supplychain.com,Software Development,1001-5000,FR,1
+SOA PEOPLE,https://www.linkedin.com/company/soa-people,soapeople.com,IT Services and IT Consulting,1001-5000,LU,1
+Nobl Q Europe,https://www.linkedin.com/company/noblqeurope,noblq.com,IT Services and IT Consulting,501-1000,NL,1
+Klipboard,https://www.linkedin.com/company/weareklipboard,klipboard.com,Software Development,1001-5000,GB,1
+PRO Unlimited EMEA,https://www.linkedin.com/company/prounlimited-emea,linkedin.com,Software Development,1001-5000,GB,1
+First Advantage,https://www.linkedin.com/company/first-advantage,fadv.com,Software Development,5001-10000,US,1
+Precisely,https://www.linkedin.com/company/preciselydata,precisely.com,Software Development,1001-5000,US,1
+DocuWare,https://www.linkedin.com/company/docuware-corporation,docuware.com,Software Development,501-1000,DE,1
+Arcwide,https://www.linkedin.com/company/arcwide,arcwide.com,IT Services and IT Consulting,501-1000,NL,1
+Kyriba,https://www.linkedin.com/company/kyriba,kyriba.com,Software Development,501-1000,US,1
+Hudl,https://www.linkedin.com/company/hudl,hudl.com,Software Development,1001-5000,US,1
+Bullhorn,https://www.linkedin.com/company/bullhorn,bullhorn.com,Software Development,1001-5000,US,1
+Broadpin,https://www.linkedin.com/company/broadpin,broadpin.com,IT Services and IT Consulting,501-1000,US,1
+Wolters Kluwer Legal Software,https://www.linkedin.com/company/wolters-kluwer-legal-software,wolterskluwer.com,IT Services and IT Consulting,10001+,NL,1
+Finastra,https://www.linkedin.com/company/finastra,finastra.com,Financial Services,5001-10000,GB,1
+Forsta,https://www.linkedin.com/company/forstainfo,forsta.com,Software Development,501-1000,GB,1
+Qonto,https://www.linkedin.com/company/qonto,qonto.com,Financial Services,1001-5000,FR,1
+MAIT for business,https://www.linkedin.com/company/mait-for-business,mait-group.com,IT Services and IT Consulting,501-1000,DE,1
+DRW,https://www.linkedin.com/company/drw,drw.com,Financial Services,1001-5000,US,1
+Genesys,https://www.linkedin.com/company/genesys,genesys.com,Software Development,5001-10000,US,1
+Pathlock,https://www.linkedin.com/company/pathlock,pathlock.com,Software Development,501-1000,US,1
+Quorum Software,https://www.linkedin.com/company/quorum-software,quorumsoftware.com,Software Development,1001-5000,US,1
+Visma Software Nordic NO,https://www.linkedin.com/company/visma-software-nordic-norge,visma.no,Software Development,501-1000,NO,1
+Norges Bank Investment Management,https://www.linkedin.com/company/norges-bank-investment-management,nbim.no,Financial Services,501-1000,NO,1
+EcoOnline,https://www.linkedin.com/company/ecoonline-global,ecoonline.com,Software Development,501-1000,GB,1
+SD Worx Finland,https://www.linkedin.com/company/sd-worx-finland,sdworx.fi,IT Services and IT Consulting,5001-10000,FI,1
+Epicor,https://www.linkedin.com/company/epicor-software-corp,epicor.com,Software Development,1001-5000,US,1
+SD Worx Sverige,https://www.linkedin.com/company/sd-worx-sverige,sdworx.se,IT Services and IT Consulting,5001-10000,SE,1
+Aspen Technology,https://www.linkedin.com/company/aspen-technology,aspentech.com,Software Development,1001-5000,US,1
+Broadridge,https://www.linkedin.com/company/broadridge-financial-solutions,broadridge.com,Financial Services,10001+,US,1
+Caseware,https://www.linkedin.com/company/caseware-international-inc,caseware.com,Software Development,501-1000,CA,1
+LexisNexis,https://www.linkedin.com/company/lexisnexis,lexisnexis.com,IT Services and IT Consulting,10001+,US,1
+Digital Science,https://www.linkedin.com/company/digital-science,digital-science.com,Software Development,501-1000,GB,1
+"ROB-EX A/S, now part of GE Vernova",https://www.linkedin.com/company/novotek-planning-systems-a-s,gevernova.com,Software Development,10001+,DK,1
+Trintech,https://www.linkedin.com/company/trintech,trintech.com,Software Development,501-1000,US,1
+COSMO CONSULT,https://www.linkedin.com/company/cosmo-consult-gmbh,cosmoconsult.com,IT Services and IT Consulting,1001-5000,DE,1
+Accruent,https://www.linkedin.com/company/accruent,accruent.com,Software Development,1001-5000,US,1
+OCLC Netherlands,https://www.linkedin.com/company/oclc-nederland-,oclc.org,IT Services and IT Consulting,1001-5000,NL,1
+Atik Uitzendbureau,https://www.linkedin.com/company/atikuitzendbureau,atik.nl,Human Resources Services,501-1000,NL,1
+Qualysoft,https://www.linkedin.com/company/qualysoft,qualysoft.com,IT Services and IT Consulting,501-1000,AT,1
+Prevas A/S,https://www.linkedin.com/company/prevasdenmark,prevas.dk,IT Services and IT Consulting,501-1000,DK,1
+BSC Global (Bindroo Group),https://www.linkedin.com/company/bindroo-software-and-consultants-pvt.ltd,globalbsc.com,IT Services and IT Consulting,501-1000,IN,1
+Advania Group,https://www.linkedin.com/company/advania,advania.com,IT Services and IT Consulting,5001-10000,SE,1
+Vanhier,https://www.linkedin.com/company/vanhieraccountantsenadviseurs,vanhier.nl,Financial Services,501-1000,NL,1
+Bottomline,https://www.linkedin.com/company/bottomline-payments,bottomline.com,Software Development,1001-5000,US,1
+Gainsight,https://www.linkedin.com/company/gainsight,gainsight.com,Software Development,1001-5000,US,1
+Monster,https://www.linkedin.com/company/monster,monster.com,Technology; Information and Internet,1001-5000,PR,1
+F.N.B. Corporation,https://www.linkedin.com/company/f-n-b--corporation,fnb-online.com,Financial Services,1001-5000,US,1
+NEORIS,https://www.linkedin.com/company/epamneoris,neoris.com,IT Services and IT Consulting,10001+,US,1
+Degreed,https://www.linkedin.com/company/degreed,degreed.com,Software Development,501-1000,US,1
+BISON Group,https://www.linkedin.com/company/bison,bison-group.com,IT Services and IT Consulting,501-1000,CH,1
+The Stepstone Group,https://www.linkedin.com/company/thestepstonegroup,thestepstonegroup.com,Software Development,1001-5000,DE,1
+Fexco,https://www.linkedin.com/company/fexco,fexco.com,Financial Services,1001-5000,IE,1
+Planview,https://www.linkedin.com/company/planview,planview.com,Software Development,1001-5000,US,1
+HCL Enterprise,https://www.linkedin.com/company/hcl-enterprise,hcl.com,IT Services and IT Consulting,10001+,IN,1
+USG Engineering NL,https://www.linkedin.com/company/technicum-engineering,technicum-engineering.nl,Human Resources Services,501-1000,NL,1
+Kofax,https://www.linkedin.com/company/kofax,linkedin.com,Software Development,1001-5000,US,1
+HTC Global Services,https://www.linkedin.com/company/htc-global-services,htcinc.com,IT Services and IT Consulting,10001+,US,1
+Crypto.com,https://www.linkedin.com/company/cryptocom,crypto.com,Financial Services,1001-5000,SG,1
+Billtrust,https://www.linkedin.com/company/billtrust,billtrust.com,Financial Services,501-1000,US,1
