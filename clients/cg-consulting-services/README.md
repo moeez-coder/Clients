@@ -176,6 +176,13 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-13 ~14:00 UTC**: **"Use all senders for all campaigns" (Moe), checked against HeyReach workspace 169110.**
+  - **Connected senders:** 7 of the 10 CG LinkedIn accounts are connected (243652, 249292, 249296, 261910, 263687, 263737, 264146).
+  - **Live campaigns:** all 7 were already on all 5 running campaigns: open-role 723837/723838/723839/723841 and MQC 727548.
+  - **Disconnected senders:** 203834 (Calianga), 252010 (Lobos) and 264519 (Abdulrahman) have `authIsValid: false`. HeyReach refuses to assign them: `update_campaign_accounts` on 686451 returned "This LinkedIn sender is disconnected. Re-connect it and try again."
+  - **Live campaigns paused briefly:** the 5 campaigns were paused and then resumed within a minute. All 5 were confirmed `IN_PROGRESS` with unchanged lead counts.
+  - **Bench campaigns:** 677893 (already has all 10) and 686451 (9; missing 252010) were found **PAUSED** by someone outside this session. They were left paused.
+  - **Next step:** reconnect the 3 accounts in HeyReach, then add them to every campaign. Why: senders can only be added once their LinkedIn login is valid. (CG session 3, branch `claude/cg-open-role-campaigns`.)
 - **2026-11-12 16:31 UTC**: **Top-up push verified.** HeyReach list totals match exactly what was expected:
   - `1141179` = 425 (273 + 152)
   - `1141180` = 1,435 (987 + 448)
