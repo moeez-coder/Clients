@@ -40,7 +40,7 @@ None exist in tracking_clients as of 2026-11-12 (`list_sourcing_configs` count 0
 
 | Date | Doc | tracking_clients id | Status |
 |---|---|---|---|
-| 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `internal_review` (client feedback 2026-11-12; 95 tracked suggestions added 2026-11-13, **not re-sent**; first sent 2026-11-12, [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
+| 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (re-sent 2026-11-13 after John's open-role feedback; 109 tracked suggestions pending the client's accept/reject; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
 
 ## Sourced data in this repo
 
@@ -49,6 +49,17 @@ None exist in tracking_clients as of 2026-11-12 (`list_sourcing_configs` count 0
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-13**: **Campaigns 6–10 aligned with John's feedback, then doc re-sent.**
+  - **Edits:** 14 more tracked suggestions via `review_campaign_doc`, all ok, client comments 1 and 2 kept.
+    - Personas moved up to CEO/MD and CPO/People Director/HRD. All Head of TA and Employer Brand Manager tiers removed.
+    - Campaign 7 now covers a new CEO or people leader.
+    - Campaign 8's signal is now ratings, or turnover disclosed in results or press. The "reposted roles" wording is gone.
+    - Campaign 6's "hiring plan" and "hiring push" wording removed.
+    - Campaign 10 now targets the people leader plus the CMO.
+  - **Send:** after Moe said "Send it back", re-sent via `send_campaign_doc_to_client` with a note. Status **client_review**, Slack notified (`ok`).
+  - **Email:** Moe asked for a reply to John's email. The draft is at `comms/2026-11-13-reply-to-john-open-roles.md`. It was not sent from this session.
+  - **Pending:** Moe's choice of the 3 campaigns to launch first. My recommendation is 1, 2 and 5, which was put to Moe but the question was interrupted.
 
 - **2026-11-13**: **Campaigns 1–5 re-signalled after client feedback.**
   - **Feedback:** on 2026-11-12, John Tarrant emailed that leading with an open role makes DNA look like a "low end high street recruiter", and that they sell to the C-suite and the level just below, who don't track open roles.
