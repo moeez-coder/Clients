@@ -68,13 +68,13 @@ Both campaigns are **drafts**. No leads are loaded and nothing has started.
 
 One workbook per campaign (CLAUDE.md "GTM Sheets build standard per campaign"). Folder: Clients / GRN Piedmont (`5b185300-2443-46b3-9a4d-b50cb54f4368`). Webhook URLs are not stored in the repo; get them from `gtm_sheet_get_table`.
 
-**Campaign 5, Owner Succession:** workbook **US | Owner Succession | GRN Piedmont v1** `7ec67abc-807a-48e9-8958-9a10cf87156c`, linked to campaign `250a7100-…`. Rows: 0 so far (structure only).
+**Campaign 5, Owner Succession:** workbook **US | Owner Succession | GRN Piedmont v1** `7ec67abc-807a-48e9-8958-9a10cf87156c`, linked to campaign `250a7100-…`.
 
-| Table | id | Purpose |
-|---|---|---|
-| 1. Companies | `5e1a202a-af24-4c8e-894f-fe912aa9eb65` | US manufacturers 201-1,000, all states (Blitz count 8,729; the states filter was removed on the repo owner's instruction), with Ownership Check and Leads Produced columns so the drop-off is visible |
-| 2. Ownership & Tenure Check | `64dc0c5e-9534-4ddb-b587-67cd692cec44` | Founder-led / family-owned check, top leader, years in role, Qualifies + Reason |
-| 3. Leads | `1e0c689d-681d-435f-aaf5-6ac009b2290e` | Keyed by LinkedIn URL; `Status` ("launch set" / "removed: <reason>"); **Push to HeyReach** to `730731` with custom fields `ownership` and `years_in_role`, auto-run off, `run_if` Status = "launch set". Linked to lead list `88fe680f-…` |
+| Table | id | Rows | Purpose |
+|---|---|---|---|
+| 1. Companies | `2079087b-7f79-4373-97c4-6ee28bc60464` | 8,728 | US manufacturers 201-1,000, all states (Blitz). AI column **Owner Succession Fit (AI)** (`openai/gpt-6-luna`, web, yes/no) plus Qualifies / Ownership / Years in Role / Top Leader / Fit Reason fields; **Send to Qualified** copies the "yes" rows on |
+| 2. Qualified Companies | `78d86371-a1c0-450e-b12d-14da694f2c44` | 508 | Founder-led / family-owned with a 15+ year owner in the top seat |
+| 3. Leads | `35453097-604b-4f34-8693-da30439aa00e` | 310 (303 launch set) | Owner / Founder / President / CEO / Chairman at the 508 (Blitz). Keyed by LinkedIn URL; `ownership`, `years_in_role` (47 filled), `Status`; **Push to HeyReach** to `730731` (custom fields `ownership`, `years_in_role`, auto-run off, run_if Status = "launch set"). Linked to lead list `88fe680f-…`. Nothing pushed yet |
 
 ## Sourced data in this repo
 
@@ -82,11 +82,20 @@ One workbook per campaign (CLAUDE.md "GTM Sheets build standard per campaign"). 
 - `sourcing/fire-life-safety-leaders/2026-11-13-companies.csv`: 10 preview companies for **Fire & Life Safety Leaders - Blitz (US F&LS 201-1000, C-level/VP)** (config `e8538474-8bd8-4479-8878-5899efe1ccf4`).
   - Pulled 2026-11-13 via tracking_clients `gtm_sheet_find_companies` (Blitz preview, keywords fire sprinkler / fire alarm / fire suppression).
   - A sample only, not the full 334.
+- `sourcing/owner-succession/2026-11-13-all-companies-ai-check.csv`: 8,728 companies for **Owner Succession - Blitz (US manufacturers 201-1000, owners/CEOs)** (config `88fe680f-eae0-40c5-b147-1edf40579466`), pulled 2026-11-13 via tracking_clients `gtm_sheet_find_companies` (Blitz), with the GTM Sheets AI yes/no verdict (508 yes). Query: `sourcing/owner-succession/2026-11-13-leads.query.md`.
+- `sourcing/owner-succession/2026-11-13-companies.csv`: the 508 qualified companies (same config), 2026-11-13.
+- `sourcing/owner-succession/2026-11-13-leads.csv`: 310 prospects (same config `88fe680f-…`), pulled 2026-11-13 via tracking_clients `gtm_sheet_find_people` (Blitz, companies from 2. Qualified Companies), keyed by `linkedin_url`; 303 "launch set".
 - `sourcing/seat-that-wont-close-preview/2026-11-13-companies.csv`: 3 preview companies for Campaign 1, The Seat That Won't Close (config `-`, none created yet).
   - Pulled 2026-11-13 via tracking_clients `gtm_sheet_find_companies` (Blitz preview with the `hiring` filter).
 
 ## History
 
+- **2026-11-13**: **Owner Succession sourced in GTM Sheets: 8,728 companies -> 508 qualified -> 310 leads (303 launch set)**. Expanding the Owner Succession segment created earlier today.
+  - Repo owner instructions: remove the states filter, pull everything, use AI in GTM Sheets with a yes/no output, model GPT-6 Luna.
+  - The empty webhook tables from the first build were replaced by an imported Companies table, a Qualified Companies table fed by a send column, and an imported Leads table. Table ids are above.
+  - Credits: about 8,728 Blitz for companies, about 310 for people, plus the Luna web checks.
+  - Nothing is pushed to HeyReach and the campaign is still a draft. Still open: client approval of the doc, DNC load, senders/daily limit, and the Eastern/Central time-zone limit now that the states filter is off.
+  - Details: `sourcing/owner-succession/2026-11-13-leads.query.md`. Session: `claude/grn-feedback-incorporation-lnmmb0`.
 - **2026-11-13**: **GTM Sheets workbook built for Campaign 5, Owner Succession** (repo owner: "Set this up in sheets", after confirming Campaign 5 is the only campaign with no client feedback).
   - Workbook `7ec67abc-…` with three webhook tables (Companies, Ownership & Tenure Check, Leads), ids above. The Leads table's Push to HeyReach column is wired to `730731` with auto-run off.
   - Pool for the Eastern/Central states: 3,700 companies (Blitz count, `gtm_sheet_find_companies`, same industries and sizes as the preview, `states` = the 38 Eastern/Central states + DC).
