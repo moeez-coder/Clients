@@ -31,12 +31,12 @@
   - Reads go through tracking_clients' stored key (`gtm_sheet_list_heyreach_campaigns`, `get_client_stats`).
   - Instantly, Smartlead and PlusVibe are not connected. masterInboxWorkspaceId is `-`.
 - **Infrastructure:** not submitted to infra (`infrastructure` is `{}`).
-- **Booking link:** `-` (blank). `replyWorkflowN8nId`: no campaigns exist yet.
+- **Booking link (2026-11-13):** https://meetings.hubspot.com/christian-peter-sandvei/account-meeting. It was blank on 2026-11-06. `replyWorkflowN8nId`: no campaigns exist yet.
 - **Gaps in tracking_clients:** these are recorded, not filled by guessing.
   - `callTranscript` is empty.
   - SDR defaults (headline, about, position, location, banner) are empty.
   - `sampleReportUrl` is empty.
-- **DNC:** `dncList` is empty (0 entries) and `dncSkipped` is false. **But the ICP form says the client uploaded a DNC file:** `31a7eb95d165-Do_Not_Contact_twoHundred_enriched.xlsx`.
+- **DNC (updated 2026-11-13):** `dncList` now holds **53 companies** (repo copy `context/dnc-2026-11-13.csv`), so the gap below is closed. Earlier state: `dncList` was empty (0 entries) and `dncSkipped` was false. **But the ICP form says the client uploaded a DNC file:** `31a7eb95d165-Do_Not_Contact_twoHundred_enriched.xlsx`.
   - That file never reached `dncList`. This is a gap to fix, not "no DNC".
   - It almost certainly holds existing/past partners. The form names Oracle, Palo Alto Networks, SAP, Workday, Wonderful, Wiz and Zscaler as past partners, and the brief adds Ivalua.
   - **No sourcing pull should go to HeyReach until that file is loaded.**
@@ -117,10 +117,20 @@ A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 20
 
 ## Sourced data in this repo
 
-- `-`: no snapshots yet.
+- `sourcing/c1-cpo-csco-table/2026-11-13-companies.csv`: **57 companies**, 24 of them with 0 leads (kept so the drop-off shows). Config "The CPO and CSCO Table" (`b81f2795-76e8-4f63-a8d0-3f0d53cabf6e`), campaign `094e9b70-89e2-414f-b48b-8eb7d9ae45e3`. Blitz API `/v2/search/companies` plus `/v2/enrichment/company`, pulled 2026-11-13. Query: `2026-11-13-leads.query.md`.
+- `sourcing/c1-cpo-csco-table/2026-11-13-leads.csv`: **75 leads** at 33 companies, keyed on `linkedin_url`. Same config. Blitz API `/v2/search/employee-finder`, pulled 2026-11-13.
+- `context/dnc-2026-11-13.csv`: the client DNC, **53 companies and domains**. It was exported from tracking_clients `dncList` on 2026-11-13; the client had now loaded it from their uploaded xlsx.
 
 ## History
 
+- **2026-11-13**: **Opened a new segment: sourced C1 "The CPO and CSCO Table"** (config `b81f2795-76e8-4f63-a8d0-3f0d53cabf6e`, campaign `094e9b70-89e2-414f-b48b-8eb7d9ae45e3`). It produced 57 qualified companies and 75 leads, using the Blitz API.
+  - **Request:** Moe, "Source the data for one and make it live".
+  - **Why C1:** the client's dream accounts are all supply chain and procurement vendors, and the C1 copy only uses standard variables.
+  - **TAM/SAM and depth:** the TAM/SAM is small (57 companies), so we take up to 5 contacts per company, as the doc says.
+  - **DNC:** applied (53 domains, loaded by the client since the last check). Workspace dedupe: no existing leads.
+  - **Cost:** about 3,700 Blitz records on a flat plan, so no extra spend.
+  - **Full query:** `sourcing/c1-cpo-csco-table/2026-11-13-leads.query.md`.
+  - **Not live yet:** the leads are not yet in HeyReach and the campaign has not been started. This waits on Moe's `campaign_thinking` and his go-ahead to start.
 - **2026-11-13**: Set up all 10 HeyReach campaigns in workspace 172772 (Moe: "The sender accounts are set up. Proceed with the setting up of campaigns inside of heyreach").
   - **Built:** 10 DRAFT campaigns (729831, 729835 to 729838, 729840 to 729844), each with its own list. Each carries the approved doc copy, converted to HeyReach variable syntax with a fallback per message. Each is linked to its tracking_clients campaign, and all 9 senders are on every campaign. Details are in "HeyReach state".
   - **Why drafts:** none can go live yet. Still missing:
