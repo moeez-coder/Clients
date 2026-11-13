@@ -126,6 +126,9 @@ revisions.
 - **Still apply what they explicitly ask for.** When the client supplies
   replacement copy or a firm instruction, apply it. If you think it's
   weaker, flag that to the repo owner; don't quietly override it.
+- **No sign-off on Slack replies.** A message to a client on Slack ends
+  with its last sentence: no "Thanks,", "Best,", name or signature. Set by
+  Moe on 2026-11-13.
 
 ## Campaign build standard per client
 
