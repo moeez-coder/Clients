@@ -64,24 +64,29 @@ Mirrored from `list_sourcing_configs` on 2026-11-12. All 10 configs use the Cust
 
 All 10 were created 2026-11-12 from approved doc `a4c10f55-28e7-420e-9040-d8fe8a80ee51` and are linked to it (`doc_signed: true`). Every campaign is LinkedIn, identity Client, and has a validated 4-step sequence (`set_campaign_sequence`: connection request, then 3 DMs at day 0, 4 and 9). All are in status `creation`.
 
-| # | Campaign | session id | Lead list (sourcing config) | ICP config |
-|---|---|---|---|---|
-| C1 | The CPO and CSCO Table | `094e9b70-89e2-414f-b48b-8eb7d9ae45e3` | `b81f2795-76e8-4f63-a8d0-3f0d53cabf6e` | `94a6a632-88eb-43cb-8401-9b286033fa17` |
-| C2 | Beyond the Expo Hall | `a767b822-f1d5-422b-acba-e536d54882b4` | `c659923d-b864-4572-a5f9-6034425882a9` | `b359767a-463a-4e85-abe5-7b625be7f013` |
-| C3 | New in the Seat | `919f494a-06d5-439f-9f3c-7181367c75a6` | `82f47ea4-d434-444c-830f-4fffa6d5c2fe` | `92d229b6-875a-43ab-9f50-2749bd6913f9` |
-| C4 | Entering the Nordics | `51e55b6c-f97f-4a5a-9109-4bd7f730598d` | `a42149fc-d3ac-44d4-86e6-aa5a856d1827` | `35d03c8c-ab82-4053-8e9c-55e9cb1ebb01` |
-| C5 | The CISO Room | `0637bac6-5e24-41be-b829-25350eb83b25` | `3b6c78bc-ec87-4bd4-b6b6-4a0d89936f4c` | `ee1bb78d-8fd4-4826-a689-3e0a07844836` |
-| C6 | Nordic CIO Pulse | `aad8be08-a118-420c-b11c-7c1581c9baf4` | `52e26a7a-c209-42d5-b3e4-a81548a2a5f8` | `4b955c4a-326c-495c-beab-da078d093bf9` |
-| C7 | Finance and People Leaders | `fe3ef189-38f6-42ab-ae9a-712517eace39` | `d3ebc835-ae65-4777-a770-650a0ef0f417` | `0694d62b-8932-4f8c-8dc9-c9467de0cec6` |
-| C8 | Open Roles, Field and Event Marketing | `c8b08608-897e-4ec0-8568-fc26c2525827` | `41d63fbf-1b66-44d1-ba91-2ad0b2def817` | `99443fa9-fbcf-450e-bcfe-89a57e40b5a1` |
-| C9 | Open Roles, Country and Sales Leadership | `f7d16968-870a-4477-90d9-1cc32d3fd0bc` | `25cf23a0-bd3d-4d32-a8aa-9f91fb131150` | `01f08a0f-2a51-426f-9aad-7c0f8b128671` |
-| C10 | Open Roles, ABM, Demand and Partner Marketing | `65ed1c2f-4a4e-4b3e-9fe5-9b7502d6c97f` | `55fb215f-cad1-4d8b-890a-72f366e81b38` | `f9c2c642-d732-420c-bf3f-7b90812be327` |
+| # | Campaign | session id | Lead list (sourcing config) | ICP config | HeyReach campaign / list |
+|---|---|---|---|---|---|
+| C1 | The CPO and CSCO Table | `094e9b70-89e2-414f-b48b-8eb7d9ae45e3` | `b81f2795-76e8-4f63-a8d0-3f0d53cabf6e` | `94a6a632-88eb-43cb-8401-9b286033fa17` | `729831` / `1152302` |
+| C2 | Beyond the Expo Hall | `a767b822-f1d5-422b-acba-e536d54882b4` | `c659923d-b864-4572-a5f9-6034425882a9` | `b359767a-463a-4e85-abe5-7b625be7f013` | `729835` / `1152307` |
+| C3 | New in the Seat | `919f494a-06d5-439f-9f3c-7181367c75a6` | `82f47ea4-d434-444c-830f-4fffa6d5c2fe` | `92d229b6-875a-43ab-9f50-2749bd6913f9` | `729836` / `1152308` |
+| C4 | Entering the Nordics | `51e55b6c-f97f-4a5a-9109-4bd7f730598d` | `a42149fc-d3ac-44d4-86e6-aa5a856d1827` | `35d03c8c-ab82-4053-8e9c-55e9cb1ebb01` | `729837` / `1152309` |
+| C5 | The CISO Room | `0637bac6-5e24-41be-b829-25350eb83b25` | `3b6c78bc-ec87-4bd4-b6b6-4a0d89936f4c` | `ee1bb78d-8fd4-4826-a689-3e0a07844836` | `729838` / `1152310` |
+| C6 | Nordic CIO Pulse | `aad8be08-a118-420c-b11c-7c1581c9baf4` | `52e26a7a-c209-42d5-b3e4-a81548a2a5f8` | `4b955c4a-326c-495c-beab-da078d093bf9` | `729840` / `1152311` |
+| C7 | Finance and People Leaders | `fe3ef189-38f6-42ab-ae9a-712517eace39` | `d3ebc835-ae65-4777-a770-650a0ef0f417` | `0694d62b-8932-4f8c-8dc9-c9467de0cec6` | `729841` / `1152312` |
+| C8 | Open Roles, Field and Event Marketing | `c8b08608-897e-4ec0-8568-fc26c2525827` | `41d63fbf-1b66-44d1-ba91-2ad0b2def817` | `99443fa9-fbcf-450e-bcfe-89a57e40b5a1` | `729842` / `1152313` |
+| C9 | Open Roles, Country and Sales Leadership | `f7d16968-870a-4477-90d9-1cc32d3fd0bc` | `25cf23a0-bd3d-4d32-a8aa-9f91fb131150` | `01f08a0f-2a51-426f-9aad-7c0f8b128671` | `729843` / `1152315` |
+| C10 | Open Roles, ABM, Demand and Partner Marketing | `65ed1c2f-4a4e-4b3e-9fe5-9b7502d6c97f` | `55fb215f-cad1-4d8b-890a-72f366e81b38` | `f9c2c642-d732-420c-bf3f-7b90812be327` | `729844` / `1152317` |
 
-## HeyReach state (2026-11-06)
+## HeyReach state (2026-11-13)
 
-- Workspace 172772 "twoHundred": **0 campaigns** (`gtm_sheet_list_heyreach_campaigns`). Last 7 days: zero activity, with 0 connections and 0 messages sent (`get_client_stats`).
-- **0 LinkedIn seats** in tracking_clients (`list_client_accounts`: no client accounts, no Virtual SDRs, no sync rows). There are no senders to audit yet: auth, Sales Nav, limits and cooldowns are all n/a.
-- **Not checked yet:** lists and blacklist. These need a HeyReach connector for 172772, and none is available in this session.
+- Workspace 172772 "twoHundred" now has **10 DRAFT campaigns**, one per tracking_clients campaign (ids in the Campaigns table). Each has its own empty list. All were created 2026-11-13 with `gtm_sheet_create_heyreach_campaign` and linked with `link_platform_campaign`. **None has been started.**
+- **Senders:** all 9 VSDR accounts are on all 10 campaigns (`set_campaign_senders add_all_available`, 9 per campaign): Delosjene Encarnado, Joanna Marie Alipio, Brett Magat, Ralph John Taboada, Eianne Maurice Tantiado, Shiela Mae Inoc, Milca Lavarias, Marjorie Paulo, plus account `182761` (put on at creation). All are `heyreach_connected: true` and `sales_nav_connected: false`.
+- **Sequence:** connection request (withdrawn after 25 days), then M1, M2 after 4 days, M3 after 5 days. Every DM has a fallback for empty variables, and weekend sending is on.
+  - **M1 delay is saved as 3 hours.** We asked for 1 hour, but HeyReach stored 3.
+  - **Variables:** `{FIRST_NAME}`, `{company_name}` and the custom fields (`event_name`, `event_city`, `expansion_short`, `country`, `category_short`, `community`, `open_role`, `open_role_with_article`, `jd`). Clay must push these exact field names.
+- **C1 to C7:** the connection request is blank, as approved.
+- **C8 to C10 (open roles):** the API rejects a connection note that uses `{company_name}` or `{open_role}`. HeyReach wants a note fallback, and the tool can't set one ("The fallback message is invalid in the Connection request action"). The saved notes use only `{FIRST_NAME}`, with the role family written in plain text (e.g. "saw the field marketing opening on your team"). **To get the approved `{open_role}` / `{company_name}` note back, edit it in the HeyReach UI and add a fallback there.**
+- **Not checked yet:** the workspace blacklist. There is still no HeyReach connector for 172772 in this session.
 
 ## ICP form vs. brief
 
@@ -116,6 +121,16 @@ A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 20
 
 ## History
 
+- **2026-11-13**: Set up all 10 HeyReach campaigns in workspace 172772 (Moe: "The sender accounts are set up. Proceed with the setting up of campaigns inside of heyreach").
+  - **Built:** 10 DRAFT campaigns (729831, 729835 to 729838, 729840 to 729844), each with its own list. Each carries the approved doc copy, converted to HeyReach variable syntax with a fallback per message. Each is linked to its tracking_clients campaign, and all 9 senders are on every campaign. Details are in "HeyReach state".
+  - **Why drafts:** none can go live yet. Still missing:
+    - Moe's `campaign_thinking` (all 10 campaigns are in `creation`)
+    - the DNC list
+    - leads, since nothing has been sourced
+    - the Forum overview and booking link
+    - Sales Nav on every sender
+  - **Fixed along the way:** C8 to C10's first sequence save failed on the connection-note fallback. They were re-saved on the same campaign ids, with notes that use only `{FIRST_NAME}`.
+  - **Not done:** the "exclude leads in other campaigns" setting has no tool, so set it in the UI.
 - **2026-11-12**: Sent a sender-setup reminder to John Paul (infra), cc Dave, in **#gtm-john** (`C0BUMA50B4M`). Moe asked for a shorter version, then for cc at the end and no Nordic mention. then for the correct John. **The final message is https://algoacquisitiongroup.slack.com/archives/C0BUMA50B4M/p1794485549422449**, tagging John (`john@algoacquisition.com`, Slack `U0AJFP48EKS`). Earlier versions in #gtm-john (p1794485411896349, p1794485427712619, p1794485486267889) and the group DM are to be deleted by hand.
   - **Why:** HeyReach workspace 172772 has no LinkedIn accounts, infrastructure was never submitted, and there are no client accounts or VSDRs.
   - **Earlier copy:** the same message went first to a new group DM (`C0CH4BWE5KL`, p1794485320760809). Moe asked for that one to be deleted and the reminder sent to the GTM/John channel instead. The Slack connector has no delete tool, so the DM copy has to be deleted by hand in Slack.
