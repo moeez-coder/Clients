@@ -1,0 +1,1985 @@
+{
+ "1-health-care-medical": {
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Care Assistant",
+      "Support Worker",
+      "Healthcare Assistant",
+      "Care Worker",
+      "Nurse",
+      "Registered Nurse",
+      "Veterinary Surgeon",
+      "Veterinary Nurse",
+      "Vet",
+      "Dental Nurse",
+      "Dentist",
+      "Paramedic",
+      "Call Handler",
+      "Clinician",
+      "Pharmacist",
+      "Care Home Manager",
+      "Deputy Manager"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 25
+  },
+  "records_used": 25,
+  "n": 25,
+  "distinct_companies": 10,
+  "company_counts": [
+   [
+    "University Hospital Southampton NHS FT",
+    6
+   ],
+   [
+    "Agincare",
+    4
+   ],
+   [
+    "Betsi Cadwaladr University Health Board",
+    4
+   ],
+   [
+    "Medivet",
+    3
+   ],
+   [
+    "Lifeways Group",
+    2
+   ],
+   [
+    "Eden Futures",
+    2
+   ],
+   [
+    "Optimo Care Group",
+    1
+   ],
+   [
+    "Circle Health Group",
+    1
+   ],
+   [
+    "Linnaeus",
+    1
+   ],
+   [
+    "Essex Partnership University NHS Foundation Trust",
+    1
+   ]
+  ],
+  "jobs": [
+   {
+    "title": "Client Care Assistant",
+    "company_name": "Medivet",
+    "company_linkedin_url": "https://www.linkedin.com/company/medivet-group-limited",
+    "date_posted": "2026-11-12 12:31:49+01",
+    "location": {
+     "city": "Carterton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Head Registered Veterinary Nurse",
+    "company_name": "Medivet",
+    "company_linkedin_url": "https://www.linkedin.com/company/medivet-group-limited",
+    "date_posted": "2026-11-12 12:31:48+01",
+    "location": {
+     "city": "Bromley",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Veterinary Care Assistant",
+    "company_name": "Medivet",
+    "company_linkedin_url": "https://www.linkedin.com/company/medivet-group-limited",
+    "date_posted": "2026-11-12 12:31:42+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Care Assistant",
+    "company_name": "Optimo Care Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/optimo-care-group-ltd",
+    "date_posted": "2026-11-12 12:30:21+01",
+    "location": {
+     "city": "Doncaster",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Waking Night Support Worker",
+    "company_name": "Agincare",
+    "company_linkedin_url": "https://www.linkedin.com/company/agincare-group",
+    "date_posted": "2026-11-12 12:29:40+01",
+    "location": {
+     "city": "Sturminster Newton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Support Worker",
+    "company_name": "Agincare",
+    "company_linkedin_url": "https://www.linkedin.com/company/agincare-group",
+    "date_posted": "2026-11-12 12:29:34+01",
+    "location": {
+     "city": "Devizes",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Support Worker",
+    "company_name": "Agincare",
+    "company_linkedin_url": "https://www.linkedin.com/company/agincare-group",
+    "date_posted": "2026-11-12 12:29:21+01",
+    "location": {
+     "city": "Dorchester",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Bank Senior Care Assistant",
+    "company_name": "Agincare",
+    "company_linkedin_url": "https://www.linkedin.com/company/agincare-group",
+    "date_posted": "2026-11-12 12:29:10+01",
+    "location": {
+     "city": "Leeds",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Healthcare Assistant - Wards - Circle Health Group",
+    "company_name": "Circle Health Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/circlehealthgroup",
+    "date_posted": "2026-11-12 12:22:14+01",
+    "location": {
+     "city": "Sheffield",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Registered Veterinary Nurse",
+    "company_name": "Linnaeus",
+    "company_linkedin_url": "https://www.linkedin.com/company/linnaeus-uk",
+    "date_posted": "2026-11-12 11:59:14+01",
+    "location": {
+     "city": null,
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Mat Cover - Care Support Worker - Walsall",
+    "company_name": "Lifeways Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/lifewaysgroup",
+    "date_posted": "2026-11-12 11:39:26+01",
+    "location": {
+     "city": null,
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Support Worker - North Tyneside",
+    "company_name": "Lifeways Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/lifewaysgroup",
+    "date_posted": "2026-11-12 11:37:37+01",
+    "location": {
+     "city": null,
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Junior Sister/ Charge Nurse - T&O",
+    "company_name": "University Hospital Southampton NHS FT",
+    "company_linkedin_url": "https://www.linkedin.com/company/uhsft",
+    "date_posted": "2026-11-12 11:30:04+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Clinical Nurse Specialist BMTCT",
+    "company_name": "University Hospital Southampton NHS FT",
+    "company_linkedin_url": "https://www.linkedin.com/company/uhsft",
+    "date_posted": "2026-11-12 11:29:56+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Paediatric Tertiary Epilepsy Nurse",
+    "company_name": "University Hospital Southampton NHS FT",
+    "company_linkedin_url": "https://www.linkedin.com/company/uhsft",
+    "date_posted": "2026-11-12 11:29:56+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Healthcare Support Worker",
+    "company_name": "University Hospital Southampton NHS FT",
+    "company_linkedin_url": "https://www.linkedin.com/company/uhsft",
+    "date_posted": "2026-11-12 11:29:55+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Biomedical Support Worker",
+    "company_name": "University Hospital Southampton NHS FT",
+    "company_linkedin_url": "https://www.linkedin.com/company/uhsft",
+    "date_posted": "2026-11-12 11:29:49+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Paediatric and Neonatal Intensive Care Pharmacist",
+    "company_name": "University Hospital Southampton NHS FT",
+    "company_linkedin_url": "https://www.linkedin.com/company/uhsft",
+    "date_posted": "2026-11-12 11:29:46+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Healthcare Assistant",
+    "company_name": "Essex Partnership University NHS Foundation Trust",
+    "company_linkedin_url": "https://www.linkedin.com/company/eputnhs",
+    "date_posted": "2026-11-12 11:29:14+01",
+    "location": {
+     "city": "Basildon",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Support Worker - Part Time 20 Hours per Week",
+    "company_name": "Eden Futures",
+    "company_linkedin_url": "https://www.linkedin.com/company/eden-futures",
+    "date_posted": "2026-11-12 11:26:56+01",
+    "location": {
+     "city": "Ollerton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Support Worker - Days",
+    "company_name": "Eden Futures",
+    "company_linkedin_url": "https://www.linkedin.com/company/eden-futures",
+    "date_posted": "2026-11-12 11:26:43+01",
+    "location": {
+     "city": "Cradley Heath",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Staff Nurse Paediatric ED INTERNAL",
+    "company_name": "Betsi Cadwaladr University Health Board",
+    "company_linkedin_url": "https://www.linkedin.com/company/betsi-cadwaladr-university-health-board",
+    "date_posted": "2026-11-12 11:18:46+01",
+    "location": {
+     "city": "Bangor",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Advanced Pharmacist - INTERNAL",
+    "company_name": "Betsi Cadwaladr University Health Board",
+    "company_linkedin_url": "https://www.linkedin.com/company/betsi-cadwaladr-university-health-board",
+    "date_posted": "2026-11-12 11:18:45+01",
+    "location": {
+     "city": "Rhyl",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Pharmacist \u2013 Prison Service Lead INTERNAL",
+    "company_name": "Betsi Cadwaladr University Health Board",
+    "company_linkedin_url": "https://www.linkedin.com/company/betsi-cadwaladr-university-health-board",
+    "date_posted": "2026-11-12 11:18:44+01",
+    "location": {
+     "city": "Wrexham",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Children's Community Nurse B6 - INTERNAL",
+    "company_name": "Betsi Cadwaladr University Health Board",
+    "company_linkedin_url": "https://www.linkedin.com/company/betsi-cadwaladr-university-health-board",
+    "date_posted": "2026-11-12 11:18:35+01",
+    "location": {
+     "city": "Wrexham",
+     "country_code": "GB"
+    }
+   }
+  ],
+  "error": null
+ },
+ "2-retail-hospitality": {
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Store Manager",
+      "Assistant Store Manager",
+      "Assistant Manager",
+      "Sales Assistant",
+      "Retail Assistant",
+      "Customer Assistant",
+      "Sales Advisor",
+      "Chef",
+      "Sous Chef",
+      "Head Chef",
+      "Restaurant Manager",
+      "General Manager",
+      "Team Leader",
+      "Supervisor",
+      "Kitchen Porter",
+      "Bartender",
+      "Front of House"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 25
+  },
+  "records_used": 25,
+  "n": 25,
+  "distinct_companies": 13,
+  "company_counts": [
+   [
+    "Morrisons",
+    7
+   ],
+   [
+    "Greene King Brewery",
+    3
+   ],
+   [
+    "Axiom Hospitality",
+    2
+   ],
+   [
+    "Bill's Restaurants",
+    2
+   ],
+   [
+    "Prezzo Italian",
+    2
+   ],
+   [
+    "BaxterStorey",
+    2
+   ],
+   [
+    "Specsavers",
+    1
+   ],
+   [
+    "Delta Hotels by Marriott Swansea",
+    1
+   ],
+   [
+    "Mountain Warehouse",
+    1
+   ],
+   [
+    "Village Hotels",
+    1
+   ],
+   [
+    "St Austell Brewery",
+    1
+   ],
+   [
+    "Las Iguanas",
+    1
+   ],
+   [
+    "BURGER KING UK",
+    1
+   ]
+  ],
+  "jobs": [
+   {
+    "title": "Assistant Store Manager",
+    "company_name": "Specsavers",
+    "company_linkedin_url": "https://www.linkedin.com/company/specsavers",
+    "date_posted": "2026-11-12 12:35:17+01",
+    "location": {
+     "city": "Hoddesdon",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Restaurant Supervisor",
+    "company_name": "Axiom Hospitality",
+    "company_linkedin_url": "https://www.linkedin.com/company/axiomhospitality",
+    "date_posted": "2026-11-12 12:33:51+01",
+    "location": {
+     "city": "Bath",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Chef De Partie",
+    "company_name": "Axiom Hospitality",
+    "company_linkedin_url": "https://www.linkedin.com/company/axiomhospitality",
+    "date_posted": "2026-11-12 12:33:42+01",
+    "location": {
+     "city": "Bath",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Assistant Front Desk Manager",
+    "company_name": "Delta Hotels by Marriott Swansea",
+    "company_linkedin_url": "https://www.linkedin.com/company/swansea-marriott-hotel",
+    "date_posted": "2026-11-12 12:31:40+01",
+    "location": {
+     "city": "Swansea",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Kitchen Porter",
+    "company_name": "Bill's Restaurants",
+    "company_linkedin_url": "https://www.linkedin.com/company/bill%27s-restaurants",
+    "date_posted": "2026-11-12 12:31:37+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Customer Assistant - Market Street & Cafe",
+    "company_name": "Morrisons",
+    "company_linkedin_url": "https://www.linkedin.com/company/morrisonsjobs",
+    "date_posted": "2026-11-12 12:31:26+01",
+    "location": {
+     "city": "Boroughbridge",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Customer Assistant - Kiosk",
+    "company_name": "Morrisons",
+    "company_linkedin_url": "https://www.linkedin.com/company/morrisonsjobs",
+    "date_posted": "2026-11-12 12:31:26+01",
+    "location": {
+     "city": null,
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Customer Assistant - Scanning",
+    "company_name": "Morrisons",
+    "company_linkedin_url": "https://www.linkedin.com/company/morrisonsjobs",
+    "date_posted": "2026-11-12 12:31:26+01",
+    "location": {
+     "city": "Hastings",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Customer Assistant - Online",
+    "company_name": "Morrisons",
+    "company_linkedin_url": "https://www.linkedin.com/company/morrisonsjobs",
+    "date_posted": "2026-11-12 12:31:26+01",
+    "location": {
+     "city": "Inverurie",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Store Manager - Convenience",
+    "company_name": "Morrisons",
+    "company_linkedin_url": "https://www.linkedin.com/company/morrisonsjobs",
+    "date_posted": "2026-11-12 12:31:26+01",
+    "location": {
+     "city": "Chickerell",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Market Street Team Leader",
+    "company_name": "Morrisons",
+    "company_linkedin_url": "https://www.linkedin.com/company/morrisonsjobs",
+    "date_posted": "2026-11-12 12:31:26+01",
+    "location": {
+     "city": "St Albans",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Store Manager - Convenience",
+    "company_name": "Morrisons",
+    "company_linkedin_url": "https://www.linkedin.com/company/morrisonsjobs",
+    "date_posted": "2026-11-12 12:31:26+01",
+    "location": {
+     "city": "Friockheim",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "UK Team Leader (Chain 1 & 5)",
+    "company_name": "Mountain Warehouse",
+    "company_linkedin_url": "https://www.linkedin.com/company/mountain-warehouse",
+    "date_posted": "2026-11-12 12:29:25+01",
+    "location": {
+     "city": null,
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "General Manager",
+    "company_name": "Bill's Restaurants",
+    "company_linkedin_url": "https://www.linkedin.com/company/bill%27s-restaurants",
+    "date_posted": "2026-11-12 12:25:05+01",
+    "location": {
+     "city": "Brighton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Starbucks Team Leader",
+    "company_name": "Village Hotels",
+    "company_linkedin_url": "https://www.linkedin.com/company/village-hotels",
+    "date_posted": "2026-11-12 12:23:21+01",
+    "location": {
+     "city": "Warrington",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Chef",
+    "company_name": "Prezzo Italian",
+    "company_linkedin_url": "https://www.linkedin.com/company/prezzo-ltd",
+    "date_posted": "2026-11-12 12:23:14+01",
+    "location": {
+     "city": "Aberdeen City",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Assistant Manager",
+    "company_name": "St Austell Brewery",
+    "company_linkedin_url": "https://www.linkedin.com/company/st-austell-brewery",
+    "date_posted": "2026-11-12 12:23:13+01",
+    "location": {
+     "city": "South Hams",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Chef - Part Time",
+    "company_name": "Prezzo Italian",
+    "company_linkedin_url": "https://www.linkedin.com/company/prezzo-ltd",
+    "date_posted": "2026-11-12 12:23:07+01",
+    "location": {
+     "city": "Aberdeen City",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Bartender",
+    "company_name": "Las Iguanas",
+    "company_linkedin_url": "https://www.linkedin.com/company/las-iguanas",
+    "date_posted": "2026-11-12 12:22:53+01",
+    "location": {
+     "city": "Birmingham",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Restaurant Assistant Manager",
+    "company_name": "BURGER KING UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/burgerkinguk",
+    "date_posted": "2026-11-12 12:22:43+01",
+    "location": {
+     "city": "Greater London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Apprentice Chef",
+    "company_name": "Greene King Brewery",
+    "company_linkedin_url": "https://www.linkedin.com/company/greene-king-brewery",
+    "date_posted": "2026-11-12 12:19:24+01",
+    "location": {
+     "city": "Liverpool",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Chef",
+    "company_name": "Greene King Brewery",
+    "company_linkedin_url": "https://www.linkedin.com/company/greene-king-brewery",
+    "date_posted": "2026-11-12 12:19:19+01",
+    "location": {
+     "city": "Blackpool",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "General Manager",
+    "company_name": "Greene King Brewery",
+    "company_linkedin_url": "https://www.linkedin.com/company/greene-king-brewery",
+    "date_posted": "2026-11-12 12:19:12+01",
+    "location": {
+     "city": "Swansea",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Kitchen Porter",
+    "company_name": "BaxterStorey",
+    "company_linkedin_url": "https://www.linkedin.com/company/baxterstorey",
+    "date_posted": "2026-11-12 12:19:10+01",
+    "location": {
+     "city": "Enfield",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Chef de Partie - Tottenham Hotspur Training Ground",
+    "company_name": "BaxterStorey",
+    "company_linkedin_url": "https://www.linkedin.com/company/baxterstorey",
+    "date_posted": "2026-11-12 12:18:57+01",
+    "location": {
+     "city": "Enfield",
+     "country_code": "GB"
+    }
+   }
+  ],
+  "error": null
+ },
+ "3-manufacturing-engineering-automotive-defence": {
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Maintenance Engineer",
+      "Engineer",
+      "Technician",
+      "Service Technician",
+      "Mechanic",
+      "HGV Technician",
+      "Electrician",
+      "Fitter",
+      "Welder",
+      "Machinist",
+      "CNC",
+      "Production Operative",
+      "Operative",
+      "Production Manager",
+      "Shift Manager",
+      "Quality Engineer",
+      "Design Engineer"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 25
+  },
+  "records_used": 25,
+  "n": 25,
+  "distinct_companies": 21,
+  "company_counts": [
+   [
+    "Stannah Group",
+    4
+   ],
+   [
+    "2 Sisters Food Group",
+    2
+   ],
+   [
+    "The HEX Group",
+    1
+   ],
+   [
+    "Vax",
+    1
+   ],
+   [
+    "Rolls-Royce",
+    1
+   ],
+   [
+    "Yeo Valley Production Ltd",
+    1
+   ],
+   [
+    "Croda",
+    1
+   ],
+   [
+    "Dunbia Group",
+    1
+   ],
+   [
+    "Bilfinger UK",
+    1
+   ],
+   [
+    "Aston Martin F1 Team",
+    1
+   ],
+   [
+    "Sellafield Ltd",
+    1
+   ],
+   [
+    "Lookers Motor Group Limited",
+    1
+   ],
+   [
+    "Pilgrim's Europe",
+    1
+   ],
+   [
+    "Alexander Dennis",
+    1
+   ],
+   [
+    "ALBERT BARTLETT",
+    1
+   ],
+   [
+    "Thistle Seafoods Ltd",
+    1
+   ],
+   [
+    "Astonish Cleaning Products",
+    1
+   ],
+   [
+    "Weetabix",
+    1
+   ],
+   [
+    "Aureos",
+    1
+   ],
+   [
+    "BAE Systems",
+    1
+   ],
+   [
+    "MAN Truck & Bus UK",
+    1
+   ]
+  ],
+  "jobs": [
+   {
+    "title": "CNC Router Operative - Alpha Manufacturing",
+    "company_name": "The HEX Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/the-hex-group-uk",
+    "date_posted": "2026-11-12 12:32:15+01",
+    "location": {
+     "city": "Stafford",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Electronics Software Engineer",
+    "company_name": "Vax",
+    "company_linkedin_url": "https://www.linkedin.com/company/vax",
+    "date_posted": "2026-11-12 12:31:03+01",
+    "location": {
+     "city": "Droitwich Spa",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Mechanical Integrity & Analysis Engineer",
+    "company_name": "Rolls-Royce",
+    "company_linkedin_url": "https://www.linkedin.com/company/rolls-royce",
+    "date_posted": "2026-11-12 12:29:36+01",
+    "location": {
+     "city": "Bristol",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Manufacturing Operative Yogurt Production - Days (4 on 4 off)",
+    "company_name": "Yeo Valley Production Ltd",
+    "company_linkedin_url": "https://www.linkedin.com/company/yeo-valley-production-ltd",
+    "date_posted": "2026-11-12 11:59:20+01",
+    "location": {
+     "city": "Crewkerne",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Maintenance Technician",
+    "company_name": "Croda",
+    "company_linkedin_url": "https://www.linkedin.com/company/croda",
+    "date_posted": "2026-11-12 11:51:46+01",
+    "location": {
+     "city": "Leek",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Control Systems Engineer (6 Month FTC)",
+    "company_name": "2 Sisters Food Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/2-sisters-food-group",
+    "date_posted": "2026-11-12 11:47:35+01",
+    "location": {
+     "city": "Grimsby",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Lift Engineer",
+    "company_name": "Stannah Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/stannah",
+    "date_posted": "2026-11-12 11:42:38+01",
+    "location": {
+     "city": "Doncaster",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Lift Repair Engineer",
+    "company_name": "Stannah Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/stannah",
+    "date_posted": "2026-11-12 11:37:45+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Service Engineer",
+    "company_name": "Stannah Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/stannah",
+    "date_posted": "2026-11-12 11:37:12+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Lift Repair Engineer",
+    "company_name": "Stannah Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/stannah",
+    "date_posted": "2026-11-12 11:37:07+01",
+    "location": {
+     "city": "Basingstoke",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Production Operative \u2013 Christmas Temp",
+    "company_name": "Dunbia Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/dunbiagroup",
+    "date_posted": "2026-11-12 11:26:42+01",
+    "location": {
+     "city": "Dungannon",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Industrial OT Network Engineer",
+    "company_name": "Bilfinger UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/bilfinger-uk",
+    "date_posted": "2026-11-12 10:54:13+01",
+    "location": {
+     "city": "Chesterfield",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Electronics Technician",
+    "company_name": "Aston Martin F1 Team",
+    "company_linkedin_url": "https://www.linkedin.com/company/astonmartinf1",
+    "date_posted": "2026-11-12 10:29:15+01",
+    "location": {
+     "city": "Silverstone",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "CE&I Lead Engineer \u2013 Electrical Supply Infrastructure Specialist",
+    "company_name": "Sellafield Ltd",
+    "company_linkedin_url": "https://www.linkedin.com/company/sellafield-ltd",
+    "date_posted": "2026-11-12 10:26:10+01",
+    "location": {
+     "city": "Warrington",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Vehicle Technician / Mechanic",
+    "company_name": "Lookers Motor Group Limited",
+    "company_linkedin_url": "https://www.linkedin.com/company/lookers-group",
+    "date_posted": "2026-11-12 10:23:10+01",
+    "location": {
+     "city": "Newcastle upon Tyne",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Basting Room Operative, Basting Room Operative",
+    "company_name": "Pilgrim's Europe",
+    "company_linkedin_url": "https://www.linkedin.com/company/pilgrimseurope",
+    "date_posted": "2026-11-12 10:22:02+01",
+    "location": {
+     "city": "Wirral",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "IT Service Delivery Technician (L1/L2) - Fixed Term Contract",
+    "company_name": "Alexander Dennis",
+    "company_linkedin_url": "https://www.linkedin.com/company/alexander-dennis",
+    "date_posted": "2026-11-12 10:20:54+01",
+    "location": {
+     "city": "Larbert",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Mechanical Maintenance Engineer",
+    "company_name": "2 Sisters Food Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/2-sisters-food-group",
+    "date_posted": "2026-11-12 10:05:31+01",
+    "location": {
+     "city": null,
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "QA Operative (Backshift) - Fresh Division",
+    "company_name": "ALBERT BARTLETT",
+    "company_linkedin_url": "https://www.linkedin.com/company/albertbartlett",
+    "date_posted": "2026-11-12 09:57:12+01",
+    "location": {
+     "city": "Airdrie",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Production Manager",
+    "company_name": "Thistle Seafoods Ltd",
+    "company_linkedin_url": "https://www.linkedin.com/company/thistle-seafoods-ltd",
+    "date_posted": "2026-11-12 09:43:48+01",
+    "location": {
+     "city": "Uddingston",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Multi Skilled Maintenance Engineer",
+    "company_name": "Astonish Cleaning Products",
+    "company_linkedin_url": "https://www.linkedin.com/company/astonish-cleaning-products",
+    "date_posted": "2026-11-12 09:43:26+01",
+    "location": {
+     "city": "Bradford",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Project Engineer",
+    "company_name": "Weetabix",
+    "company_linkedin_url": "https://www.linkedin.com/company/weetabix",
+    "date_posted": "2026-11-12 09:22:04+01",
+    "location": {
+     "city": "Burton Latimer",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Geotechnical Engineer",
+    "company_name": "Aureos",
+    "company_linkedin_url": "https://www.linkedin.com/company/aureos-group",
+    "date_posted": "2026-11-12 08:02:24+01",
+    "location": {
+     "city": "Copgrove",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Lead Software Engineer",
+    "company_name": "BAE Systems",
+    "company_linkedin_url": "https://www.linkedin.com/company/bae-systems",
+    "date_posted": "2026-11-12 06:56:27+01",
+    "location": {
+     "city": "Portsmouth",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "HGV Technician",
+    "company_name": "MAN Truck & Bus UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/mantruckbusukltd",
+    "date_posted": "2026-11-12 05:24:18+01",
+    "location": {
+     "city": "North West Leicestershire",
+     "country_code": "GB"
+    }
+   }
+  ],
+  "error": null
+ },
+ "4-law-accounting-top100": {
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Solicitor",
+      "Associate Solicitor",
+      "Trainee Solicitor",
+      "Paralegal",
+      "Legal Secretary",
+      "Lawyer",
+      "Accountant",
+      "Audit",
+      "Auditor",
+      "Tax",
+      "Trainee Accountant",
+      "Chartered Accountant",
+      "ACA",
+      "ACCA",
+      "Audit Manager",
+      "Tax Manager",
+      "Payroll"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 25
+  },
+  "records_used": 25,
+  "n": 25,
+  "distinct_companies": 14,
+  "company_counts": [
+   [
+    "PwC UK",
+    5
+   ],
+   [
+    "DWF",
+    2
+   ],
+   [
+    "Sopher + Co",
+    2
+   ],
+   [
+    "Azets",
+    2
+   ],
+   [
+    "Lester Aldridge",
+    2
+   ],
+   [
+    "BDO UK",
+    2
+   ],
+   [
+    "Keoghs",
+    2
+   ],
+   [
+    "Shaw Gibbs",
+    2
+   ],
+   [
+    "Saffery",
+    1
+   ],
+   [
+    "MHA",
+    1
+   ],
+   [
+    "Parker Russell UK",
+    1
+   ],
+   [
+    "Weightmans",
+    1
+   ],
+   [
+    "Freeths",
+    1
+   ],
+   [
+    "Herrington Carmichael LLP",
+    1
+   ]
+  ],
+  "jobs": [
+   {
+    "title": "Deals Tax - PECS - Senior Associate",
+    "company_name": "PwC UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/pwc-uk",
+    "date_posted": "2026-11-12 12:29:28+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Deals Tax - PECS - Senior Associate",
+    "company_name": "PwC UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/pwc-uk",
+    "date_posted": "2026-11-12 12:28:38+01",
+    "location": {
+     "city": "Manchester",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Deals Tax - PECS - Senior Associate",
+    "company_name": "PwC UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/pwc-uk",
+    "date_posted": "2026-11-12 12:28:38+01",
+    "location": {
+     "city": "Birmingham",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Tax | M&A Manager",
+    "company_name": "PwC UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/pwc-uk",
+    "date_posted": "2026-11-12 12:28:24+01",
+    "location": {
+     "city": "Birmingham",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Deals Tax - PECS - Senior Associate",
+    "company_name": "PwC UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/pwc-uk",
+    "date_posted": "2026-11-12 12:28:20+01",
+    "location": {
+     "city": "Glasgow",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Paralegal | Motor Volume - Recoveries",
+    "company_name": "DWF",
+    "company_linkedin_url": "https://www.linkedin.com/company/dwf",
+    "date_posted": "2026-11-12 12:22:16+01",
+    "location": {
+     "city": "Liverpool",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Lead Paralegal | Motor Volume - Recoveries",
+    "company_name": "DWF",
+    "company_linkedin_url": "https://www.linkedin.com/company/dwf",
+    "date_posted": "2026-11-12 12:22:00+01",
+    "location": {
+     "city": "Liverpool",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Audit Senior, (Film, TV & Video Game Team)",
+    "company_name": "Saffery",
+    "company_linkedin_url": "https://www.linkedin.com/company/saffery",
+    "date_posted": "2026-11-12 12:18:54+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Personal Tax Semi Senior ",
+    "company_name": "Sopher + Co",
+    "company_linkedin_url": "https://www.linkedin.com/company/sopher---co",
+    "date_posted": "2026-11-12 12:02:41+01",
+    "location": {
+     "city": "Borehamwood",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "UK-US Tax Director",
+    "company_name": "Sopher + Co",
+    "company_linkedin_url": "https://www.linkedin.com/company/sopher---co",
+    "date_posted": "2026-11-12 11:49:55+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Audit Senior Manager",
+    "company_name": "Azets",
+    "company_linkedin_url": "https://www.linkedin.com/company/azets",
+    "date_posted": "2026-11-12 11:49:33+01",
+    "location": {
+     "city": null,
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Audit Executive",
+    "company_name": "MHA",
+    "company_linkedin_url": "https://www.linkedin.com/company/mha-uk",
+    "date_posted": "2026-11-12 11:26:12+01",
+    "location": {
+     "city": "Birmingham",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Real Estate Development Solicitor",
+    "company_name": "Lester Aldridge",
+    "company_linkedin_url": "https://www.linkedin.com/company/lester-aldridge",
+    "date_posted": "2026-11-12 11:23:12+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Audit Senior",
+    "company_name": "Parker Russell UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/parkerrusselluk",
+    "date_posted": "2026-11-12 11:08:28+01",
+    "location": {
+     "city": "City of London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Tax Automation and Innovation Senior Manager",
+    "company_name": "BDO UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/bdo-llp",
+    "date_posted": "2026-11-12 11:01:20+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Corporate Tax Associate Director",
+    "company_name": "BDO UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/bdo-llp",
+    "date_posted": "2026-11-12 11:01:20+01",
+    "location": {
+     "city": "Ipswich",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Costs Paralegal",
+    "company_name": "Keoghs",
+    "company_linkedin_url": "https://www.linkedin.com/company/keoghs",
+    "date_posted": "2026-11-12 10:44:51+01",
+    "location": {
+     "city": "Bolton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Fraud Paralegal",
+    "company_name": "Keoghs",
+    "company_linkedin_url": "https://www.linkedin.com/company/keoghs",
+    "date_posted": "2026-11-12 10:34:35+01",
+    "location": {
+     "city": "Bolton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Casualty - Police Claims Lawyer",
+    "company_name": "Weightmans",
+    "company_linkedin_url": "https://www.linkedin.com/company/weightmans",
+    "date_posted": "2026-11-12 10:18:14+01",
+    "location": {
+     "city": "Liverpool",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Healthcare Regulatory & Transactional Solicitor",
+    "company_name": "Lester Aldridge",
+    "company_linkedin_url": "https://www.linkedin.com/company/lester-aldridge",
+    "date_posted": "2026-11-12 10:04:24+01",
+    "location": {
+     "city": "Bournemouth",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Trade Mark Paralegal (CITMA)",
+    "company_name": "Freeths",
+    "company_linkedin_url": "https://www.linkedin.com/company/freeths-llp",
+    "date_posted": "2026-11-12 10:01:40+01",
+    "location": {
+     "city": "Birmingham",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Private Client Tax Semi-Senior",
+    "company_name": "Shaw Gibbs",
+    "company_linkedin_url": "https://www.linkedin.com/company/shawgibbs",
+    "date_posted": "2026-11-12 09:40:15+01",
+    "location": {
+     "city": "Farnham",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Trusts Tax Manager",
+    "company_name": "Shaw Gibbs",
+    "company_linkedin_url": "https://www.linkedin.com/company/shawgibbs",
+    "date_posted": "2026-11-12 09:35:07+01",
+    "location": {
+     "city": "Thame",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Employment Lawyer",
+    "company_name": "Herrington Carmichael LLP",
+    "company_linkedin_url": "https://www.linkedin.com/company/herrington-carmichael-llp",
+    "date_posted": "2026-11-12 09:27:31+01",
+    "location": {
+     "city": "Farnborough",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Audit Associate",
+    "company_name": "Azets",
+    "company_linkedin_url": "https://www.linkedin.com/company/azets",
+    "date_posted": "2026-11-12 05:47:47+01",
+    "location": {
+     "city": "Huntingdon",
+     "country_code": "GB"
+    }
+   }
+  ],
+  "error": null
+ },
+ "5-financial-services": {
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Financial Adviser",
+      "Financial Advisor",
+      "Mortgage Adviser",
+      "Mortgage Advisor",
+      "Paraplanner",
+      "Underwriter",
+      "Claims Handler",
+      "Customer Service Advisor",
+      "Relationship Manager",
+      "Compliance",
+      "Risk Analyst",
+      "Analyst",
+      "Collections",
+      "Software Engineer",
+      "Data Analyst",
+      "Actuarial"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 25
+  },
+  "records_used": 25,
+  "n": 25,
+  "distinct_companies": 15,
+  "company_counts": [
+   [
+    "Evelyn Partners",
+    4
+   ],
+   [
+    "Legal & General",
+    4
+   ],
+   [
+    "AXA UK",
+    4
+   ],
+   [
+    "Acorn Group",
+    2
+   ],
+   [
+    "FNZ",
+    1
+   ],
+   [
+    "OpenPayd",
+    1
+   ],
+   [
+    "Trinity Claims",
+    1
+   ],
+   [
+    "AJ Bell",
+    1
+   ],
+   [
+    "Quilter",
+    1
+   ],
+   [
+    "WTW",
+    1
+   ],
+   [
+    "Just Group plc",
+    1
+   ],
+   [
+    "Chaucer Group",
+    1
+   ],
+   [
+    "M&G",
+    1
+   ],
+   [
+    "eToro",
+    1
+   ],
+   [
+    "Investec",
+    1
+   ]
+  ],
+  "jobs": [
+   {
+    "title": "Paraplanner",
+    "company_name": "Evelyn Partners",
+    "company_linkedin_url": "https://www.linkedin.com/company/evelynpartners",
+    "date_posted": "2026-11-12 12:27:48+01",
+    "location": {
+     "city": "Manchester",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Finance Analyst - Central Services - 18-Month FTC",
+    "company_name": "Legal & General",
+    "company_linkedin_url": "https://www.linkedin.com/company/legal-&-general",
+    "date_posted": "2026-11-12 12:27:43+01",
+    "location": {
+     "city": "Brighton and Hove",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Finance Analyst - Central Services - 18-Month FTC",
+    "company_name": "Legal & General",
+    "company_linkedin_url": "https://www.linkedin.com/company/legal-&-general",
+    "date_posted": "2026-11-12 12:27:30+01",
+    "location": {
+     "city": "Brighton and Hove",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Copy of Paraplanner",
+    "company_name": "Evelyn Partners",
+    "company_linkedin_url": "https://www.linkedin.com/company/evelynpartners",
+    "date_posted": "2026-11-12 12:27:30+01",
+    "location": {
+     "city": "Liverpool",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Finance Analyst",
+    "company_name": "FNZ",
+    "company_linkedin_url": "https://www.linkedin.com/company/fnz",
+    "date_posted": "2026-11-12 12:21:59+01",
+    "location": {
+     "city": "City of Edinburgh",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Motor Claims Handler",
+    "company_name": "Acorn Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/acorn-group",
+    "date_posted": "2026-11-12 12:03:01+01",
+    "location": {
+     "city": "Liverpool",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Motor Claims Handler",
+    "company_name": "Acorn Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/acorn-group",
+    "date_posted": "2026-11-12 12:03:00+01",
+    "location": {
+     "city": "Sevenoaks",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Relationship Manager /Payments/",
+    "company_name": "OpenPayd",
+    "company_linkedin_url": "https://www.linkedin.com/company/openpayd",
+    "date_posted": "2026-11-12 12:00:04+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Customer Service Advisor",
+    "company_name": "Trinity Claims",
+    "company_linkedin_url": "https://www.linkedin.com/company/trinity-claims-limited",
+    "date_posted": "2026-11-12 11:58:33+01",
+    "location": {
+     "city": "Tonbridge",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Investment Analyst",
+    "company_name": "AJ Bell",
+    "company_linkedin_url": "https://www.linkedin.com/company/ajbell",
+    "date_posted": "2026-11-12 11:52:49+01",
+    "location": {
+     "city": "Manchester",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Copy of Paraplanner",
+    "company_name": "Evelyn Partners",
+    "company_linkedin_url": "https://www.linkedin.com/company/evelynpartners",
+    "date_posted": "2026-11-12 11:37:05+01",
+    "location": {
+     "city": "Liverpool",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Paraplanner",
+    "company_name": "Evelyn Partners",
+    "company_linkedin_url": "https://www.linkedin.com/company/evelynpartners",
+    "date_posted": "2026-11-12 11:36:56+01",
+    "location": {
+     "city": "Manchester",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Schemes Delegated Authority Underwriter",
+    "company_name": "AXA UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/axa-uk",
+    "date_posted": "2026-11-12 11:28:45+01",
+    "location": {
+     "city": "Ipswich",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Schemes Delegated Authority Underwriter",
+    "company_name": "AXA UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/axa-uk",
+    "date_posted": "2026-11-12 11:28:45+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Schemes Delegated Authority Underwriter",
+    "company_name": "AXA UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/axa-uk",
+    "date_posted": "2026-11-12 11:28:40+01",
+    "location": {
+     "city": "Ipswich",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Schemes Delegated Authority Underwriter",
+    "company_name": "AXA UK",
+    "company_linkedin_url": "https://www.linkedin.com/company/axa-uk",
+    "date_posted": "2026-11-12 11:28:40+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Customer Experience Analyst",
+    "company_name": "Quilter",
+    "company_linkedin_url": "https://www.linkedin.com/company/quilterplc",
+    "date_posted": "2026-11-12 11:23:05+01",
+    "location": {
+     "city": "Southampton",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Director - Actuarial Non-Life (Re) Insurance Consulting",
+    "company_name": "WTW",
+    "company_linkedin_url": "https://www.linkedin.com/company/wtwcorporate",
+    "date_posted": "2026-11-12 11:18:54+01",
+    "location": {
+     "city": "Reigate",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Investment Valuation Analyst",
+    "company_name": "Just Group plc",
+    "company_linkedin_url": "https://www.linkedin.com/company/just-group-plc",
+    "date_posted": "2026-11-12 11:02:38+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Underwriter - Marine Cargo & Freight Liability (Ipswich or Manchester)",
+    "company_name": "Chaucer Group",
+    "company_linkedin_url": "https://www.linkedin.com/company/chaucer",
+    "date_posted": "2026-11-12 10:57:15+01",
+    "location": {
+     "city": "Ipswich",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Finance Analyst - 12-Month FTC",
+    "company_name": "Legal & General",
+    "company_linkedin_url": "https://www.linkedin.com/company/legal-&-general",
+    "date_posted": "2026-11-12 10:29:42+01",
+    "location": {
+     "city": "Cardiff",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Business Analyst - Asset Transition Management",
+    "company_name": "M&G",
+    "company_linkedin_url": "https://www.linkedin.com/company/mandgplc",
+    "date_posted": "2026-11-12 10:25:57+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Compliance Manager, UK",
+    "company_name": "eToro",
+    "company_linkedin_url": "https://www.linkedin.com/company/etoro",
+    "date_posted": "2026-11-12 10:19:47+01",
+    "location": {
+     "city": "London",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Senior Finance Analyst - 12-Month FTC",
+    "company_name": "Legal & General",
+    "company_linkedin_url": "https://www.linkedin.com/company/legal-&-general",
+    "date_posted": "2026-11-12 10:19:35+01",
+    "location": {
+     "city": "Cardiff",
+     "country_code": "GB"
+    }
+   },
+   {
+    "title": "Commercial Collections Agent",
+    "company_name": "Investec",
+    "company_linkedin_url": "https://www.linkedin.com/company/investec",
+    "date_posted": "2026-11-12 09:16:46+01",
+    "location": {
+     "city": "Reading",
+     "country_code": "GB"
+    }
+   }
+  ],
+  "error": null
+ }
+}

@@ -1,0 +1,1233 @@
+{
+ "1-health-care-medical": {
+  "errors": [],
+  "companies_51plus": 7050,
+  "companies_51plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_51plus_sample": [
+   "NHS England"
+  ],
+  "companies_201plus": 2585,
+  "companies_201plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "employee_range": [
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_201plus_sample": [
+   "NHS England"
+  ],
+  "jobs_30d": 14267,
+  "jobs_30d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Care Assistant",
+      "Support Worker",
+      "Healthcare Assistant",
+      "Care Worker",
+      "Nurse",
+      "Registered Nurse",
+      "Veterinary Surgeon",
+      "Veterinary Nurse",
+      "Vet",
+      "Dental Nurse",
+      "Dentist",
+      "Paramedic",
+      "Call Handler",
+      "Clinician",
+      "Pharmacist",
+      "Care Home Manager",
+      "Deputy Manager"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_30d_sample": [
+   [
+    "Client Care Assistant",
+    "Medivet"
+   ]
+  ],
+  "jobs_90d": 44726,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Care Assistant",
+      "Support Worker",
+      "Healthcare Assistant",
+      "Care Worker",
+      "Nurse",
+      "Registered Nurse",
+      "Veterinary Surgeon",
+      "Veterinary Nurse",
+      "Vet",
+      "Dental Nurse",
+      "Dentist",
+      "Paramedic",
+      "Call Handler",
+      "Clinician",
+      "Pharmacist",
+      "Care Home Manager",
+      "Deputy Manager"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_90d_sample": [
+   [
+    "Client Care Assistant",
+    "Medivet"
+   ]
+  ],
+  "records_used": 4
+ },
+ "2-retail-hospitality": {
+  "errors": [],
+  "companies_51plus": 9955,
+  "companies_51plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_51plus_sample": [
+   "CHANEL"
+  ],
+  "companies_201plus": 3280,
+  "companies_201plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "employee_range": [
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_201plus_sample": [
+   "CHANEL"
+  ],
+  "jobs_30d": 23142,
+  "jobs_30d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Store Manager",
+      "Assistant Store Manager",
+      "Assistant Manager",
+      "Sales Assistant",
+      "Retail Assistant",
+      "Customer Assistant",
+      "Sales Advisor",
+      "Chef",
+      "Sous Chef",
+      "Head Chef",
+      "Restaurant Manager",
+      "General Manager",
+      "Team Leader",
+      "Supervisor",
+      "Kitchen Porter",
+      "Bartender",
+      "Front of House"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_30d_sample": [
+   [
+    "Assistant Store Manager",
+    "Specsavers"
+   ]
+  ],
+  "jobs_90d": 70888,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Store Manager",
+      "Assistant Store Manager",
+      "Assistant Manager",
+      "Sales Assistant",
+      "Retail Assistant",
+      "Customer Assistant",
+      "Sales Advisor",
+      "Chef",
+      "Sous Chef",
+      "Head Chef",
+      "Restaurant Manager",
+      "General Manager",
+      "Team Leader",
+      "Supervisor",
+      "Kitchen Porter",
+      "Bartender",
+      "Front of House"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_90d_sample": [
+   [
+    "Assistant Store Manager",
+    "Specsavers"
+   ]
+  ],
+  "records_used": 4
+ },
+ "3-manufacturing-engineering-automotive-defence": {
+  "errors": [],
+  "companies_51plus": 8516,
+  "companies_51plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_51plus_sample": [
+   "Unilever"
+  ],
+  "companies_201plus": 2806,
+  "companies_201plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "employee_range": [
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_201plus_sample": [
+   "Unilever"
+  ],
+  "jobs_30d": 2554,
+  "jobs_30d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Maintenance Engineer",
+      "Engineer",
+      "Technician",
+      "Service Technician",
+      "Mechanic",
+      "HGV Technician",
+      "Electrician",
+      "Fitter",
+      "Welder",
+      "Machinist",
+      "CNC",
+      "Production Operative",
+      "Operative",
+      "Production Manager",
+      "Shift Manager",
+      "Quality Engineer",
+      "Design Engineer"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_30d_sample": [
+   [
+    "CNC Router Operative - Alpha Manufacturing",
+    "The HEX Group"
+   ]
+  ],
+  "jobs_90d": 9121,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Maintenance Engineer",
+      "Engineer",
+      "Technician",
+      "Service Technician",
+      "Mechanic",
+      "HGV Technician",
+      "Electrician",
+      "Fitter",
+      "Welder",
+      "Machinist",
+      "CNC",
+      "Production Operative",
+      "Operative",
+      "Production Manager",
+      "Shift Manager",
+      "Quality Engineer",
+      "Design Engineer"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_90d_sample": [
+   [
+    "CNC Router Operative - Alpha Manufacturing",
+    "The HEX Group"
+   ]
+  ],
+  "records_used": 4
+ },
+ "4-law-accounting-top100": {
+  "errors": [],
+  "companies_51plus": 2889,
+  "companies_51plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_51plus_sample": [
+   "ACCA"
+  ],
+  "companies_201plus": 790,
+  "companies_201plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "employee_range": [
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_201plus_sample": [
+   "ACCA"
+  ],
+  "jobs_30d": 2060,
+  "jobs_30d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Solicitor",
+      "Associate Solicitor",
+      "Trainee Solicitor",
+      "Paralegal",
+      "Legal Secretary",
+      "Lawyer",
+      "Accountant",
+      "Audit",
+      "Auditor",
+      "Tax",
+      "Trainee Accountant",
+      "Chartered Accountant",
+      "ACA",
+      "ACCA",
+      "Audit Manager",
+      "Tax Manager",
+      "Payroll"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_30d_sample": [
+   [
+    "Deals Tax - PECS - Senior Associate",
+    "PwC UK"
+   ]
+  ],
+  "jobs_90d": 6156,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Solicitor",
+      "Associate Solicitor",
+      "Trainee Solicitor",
+      "Paralegal",
+      "Legal Secretary",
+      "Lawyer",
+      "Accountant",
+      "Audit",
+      "Auditor",
+      "Tax",
+      "Trainee Accountant",
+      "Chartered Accountant",
+      "ACA",
+      "ACCA",
+      "Audit Manager",
+      "Tax Manager",
+      "Payroll"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_90d_sample": [
+   [
+    "Deals Tax - PECS - Senior Associate",
+    "PwC UK"
+   ]
+  ],
+  "records_used": 4
+ },
+ "5-financial-services": {
+  "errors": [],
+  "companies_51plus": 6071,
+  "companies_51plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_51plus_sample": [
+   "HSBC"
+  ],
+  "companies_201plus": 2393,
+  "companies_201plus_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "employee_range": [
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_201plus_sample": [
+   "HSBC"
+  ],
+  "jobs_30d": 1768,
+  "jobs_30d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Financial Adviser",
+      "Financial Advisor",
+      "Mortgage Adviser",
+      "Mortgage Advisor",
+      "Paraplanner",
+      "Underwriter",
+      "Claims Handler",
+      "Customer Service Advisor",
+      "Relationship Manager",
+      "Compliance",
+      "Risk Analyst",
+      "Analyst",
+      "Collections",
+      "Software Engineer",
+      "Data Analyst",
+      "Actuarial"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_30d_sample": [
+   [
+    "Paraplanner",
+    "Evelyn Partners"
+   ]
+  ],
+  "jobs_90d": 5588,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Financial Adviser",
+      "Financial Advisor",
+      "Mortgage Adviser",
+      "Mortgage Advisor",
+      "Paraplanner",
+      "Underwriter",
+      "Claims Handler",
+      "Customer Service Advisor",
+      "Relationship Manager",
+      "Compliance",
+      "Risk Analyst",
+      "Analyst",
+      "Collections",
+      "Software Engineer",
+      "Data Analyst",
+      "Actuarial"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Work Experience",
+      "Volunteer",
+      "Recruitment Consultant",
+      "Recruiter"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "GB"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_90d_sample": [
+   [
+    "Paraplanner",
+    "Evelyn Partners"
+   ]
+  ],
+  "records_used": 4
+ }
+}
