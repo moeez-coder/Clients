@@ -165,7 +165,7 @@ The connection-request fallback ("Hi {FIRST_NAME}, figured it was worth connecti
 
 | Date | Requests sent | Accepted | Replies (CR-B note / V1 / V2 / V3 / M2 / M3) | Notes |
 |---|---|---|---|---|
-| 2026-11-12 | 0 (launch) | – | – | baseline |
+| 2026-11-13 | 0 (launch 10:06 UTC) | – | – | baseline: 499 leads loaded, 224 in progress, 0 failed |
 
 ## Sourced data in this repo
 
@@ -224,6 +224,13 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
+
+- **2026-11-13**: **MQC campaign LIVE.** HeyReach `727548` started 2026-11-13 10:06 UTC and is `IN_PROGRESS`.
+  - **List `1149590` = 499 leads**, exactly the snapshot's live-eligible count. Progress at start: 224 in progress, 275 pending, 0 failed.
+  - **tracking_clients:** campaign `295bad5e-…` moved `creation` → **`running`** (via mark-running). Lead list `34f9a071-…` set to `ready`. `get_campaign_live_status` maps HeyReach to `running`.
+  - **Why the start slipped to 11-13:** a worker restart interrupted the session after the push reached 499 on 11-12 (~15:48 UTC). The state was re-read before acting: the campaign was `IN_PROGRESS` with `startedAt` set, so there was no double start.
+  - First results check-in is scheduled for 24h after launch.
+  - Per-client CG session (MQC).
 
 - **2026-11-12**: **MQC campaign built: HeyReach `727548` on list `1149590` (DRAFT while the push runs), tracking_clients `295bad5e-…`, GTM Sheets workbook `3cc74894-…`.** Full ids, design reasoning and the variant table are in "MQC campaign" above.
   - **Test design:** connection request CR-A blank vs CR-B question note; message 1 V1 (hardest role) / V2 (contract vs full-time) / V3 (open-role signal); then a one-word follow-up and a soft close that first names C&G. One version is picked at random per lead.
