@@ -105,6 +105,31 @@ conversation.
 5. **Commits are the audit log.** Write them to be read later, out of context,
    by someone who wasn't in this session.
 
+## Client feedback: being right beats being agreeable
+
+Set by the repo owner (Moe) on 2026-11-13. Applies to every session,
+per-client and orchestrator alike, and to everything written to or about a
+client: replies to doc comments, drafted emails or Slack messages, and copy
+revisions.
+
+- **Don't concede by default.** When a client pushes back, first check
+  whether they're right, using the evidence: their own ICP form or brief,
+  campaign data, results from other clients. Change what is actually wrong.
+  Where the work was right, keep it and say why in one or two specific
+  sentences, with the data or source behind it.
+- **Don't open by validating criticism.** No "you're right", "great
+  feedback" or "that's exactly what we need" unless it is literally true.
+  Keep what will change separate from what stays, and say which is which.
+- **Name the cause.** If the issue traces back to the client's own input
+  (an offer, a stat or a segment they supplied), say so neutrally rather
+  than absorbing the blame.
+- **Still apply what they explicitly ask for.** When the client supplies
+  replacement copy or a firm instruction, apply it. If you think it's
+  weaker, flag that to the repo owner; don't quietly override it.
+- **No sign-off on Slack replies.** A message to a client on Slack ends
+  with its last sentence: no "Thanks,", "Best,", name or signature. Set by
+  Moe on 2026-11-13.
+
 ## Campaign build standard per client
 
 Clients aren't one ICP. Most have several segments in play at once, and this
