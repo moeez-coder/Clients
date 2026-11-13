@@ -161,9 +161,68 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-05-leads.csv`: **1,267 leads** (1,236 tier 1, 31 fallback; 1 per company, 648 at Northeast companies), keyed by `linkedin_url`. **120 already in HeyReach list `1056840`** and **410 in Security and Data Bench snapshots** (`dupe_of`), so **857 are `live_eligible`**. Segment **Tech Eng, Security & Data**. Blitz `waterfall-icp-keyword`, 2026-11-05. Query: `2026-11-05-leads.query.md`.
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-05-companies.csv`: **1,479 hiring companies** (760 Northeast). Blitz `tam-by-jobs` for the Northeast pass and `enrichment/company` for the rest, 2026-11-05.
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-05-jobs.csv`: **5,000 open jobs** (cap): all 3,064 Northeast-HQ jobs plus the 1,936 most recent elsewhere. Blitz `jobs/search`, 2026-11-05.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-12-leads.csv`: **155 leads (top-up)** at 66 new companies, keyed by `linkedin_url`. 0 in list `1056840`, 3 flagged `dupe_of`, **152 `live_eligible`**, pushed to HeyReach `723837`. Lead list **LS Clinical & Data** `992bac4f-c50a-4f2b-9b45-c266b9179b2e`. Blitz `waterfall-icp-keyword`, 2026-11-12. Query: `2026-11-12-leads.query.md`.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-12-companies.csv`: **89 new hiring companies** (60-day window, none from an earlier snapshot). Blitz `tam-by-jobs`, 2026-11-12.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-12-jobs.csv`: **89 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
+- `sourcing/recruiter-open-role-ls-regulatory-quality/2026-11-12-leads.csv`: **458 leads (top-up)** at 200 new companies, keyed by `linkedin_url`. 0 in list `1056840`, 10 flagged `dupe_of`, **448 `live_eligible`**, pushed to HeyReach `723838`. Lead list **LS Regulatory & Quality** `26c54bea-041c-49ea-ba08-fbca9dc2dc76`. Blitz `waterfall-icp-keyword`, 2026-11-12. Query: `2026-11-12-leads.query.md`.
+- `sourcing/recruiter-open-role-ls-regulatory-quality/2026-11-12-companies.csv`: **246 new hiring companies** (60-day window, none from an earlier snapshot). Blitz `tam-by-jobs`, 2026-11-12.
+- `sourcing/recruiter-open-role-ls-regulatory-quality/2026-11-12-jobs.csv`: **246 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
+- `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-12-leads.csv`: **188 leads (top-up)** at 74 new companies, keyed by `linkedin_url`. 0 in list `1056840`, 8 flagged `dupe_of`, **180 `live_eligible`**, pushed to HeyReach `723839`. Lead list **LS Medical Affairs** `a53e5de4-2b64-4f0d-9805-f507d8650130`. Blitz `waterfall-icp-keyword`, 2026-11-12. Query: `2026-11-12-leads.query.md`.
+- `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-12-companies.csv`: **84 new hiring companies** (60-day window, none from an earlier snapshot). Blitz `tam-by-jobs`, 2026-11-12.
+- `sourcing/recruiter-open-role-ls-medical-affairs/2026-11-12-jobs.csv`: **84 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
+- `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-leads.csv`: **1099 leads (top-up)** at 1099 new companies, keyed by `linkedin_url`. 81 in list `1056840`, 345 flagged `dupe_of`, **754 `live_eligible`**, pushed to HeyReach `723841`. Lead list **Tech Eng, Security & Data** `a28b5183-8b8d-487d-a198-f3086d62915b`. Blitz `waterfall-icp-keyword`, 2026-11-12. Query: `2026-11-12-leads.query.md`.
+- `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-companies.csv`: **1300 new hiring companies** (30-day window, none from an earlier snapshot). Blitz `tam-by-jobs`, 2026-11-12.
+- `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
 
+- **2026-11-13 ~14:00 UTC**: **"Use all senders for all campaigns" (Moe), checked against HeyReach workspace 169110.**
+  - **Connected senders:** 7 of the 10 CG LinkedIn accounts are connected (243652, 249292, 249296, 261910, 263687, 263737, 264146).
+  - **Live campaigns:** all 7 were already on all 5 running campaigns: open-role 723837/723838/723839/723841 and MQC 727548.
+  - **Disconnected senders:** 203834 (Calianga), 252010 (Lobos) and 264519 (Abdulrahman) have `authIsValid: false`. HeyReach refuses to assign them: `update_campaign_accounts` on 686451 returned "This LinkedIn sender is disconnected. Re-connect it and try again."
+  - **Live campaigns paused briefly:** the 5 campaigns were paused and then resumed within a minute. All 5 were confirmed `IN_PROGRESS` with unchanged lead counts.
+  - **Bench campaigns:** 677893 (already has all 10) and 686451 (9; missing 252010) were found **PAUSED** by someone outside this session. They were left paused.
+  - **Next step:** reconnect the 3 accounts in HeyReach, then add them to every campaign. Why: senders can only be added once their LinkedIn login is valid. (CG session 3, branch `claude/cg-open-role-campaigns`.)
+- **2026-11-12 16:31 UTC**: **Top-up push verified.** HeyReach list totals match exactly what was expected:
+  - `1141179` = 425 (273 + 152)
+  - `1141180` = 1,435 (987 + 448)
+  - `1141181` = 512 (332 + 180)
+  - `1141182` = 1,611 (857 + 754)
+
+  All 4 campaigns are still `IN_PROGRESS`.
+  - Also on 2026-11-12: Moe asked for a reply-first **MQC** campaign with A/B messaging and gave full control. It is being built in a separate session (`session_013MzxQdxZDpgrVTxpb9ggkB`, branch `claude/cg-mqc-campaign`), which records its own work here.
+  - Per-client CG session.
+- **2026-11-12**: **The top-up is in GTM Sheets and being pushed to the 4 live campaigns.**
+  - The 2026-11-12 Leads, Companies and Open Jobs CSVs were appended to each workbook's existing tables (url at commit `67c4cc1`). Row counts match.
+  - `JD Phrase AI` is running on the new live-eligible rows: 152 / 448 / 180 / 754.
+  - `Push to HeyReach` is queued `only_empty` for the same rows, into the running campaigns 723837 / 723838 / 723839 / 723841.
+  - Expected list totals once the pushes finish: 1141179 = 425, 1141180 = 1,435, 1141181 = 512, 1141182 = 1,611.
+  - **Blitz running total: ~19.5k records** (12,169 + 7,294).
+  - Per-client CG session.
+- **2026-11-12**: **Top-up: expanding the existing segment Tech Eng, Security & Data (`recruiter-open-role-tech-eng-security-data`). Blitz API, 1099 leads, 754 live-eligible, for HeyReach `723841`** (Moe: "add more leads into all of the campaigns").
+  - New companies only: `tam-by-jobs` (30-day window), skipping the companies already sourced, then `jobs/company`, then the waterfall at the same per-company count. That gives 1300 new companies.
+  - **Blitz records used: 4865.**
+  - **Dedupe:** 81 in list `1056840`, 345 in earlier CG leads files. The live rows of earlier open-role snapshots now block a lead in any segment.
+  - Method and requests: `2026-11-12-leads.query.md`.
+  - Per-client CG session.
+- **2026-11-12**: **Top-up: expanding the existing segment LS Medical Affairs (`recruiter-open-role-ls-medical-affairs`). Blitz API, 188 leads, 180 live-eligible, for HeyReach `723839`** (Moe: "add more leads into all of the campaigns").
+  - New companies only: `tam-by-jobs` (60-day window), skipping the companies already sourced, then `jobs/company`, then the waterfall at the same per-company count. That gives 84 new companies.
+  - **Blitz records used: 497.**
+  - **Dedupe:** 0 in list `1056840`, 8 in earlier CG leads files. The live rows of earlier open-role snapshots now block a lead in any segment.
+  - Method and requests: `2026-11-12-leads.query.md`.
+  - Per-client CG session.
+- **2026-11-12**: **Top-up: expanding the existing segment LS Regulatory & Quality (`recruiter-open-role-ls-regulatory-quality`). Blitz API, 458 leads, 448 live-eligible, for HeyReach `723838`** (Moe: "add more leads into all of the campaigns").
+  - New companies only: `tam-by-jobs` (60-day window), skipping the companies already sourced, then `jobs/company`, then the waterfall at the same per-company count. That gives 246 new companies.
+  - **Blitz records used: 1473.**
+  - **Dedupe:** 0 in list `1056840`, 10 in earlier CG leads files. The live rows of earlier open-role snapshots now block a lead in any segment.
+  - Method and requests: `2026-11-12-leads.query.md`.
+  - Per-client CG session.
+- **2026-11-12**: **Top-up: expanding the existing segment LS Clinical & Data (`recruiter-open-role-ls-clinical-data`). Blitz API, 155 leads, 152 live-eligible, for HeyReach `723837`** (Moe: "add more leads into all of the campaigns").
+  - New companies only: `tam-by-jobs` (60-day window), skipping the companies already sourced, then `jobs/company`, then the waterfall at the same per-company count. That gives 89 new companies.
+  - **Blitz records used: 459.**
+  - **Dedupe:** 0 in list `1056840`, 3 in earlier CG leads files. The live rows of earlier open-role snapshots now block a lead in any segment.
+  - Method and requests: `2026-11-12-leads.query.md`.
+  - Per-client CG session.
 - **2026-11-12**: **DNC search: the `Non_Connect` file is not in Gmail or Slack.**
   - **Gmail (moeez@):** checked "Non_Connect", "DNC", "do not contact", "blacklist", "exclusion", and everything to or from cgcsinc.net. That turned up only the Oct 19 campaign-plan email (no reply) and the bi-weekly catch-up invite; neither has the file.
   - **Slack:** checked every message in #client-cg-algoacquisition (C0C9UTECUNA), all its files (the only one is the Oct 23 to Nov 2 campaign report PDF), and a workspace-wide search. Nothing.
