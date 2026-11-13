@@ -72,7 +72,7 @@ One workbook per campaign (CLAUDE.md "GTM Sheets build standard per campaign"). 
 
 | Table | id | Purpose |
 |---|---|---|
-| 1. Companies | `5e1a202a-af24-4c8e-894f-fe912aa9eb65` | US manufacturers 201-1,000, Eastern/Central states (Blitz count 3,700), with Ownership Check and Leads Produced columns so the drop-off is visible |
+| 1. Companies | `5e1a202a-af24-4c8e-894f-fe912aa9eb65` | US manufacturers 201-1,000, all states (Blitz count 8,729; the states filter was removed on the repo owner's instruction), with Ownership Check and Leads Produced columns so the drop-off is visible |
 | 2. Ownership & Tenure Check | `64dc0c5e-9534-4ddb-b587-67cd692cec44` | Founder-led / family-owned check, top leader, years in role, Qualifies + Reason |
 | 3. Leads | `1e0c689d-681d-435f-aaf5-6ac009b2290e` | Keyed by LinkedIn URL; `Status` ("launch set" / "removed: <reason>"); **Push to HeyReach** to `730731` with custom fields `ownership` and `years_in_role`, auto-run off, `run_if` Status = "launch set". Linked to lead list `88fe680f-…` |
 
@@ -91,6 +91,7 @@ One workbook per campaign (CLAUDE.md "GTM Sheets build standard per campaign"). 
   - Workbook `7ec67abc-…` with three webhook tables (Companies, Ownership & Tenure Check, Leads), ids above. The Leads table's Push to HeyReach column is wired to `730731` with auto-run off.
   - Pool for the Eastern/Central states: 3,700 companies (Blitz count, `gtm_sheet_find_companies`, same industries and sizes as the preview, `states` = the 38 Eastern/Central states + DC).
   - No rows loaded yet: pulling the companies and their owners costs about 7,400 Blitz credits, so the pull waits on the repo owner's go-ahead.
+  - Later the same day the repo owner said "Remove the states filter". The pool is now all US states: 8,729 companies (the national count from `sourcing/2026-11-13-lead-preview.query.md`). The doc still says Eastern and Central time zones, so that limit now has to come from somewhere else (a Companies-table HQ State filter or the HeyReach schedule), or the doc needs updating with the client.
   - Session: `claude/grn-feedback-incorporation-lnmmb0`.
 - **2026-11-13**: Folder created. The profile was synced from `tracking_clients` (`get_client`, `list_sourcing_configs`; there were no configs or campaigns before this session).
   - The client's 8 wording comments from 2026-11-12 on the campaign doc `cae47cc4-…` were applied as written and answered, and the doc was sent back (status `client_review`).
