@@ -56,6 +56,13 @@ No lead or company snapshots yet. A pull can only happen after the client approv
 
 ## History
 
+- **2026-11-13**: **Offers section drafted for the bottom of doc 1, not yet applied.**
+  - **Contents:** a general guarantee offer and a free offer per segment: pharma and biotech, medical device, and agencies. Hospitals and health plans are listed as future segments.
+  - **Basis:** healthlinkdimensions.com claims, read on 2026-11-13.
+  - **Why:** the client called the first draft "very generic". Moe asked for KPI-led guarantee and freebie offers, generalised by segment rather than by campaign.
+  - **Status:** saved as `campaign-docs/2026-11-13-doc-1-offers-section.md`. It is not in the doc yet, because the tracking_clients MCP failed to connect this session. Apply it with `review_campaign_doc` (an insert), not `replace_markdown`.
+  - **Approval needed:** HLD must approve every guarantee term.
+
 - **2026-11-13**: **Doc 1 revised for the agency campaigns using the client's own copy** (`review_campaign_doc`, doc `1f2e4277-1a09-445e-8684-75cc542ab003`).
   - **Status:** `internal_review`, since the client left 15 comments on 2026-11-11.
   - **Moe's instruction:** wherever the client supplied full replacement copy, apply it.
