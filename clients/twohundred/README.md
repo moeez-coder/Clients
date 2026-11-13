@@ -115,6 +115,36 @@ The ICP form (2026-11-04) is the client's own answer. The brief was written with
 
 A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 2026") existed briefly. By 11:30 it no longer appeared in `list_campaign_docs`, so it was removed from the dashboard (not by this session).
 
+## GTM Sheets
+
+Folder **Clients / twoHundred** (`2bef52d8-773d-46f7-a1ce-80e964c8dc6f`): https://dashboard.algoacquisition.ai/gtm-sheet#/gtm-sheet?folder=2bef52d8-773d-46f7-a1ce-80e964c8dc6f
+
+The layout follows CLAUDE.md "GTM Sheets build standard per campaign":
+- One workbook per campaign, linked to its tracking_clients campaign and named after its HeyReach campaign, without the "| Moe v1" label.
+- The tables run from widest to narrowest.
+- Every table is a webhook table loaded from the repo CSVs with `gtm-sheets/build_rows.py` and `gtm-sheets/push_rows.py`.
+- Each Leads table is linked to its lead list.
+- Each Leads table has a **Push to HeyReach** column wired to its DRAFT campaign and custom fields, with auto-run off and run_if `Status = "launch set"`. **None has been run.**
+
+Webhook URLs can write to their tables, so they are not stored here. Get them from `gtm_sheet_get_table`.
+
+| # | Workbook | Workbook id | Tables (ids) | Push custom fields | Rows (2026-11-13) |
+|---|---|---|---|---|---|
+| C1 | EU \| CPO and CSCO Table | `31a3b2d8-476e-4050-9211-28b78f77fea0` | 1. Companies `d55b5692-332c-4897-ba82-279d146f74f0` · 2. Leads `0fe4a8a3-be04-48dd-a7df-dcf69647c5fd` | none | **57 / 75**, matching the CSVs |
+| C2 | EU \| Beyond the Expo Hall | `44762757-2785-41fe-adb7-138f620279be` | 1. Companies `39dee59e-6b17-45b9-992d-03645d4be3df` · 2. Events `625e5158-4ee0-46a6-8822-8efd5c6242d6` · 3. Leads `7c0d36a9-bd3f-4760-843f-22f27fb19e2b` | event_name, event_city | 0 (not sourced) |
+| C3 | EU \| New in the Seat | `9c570e1a-aea8-4b29-ba1d-b690dd240e4a` | 1. Companies `5fd30b12-26f8-4427-9746-9010e21cf436` · 2. Leads `a4eee010-0bec-4f39-94c5-a9c9069894d4` | none | 0 |
+| C4 | EU \| Entering the Nordics | `3881ea7f-c534-4fd1-a5a7-21041c7404f6` | 1. Companies `8c7965db-38c6-49e0-877e-a50716568456` · 2. Leads `d3657225-aade-4505-b7b7-fdf95e67a343` | expansion_short, country | 0 |
+| C5 | EU \| The CISO Room | `9f42bf55-e178-4f24-aaee-114f1bf667ae` | 1. Companies `e2eeb8f0-ba3b-4b94-91fd-9c3b29523694` · 2. Leads `983e9dce-5cfd-4aa6-820a-6c3cd24a87f3` | none | 0 |
+| C6 | EU \| Nordic CIO Pulse | `8a4d4698-866c-4651-b25a-b8200d8dbcb8` | 1. Companies `ca7b16ae-5e10-4292-8476-c0980d5d9966` · 2. Leads `e5076df4-c667-4709-9ac2-890b1c5ba6a8` | category_short | 0 |
+| C7 | EU \| Finance and People Leaders | `bc567d3e-925f-40a1-852c-f85164f2f7ec` | 1. Companies `78b80375-e422-4980-aea5-8a1a16a02f80` · 2. Leads `dfb1ebbb-1cb5-4581-9b7b-efde774ddcdd` | community | 0 |
+| C8 | EU \| Open Roles Field & Event Mktg | `975206e5-77fe-460e-a885-a88725ab2370` | 1. Companies `a19ca4cc-88c9-4e2b-a508-02fde75c7407` · 2. Jobs `7513b2f5-b486-4328-ab11-6424c435154c` · 3. Leads `a193164f-fffb-4f08-a6f5-e466dd4a1189` | open_role, open_role_with_article, jd | 0 |
+| C9 | EU \| Open Roles Country & Sales Lead | `33ac4fe5-1d28-46ab-9af6-378cce264efa` | 1. Companies `b743148f-1ff6-4c4c-be4f-ccf014f3df61` · 2. Jobs `4a0f88f5-4d0f-420c-abeb-c44d456badea` · 3. Leads `3ce5a309-fb59-4c8c-83b0-037b02378c45` | open_role, open_role_with_article, jd, country | 0 |
+| C10 | EU \| Open Roles ABM Demand Partner | `6b3e059b-3cd3-49fa-9b04-ad9e64c6567b` | 1. Companies `eeca528d-d95d-4819-9ff0-bab8c91b720c` · 2. Jobs `f3ce1075-f7d6-4f6a-8301-a548c0a51c6a` · 3. Leads `083ae857-32ef-459e-b408-7becce7b219e` | open_role, open_role_with_article, jd | 0 |
+
+**Notes:**
+- In C4 and C9 the variable `country` lives in a column called "Target Country", because GTM Sheets treats "Country" and "country" as the same name. The lead's own country column there is "Lead Location".
+- HeyReach still shows the campaigns with the "| Moe v1" label: renaming needs the UI (see History 2026-11-13).
+
 ## Sourced data in this repo
 
 - `sourcing/c1-cpo-csco-table/2026-11-13-companies.csv`: **57 companies**, 24 of them with 0 leads (kept so the drop-off shows). Config "The CPO and CSCO Table" (`b81f2795-76e8-4f63-a8d0-3f0d53cabf6e`), campaign `094e9b70-89e2-414f-b48b-8eb7d9ae45e3`. Blitz API `/v2/search/companies` plus `/v2/enrichment/company`, pulled 2026-11-13. Query: `2026-11-13-leads.query.md`.
@@ -123,6 +153,13 @@ A dashboard-created empty doc `6752b493-460c-4f6d-835f-d3e5a5d5f849` ("Nov 6, 20
 
 ## History
 
+- **2026-11-13**: **Set up all 10 campaigns in GTM Sheets** (Moe: "Set all of these campaigns up in gtm sheets").
+  - **Workbooks:** 10 in folder Clients / twoHundred, one per campaign, each linked to its tracking_clients campaign. There are 23 tables in all; ids are in **GTM Sheets**.
+  - **Table layout:** every campaign has a Companies table first and a Leads table last. C2 has an Events table in between (its signal), and C8 to C10 have a Jobs table in between.
+  - **Rows:** only C1 has data. 57 companies and 75 leads were loaded from the 2026-11-13 CSVs through the table webhooks, and the server counts match. C2 to C10 are empty until each one is sourced.
+  - **Push to HeyReach:** every Leads table has the column, wired to its campaign's custom variables, with auto-run off. Nothing has been pushed.
+  - **Lead lists:** every Leads table is linked to its lead list.
+  - **Scripts added:** `gtm-sheets/build_rows.py` (new) and `gtm-sheets/push_rows.py` (copied from elite-technical).
 - **2026-11-13**: **Opened a new segment: sourced C1 "The CPO and CSCO Table"** (config `b81f2795-76e8-4f63-a8d0-3f0d53cabf6e`, campaign `094e9b70-89e2-414f-b48b-8eb7d9ae45e3`). It produced 57 qualified companies and 75 leads, using the Blitz API.
   - **Request:** Moe, "Source the data for one and make it live".
   - **Why C1:** the client's dream accounts are all supply chain and procurement vendors, and the C1 copy only uses standard variables.
