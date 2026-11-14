@@ -166,6 +166,7 @@ The connection-request fallback ("Hi {FIRST_NAME}, figured it was worth connecti
 | Date | Requests sent | Accepted | Replies (CR-B note / V1 / V2 / V3 / M2 / M3) | Notes |
 |---|---|---|---|---|
 | 2026-11-13 | 0 (launch 10:06 UTC) | – | – | baseline: 499 leads loaded, 224 in progress, 0 failed |
+| 2026-11-14 (check-in 1) | 35 | 3 (8.6%) | 0 / – / – / – / – / – | 1 thread so far, a CR-B note (Director Physician & APP Recruitment, CVAUSA); the other 2 accepts show no thread, consistent with CR-A blank. No message 1 sent yet (+1 day after accept). 7 leads failed. |
 
 ## Sourced data in this repo
 
@@ -224,6 +225,15 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
+
+- **2026-11-14**: **MQC check-in 1 (day 1 of sending, Fri 11-13).** HeyReach `727548`: **35 requests sent, 3 accepted (8.6%), 0 replies.** By comparison, Bench averaged 3.8% acceptance over its first three weeks (2,418 sent). 35 is far too small a sample to call.
+  - **Request arms:** 1 visible thread opens with the CR-B note. The other 2 accepts have no thread yet, which fits CR-A (blank). The fallback request note has not appeared, so HeyReach sends the blank `""` version as a blank request, as intended.
+  - **Message 1:** nothing sent yet. V1/V2/V3 go out a day after each accept, on weekdays.
+  - **Progress:** 238 in progress, 254 pending, 7 failed (HeyReach's own failures, e.g. unreachable profiles; not investigated at this volume).
+  - **Copy note:** `{Company_Name}` rendered "Cardiovascular Associates of America - CVAUSA". `clean_company` strips legal suffixes but not " - <acronym>" tails. Minor and readable, so it was left alone.
+  - **No variant changes:** nowhere near the ≥15-accepts-per-version rule.
+  - **Next check-in:** Mon 11-16. The campaign sends weekdays only, so a Sunday check would show nothing new.
+  - Per-client CG session (MQC).
 
 - **2026-11-13**: **MQC campaign LIVE.** HeyReach `727548` started 2026-11-13 10:06 UTC and is `IN_PROGRESS`.
   - **List `1149590` = 499 leads**, exactly the snapshot's live-eligible count. Progress at start: 224 in progress, 275 pending, 0 failed.
