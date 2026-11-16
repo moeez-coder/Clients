@@ -72,9 +72,10 @@ One workbook per campaign (CLAUDE.md "GTM Sheets build standard per campaign"). 
 
 | Table | id | Rows | Purpose |
 |---|---|---|---|
-| 1. Companies | `2079087b-7f79-4373-97c4-6ee28bc60464` | 8,728 | US manufacturers 201-1,000, all states (Blitz). AI column **Owner Succession Fit (AI)** (`openai/gpt-6-luna`, web, yes/no) plus Qualifies / Ownership / Years in Role / Top Leader / Fit Reason fields; **Send to Qualified** copies the "yes" rows on |
+| 1. Companies | `2079087b-7f79-4373-97c4-6ee28bc60464` | 26,806 | US manufacturers 201-1,000, all states (Blitz): 8,728 from the original 5 industries + about 18,078 from 25 more added 2026-11-16. AI column **Owner Succession Fit (AI)** (`openai/gpt-6-luna`, web, yes/no; run on the first 8,728) plus Qualifies / Ownership / Years in Role / Top Leader / Fit Reason fields; looser **Owner Succession Fit v2 (AI)** built but **not run** (OpenRouter key at its limit); **Send to Qualified** copies the "yes" rows on |
 | 2. Qualified Companies | `78d86371-a1c0-450e-b12d-14da694f2c44` | 508 | Founder-led / family-owned with a 15+ year owner in the top seat |
-| 3. Leads | `35453097-604b-4f34-8693-da30439aa00e` | 310 (303 launch set) | Owner / Founder / President / CEO / Chairman at the 508 (Blitz). Keyed by LinkedIn URL; `ownership`, `years_in_role` (47 filled), `Status`; **Push to HeyReach** to `730731` (custom fields `ownership`, `years_in_role`, auto-run off, run_if Status = "launch set"). Linked to lead list `88fe680f-…`. Nothing pushed yet |
+| 2b. Qualified - No Lead Yet | `3e2a2933-712e-4ee8-8c6d-07c882243efe` | 286 | Webhook table: the qualified companies Blitz found no lead for, used as the input to the GetLeads/ColdIQ people search |
+| 3. Leads | `35453097-604b-4f34-8693-da30439aa00e` | 581 (415 launch set) | Owner / Founder / President / CEO / Chairman at the 508: 310 Blitz (2026-11-13) + 271 GetLeads/ColdIQ (2026-11-16). Keyed by LinkedIn URL. Matched to 2. Qualified Companies by company LinkedIn URL **or** domain; a domain-only match must also match by name, otherwise `removed: works at a different company`. `ownership_final`, `years_in_role` (57 launch-set filled), `Status`; **Push to HeyReach** to `730731` (custom fields `ownership` ← `ownership_final`, `years_in_role`; auto-run off, run_if Status = "launch set"). Linked to lead list `88fe680f-…`. Nothing pushed yet |
 
 ## Sourced data in this repo
 
@@ -85,11 +86,19 @@ One workbook per campaign (CLAUDE.md "GTM Sheets build standard per campaign"). 
 - `sourcing/owner-succession/2026-11-13-all-companies-ai-check.csv`: 8,728 companies for **Owner Succession - Blitz (US manufacturers 201-1000, owners/CEOs)** (config `88fe680f-eae0-40c5-b147-1edf40579466`), pulled 2026-11-13 via tracking_clients `gtm_sheet_find_companies` (Blitz), with the GTM Sheets AI yes/no verdict (508 yes). Query: `sourcing/owner-succession/2026-11-13-leads.query.md`.
 - `sourcing/owner-succession/2026-11-13-companies.csv`: the 508 qualified companies (same config), 2026-11-13.
 - `sourcing/owner-succession/2026-11-13-leads.csv`: 310 prospects (same config `88fe680f-…`), pulled 2026-11-13 via tracking_clients `gtm_sheet_find_people` (Blitz, companies from 2. Qualified Companies), keyed by `linkedin_url`; 303 "launch set".
+- `sourcing/owner-succession/2026-11-16-leads.csv`: 581 prospects (same config `88fe680f-eae0-40c5-b147-1edf40579466`), pulled 2026-11-16: the 310 Blitz rows from 2026-11-13 plus 271 new rows from tracking_clients `gtm_sheet_find_people` (GetLeads with a ColdIQ waterfall, companies from 2b. Qualified - No Lead Yet). Keyed by `linkedin_url`; 415 "launch set". Query: `sourcing/owner-succession/2026-11-16-leads.query.md`.
 - `sourcing/seat-that-wont-close-preview/2026-11-13-companies.csv`: 3 preview companies for Campaign 1, The Seat That Won't Close (config `-`, none created yet).
   - Pulled 2026-11-13 via tracking_clients `gtm_sheet_find_companies` (Blitz preview with the `hiring` filter).
 
 ## History
 
+- **2026-11-16**: **Owner Succession expanded: 303 -> 415 launch-set leads; 222 -> 309 of the 508 qualified companies covered**. Expanding the existing Owner Succession segment (config `88fe680f-eae0-40c5-b147-1edf40579466`).
+  - Repo owner: "Why is the lead count low? Expand the filters", then "Do it here and then add to the table to make it live".
+  - Why it was low: only 5 industries; the strict AI check rejected companies whose ownership couldn't be confirmed; and Blitz found people at only 222 of the 508.
+  - 1. Companies widened with 25 more manufacturing industries: 8,728 -> 26,806 (about 18,078 Blitz credits). A looser v2 AI column is built, but it **can't run until the OpenRouter key's limit ($1000.16 / $1000.00) is raised or the key swapped**, so 2. Qualified Companies is still 508. The 26,806-row snapshot will be saved with the v2 verdicts.
+  - People at the 286 qualified companies with no lead: GetLeads + ColdIQ added 271 rows. GetLeads tags unrelated people with qualified domains, so Status now requires a name match on domain-only matches. 79 rows are removed for that, plus 70 with no LinkedIn URL. 112 of the new rows are launch set.
+  - Snapshot: `sourcing/owner-succession/2026-11-16-leads.csv` (581 rows). Details: `2026-11-16-leads.query.md`.
+  - Nothing pushed to HeyReach; the campaign is still a draft. Session: `claude/grn-feedback-incorporation-lnmmb0`.
 - **2026-11-13**: **Owner Succession sourced in GTM Sheets: 8,728 companies -> 508 qualified -> 310 leads (303 launch set)**. Expanding the Owner Succession segment created earlier today.
   - Repo owner instructions: remove the states filter, pull everything, use AI in GTM Sheets with a yes/no output, model GPT-6 Luna.
   - The empty webhook tables from the first build were replaced by an imported Companies table, a Qualified Companies table fed by a send column, and an imported Leads table. Table ids are above.
