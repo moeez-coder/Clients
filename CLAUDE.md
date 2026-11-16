@@ -535,6 +535,33 @@ No delete-campaign tool exists — only pause; a wrongly-created campaign gets
 paused and flagged for manual deletion in the UI. `delete_webhook` requires
 deactivating it first (`update_webhook`, `isActive: false`).
 
+## HeyReach schedule rule — every campaign runs 7 days a week
+
+(Standard set by the repo owner, 2026-11-16.) This applies to every HeyReach
+campaign, for every client and every campaign type, including Vertical
+Launch, MPC / open-role, Casual Connections and single-sequence campaigns.
+
+- **New campaigns:** before `start_campaign`, call `update_campaign_schedule`
+  with all seven `enabled<Day>` flags `true`.
+  - The daily window and timezone are chosen per client and recorded. A
+    session may propose them, but the owner decides.
+  - Cloning from a template does **not** guarantee a 7-day schedule. Set it
+    explicitly every time.
+- **Running campaigns:** HeyReach only changes the schedule on a DRAFT,
+  SCHEDULED or PAUSED campaign. Making a live campaign 7-day means
+  `pause_campaign` → `update_campaign_schedule` → `resume_campaign`.
+  - That briefly stops a live campaign, so it needs the owner's go-ahead
+    for each campaign (or batch) at the time.
+  - Confirm the status afterwards with `get_campaign`.
+- **Record the schedule every time it is set.** No HeyReach tool *reads* a
+  campaign's schedule; `get_campaign` doesn't return it. The client README
+  is the only record. Each campaign entry states its days, its daily
+  window and its timezone, and the History entry for each change says what
+  it was before and after.
+- If a client explicitly asks for a non-7-day schedule, that exception
+  must be on record in the client README History, with the date and who
+  asked. Otherwise 7 days is the rule.
+
 ## Sourcing protocol — tool order, scope, and what to pull
 
 - **Every sourcing pull runs both Clay and Blitz API — always, not just on
