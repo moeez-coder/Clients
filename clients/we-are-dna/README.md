@@ -32,9 +32,9 @@ These are verbatim copies of tracking_clients fields, each with its source in a 
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
-| - | - | - | - | - | - | - |
+| PE investment triggers \| Exa news + Blitz waterfall \| 2026-11-16 | Trigger \| Fresh Investment, PE-Backed Growth \| UK five sectors | Health, care, vet, dental; retail and hospitality; manufacturing and engineering; law and accounting; financial services | draft (static, campaign_split false) | UK \| Fresh Investment PE-Backed Growth \| C6 \| Moe v1 | - (leads loaded via GTM Sheets, not the lead list ingest) | - |
 
-None exist in tracking_clients as of 2026-11-12 (`list_sourcing_configs` count 0; `list_icp_configs` []).
+Created 2026-11-16 by this session (`create_icp_config`, `create_sourcing_config`): ICP config `23a03003-f8ca-4c13-bee9-05d995a938e4`, segment `48f11ee4-3fc3-46df-8e3d-9e73dd514c9f`, persona `9185c9e9-660d-4114-9833-f38918c90879`, lead list `71717207-0948-4eb9-898a-ef086122741d`. No other configs exist.
 
 ## GTM Sheets
 
@@ -42,7 +42,7 @@ Folder **Clients / We Are DNA** (`9a6928d3-0e80-49c3-8934-a8a1692ff121`): https:
 
 | Workbook | id | Tables (id, rows) | Linked campaign |
 |---|---|---|---|
-| UK \| Fresh Investment, PE-Backed Growth \| Campaign 6 \| Moe v1 | `851f8ca4-76f6-4f67-8576-1a8ba6524e2d` | 1 PE Deal News `2a56bc61-3fdf-4fb5-bf1e-b1236a0ea6ec` (1,119) · 2 Companies `118a97e4-4b6f-4e77-b37e-d922c2c0572d` (280) · 3 Leads `9aeb67d6-8e49-4ef4-9ff1-8cecb9714733` (491) | `-` (doc not approved yet) |
+| UK \| Fresh Investment, PE-Backed Growth \| Campaign 6 \| Moe v1 | `851f8ca4-76f6-4f67-8576-1a8ba6524e2d` | 1 PE Deal News `2a56bc61-3fdf-4fb5-bf1e-b1236a0ea6ec` (1,119) · 2 Companies `118a97e4-4b6f-4e77-b37e-d922c2c0572d` (280) · 3 Leads `9aeb67d6-8e49-4ef4-9ff1-8cecb9714733` (491; columns Clean First Name, Clean Company, Push to HeyReach added 2026-11-16, nothing pushed yet) | UK \| Fresh Investment PE-Backed Growth \| C6 \| Moe v1 (`6ce9ac82-8714-4a82-a864-5317bb53fc91`); Leads table linked to lead list `71717207-…` |
 
 Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A webhook load appends rows, so re-running it duplicates them.
 
@@ -57,12 +57,36 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 - `sourcing/tam/2026-11-13-signal-read.query.md` with `gpg_signal.py` and `2026-11-13-gpg-signal-companies.csv`: 3,796 employers (250+ staff) in the five doc-1 sectors from the gov.uk gender pay gap 2025 data, with a `gpg_signal_15pct` flag. This backs campaigns 3–5's new signal, pulled 2026-11-13. No config yet (config UUID `-`). Cost £0.
 - `sourcing/pe-investment-triggers/2026-11-16-pe-deal-news.csv`: 1,119 UK PE deal articles published since 2026-08-18, each kept or dropped with a reason. **Campaign 6, Fresh Investment** (doc `fed8e905-…`; no config yet, UUID `-`). From the Exa API `POST /search` (news) with structured summaries. Pulled 2026-11-16.
 - `sourcing/pe-investment-triggers/2026-11-16-companies-qualified.csv`: 280 candidate companies, 112 qualified (Exa `/contents` check plus `2026-11-16-manual-review.csv`), with leads found per company. Campaign 6, config `-`, pulled 2026-11-16. The pre-qualification list is `2026-11-16-companies.csv` (273).
-- `sourcing/pe-investment-triggers/2026-11-16-3-leads.csv`: 491 prospects keyed by `linkedin_url` (439 launch set; 65 companies at 5+). Adds 5 companies after the deal window was loosened to 12 months. From Blitz API `POST /v2/search/waterfall-icp-keyword` (19 records). Campaign 6, config `-`, pulled 2026-11-16. This is the current snapshot loaded in GTM Sheets.
+- `sourcing/pe-investment-triggers/2026-11-16-3-leads.csv`: 491 prospects keyed by `linkedin_url` (439 launch set; 65 companies at 5+). Adds 5 companies after the deal window was loosened to 12 months. From Blitz API `POST /v2/search/waterfall-icp-keyword` (19 records). Campaign 6, config PE investment triggers lead list `71717207-0948-4eb9-898a-ef086122741d` (created after the pull, 2026-11-16), pulled 2026-11-16. This is the current snapshot loaded in GTM Sheets.
 - `sourcing/pe-investment-triggers/2026-11-16-2-leads.csv`: 472 prospects keyed by `linkedin_url` (421 launch set, 51 removed with reasons; 63 companies with 5+). Expansion pass on Moe's ask for at least 5 per company. From Blitz API `POST /v2/search/waterfall-icp-keyword` (451 records). Campaign 6, config `-`, pulled 2026-11-16. Supersedes the first pull for loading into GTM Sheets.
 - `sourcing/pe-investment-triggers/2026-11-16-leads.csv`: 149 prospects keyed by `linkedin_url` (117 launch set, 32 removed with reasons). From Blitz API `POST /v2/search/waterfall-icp-keyword` (149 records). Campaign 6, config `-`, pulled 2026-11-16. Query and method: `2026-11-16-leads.query.md`. Full pulls wait until the client approves doc 1.
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-16**: **Campaign 6 staged for launch, not started.** Moe said to set it up in GTM Sheets and go live **without John's (the client's) approval of doc 1**. That is Moe's decision, recorded here. Moe then added: **don't go live without his final approval.** So everything stops before any lead is pushed or the campaign is started.
+  - **tracking_clients:**
+    - ICP config `23a03003-f8ca-4c13-bee9-05d995a938e4` (segment `48f11ee4-…`, persona `9185c9e9-…`: C-suite, MD, partner, people/finance/ops/commercial/marketing directors).
+    - Lead list `71717207-0948-4eb9-898a-ef086122741d` (static). `campaign_split` was set to false (one campaign gets every lead) without asking Moe, because the session was told not to ask further questions; it cannot be changed later.
+    - Campaign `6ce9ac82-8714-4a82-a864-5317bb53fc91` "UK | Fresh Investment PE-Backed Growth | C6 | Moe v1", status `creation`. It is linked to doc `fed8e905-…`, and its sequence is the doc's campaign 6 copy (connection note, then 3 DMs at +0/+3/+3 days), passed by `set_campaign_sequence`.
+  - **HeyReach (We Are DNA workspace):**
+    - Draft campaign `735291` "UK | PE-Backed Growth | C6 | Moe v1" with list `1170661`, linked to the tracking_clients campaign.
+    - 10 senders (all signed-in accounts). Withdraw after 25 days.
+    - **The connection note has no variables.** HeyReach rejects a note with `{FIRST_NAME}`/`{COMPANY}` because `gtm_sheet_create_heyreach_campaign` can't set a note fallback. The saved note is: "Hi, saw the news about the recent investment, congratulations. We help growing businesses attract and keep the people their plans depend on. Would be good to connect." The doc's personalised note can be put back in the HeyReach UI, with a fallback.
+    - Message 1 uses `{FIRST_NAME}`/`{COMPANY}`, with a fallback that has no variables.
+  - **GTM Sheets, 3 Leads table:**
+    - Added formula columns **Clean First Name** (strips emoji and titles, keeps the first word; Susan Armstrong-Brookes override) and **Clean Company** (drops brackets, " / ..." and Ltd/plc/LLP; 13 named overrides).
+    - Added **Push to HeyReach** to campaign 735291: auto-run off, `run_if` Status = "launch set". It maps first name, last name, company and title, plus the custom fields investor and sector.
+    - **Nothing has been pushed.** The push guard calls the campaign "LIVE", so the push was held for Moe's go-ahead too.
+  - **Remaining before start:**
+    - Moe's final approval.
+    - Push the 439 launch-set rows and check the HeyReach list count.
+    - `start_campaign` (dry run first).
+    - Set a UK-hours schedule and daily limits.
+    - Load the DNC list. The client's uploaded DNC file is still not in tracking_clients, and no exclusions are applied.
+    - Set up reply handling and a booking link.
+    - The operator's `campaign_thinking`, if this campaign goes through the approval flow.
+  - (session_013MzxQi4mQ4Mn8EAPSoHocN)
 
 - **2026-11-16**: **Campaign 6 deal window loosened to 12 months** (Moe: "loosen deal date"). This **expands an existing segment**.
   - **Why:** the deal date rule was the biggest company-level drop (65 companies). 44 failed nothing else, and 12 of those fall inside 12 months.
