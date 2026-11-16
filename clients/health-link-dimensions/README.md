@@ -11,10 +11,10 @@
 - **Staff:** campaign strategist Moeez; infrastructure John Paul; closer Rueban; GTM engineer `-` (unassigned); sourcing engineer `-` (unassigned)
 - **Booking link:** `-` (empty in tracking_clients)
 - **DNC list:** 0 entries (`dncSkipped: false`, so not yet supplied rather than waived)
-- **Infrastructure:** `{}` (not yet submitted to infra)
+- **Infrastructure:** `{"vaSeatCount": 10}` (changed from `{}` since the 2026-11-09 sync)
 - **Created in tracking_clients:** 2026-10-26 (by sales)
 - **Tracking client ID:** `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`
-- **Last synced:** 2026-11-09 via `get_client` + `list_sourcing_configs` (also `list_icp_configs`, `list_campaign_docs`: both empty)
+- **Last synced:** 2026-11-16 via `get_client` + `list_sourcing_configs` (0 configs). Previous sync: 2026-11-09.
 
 ## Context files
 
@@ -32,6 +32,10 @@ Verbatim copies of tracking_clients `get_client` fields, pulled 2026-11-09. Each
 | Doc | tracking_clients doc id | Status | Repo copy |
 |---|---|---|---|
 | HealthLink Dimensions Campaign Plan, Doc 1 (10 campaigns) | `1f2e4277-1a09-445e-8684-75cc542ab003` | `internal_review` (client commented 2026-11-11; agency copy revised 2026-11-13) | `campaign-docs/2026-11-09-doc-1.md` |
+
+Internal discussion drafts (not in tracking_clients, not sent to the client):
+
+- `campaign-docs/2026-11-16-mql-campaign-ideas.md`: 5 MQL campaign ideas for Moe to choose from.
 
 Portal link: https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=1f2e4277-1a09-445e-8684-75cc542ab003
 
@@ -55,6 +59,19 @@ No lead or company snapshots yet. A pull can only happen after the client approv
 - `sourcing/tam/2026-11-09-clay-sample-seg1.json`: the Clay sample, with a fit verdict per company.
 
 ## History
+
+- **2026-11-16**: **MQL campaign ideas drafted for discussion with Moe.** Nothing was built.
+  - **Moe's question:** "what could be an MQL (marketing qualified lead) campaign? Something that will increase the reply ratio."
+  - **File:** `campaign-docs/2026-11-16-mql-campaign-ideas.md`. It has 5 ideas, each with segment, asset, connection request, Message 1, MQL definition and handoff:
+    1. a one-question reach poll
+    2. specialty counts
+    3. a first-launch checklist
+    4. a client-ready audience one-pager for agencies
+    5. email engagement benchmarks
+  - **Why:** the client's doc 1 comments 1, 2, 4, 6 and 12 say the copy sells too much and asks for too much. These ideas ask for one word in Message 1, and none uses the free data review as the hook.
+  - **Recommended to Moe:** Idea 1 across all segments first, with Idea 4 for agencies and Idea 2 for pharma, biotech and device.
+  - **Not done, on purpose:** no edit to doc `1f2e4277-1a09-445e-8684-75cc542ab003`, no configs, no lead pulls and no client message, until Moe picks an idea and says go.
+  - **Resync:** profile resynced from tracking_clients (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`). The only drift was infrastructure, now `{vaSeatCount: 10}`.
 
 - **2026-11-16**: **Offers section in doc 1 reworded as potential offers for the client's feedback** (Moe: "the offer and the freebie are all potential offer and freebie which the client has to give their thoughts on").
   - **How:** our own tracked insert (change 39) was rejected and replaced with a reworded insert after paragraph 275, via `review_campaign_doc`.
