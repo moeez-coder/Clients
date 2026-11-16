@@ -92,7 +92,7 @@ Built from the SOP [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-
 - **HeyReach settings (all 4):**
   - Campaigns created with `create_campaign_v2`.
   - **7 auth-valid senders:** 243652, 249292, 249296, 261910, 263687, 263737, 264146. 203834, 252010 and 264519 were left off with invalid auth.
-  - Weekdays 07:00–19:00 Eastern Standard Time.
+  - Weekdays 07:00–19:00 Eastern Standard Time; **7 days a week since 2026-11-16** (see History).
   - **exclude-in-other-campaigns ON**, lead and company blacklists on.
   - Connection request with a note, withdrawn after 21 days.
   - Messages at +2/+2/+2 days; a reply ends the sequence.
@@ -176,6 +176,12 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-16**: **All live CG campaigns now send 7 days a week** (Moe: "make all live campaigns 7 days a week").
+  - **Campaigns:** open-role 723837/723838/723839/723841 and MQC 727548.
+  - **New schedule:** Mon–Sun 07:00–19:00, "Eastern Standard Time". The daily window and timezone are unchanged; only Saturday and Sunday were added.
+  - **How:** HeyReach `update_campaign_schedule` only works on a paused campaign, so each was paused → updated → resumed. All 5 were confirmed `IN_PROGRESS` with unchanged lead counts.
+  - **Not changed:** 677893 and 686451 (Security and Data Bench) are paused, so they are not live and were left alone.
+  - CG session 3.
 - **2026-11-13 ~14:00 UTC**: **"Use all senders for all campaigns" (Moe), checked against HeyReach workspace 169110.**
   - **Connected senders:** 7 of the 10 CG LinkedIn accounts are connected (243652, 249292, 249296, 261910, 263687, 263737, 264146).
   - **Live campaigns:** all 7 were already on all 5 running campaigns: open-role 723837/723838/723839/723841 and MQC 727548.
