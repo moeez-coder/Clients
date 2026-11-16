@@ -28,8 +28,8 @@ def send(url, rows):
 leads = list(csv.DictReader(open(D + "leads.csv")))
 assert len({r["linkedin_url"] for r in leads}) == len(leads)
 for r in leads: r["company_name_raw"] = r["company_name"]; r["company_name"] = clean_company(r["company_name"])
-# Role title + JD phrase per company (2026-11-16-role-phrases.csv). A launch_note there overrides the lead's status.
-ph = {r["company_linkedin_url"]: r for r in csv.DictReader(open(D + "role-phrases.csv"))}
+# Role title + JD phrase per company (2026-11-16-role-phrases-2.csv: phrases rewritten to "<specialty> experience with <specifics>"). A launch_note there overrides the lead's status.
+ph = {r["company_linkedin_url"]: r for r in csv.DictReader(open(D + "role-phrases-2.csv"))}
 for r in leads:
     p = ph.get(r["company_linkedin_url"])
     r["open_role_clean"] = p["open_role_clean"] if p else ""; r["jd_phrase"] = p["jd_phrase"] if p else ""
