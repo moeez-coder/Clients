@@ -28,12 +28,16 @@ def send(url, rows):
 leads = list(csv.DictReader(open(D + "leads.csv")))
 assert len({r["linkedin_url"] for r in leads}) == len(leads)
 for r in leads: r["company_name_raw"] = r["company_name"]; r["company_name"] = clean_company(r["company_name"])
-# Role title + JD phrase per company (2026-11-16-role-phrases-2.csv: phrases rewritten to "<specialty> experience with <specifics>"). A launch_note there overrides the lead's status.
-ph = {r["company_linkedin_url"]: r for r in csv.DictReader(open(D + "role-phrases-2.csv"))}
+# Role title + JD phrase per company (2026-11-16-role-phrases-3.csv: phrases written from the full job description with
+# Moe's prompt; where the first posting was closed and another open one existed, the role and job_url are the open one's).
+# A launch_note there overrides the lead's status.
+ph = {r["company_linkedin_url"]: r for r in csv.DictReader(open(D + "role-phrases-3.csv"))}
 for r in leads:
     p = ph.get(r["company_linkedin_url"])
     r["open_role_clean"] = p["open_role_clean"] if p else ""; r["jd_phrase"] = p["jd_phrase"] if p else ""
-    if p and p["launch_note"] != "-" and r["status"] == "launch set": r["status"] = p["launch_note"]
+    if p:
+        r["open_role"] = p["open_role"]; r["job_url"] = p["job_url"]; r["posting_open"] = p["posting_open"]
+        if p["launch_note"] != "-" and r["status"] == "launch set": r["status"] = p["launch_note"]
 tables = [("companies", list(csv.DictReader(open(D + "companies.csv")))), ("jobs", list(csv.DictReader(open(D + "jobs.csv")))), ("leads", leads)]
 for (name, rows), url in zip(tables, sys.argv[1:4]):
     if url == "-": continue  # "-" skips a table that is already loaded
