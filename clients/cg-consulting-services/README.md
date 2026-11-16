@@ -167,6 +167,7 @@ The connection-request fallback ("Hi {FIRST_NAME}, figured it was worth connecti
 |---|---|---|---|---|
 | 2026-11-13 | 0 (launch 10:06 UTC) | – | – | baseline: 499 leads loaded, 224 in progress, 0 failed |
 | 2026-11-14 (check-in 1) | 35 | 3 (8.6%) | 0 / – / – / – / – / – | 1 thread so far, a CR-B note (Director Physician & APP Recruitment, CVAUSA); the other 2 accepts show no thread, consistent with CR-A blank. No message 1 sent yet (+1 day after accept). 7 leads failed. |
+| 2026-11-16 (check-in 2) | 42 | 4 (9.5%) | 0 / 0 / 0 / – / – / – | 1 message 1 sent so far: **V2** to the CR-B lead (CVAUSA). The other 3 accepts have no thread yet; message 1 is due in today's sending window. Only 7 requests went out today by 17:15 UTC. HeyReach marks 32 leads finished, unexplained (see History). |
 
 ## Sourced data in this repo
 
@@ -225,6 +226,14 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
+
+- **2026-11-16**: **MQC check-in 2.** HeyReach `727548`: **42 requests sent, 4 accepted (9.5%), 1 message 1 sent, 0 replies.**
+  - **Message 1:** the one sent was **V2** (contract vs full-time), to the CR-B lead accepted on 11-14 (Director, Physician & APP Recruitment, CVAUSA). The other 3 accepts (1 on 11-14, 1 on Sun 11-15, 1 more) have no thread yet. Their message 1 is due in today's 08:00–18:00 ET window.
+  - **Volume is the constraint:** only 7 new requests by 17:15 UTC Monday, on top of 35 on Friday. The MQC shares the 7 senders' ~25/day limits with 6 other campaigns. At this rate the 499 leads take 3+ weeks to reach.
+  - **To watch:** `get_campaign` shows **32 leads "finished"** with only 4 accepts and no withdrawals due (21 days). The API's `get_leads_from_campaign` returns pending leads only, so the 32 can't be listed from here. Likely explanation: leads dropped by the exclude-in-other-campaigns or exclude-has-other-conversations settings, or already 1st-degree connections. **Not verified; check in the HeyReach UI.**
+  - **No variant changes:** nowhere near ≥15 accepts per version.
+  - Next check-in Tue 11-17.
+  - Per-client CG session (MQC).
 
 - **2026-11-14**: **MQC check-in 1 (day 1 of sending, Fri 11-13).** HeyReach `727548`: **35 requests sent, 3 accepted (8.6%), 0 replies.** By comparison, Bench averaged 3.8% acceptance over its first three weeks (2,418 sent). 35 is far too small a sample to call.
   - **Request arms:** 1 visible thread opens with the CR-B note. The other 2 accepts have no thread yet, which fits CR-A (blank). The fallback request note has not appeared, so HeyReach sends the blank `""` version as a blank request, as intended.
