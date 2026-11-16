@@ -42,7 +42,7 @@ Folder **Clients / We Are DNA** (`9a6928d3-0e80-49c3-8934-a8a1692ff121`): https:
 
 | Workbook | id | Tables (id, rows) | Linked campaign |
 |---|---|---|---|
-| UK \| Fresh Investment, PE-Backed Growth \| Campaign 6 \| Moe v1 | `851f8ca4-76f6-4f67-8576-1a8ba6524e2d` | 1 PE Deal News `2a56bc61-3fdf-4fb5-bf1e-b1236a0ea6ec` (1,119) · 2 Companies `5c2ba86a-fb51-4bd1-83b4-2b804b470825` (280) · 3 Leads `9e9255fa-857e-4b80-95e4-05f6f92dc963` (149) | `-` (doc not approved yet) |
+| UK \| Fresh Investment, PE-Backed Growth \| Campaign 6 \| Moe v1 | `851f8ca4-76f6-4f67-8576-1a8ba6524e2d` | 1 PE Deal News `2a56bc61-3fdf-4fb5-bf1e-b1236a0ea6ec` (1,119) · 2 Companies `b10f4a58-7be4-4eaa-b2c8-5a92991d6e8f` (280) · 3 Leads `61bb7927-49ca-4033-853c-8c4b89154dbc` (472) | `-` (doc not approved yet) |
 
 Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A webhook load appends rows, so re-running it duplicates them.
 
@@ -57,10 +57,18 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 - `sourcing/tam/2026-11-13-signal-read.query.md` with `gpg_signal.py` and `2026-11-13-gpg-signal-companies.csv`: 3,796 employers (250+ staff) in the five doc-1 sectors from the gov.uk gender pay gap 2025 data, with a `gpg_signal_15pct` flag. This backs campaigns 3–5's new signal, pulled 2026-11-13. No config yet (config UUID `-`). Cost £0.
 - `sourcing/pe-investment-triggers/2026-11-16-pe-deal-news.csv`: 1,119 UK PE deal articles published since 2026-08-18, each kept or dropped with a reason. **Campaign 6, Fresh Investment** (doc `fed8e905-…`; no config yet, UUID `-`). From the Exa API `POST /search` (news) with structured summaries. Pulled 2026-11-16.
 - `sourcing/pe-investment-triggers/2026-11-16-companies-qualified.csv`: 280 candidate companies, 112 qualified (Exa `/contents` check plus `2026-11-16-manual-review.csv`), with leads found per company. Campaign 6, config `-`, pulled 2026-11-16. The pre-qualification list is `2026-11-16-companies.csv` (273).
+- `sourcing/pe-investment-triggers/2026-11-16-2-leads.csv`: 472 prospects keyed by `linkedin_url` (421 launch set, 51 removed with reasons; 63 companies with 5+). Expansion pass on Moe's ask for at least 5 per company. From Blitz API `POST /v2/search/waterfall-icp-keyword` (451 records). Campaign 6, config `-`, pulled 2026-11-16. Supersedes the first pull for loading into GTM Sheets.
 - `sourcing/pe-investment-triggers/2026-11-16-leads.csv`: 149 prospects keyed by `linkedin_url` (117 launch set, 32 removed with reasons). From Blitz API `POST /v2/search/waterfall-icp-keyword` (149 records). Campaign 6, config `-`, pulled 2026-11-16. Query and method: `2026-11-16-leads.query.md`. Full pulls wait until the client approves doc 1.
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-16**: **Campaign 6 leads expanded** (Moe: "expand the leads have at least 5 per company"). This **expands an existing segment**.
+  - **Pass:** a 4-tier UK Blitz waterfall, up to 6 per company. Director and Partner titles count as just below the C-suite. Functional heads are used only as flagged top-ups where a company is short.
+  - **Result:** 472 leads, 421 launch set. **63 of 110 qualified companies have 5+.** 14 still have none: no confident LinkedIn page, or no UK leaders in Blitz.
+  - **Cost:** 451 Blitz records (campaign 6 total 610), plus about $0.05 Exa to correct 4 wrong LinkedIn pages.
+  - **GTM Sheets:** the Companies and Leads tables were rebuilt from the new snapshot. Row counts match (280 / 472).
+  - **Details:** `sourcing/pe-investment-triggers/2026-11-16-leads.query.md`.
 
 - **2026-11-16**: **Campaign 6 (Fresh Investment, PE-Backed Growth) built in GTM Sheets.** This opens a **new segment**: a trigger across all five sectors.
   - **Why this one:** Moe asked which campaign was safest to launch first. I recommended 6, because it's the client's own ICP-form signal, has no pay gap or client-name risk, and goes to C-suite only. Moe then said "Build campaign 6 in gtm sheets".
