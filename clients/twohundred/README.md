@@ -162,6 +162,7 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-16**: Saved Moe's `campaign_thinking` for C1 (`094e9b70-89e2-414f-b48b-8eb7d9ae45e3`) word for word: "For the B2B vendors the communities are a great place to initiate relationships. It is segmented per industry." Then `send_campaign_for_approval` moved C1 from `creation` to **approved**. This text shows on the client portal as "Thinking behind the campaign". C2 to C10 are still in `creation` with no thinking.
 - **2026-11-16**: **C1 "The CPO and CSCO Table" is LIVE** in HeyReach (campaign `729831`, status IN_PROGRESS, 75 leads), on Moe's "Make 1 campaign live with 1 sender only for now".
   - **Sender roster changed:** the 9 accounts from 2026-11-13 are gone from workspace 172772. `list_client_accounts` now shows 5: Kimberly Almazan (203828), Kirky Palamos (241273), Christine Joy Ochosa (251033), Markim Eniola (264397), Chavali Praneeth (265480). Moe says 5 accounts are branded; tracking_clients has no branding field, so which ones is unconfirmed.
   - **Sender:** 1 only, Kimberly Almazan (203828), chosen by the session (lowest HeyReach id). The other 9 campaigns lost their senders when the old accounts left and now have 0.
