@@ -79,7 +79,8 @@ All 10 were created 2026-11-12 from approved doc `a4c10f55-28e7-420e-9040-d8fe8a
 
 ## HeyReach state (2026-11-13)
 
-- Workspace 172772 "twoHundred" now has **10 DRAFT campaigns**, one per tracking_clients campaign (ids in the Campaigns table). Each has its own empty list. All were created 2026-11-13 with `gtm_sheet_create_heyreach_campaign` and linked with `link_platform_campaign`. **None has been started.**
+- **2026-11-16: C1 (`729831`) is LIVE with 75 leads and 1 sender (Kimberly Almazan). The other 9 are DRAFT with 0 senders (old roster left the workspace).**
+- Workspace 172772 "twoHundred" had **10 DRAFT campaigns**, one per tracking_clients campaign (ids in the Campaigns table). Each has its own empty list. All were created 2026-11-13 with `gtm_sheet_create_heyreach_campaign` and linked with `link_platform_campaign`. **None has been started.**
 - **Senders:** all 9 VSDR accounts are on all 10 campaigns (`set_campaign_senders add_all_available`, 9 per campaign): Delosjene Encarnado, Joanna Marie Alipio, Brett Magat, Ralph John Taboada, Eianne Maurice Tantiado, Shiela Mae Inoc, Milca Lavarias, Marjorie Paulo, plus account `182761` (put on at creation). All are `heyreach_connected: true` and `sales_nav_connected: false`.
 - **Sequence:** connection request (withdrawn after 25 days), then M1, M2 after 4 days, M3 after 5 days. Every DM has a fallback for empty variables, and weekend sending is on.
   - **M1 delay is saved as 3 hours.** We asked for 1 hour, but HeyReach stored 3.
@@ -161,6 +162,12 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-16**: **C1 "The CPO and CSCO Table" is LIVE** in HeyReach (campaign `729831`, status IN_PROGRESS, 75 leads), on Moe's "Make 1 campaign live with 1 sender only for now".
+  - **Sender roster changed:** the 9 accounts from 2026-11-13 are gone from workspace 172772. `list_client_accounts` now shows 5: Kimberly Almazan (203828), Kirky Palamos (241273), Christine Joy Ochosa (251033), Markim Eniola (264397), Chavali Praneeth (265480). Moe says 5 accounts are branded; tracking_clients has no branding field, so which ones is unconfirmed.
+  - **Sender:** 1 only, Kimberly Almazan (203828), chosen by the session (lowest HeyReach id). The other 9 campaigns lost their senders when the old accounts left and now have 0.
+  - **Leads:** all 75 pushed from GTM Sheets (C1 Leads table, Push to HeyReach column), 3-row test first, 0 failures.
+  - **Started** with `start_campaign` (dry run clean first).
+  - **Known gaps at launch:** `campaign_thinking` is still empty and the tracking_clients campaign is still in `creation` (start_campaign did not require approval); no reply workflow is set up; the Forum overview asset is still not supplied by the client, so "yes" replies need a manual send; the M1 delay is 3 hours not 1.
 - **2026-11-13**: **Sized and sourced C3 and C5 to C10** (Moe: "size them and actually source them"). All via the Blitz API on the flat plan, no extra spend. Each applied the 53-company DNC and kept only Nordic/NL-based or Nordic/EMEA-titled GTM leaders.
   - **C5 CISO Room:** 230 companies, 451 leads (3/company). **C7 Finance & People Leaders:** 259 / 500 (3/company). **C6 Nordic CIO Pulse:** 606 / 887 (2/company, widest segment). These three are the largest, in that order.
   - **C3 New in the Seat:** 52 / 54, using Blitz `is_recent_hire` (90-day) as the new-in-role signal.
