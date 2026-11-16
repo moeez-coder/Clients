@@ -21,8 +21,9 @@ Context copied from `get_client` on 2026-11-16: `context/client-brief.md`, `cont
 |---|---|---|---|---|---|---|---|
 | Fire & Life Safety Leaders - Blitz (US F&LS 201-1000, C-level/VP) | Fire & Life Safety Leaders | US fire & life safety companies: fire sprinkler and suppression contractors, fire alarm and detection integrators, inspection, testing and maintenance providers | Campaign-specific: Fire & Life Safety Leaders (not set by this session; inferred from the config name, confirm) | draft | 1 | 0 | - |
 | Owner Succession - Blitz (US manufacturers 201-1000, owners/CEOs) | Owner Succession | Founder-led or family-owned US manufacturers (industrial, discrete and process) | Campaign-specific: Owner Succession (not set by this session; inferred from the config name, confirm) | draft | 1 | 0 | - |
+| Recruitment Specific Open Roles - Blitz jobs search (US mfg + F&LS 201-1000, last 120 days) | Recruitment Specific \| Open Roles | US mid-sized manufacturers and fire & life safety companies with an open leadership or specialist management role | Campaign-specific: Recruitment Specific Campaign | draft | 1 | 0 (leads live in GTM Sheets and HeyReach; not ingested) | - |
 
-Config UUIDs: Fire & Life Safety Leaders `e8538474-8bd8-4479-8878-5899efe1ccf4`; Owner Succession `88fe680f-eae0-40c5-b147-1edf40579466`.
+Config UUIDs: Recruitment Specific Open Roles `fe214099-0834-40b6-9b18-d4517ecd03f1` (ICP config `7cc82211-d388-4996-9bc6-1e0b02fae68e`, segment `e09104c0-8a70-431b-a3fd-8599696c1a56`, persona `f2eb489d-080b-4b70-9394-dd9d12a21ff2`, `campaign_split: false`); Fire & Life Safety Leaders `e8538474-8bd8-4479-8878-5899efe1ccf4`; Owner Succession `88fe680f-eae0-40c5-b147-1edf40579466`.
 
 ## Campaigns and campaign docs (tracking_clients, as of 2026-11-16)
 
@@ -32,11 +33,28 @@ Config UUIDs: Fire & Life Safety Leaders `e8538474-8bd8-4479-8878-5899efe1ccf4`;
 | Campaign "Fire & Life Safety Leaders" | `f1138ab0-daa4-42a1-8a7c-ca27965623ea` (HeyReach 730732) | creation |
 | Campaign "Owner Succession" | `250a7100-07e0-487d-97c0-8a204d97a276` (HeyReach 730731) | creation |
 
+| Campaign "Recruitment Specific Campaign" | `ed2f167f-5cea-4b2e-833b-20b2aafe26e0` (HeyReach 734516, lead list 1169425) | see History |
+
+Campaign 6 and the offers section were added to the campaign doc on 2026-11-16 as tracked suggestions; the text is in `campaign-docs/2026-11-16-campaign-6-recruitment-specific.md`.
+
+## GTM Sheets
+
+Workbook **US | Recruiter | Recruitment Specific Open Roles | Moe v1** `4086bd52-c75b-460e-959b-280a5bc93722`, in Clients / GRN Piedmont (folder `5b185300-2443-46b3-9a4d-b50cb54f4368`), linked to campaign `ed2f167f-5cea-4b2e-833b-20b2aafe26e0`.
+
+| Table | ID | Rows | Loaded from |
+|---|---|---|---|
+| 1 Companies | `370b9f00-8bb2-4a97-975a-87f507a5a5d8` | 1,161 | `2026-11-16-companies.csv` |
+| 2 Jobs | `a87d6fbd-ce5c-4023-bc8c-37098f1ccb69` | 4,426 | `2026-11-16-jobs.csv` |
+| 3 Leads | `26e37aba-6c73-4a4a-93d3-84f8d10bb466` | 1,563 | `2026-11-16-leads.csv` + `2026-11-16-role-phrases.csv`; linked to lead list `fe214099-0834-40b6-9b18-d4517ecd03f1`; Push to HeyReach column -> 734516, `run_if` Status = launch set |
+
+Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not committed). `Job Title Open` and `Job Description` are plain data, not an AI column: the GTM Sheets OpenRouter key hit its $1,000 total cap on 2026-11-16, so the phrases were written by Claude sub-agents and saved to the repo.
+
 ## Sourced data in this repo
 
 - `sourcing/recruitment-specific-open-roles/2026-11-16-jobs.csv` — 4,426 job postings (3,347 kept, the rest marked removed with a reason) for the **Recruitment Specific Campaign** lead list, Blitz API `POST /v2/jobs/search`, last 120 days, pulled 2026-11-16
 - `sourcing/recruitment-specific-open-roles/2026-11-16-companies.csv` — 1,161 companies with a kept posting, one open role each, with a `leads_launch_set` count (246 produced no lead and stay in the file), derived from the jobs pull, 2026-11-16
 - `sourcing/recruitment-specific-open-roles/2026-11-16-leads.csv` — 1,563 prospects (1,559 launch set) at 915 companies, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-16, keyed by `linkedin_url`. Query record: `2026-11-16-leads.query.md`
+- `sourcing/recruitment-specific-open-roles/2026-11-16-role-phrases.csv` — 914 rows, one per company with a launch lead: cleaned role title (`{Job_Title_Open_}`) and job-description phrase (`{Job_Description}`), written 2026-11-16 by Claude sub-agents from the Blitz posting title + `ai_summary`; `launch_note` removes 9 companies (22 leads) whose role is outside what GRN places. Not an API pull.
 - `sourcing/tam/2026-11-16-jobs-sample.csv` — 250 job postings (50 newest per role family), sizing sample for the Recruitment Specific campaign (no config yet), Blitz API `POST /v2/jobs/search`, pulled 2026-11-16
 - `sourcing/tam/2026-11-16-sample-leads.csv` — 36 rows (35 prospects + 1 no-match placeholder) at 14 sampled companies, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-16, keyed by `linkedin_url`
 - `sourcing/tam/2026-11-16-clay-sample-companies.csv` — 40 companies (2 queries x 20), Clay MCP `search-companies` fit check, pulled 2026-11-16
