@@ -258,6 +258,25 @@ Only then: build one HeyReach campaign per segment (§3) and push. If the user d
 6. **Start** with `start_campaign` only when every list is complete. Confirm with `get_campaign` (`status` `IN_PROGRESS`/`STARTING`, `startedAt` set).
 7. **Record** campaign ids, list ids, senders, lead counts and the start time in the client README.
 
+### Step 11: top up a live campaign ("add more leads")
+
+Don't re-run `jobs/search`. It bills 1 record per job, including jobs at companies already sourced. Instead, run `sourcing/pull_open_roles_topup.py <slug> <raw_dir> <days> [max_new_companies]` (C&G copy):
+
+1. **New companies:** page `tam-by-jobs` (1 record per company) and skip every company already in an earlier `*-companies.csv` of the segment.
+   - Tech: Northeast first, then stop at the new-company cap.
+   - Widen the posting window to reach more companies (C&G LS: 30 → 60 days).
+2. **Open role:** `jobs/company` with `max_results: 1` per new company gives its `open_role` and `jd_summary`.
+3. **People:** the waterfall per new company, with the same per-company count.
+4. **Build and dedupe:** `build_open_roles.py <slug> <raw> <new date>`. The live rows of every **earlier** open-role snapshot now block a lead in any segment, because they're already in running campaigns.
+5. **Commit:** one commit per segment ("expanding existing segment").
+6. **Append to GTM Sheets:** import the new CSVs into the **existing** Leads, Companies and Open Jobs tables (`table` + `url` at the commit SHA, `auto_run: false`).
+   - Run `JD Phrase AI` with `only_empty`.
+   - Then run `Push to HeyReach` with `only_empty`. Its cells wait for each row's JD Phrase.
+   - Leads land on the running campaign's list.
+7. **Verify:** check each list's count = old count + new live-eligible.
+
+**C&G cost reference (2026-11-12):** 7,294 records for 1,900 leads (1,534 live-eligible) at 1,719 new companies.
+
 ## 5. TAM/SAM → contacts per company (inverse rule, CLAUDE.md)
 
 | Pool | Example | Contacts per company |
@@ -291,6 +310,7 @@ Record the read and the resulting number in each `.query.md`.
 
 ## Change log
 
+- **2026-11-12**: Added Step 11, the top-up path: new companies only via `tam-by-jobs` → `jobs/company` → waterfall, appended into the existing GTM Sheets tables and campaigns.
 - **2026-11-11**: Added Step 10, the HeyReach build, push and start, from the C&G go-live: direct `create_campaign_v2` because the GTM helper picked a disconnected sender; the 50-character name cap; the First Name Clean formula; the push column spec and verification.
 - **2026-11-05**: Added Step 7a, the `JD Phrase` AI column (Haiku 5.5, JSON output, live-eligible rows only). §3 now notes this is the proven MPC messaging and maps `{JD}` to `JD Phrase`.
 - **2026-11-05**: §3 now has the full Open-role sequence copy (verbatim from Moe), plus notes on the role-family slots and the `{JD}` phrase.
