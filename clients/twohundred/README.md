@@ -162,6 +162,10 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-16**: **Sender on all four live campaigns switched to Chavali Praneeth (265480)**, which Moe confirmed is branded correctly. Kimberly Almazan (203828) was removed from C1 (729831), C5 (729838), C7 (729841) and C6 (729840). Each campaign paused for a few seconds and resumed; all four confirmed IN_PROGRESS afterwards.
+  - **Leads now in HeyReach:** C1 75, C5 446, C7 375, C6 452 (all loading finished).
+  - **C5 is 3 short of 449:** the GTM Sheets client exclusion list skipped 3 NTT Data contacts (NTT Data is on the DNC; the repo-side name match missed this LinkedIn company name). They stay in the CSV but were never pushed.
+  - **Possible Kimberly sends:** C1 ran on Kimberly for a few hours and ~30 leads per campaign were already in progress at the switch. HeyReach stops leads assigned to a removed sender, so any connection requests Kimberly already sent will not get follow-up messages from Chavali.
 - **2026-11-16**: **Approved C5, C6 and C7 and launched them**, each on one sender (Moe: "Yes for the 3. Make them live with 1 sender").
   - **Thinking:** Moe confirmed his C1 text applies to these three industry-segmented campaigns; saved word for word on each, then all three moved to **approved**.
   - **Cross-campaign dedupe before launch:** the lead lists overlapped heavily (the same person qualifying for several industry segments). Each person is kept only in the most specific campaign, in the order C1, C5, C7, C6. Removed: C5 2, C7 125, C6 435. Recorded in each folder's `2026-11-16-heyreach-removed.csv` (the 2026-11-13 snapshots are untouched). In GTM Sheets each Leads table got a **Removed** column showing the reason, and its Push column now runs only when `Status = "launch set"` and Removed is empty.
