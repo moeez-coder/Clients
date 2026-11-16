@@ -10,12 +10,12 @@
 - **Slack channel ID:** C0CE71ZARLZ
 - **HeyReach workspace:** `172307` (heyreachConnected: true). No HeyReach MCP connector in the 2026-11-12 session served this workspace. 16 connectors answered `list_workspaces`, each with another client's workspace, and 13 returned 401. Reach it through tracking_clients' `gtm_sheet_*` HeyReach tools, which use the client's own key, or add a connector for 172307. Never use another client's connector.
 - **Staff:** campaign strategist Moeez; infrastructure John Paul; closer Rueban; GTM engineer `-` (unassigned); sourcing engineer `-` (unassigned).
-- **Booking link:** `-` (empty in tracking_clients)
-- **DNC:** `dncList` is empty (0) and `dncSkipped` is false. **The ICP form says a DNC file was uploaded (`b35224647da9-Do_Not_Contact_List.csv`), but it was never loaded into tracking_clients.** This has to be fixed before any list goes into HeyReach.
-- **Infrastructure:** `{}` (empty). `callTranscript` and `notes` are empty.
+- **Booking link:** https://bookings.cloud.microsoft/book/WeAreDNA1@wearedna.co.uk/ (set in tracking_clients by 2026-11-16)
+- **DNC:** `dncList` now holds **143 companies** (loaded into tracking_clients after 2026-11-12; `dncSkipped` false). Copy at `context/dnc-list.csv`. It includes Pets at Home, Medivet, Dunbia, Aesop and OVO, and 10 names match the GPG list by exact name. Campaign 6's 491 leads were pulled before it was loaded and have **not** been checked against it yet.
+- **Infrastructure:** `{"vaSeatCount": 10}`. `callTranscript` and `notes` are empty.
 - **Created in tracking_clients:** 2026-11-02 (`createdBy: sales`)
 - **Tracking client ID:** `f5ff426b-c514-4a64-91b0-0e141a6a0669`
-- **Last synced:** 2026-11-12 via `get_client` + `list_sourcing_configs` + `list_icp_configs` + `list_campaigns` + `list_campaign_docs`
+- **Last synced:** 2026-11-16 via `get_client` + `list_sourcing_configs` + `list_campaign_docs` (doc 1 still `client_review`, 2 open comments, 221 open changes)
 
 **Who they are:** a Bristol creative agency, trading since 2010. They work across three pillars: Employer Branding, Employee Engagement, and Marketing Solutions, using their BrandShift™ method. **They are not a recruitment agency** and charge no placement fees. Deal value is about $45k and the sales cycle is about 12 weeks (ICP form).
 
@@ -27,6 +27,7 @@ These are verbatim copies of tracking_clients fields, each with its source in a 
 - `context/icp-form.md`: `icpForm`, the client's own answers (submitted 2026-11-10), rendered as Q&A
 - `context/client-description.md`: `clientDescription`
 - `context/caller-notes.md`: `callerBriefing` + `callerFaqs`
+- `context/dnc-list.csv`: `dncList`, 143 rows (`company_name`, `company_domain`), pulled 2026-11-16
 
 ## Sourcing configs
 
@@ -51,6 +52,7 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 | Date | Doc | tracking_clients id | Status |
 |---|---|---|---|
 | 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (re-sent 2026-11-13 after John's open-role feedback; 109 tracked suggestions pending the client's accept/reject; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
+| 2026-11-16 | [`campaign-docs/2026-11-16-mql-concepts-discussion.md`](campaign-docs/2026-11-16-mql-concepts-discussion.md): internal discussion of 5 MQL (reply-first) concepts, not a campaign doc | `-` (not in tracking_clients) | internal discussion, nothing built or sent |
 
 ## Sourced data in this repo
 
@@ -63,6 +65,16 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-16**: **Resync, and MQL campaign discussion opened.**
+  - **Resync** (`get_client`, `list_sourcing_configs`, `list_campaign_docs`). Since 2026-11-12, tracking_clients gained:
+    - the DNC list (143 companies; copy at `context/dnc-list.csv`)
+    - a booking link
+    - `infrastructure.vaSeatCount` 10
+  - The sourcing config and doc 1 (`client_review`) are unchanged.
+  - Campaign 6's 491 leads have 0 exact company-name matches against the DNC list. Domains weren't compared, because the leads CSV has no domain column.
+  - **MQL discussion:** Moe asked what a reply-first MQL campaign could look like, to raise reply rates. Five concepts are written up in `campaign-docs/2026-11-16-mql-concepts-discussion.md`. The recommendation is to test the GPG sector benchmark first. Sector benchmarks were computed locally from the GPG CSV (£0).
+  - **Nothing was built or sent:** no configs, campaigns, docs, HeyReach changes, client contact or paid sourcing. Campaign 6 was not touched.
 
 - **2026-11-16**: **Campaign 6 staged for launch, not started.** Moe said to set it up in GTM Sheets and go live **without John's (the client's) approval of doc 1**. That is Moe's decision, recorded here. Moe then added: **don't go live without his final approval.** So everything stops before any lead is pushed or the campaign is started.
   - **tracking_clients:**
