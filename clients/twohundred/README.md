@@ -162,6 +162,12 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-16**: **Approved C5, C6 and C7 and launched them**, each on one sender (Moe: "Yes for the 3. Make them live with 1 sender").
+  - **Thinking:** Moe confirmed his C1 text applies to these three industry-segmented campaigns; saved word for word on each, then all three moved to **approved**.
+  - **Cross-campaign dedupe before launch:** the lead lists overlapped heavily (the same person qualifying for several industry segments). Each person is kept only in the most specific campaign, in the order C1, C5, C7, C6. Removed: C5 2, C7 125, C6 435. Recorded in each folder's `2026-11-16-heyreach-removed.csv` (the 2026-11-13 snapshots are untouched). In GTM Sheets each Leads table got a **Removed** column showing the reason, and its Push column now runs only when `Status = "launch set"` and Removed is empty.
+  - **Launch set:** C5 449, C7 375, C6 452 leads.
+  - **Senders (one each, all different):** C5 Kirky Palamos (241273), C7 Christine Joy Ochosa (251033), C6 Markim Eniola (264397). C1 keeps Kimberly Almazan. Chavali Praneeth (265480) is unused.
+  - **Variables:** C6's `category_short` and C7's `community` are empty on every lead, so those campaigns send the fallback copy for the messages that use them.
 - **2026-11-16**: Saved Moe's `campaign_thinking` for C1 (`094e9b70-89e2-414f-b48b-8eb7d9ae45e3`) word for word: "For the B2B vendors the communities are a great place to initiate relationships. It is segmented per industry." Then `send_campaign_for_approval` moved C1 from `creation` to **approved**. This text shows on the client portal as "Thinking behind the campaign". C2 to C10 are still in `creation` with no thinking.
 - **2026-11-16**: **C1 "The CPO and CSCO Table" is LIVE** in HeyReach (campaign `729831`, status IN_PROGRESS, 75 leads), on Moe's "Make 1 campaign live with 1 sender only for now".
   - **Sender roster changed:** the 9 accounts from 2026-11-13 are gone from workspace 172772. `list_client_accounts` now shows 5: Kimberly Almazan (203828), Kirky Palamos (241273), Christine Joy Ochosa (251033), Markim Eniola (264397), Chavali Praneeth (265480). Moe says 5 accounts are branded; tracking_clients has no branding field, so which ones is unconfirmed.
