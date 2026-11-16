@@ -1,0 +1,4088 @@
+{
+ "mfg/companies/et-ct": {
+  "path": "/v2/search/companies",
+  "total_results": 22367,
+  "split_totals": [
+   9312,
+   13055
+  ],
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "employee_range": [
+     "201-500",
+     "501-1000"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ],
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "Boston Dynamics"
+   },
+   {
+    "name": "Porsche Cars North America"
+   }
+  ],
+  "error": null
+ },
+ "mfg/companies/all-us": {
+  "path": "/v2/search/companies",
+  "total_results": 24985,
+  "split_totals": [
+   10660,
+   14325
+  ],
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "employee_range": [
+     "201-500",
+     "501-1000"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "Boston Dynamics"
+   },
+   {
+    "name": "Porsche Cars North America"
+   }
+  ],
+  "error": null
+ },
+ "fls/companies/et-ct": {
+  "path": "/v2/search/companies",
+  "total_results": 264,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Fire Protection",
+      "Construction",
+      "Building Equipment Contractors",
+      "Specialty Trade Contractors",
+      "Security Systems Services",
+      "Facilities Services",
+      "Building Construction",
+      "Nonresidential Building Construction"
+     ]
+    },
+    "employee_range": [
+     "201-500",
+     "501-1000"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ],
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    },
+    "keywords": {
+     "include": [
+      "fire protection",
+      "fire sprinkler",
+      "fire alarm",
+      "fire suppression",
+      "life safety"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "TAI"
+   }
+  ],
+  "error": null
+ },
+ "fls/companies/et-ct/51-5000": {
+  "path": "/v2/search/companies",
+  "total_results": 1107,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Fire Protection",
+      "Construction",
+      "Building Equipment Contractors",
+      "Specialty Trade Contractors",
+      "Security Systems Services",
+      "Facilities Services",
+      "Building Construction",
+      "Nonresidential Building Construction"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ],
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    },
+    "keywords": {
+     "include": [
+      "fire protection",
+      "fire sprinkler",
+      "fire alarm",
+      "fire suppression",
+      "life safety"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "TAI"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/operations-plant-leadership/30d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 425,
+  "split_totals": [
+   173,
+   252
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Plant Manager",
+      "General Manager",
+      "Operations Manager",
+      "Production Manager",
+      "Manufacturing Manager",
+      "Maintenance Manager",
+      "Continuous Improvement Manager",
+      "Chief Operating Officer",
+      "COO",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Manufacturing",
+      "VP Manufacturing",
+      "Vice President Manufacturing",
+      "Head Manufacturing",
+      "Director Production",
+      "VP Production",
+      "Vice President Production",
+      "Head Production"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Operations Manager",
+    "company_name": "Stallion Infrastructure Services",
+    "date_posted": "2026-11-15 11:58:09+01",
+    "url": "https://www.linkedin.com/jobs/view/operations-manager-at-stallion-infrastructure-services-4491233760"
+   },
+   {
+    "title": "Operations Manager",
+    "company_name": "Crenlo Engineered Cabs",
+    "date_posted": "2026-11-15 12:01:51+01",
+    "url": "https://www.linkedin.com/jobs/view/operations-manager-at-crenlo-engineered-cabs-4491241449"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/operations-plant-leadership/90d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 1401,
+  "split_totals": [
+   602,
+   799
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Plant Manager",
+      "General Manager",
+      "Operations Manager",
+      "Production Manager",
+      "Manufacturing Manager",
+      "Maintenance Manager",
+      "Continuous Improvement Manager",
+      "Chief Operating Officer",
+      "COO",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Manufacturing",
+      "VP Manufacturing",
+      "Vice President Manufacturing",
+      "Head Manufacturing",
+      "Director Production",
+      "VP Production",
+      "Vice President Production",
+      "Head Production"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Operations Manager",
+    "company_name": "Stallion Infrastructure Services",
+    "date_posted": "2026-11-15 11:58:09+01",
+    "url": "https://www.linkedin.com/jobs/view/operations-manager-at-stallion-infrastructure-services-4491233760"
+   },
+   {
+    "title": "Operations Manager",
+    "company_name": "Crenlo Engineered Cabs",
+    "date_posted": "2026-11-15 12:01:51+01",
+    "url": "https://www.linkedin.com/jobs/view/operations-manager-at-crenlo-engineered-cabs-4491241449"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/operations-plant-leadership/120d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 1881,
+  "split_totals": [
+   794,
+   1087
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Plant Manager",
+      "General Manager",
+      "Operations Manager",
+      "Production Manager",
+      "Manufacturing Manager",
+      "Maintenance Manager",
+      "Continuous Improvement Manager",
+      "Chief Operating Officer",
+      "COO",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Manufacturing",
+      "VP Manufacturing",
+      "Vice President Manufacturing",
+      "Head Manufacturing",
+      "Director Production",
+      "VP Production",
+      "Vice President Production",
+      "Head Production"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 120
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Operations Manager",
+    "company_name": "Stallion Infrastructure Services",
+    "date_posted": "2026-11-15 11:58:09+01",
+    "url": "https://www.linkedin.com/jobs/view/operations-manager-at-stallion-infrastructure-services-4491233760"
+   },
+   {
+    "title": "Operations Manager",
+    "company_name": "Crenlo Engineered Cabs",
+    "date_posted": "2026-11-15 12:01:51+01",
+    "url": "https://www.linkedin.com/jobs/view/operations-manager-at-crenlo-engineered-cabs-4491241449"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/operations-plant-leadership/30d/all-us": {
+  "path": "/v2/jobs/search",
+  "total_results": 542,
+  "split_totals": [
+   249,
+   293
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Plant Manager",
+      "General Manager",
+      "Operations Manager",
+      "Production Manager",
+      "Manufacturing Manager",
+      "Maintenance Manager",
+      "Continuous Improvement Manager",
+      "Chief Operating Officer",
+      "COO",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Manufacturing",
+      "VP Manufacturing",
+      "Vice President Manufacturing",
+      "Head Manufacturing",
+      "Director Production",
+      "VP Production",
+      "Vice President Production",
+      "Head Production"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Operations Manager",
+    "company_name": "Stallion Infrastructure Services",
+    "date_posted": "2026-11-15 11:58:09+01",
+    "url": "https://www.linkedin.com/jobs/view/operations-manager-at-stallion-infrastructure-services-4491233760"
+   },
+   {
+    "title": "Operations Manager",
+    "company_name": "Crenlo Engineered Cabs",
+    "date_posted": "2026-11-15 12:01:51+01",
+    "url": "https://www.linkedin.com/jobs/view/operations-manager-at-crenlo-engineered-cabs-4491241449"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/engineering-quality/30d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 275,
+  "split_totals": [
+   145,
+   130
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Engineering Manager",
+      "Quality Manager",
+      "Chief Engineer",
+      "Manufacturing Engineering Manager",
+      "Process Engineering Manager",
+      "Quality Assurance Manager",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Quality",
+      "VP Quality",
+      "Vice President Quality",
+      "Head Quality"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Platform Hardware Engineering Manager",
+    "company_name": "Astronautics Corporation of America",
+    "date_posted": "2026-11-15 10:47:55+01",
+    "url": "https://www.linkedin.com/jobs/view/platform-hardware-engineering-manager-at-astronautics-corporation-of-america-4489385472"
+   },
+   {
+    "title": "Quality Manager",
+    "company_name": "AISIN World Corp. of America",
+    "date_posted": "2026-11-14 09:52:34+01",
+    "url": "https://www.linkedin.com/jobs/view/quality-manager-at-aisin-world-corp-of-america-4491059414"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/engineering-quality/90d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 894,
+  "split_totals": [
+   470,
+   424
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Engineering Manager",
+      "Quality Manager",
+      "Chief Engineer",
+      "Manufacturing Engineering Manager",
+      "Process Engineering Manager",
+      "Quality Assurance Manager",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Quality",
+      "VP Quality",
+      "Vice President Quality",
+      "Head Quality"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Platform Hardware Engineering Manager",
+    "company_name": "Astronautics Corporation of America",
+    "date_posted": "2026-11-15 10:47:55+01",
+    "url": "https://www.linkedin.com/jobs/view/platform-hardware-engineering-manager-at-astronautics-corporation-of-america-4489385472"
+   },
+   {
+    "title": "Quality Manager",
+    "company_name": "AISIN World Corp. of America",
+    "date_posted": "2026-11-14 09:52:34+01",
+    "url": "https://www.linkedin.com/jobs/view/quality-manager-at-aisin-world-corp-of-america-4491059414"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/engineering-quality/120d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 1219,
+  "split_totals": [
+   646,
+   573
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Engineering Manager",
+      "Quality Manager",
+      "Chief Engineer",
+      "Manufacturing Engineering Manager",
+      "Process Engineering Manager",
+      "Quality Assurance Manager",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Quality",
+      "VP Quality",
+      "Vice President Quality",
+      "Head Quality"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 120
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Platform Hardware Engineering Manager",
+    "company_name": "Astronautics Corporation of America",
+    "date_posted": "2026-11-15 10:47:55+01",
+    "url": "https://www.linkedin.com/jobs/view/platform-hardware-engineering-manager-at-astronautics-corporation-of-america-4489385472"
+   },
+   {
+    "title": "Quality Manager",
+    "company_name": "AISIN World Corp. of America",
+    "date_posted": "2026-11-14 09:52:34+01",
+    "url": "https://www.linkedin.com/jobs/view/quality-manager-at-aisin-world-corp-of-america-4491059414"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/engineering-quality/30d/all-us": {
+  "path": "/v2/jobs/search",
+  "total_results": 369,
+  "split_totals": [
+   228,
+   141
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Engineering Manager",
+      "Quality Manager",
+      "Chief Engineer",
+      "Manufacturing Engineering Manager",
+      "Process Engineering Manager",
+      "Quality Assurance Manager",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Quality",
+      "VP Quality",
+      "Vice President Quality",
+      "Head Quality"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Platform Hardware Engineering Manager",
+    "company_name": "Astronautics Corporation of America",
+    "date_posted": "2026-11-15 10:47:55+01",
+    "url": "https://www.linkedin.com/jobs/view/platform-hardware-engineering-manager-at-astronautics-corporation-of-america-4489385472"
+   },
+   {
+    "title": "Quality Manager",
+    "company_name": "AISIN World Corp. of America",
+    "date_posted": "2026-11-14 09:52:34+01",
+    "url": "https://www.linkedin.com/jobs/view/quality-manager-at-aisin-world-corp-of-america-4491059414"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/supply-chain-purchasing/30d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 102,
+  "split_totals": [
+   40,
+   62
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Supply Chain Manager",
+      "Purchasing Manager",
+      "Procurement Manager",
+      "Materials Manager",
+      "Sourcing Manager",
+      "Director Supply Chain",
+      "VP Supply Chain",
+      "Vice President Supply Chain",
+      "Head Supply Chain",
+      "Director Purchasing",
+      "VP Purchasing",
+      "Vice President Purchasing",
+      "Head Purchasing",
+      "Director Procurement",
+      "VP Procurement",
+      "Vice President Procurement",
+      "Head Procurement",
+      "Director Materials",
+      "VP Materials",
+      "Vice President Materials",
+      "Head Materials"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Materials Manager",
+    "company_name": "SAI Advanced Power Solutions, INC.",
+    "date_posted": "2026-11-12 22:00:11+01",
+    "url": "https://www.linkedin.com/jobs/view/materials-manager-at-sai-advanced-power-solutions-inc-4489295555"
+   },
+   {
+    "title": "Purchasing Manager - Onsite Only",
+    "company_name": "JARP Industries, Inc.",
+    "date_posted": "2026-11-14 19:42:58+01",
+    "url": "https://www.linkedin.com/jobs/view/purchasing-manager-onsite-only-at-jarp-industries-inc-4489363100"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/supply-chain-purchasing/90d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 365,
+  "split_totals": [
+   136,
+   229
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Supply Chain Manager",
+      "Purchasing Manager",
+      "Procurement Manager",
+      "Materials Manager",
+      "Sourcing Manager",
+      "Director Supply Chain",
+      "VP Supply Chain",
+      "Vice President Supply Chain",
+      "Head Supply Chain",
+      "Director Purchasing",
+      "VP Purchasing",
+      "Vice President Purchasing",
+      "Head Purchasing",
+      "Director Procurement",
+      "VP Procurement",
+      "Vice President Procurement",
+      "Head Procurement",
+      "Director Materials",
+      "VP Materials",
+      "Vice President Materials",
+      "Head Materials"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Materials Manager",
+    "company_name": "SAI Advanced Power Solutions, INC.",
+    "date_posted": "2026-11-12 22:00:11+01",
+    "url": "https://www.linkedin.com/jobs/view/materials-manager-at-sai-advanced-power-solutions-inc-4489295555"
+   },
+   {
+    "title": "Purchasing Manager - Onsite Only",
+    "company_name": "JARP Industries, Inc.",
+    "date_posted": "2026-11-14 19:42:58+01",
+    "url": "https://www.linkedin.com/jobs/view/purchasing-manager-onsite-only-at-jarp-industries-inc-4489363100"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/supply-chain-purchasing/120d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 491,
+  "split_totals": [
+   184,
+   307
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Supply Chain Manager",
+      "Purchasing Manager",
+      "Procurement Manager",
+      "Materials Manager",
+      "Sourcing Manager",
+      "Director Supply Chain",
+      "VP Supply Chain",
+      "Vice President Supply Chain",
+      "Head Supply Chain",
+      "Director Purchasing",
+      "VP Purchasing",
+      "Vice President Purchasing",
+      "Head Purchasing",
+      "Director Procurement",
+      "VP Procurement",
+      "Vice President Procurement",
+      "Head Procurement",
+      "Director Materials",
+      "VP Materials",
+      "Vice President Materials",
+      "Head Materials"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 120
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Materials Manager",
+    "company_name": "SAI Advanced Power Solutions, INC.",
+    "date_posted": "2026-11-12 22:00:11+01",
+    "url": "https://www.linkedin.com/jobs/view/materials-manager-at-sai-advanced-power-solutions-inc-4489295555"
+   },
+   {
+    "title": "Purchasing Manager - Onsite Only",
+    "company_name": "JARP Industries, Inc.",
+    "date_posted": "2026-11-14 19:42:58+01",
+    "url": "https://www.linkedin.com/jobs/view/purchasing-manager-onsite-only-at-jarp-industries-inc-4489363100"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/supply-chain-purchasing/30d/all-us": {
+  "path": "/v2/jobs/search",
+  "total_results": 141,
+  "split_totals": [
+   71,
+   70
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Supply Chain Manager",
+      "Purchasing Manager",
+      "Procurement Manager",
+      "Materials Manager",
+      "Sourcing Manager",
+      "Director Supply Chain",
+      "VP Supply Chain",
+      "Vice President Supply Chain",
+      "Head Supply Chain",
+      "Director Purchasing",
+      "VP Purchasing",
+      "Vice President Purchasing",
+      "Head Purchasing",
+      "Director Procurement",
+      "VP Procurement",
+      "Vice President Procurement",
+      "Head Procurement",
+      "Director Materials",
+      "VP Materials",
+      "Vice President Materials",
+      "Head Materials"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Materials Planning Manager",
+    "company_name": "Crown Technical Systems",
+    "date_posted": "2026-11-13 18:26:51+01",
+    "url": "https://www.linkedin.com/jobs/view/materials-planning-manager-at-crown-technical-systems-4489824125"
+   },
+   {
+    "title": "Purchasing Manager - Onsite Only",
+    "company_name": "JARP Industries, Inc.",
+    "date_posted": "2026-11-14 19:42:58+01",
+    "url": "https://www.linkedin.com/jobs/view/purchasing-manager-onsite-only-at-jarp-industries-inc-4489363100"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/executive-finance-hr/30d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 53,
+  "split_totals": [
+   28,
+   25
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Chief Executive Officer",
+      "CEO",
+      "Chief Financial Officer",
+      "CFO",
+      "Corporate Controller",
+      "Plant Controller",
+      "[Controller]",
+      "Human Resources Director",
+      "HR Director",
+      "Chief Human Resources Officer",
+      "CHRO",
+      "VP Finance",
+      "Vice President Finance",
+      "VP Human Resources",
+      "Vice President Human Resources",
+      "Director Finance"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Sr. Director, HR Business Partner",
+    "company_name": "Pall - Aerospace",
+    "date_posted": "2026-11-13 00:00:00+01",
+    "url": "https://www.linkedin.com/jobs/view/sr-director-hr-business-partner-at-pall-aerospace-4491024708"
+   },
+   {
+    "title": "Finance Director - AutoNation Mazda Carlsbad",
+    "company_name": "AutoNation Mobile Service",
+    "date_posted": "2026-11-14 07:44:37+01",
+    "url": "https://www.linkedin.com/jobs/view/finance-director-autonation-mazda-carlsbad-at-autonation-mobile-service-4489308926"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/executive-finance-hr/90d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 203,
+  "split_totals": [
+   88,
+   115
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Chief Executive Officer",
+      "CEO",
+      "Chief Financial Officer",
+      "CFO",
+      "Corporate Controller",
+      "Plant Controller",
+      "[Controller]",
+      "Human Resources Director",
+      "HR Director",
+      "Chief Human Resources Officer",
+      "CHRO",
+      "VP Finance",
+      "Vice President Finance",
+      "VP Human Resources",
+      "Vice President Human Resources",
+      "Director Finance"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Sr. Director, HR Business Partner",
+    "company_name": "Pall - Aerospace",
+    "date_posted": "2026-11-13 00:00:00+01",
+    "url": "https://www.linkedin.com/jobs/view/sr-director-hr-business-partner-at-pall-aerospace-4491024708"
+   },
+   {
+    "title": "Finance Director - AutoNation Mazda Carlsbad",
+    "company_name": "AutoNation Mobile Service",
+    "date_posted": "2026-11-14 07:44:37+01",
+    "url": "https://www.linkedin.com/jobs/view/finance-director-autonation-mazda-carlsbad-at-autonation-mobile-service-4489308926"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/executive-finance-hr/120d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 279,
+  "split_totals": [
+   115,
+   164
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Chief Executive Officer",
+      "CEO",
+      "Chief Financial Officer",
+      "CFO",
+      "Corporate Controller",
+      "Plant Controller",
+      "[Controller]",
+      "Human Resources Director",
+      "HR Director",
+      "Chief Human Resources Officer",
+      "CHRO",
+      "VP Finance",
+      "Vice President Finance",
+      "VP Human Resources",
+      "Vice President Human Resources",
+      "Director Finance"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 120
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Sr. Director, HR Business Partner",
+    "company_name": "Pall - Aerospace",
+    "date_posted": "2026-11-13 00:00:00+01",
+    "url": "https://www.linkedin.com/jobs/view/sr-director-hr-business-partner-at-pall-aerospace-4491024708"
+   },
+   {
+    "title": "Finance Director - AutoNation Mazda Carlsbad",
+    "company_name": "AutoNation Mobile Service",
+    "date_posted": "2026-11-14 07:44:37+01",
+    "url": "https://www.linkedin.com/jobs/view/finance-director-autonation-mazda-carlsbad-at-autonation-mobile-service-4489308926"
+   }
+  ],
+  "error": null
+ },
+ "mfg/jobs/executive-finance-hr/30d/all-us": {
+  "path": "/v2/jobs/search",
+  "total_results": 69,
+  "split_totals": [
+   40,
+   29
+  ],
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Chief Executive Officer",
+      "CEO",
+      "Chief Financial Officer",
+      "CFO",
+      "Corporate Controller",
+      "Plant Controller",
+      "[Controller]",
+      "Human Resources Director",
+      "HR Director",
+      "Chief Human Resources Officer",
+      "CHRO",
+      "VP Finance",
+      "Vice President Finance",
+      "VP Human Resources",
+      "Vice President Human Resources",
+      "Director Finance"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Abrasives and Nonmetallic Minerals Manufacturing",
+      "Agricultural Chemical Manufacturing",
+      "Agriculture; Construction; Mining Machinery Manufacturing",
+      "Animal Feed Manufacturing",
+      "Appliances; Electrical; and Electronics Manufacturing",
+      "Architectural and Structural Metal Manufacturing",
+      "Artificial Rubber and Synthetic Fiber Manufacturing",
+      "Automation Machinery Manufacturing",
+      "Aviation and Aerospace Component Manufacturing",
+      "Baked Goods Manufacturing",
+      "Beverage Manufacturing",
+      "Boilers; Tanks; and Shipping Container Manufacturing",
+      "Building Materials",
+      "Chemical Manufacturing",
+      "Chemical Raw Materials Manufacturing",
+      "Chemicals",
+      "Clay and Refractory Products Manufacturing",
+      "Commercial and Service Industry Machinery Manufacturing",
+      "Construction Hardware Manufacturing",
+      "Cutlery and Handtool Manufacturing",
+      "Dairy Product Manufacturing",
+      "Defense and Space Manufacturing",
+      "Electrical and Electronic Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Electric Lighting Equipment Manufacturing",
+      "Engines and Power Transmission Equipment Manufacturing",
+      "Fabricated Metal Products",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Fruit and Vegetable Preserves Manufacturing",
+      "Furniture and Home Furnishings Manufacturing",
+      "Glass; Ceramics and Concrete Manufacturing",
+      "Glass Product Manufacturing",
+      "Household and Institutional Furniture Manufacturing",
+      "Household Appliance Manufacturing",
+      "HVAC and Refrigeration Equipment Manufacturing",
+      "Industrial Automation",
+      "Industrial Machinery Manufacturing",
+      "Lime and Gypsum Products Manufacturing",
+      "Machinery",
+      "Machinery Manufacturing",
+      "Manufacturing",
+      "Measuring and Control Instrument Manufacturing",
+      "Meat Products Manufacturing",
+      "Mechanical Or Industrial Engineering",
+      "Metal Valve; Ball; and Roller Manufacturing",
+      "Metalworking Machinery Manufacturing",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Office Furniture and Fixtures Manufacturing",
+      "Packaging and Containers",
+      "Packaging and Containers Manufacturing",
+      "Paint; Coating; and Adhesive Manufacturing",
+      "Paper and Forest Product Manufacturing",
+      "Paper and Forest Products",
+      "Plastics",
+      "Plastics and Rubber Product Manufacturing",
+      "Plastics Manufacturing",
+      "Primary Metal Manufacturing",
+      "Railroad Equipment Manufacturing",
+      "Railroad Manufacture",
+      "Rubber Products Manufacturing",
+      "Soap and Cleaning Product Manufacturing",
+      "Spring and Wire Product Manufacturing",
+      "Textile Manufacturing",
+      "Transportation Equipment Manufacturing",
+      "Turned Products and Fastener Manufacturing",
+      "Wood Product Manufacturing"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Controller",
+    "company_name": "Korry Electronics Co.",
+    "date_posted": "2026-11-14 22:28:31+01",
+    "url": "https://www.linkedin.com/jobs/view/controller-at-korry-electronics-co-4490210068"
+   },
+   {
+    "title": "Finance Director - AutoNation Mazda Carlsbad",
+    "company_name": "AutoNation Mobile Service",
+    "date_posted": "2026-11-14 07:44:37+01",
+    "url": "https://www.linkedin.com/jobs/view/finance-director-autonation-mazda-carlsbad-at-autonation-mobile-service-4489308926"
+   }
+  ],
+  "error": null
+ },
+ "fls/jobs/30d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 119,
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Branch Manager",
+      "General Manager",
+      "Operations Manager",
+      "Service Manager",
+      "Project Manager",
+      "Design Manager",
+      "Engineering Manager",
+      "Inspection Manager",
+      "Construction Manager",
+      "Regional Manager",
+      "District Manager",
+      "Chief Operating Officer",
+      "Chief Financial Officer",
+      "Area Manager",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Service",
+      "VP Service",
+      "Vice President Service",
+      "Head Service",
+      "Director Construction",
+      "VP Construction",
+      "Vice President Construction",
+      "Head Construction"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Fire Protection",
+      "Construction",
+      "Building Equipment Contractors",
+      "Specialty Trade Contractors",
+      "Security Systems Services",
+      "Facilities Services",
+      "Building Construction",
+      "Nonresidential Building Construction"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    },
+    "keywords": {
+     "include": [
+      "fire protection",
+      "fire sprinkler",
+      "fire alarm",
+      "fire suppression",
+      "life safety"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Senior Project Manager",
+    "company_name": "Stark Tech",
+    "date_posted": "2026-11-13 21:59:16+01",
+    "url": "https://www.linkedin.com/jobs/view/senior-project-manager-at-stark-tech-4490797153"
+   }
+  ],
+  "error": null
+ },
+ "fls/jobs/30d/et-ct/51-5000": {
+  "path": "/v2/jobs/search",
+  "total_results": 289,
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Branch Manager",
+      "General Manager",
+      "Operations Manager",
+      "Service Manager",
+      "Project Manager",
+      "Design Manager",
+      "Engineering Manager",
+      "Inspection Manager",
+      "Construction Manager",
+      "Regional Manager",
+      "District Manager",
+      "Chief Operating Officer",
+      "Chief Financial Officer",
+      "Area Manager",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Service",
+      "VP Service",
+      "Vice President Service",
+      "Head Service",
+      "Director Construction",
+      "VP Construction",
+      "Vice President Construction",
+      "Head Construction"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Fire Protection",
+      "Construction",
+      "Building Equipment Contractors",
+      "Specialty Trade Contractors",
+      "Security Systems Services",
+      "Facilities Services",
+      "Building Construction",
+      "Nonresidential Building Construction"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    },
+    "keywords": {
+     "include": [
+      "fire protection",
+      "fire sprinkler",
+      "fire alarm",
+      "fire suppression",
+      "life safety"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Senior Project Manager",
+    "company_name": "BNBuilders",
+    "date_posted": "2026-11-14 17:43:35+01",
+    "url": "https://www.linkedin.com/jobs/view/senior-project-manager-at-bnbuilders-4408152792"
+   }
+  ],
+  "error": null
+ },
+ "fls/jobs/90d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 375,
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Branch Manager",
+      "General Manager",
+      "Operations Manager",
+      "Service Manager",
+      "Project Manager",
+      "Design Manager",
+      "Engineering Manager",
+      "Inspection Manager",
+      "Construction Manager",
+      "Regional Manager",
+      "District Manager",
+      "Chief Operating Officer",
+      "Chief Financial Officer",
+      "Area Manager",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Service",
+      "VP Service",
+      "Vice President Service",
+      "Head Service",
+      "Director Construction",
+      "VP Construction",
+      "Vice President Construction",
+      "Head Construction"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Fire Protection",
+      "Construction",
+      "Building Equipment Contractors",
+      "Specialty Trade Contractors",
+      "Security Systems Services",
+      "Facilities Services",
+      "Building Construction",
+      "Nonresidential Building Construction"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    },
+    "keywords": {
+     "include": [
+      "fire protection",
+      "fire sprinkler",
+      "fire alarm",
+      "fire suppression",
+      "life safety"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Senior Project Manager",
+    "company_name": "Stark Tech",
+    "date_posted": "2026-11-13 21:59:16+01",
+    "url": "https://www.linkedin.com/jobs/view/senior-project-manager-at-stark-tech-4490797153"
+   }
+  ],
+  "error": null
+ },
+ "fls/jobs/90d/et-ct/51-5000": {
+  "path": "/v2/jobs/search",
+  "total_results": 855,
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Branch Manager",
+      "General Manager",
+      "Operations Manager",
+      "Service Manager",
+      "Project Manager",
+      "Design Manager",
+      "Engineering Manager",
+      "Inspection Manager",
+      "Construction Manager",
+      "Regional Manager",
+      "District Manager",
+      "Chief Operating Officer",
+      "Chief Financial Officer",
+      "Area Manager",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Service",
+      "VP Service",
+      "Vice President Service",
+      "Head Service",
+      "Director Construction",
+      "VP Construction",
+      "Vice President Construction",
+      "Head Construction"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Fire Protection",
+      "Construction",
+      "Building Equipment Contractors",
+      "Specialty Trade Contractors",
+      "Security Systems Services",
+      "Facilities Services",
+      "Building Construction",
+      "Nonresidential Building Construction"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    },
+    "keywords": {
+     "include": [
+      "fire protection",
+      "fire sprinkler",
+      "fire alarm",
+      "fire suppression",
+      "life safety"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Senior Project Manager",
+    "company_name": "BNBuilders",
+    "date_posted": "2026-11-14 17:43:35+01",
+    "url": "https://www.linkedin.com/jobs/view/senior-project-manager-at-bnbuilders-4408152792"
+   }
+  ],
+  "error": null
+ },
+ "fls/jobs/120d/et-ct": {
+  "path": "/v2/jobs/search",
+  "total_results": 556,
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Branch Manager",
+      "General Manager",
+      "Operations Manager",
+      "Service Manager",
+      "Project Manager",
+      "Design Manager",
+      "Engineering Manager",
+      "Inspection Manager",
+      "Construction Manager",
+      "Regional Manager",
+      "District Manager",
+      "Chief Operating Officer",
+      "Chief Financial Officer",
+      "Area Manager",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Service",
+      "VP Service",
+      "Vice President Service",
+      "Head Service",
+      "Director Construction",
+      "VP Construction",
+      "Vice President Construction",
+      "Head Construction"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 120
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Fire Protection",
+      "Construction",
+      "Building Equipment Contractors",
+      "Specialty Trade Contractors",
+      "Security Systems Services",
+      "Facilities Services",
+      "Building Construction",
+      "Nonresidential Building Construction"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    },
+    "keywords": {
+     "include": [
+      "fire protection",
+      "fire sprinkler",
+      "fire alarm",
+      "fire suppression",
+      "life safety"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Senior Project Manager",
+    "company_name": "Stark Tech",
+    "date_posted": "2026-11-13 21:59:16+01",
+    "url": "https://www.linkedin.com/jobs/view/senior-project-manager-at-stark-tech-4490797153"
+   }
+  ],
+  "error": null
+ },
+ "fls/jobs/120d/et-ct/51-5000": {
+  "path": "/v2/jobs/search",
+  "total_results": 1233,
+  "body": {
+   "job": {
+    "title": {
+     "include": [
+      "Branch Manager",
+      "General Manager",
+      "Operations Manager",
+      "Service Manager",
+      "Project Manager",
+      "Design Manager",
+      "Engineering Manager",
+      "Inspection Manager",
+      "Construction Manager",
+      "Regional Manager",
+      "District Manager",
+      "Chief Operating Officer",
+      "Chief Financial Officer",
+      "Area Manager",
+      "Director Operations",
+      "VP Operations",
+      "Vice President Operations",
+      "Head Operations",
+      "Director Engineering",
+      "VP Engineering",
+      "Vice President Engineering",
+      "Head Engineering",
+      "Director Service",
+      "VP Service",
+      "Vice President Service",
+      "Head Service",
+      "Director Construction",
+      "VP Construction",
+      "Vice President Construction",
+      "Head Construction"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Assistant",
+      "Sales",
+      "Store",
+      "Restaurant",
+      "Account",
+      "Trainee",
+      "Shift",
+      "Software",
+      "Analyst",
+      "Technician",
+      "Clearance",
+      "Dealership"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 120
+    },
+    "employment_type": {
+     "include": [
+      "FULL_TIME"
+     ]
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Fire Protection",
+      "Construction",
+      "Building Equipment Contractors",
+      "Specialty Trade Contractors",
+      "Security Systems Services",
+      "Facilities Services",
+      "Building Construction",
+      "Nonresidential Building Construction"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     },
+     "state": {
+      "exclude": [
+       "Montana",
+       "Idaho",
+       "Wyoming",
+       "Utah",
+       "Colorado",
+       "Arizona",
+       "New Mexico",
+       "Nevada",
+       "Washington",
+       "Oregon",
+       "California",
+       "Alaska",
+       "Hawaii"
+      ]
+     }
+    },
+    "keywords": {
+     "include": [
+      "fire protection",
+      "fire sprinkler",
+      "fire alarm",
+      "fire suppression",
+      "life safety"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "title": "Senior Project Manager",
+    "company_name": "BNBuilders",
+    "date_posted": "2026-11-14 17:43:35+01",
+    "url": "https://www.linkedin.com/jobs/view/senior-project-manager-at-bnbuilders-4408152792"
+   }
+  ],
+  "error": null
+ },
+ "_records_used": 44
+}

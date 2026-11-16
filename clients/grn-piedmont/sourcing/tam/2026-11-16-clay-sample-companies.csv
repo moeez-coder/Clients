@@ -1,0 +1,41 @@
+query,company_name,company_linkedin_url,company_domain,industry,company_size,locality,fit_read
+manufacturing-open-role,Carboline,https://www.linkedin.com/company/carboline,carboline.com,Chemical Manufacturing,"501-1,000","St. Louis, MO",fit
+manufacturing-open-role,Particle Measuring Systems,https://www.linkedin.com/company/particle-measuring-systems,pmeasuring.com,Manufacturing,"501-1,000","Niwot, Colorado","fit, but Mountain time HQ"
+manufacturing-open-role,FLANDERS,https://www.linkedin.com/company/flanders,flandersinc.com,Industrial Machinery Manufacturing,"501-1,000","Evansville, IN",fit
+manufacturing-open-role,UE SYSTEMS,https://www.linkedin.com/company/ue-systems,uesystems.com,Industrial Machinery Manufacturing,201-500,"Elmsford, NY",fit
+manufacturing-open-role,Tosca,https://www.linkedin.com/company/tosca-ltd,toscaltd.com,Packaging and Containers Manufacturing,"501-1,000","Atlanta, GA",fit
+manufacturing-open-role,Figure,https://www.linkedin.com/company/figure-ai,figure.ai,Machinery Manufacturing,201-500,"San Jose, CA","noise: venture-backed robotics startup, Pacific HQ"
+manufacturing-open-role,Optimas Solutions,https://www.linkedin.com/company/optimas-solutions,optimas.com,Manufacturing,"501-1,000","Wood Dale, Illinois",fit
+manufacturing-open-role,Ranpak,https://www.linkedin.com/company/ranpak,ranpak.com,Packaging and Containers Manufacturing,201-500,"Concord Twp., Ohio",fit
+manufacturing-open-role,JCB North America,https://www.linkedin.com/company/jcb-north-america,jcb.com,Machinery Manufacturing,"501-1,000","Pooler, Georgia",fit
+manufacturing-open-role,HYTORC,https://www.linkedin.com/company/hytorc-division-unex-corporation,hytorc.com,Industrial Machinery Manufacturing,201-500,"Mahwah, New Jersey",fit
+manufacturing-open-role,Wyld,https://www.linkedin.com/company/wyldcanna,wyldcanna.com,Manufacturing,"501-1,000","Clackamas, OR","noise: cannabis edibles, Pacific HQ"
+manufacturing-open-role,Form Energy,https://www.linkedin.com/company/form-energy,formenergy.com,Manufacturing,"501-1,000","Somerville, Massachusetts",fit
+manufacturing-open-role,Fictiv,https://www.linkedin.com/company/fictiv,fictiv.com,Manufacturing,201-500,"San Francisco Bay Area, CA","noise: manufacturing marketplace, Pacific HQ"
+manufacturing-open-role,FUCHS LUBRICANTS CO.,https://www.linkedin.com/company/fuchs-lubricants,fuchs.com,Chemical Manufacturing,"501-1,000","Harvey, Illinois",fit
+manufacturing-open-role,CookUnity,https://www.linkedin.com/company/cookunity,cookunity.com,Food and Beverage Manufacturing,"501-1,000","Brooklyn, New York",noise: meal delivery marketplace
+manufacturing-open-role,HOS Global Foods,https://www.linkedin.com/company/houseofspices,hosindia.com,Food and Beverage Manufacturing,"501-1,000","Lake Success, New York",borderline: importer and distributor
+manufacturing-open-role,Twelve,https://www.linkedin.com/company/twelveco2,twelve.co,Chemical Manufacturing,201-500,"Berkeley, CA","noise: venture-backed, Pacific HQ"
+manufacturing-open-role,Nortek Data Center Cooling,https://www.linkedin.com/company/nortekdatacentercooling,nortekdatacenter.com,Industrial Machinery Manufacturing,201-500,Oklahoma City,fit
+manufacturing-open-role,"IRISS, Inc.",https://www.linkedin.com/company/iriss-inc,linktr.ee/irissinc,Industrial Machinery Manufacturing,201-500,"Bradenton, FL",fit
+manufacturing-open-role,Divergent,https://www.linkedin.com/company/divergenttechnologies,divergent.us,Manufacturing,201-500,"Torrance, California","fit, but Pacific HQ"
+fire-life-safety-keyword,"John H. Carter Company, Inc.",https://www.linkedin.com/company/john-h.-carter,johnhcarter.com,Automation Machinery Manufacturing,"501-1,000","Baton Rouge, LA",noise: industrial equipment distributor
+fire-life-safety-keyword,HEAPY,https://www.linkedin.com/company/heapy,heapy.com,Design Services,201-500,"Dayton, OH",noise: MEP engineering design
+fire-life-safety-keyword,"AMS Industries, Inc.",https://www.linkedin.com/company/amsindustries-inc,amsindustries.com,Construction,"501-1,000","Woodridge, IL",borderline: mechanical contractor with a fire protection line
+fire-life-safety-keyword,Amerex Corporation,https://www.linkedin.com/company/amerex-corporation,amerex-fire.com,Business Supplies and Equipment,"501-1,000","Trussville, Alabama",fit: fire extinguisher and suppression manufacturer
+fire-life-safety-keyword,"Tri-City Electrical Contractors, Inc.",https://www.linkedin.com/company/tri-city-electrical-contractors-inc-,tcelectric.com,Construction,"501-1,000","Altamonte Springs, FL",borderline: electrical contractor with a fire alarm division
+fire-life-safety-keyword,Arora Engineers,https://www.linkedin.com/company/aroraengineers,aroraengineers.com,Design Services,201-500,"Chadds Ford, PA",noise: engineering design
+fire-life-safety-keyword,Valkyrie Enterprises,https://www.linkedin.com/company/valkyrie-enterprises,valkyrie.com,Defense and Space Manufacturing,"501-1,000","Virginia Beach, Virginia",noise: defense services
+fire-life-safety-keyword,Tech Electronics,https://www.linkedin.com/company/tech-electronics,techelectronics.com,Public Safety,201-500,"St. Louis, MO",fit: fire and life safety systems integrator
+fire-life-safety-keyword,City of Goodyear,https://www.linkedin.com/company/city-of-goodyear-az,goodyearaz.gov,Government Administration,"501-1,000","Goodyear, Arizona",noise: government
+fire-life-safety-keyword,NAPCO Security Technologies,https://www.linkedin.com/company/napco-security-technologies,napcosecurity.com,"Appliances, Electrical, and Electronics Manufacturing","501-1,000","Amityville, NY",borderline: security and fire alarm manufacturer
+fire-life-safety-keyword,"CivicMinds, Inc",https://www.linkedin.com/company/civicminds-recruitment,civicminds.com,Staffing and Recruiting,201-500,"Stanton, CA",noise: recruiter
+fire-life-safety-keyword,Syska Hennessy Group,https://www.linkedin.com/company/syska-hennessy-group,syska.com,Design Services,"501-1,000",New York,noise: engineering design
+fire-life-safety-keyword,Bala Consulting Engineers,https://www.linkedin.com/company/bala-consulting-engineers,bala.com,Engineering Services,201-500,"Wayne, PA",noise: engineering design
+fire-life-safety-keyword,The Hill Group,https://www.linkedin.com/company/hill-mechanical-group,hillgrp.com,Construction,"501-1,000","Franklin Park, IL",borderline: mechanical contractor with a fire protection line
+fire-life-safety-keyword,Simpro Software,https://www.linkedin.com/company/simpro-software,simprogroup.com,Software Development,"501-1,000","Miami, Florida",noise: software
+fire-life-safety-keyword,Vanderweil Engineers,https://www.linkedin.com/company/vanderweil-engineers,vanderweil.com,Engineering Services,201-500,"Boston, MA",noise: engineering design
+fire-life-safety-keyword,"Newcomb & Boyd, LLP",https://www.linkedin.com/company/newcomb-boyd,newcomb-boyd.com,Design Services,201-500,"Atlanta, Georgia",noise: engineering design
+fire-life-safety-keyword,"MSS Solutions, LLC",https://www.linkedin.com/company/mechanical-systems-services-inc-,msssolutions.com,Construction,"501-1,000","Charlotte, North Carolina",fit: fire alarm and life safety line
+fire-life-safety-keyword,P2S,https://www.linkedin.com/company/p2slp,p2sinc.com,Construction,201-500,"Long Beach, CA","noise: engineering design, Pacific HQ"
+fire-life-safety-keyword,Consulting Engineering Services (CES),https://www.linkedin.com/company/cesengineering,ceseng.com,Engineering Services,201-500,"Middletown, CT",noise: engineering design

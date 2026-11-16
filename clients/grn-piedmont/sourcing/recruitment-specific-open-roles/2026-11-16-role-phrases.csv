@@ -1,0 +1,915 @@
+company_linkedin_url,open_role,open_role_clean,jd_phrase,launch_note
+https://www.linkedin.com/company/astronautics-corporation-of-america,Platform Hardware Engineering Manager,Platform Hardware Engineering Manager,leading electrical and mechanical teams on flight-critical avionics hardware,-
+https://www.linkedin.com/company/stallion-infrastructure-services,Operations Manager,Operations Manager,"running branch operations, fleet upkeep, and safety compliance",-
+https://www.linkedin.com/company/fanuc-america-corporation,Manager - Manufacturing,Manufacturing Manager,"leading integration system builds against safety, quality, and delivery targets",-
+https://www.linkedin.com/company/crenlo-llc,Operations Manager,Operations Manager,lean manufacturing leadership and coaching of production supervisors,-
+https://www.linkedin.com/company/carolina-foods-inc.,Engineering Manager,Engineering Manager,delivering plant capital projects from specification through commissioning,-
+https://www.linkedin.com/company/american-welding-&-gas,Quality Manager (Specialty Gases),Quality Manager,"quality systems for specialty, food, and medical gases",-
+https://www.linkedin.com/company/kearfott-corporation,Sr. Engineering Project Manager,Senior Engineering Project Manager,managing guidance and navigation programs from development through production,-
+https://www.linkedin.com/company/eaglepicher,Director of Engineering,Director of Engineering,AS9100 compliance and engineering leadership in energy-storage devices,-
+https://www.linkedin.com/company/aisin-world-corp--of-america,Quality Manager,Quality Manager,leading special process audits and auditor training,-
+https://www.linkedin.com/company/jarpindustries,Purchasing Manager - Onsite Only,Purchasing Manager,supplier quality audits and purchasing contract management,-
+https://www.linkedin.com/company/boston-dynamics,Director of Atlas Hardware Platform Engineering,Director of Atlas Hardware Platform Engineering,taking robot hardware platforms from concept to production,-
+https://www.linkedin.com/company/everzinc,Global Director of Engineering,Global Director of Engineering,standardizing engineering practices across multiple manufacturing facilities,-
+https://www.linkedin.com/company/morey,Director Test Engineering,Director of Test Engineering,setting manufacturing test strategy and deploying test systems,-
+https://www.linkedin.com/company/the-pictsweet-company,Director of Quality Systems,Director of Quality Systems,"food quality systems, supplier compliance, and customer specification management",-
+https://www.linkedin.com/company/deringer-ney,"Director of Quality, Regulatory & Improvement","Director of Quality, Regulatory, and Improvement",running a unified global quality management system,-
+https://www.linkedin.com/company/messer-cutting-systems,Electrical Engineering Manager,Electrical Engineering Manager,managing electrical design projects from proposal to market release,-
+https://www.linkedin.com/company/form-energy,"Senior Director, Quality",Senior Director of Quality,building a company-wide quality management system for new products,-
+https://www.linkedin.com/company/alinabal,Quality Manager - MTD,Quality Manager,maintaining ISO 9001 systems and driving corrective actions,-
+https://www.linkedin.com/company/eagle-fire-inc-,Fire Alarm Service Manager- Richmond,Fire Alarm Service Manager,leading fire alarm technicians with code and safety compliance,-
+https://www.linkedin.com/company/cookunity,Operations Manager,Operations Manager,"managing real-time operations, shift handovers, and performance targets",-
+https://www.linkedin.com/company/accurus-aerospace-corporation,"Director, Business Operations",Director of Business Operations,"leading supply chain, procurement, and logistics outside the production floor",-
+https://www.linkedin.com/company/lightpath-technologies,Senior Operations Manager,Senior Operations Manager,"managing manufacturing, supply chain, and logistics with cost reduction focus",-
+https://www.linkedin.com/company/moeller-manufacturing,Facilities/Maintenance Manager,Facilities and Maintenance Manager,maintaining CNC machinery with preventive and predictive maintenance programs,-
+https://www.linkedin.com/company/reily-foods-company,Production Manager,Production Manager,food safety and KPI-driven production planning and scheduling,-
+https://www.linkedin.com/company/phillips-and-temro-industries,Manufacturing Manager,Manufacturing Manager,running multi-shift manufacturing with Lean improvements,-
+https://www.linkedin.com/company/lochinvar-corporation,Maintenance Facilities Manager,Maintenance Facilities Manager,"maintenance, reliability, and capital projects in high-volume manufacturing",-
+https://www.linkedin.com/company/crane-1-services-inc,General Manager,General Manager,full P&L ownership of a field service and remanufacturing branch,-
+https://www.linkedin.com/company/ascentekinc,Sr. Sourcing Manager,Senior Sourcing Manager,supplier negotiations and category strategy to improve margins,-
+https://www.linkedin.com/company/piston-automotive,Materials Manager,Materials Manager,ERP and WMS inventory controls and PFEP material flow,-
+https://www.linkedin.com/company/east-trailers,Engineering Manager,Engineering Manager,trailer product development from customer requirements through validation and launch,-
+https://www.linkedin.com/company/tsiincorporated,Systems Engineering Manager,Systems Engineering Manager,"owning requirements, architecture, and verification on product projects",-
+https://www.linkedin.com/company/holland-l.p.,Quality Manager,Quality Manager,"inspection methods, audits, and root cause investigations",-
+https://www.linkedin.com/company/globalpowercomponents,Quality Control Manager,Quality Control Manager,supervising mechanical and electrical inspection of power equipment,-
+https://www.linkedin.com/company/blachford-inc-,Quality Environment Health Safety Manager,"Quality, Environment, Health, and Safety Manager",quality and HSE management systems across multiple manufacturing sites,-
+https://www.linkedin.com/company/grand-design-rv-llc,Engineering Director,Engineering Director,product engineering leadership and launch validation with plant teams,-
+https://www.linkedin.com/company/lee-industrial-contracting,Fire Protection Estimator-Project Manager,Fire Protection Estimator and Project Manager,estimating fire protection bids and managing awarded projects,-
+https://www.linkedin.com/company/allied-fire-protection-l-p,Alarm Project Manager,Alarm Project Manager,managing fire alarm installations from planning through closeout,-
+https://www.linkedin.com/company/summit-fire-protection,Project Manager,Project Manager,"coordinating fire protection projects, drawings, and contractor communication",-
+https://www.linkedin.com/company/s-a--comunale-company-inc-,Fire Sprinkler Design Manager,Fire Sprinkler Design Manager,NFPA-compliant sprinkler design and design team oversight,-
+https://www.linkedin.com/company/kanawhascales,Branch Operations Manager,Branch Operations Manager,leading branch service technicians and customer support,-
+https://www.linkedin.com/company/texas-hydraulics,"Senior Manager, Supply Chain Operations",Senior Manager of Supply Chain Operations,"aligning forecasts, materials, and capacity into achievable supply plans",-
+https://www.linkedin.com/company/minutemaninternational,Director of Plant Operations and Supply Chain,Director of Plant Operations and Supply Chain,running final assembly and purchasing in one facility,-
+https://www.linkedin.com/company/akers-packaging-service-inc,Maintenance Manager,Maintenance Manager,preventive maintenance programs that minimize equipment downtime,-
+https://www.linkedin.com/company/appvion,EHS Manager- Tennessee Operations,EHS Manager,environmental and safety compliance across multiple facilities,-
+https://www.linkedin.com/company/sai-advanced-power-solutions,Materials Manager,Materials Manager,"procurement, production planning, and ERP inventory accuracy",-
+https://www.linkedin.com/company/schaefer-plastics-north-america,Purchasing and Inventory Manager,Purchasing and Inventory Manager,supplier negotiation and ERP/MRP inventory optimization for production materials,-
+https://www.linkedin.com/company/diversified-fall-protection,Supply Chain Manager,Supply Chain Manager,"material planning, supplier performance, and working capital control",-
+https://www.linkedin.com/company/wilson-tool-international,Engineering Manager,Engineering Manager,"leading manufacturing engineers, CNC programmers, and tool room staff",-
+https://www.linkedin.com/company/mccall-farms-inc,Human Resources Director,Human Resources Director,"workforce strategy, employee relations, and HR compliance",-
+https://www.linkedin.com/company/the-farmer%27s-dog,"Director, Finance",Director of Finance,"financial modeling, forecasting, and preparing Board-level materials",-
+https://www.linkedin.com/company/fire-safety-and-protection-llc,Service Manager,Service Manager,"scheduling fire sprinkler, alarm, and extinguisher service work",-
+https://www.linkedin.com/company/home-market-foods,"Manager, Maintenance Facilities Infrastructure",Manager of Maintenance Facilities Infrastructure,planning and executing plant facility and infrastructure projects,-
+https://www.linkedin.com/company/lifeway-foods-inc-,Facilities and Maintenance Manager,Facilities and Maintenance Manager,maintenance leadership in a 24/7 food manufacturing operation,-
+https://www.linkedin.com/company/apco-holdings-inc.,Manager - Claims Operations,Claims Operations Manager,"managing claims, inspections, and escalated customer disputes",removed: role outside what GRN Piedmont places or unusable title
+https://www.linkedin.com/company/royal-oak-enterprises-llc,Plant Manager,Plant Manager,"running plant and yard operations, shipping, and inventory",-
+https://www.linkedin.com/company/uniform-color,Plant Manager,Plant Manager,driving waste reduction and continuous improvement on the production floor,-
+https://www.linkedin.com/company/vidya-brand-group,Manufacturing Manager,Manufacturing Manager,"printing, die cutting, and folding and gluing production",-
+https://www.linkedin.com/company/r-m-palmer-company,Procurement Manager,Procurement Manager,"sourcing cocoa, sugar, oils, dairy, and nuts",-
+https://www.linkedin.com/company/mra-systems-inc,Lead Engineering Program Manager,Lead Engineering Program Manager,managing nacelle and engine build-up programs through certification,-
+https://www.linkedin.com/company/radius-aerospace-inc,Engineering And Maintenance Manager,Engineering and Maintenance Manager,"troubleshooting mechanical, electrical, and control systems on production equipment",-
+https://www.linkedin.com/company/element-defense,Quality Manager,Quality Manager,maintaining accreditations and supporting site EHS programs,-
+https://www.linkedin.com/company/anderson-dahlen-inc-,QUALITY ASSURANCE MANAGER,Quality Assurance Manager,"ISO 9001:2015, ASME, and AWS compliance",-
+https://www.linkedin.com/company/vulcanforms-inc,"Director of Engineering, Mission Systems","Director of Engineering, Mission Systems",owning NPI from customer handoff through qualification and stable production,-
+https://www.linkedin.com/company/raptor-scientific,Controller,Controller,"financial close, internal controls, and ERP reporting improvements",-
+https://www.linkedin.com/company/hill-mechanical-group,Project Manager- Fire Protection,Fire Protection Project Manager,"managing fire sprinkler projects, change orders, and financial forecasts",-
+https://www.linkedin.com/company/ecoreathletic,Plant Manager,Plant Manager,running plant operations and coaching a leadership team,-
+https://www.linkedin.com/company/c-b-agriculture,C & B Operations - Service/Parts Manager,Service and Parts Manager,managing dealership service and parts departments,-
+https://www.linkedin.com/company/saab-inc-us,"Integrated Product Team Leader (Manager, Manufacturing) - Subassembly","Integrated Product Team Leader, Manufacturing",leading multi-shift subassembly production in a Smart Factory,-
+https://www.linkedin.com/company/sunny-sky-products,Food/Beverage Maintenance Manager,Food and Beverage Maintenance Manager,CMMS deployment and food-safe equipment maintenance,-
+https://www.linkedin.com/company/mamascreations,"Director, Co-Manufacturing",Director of Co-Manufacturing,"managing co-manufacturing partners on capacity, quality, and food safety",-
+https://www.linkedin.com/company/applied-research-solutions,Facility Operations Manager Senior,Senior Facility Operations Manager,"facility maintenance, work orders, and emergency readiness",-
+https://www.linkedin.com/company/woodstream-corporation,"Manager, Sourcing & Procurement - Operations & Manufacturing",Manager of Sourcing and Procurement,"sourcing resin, wire, steel, and corrugate for plants",-
+https://www.linkedin.com/company/dap,Production Manager,Production Manager,leading hourly supervisors on safety and productivity goals,-
+https://www.linkedin.com/company/ice-industries,Maintenance Manager,Maintenance Manager,preventive and predictive maintenance programs and spare parts management,-
+https://www.linkedin.com/company/arch-global-precision,Director of Operations,Director of Operations,"manufacturing operations, capacity planning, and cost control",-
+https://www.linkedin.com/company/precisionproductsgroupinc-,Plant Manager,Plant Manager,owning plant financial results and capital projects,-
+https://www.linkedin.com/company/auto-driveaway,Operations Manager,Operations Manager,dispatching drivers and managing vehicle pickups and deliveries,-
+https://www.linkedin.com/company/demakes-bros,Director of Purchasing,Director of Purchasing,buying meat and protein with commodity risk management,-
+https://www.linkedin.com/company/aspen-aerogels,"Manager, Supply Chain EP",Manager of Supply Chain,end-to-end site supply chain from demand planning to logistics,-
+https://www.linkedin.com/company/continentalbattery,Indirect Purchasing Manager,Indirect Purchasing Manager,sourcing indirect goods and services and negotiating contracts,-
+https://www.linkedin.com/company/american-crane-and-equipment-corporation,Purchasing Manager,Purchasing Manager,procurement strategy and supplier agreements aligned with production needs,-
+https://www.linkedin.com/company/richelieu-foods,Plant Quality Manager,Plant Quality Manager,maintaining SQF and food safety systems with audit readiness,-
+https://www.linkedin.com/company/red-river-commodities-inc,Quality Assurance Manager,Quality Assurance Manager,food-safety systems and regulatory certification management,-
+https://www.linkedin.com/company/panelmatic-power-and-control,Supplier Quality Manager,Supplier Quality Manager,"supplier audits, approvals, and corrective action management",-
+https://www.linkedin.com/company/korpack,Engineering And Maintenance Manager,Engineering and Maintenance Manager,maximizing packaging-line uptime and optimizing changeovers,-
+https://www.linkedin.com/company/paligentech,Sr Manager Engineering,Senior Manager of Engineering,setting engineering standards for aerospace and defense programs,-
+https://www.linkedin.com/company/rea-magnet-wire,Plant Manager,Plant Manager,running magnet wire production with equipment reliability focus,-
+https://www.linkedin.com/company/symbotic,"Senior Manager, Strategic Sourcing (Contract Manufacturing)","Senior Manager of Strategic Sourcing, Contract Manufacturing",contract manufacturer selection for complex electromechanical products,-
+https://www.linkedin.com/company/sigma-defense-systems-llc,1793 - Tier II Operations Manager,Tier II Operations Manager,running a 24/7/365 operations center and major incident response,-
+https://www.linkedin.com/company/the-paslin-company,"General Manager, Assembly Operations",General Manager of Assembly Operations,full P&L leadership of an assembly business unit,-
+https://www.linkedin.com/company/glass-america,General Manager,General Manager,running collision center operations against sales and insurance targets,-
+https://www.linkedin.com/company/radiuspackaging,Plant Manager,Plant Manager,plant P&L accountability with GMP and food safety compliance,-
+https://www.linkedin.com/company/nvenia,Vice President Operations,Vice President of Operations,"leading supply chain, fabrication, machining, and facilities operations",-
+https://www.linkedin.com/company/penn-aluminum-intl-inc,Manufacturing Maintenance Manager,Manufacturing Maintenance Manager,"plant maintenance programs, shutdowns, and reliability improvements",-
+https://www.linkedin.com/company/prince-industries,Manufacturing Manager,Manufacturing Manager,directing manufacturing and engineering operations to customer service requirements,-
+https://www.linkedin.com/company/crescentrsw,Operations Manager,Operations Manager,running a safe warehouse and production operation,-
+https://www.linkedin.com/company/ensign-bickford-aerospace-&-defense-company,Director of Operations,Director of Operations,explosive safety compliance and production ramp-up at a manufacturing site,-
+https://www.linkedin.com/company/prospiant,Facilities Maintenance Manager,Facilities Maintenance Manager,preventive and predictive maintenance with Lean continuous improvement,-
+https://www.linkedin.com/company/baxters-north-america,Strategic Sourcing Commodity Manager-Proteins,Strategic Sourcing Commodity Manager of Proteins,sourcing strategy and supplier negotiations for protein commodities,-
+https://www.linkedin.com/company/kuraray-america-inc,Logistics Operations Manager,Logistics Operations Manager,managing dental fulfillment through a dedicated 3PL,-
+https://www.linkedin.com/company/lsb-industries-inc.,Operations Excellence Director,Operations Excellence Director,building management systems that sustain manufacturing performance across plants,-
+https://www.linkedin.com/company/signature-brands-llc,Maintenance Manager,Maintenance Manager,maintenance programs across multiple food manufacturing sites,-
+https://www.linkedin.com/company/gtifabrication,Global Procurement Manager- Electrical,Global Procurement Manager of Electrical,global electrical category sourcing and supplier negotiations,-
+https://www.linkedin.com/company/rosina-food-products-inc.,Quality Control Manager,Quality Control Manager,"food safety, traceability, and regulatory compliance",-
+https://www.linkedin.com/company/astrodyne,QMS/Supplier Quality Manager,QMS and Supplier Quality Manager,electronic QMS ownership and supplier audit programs,-
+https://www.linkedin.com/company/etechgroup,Quality Engineering Manager - Data Centers,Quality Engineering Manager,quality and commissioning programs for data center projects,-
+https://www.linkedin.com/company/axiom-space,Quality Control Manager,Quality Control Manager,building an inspection and metrology center of excellence,-
+https://www.linkedin.com/company/redwire,Production Engineering Manager,Production Engineering Manager,lean and Six Sigma improvements to production throughput,-
+https://www.linkedin.com/company/nortekdatacentercooling,Quality Manager,Quality Manager,running a facility quality management system and customer quality activities,-
+https://www.linkedin.com/company/ranpak,Sr Quality Manager,Senior Quality Manager,regional quality leadership across North American manufacturing sites,-
+https://www.linkedin.com/company/gems-setra,Engineering Manager (Product Development & Realization),Engineering Manager,leading multidisciplinary teams from product design through production transition,-
+https://www.linkedin.com/company/stuart-rush,Manufacturing Engineering Manager,Manufacturing Engineering Manager,"process development, tooling strategy, and new product launches",-
+https://www.linkedin.com/company/place-services-inc-,Fire Alarm Project Manager - Low Voltage,Fire Alarm Project Manager,"low voltage fire alarm projects, estimates, and submittals",-
+https://www.linkedin.com/company/arclin,Plant Manager,Plant Manager,environmental compliance and cost-effective plant operations,-
+https://www.linkedin.com/company/group-cbs,Facilities Operations Manager,Facilities Operations Manager,"running branch operations, purchasing, inventory, and logistics",-
+https://www.linkedin.com/company/gotham-greens-farms,Plant Manager,Plant Manager,running greenhouse production with food safety and P&L ownership,-
+https://www.linkedin.com/company/servicewirecompany,Plant Manager,Plant Manager,"overseeing manufacturing, warehouse, and order fulfillment operations",-
+https://www.linkedin.com/company/rex-lumber,General Manager - Rex Transportation,General Manager of Rex Transportation,"fleet, driver coordination, and routing for transportation operations",-
+https://www.linkedin.com/company/virginialinenservice,Maintenance Manager/Head Plant Engineer,Maintenance Manager and Head Plant Engineer,troubleshooting plant utilities and mechanical and electrical systems,-
+https://www.linkedin.com/company/kochcompany,Operations Manager,Operations Manager,scheduling fabrication projects with welding compliance and ERP accuracy,-
+https://www.linkedin.com/company/profusion-industries,Operations Manager,Operations Manager,"coordinating plant scheduling across manufacturing, logistics, and maintenance",-
+https://www.linkedin.com/company/phillips-corporation,Project Manager - Industrial Operations,Industrial Operations Project Manager,running an emergency maintenance support program for Government depots,-
+https://www.linkedin.com/company/paulmuellercompany,PLANT SERVICES MANAGER,Plant Services Manager,experience leading plant services and facility maintenance teams,-
+https://www.linkedin.com/company/north-coast-container,Maintenance Manager,Maintenance Manager,leading two-shift maintenance with hands-on electrical troubleshooting,-
+https://www.linkedin.com/company/furmanos,Packaging Materials Procurement Manager,Packaging Materials Procurement Manager,packaging materials sourcing and label artwork coordination,-
+https://www.linkedin.com/company/adams-thermal-systems,Materials Manager,Materials Manager,material planning and strategic sourcing for just-in-time production,-
+https://www.linkedin.com/company/dettronics,Head of Quality,Head of Quality,quality strategy plus adoption of digital and AI tools,-
+https://www.linkedin.com/company/westway-feed-products-llc,Regional Quality Manager,Regional Quality Manager,"feed safety programs across plants, terminals, and storage sites",-
+https://www.linkedin.com/company/metushvac,"Manager, Electrical Engineering",Manager of Electrical Engineering,designing industrial control cabinets and robotic-cell solutions,-
+https://www.linkedin.com/company/renk-america,Quality Manager,Quality Manager,leading quality engineering and assurance with root-cause analysis,-
+https://www.linkedin.com/company/ashley-industrial-molding,Quality Manager,Quality Manager,quality management system improvement and launch support,-
+https://www.linkedin.com/company/creative-liquid-coatings,Engineering Manager,Engineering Manager,"plastic injection molding, tooling, and automation project leadership",-
+https://www.linkedin.com/company/autocar,Senior Vice President of Engineering,Senior Vice President of Engineering,engineering governance and platform commonization across vehicle programs,-
+https://www.linkedin.com/company/lmc-industries,Manufacturing Quality Manager,Manufacturing Quality Manager,"ISO, TS, and UL compliance with supplier quality monitoring",-
+https://www.linkedin.com/company/concurrent-technologies-corporation,Controller,Controller,"accounting controls, audits, and tax filing oversight",-
+https://www.linkedin.com/company/am-general,Vice President - Human Resources,Vice President of Human Resources,"enterprise HR strategy, labor relations, and collective bargaining",-
+https://www.linkedin.com/company/humphrey-products,Production Manager,Production Manager,"coordinating fabrication, assembly, and coil manufacturing operations",-
+https://www.linkedin.com/company/galvion,"Senior Vice President, Global Operations",Senior Vice President of Global Operations,"global manufacturing, supply chain, and ERP operations across multiple countries",-
+https://www.linkedin.com/company/cesiumastro,"Manager, Supplier Operations & Governance",Manager of Supplier Operations and Governance,approved supplier list management and supplier qualification,-
+https://www.linkedin.com/company/hartzell-propeller,Divisional MRO Network Operations Director,Divisional MRO Network Operations Director,MRO network turnaround time and on-time delivery performance,-
+https://www.linkedin.com/company/midstate-industrial-maintenance,Director of E&I Operations,Director of E&I Operations,electrical and instrumentation project execution and trade training programs,-
+https://www.linkedin.com/company/plumbing-products-group-llc,Operations Manager,Operations Manager,"distribution center safety, receiving, and Lean improvement",-
+https://www.linkedin.com/company/tat-technologies-group,Supply Chain Manager,Supply Chain Manager,expediting critical parts and resolving material shortages,-
+https://www.linkedin.com/company/trystar,Senior Materials Manager,Senior Materials Manager,"site materials strategy, inventory control, and ERP discipline",-
+https://www.linkedin.com/company/lycomingengines,Manager External Quality,Manager of External Quality,supplier quality surveillance and corrective actions on purchased products,-
+https://www.linkedin.com/company/key-technology-incorporated,Quality Engineering Manager,Quality Engineering Manager,"quality systems, warranty feedback loops, and customer escalations",-
+https://www.linkedin.com/company/boeing-intelligence-analytics,Chief Engineer **Sign-on Bonus Potential***,Chief Engineer,"systems engineering for hardware, software, and RF signal processing",-
+https://www.linkedin.com/company/lyntris,"Engineering Project Manager, Sensors",Engineering Project Manager,coordinating sensor engineering projects from design through field delivery,-
+https://www.linkedin.com/company/g3-industries,Engineering Project Manager,Engineering Project Manager,managing engineering projects from concept through launch,-
+https://www.linkedin.com/company/radiac-abrasives,Process Engineering Manager,Process Engineering Manager,qualifying and optimizing manufacturing processes for productivity and cost,-
+https://www.linkedin.com/company/hatci,"Vehicle Engineering Program Management, Manager",Vehicle Engineering Program Management Manager,overseeing complex vehicle programs and leading program analysts,-
+https://www.linkedin.com/company/newage-industries-advantapure,Manufacturing Engineering Manager,Manufacturing Engineering Manager,Lean Six Sigma and technology transfer in manufacturing,-
+https://www.linkedin.com/company/ue-systems,Quality Manager,Quality Manager,inspection and release controls across suppliers and contract manufacturers,-
+https://www.linkedin.com/company/andis-company,Vice President - Finance,Vice President of Finance,"manufacturing accounting, cash management, and working capital oversight",-
+https://www.linkedin.com/company/ecovyst-inc,Senior Director - Manufacturing (West Coast & Central Regions),Senior Director of Manufacturing,running multiple chemical manufacturing sites with regulatory compliance,-
+https://www.linkedin.com/company/revere-control-systems,Director of Manufacturing and Operational Excellence,Director of Manufacturing and Operational Excellence,"manufacturing network strategy, panel production, and standardized daily management",-
+https://www.linkedin.com/company/fujifilm-electronic-materials-u-s-a-inc-,Manufacturing Manager,Manufacturing Manager,running 24/7 acids manufacturing and packaging operations,-
+https://www.linkedin.com/company/addman3d,Additive Production Manager,Additive Production Manager,additive manufacturing production and AS9100 audit readiness,-
+https://www.linkedin.com/company/pritchard-companies,General Manager – Tow Truck & Equipment Operations,General Manager of Tow Truck and Equipment Operations,"running location operations, sales, and customer relationships",-
+https://www.linkedin.com/company/visual-pak,Maintenance Manager,Maintenance Manager,equipment reliability and changeover efficiency improvements,-
+https://www.linkedin.com/company/phoenix-stamping,"Plant Operations Manager, Precision Metalforming","Plant Operations Manager, Precision Metalforming",running two metalforming sites with Lean and plant P&L,-
+https://www.linkedin.com/company/tritiumcharging,Global Strategic Sourcing Manager - Power Modules & Thermal Management - Remote,"Global Strategic Sourcing Manager, Power Modules and Thermal Management",sourcing power semiconductor modules and thermal management components,removed: role outside what GRN Piedmont places or unusable title
+https://www.linkedin.com/company/aetos-systems-inc.,Quality Control and Safety Manager,Quality Control and Safety Manager,NASA contract quality compliance and safety oversight,-
+https://www.linkedin.com/company/attalon-inc,"Senior Director, Optical Engineering",Senior Director of Optical Engineering,setting technology strategy across multiple sites and R&D portfolios,-
+https://www.linkedin.com/company/soprema-inc,Quality Assurance Manager,Quality Assurance Manager,laboratory testing and supplier qualification in a manufacturing plant,-
+https://www.linkedin.com/company/kiddefenwal,Engineering Project Manager,Engineering Project Manager,new product introduction and sustaining engineering projects,-
+https://www.linkedin.com/company/aprilaire,Quality Manager,Quality Manager,plant quality management systems and corrective action investigations,-
+https://www.linkedin.com/company/edelbrock-group,Sr. Engineering Manager (Foundry Experience),Senior Engineering Manager,"foundry process selection, tooling, and new product launches",-
+https://www.linkedin.com/company/maola-local-dairies,Production Manager,Production Manager,three-shift milk processing with food-safety compliance,-
+https://www.linkedin.com/company/northern-labs-inc-,Manager - Continuous Improvement - NL Continuous Improvement,Continuous Improvement Manager,"Lean, Six Sigma, and Kaizen event facilitation",-
+https://www.linkedin.com/company/tate%27s-bake-shop,Continuous Improvement Manager,Continuous Improvement Manager,reducing waste and increasing line efficiency in food production,-
+https://www.linkedin.com/company/vv-supremo-foods-inc,Plant Manager,Plant Manager,"directing plant operations, staffing, and capital planning",-
+https://www.linkedin.com/company/big-dan-s-car-wash,General Manager,General Manager,running daily car wash operations and selling memberships,-
+https://www.linkedin.com/company/davis-furniture,Plant Manager - Sewing and Cutting Department,Plant Manager of Sewing and Cutting,running sewing and cutting production schedules and supervisors,-
+https://www.linkedin.com/company/carris-reels-inc.,Plant Manager,Plant Manager,leading production supervisors and root cause corrective actions,-
+https://www.linkedin.com/company/us-pharma-lab,"Manager, Production",Production Manager,liquid filling operations under cGMP requirements,-
+https://www.linkedin.com/company/precision-associates-inc,Maintenance & Reliability Manager,Maintenance and Reliability Manager,predictive maintenance and reliability initiatives to improve equipment uptime,-
+https://www.linkedin.com/company/millcraft,"Operations Manager - Canton, MI",Operations Manager,running a distribution center from receiving through shipping,-
+https://www.linkedin.com/company/the-vita-coco-company,Global Supply Chain Project Manager,Global Supply Chain Project Manager,packaging innovation and capacity expansion project leadership,-
+https://www.linkedin.com/company/the-bazooka-companies-llc,Sr. Manager-Procurement,Senior Manager of Procurement,"strategic sourcing, RFPs, and contract negotiations",-
+https://www.linkedin.com/company/upchurch-services,Director of Supply Chain,Director of Supply Chain,enterprise procurement and oversight of a fleet of 500 vehicles,-
+https://www.linkedin.com/company/micro-control-company,Engineering Project Manager,Engineering Project Manager,"managing complex technical projects across scope, schedule, and budget",-
+https://www.linkedin.com/company/cremer-northamerica,Engineering & Maintenance Manager,Engineering and Maintenance Manager,"company-wide maintenance, reliability, and asset-management strategy",-
+https://www.linkedin.com/company/penn-color-inc,Global Quality Assurance Manager,Global Quality Assurance Manager,root cause analysis and corrective action across global quality engineering,-
+https://www.linkedin.com/company/senior-operations-metal-bellows,Quality Engineering Manager,Quality Engineering Manager,running a quality management system with supplier and calibration oversight,-
+https://www.linkedin.com/company/bryce-corporation,Engineering Project Manager,Engineering Project Manager,CAD machine design and project cost forecasting,-
+https://www.linkedin.com/company/dasi-llc,Vice President Human Resources,Vice President of Human Resources,"leading global HR across recruiting, payroll, benefits and succession planning",-
+https://www.linkedin.com/company/daily%27s-premium-meats,PM Production Manager Daily's Premium Meats,Production Manager,running meat processing plant operations and production schedules,-
+https://www.linkedin.com/company/blommer-chocolate-company,Operations Manager,Operations Manager,food plant production management with food safety and budget accountability,-
+https://www.linkedin.com/company/starplus-energy,Electrode Production Director,Electrode Production Director,leading continuous four-crew electrode production with waste elimination,-
+https://www.linkedin.com/company/gummy-works,Technical Operations Manager,Technical Operations Manager,scaling pilot manufacturing into initial commercial production,-
+https://www.linkedin.com/company/dezurik,Shipping/Receiving Production Manager,Shipping and Receiving Production Manager,"managing union shipping, receiving and freight logistics teams",-
+https://www.linkedin.com/company/fnamericallc,"Manager, Supply Chain",Supply Chain Manager,strategic sourcing and supplier performance management for manufacturing buyers,-
+https://www.linkedin.com/company/havis-inc-,Purchasing Manager,Purchasing Manager,"multi-site manufacturing purchasing, supplier negotiations and inventory optimization",-
+https://www.linkedin.com/company/geotek_2,Senior Materials Manager,Senior Materials Manager,sourcing composite raw materials from domestic and international suppliers,-
+https://www.linkedin.com/company/logistic-services-international-inc.,"MANAGER, MECHANICAL ENGINEERING",Mechanical Engineering Manager,leading mechanical designs for military structural and hydraulic systems,-
+https://www.linkedin.com/company/tandem-foods,Maintenance Manager,Maintenance Manager,keeping 24/7 food production equipment reliable and compliant,-
+https://www.linkedin.com/company/aida-america,Director of Operations,Director of Operations,"overseeing planning, purchasing, manufacturing and facilities with budget ownership",-
+https://www.linkedin.com/company/hapco_2,Quality Manager,Quality Manager,maintaining a QMS with welding quality and supplier audits,-
+https://www.linkedin.com/company/clark-material-handling-co-,Director of Engineering,Director of Engineering,leading product design for a material handling equipment portfolio,-
+https://www.linkedin.com/company/tcom-l-p-,"Quality Systems, Compliance & Safety Manager","Quality Systems, Compliance and Safety Manager","aerospace and government-contract quality systems, audits and occupational safety",-
+https://www.linkedin.com/company/voestalpine-roll-forming-corporation,Project Engineering Manager,Project Engineering Manager,managing product launches from handoff through validation and production release,-
+https://www.linkedin.com/company/tx-acs-manufacturing-llc,Quality Assurance Manager,Quality Assurance Manager,ISO 9001 quality systems and customer corrective action,-
+https://www.linkedin.com/company/arrowhead-winch,Director of Quality Assurance,Director of Quality Assurance,running an ISO 9001 quality system across multiple plants,-
+https://www.linkedin.com/company/stellar-energy,Mechanical Engineering Manager,Mechanical Engineering Manager,mechanical design for modular cooling and power plant projects,-
+https://www.linkedin.com/company/hill-york,Director of Engineering,Director of Engineering,"HVAC, piping and mechanical systems design-assist and preconstruction leadership",-
+https://www.linkedin.com/company/bullmoosetube,Plant Controller,Plant Controller,"plant cost accounting, financial close and inventory valuation across facilities",-
+https://www.linkedin.com/company/placon-corporation,Vice President of Human Resources,Vice President of Human Resources,leading HR across multiple manufacturing locations and labor relations,-
+https://www.linkedin.com/company/fuchs-lubricants,Manufacturing Operations Manager,Manufacturing Operations Manager,building daily management and KPI systems for plant supervisors,-
+https://www.linkedin.com/company/snack-innovations,Plant HR Manager,Plant HR Manager,"manufacturing plant employee relations, recruiting and HR compliance",-
+https://www.linkedin.com/company/sanden-international,General Manager Supply Chain,General Manager of Supply Chain,"running planning, purchasing, logistics and trade compliance end to end",-
+https://www.linkedin.com/company/the-psw-group,Operations Manager,Operations Manager,"casting plant startup, equipment commissioning and PPAP launches",-
+https://www.linkedin.com/company/catelli-brothers,Procurement Manager,Procurement Manager,"international meat sourcing, customs clearance and import compliance",-
+https://www.linkedin.com/company/vantage-specialty-chemicals,Sr. Category Manager - Global Indirect Procurement,"Senior Category Manager, Global Indirect Procurement","global indirect sourcing across CapEx, OpEx and professional services",-
+https://www.linkedin.com/company/blackskyinc,Mechanical Engineering Manager,Mechanical Engineering Manager,spacecraft structures design and leading mechanical design engineers,-
+https://www.linkedin.com/company/motoman,Quality Manager,Quality Manager,corporate quality assurance and methods engineering leadership,-
+https://www.linkedin.com/company/bright-innovation-labs,Plant Controller,Plant Controller,"standard costing, variance analysis and manufacturing finance",-
+https://www.linkedin.com/company/service-partners,Operations Manager,Operations Manager,experience leading branch operations for building product installation,-
+https://www.linkedin.com/company/donau-carbon-usa,Senior Operations Leader (Plant manager /Production Manager Level),Senior Operations Leader,"running plant operations with budget, scheduling and safety oversight",-
+https://www.linkedin.com/company/forterra-autonomy,Pricing Operations Manager,Pricing Operations Manager,building ROM estimates and proposal pricing for hardware and software,-
+https://www.linkedin.com/company/southern-states,Manufacturing Training Manager,Manufacturing Training Manager,running multi-shift manufacturing onboarding and competency training,-
+https://www.linkedin.com/company/marcalpaper,Maintenance Manager,Maintenance Manager,"leading plant maintenance, spare parts and capital projects",-
+https://www.linkedin.com/company/slateauto,Manufacturing Product Integration Manager,Manufacturing Product Integration Manager,launching a general assembly line with readiness reviews,-
+https://www.linkedin.com/company/compana-pet-brands,Continuous Improvement Manager,Continuous Improvement Manager,Lean methods and structured problem solving on the shop floor,-
+https://www.linkedin.com/company/process-insights-inc,Plant Manager,Plant Manager,"running assembly, testing and calibration manufacturing operations",-
+https://www.linkedin.com/company/virtex-contract-manufacturing-services,Supply Chain Manager,Supply Chain Manager,"aerospace supply chain planning, procurement and inventory control",-
+https://www.linkedin.com/company/nd-defense,Senior Director of Supply Chain,Senior Director of Supply Chain,transforming end-to-end supply chain from procurement through logistics,-
+https://www.linkedin.com/company/richardson-electronics,Sourcing Manager,Sourcing Manager,"sourcing engineered components through RFQs, negotiation and supplier qualification",-
+https://www.linkedin.com/company/deutz-corporation,Supply Chain Project Manager,Supply Chain Project Manager,S&OP and inventory management project delivery across the Americas,-
+https://www.linkedin.com/company/hermeus,Chief Engineer - Airbreathing Propulsion Test,"Chief Engineer, Airbreathing Propulsion Test",building propulsion test facilities from design through commissioning,-
+https://www.linkedin.com/company/bluescope-coated-products,Quality Manager,Quality Manager,maintaining a corporate QMS with audits and root cause investigations,-
+https://www.linkedin.com/company/delta-industrial-services-inc.,Senior Mechanical Engineering Manager,Senior Mechanical Engineering Manager,leading a large mechanical engineering team with DFM expertise,-
+https://www.linkedin.com/company/techetch,Quality Manager,Quality Manager,directing inspection and product acceptance with corrective action follow-through,-
+https://www.linkedin.com/company/spartech,"Director, Operational Excellence & Advanced Engineering (RE925)",Director of Operational Excellence and Advanced Engineering,Lean deployment and asset reliability across multiple manufacturing sites,-
+https://www.linkedin.com/company/advanced-vehicle-assemblies-llc,Plant Quality Manager,Plant Quality Manager,statistical process control and plant quality assurance in vehicle assembly,-
+https://www.linkedin.com/company/fema-corporation,Quality Manager,Quality Manager,owning a quality management system with internal and external audits,-
+https://www.linkedin.com/company/samsung-sdi-america-inc-,Chief Human Resources Officer,Chief Human Resources Officer,building HR and labor relations for a new manufacturing launch,-
+https://www.linkedin.com/company/employee-owned-holdings-inc-,Corporate Controller,Corporate Controller,"multi-entity accounting, monthly close and internal controls",-
+https://www.linkedin.com/company/valdese-weavers,Controller,Controller,"manufacturing cost accounting, inventory accounting and timely financial close",-
+https://www.linkedin.com/company/morris-furniture-company-inc-,General Manager,General Manager,running a furniture showroom and coaching sales consultants,-
+https://www.linkedin.com/company/ip-corporation,Maintenance Manager,Maintenance Manager,preventive and predictive maintenance programs that minimize plant downtime,-
+https://www.linkedin.com/company/valkyrie-enterprises,"Operations Manager, Mission Solutions– Strategy & Operations (Job ID:4657)","Operations Manager, Mission Solutions",business strategy support and executive-level operational performance analysis,-
+https://www.linkedin.com/company/morton-industries-llc,Plant Manager,Plant Manager,overseeing all aspects of a manufacturing facility with cost control,-
+https://www.linkedin.com/company/corvac-composites-llc,Maintenance Manager,Maintenance Manager,preventive maintenance scheduling and equipment setup for production,-
+https://www.linkedin.com/company/ring-container-technologies,Maintenance Manager,Maintenance Manager,TPM and CMMS administration in a food packaging plant,-
+https://www.linkedin.com/company/uniloy,Manufacturing Manager,Manufacturing Manager,leading machine-shop operations with CNC machining and Lean Six Sigma,-
+https://www.linkedin.com/company/g-s-foods-llc,Production Manager,Production Manager,"managing daily food production, staffing and production records",-
+https://www.linkedin.com/company/lia-auto-group,Lia Toyota Wilbraham - Automotive General Manager,Automotive General Manager,"running dealership sales, service, parts and finance departments",removed: role outside what GRN Piedmont places or unusable title
+https://www.linkedin.com/company/evenflo,Manager Supply Chain,Supply Chain Manager,"production scheduling, materials planning and S&OP alignment",-
+https://www.linkedin.com/company/carboline,Supply Planning Quality Manager,Supply Planning Quality Manager,supply planning governance and Infor LN ERP inventory optimization,-
+https://www.linkedin.com/company/cuisine-solutions,Quality Assurance Manager,Quality Assurance Manager,SQF and HACCP food safety programs in a plant,-
+https://www.linkedin.com/company/afb-international,AFB Manager Engineering,Engineering Manager,leading plant engineering and maintenance with food safety awareness,-
+https://www.linkedin.com/company/destaco,Manufacturing Engineering Manager,Manufacturing Engineering Manager,CNC programming and machining process development leadership,-
+https://www.linkedin.com/company/gentex,Manufacturing Engineering Manager,Manufacturing Engineering Manager,"production process optimization, automation and new product launch support",-
+https://www.linkedin.com/company/powersecure,Director Manufacturing and Industrial Engineering,Director of Manufacturing and Industrial Engineering,"factory design, automation and Lean initiatives across multiple sites",-
+https://www.linkedin.com/company/belletetes-inc,Director of Finance,Director of Finance,"budgeting, forecasting, working capital and inventory cost management",-
+https://www.linkedin.com/company/proconex,Information Technology & Solutions (IT&S) Operations Manager,Information Technology and Solutions Operations Manager,"leading IT infrastructure, security and end-user support teams",removed: role outside what GRN Piedmont places or unusable title
+https://www.linkedin.com/company/albanese-talent-acquisition,Gummi Operations Manager,Gummi Operations Manager,leading confectionery production with food safety and staffing accountability,-
+https://www.linkedin.com/company/cirkul,Assembly Production Manager,Assembly Production Manager,scaling assembly throughput through cell layout and production system improvements,-
+https://www.linkedin.com/company/emerald-transformer,Operations Manager II,Operations Manager II,"leading production, quality, logistics and maintenance managers together",-
+https://www.linkedin.com/company/royal-basket-trucks,Senior Director of Operations,Senior Director of Operations,building scalable manufacturing processes that improve quality and delivery,-
+https://www.linkedin.com/company/stulz-usa,"Director, Manufacturing Operations",Director of Manufacturing Operations,integrating two plants and leading a plant start-up,-
+https://www.linkedin.com/company/tas_3,Manufacturing Operations Project Manager II,Manufacturing Operations Project Manager II,"delivering manufacturing projects on cost, schedule and shop-floor changes",-
+https://www.linkedin.com/company/southern-states-toyotalift,Branch Operations Manager,Branch Operations Manager,"running service, parts and rental P&L for a branch",-
+https://www.linkedin.com/company/eaglefamilyfoodsgroupllc,"Director, Enterprise Operations, FP&A",Director of Enterprise Operations FP&A,"supply chain financial planning across manufacturing, logistics and procurement",-
+https://www.linkedin.com/company/north-wind,Supply Chain Manager,Supply Chain Manager,supply chain execution for commercial and U.S. government programs,-
+https://www.linkedin.com/company/the-dupps-company,Director of Purchasing,Director of Purchasing,"leading purchasing strategy, supplier contracts and cost savings across locations",-
+https://www.linkedin.com/company/control-devices,Materials Manager,Materials Manager,managing materials and supply chain operations in manufacturing,-
+https://www.linkedin.com/company/hawkeye-360,"FP&A Manager, Engineering & Program Finance Business Partner","FP&A Manager, Engineering and Program Finance","program budgeting, forecasting and gross margin modeling for engineering",-
+https://www.linkedin.com/company/airbusus,Engineering Department Manager,Engineering Department Manager,military aircraft engineering projects through testing and certification,-
+https://www.linkedin.com/company/malco-products,Quality Manager,Quality Manager,administering a QMS with finished-product release and validations,-
+https://www.linkedin.com/company/vse-aviation-inc,"Manager, Supplier Quality",Supplier Quality Manager,"supplier audits, corrective actions and Material Review Board activities",-
+https://www.linkedin.com/company/safran-electronics-defense-avionics-usa,Quality Manager,Quality Manager,quality engineering leadership across manufacturing and repair operations,-
+https://www.linkedin.com/company/diamond-c-trailer-mfg.,Quality Manager,Quality Manager,"building quality strategy, inspections and regulatory compliance in manufacturing",-
+https://www.linkedin.com/company/experitec-inc.,"Director of Accounting - Accounting Director - Controller (Finance) – Onsite to Hybrid – Bartlett, TN (Memphis) or Chesterfield, MO (St. Louis)",Director of Accounting,"project accounting, revenue recognition and ESOP financial support",-
+https://www.linkedin.com/company/stiles-machinery,Director of Finance,Director of Finance,"overseeing planning, treasury, tax and controls across affiliated operations",-
+https://www.linkedin.com/company/hellermanntyton,Program Manager Operations,Program Manager of Operations,change management and leading project managers across North America,-
+https://www.linkedin.com/company/goallclear,"Sr. Manager, Quality",Senior Quality Manager,aerospace quality systems across multiple manufacturing facilities,-
+https://www.linkedin.com/company/ellsworth-creamery,Operations Team Manager,Operations Team Manager,"running second-shift dairy production, maintenance and warehouse operations",-
+https://www.linkedin.com/company/bulk-equipment-corp,Accounting Manager – General Accounting and Compliance,"Accounting Manager, General Accounting and Compliance","multi-entity close, fixed assets and tax compliance",-
+https://www.linkedin.com/company/pelibiothermal,Production Manager,Production Manager,leading multiple manufacturing departments with capacity and labor planning,-
+https://www.linkedin.com/company/omni-specialty-packaging,Director of Accounting (Manufacturing),Director of Accounting,"manufacturing cost accounting, financial close and ERP process improvements",-
+https://www.linkedin.com/company/daybreak-foods-inc_2,Food Safety & Quality Manager,Food Safety and Quality Manager,"food safety, biosecurity and animal welfare program compliance",-
+https://www.linkedin.com/company/spang-&-company,Design Engineering Manager,Design Engineering Manager,UL compliance and leading design engineers across U.S. and China,-
+https://www.linkedin.com/company/general-tool-company,VP Quality,Vice President of Quality,enterprise quality governance and certifications across multiple facilities,-
+https://www.linkedin.com/company/indevco-north-america,Quality Manager,Quality Manager,ISO and SQF compliance with a Food Safety Plan,-
+https://www.linkedin.com/company/accredited-labs,Regional Quality Manager (Remote – Eastern U.S. Preferred),Regional Quality Manager,ISO/IEC 17025 quality systems across multiple accredited laboratories,-
+https://www.linkedin.com/company/universal-piping-industries,Quality Manager,Quality Manager,"piping fabrication quality, welding qualifications and code compliance",-
+https://www.linkedin.com/company/sany-america,Chief Engineer - Mining Loaders,"Chief Engineer, Mining Loaders",architecture and design reviews for large hybrid mining loaders,-
+https://www.linkedin.com/company/gemline,"Director of Quality, Compliance & Sustainability","Director of Quality, Compliance and Sustainability","product compliance, supplier quality and sustainability programs",-
+https://www.linkedin.com/company/gwstoolgroup,Vice President Human Resources – GWS Tool Group,Vice President of Human Resources,"HR strategy, benefits, payroll and complex employee relations",-
+https://www.linkedin.com/company/bell-flavors-&-fragrances,"Manager, Production",Production Manager,"managing food plant production, scheduling and equipment performance",-
+https://www.linkedin.com/company/mmt-medical-device-manufacturing,Operations Manager,Operations Manager,medical device manufacturing P&L and Lean operations leadership,-
+https://www.linkedin.com/company/american-trim,Production Manager,Production Manager,"coordinating production, labor, materials and labor-management relations",-
+https://www.linkedin.com/company/lafrance-corp,Manufacturing Manager,Manufacturing Manager,injection molding and finishing production leadership,-
+https://www.linkedin.com/company/innovative-refrigeration-systems-inc.,Supply Chain Manager,Supply Chain Manager,supplier contract negotiations and Lean supply chain improvement,-
+https://www.linkedin.com/company/lamotte-company,Engineering Manager,Engineering Manager,"capital projects, automation and operational excellence across two facilities",-
+https://www.linkedin.com/company/hytorc-division-unex-corporation,Sr. Quality Manager,Senior Quality Manager,"QMS maintenance, calibration, document control and supplier quality",-
+https://www.linkedin.com/company/lenze-americas-corporation,Senior Manager of Manufacturing Operations,Senior Manager of Manufacturing Operations,"leading manufacturing and logistics leaders on safety, delivery and cost",-
+https://www.linkedin.com/company/ies-infrastructure-solutions,General Manager,General Manager,running a manufacturing facility with Lean and financial accountability,-
+https://www.linkedin.com/company/pellamidatlantic,Operations/Warehouse Manager,Operations and Warehouse Manager,"leading installation, service, warehouse and delivery operations",-
+https://www.linkedin.com/company/gostampede,Production Manager,Production Manager,leading production supervisors with quality and delivery targets,-
+https://www.linkedin.com/company/altorsolutions,Plant Manager,Plant Manager,"directing plant production, tooling, maintenance and cost reduction",-
+https://www.linkedin.com/company/recon-management-services-inc,Capital Project Manager IV (In-Plant),Capital Project Manager IV,managing capital projects from feasibility through commissioning and closeout,-
+https://www.linkedin.com/company/chervon-north-america,Facilities & Operations Project Manager,Facilities and Operations Project Manager,leading facilities and business improvement projects with vendor management,-
+https://www.linkedin.com/company/systems-llc,Finance Manager - Operations and Supply Chain (Systems),"Finance Manager, Operations and Supply Chain","product costing, landed cost and operations financial reporting",-
+https://www.linkedin.com/company/dobbs-equipment-llc,"VP, Rental Services: Growth & Operations Leader",VP of Rental Services,growing an equipment rental division with fleet optimization,-
+https://www.linkedin.com/company/vanguard-soap,Director of Operations (Manufacturing),Director of Operations,end-to-end soap manufacturing operations and capital investment decisions,-
+https://www.linkedin.com/company/somic-america-inc-,MAINTENANCE & FACILITIES MANAGER (14195),Maintenance and Facilities Manager,leading a maintenance team of about 25 employees,-
+https://www.linkedin.com/company/carolinacontainer,Manager of Sheet Plant Operations,Manager of Sheet Plant Operations,running multiple sheet plants with Lean and Six Sigma,-
+https://www.linkedin.com/company/hexarmor,"Vice President of Manufacturing, Compliance & Integration","Vice President of Manufacturing, Compliance and Integration",integrating and scaling global manufacturing partners,-
+https://www.linkedin.com/company/lesueur-incorporated,Operations Manager - Perm Mold,"Operations Manager, Perm Mold",permanent mold die casting operations and process controls,-
+https://www.linkedin.com/company/natco-home-products,"Director of Product Management, Purchasing & Inventory Planning","Director of Product Management, Purchasing and Inventory Planning","purchasing, inventory forecasting and replenishment for floor coverings",removed: role outside what GRN Piedmont places or unusable title
+https://www.linkedin.com/company/electrocraft,Director of Engineering,Director of Engineering,electric motor and controls design and new product development,-
+https://www.linkedin.com/company/chicken-of-the-sea,"Director, Food Safety and Quality Assurance",Director of Food Safety and Quality Assurance,"food safety, traceability and recall preparedness across co-packers and suppliers",-
+https://www.linkedin.com/company/ewgrobbel,Quality Assurance Manager - Food Manufacturing,Quality Assurance Manager,Food Safety Management Systems and third-party audit oversight,-
+https://www.linkedin.com/company/premium-guard-inc,Maintenance/Engineering Manager,Maintenance and Engineering Manager,"running engineering projects, tool room and facility maintenance",-
+https://www.linkedin.com/company/pbs-aerospace,Director of Finance,Director of Finance,"advising the CEO on financial strategy, controls and forecasting",-
+https://www.linkedin.com/company/old-world-industries,Finance Manager - Operations,Finance Manager of Operations,"inventory valuation, freight cost analysis and working capital improvement",-
+https://www.linkedin.com/company/trilliumfoods,Operations Manager,Operations Manager,leading second and third shift manufacturing with food safety compliance,-
+https://www.linkedin.com/company/weissaug,Stamping Operations Manager,Stamping Operations Manager,leading a stamping operation with capacity planning and troubleshooting,-
+https://www.linkedin.com/company/big3precision,General Manager,General Manager,full P&L ownership of a manufacturing business,-
+https://www.linkedin.com/company/parker-plastics-inc.,Production Manager,Production Manager,"leading production supervisors with scheduling, staffing and KPI tracking",-
+https://www.linkedin.com/company/blast-one-international,Director of Operations,Director of Operations,overseeing order entry through delivery with ERP optimization,-
+https://www.linkedin.com/company/flanders,Distribution Operations Manager,Distribution Operations Manager,managing distribution workflow from quotation through order closure,-
+https://www.linkedin.com/company/sechan-electronics-inc.,Supplier Quality Manager,Supplier Quality Manager,"supplier audits, first article inspection and nonconforming material disposition",-
+https://www.linkedin.com/company/whisker,Mechanical Engineering Manager,Mechanical Engineering Manager,"taking products from concept through prototyping, validation and launch",-
+https://www.linkedin.com/company/petoskey-plastics,Corporate Quality Manager,Corporate Quality Manager,company-wide QMS maintenance across multiple manufacturing locations,-
+https://www.linkedin.com/company/adkev-inc.,"Quality Manager - Monticello, Indiana",Quality Manager,managing audits and inspection systems through product launches,-
+https://www.linkedin.com/company/family-fresh-pack,Controller,Controller,"financial reporting, lender compliance and leading finance and HR supervisors",-
+https://www.linkedin.com/company/blount-fine-foods,Senior Maintenance Manager,Senior Maintenance Manager,building a CMMS-centered reliability system in a food plant,-
+https://www.linkedin.com/company/lund-boat-company-inc.,Operations Manager,Operations Manager,Lean continuous improvement in boat manufacturing teams,-
+https://www.linkedin.com/company/nipponpaintautmotiveamericas,"Sr. Manager, Purchasing",Senior Manager of Purchasing,raw material and indirect spend purchasing with cost reduction results,-
+https://www.linkedin.com/company/torch-technologies-inc.,Enterprise Chief Engineer,Enterprise Chief Engineer,enterprise architecture governance and modernization roadmaps for complex IT portfolios,-
+https://www.linkedin.com/company/anomatic,Manufacturing Process Engineering Manager,Manufacturing Process Engineering Manager,"process validation, automation and capital projects in manufacturing",-
+https://www.linkedin.com/company/washingtonmills,Plant Controller,Plant Controller,"GAAP plant accounting, monthly close and IFS ERP implementation",-
+https://www.linkedin.com/company/silco-fire-&-security,Operations Manager (Kitchen Suppression / Fire Extiguisher,"Operations Manager, Kitchen Suppression and Fire Extinguisher","fire suppression installations, inspections and code compliance",removed: role outside what GRN Piedmont places or unusable title
+https://www.linkedin.com/company/the-suter-company-inc,Production Manager,Production Manager,overseeing food production schedules with food safety and quality standards,-
+https://www.linkedin.com/company/twelveco2,"Plant Operations Manager | Relocation to Moses Lake, WA",Plant Operations Manager,starting up a fuel plant and writing operating policies,-
+https://www.linkedin.com/company/tosca-ltd,Plant Manager,Plant Manager,"running a service center across production, shipping and maintenance",-
+https://www.linkedin.com/company/bigelow-tea,Maintenance Manager,Maintenance Manager,planned maintenance programs and equipment rebuild schedules for production machinery,-
+https://www.linkedin.com/company/welch%27s,Operations Manager,Operations Manager,"leading processing, packaging and distribution with Lean practices",-
+https://www.linkedin.com/company/appliedadhesives,Sourcing Manager- Industrial Components,"Sourcing Manager, Industrial Components",category strategy and competitive sourcing events for industrial components,-
+https://www.linkedin.com/company/baldwin-richardson-foods,Sr. Director of Procurement,Senior Director of Procurement,enterprise procurement across direct and indirect spend with supply assurance,-
+https://www.linkedin.com/company/american-battery-solutions,"Manager, Supplier Quality",Supplier Quality Manager,APQP and PPAP supplier quality engineering for battery production,-
+https://www.linkedin.com/company/jie-usa-inc,Quality Manager,Quality Manager,"North American quality systems, audits and supplier corrective actions",-
+https://www.linkedin.com/company/taco-inc-,"Manager, Quality Assurance TCR",Quality Assurance Manager,"quality assurance systems, audits and KPI reporting at a plant",-
+https://www.linkedin.com/company/central-states-industrial-csi,Manager - Manufacturing Quality,Manufacturing Quality Manager,welding and fabrication inspection oversight through final testing,-
+https://www.linkedin.com/company/walker-products,Controller,Controller,"cost accounting, financial close and ERP system improvements",-
+https://www.linkedin.com/company/sparton,Facilities Maintenance Manager,Facilities Maintenance Manager,"plant HVAC, electrical systems and facility renovation projects",-
+https://www.linkedin.com/company/kreher-s-farm-fresh-eggs,WNY Grain Operations Manager,Grain Operations Manager,managing crop production teams from planting through harvest and trucking,-
+https://www.linkedin.com/company/reliability-and-performance-technologies,Test and Trial Manager/Operations Manager,Test and Trial Manager,"ship trials, test planning and government stakeholder coordination",-
+https://www.linkedin.com/company/carthage-system---professional-swine-management-llc,Production Manager,Production Manager,supporting swine farm managers and reviewing production records,-
+https://www.linkedin.com/company/byrne-1933,Chief Operating Officer (COO),Chief Operating Officer,multi-site ESL and aseptic dairy operations leadership,-
+https://www.linkedin.com/company/kinetico-inc,Sr. Production Manager,Senior Production Manager,leading manufacturing production teams with lean continuous improvement,-
+https://www.linkedin.com/company/horizon-group-usa,Production Manager,Production Manager,"production planning, vendor allocation and costing for seasonal products",-
+https://www.linkedin.com/company/polymershapes,Operations Manager,Operations Manager,running facility operations with fulfillment efficiency and inventory management,-
+https://www.linkedin.com/company/komline,Operations Manager,Operations Manager,"leading production, shipping, receiving and maintenance operations together",-
+https://www.linkedin.com/company/just-born-inc.,"Senior Director, Procurement",Senior Director of Procurement,enterprise procurement strategy across direct and indirect spend,-
+https://www.linkedin.com/company/paragon-films-inc-,Purchasing Manager,Purchasing Manager,sourcing non-resin manufacturing supplies across the United States and Mexico,-
+https://www.linkedin.com/company/antenna-research-associates,"Quality, Director",Director of Quality,leading a QMS for contract and regulatory product requirements,-
+https://www.linkedin.com/company/north-atlantic-industries,Senior Quality Manager,Senior Quality Manager,AS9100 quality management in aerospace and defense manufacturing,-
+https://www.linkedin.com/company/murrelektronik-north-america,Quality Continuous Improvement Manager,Quality Continuous Improvement Manager,"manufacturing quality controls, complaint investigations and improvement projects",-
+https://www.linkedin.com/company/thk-manufacturing-of-america,Quality Manager,Quality Manager,"QMS, calibration and document control for linear motion products",-
+https://www.linkedin.com/company/metaltek-international,Quality Manager,Quality Manager,"material testing, product inspection and audit systems in castings",-
+https://www.linkedin.com/company/kirby-risk,Plant Manager - Mechanical Solutions and Service,"Plant Manager, Mechanical Solutions and Service",running a mechanical repair shop with OSHA and ISO compliance,-
+https://www.linkedin.com/company/killdeer-mountain-manufacturing-inc-,Director of Manufacturing,Director of Manufacturing,experience leading capacity planning and labor optimization at production sites,-
+https://www.linkedin.com/company/miller-fabrication-solutions,Plant Manager - Pine Creek,Plant Manager,"experience owning plant safety, quality, cost and delivery",-
+https://www.linkedin.com/company/bodum,Supply Chain Operations Manager,Supply Chain Operations Manager,experience running S&OP and inventory planning across 200+ SKUs,-
+https://www.linkedin.com/company/virnig-manufacturing-inc.,Maintenance & Tooling Manager,Maintenance and Tooling Manager,experience improving equipment uptime across multiple facilities and tooling,-
+https://www.linkedin.com/company/ironmountain-solutions,Procurement Manager / Senior Buyer,Procurement Manager,experience building a procurement function with ERP purchasing workflows,-
+https://www.linkedin.com/company/mtimotion,"Director, Supply Chain & Strategic Sourcing",Director of Supply Chain and Strategic Sourcing,experience leading end-to-end supply chain and strategic sourcing teams,-
+https://www.linkedin.com/company/small-parts-inc.,Materials Planning Manager,Materials Planning Manager,"experience leading materials planning, inventory control and production scheduling",-
+https://www.linkedin.com/company/convergix-automation-solutions,Mechanical Engineering Manager,Mechanical Engineering Manager,experience leading mechanical engineers on automation equipment design and delivery,-
+https://www.linkedin.com/company/meritec-inc-,Molding/Stamping Manufacturing Engineering Manager,Molding and Stamping Manufacturing Engineering Manager,experience running a tool room supporting precision molding and stamping,-
+https://www.linkedin.com/company/magid-glove-&-safety,Innovation Engineering Manager,Innovation Engineering Manager,experience leading apparel product development from concept to commercialization,-
+https://www.linkedin.com/company/haydon-corporation-inc.,Senior Manager of Quality ,Senior Manager of Quality,quality management systems and welding quality in fabrication operations,-
+https://www.linkedin.com/company/echousa,Product Design and Engineering Integration Manager,Product Design and Engineering Integration Manager,leading mechanical product development and validation from concept to production,-
+https://www.linkedin.com/company/american-boa-inc,Quality Manager,Quality Manager,quality management systems and supplier development for product launches,-
+https://www.linkedin.com/company/plastic-molding-manufacturing,Quality Engineer Manager,Quality Engineer Manager,supervising inspectors and quality procedures in plastic molding,-
+https://www.linkedin.com/company/entwistle-co,CONTROLLER,Controller,"accounting controls, financial reporting and billing and collections oversight",-
+https://www.linkedin.com/company/thompsonsafety,Service Manager - Fire Protection Division,Service Manager,leading fire life safety technicians and service scheduling and billing,-
+https://www.linkedin.com/company/orrprotection,Project Manager - Fire Alarm,Project Manager,"managing fire alarm installation projects, bids and code compliance",-
+https://www.linkedin.com/company/grecian-delight-kronos,"Senior Manager, Warehouse and Logistics - Food Manufacturing",Senior Manager of Warehouse and Logistics,running multi-facility warehouse and logistics operations in food manufacturing,-
+https://www.linkedin.com/company/metreaaero,Head of Aviation Operations,Head of Aviation Operations,"leading safe, compliant aviation operations across domestic and international deployments",-
+https://www.linkedin.com/company/lses-is,Director of Manufacturing,Director of Manufacturing,leading production planning and shop-floor execution for industrial electrical products,-
+https://www.linkedin.com/company/chandler-industries,Maintenance and Facilities Manager,Maintenance and Facilities Manager,preventive and predictive maintenance for production equipment and facility systems,-
+https://www.linkedin.com/company/shorr-packaging,Division Operations Manager,Division Operations Manager,running warehouse and transportation operations across a distribution division,-
+https://www.linkedin.com/company/celgard,"Vice President of Operations, Celgard",Vice President of Operations,leading global manufacturing operations across multiple plants with lean improvement,-
+https://www.linkedin.com/company/the-specialty-mfg.-co,Manufacturing Automation and Operational Excellence Manager,Manufacturing Automation and Operational Excellence Manager,leading Lean automation and production-line improvement projects through implementation,-
+https://www.linkedin.com/company/par-systems,Senior Supply Chain Manager,Senior Supply Chain Manager,strategic sourcing and subcontractor management in engineer-to-order manufacturing,-
+https://www.linkedin.com/company/g-s-precision,Strategic Sourcing Manager,Strategic Sourcing Manager,multi-category sourcing and supplier negotiations in aerospace and defense manufacturing,-
+https://www.linkedin.com/company/michelman,Indirect Procurement Manager,Indirect Procurement Manager,"global indirect sourcing events, negotiations and contract development",-
+https://www.linkedin.com/company/twin-disc,Strategic Sourcing Manager,Strategic Sourcing Manager,"global sourcing of castings, forgings and machined components",-
+https://www.linkedin.com/company/the-shepherd-chemical-company,Engineering Manager,Engineering Manager,leading plant engineering teams in a chemical manufacturing environment,-
+https://www.linkedin.com/company/power-solutions-international,Manufacturing Engineering Manager,Manufacturing Engineering Manager,"improving manufacturing processes, layouts and tooling while leading engineers",-
+https://www.linkedin.com/company/industrial-pallet-corp,Plant Manager,Plant Manager,"experience running daily plant operations, safety, quality and productivity",-
+https://www.linkedin.com/company/castlepiercepackaging,Offset and Prepress Operations Director,Offset and Prepress Operations Director,directing prepress and offset printing production schedules and teams,-
+https://www.linkedin.com/company/thehhgroup,WASH OPERATIONS MANAGER,Wash Operations Manager,managing multi-site car wash operations and site-level financial performance,-
+https://www.linkedin.com/company/capstx,Manufacturing Project Manager,Manufacturing Project Manager,managing custom HVAC fabrication and assembly projects to budget,-
+https://www.linkedin.com/company/hanes-companies-inc,MAINTENANCE MANAGER - Full Time,Maintenance Manager,preventive and corrective maintenance and plant system reliability,-
+https://www.linkedin.com/company/kestrel-vision,Procurement Manager,Procurement Manager,standardizing procurement execution with MRP signals and supplier delivery performance,-
+https://www.linkedin.com/company/advanced-cooling-technologies,Director of Quality,Director of Quality,managing AS9100 and ISO 9001 quality systems across locations,-
+https://www.linkedin.com/company/bitzer-us,Director of Engineering,Director of Engineering,leading sustaining engineering and product development with design integrity compliance,-
+https://www.linkedin.com/company/skyline-furniture,"Director, Finance & Accounting",Director of Finance and Accounting,"leading reporting, budgeting, forecasting and cash management for a manufacturer",-
+https://www.linkedin.com/company/rudolph-foods,Plant Manager,Plant Manager,experience running a 24/6 food plant with food safety focus,-
+https://www.linkedin.com/company/martin%27s-famous-pastry-shoppe-inc-,Maintenance Manager,Maintenance Manager,preventive and predictive maintenance of production equipment and utility infrastructure,-
+https://www.linkedin.com/company/monti-inc-,Director of Commercial Operations,Director of Commercial Operations,standardizing commercial processes across sales and operational functions,-
+https://www.linkedin.com/company/matrixdesigngroup-llc,"General Manager, Performance General Manager, Performance","General Manager, Performance","running heavy fabrication, equipment rebuilding and repair operations",-
+https://www.linkedin.com/company/kalmbach-feeds-inc-,Maintenance Manager,Maintenance Manager,coordinating machinery maintenance and managing third-party contractors,-
+https://www.linkedin.com/company/harrell%27s-llc,Operations Manager,Operations Manager,"managing warehouse operations, order fulfillment and delivery coordination",-
+https://www.linkedin.com/company/senox-corporation,Maintenance Manager,Maintenance Manager,running CMMS administration and maintenance across multiple facilities,-
+https://www.linkedin.com/company/cst-industries-inc-,Production Manager,Production Manager,leading hourly associates through daily production alongside procurement and quality,-
+https://www.linkedin.com/company/stowers-machinery-corporation,General Manager of Rental Division,General Manager of Rental Division,"running rental fleet planning, utilization and branch financial results",-
+https://www.linkedin.com/company/quincy-compressor,"Regional Operations Manager - Charlotte, NC",Regional Operations Manager,leading a regional service business and supervising Service Managers,-
+https://www.linkedin.com/company/pti-engineered-plastics,Maintenance Manager,Maintenance Manager,managing maintenance staff and contractors for production equipment and utilities,-
+https://www.linkedin.com/company/xetex-inc-,Production Manager,Production Manager,leading production supervisors across multiple departments on schedules and delivery,-
+https://www.linkedin.com/company/emsclad,Supply Chain Manager (On-Site),Supply Chain Manager,"end-to-end supply chain covering procurement, inventory and demand planning",-
+https://www.linkedin.com/company/vibrantingredients,Strategic Sourcing Manager,Strategic Sourcing Manager,sourcing strategies for ingredients and packaging with supplier negotiations,-
+https://www.linkedin.com/company/fairbanks-scales,Branch Manager - Construction / Building Materials,Branch Manager,coaching Team Leads on the floor to improve safety,-
+https://www.linkedin.com/company/volm-companies,Purchasing Manager,Purchasing Manager,"building purchasing procedures, supplier contracts and bidding for procurement teams",-
+https://www.linkedin.com/company/wellnesspetcompany,Corporate Controller,Corporate Controller,"consolidated reporting, GAAP compliance and lender and PE sponsor reporting",-
+https://www.linkedin.com/company/umc-inc.,Director of Manufacturing Technology,Director of Manufacturing Technology,"leading automation, applications engineering and facilities teams on capital strategy",-
+https://www.linkedin.com/company/van-drunen-farms,"Manager, Supply Chain Quality Audit",Manager of Supply Chain Quality Audit,running a global risk-based supplier quality audit program,-
+https://www.linkedin.com/company/dymax,Plant Manager,Plant Manager,"leading adhesive manufacturing, equipment manufacturing and maintenance teams",-
+https://www.linkedin.com/company/at&f,Vendor Manager (Manufacturing) - Cleveland,Vendor Manager,building machining capacity through vendor expansion and outsourcing strategy,-
+https://www.linkedin.com/company/bison-ametek,Director of Engineering,Director of Engineering,"stage-gate product development for motors, blowers, pumps and gearmotors",-
+https://www.linkedin.com/company/tse-industries-inc,Director of R & D and Quality,Director of R&D and Quality,polyurethane formulation from lab development through commercial production,-
+https://www.linkedin.com/company/rice-lake-weighing-systems,Quality Assurance Manager,Quality Assurance Manager,owning a quality management system with supplier quality oversight,-
+https://www.linkedin.com/company/southworth-products,Director of Engineering,Director of Engineering,leading engineering for core products and custom customer solutions,-
+https://www.linkedin.com/company/hgc-industries,Quality Manager,Quality Manager,running IATF 16949 and ISO 14001 compliant quality systems,-
+https://www.linkedin.com/company/amity-packing-co.-inc.,Chief Financial Officer,Chief Financial Officer,leading finance and accounting teams with solid internal controls,-
+https://www.linkedin.com/company/chl-systems,Production Manager - Custom Manufacturing,Production Manager,"leading custom fabrication, welding, machining and assembly production teams",-
+https://www.linkedin.com/company/inrcore,Plant Manager,Plant Manager,"leading daily plant production, staffing and maintenance coordination",-
+https://www.linkedin.com/company/kongsberg-unitedstates,Site Operations Manager,Site Operations Manager,"running facility operations, security and logistics for training and programs",-
+https://www.linkedin.com/company/alene-candles,Human Resources Manager (Manufacturing),Human Resources Manager,"leading HR teams in manufacturing, including onboarding and payroll audits",-
+https://www.linkedin.com/company/marcone,"Senior Director, Commercial Operations",Senior Director of Commercial Operations,leading Sales Operations and Enablement across HVAC and appliance lines,-
+https://www.linkedin.com/company/vogt-power-international,Global Sourcing Manager,Global Sourcing Manager,global strategic sourcing and supplier qualification for commodities,-
+https://www.linkedin.com/company/potter-global-tech,Mechanical Engineering Manager,Mechanical Engineering Manager,leading new product development and value engineering for mechanical products,-
+https://www.linkedin.com/company/sumitomodriveusa,Gearbox Engineering Manager,Gearbox Engineering Manager,leading gearbox application and design engineering teams,-
+https://www.linkedin.com/company/psi-molded-plastics,Quality Manager,Quality Manager,an IATF 16949 quality management system in molded plastics,-
+https://www.linkedin.com/company/piedmont-national,Human Resources Director,Human Resources Director,"leading HR from recruiting through benefits, compliance and employee relations",-
+https://www.linkedin.com/company/epacflexiblepackaging,Vice President Human Resources,Vice President of Human Resources,leading HR strategy across U.S. and Canadian manufacturing sites,-
+https://www.linkedin.com/company/greenleafcorporation,Human Resources Director,Human Resources Director,"leading recruitment, employee relations, compensation and HR compliance",-
+https://www.linkedin.com/company/american-fire-protection-group-inc-,Fire Sprinkler Project Manager,Fire Sprinkler Project Manager,planning and managing fire sprinkler projects and client communication,-
+https://www.linkedin.com/company/grainmillersinc,Compliance Manager - Food Manufacturing,Compliance Manager,food safety and regulatory compliance programs across multiple manufacturing facilities,-
+https://www.linkedin.com/company/momentum-manufacturing,Production Manager,Production Manager,"overseeing production schedules, bottlenecks and continuous improvement in manufacturing",-
+https://www.linkedin.com/company/power-flo-technologies,General Pump Shop Manager,General Pump Shop Manager,running a UL-certified panel shop and pump and motor repair,-
+https://www.linkedin.com/company/sussex-im,Manufacturing Systems Manager,Manufacturing Systems Manager,"manufacturing scheduling, capacity planning and production data systems across sites",-
+https://www.linkedin.com/company/wrightmfg,Production Department Manager,Production Department Manager,leading a two-shift welding department of 50+ employees,-
+https://www.linkedin.com/company/maks-plastics,"Plant Manager, Rotational Molding Plastics Operations",Plant Manager,running rotational molding plant operations from production to shipping,-
+https://www.linkedin.com/company/lock-joint-tube,Steel Purchasing Manager,Steel Purchasing Manager,"steel purchasing, spot-market RFQs and vendor contract management",-
+https://www.linkedin.com/company/race-winning-brands,"Sourcing Manager, Indirect Materials","Sourcing Manager, Indirect Materials",competitive sourcing and contract negotiation for indirect spend categories,-
+https://www.linkedin.com/company/bakerly,Quality Assurance Manager,Quality Assurance Manager,running HACCP plans and food safety systems in food manufacturing,-
+https://www.linkedin.com/company/sherwood-bedding-group,Manager - Quality (Salary),Quality Manager,quality standards for raw materials and finished products in manufacturing,-
+https://www.linkedin.com/company/momentivetech,Manufacturing Quality Manager,Manufacturing Quality Manager,running ISO 9001 and AS9100 quality systems with supplier quality,-
+https://www.linkedin.com/company/biorigin-sp,Quality Manager,Quality Manager,mill-wide process optimization and product safety programs,-
+https://www.linkedin.com/company/skyway-precision-inc.,Quality Manager,Quality Manager,"handling PPAP, corrective actions and measurement systems in manufacturing",-
+https://www.linkedin.com/company/american-aluminum-extrusion,QUALITY MANAGER,Quality Manager,running ISO 9001 quality management systems in aluminum extrusion,-
+https://www.linkedin.com/company/sauer-brands-inc,Plant Human Resources Manager,Plant Human Resources Manager,"plant HR operations including recruiting, onboarding and employee relations",-
+https://www.linkedin.com/company/max-solutions-inc,Plant Manager,Plant Manager,"leading plant production, safety, quality and cost control",-
+https://www.linkedin.com/company/air-conditioning-specialist,Operations Manager,Operations Manager,"call center capacity, lead conversion and operational reporting dashboards",-
+https://www.linkedin.com/company/oem-fabricators-inc.,Plant Manager,Plant Manager,leading plant operations with lean manufacturing and budget accountability,-
+https://www.linkedin.com/company/caspers-ice-cream,Supply Chain Director,Supply Chain Director,"leading integrated procurement, S&OP, logistics and distribution in food manufacturing",-
+https://www.linkedin.com/company/whirlwind-steel-buildings-inc,Quality Control Manager,Quality Control Manager,leading inspectors and quality systems under building code accreditation programs,-
+https://www.linkedin.com/company/wolfgang-candy-company,Food Safety and Quality Assurance Manager,Food Safety and Quality Assurance Manager,"running SQF certification, PCQI duties and HACCP programs",-
+https://www.linkedin.com/company/southern-champion-tray,Sr. Quality and CI Manager,Senior Quality and CI Manager,eQMS implementation and food safety systems across multiple sites,-
+https://www.linkedin.com/company/mazzella-companies,Controller,Controller,"plant-level accounting, inventory and standard costing, and monthly close",-
+https://www.linkedin.com/company/tenax-technologies-llc,Corporate Controller,Corporate Controller,government contract accounting and indirect rates,-
+https://www.linkedin.com/company/hussey-copper,Vice President Operations,Vice President of Operations,leading manufacturing and plant operations focused on throughput and cost,-
+https://www.linkedin.com/company/allen-industries-inc.,Plant Manager,Plant Manager,leading manufacturing teams and managing production costs and budgets,-
+https://www.linkedin.com/company/sabrosurafoods,CA Operations Manager,California Operations Manager,running production and warehouse operations across two manufacturing plants,-
+https://www.linkedin.com/company/wenger-corporation,Human Resources Operations Manager,Human Resources Operations Manager,"payroll, benefits, HR systems and workers' compensation operations",-
+https://www.linkedin.com/company/engineered-profiles-llc-dba-crane-plastics-llc,Maintenance Manager,Maintenance Manager,leading mechanics in a 24/7 plant on equipment reliability,-
+https://www.linkedin.com/company/kihomac,Supply Chain Manager,Supply Chain Manager,"supply chain planning, sourcing and inventory management in manufacturing",-
+https://www.linkedin.com/company/chapin-international,PURCHASING MANAGER,Purchasing Manager,securing materials at optimal cost while managing purchase orders,-
+https://www.linkedin.com/company/stellar-industries,Engineering Manager,Engineering Manager,engineering chassis-mounted fuel and lubrication equipment,-
+https://www.linkedin.com/company/woodland-gourmet,Plant Controller - International Spices,Plant Controller,month-end close and NetSuite ERP administration at an operations center,-
+https://www.linkedin.com/company/pac,"Vice President, Operations",Vice President of Operations,leading manufacturing operations across global sites on safety and cost,-
+https://www.linkedin.com/company/chelten-house-products-inc,Production Manager (Overnight),Production Manager,overnight food production and changeover coordination with sanitation and quality,-
+https://www.linkedin.com/company/verdant-specialty-solutions,Maintenance Manager,Maintenance Manager,"maintenance programs, shutdowns and root cause analysis for equipment reliability",-
+https://www.linkedin.com/company/colours-inc.,Director of Operations,Director of Operations,running multi-location retail operations and developing store leaders,-
+https://www.linkedin.com/company/christian-brothers-automotive,Automotive General Manager/Service Manager | $90K-120K* & Weekends Off | Lakeland Heights,Automotive General Manager,"running daily auto repair shop operations, estimates and profit margins",removed: role outside what GRN Piedmont places or unusable title
+https://www.linkedin.com/company/faip-north-america,Quality Manager,Quality Manager,"supplier quality, nonconformance reporting and calibration systems",-
+https://www.linkedin.com/company/hooper-corporation,Project Manager - Fire Protection,Project Manager,managing fire protection construction projects from estimating through closeout,-
+https://www.linkedin.com/company/weaverpopcorn,Director of Manufacturing,Director of Manufacturing,"long-term manufacturing strategy improving OEE, yield and food safety",-
+https://www.linkedin.com/company/festool,Senior Director of Integrated Supply Chain,Senior Director of Integrated Supply Chain,"leading North American S&OP, distribution and import compliance",-
+https://www.linkedin.com/company/chasecorporation,Quality Assurance Manager,Quality Assurance Manager,running IATF 16949 and ISO 9001 quality systems across sites,-
+https://www.linkedin.com/company/grass-america,Controller,Controller,manufacturing cost and inventory accounting with solid internal controls,-
+https://www.linkedin.com/company/valcor-engineering-corp-,Chief Financial Officer,Chief Financial Officer,"leading finance, tax and treasury with board-level advisory experience",-
+https://www.linkedin.com/company/jps-composite-materials,Director of Human Resources & EHS,Director of Human Resources and EHS,multi-site HR and EHS leadership including environmental compliance,-
+https://www.linkedin.com/company/igus-inc-,Vice President of Finance,Vice President of Finance,"leading accounting, tax, audit and treasury while advising executive leadership",-
+https://www.linkedin.com/company/rittalllc,"Manager – Production Planning & Control, Material Planning & Buying",Manager of Production Planning and Control,leading planners and buyers on production control and material buying,-
+https://www.linkedin.com/company/bhjusa,"Manager, Maintenance (Ft. Dodge, IA)",Maintenance Manager,plant maintenance including refrigeration systems and process safety,-
+https://www.linkedin.com/company/kent-nutrition,MAINTENANCE MANAGER,Maintenance Manager,preventive and predictive maintenance programs with complex troubleshooting,-
+https://www.linkedin.com/company/americhem,Production Manager,Production Manager,leading production and logistics operations including scheduling and inventory,-
+https://www.linkedin.com/company/xpel,Director of Manufacturing,Director of Manufacturing,"coating, lamination and converting processes for paint protection films",-
+https://www.linkedin.com/company/mustang-cat,Regional Operations Manager,Regional Operations Manager,improving rental branch labor productivity and fleet utilization,-
+https://www.linkedin.com/company/greystone-of-virginia,Production Manager,Production Manager,leading third-shift manufacturing and about 20 operators,-
+https://www.linkedin.com/company/duravant,Indirect Sourcing Manager,Indirect Sourcing Manager,global logistics and indirect sourcing with transportation contract management,-
+https://www.linkedin.com/company/all-flex-solutions,Northfield Process Engineering Manager,Process Engineering Manager,leading process engineers on manufacturing process and equipment improvements,-
+https://www.linkedin.com/company/bassett-mechanical,Engineering Manager - HVAC/Plumbing,Engineering Manager,leading HVAC and plumbing engineers on design and technical reviews,-
+https://www.linkedin.com/company/ricoh-electronics-inc-,Quality & Compliance Director,Quality and Compliance Director,"leading quality management, IT systems and regulatory compliance",-
+https://www.linkedin.com/company/mid-kansas-coop,Agronomy Plant Operator/Controller,Agronomy Plant Operator and Controller,"overseeing agronomy operations, inventory and compliance at multiple locations",-
+https://www.linkedin.com/company/power-drives-inc.,CONTROLLER,Controller,"leading accounting, credit and ERP systems in a manufacturing business",-
+https://www.linkedin.com/company/sobieski-mechanical-&-fire-protection,Operations Manager - Residential Services,Operations Manager,running HVAC and plumbing service dispatch and scheduling,-
+https://www.linkedin.com/company/canopy-u-s-a,Director of Operations,Director of Operations,"running cultivation, processing and packaging operations in a regulated facility",-
+https://www.linkedin.com/company/sierra-lobo-inc,INTERNAL JOB POSTING - Test Operations Manager,Test Operations Manager,"managing personnel, budgets and operations across test sites",-
+https://www.linkedin.com/company/amercareroyal,Warehouse Operations Manager,Warehouse Operations Manager,running compliant warehouse operations with accurate inventory and KPI monitoring,-
+https://www.linkedin.com/company/lodge-manufacturing,"Senior Manager, Integrated Planning & Procurement",Senior Manager of Integrated Planning and Procurement,"running an S&OP process integrating demand, supply and procurement plans",-
+https://www.linkedin.com/company/raynor-garage-doors,Director - Manufacturing Engineering,Director of Manufacturing Engineering,"leading manufacturing and controls engineering, automation and product launch operations",-
+https://www.linkedin.com/company/pittston-co-packers,Quality Manager,Quality Manager,quality assurance and food safety programs in co-packing,-
+https://www.linkedin.com/company/circuit-check-inc-,Applications Engineering Manager,Applications Engineering Manager,leading global applications engineers on RFQ prioritization and quoting platforms,-
+https://www.linkedin.com/company/trumpf-north-america,Head of Quality Control,Head of Quality Control,"shop-floor quality control, inspections and ISO 9001 compliance",-
+https://www.linkedin.com/company/texasairsystems,Mechanical Project Manager - Quality Assurance,Mechanical Project Manager,"verifying HVAC equipment orders, submittals and specifications for compliance",-
+https://www.linkedin.com/company/ubiquegroup,Chief Financial Officer,Chief Financial Officer,"advising ownership and lenders on capital allocation, forecasting and treasury",-
+https://www.linkedin.com/company/keystone-technologies,Forward Deployed Engineer (Office of the CEO),Forward Deployed Engineer,"building AI-powered workflows, internal applications and data pipelines",-
+https://www.linkedin.com/company/ajaxtocco-magnethermic,Controller,Controller,"month-end close, forecasting and operating planning for a manufacturing site",-
+https://www.linkedin.com/company/stephen-gould-corporation,VP of Finance,Vice President of Finance,"leading accounting, FP&A and collections across international locations",-
+https://www.linkedin.com/company/peaktoolworks,Corporate Controller- Manufacturing,Corporate Controller,corporate accounting and internal controls across multiple locations and entities,-
+https://www.linkedin.com/company/guardian-fire-services,Service Manager (Fire Sprinkler),Service Manager,fire sprinkler installation and repair including underground piping,-
+https://www.linkedin.com/company/jdhco,Plant Manager,Plant Manager,running feed mill operations from production planning to delivery,-
+https://www.linkedin.com/company/alexandria-industries,Maintenance Manager,Maintenance Manager,preventive and predictive maintenance with CMMS reporting,-
+https://www.linkedin.com/company/astronovainc,Supply Chain Manager,Supply Chain Manager,"procurement, planning and inventory control to keep production running",-
+https://www.linkedin.com/company/searsseating,Supply Chain Manager I,Supply Chain Manager,"commodity strategies and supplier partnerships balancing cost, quality and reliability",-
+https://www.linkedin.com/company/lexington-manufacturing-inc-,Supply Chain Manager,Supply Chain Manager,"end-to-end demand planning, procurement and logistics in manufacturing",-
+https://www.linkedin.com/company/detroitdefense,Director IT and Engineering Services Accounts,Director of IT and Engineering Services Accounts,capturing defense services opportunities and shaping proposal solutions,-
+https://www.linkedin.com/company/mrbraz-and-associates-pllc,Senior Mechanical Engineer / Engineering Manager,Senior Mechanical Engineer,designing industrial refrigeration systems including ammonia systems,-
+https://www.linkedin.com/company/wac-lighting,Director of Finance,Director of Finance,global finance and accounting across multiple entities including tax compliance,-
+https://www.linkedin.com/company/aerostarmfg,Chief Financial Officer,Chief Financial Officer,"financial strategy, forecasting and M&A financing for a manufacturer",-
+https://www.linkedin.com/company/pdw-ai,"Senior Manager, Flight Operations",Senior Manager of Flight Operations,scaling flight operations with pilot qualification and flight safety governance,-
+https://www.linkedin.com/company/carole-fabrics,Operations Manager,Operations Manager,"running facility manufacturing operations, safety and inventory",-
+https://www.linkedin.com/company/m-&-m-industries-inc-,Maintenance Manager,Maintenance Manager,maximizing equipment uptime with reliability programs and CMMS processes,-
+https://www.linkedin.com/company/parkwayfamilyautogroup,Fixed Operations Director - Multi OEM Group Experience Required,Fixed Operations Director,"leading service, parts and warranty across multiple OEM dealerships",-
+https://www.linkedin.com/company/dynatect,Supply Chain Manager- No Relocation Provided,Supply Chain Manager,"production scheduling, MRP/CRP and inventory strategy",-
+https://www.linkedin.com/company/ap-exhaust-technologies,Procurement & Supply Chain Manager,Procurement and Supply Chain Manager,"procurement, material planning and warehousing for a new production facility",-
+https://www.linkedin.com/company/hubbardton-forge,Supply Chain Manager,Supply Chain Manager,"sourcing, supplier relationships and inbound and outbound logistics",-
+https://www.linkedin.com/company/danieldefense,QUALITY MANAGER,Quality Manager,"quality programs, audits and corrective actions in defense manufacturing",-
+https://www.linkedin.com/company/c-s-chemicals,Ag Services Operations Manager ,Ag Services Operations Manager,scheduling agricultural application jobs and safe chemical handling,-
+https://www.linkedin.com/company/puffer-sweiven,Operations Manager - Field Valve Services,Operations Manager,managing field valve service operations and workforce planning,-
+https://www.linkedin.com/company/tank-holding-corp,Plant Manager,Plant Manager,"leading plant production, maintenance and shipping with a strategic plan",-
+https://www.linkedin.com/company/rm2-s-a-,Director of Depot Operations,Director of Depot Operations,running a nationwide network of pallet depots and operational KPIs,-
+https://www.linkedin.com/company/nixon-power-services,Technical Operations Manager,Technical Operations Manager,hands-on generator and switchgear work and technician mentorship,-
+https://www.linkedin.com/company/triosim-corporation,Supply Chain Director,Supply Chain Director,"building sourcing, logistics and trade compliance capabilities from scratch",-
+https://www.linkedin.com/company/purple-wave-inc-,Database Engineering Manager,Database Engineering Manager,"database architecture for high availability, performance and disaster recovery",-
+https://www.linkedin.com/company/web-industries,Director Operations North America,Director of Operations North America,leading multi-plant manufacturing and holding Plant Managers accountable,-
+https://www.linkedin.com/company/nord-gear-corporation,Industrial Engineering Manager,Industrial Engineering Manager,"labor standards, plant layouts and SAP routings for production",-
+https://www.linkedin.com/company/diversified-foods-&-seasonings-inc-,Production Manager,Production Manager,overseeing daily food production with quality and regulatory standards,-
+https://www.linkedin.com/company/unicorr-packaging-group,Purchasing Manager,Purchasing Manager,negotiating parts and materials rates and building purchasing strategy,-
+https://www.linkedin.com/company/aero-simulation-inc-,DIRECTOR OF SYSTEMS ENGINEERING,Director of Systems Engineering,experience leading systems and software engineering teams across concurrent programs,-
+https://www.linkedin.com/company/multisourcemanufacturingllc,Quality Assurance Manager,Quality Assurance Manager,quality systems leadership across multiple precision machining sites,-
+https://www.linkedin.com/company/airpro-diagnostics,Controller,Controller,multi-entity consolidation and post-merger accounting integration experience,-
+https://www.linkedin.com/company/restek-corporation,Director of Manufacturing,Director of Manufacturing,experience running headquarters manufacturing operations and major capital investments,-
+https://www.linkedin.com/company/fsfreshfoods,Director of Operations,Director of Operations,experience running a food manufacturing site with full P&L ownership,-
+https://www.linkedin.com/company/kurt-manufacturing,Production Manager,Production Manager,experience scheduling and coordinating department production across multiple teams,-
+https://www.linkedin.com/company/haribo-of-america-inc-,Head of Manufacturing Operations,Head of Manufacturing Operations,experience leading factory-floor operations and hourly confectionery production teams,-
+https://www.linkedin.com/company/gabriella-white-llc,Vice President of Supply Chain,Vice President of Supply Chain,"enterprise supply chain leadership spanning planning, sourcing, and replenishment",-
+https://www.linkedin.com/company/connselmerinc,Procurement Manager,Procurement Manager,direct and indirect materials sourcing for domestic manufacturing sites,-
+https://www.linkedin.com/company/aerostar-international-inc.,Mechanical Engineering Manager,Mechanical Engineering Manager,leading mechanical design teams through CAD reviews and compliance,-
+https://www.linkedin.com/company/flexjet,DevOps Platform Engineering Manager,DevOps Platform Engineering Manager,architecting hybrid cloud and on-premises platform infrastructure,-
+https://www.linkedin.com/company/neptune-technology-group,Supplier Quality Manager,Supplier Quality Manager,managing PPAP and FAI approvals for mechanical and electrical suppliers,-
+https://www.linkedin.com/company/ab-mauri-fleischmann-s,Maintenance Manager,Maintenance Manager,preventive and predictive maintenance in a factory environment,-
+https://www.linkedin.com/company/halcon,Maintenance / Mechatronics Manager,Maintenance and Mechatronics Manager,troubleshooting and maintaining automated manufacturing equipment with mechatronics skills,-
+https://www.linkedin.com/company/principal-manufacturing-corporation,Project Manager- Manufacturing,Manufacturing Project Manager,managing manufacturing projects from purchase order through production hand-off,-
+https://www.linkedin.com/company/porsche,Parts Supply Chain Program Manager,Parts Supply Chain Program Manager,dealer-facing parts replenishment and ordering program management,-
+https://www.linkedin.com/company/matrix-adhesives-group,Plant Controller,Plant Controller,plant financial close and inventory cost accounting under GAAP,-
+https://www.linkedin.com/company/janus-et-cie,"Director of Operations, Cushions",Director of Operations,"running cushion manufacturing, distribution, and logistics operations",-
+https://www.linkedin.com/company/doble-engineering,Production Manager,Production Manager,managing production schedules and staffing to hit delivery commitments,-
+https://www.linkedin.com/company/havocai,Head of Cloud Operations,Head of Cloud Operations,leading SRE and DevOps teams on release and incident management,-
+https://www.linkedin.com/company/valtir-llc,Production Manager - Galvanizing,Production Manager,supervising galvanizing production safely and on schedule,-
+https://www.linkedin.com/company/engine-power-components-inc.,Manufacturing Manager,Manufacturing Manager,"leading manufacturing departments including staffing, training, and performance management",-
+https://www.linkedin.com/company/backyard-products-llc,Engineering Manager,Engineering Manager,structural design and engineering calculations for product development,-
+https://www.linkedin.com/company/prototekllc,Director of Human Resources,Director of Human Resources,leading HR across a multi-site organization as an executive partner,-
+https://www.linkedin.com/company/gencor-industries-inc.,Corporate Controller,Corporate Controller,corporate accounting leadership and accurate financial reporting experience,-
+https://www.linkedin.com/company/cimarron-software,Manufacturing Manager,Manufacturing Manager,overseeing a precision machine shop and assembly operations,-
+https://www.linkedin.com/company/wprawl,Warehouse & Distribution Operations Manager,Warehouse and Distribution Operations Manager,"managing warehouse, shipping, and inventory operations across multiple locations",-
+https://www.linkedin.com/company/specsys-inc,Vice President of Operations,Vice President of Operations,"overseeing manufacturing, production, quality, and facilities for profitability",-
+https://www.linkedin.com/company/brooks-instrument,Manufacturing Engineering Manager,Manufacturing Engineering Manager,leading manufacturing engineers and technicians to support production objectives,-
+https://www.linkedin.com/company/indynefl,Quality Manager ,Quality Manager,on-site quality programs meeting government contract requirements,-
+https://www.linkedin.com/company/lasko-products,Field Quality Manager,Field Quality Manager,field quality data analysis and cross-functional corrective actions,-
+https://www.linkedin.com/company/park-industries,Engineering Project Manager,Engineering Project Manager,leading product development projects from concept through commercialization,-
+https://www.linkedin.com/company/ksb-us,Controller,Controller,cost accounting and finance leadership as a general manager's partner,-
+https://www.linkedin.com/company/wall-colmonoy,Chief Financial Officer,Chief Financial Officer,"treasury, financial strategy, and reporting leadership across business units",-
+https://www.linkedin.com/company/muncie-power-products-inc,Vice President of Operations,Vice President of Operations,"leading manufacturing, supply chain, and distribution operations",-
+https://www.linkedin.com/company/standfast-packaging-&-products,Maintenance Manager,Maintenance Manager,keeping plant equipment and facilities safe and reliable,-
+https://www.linkedin.com/company/rev-a-shelf,Plant Manager,Plant Manager,"leading production, maintenance, and supply chain across all plant operations",-
+https://www.linkedin.com/company/kleen-test-products,Maintenance Manager,Maintenance Manager,leading multi-shift maintenance teams and equipment troubleshooting,-
+https://www.linkedin.com/company/larsen-manufacturing,Senior Purchasing Manager,Senior Purchasing Manager,contract negotiation and vendor management for materials sourcing,-
+https://www.linkedin.com/company/integration-innovation-inc-,Senior Procurement Manager,Senior Procurement Manager,leading procurement and subcontract teams under federal regulatory compliance,-
+https://www.linkedin.com/company/ete-reman,Manager Purchasing,Purchasing Manager,parts procurement and materials management for remanufacturing production,-
+https://www.linkedin.com/company/kayem-foods-inc-,Food Safety and Quality Assurance Manager,Food Safety and Quality Assurance Manager,leading food safety and regulatory compliance programs across operations,-
+https://www.linkedin.com/company/plasticade,Controller,Controller,enterprise accounting oversight and internal controls across multiple locations,-
+https://www.linkedin.com/company/lion-elastomers,Production Manager,Production Manager,"running safe, cost-effective manufacturing operations against production metrics",-
+https://www.linkedin.com/company/judd-wire-inc-,Maintenance & Facilities Manager,Maintenance and Facilities Manager,leading maintenance and facilities for reliable manufacturing operations,-
+https://www.linkedin.com/company/gilman-cheese-corporation,Maintenance Manager,Maintenance Manager,directing facility and equipment maintenance in food manufacturing,-
+https://www.linkedin.com/company/omni-cable,Purchasing Manager,Purchasing Manager,managing inventory availability and supplier performance in purchasing,-
+https://www.linkedin.com/company/acibuildingsystems,Purchasing Manager,Purchasing Manager,steel materials purchasing and cost-reduction leadership,-
+https://www.linkedin.com/company/tsc-detectdefenddefeat,Engineering Manager – RF & Radar Products,Engineering Manager,leading RF and radar engineering sprint execution,-
+https://www.linkedin.com/company/marotta-controls,"Manager, Engineering IPT Leads",Engineering Manager,leading product development for power and actuation systems,-
+https://www.linkedin.com/company/dynafire,Fire Alarm Project Manager,Fire Alarm Project Manager,managing fire alarm and security construction projects for profitability,-
+https://www.linkedin.com/company/hanes-geo-components,Operations Manager,Operations Manager,setting accuracy and productivity standards in daily operations,-
+https://www.linkedin.com/company/purposebuilt-brands,"Sr. Manager, Procurement Operations",Senior Manager of Procurement Operations,direct materials and contract manufacturing vendor performance management,-
+https://www.linkedin.com/company/kids-ii,Operations Manager - US,Operations Manager,3PL warehouse and SAP IBP implementation project leadership,-
+https://www.linkedin.com/company/bci-buckeye-corrugated,Plant Manager,Plant Manager,"overseeing production, maintenance, scheduling, and shipping in a corrugated plant",-
+https://www.linkedin.com/company/copperweld-bimetallics,Quality Manager,Quality Manager,maintaining an ISO 9001 quality management system and audits,-
+https://www.linkedin.com/company/shawmut-corporation,Quality Manager - $105-125K,Quality Manager,plant quality systems and ISO compliance with continuous improvement,-
+https://www.linkedin.com/company/palfingerna,Controller,Controller,"overseeing accounting operations, budgeting, and cash flow management",-
+https://www.linkedin.com/company/the-malco-group,Finance Director,Finance Director,financial planning and post-acquisition integration support,-
+https://www.linkedin.com/company/hacoculinary,Plant Manager,Plant Manager,"running food manufacturing, maintenance, and facility operations with regulatory compliance",-
+https://www.linkedin.com/company/brentwood-industries,Plant Manager,Plant Manager,driving operational performance and systems development at a manufacturing site,-
+https://www.linkedin.com/company/town-and-country-living,Director of Production,Director of Production,global production and order fulfillment across multiple sourcing regions,-
+https://www.linkedin.com/company/prism-plastics,Operations Manager,Operations Manager,coordinating manufacturing across several areas within an approved budget,-
+https://www.linkedin.com/company/model1commercialvehicles,Operations Manager,Operations Manager,"managing daily production, logistics, and material flow at a facility",-
+https://www.linkedin.com/company/sterling-foods,Quality Assurance Manager,Quality Assurance Manager,leading food safety and regulatory programs as site authority,-
+https://www.linkedin.com/company/sti-technologies,Chief Engineer - Space Systems,Chief Engineer,technical authority over complex multi-domain space systems integration,-
+https://www.linkedin.com/company/prescient-edge-corp,Senior Engineering and Integration Manager,Senior Engineering and Integration Manager,integrating and modernizing C4I systems across ISR and telecom environments,-
+https://www.linkedin.com/company/frequency-electronics,Lab Manager- Engineering,Lab Manager,"assembly, alignment, and testing of RF and microwave components",-
+https://www.linkedin.com/company/toledo-tool-and-die,Quality Manager - Maumee Location,Quality Manager,leading IATF 16949 and ISO 9001 quality systems,-
+https://www.linkedin.com/company/wincup,Director of Compliance (EHS & Quality),Director of Compliance,"leading safety, quality, and compliance across all production facilities",-
+https://www.linkedin.com/company/sms-group-inc,Quality Manager,Quality Manager,"maintaining ISO quality systems, SSOPs, and customer specifications",-
+https://www.linkedin.com/company/wieland-designs-inc-,Controller,Controller,"general ledger accuracy, monthly close, and financial reporting leadership",-
+https://www.linkedin.com/company/thomas-foods-usa,Corporate Controller,Corporate Controller,"leading accounting operations, internal controls, and monthly and annual close",-
+https://www.linkedin.com/company/ssi-fire-safety-holdings-llc,Fire Sprinkler Operations Manager,Fire Sprinkler Operations Manager,"managing fire sprinkler installation, service, and field personnel allocation",-
+https://www.linkedin.com/company/pilot-chemical-company,Maintenance Manager,Maintenance Manager,leading a maintenance team and owning an annual operating budget,-
+https://www.linkedin.com/company/unarco-material-handling,Senior Manufacturing Manager,Senior Manufacturing Manager,directing large-scale plant operations in a heavy industrial environment,-
+https://www.linkedin.com/company/m-d-building-products,"Production Manager, Vinyl Extrusion",Production Manager,"running a vinyl extrusion department for safety, quality, and cost",-
+https://www.linkedin.com/company/hillyard,Operations Manager,Operations Manager,"overseeing customer service, warehouse, and delivery with 5S continuous improvement",-
+https://www.linkedin.com/company/gns-america,Quality Manager,Quality Manager,maintaining quality systems as the customer and supplier liaison,-
+https://www.linkedin.com/company/adhesives-research-inc-,Manufacturing Manager Chem Ops,Manufacturing Manager,"managing chemical operations areas for productivity, safety, and compliance",-
+https://www.linkedin.com/company/michigan-milk-producers-association,Maintenance Manager,Maintenance Manager,leading maintenance for a 24/7 dairy manufacturing operation,-
+https://www.linkedin.com/company/smith-&-loveless-inc-,Manufacturing Facility Maintenance Manager,Manufacturing Facility Maintenance Manager,reactive and proactive maintenance of equipment and facility infrastructure,-
+https://www.linkedin.com/company/precisionx,Production Manager,Production Manager,production scheduling and material flow in daily operations,-
+https://www.linkedin.com/company/ahw-llc,Shop Operations Manager - Turf & Utility,Shop Operations Manager,directing technicians in agricultural and construction equipment service workflows,-
+https://www.linkedin.com/company/inhancetechnologies,Engineering Manager,Engineering Manager,player-coach leadership of engineers building new processes and equipment,-
+https://www.linkedin.com/company/thermo-systems-llc,Engineering Manager,Engineering Manager,delivering complex automation and control system projects,-
+https://www.linkedin.com/company/port-erie-plastics,Controller,Controller,core accounting operations and US GAAP compliance,-
+https://www.linkedin.com/company/k---s-services,Operations Manager,Operations Manager,running a spindle repair operation and monitoring product flow,-
+https://www.linkedin.com/company/hentzen-coatings,Production Manager - Large Batch,Production Manager,large batch coatings manufacturing scheduling and cost containment,-
+https://www.linkedin.com/company/hayesperformancesystems,Plant Manager,Plant Manager,"setting strategic direction for manufacturing safety, quality, delivery, and cost",-
+https://www.linkedin.com/company/novvia-group,SOURCING CATEGORY MANAGER,Sourcing Category Manager,managing supply chain sourcing for specific purchasing categories,-
+https://www.linkedin.com/company/pennex-aluminum-solutions,Continuous Improvement and Quality Manager,Continuous Improvement and Quality Manager,quality management systems for aluminum cast products and operational excellence,-
+https://www.linkedin.com/company/bfpe-international,Fire Sprinkler Operations Manager,Fire Sprinkler Operations Manager,"running fire sprinkler inspections, service, repairs, and installations",-
+https://www.linkedin.com/company/braswell-family-farms,LAND & CATTLE OPERATIONS MANAGER,Land and Cattle Operations Manager,managing daily land and cattle production operations,-
+https://www.linkedin.com/company/milwaukee-electronics,Plant Manager,Plant Manager,overseeing all operations at an electronics manufacturing facility,-
+https://www.linkedin.com/company/a-stucki-company,Senior Plant Manager,Senior Plant Manager,full P&L responsibility for manufacturing operations and productivity,-
+https://www.linkedin.com/company/culligan-by-waterco,Operations Manager,Operations Manager,branch operations with warehouse and water treatment field service staff,-
+https://www.linkedin.com/company/southeasternequip,Regional Operations Manager,Regional Operations Manager,driving parts and service revenue across multiple branches,-
+https://www.linkedin.com/company/krypton-solutions,Supply Chain Manager,Supply Chain Manager,"demand planning, procurement, and inventory control for electronic assembly",-
+https://www.linkedin.com/company/heads-up-technologies,Quality Manager,Quality Manager,"running PCBA quality, supplier audits, and root cause analysis",-
+https://www.linkedin.com/company/fortisfire,Project Manager - Fire Alarm and Security,Project Manager,delivering fire alarm and security installation and integration projects,-
+https://www.linkedin.com/company/connecticut-dist-inc,"Vice President, Operations",Vice President of Operations,"running multi-shift warehouse, receiving, and distribution operations",-
+https://www.linkedin.com/company/qualis-llc,Vice President of Operations,Vice President of Operations,translating strategy into disciplined execution at a scaling technology company,-
+https://www.linkedin.com/company/daisy-brand,Manufacturing Data and Analytics Manager,Manufacturing Data and Analytics Manager,manufacturing data strategy and MES platform deployment,-
+https://www.linkedin.com/company/smartcap-international,Production Manager,Production Manager,"production scheduling, workflow management, and staff supervision to meet output",-
+https://www.linkedin.com/company/robinson-fans,General Manager,General Manager,leading a manufacturing facility with operational and financial accountability,-
+https://www.linkedin.com/company/the-mcalear-group,Strategic Sourcing Manager,Strategic Sourcing Manager,building domestic and international supply bases and negotiating contracts,-
+https://www.linkedin.com/company/didion-inc,Engineering Project Manager,Engineering Project Manager,leading major capital projects through commissioning and startup,-
+https://www.linkedin.com/company/ksm-electronics-inc,Quality Manager,Quality Manager,"quality management with ITAR, EAR, and CMMC compliance",-
+https://www.linkedin.com/company/thegundcompany,Regional Quality Manager,Regional Quality Manager,leading quality assurance and improvement across multiple manufacturing facilities,-
+https://www.linkedin.com/company/kilgore-flares-co.-llc,Controller,Controller,accounting operations and internal controls under GAAP and IFRS,-
+https://www.linkedin.com/company/fair-oaks-foods,SR Plant HR Manager,Senior Plant HR Manager,plant HR leadership covering workforce planning and employee relations,-
+https://www.linkedin.com/company/coghlin-companies,CT -5253 Production Manager,Production Manager,leading Lean strategies across assembly and test staffing,-
+https://www.linkedin.com/company/grt-rubber,Quality Manager,Quality Manager,implementing an ISO-compliant quality system to cut customer returns,-
+https://www.linkedin.com/company/amf-bakery-systems,Maintenance and Facilities Manager,Maintenance and Facilities Manager,routine and preventative maintenance on building systems and equipment,-
+https://www.linkedin.com/company/mid-continent-instruments-and-avionics,Engineering Manager (Electrical/Mechanical),Engineering Manager,full product development lifecycle for electro-mechanical products,-
+https://www.linkedin.com/company/advanced-digital-cable,"Senior Manager, Quality",Senior Manager of Quality,leading quality across three plants for safety and regulatory standards,-
+https://www.linkedin.com/company/tribute-baking-co,Quality Assurance Manager (Food Manufacturing),Quality Assurance Manager,food safety and quality assurance in food manufacturing,-
+https://www.linkedin.com/company/smalley-steel-ring-co,MANUFACTURING ENGINEERING MANAGER,Manufacturing Engineering Manager,leading manufacturing and packaging engineering teams on capital equipment projects,-
+https://www.linkedin.com/company/pexco,Quality Safety Manager,Quality and Safety Manager,quality management and safety programs with certification adherence,-
+https://www.linkedin.com/company/ventura-manufacturing,Controller,Controller,leading North America accounting and global corporate consolidation,-
+https://www.linkedin.com/company/link-engineering-company,Controller,Controller,accounting and financial management for testing service operations,-
+https://www.linkedin.com/company/schweidandsons,Operations Training & Development Manager,Operations Training and Development Manager,building a site learning system for manufacturing operations skill gaps,-
+https://www.linkedin.com/company/chroma-color-corporation,Maintenance Manager,Maintenance Manager,"preventative maintenance programs for safe, efficient manufacturing equipment",-
+https://www.linkedin.com/company/ameritex-machine-fabrication,Maintenance Manager,Maintenance Manager,data-driven preventative maintenance of CNC machinery,-
+https://www.linkedin.com/company/ilmakiage,Operations & Logistics Manager,Operations and Logistics Manager,global logistics and warehouse performance across a 3PL network,-
+https://www.linkedin.com/company/big-ass-fans,Purchasing Manager,Purchasing Manager,purchase order to delivery supply chain and inventory optimization,-
+https://www.linkedin.com/company/trexon,Quality Manager,Quality Manager,leading AS9100 quality management across two business units,-
+https://www.linkedin.com/company/valtris-specialty-chemicals,Maintenance & Engineering Manager,Maintenance and Engineering Manager,"preventive, predictive, and reactive maintenance with site capital planning",-
+https://www.linkedin.com/company/interdesign-inc-,Quality & Compliance Manager,Quality and Compliance Manager,consumer product safety and merchandise testing protocols,-
+https://www.linkedin.com/company/rembrandt-foods,VP of Operations,Vice President of Operations,running day-to-day manufacturing to deliver measurable business results,-
+https://www.linkedin.com/company/wausau-supply-company,Plant Manager- Diamond Kote Division,Plant Manager,leading a siding manufacturing facility against financial and customer targets,-
+https://www.linkedin.com/company/surleanfoods,Maintenance Manager Raw Production,Maintenance Manager,predictive maintenance for food manufacturing equipment and facility systems,-
+https://www.linkedin.com/company/little-rapids-corporation,Maintenance Manager,Maintenance Manager,leading a union maintenance team in a 24/7 paper mill,-
+https://www.linkedin.com/company/doggett-toyota-lift,Tire Operations Manager,Tire Operations Manager,running tire service operations with technician and safety management,-
+https://www.linkedin.com/company/the-conair-group,Lean Manufacturing Manager,Lean Manufacturing Manager,leading lean transformations and continuous improvement in manufacturing,-
+https://www.linkedin.com/company/barr-brands,Sourcing Manager- Chemicals,Sourcing Manager,strategic procurement of raw material chemicals in global supply chains,-
+https://www.linkedin.com/company/oliver-healthcare-packaging,Global Supplier Quality Manager,Global Supplier Quality Manager,"supplier selection, approval, and corrective action management",-
+https://www.linkedin.com/company/elyria-foundry,Process Engineering Manager,Process Engineering Manager,optimizing foundry manufacturing processes and standard operating procedures,-
+https://www.linkedin.com/company/jiffy-lube-international,Corporate Controller,Corporate Controller,multi-unit franchise accounting and royalty collections oversight,-
+https://www.linkedin.com/company/wayne-automatic-fire-sprinklers-inc,"Branch Manager - Charleston, SC",Branch Manager,"running a fire sprinkler branch covering sales, profitability, and staffing",-
+https://www.linkedin.com/company/loos-&-co.-inc.,Plant Manager,Plant Manager,"directing production and maintenance operations for safety, quality, and delivery",-
+https://www.linkedin.com/company/pretzel%27s-incorporated,Manager Manufacturing Finance,Manufacturing Finance Manager,finance partnering with manufacturing operations on budgeting and analysis,-
+https://www.linkedin.com/company/auroraflightsciences,Manufacturing Manager - Production Control,Manufacturing Manager,production control and material flow coordination to meet program schedules,-
+https://www.linkedin.com/company/flexfab-llc,Production Manager,Production Manager,leading production supervisors and associates on safety and delivery,-
+https://www.linkedin.com/company/penn-united-technologies-inc-,Additive Manufacturing Manager,Additive Manufacturing Manager,implementing and running additive manufacturing capabilities and capacity planning,-
+https://www.linkedin.com/company/fibrix-filtration,Safety & Continuous Improvement Manager,Safety and Continuous Improvement Manager,building a proactive safety culture with OSHA compliance and Lean,-
+https://www.linkedin.com/company/baker-mcguire,Product Quality Control Manager,Product Quality Control Manager,"corporate and plant-level quality programs, audits, and quality systems",-
+https://www.linkedin.com/company/greencoreusa,Sr. Food Safety Quality Assurance Manager,Senior Food Safety and Quality Assurance Manager,leading food safety quality assurance for regulatory and customer compliance,-
+https://www.linkedin.com/company/u.s.-tsubaki-inc.,"Manager, Engineering and Maintenance - TN",Engineering and Maintenance Manager,managing engineering and maintenance resources and capital projects,-
+https://www.linkedin.com/company/dmgmoriusa,Manufacturing Engineering Manager,Manufacturing Engineering Manager,leading a production technology team on productivity engineering projects,-
+https://www.linkedin.com/company/baker-manufacturing,Quality Manager,Quality Manager,"overseeing ISO 9001 certification, supplier quality, and corrective action programs",-
+https://www.linkedin.com/company/wilousa,Engineering Project Manager,Engineering Project Manager,delivering engineering projects within pump manufacturing operations,-
+https://www.linkedin.com/company/ventek-solutions,"Director, Plant Finance (Middle TN)",Director of Plant Finance,plant finance leadership partnering with plant managers on profitability,-
+https://www.linkedin.com/company/stateside-brands,Operations Manager | Western PA,Operations Manager,warehouse and distribution compliance with vehicle and driver oversight,-
+https://www.linkedin.com/company/robinson-metal-inc.,Assembly Plant Manager,Assembly Plant Manager,"overseeing daily assembly operations, plant budgets, and safety standards",-
+https://www.linkedin.com/company/zumbiel,Flexographic Printing Operations Manager,Flexographic Printing Operations Manager,leading a cross-functional flexographic printing team of up to 75,-
+https://www.linkedin.com/company/mercury-plastics-llc,General Manager,General Manager,business unit P&L management and multi-year financial planning,-
+https://www.linkedin.com/company/sopakco,Director of Procurement,Director of Procurement,"strategic sourcing of food ingredients, packaging, and services",-
+https://www.linkedin.com/company/eit-llc,Master Materials Program Manager,Master Materials Program Manager,supply chain process improvement and production scheduling,-
+https://www.linkedin.com/company/rosenbauer-america,RSD Supply Chain Manager,Supply Chain Manager,"leading purchasing, warehouse activities, and inventory control systems",-
+https://www.linkedin.com/company/sartori-company,Quality Assurance Manager,Quality Assurance Manager,implementing quality systems and SQF programs for food safety,-
+https://www.linkedin.com/company/shfoods,Quality Assurance and Food Safety Manager,Quality Assurance and Food Safety Manager,running HACCP and SQF programs with sanitation team leadership,-
+https://www.linkedin.com/company/scipi-usa,Corporate Controller,Corporate Controller,enterprise accounting and reporting across multiple business entities,-
+https://www.linkedin.com/company/monument-chemical,Production Manager- Amination and Micro,Production Manager,"safe, reliable chemical plant operations with HSE compliance",-
+https://www.linkedin.com/company/igniteimpossible,OPERATIONS MANAGER,Operations Manager,contract execution and requirements support for business unit leadership,-
+https://www.linkedin.com/company/alliance-steel-okc,Production Manager,Production Manager,directing shop operations and eliminating bottlenecks on schedule and quality,-
+https://www.linkedin.com/company/ck-power,Operations Manager,Operations Manager,managing plant functions and assembly teams using lean manufacturing,-
+https://www.linkedin.com/company/golden-platter-foods,Plant Production Manager,Plant Production Manager,overseeing food manufacturing production with supervisors and hourly employees,-
+https://www.linkedin.com/company/hmdunnaerosystems,Director - Plant Operations,Director of Plant Operations,leading machining and assembly operations aligned to strategic plans,-
+https://www.linkedin.com/company/nada,"Manager, Convention Operations",Convention Operations Manager,"convention center logistics, floor plans, and vendor management",-
+https://www.linkedin.com/company/eagle-systems,Senior Operations Logistics Manager (ESI 0202),Senior Operations Logistics Manager,integrated logistics and product support for P-8A mission systems,-
+https://www.linkedin.com/company/apex-water-process,Engineering Project Manager,Engineering Project Manager,leading customer projects from proposal through execution and closeout,-
+https://www.linkedin.com/company/millerbernd,Engineering Manager - T&I,Engineering Manager,"leading manufacturing engineering, methods, and programming teams",-
+https://www.linkedin.com/company/national-business-furniture,"Sr Product Manager, Operations Platforms",Senior Product Manager of Operations Platforms,"product strategy for OMS, WMS, and inventory systems",-
+https://www.linkedin.com/company/anagramballoons,Prepress Production Manager,Prepress Production Manager,running prepress operations and releasing print-ready artwork files,-
+https://www.linkedin.com/company/scitecinc,Material Procurement Project Manager,Material Procurement Project Manager,"procurement lifecycles for hardware, software, and infrastructure materials",-
+https://www.linkedin.com/company/cacique,"DIRECTOR, SUPPLY CHAIN STRATEGY & INNOVATION",Director of Supply Chain Strategy and Innovation,enterprise supply chain roadmaps and large-scale transformation programs,-
+https://www.linkedin.com/company/midtronics,Engineering Project Manager,Engineering Project Manager,"owning budgets, schedules, and delivery for global platform development",-
+https://www.linkedin.com/company/caplugs,Manufacturing Quality Manager,Manufacturing Quality Manager,directing a quality system to meet customer requirements,-
+https://www.linkedin.com/company/aim-solder,Global operations Director,Global Operations Director,multi-site global operations with Lean and operating plan oversight,-
+https://www.linkedin.com/company/proximo-spirits,Senior Operations Manager ,Senior Operations Manager,leading bottling operations with union members and leaders,-
+https://www.linkedin.com/company/midsouthextrusion,Director of Operations,Director of Operations,strategic leadership of production and maintenance functions,-
+https://www.linkedin.com/company/nueske%27s-applewood-smoked-meats,Quality Assurance & Food Safety Manager,Quality Assurance and Food Safety Manager,maintaining BRC AA grade food safety audit ratings,-
+https://www.linkedin.com/company/efpllc,"Quality Manager, DAL",Quality Manager,managing ISO 9001 and IATF 16949 systems in EPS molding,-
+https://www.linkedin.com/company/mi-jack,Chief Mechanical Engineer,Chief Mechanical Engineer,"leading product series from concept through launch, including electrification",-
+https://www.linkedin.com/company/motion-control-enterprises-llc,Operations Manager (48272),Operations Manager,"standardizing order fulfillment, inventory control, and shipping across distribution locations",-
+https://www.linkedin.com/company/global-tungsten-and-powders,Plant Engineering and Automation Manager,Plant Engineering and Automation Manager,"managing plant engineering, facilities, HVAC, and capital projects",-
+https://www.linkedin.com/company/fiber-materials-inc,Systems Engineering Program Manager,Systems Engineering Program Manager,taking high-temperature composite structures through new product introduction,-
+https://www.linkedin.com/company/hyperionsolutions,Chief Engineer - Elevator Systems,Chief Engineer,electro-mechanical elevator brake design and root cause investigation,-
+https://www.linkedin.com/company/growscape-official,Tooling Engineering Manager,Tooling Engineering Manager,injection molding and thermoforming tooling design and maintenance,-
+https://www.linkedin.com/company/peoria-production-solutions,Chief Financial Officer,Chief Financial Officer,"non-profit budgeting, forecasting, and full revenue cycle management",-
+https://www.linkedin.com/company/world-emblem-international-inc,Plant Controller,Plant Controller,payroll and cost accounting across multiple international entities,-
+https://www.linkedin.com/company/threat-tec,Chief Operating Officer,Chief Operating Officer,integrator-style execution of program delivery and KPI tracking,-
+https://www.linkedin.com/company/western-international-gas-&-cylinders,Plant Manager,Plant Manager,"running acetylene plant production, distribution, and safety programs",-
+https://www.linkedin.com/company/tolomatic,Production Manager,Production Manager,leading assembly operations with continuous improvement and supervisor coaching,-
+https://www.linkedin.com/company/parrylabs,"Director, Supply Chain & Planning",Director of Supply Chain and Planning,procurement under AS9100 and ITAR for aerospace and defense hardware,-
+https://www.linkedin.com/company/intermatic,Engineering Project Manager,Engineering Project Manager,"managing new product development scope, schedule, and budget",-
+https://www.linkedin.com/company/prime-controls,Manager of Engineering,Manager of Engineering,leading engineering and VDC departments through project execution,-
+https://www.linkedin.com/company/trideum-corporation,Executive Director of Finance,Executive Director of Finance,"budgeting, forecasting, and treasury management for a board-led organization",-
+https://www.linkedin.com/company/bodine-electric-company,Director of Finance,Director of Finance,"overseeing financial reporting, budgeting, and treasury for a manufacturer",-
+https://www.linkedin.com/company/total-fire-protection,Director of Service Operations,Director of Service Operations,managing P&L across multiple fire and life safety divisions,-
+https://www.linkedin.com/company/kinetic-engine-systems,Production Manager,Production Manager,multi-axis CNC machining of aerospace engine components under AS9100,-
+https://www.linkedin.com/company/eastek-international,Program Manager - Electronic Manufacturing Services,Program Manager,electronic manufacturing services customer programs and long-term forecasting,-
+https://www.linkedin.com/company/national-safety-apparel,Corporate Controller,Corporate Controller,running GAAP reporting and month-end close across multiple manufacturing facilities,-
+https://www.linkedin.com/company/ironcraftusa,Director of Finance,Director of Finance,accounting and internal controls across multiple manufacturing entities,-
+https://www.linkedin.com/company/microbest-inc,Operations Manager,Operations Manager,running a three-shift precision manufacturing facility,-
+https://www.linkedin.com/company/general-kinematics-corporation,Supply Chain Manager,Supply Chain Manager,"purchasing, warehousing, and logistics with ERP optimization",-
+https://www.linkedin.com/company/nylabone,"(On-site: NJ) Senior Vice President, Supply Chain",Senior Vice President of Supply Chain,"end-to-end procurement, logistics, and distribution strategy",-
+https://www.linkedin.com/company/tapconet,Director of Operations Engineering,Director of Operations Engineering,manufacturing and applications engineering for signage and warning systems,-
+https://www.linkedin.com/company/jost-international,Chief Engineer,Chief Engineer,landing gear and kingpin design and deployment,-
+https://www.linkedin.com/company/the-step2-company,"Quality Manager, SB",Quality Manager,running a plant quality management system and QC department,-
+https://www.linkedin.com/company/armor-metal-group,Plant Controller,Plant Controller,"manufacturing cost accounting, overhead rates, and inventory accuracy",-
+https://www.linkedin.com/company/sellars-wipers,Corporate Controller,Corporate Controller,"monthly close, external audits, payroll, and tax compliance",-
+https://www.linkedin.com/company/the-parrott-group-of-companies-d.b.a-as-ashley-homestore,General Manager,General Manager,"driving showroom sales performance, inventory, and product mix",-
+https://www.linkedin.com/company/mott-corporation,Manufacturing Production Manager,Manufacturing Production Manager,supervising frontline operators and reducing production lead times,-
+https://www.linkedin.com/company/kln-family-brands,Director of Fulfillment & 3PL Operations,Director of Fulfillment and 3PL Operations,building scalable fulfillment and value-added 3PL warehouse operations,-
+https://www.linkedin.com/company/duratech-industries,Plant Manager,Plant Manager,improving production processes with a focus on safety and quality,-
+https://www.linkedin.com/company/trienda-corporation,Maintenance Manager,Maintenance Manager,directing multi-shift maintenance across two facilities,-
+https://www.linkedin.com/company/mississippi-lime-company,Procurement Manager,Procurement Manager,enterprise procurement and supplier performance across multiple locations,-
+https://www.linkedin.com/company/mom%27s-meals,Quality Assurance Manager,Quality Assurance Manager,"managing SQF, HACCP, and USDA/FSIS regulatory compliance",-
+https://www.linkedin.com/company/panasonic-automotive-systems,"Warehouse Solutions Engineering, Manager",Warehouse Solutions Engineering Manager,warehouse layout design and automation under ISO and IATF standards,-
+https://www.linkedin.com/company/clarion-technologies-inc,Plant Quality Manager,Plant Quality Manager,"running plant quality systems, audits, and defect reduction",-
+https://www.linkedin.com/company/milton-cat,Controller,Controller,multi-state corporate accounting and GAAP financial reporting,-
+https://www.linkedin.com/company/simona-america-inc,Plant Controller,Plant Controller,"product costing, forecasting, and working capital in manufacturing",-
+https://www.linkedin.com/company/day-lee-foods,Maintenance Manager,Maintenance Manager,"equipment reliability under USDA, SQF, and HACCP standards",-
+https://www.linkedin.com/company/davlyn-group,Operations Manager,Operations Manager,driving Lean and Six Sigma initiatives in a manufacturing facility,-
+https://www.linkedin.com/company/mercury-electronics,Purchasing Manager,Purchasing Manager,negotiating contracts and building a certified supplier base,-
+https://www.linkedin.com/company/tracesystems,C2ISR Engineering Project Manager,C2ISR Engineering Project Manager,drafting PWS and SOW documents and managing the POM cycle,-
+https://www.linkedin.com/company/universal-instruments,Quality Manager,Quality Manager,"supplier, product, and field quality under ISO 9001",-
+https://www.linkedin.com/company/hayes-manufacturing-company,Controller,Controller,"site budgets, forecasts, and plant cost analysis",-
+https://www.linkedin.com/company/john-volpi-and-company-inc,Maintenance Manager,Maintenance Manager,preventive maintenance programs and maintenance budget oversight,-
+https://www.linkedin.com/company/chicago-meat-authority,Maintenance Manager,Maintenance Manager,food plant maintenance planning and minimizing production downtime,-
+https://www.linkedin.com/company/dynisco,Operations Director,Operations Director,"driving Lean transformation across factory manufacturing, supply chain, and quality",-
+https://www.linkedin.com/company/frontier-coop,Purchasing Operations Manager,Purchasing Operations Manager,leading buyers and managing co-packing and external manufacturing,-
+https://www.linkedin.com/company/perma-pipe,Regional Procurement Manager - North America,Regional Procurement Manager,sourcing strategy and supplier management across North American sites,-
+https://www.linkedin.com/company/quality-liquid-feeds,Plant Manager,Plant Manager,managing FDA and FSMA compliance in feed manufacturing,-
+https://www.linkedin.com/company/attach-acquisition-holdco,Vice President Operations,Vice President of Operations,driving Lean manufacturing across multiple facilities and scalable operating systems,-
+https://www.linkedin.com/company/rochester-wire-and-cable-llc,Supply Chain Manager,Supply Chain Manager,"procurement, production planning, and inventory for custom materials",-
+https://www.linkedin.com/company/hoffman-&-hoffman-inc.,Senior Engineering Project Manager,Senior Engineering Project Manager,leading complex engineering projects with technical risk management,-
+https://www.linkedin.com/company/nutsdotcom,"Manager, Operational Excellence & Industrial Engineering",Manager of Operational Excellence and Industrial Engineering,"industrial engineering, labor margins, and automation and robotics roadmaps",-
+https://www.linkedin.com/company/geekplusrobotics,Production Manager – Robot Assembly Operations,Production Manager,robot assembly and testing with third-party assemblers,-
+https://www.linkedin.com/company/valley-queen-cheese-factory-inc-,Quality Assurance Manager,Quality Assurance Manager,"running FSMA, SQF, and Grade A food safety programs",-
+https://www.linkedin.com/company/mcmillan-electric-company,Director of Quality,Director of Quality,quality management systems and corrective action on the production floor,-
+https://www.linkedin.com/company/ameriqual-foods,Director of Maintenance and Engineering,Director of Maintenance and Engineering,equipment reliability strategy and capital project management,-
+https://www.linkedin.com/company/eddy-packing-co-inc,Director Food Safety and Quality Assurance (FSQA),Director of Food Safety and Quality Assurance,managing BRC audits and USDA/FSIS regulatory compliance,-
+https://www.linkedin.com/company/schebler-co,Human Resources Director,Human Resources Director,"employee relations, HR compliance, and talent acquisition",-
+https://www.linkedin.com/company/nexperasolutions,Operations Manager,Operations Manager,sulfuric acid production under strict regulatory compliance,-
+https://www.linkedin.com/company/bruno_2,Senior Operations Manager,Senior Operations Manager,"leading machining, welding, and fabrication teams of 150 people",-
+https://www.linkedin.com/company/khs-usa-inc.,Production Manager - Kisters,Production Manager,machine builds and scaling production across engineering and supply chain,-
+https://www.linkedin.com/company/aerofil-technology-inc.,Manager - Production Planning & Purchasing-Aerofil,Manager of Production Planning and Purchasing,buyer and planner leadership with SAP data integrity,-
+https://www.linkedin.com/company/bericap-north-america,Plant Manager,Plant Manager,"daily plant production, budgeting, and continuous improvement",-
+https://www.linkedin.com/company/saturn-petcare-inc-us,Director of Sourcing & Procurement,Director of Sourcing and Procurement,domestic and global procurement and supplier base management,-
+https://www.linkedin.com/company/weil-mclain,Controller,Controller,managing U.S. GAAP and SOX compliance in manufacturing accounting,-
+https://www.linkedin.com/company/commercial-specialty-truck-holdings-llc,Plant Manager,Plant Manager,"leading production teams on safety, scheduling, and waste reduction",-
+https://www.linkedin.com/company/geater-machining-&-mfg,Supply Chain Manager,Supply Chain Manager,"procurement, materials planning, and inventory control in regulated manufacturing",-
+https://www.linkedin.com/company/eriez,Supply Chain Director,Supply Chain Director,"demand planning, procurement, and logistics across the supply chain",-
+https://www.linkedin.com/company/ssai,Quality Manager,Quality Manager,running AS9100 quality systems for aerospace and defense,-
+https://www.linkedin.com/company/graver-technologies,Engineering Manager - Plant Improvement and Safety,Engineering Manager,"facility maintenance, reliability engineering, and EHS leadership",-
+https://www.linkedin.com/company/gast-manufacturing-inc,"Director, Global Quality - Pneumatics",Director of Global Quality,standardizing global quality processes across a pneumatics platform,-
+https://www.linkedin.com/company/special-lite-inc-,Controller,Controller,"financial reporting, tax compliance, and budget preparation",-
+https://www.linkedin.com/company/baker-industries-inc,"General Manager, Aerospace & Defense",General Manager,full P&L ownership of a defense aerospace manufacturing facility,-
+https://www.linkedin.com/company/watchfire-signs-by-time-o-matic,Production Manager,Production Manager,"shop resource planning, product audits, and safety practices",-
+https://www.linkedin.com/company/deutsch-family-wine-&-spirits,Website Operations Manager,Website Operations Manager,running a brand website portfolio with digital agencies,-
+https://www.linkedin.com/company/iragreen,Planning/Purchasing Manager,Planning and Purchasing Manager,"procurement, inventory control, and aligning demand with production capacity",-
+https://www.linkedin.com/company/sportech-inc-,Sourcing Manager,Sourcing Manager,strategic sourcing and negotiating complex global supplier agreements,-
+https://www.linkedin.com/company/kondex-corporation,Quality Manager,Quality Manager,managing ISO 9001 compliance and process controls,-
+https://www.linkedin.com/company/global-finishing-solutions-llc,Vice President of Engineering,Vice President of Engineering,leading multidisciplinary engineering teams in automation and controls,-
+https://www.linkedin.com/company/sje-inc-official,Manufacturing Supply Chain and Forecasting Manager,Manufacturing Supply Chain and Forecasting Manager,leading S&OP and demand forecasting with Lean principles,-
+https://www.linkedin.com/company/surfaceprep,Product Manager - Production Finishing Services,Product Manager,managing a production finishing services portfolio and demand forecasting,-
+https://www.linkedin.com/company/omgbp,Continuous Improvement Manager,Continuous Improvement Manager,leading Kaizen events and lean training in manufacturing,-
+https://www.linkedin.com/company/wilson-lumber-company,Truss Plant Manager,Truss Plant Manager,running a truss plant with over 150 employees,-
+https://www.linkedin.com/company/hormannnorthamerica,Maintenance Manager,Maintenance Manager,reactive and proactive facility and equipment maintenance management,-
+https://www.linkedin.com/company/detroit-engineered-products,Remote -Logistics Project Manager-Defense/Aerospace( Supply Chain-Risk Management) Remote,Logistics Project Manager,supply chain risk management frameworks for defense and aerospace,-
+https://www.linkedin.com/company/island-auto-group,Fixed Operations Director,Fixed Operations Director,"running service, parts, and body shop operations across brands",-
+https://www.linkedin.com/company/tactical-air-support-inc-,Vice President of Quality - JAX,Vice President of Quality,quality management systems and airworthiness assurance in aviation,-
+https://www.linkedin.com/company/dixie-chemical-co.,Vice President Finance,Vice President of Finance,"long-range planning, P&L management, and capital structure decisions",-
+https://www.linkedin.com/company/auto-glass-specialists,Consumer Lending Operations Manager,Consumer Lending Operations Manager,consumer lending operations and regulatory compliance,-
+https://www.linkedin.com/company/autosdlvrd,"Hub Manager | Automotive Logistics & Operations | Newburgh, NY",Hub Manager,automotive hub inventory control and driver supervision,-
+https://www.linkedin.com/company/ldv,Controller,Controller,"financial planning, monthly results, and managing an accounting department",-
+https://www.linkedin.com/company/ita-international,"Director, Technology Operations",Director of Technology Operations,"managing IT infrastructure, security, and CMMC compliance for government contracting",-
+https://www.linkedin.com/company/clark-reliance-corporation,Manufacturing Manager,Manufacturing Manager,leading production and maintenance with capital expenditure oversight,-
+https://www.linkedin.com/company/oxindustries,Maintenance Manager,Maintenance Manager,preventative maintenance programs for production machinery and facilities,-
+https://www.linkedin.com/company/pse-group-company,General Manager – Miami Distribution & Warehouse,General Manager,running a warehouse and production facility with KPIs,-
+https://www.linkedin.com/company/eosysgroup,Engineering Project Manager,Engineering Project Manager,managing automation projects that transform manufacturing business processes,-
+https://www.linkedin.com/company/avtron-power-solutions,Global Director of Finance,Global Director of Finance,"global budgeting, forecasting, and cost reduction initiatives",-
+https://www.linkedin.com/company/tip-top-poultry-inc,Salary Production Plant Manager,Salaried Production Plant Manager,"directing plant safety, production, maintenance, and quality",-
+https://www.linkedin.com/company/wysocki-family-farms,"Director, Plant Operations",Director of Plant Operations,"potato processing plant production, quality, and maintenance oversight",-
+https://www.linkedin.com/company/doskocil-manufacturing---dba-petmate,"Manager, Product Operations",Manager of Product Operations,product master data and SKU rationalization in Oracle,-
+https://www.linkedin.com/company/frymaster,Manufacturing Project Manager (62237),Manufacturing Project Manager,leading manufacturing projects from concept to implementation,-
+https://www.linkedin.com/company/wolverine-advanced-materials,"Sr. Manager, Supply Chain Operations",Senior Manager of Supply Chain Operations,"material planning, S&OP, and logistics for North American operations",-
+https://www.linkedin.com/company/general-plastics-&-composites-lp,VP of Manufacturing,VP of Manufacturing,driving Lean and Six Sigma across multiple plants,-
+https://www.linkedin.com/company/adaptecsolutions,Director of Engineering,Director of Engineering,"leading mechanical, controls, and robot engineering for automation systems",-
+https://www.linkedin.com/company/multivacusa,Application Engineering Manager - Packaging,Application Engineering Manager,pre-sale technical support for packaging machinery projects,-
+https://www.linkedin.com/company/madison-kipp-corporation,Engineering Program Manager,Engineering Program Manager,managing customer programs from concept through production,-
+https://www.linkedin.com/company/lou-fusz-automotive-network,Production Manager/Service Dispatcher,Production Manager,dispatching repair orders and monitoring service shop productivity,-
+https://www.linkedin.com/company/diluigi-foods,"IT Manager, Manufacturing Systems, ERP and Infrastructure","IT Manager of Manufacturing Systems, ERP, and Infrastructure",administering ERP and IT network security in manufacturing,removed: role outside what GRN Piedmont places or unusable title
+https://www.linkedin.com/company/premium-peanut,Maintenance Manager,Maintenance Manager,equipment reliability in a shelling facility,-
+https://www.linkedin.com/company/echo-lake-foods-llc,Continuous Improvement Manager,Continuous Improvement Manager,lean management tools and Kaizen events across manufacturing sites,-
+https://www.linkedin.com/company/beckett-thermal-solutions,"Continuous Improvement Manager, Lean Transformation",Continuous Improvement Manager,deploying a Lean management system and coaching leaders,-
+https://www.linkedin.com/company/bush-hog-llc,Purchasing Manager,Purchasing Manager,"supplier performance on cost, quality, and delivery within ERP",-
+https://www.linkedin.com/company/vulcan-inc,Metals Procurement Manager,Metals Procurement Manager,strategic sourcing of metals and metal-based commodities,-
+https://www.linkedin.com/company/integriscomposites,Engineering Project Manager,Engineering Project Manager,taking advanced protection solutions from concept through qualification and production,-
+https://www.linkedin.com/company/veka-inc,Manager of Quality and Process Improvement,Manager of Quality and Process Improvement,managing an ISO 9001 quality system and QA/QC,-
+https://www.linkedin.com/company/artiflex-manufacturing-inc,Quality Manager (AERO),Quality Manager,quality control systems and certification audits in aerospace manufacturing,-
+https://www.linkedin.com/company/eli%27s-cheesecake,Information Technology Operations Manager,Information Technology Operations Manager,managing MSPs to SLAs and security baselines,removed: role outside what GRN Piedmont places or unusable title
+https://www.linkedin.com/company/louisiana-fish-fry-products,Maintenance & Reliability Manager,Maintenance and Reliability Manager,"reliability programs and maintenance, facilities, and utility operations",-
+https://www.linkedin.com/company/butech-bliss,Manufacturing Operations Manager,Manufacturing Operations Manager,multi-shift machining operations targeting 100% on-time delivery,-
+https://www.linkedin.com/company/fecon-inc-,Operations Manager,Operations Manager,"shop operations with 5S, KanBan, and OSHA compliance",-
+https://www.linkedin.com/company/dunmore,Supply Chain Manager,Supply Chain Manager,procurement and logistics for a multi-site team,-
+https://www.linkedin.com/company/vitaquest-international-llc,Vice President of Quality Control,Vice President of Quality Control,cGMP and food safety compliance across QA and QC,-
+https://www.linkedin.com/company/metal-craft-&-riverside-machine-and-engineering,Production Manager,Production Manager,"leading manufacturing operations to production, quality, and safety targets",-
+https://www.linkedin.com/company/cmcmod,Maintenance Manager,Maintenance Manager,preventive maintenance and hands-on electrical and mechanical troubleshooting,-
+https://www.linkedin.com/company/valtoem,Supply Chain Planning Manager,Supply Chain Planning Manager,production scheduling and inventory planning across a multi-site network,-
+https://www.linkedin.com/company/actylis,Director Quality,Director of Quality,"quality assurance, quality control, and food safety across manufacturing facilities",-
+https://www.linkedin.com/company/cooley-group,Facilities Engineering & EH&S Manager,Facilities Engineering and EHS Manager,plant maintenance and EHS compliance in a zero-injury culture,-
+https://www.linkedin.com/company/uplift-desk,Controller,Controller,"running day-to-day accounting, payroll, and financial record integrity",-
+https://www.linkedin.com/company/astro-shapes,Human Resources Director,Human Resources Director,employee and labor relations across multiple manufacturing facilities,-
+https://www.linkedin.com/company/temperpack,Plant Finance Manager,Plant Finance Manager,"plant cost accounting, inventory controls, and budgeting",-
+https://www.linkedin.com/company/hoshizaki-america,"Sr. Vice President, Operations",Senior Vice President of Operations,"leading manufacturing, engineering, and supply chain with integrated S&OP",-
+https://www.linkedin.com/company/invioautomation,Manager of Applications Engineering & Estimating,Manager of Applications Engineering and Estimating,turning customer requirements into costed automation solutions and proposals,-
+https://www.linkedin.com/company/haynes-international,Engineering Manager,Engineering Manager,manufacturing process routings for alloys and titanium products,-
+https://www.linkedin.com/company/sealing-devices-inc-,Quality Assurance Manager - Aerospace QMS,Quality Assurance Manager,running AS9100 quality management systems and root cause analysis,-
+https://www.linkedin.com/company/robin-industries-inc-,Quality Manager,Quality Manager,internal and external quality control systems and audits,-
+https://www.linkedin.com/company/federalheath,Controller,Controller,"financial policies, budgeting, forecasting, and executive reporting",-
+https://www.linkedin.com/company/millrockpack,Plant Manager (56653),Plant Manager,running plant operations and financials with accountability,-
+https://www.linkedin.com/company/the-robbins-company,Quality Assurance and Safety Manager,Quality Assurance and Safety Manager,quality and safety programs across domestic and international operations,-
+https://www.linkedin.com/company/cosmo-international-fragrances-sa,Fragrance Production Manager,Fragrance Production Manager,fragrance compounding operations across multiple shifts,-
+https://www.linkedin.com/company/conner-industries,Production Manager,Production Manager,"coordinating plant production, scheduling, and the cut and assembly process",-
+https://www.linkedin.com/company/decopac-inc.,Procurement Manager - Edible Products,Procurement Manager,sourcing and purchasing edible confections and food products,-
+https://www.linkedin.com/company/sunnen-products-company,Quality Control Manager,Quality Control Manager,inspection and calibration programs for precision honing machines,-
+https://www.linkedin.com/company/prinsco-inc-,Director Of HR,Director of HR,leading site HR partners in manufacturing and yard operations,-
+https://www.linkedin.com/company/cryopak,Manufacturing Site Manager,Manufacturing Site Manager,"running a manufacturing plant across production, engineering, quality, and finance",-
+https://www.linkedin.com/company/libra-industries,Manager of Supply Chain,Manager of Supply Chain,"purchasing, planning, and materials flow for a manufacturing operation",-
+https://www.linkedin.com/company/jax-kar-wash,Senior Director of Human Resources,Senior Director of Human Resources,"talent acquisition, total rewards, and complex employee relations",-
+https://www.linkedin.com/company/firetron-inc,Life Safety Inspection Manager,Life Safety Inspection Manager,"managing fire alarm, sprinkler, and suppression technicians",-
+https://www.linkedin.com/company/dover-chemical-corp,Maintenance & Reliability Manager,Maintenance and Reliability Manager,predictive and preventative maintenance of manufacturing assets,-
+https://www.linkedin.com/company/ptsolutionsus,Operations Manager,Operations Manager,"customer service, vending, and warehouse operations oversight",-
+https://www.linkedin.com/company/sark-wire,Production Manager,Production Manager,copper wire drawing and stranding production,-
+https://www.linkedin.com/company/futurefuel-chemical-company,Procurement Manager,Procurement Manager,direct chemicals sourcing and supplier contract negotiation,-
+https://www.linkedin.com/company/lc-industries,"Manager, Quality",Quality Manager,managing ISO 9001 and ISO 13485 quality systems and CAPA,-
+https://www.linkedin.com/company/prestige-brands-inc.,Sr. Quality Assurance Manager (Pharma),Senior Quality Assurance Manager,overseeing OTC drug and dietary supplement quality across contract manufacturers,-
+https://www.linkedin.com/company/quality-pork-international,Human Resources Director,Human Resources Director,leading HR across two meat processing facilities,-
+https://www.linkedin.com/company/caruso-usa,Operations Manager,Operations Manager,"directing manufacturing operations with safety, quality, and cost control",-
+https://www.linkedin.com/company/formerra,"Project Manager, Operations",Project Manager of Operations,leading cross-functional projects and establishing project governance,-
+https://www.linkedin.com/company/abrasive-technology,"Director, Dental Manufacturing Operations",Director of Dental Manufacturing Operations,"precision machining, electroplating, and heat treatment operations",-
+https://www.linkedin.com/company/mppinnovation,Plant Manager,Plant Manager,"directing plant safety, quality, delivery, and cost performance",-
+https://www.linkedin.com/company/virginia-international-raceway,Maintenance Manager,Maintenance Manager,"track, building, vehicle, and grounds maintenance oversight",-
+https://www.linkedin.com/company/guhring-ltd,Maintenance Manager,Maintenance Manager,equipment repair and preventative maintenance with manufacturing engineering leadership,-
+https://www.linkedin.com/company/microwave-products-group,"Manager, Supply Chain",Manager of Supply Chain,"supply planning, purchasing, and S&OP reviews",-
+https://www.linkedin.com/company/compositionbrands,Purchasing Manager,Purchasing Manager,leading a purchasing team and managing supplier relationships,-
+https://www.linkedin.com/company/wilcox-industries,Quality Manager,Quality Manager,developing quality programs and managing QC and QA teams,-
+https://www.linkedin.com/company/mshspacificpowergroup,Quality Systems & Compliance Manager,Quality Systems and Compliance Manager,managing ISO 9001:2015 quality systems and government contract compliance,-
+https://www.linkedin.com/company/carpenter-&-paterson-inc.,Controller,Controller,financial reporting and accounting operations oversight,-
+https://www.linkedin.com/company/infiltrator-water-technologies,Production and Logistics Manager,Production and Logistics Manager,improving production throughput with ERP-driven logistics and inventory,-
+https://www.linkedin.com/company/tree-brand-packaging,Plant Operations Manager,Plant Operations Manager,running a pallet manufacturing facility,-
+https://www.linkedin.com/company/cascade-engineering,Senior Materials Manager,Senior Materials Manager,"material planning, inventory control, and warehouse operations",-
+https://www.linkedin.com/company/eps-corporation,SR ENGINEERING PROGRAM MANAGER,Senior Engineering Program Manager,leading hardware and software projects from inception to deployment,-
+https://www.linkedin.com/company/metron-inc,Chief Systems Engineer,Chief Systems Engineer,autonomous maritime systems engineering and Navy safety compliance,-
+https://www.linkedin.com/company/hol-mac-corp-,Quality Assurance Manager,Quality Assurance Manager,site quality management systems and risk-based audits,-
+https://www.linkedin.com/company/cincinnati-incorporated,Sustaining Engineering Manager,Sustaining Engineering Manager,product lifecycle management and DFM cost reduction,-
+https://www.linkedin.com/company/scherer-bros.-lumber-co.,Truss Plant Manager,Truss Plant Manager,"running truss production, inventory, and shipping operations",-
+https://www.linkedin.com/company/exotic-automation-&-supply,Quality Manager,Quality Manager,leading a quality department with hands-on quality tasks,-
+https://www.linkedin.com/company/great-lakes-forest-products,Controller,Controller,month-end close leadership and cost and profitability analysis,-
+https://www.linkedin.com/company/independent-can-company,Plant Manager,Plant Manager,"leading plant operations on safety, quality, service, and cost",-
