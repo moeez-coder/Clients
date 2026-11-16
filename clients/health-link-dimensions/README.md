@@ -56,6 +56,12 @@ No lead or company snapshots yet. A pull can only happen after the client approv
 
 ## History
 
+- **2026-11-16**: **Offers section in doc 1 reworded as potential offers for the client's feedback** (Moe: "the offer and the freebie are all potential offer and freebie which the client has to give their thoughts on").
+  - **How:** our own tracked insert (change 39) was rejected and replaced with a reworded insert after paragraph 275, via `review_campaign_doc`.
+  - **New wording:** the section is now headed "Potential offers and freebies (for your feedback)". Every item is labelled "Potential guarantee" or "Potential freebie".
+  - **What it asks the client:** keep, change or drop each item; add their own offers; and give their view on the freebie-first versus guarantee-first split.
+  - **Doc state:** 39 open changes and 15 open comments. Not re-sent.
+
 - **2026-11-13**: **Offers section drafted for the bottom of doc 1, not yet applied.**
   - **Contents:** a general guarantee offer and a free offer per segment: pharma and biotech, medical device, and agencies. Hospitals and health plans are listed as future segments.
   - **Basis:** healthlinkdimensions.com claims, read on 2026-11-13.
