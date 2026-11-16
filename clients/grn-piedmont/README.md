@@ -34,6 +34,9 @@ Config UUIDs: Fire & Life Safety Leaders `e8538474-8bd8-4479-8878-5899efe1ccf4`;
 
 ## Sourced data in this repo
 
+- `sourcing/recruitment-specific-open-roles/2026-11-16-jobs.csv` — 4,426 job postings (3,347 kept, the rest marked removed with a reason) for the **Recruitment Specific Campaign** lead list, Blitz API `POST /v2/jobs/search`, last 120 days, pulled 2026-11-16
+- `sourcing/recruitment-specific-open-roles/2026-11-16-companies.csv` — 1,161 companies with a kept posting, one open role each, with a `leads_launch_set` count (246 produced no lead and stay in the file), derived from the jobs pull, 2026-11-16
+- `sourcing/recruitment-specific-open-roles/2026-11-16-leads.csv` — 1,563 prospects (1,559 launch set) at 915 companies, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-16, keyed by `linkedin_url`. Query record: `2026-11-16-leads.query.md`
 - `sourcing/tam/2026-11-16-jobs-sample.csv` — 250 job postings (50 newest per role family), sizing sample for the Recruitment Specific campaign (no config yet), Blitz API `POST /v2/jobs/search`, pulled 2026-11-16
 - `sourcing/tam/2026-11-16-sample-leads.csv` — 36 rows (35 prospects + 1 no-match placeholder) at 14 sampled companies, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-16, keyed by `linkedin_url`
 - `sourcing/tam/2026-11-16-clay-sample-companies.csv` — 40 companies (2 queries x 20), Clay MCP `search-companies` fit check, pulled 2026-11-16
@@ -41,5 +44,6 @@ Config UUIDs: Fire & Life Safety Leaders `e8538474-8bd8-4479-8878-5899efe1ccf4`;
 
 ## History
 
+- **2026-11-16** — **New segment:** `recruitment-specific-open-roles` leads snapshot, 1,563 prospects (Blitz API only, on Moe's instruction "Use Blitz for sourcing"). Feeds the Recruitment Specific Campaign. Scope: Campaign-specific. Window 120 days (Moe). TAM/SAM: 1,161 hiring companies, large, so 2 contacts per company for manufacturing and 4 for the 25 fire & life safety companies. Overlap check: 18 of these also appear in `sourcing/tam/2026-11-16-sample-leads.csv` (same-day sizing sample); no other lead files exist. 5,990 Blitz records. Session session_013MzxQfShB3KmCf8R7naacT.
 - **2026-11-16** — TAM read for a new **Recruitment Specific** (open role / MPC) campaign. Moe asked for it on the Trillium Construction "Recruitment Specific Campaign" messaging and set the window to 120 days. Blitz counts: 3,870 matching manufacturing leadership postings in 120 days (855 in 30) at 201 to 1,000 employee Eastern/Central manufacturers, 556 fire & life safety postings before a noise gate. TAM/SAM read: manufacturing large, 2 contacts per company; F&LS small, 3 to 4. Scope: Campaign-specific. Full read in `sourcing/tam/2026-11-16-tam-read.query.md`. Session session_013MzxQfShB3KmCf8R7naacT.
 - **2026-11-16** — Folder created from `clients/_TEMPLATE/README.md`; profile, sourcing configs, campaigns and campaign doc synced from `tracking_clients`. The client was onboarded 2026-11-02 and had a doc and two campaigns already, but no folder in this repo.
