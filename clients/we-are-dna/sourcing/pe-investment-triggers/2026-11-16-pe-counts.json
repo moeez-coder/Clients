@@ -1,0 +1,522 @@
+{
+ "1-health-care-vet-dental|2026+": {
+  "total": 0,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2026
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [],
+  "records_used": 0,
+  "err": null
+ },
+ "1-health-care-vet-dental|2025+": {
+  "total": 0,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2025
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [],
+  "records_used": 0,
+  "err": null
+ },
+ "2-retail-hospitality|2026+": {
+  "total": 0,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2026
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [],
+  "records_used": 0,
+  "err": null
+ },
+ "2-retail-hospitality|2025+": {
+  "total": 3,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2025
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "Adanola",
+    "linkedin_url": "https://www.linkedin.com/company/adanola",
+    "last_funding_date": null,
+    "last_funding_type": null,
+    "employee_count": null
+   }
+  ],
+  "records_used": 1,
+  "err": null
+ },
+ "3-manufacturing-engineering|2026+": {
+  "total": 2,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2026
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "Froneri",
+    "linkedin_url": "https://www.linkedin.com/company/fronerii",
+    "last_funding_date": null,
+    "last_funding_type": null,
+    "employee_count": null
+   }
+  ],
+  "records_used": 1,
+  "err": null
+ },
+ "3-manufacturing-engineering|2025+": {
+  "total": 3,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2025
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "Froneri",
+    "linkedin_url": "https://www.linkedin.com/company/fronerii",
+    "last_funding_date": null,
+    "last_funding_type": null,
+    "employee_count": null
+   }
+  ],
+  "records_used": 1,
+  "err": null
+ },
+ "4-law-accounting|2026+": {
+  "total": 1,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2026
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "Canford Law",
+    "linkedin_url": "https://www.linkedin.com/company/canford-law-ltd",
+    "last_funding_date": null,
+    "last_funding_type": null,
+    "employee_count": null
+   }
+  ],
+  "records_used": 1,
+  "err": null
+ },
+ "4-law-accounting|2025+": {
+  "total": 6,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2025
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "Paperchase",
+    "linkedin_url": "https://www.linkedin.com/company/paperchase-global",
+    "last_funding_date": null,
+    "last_funding_type": null,
+    "employee_count": null
+   }
+  ],
+  "records_used": 1,
+  "err": null
+ },
+ "5-financial-services|2026+": {
+  "total": 7,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2026
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "FNZ",
+    "linkedin_url": "https://www.linkedin.com/company/fnz",
+    "last_funding_date": null,
+    "last_funding_type": null,
+    "employee_count": null
+   }
+  ],
+  "records_used": 1,
+  "err": null
+ },
+ "5-financial-services|2025+": {
+  "total": 17,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    },
+    "last_funding_type": {
+     "include": [
+      "Private equity"
+     ]
+    },
+    "last_funding_year": {
+     "min": 2025
+    }
+   },
+   "max_results": 1
+  },
+  "sample": [
+   {
+    "name": "Tide",
+    "linkedin_url": "https://www.linkedin.com/company/tide-banking",
+    "last_funding_date": null,
+    "last_funding_type": null,
+    "employee_count": null
+   }
+  ],
+  "records_used": 1,
+  "err": null
+ }
+}

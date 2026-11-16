@@ -1,0 +1,29 @@
+company_name,action,new_sector,note
+Ark Data Centres,drop,-,data centres: outside the five sectors
+Citation Group,drop,-,compliance software and services: outside the five sectors
+Lloyd's of London,drop,-,insurance market not a PE target; also mis-tagged manufacturing
+Bridgepoint,drop,-,private equity investor not a target
+Harworth Group (HWG),drop,-,property developer: outside the five sectors
+Harworth Group PLC,drop,-,property developer: outside the five sectors (duplicate)
+EasyJet,drop,-,airline: outside the five sectors and no completed PE deal
+Boots,drop,-,duplicate of The Boots Group
+Christie & Co,drop,-,business property advisers: outside the five sectors
+Dark Peak Analytics,drop,-,data and analytics firm: outside the five sectors
+Hometrack,drop,-,property data: outside the five sectors
+Westerleigh Group,drop,-,crematoria: outside the five sectors
+Nourish Care Systems Ltd,drop,-,care software vendor not a care provider
+Fisher Phillips LLP,drop,-,US law firm: not UK headquartered
+Canaccord Genuity Group,drop,-,Canadian parent; UK wealth arm kept
+Automotive & Industrial Consumables Ltd. (AIC),drop,-,duplicate of Automotive & Industrial Consumables Limited
+"Claridge's, Connaught, Berkeley, The Emory (Maybourne)",drop,-,owned by a sovereign investor not PE
+Whitbread,drop,-,listed company; no completed PE deal
+"Fuller, Smith & Turner PLC",drop,-,listed company; no completed PE deal for the group
+Torque,drop,-,logistics: outside the five sectors
+Crane Building Services & Utilities,recategorise,Manufacturing and engineering,building services engineering not financial services
+Time Finance,recategorise,Financial services,lender mis-tagged as manufacturing
+Poundland,recategorise,Retail and hospitality,retailer mis-tagged as health
+Shaw Gibbs,recategorise,Law and accounting,accountancy firm mis-tagged as health
+OCU Group,recategorise,Manufacturing and engineering,utilities engineering mis-tagged as health
+Bought By Many,recategorise,Financial services,pet insurer mis-tagged as health
+Montcalm International,recategorise,Manufacturing and engineering,medical equipment manufacturer mis-tagged as health
+Abacai,recategorise,Financial services,motor insurer mis-tagged as law and accounting
