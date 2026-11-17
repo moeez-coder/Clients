@@ -93,7 +93,9 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - **C7 Multiple Open Roles sizing (2026-11-17, proposed campaign, no config yet):** see `sourcing/tam/2026-11-17-c7-multiple-open-roles.query.md`.
   - `sourcing/tam/2026-11-17-c7-blitz-jobs.csv`: 10,249 LinkedIn job postings from the last 60 days in 7 Michiana towns, pulled 2026-11-17 via Blitz API `POST /v2/jobs/search`.
   - `sourcing/tam/2026-11-17-c7-blitz-hiring-companies.csv`: the 1,398 companies behind those postings, pulled 2026-11-17 via Blitz API `POST /v2/company/tam-by-jobs`, with ICP bucket and job counts. Parent config: none yet (the sizing comes before the campaign doc); closest existing is Michiana shift employers `184a0f39-d738-4f8f-a908-3c97d71dd4cf`.
-  - `sourcing/tam/classify.py`, `sourcing/tam/pull_jobs.py`: the scripts that produced these.
+  - `sourcing/tam/2026-11-17-c7-indeed-jobs.csv`: 1,010 Indeed job postings (last 60 days, 17 Michiana towns, IN), pulled 2026-11-17 via Apify actor `valig/indeed-jobs-scraper` run from GTM Sheets table `70ebdabf-fb7b-4c28-8aca-6d1cba3f8623`.
+  - `sourcing/tam/2026-11-17-c7-merged-hiring-companies.csv`: 1,650 hiring companies from LinkedIn + Indeed with ICP fit, signal tier and distinct-role counts; 323 are ICP-fit (or review) with 2+ roles.
+  - `sourcing/tam/classify.py`, `pull_jobs.py`, `merge.py`: the scripts that produced these.
 
 ## Analysis
 
@@ -101,6 +103,13 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-17** — **C7 Multiple Open Roles sizing finished (LinkedIn + Indeed).** Expanding the C7 segment opened in the entry below.
+  - **Final count (ICP-fit, last 60 days, distinct roles):** **323 companies with 2+ open roles of any kind; 189 with 2+ hourly/shift roles** (174 confirmed fit + 15 likely fit to review), 106 with 3+ hourly, 44 with 5+. That clears the 200–300 bar on "any roles"; on "hourly roles" it sits just under 200 but refills every month as postings roll over.
+  - **Indeed** (`valig/indeed-jobs-scraper`, 24 split runs via GTM Sheets) gave 1,010 in-area jobs and 13 companies LinkedIn did not have (Forest River Inc. among them). Indeed caps each search at about 500 results, so this is a top-up, not a full census. The two `memo23/apify-indeed-cheerio-ppr` runs never landed in 75+ minutes and were not used.
+  - **TAM/SAM read for per-company depth:** about 190–320 companies is a medium SAM, so plan 2–3 contacts per company (ops/production lead, HR, owner/GM at under 200 employees), more at A-tier companies (5+ hourly roles).
+  - Details: `sourcing/tam/2026-11-17-c7-multiple-open-roles.query.md`. GTM table `931ec6d5-d86b-4bc5-9f3a-25b8455c8b25` holds the 323 companies.
+  - Session: branch `claude/practical-darwin-ejgil8`.
 
 - **2026-11-17** — The repo owner asked for a new campaign that uses open jobs as the signal (any ICP-fit company with multiple open jobs) and for its company count. This is a **new segment**, proposed as C7 Multiple Open Roles; nothing is created in `tracking_clients` yet because a campaign doc and client approval come first.
   - **Resynced** profile, ICP configs, sourcing configs, campaigns and campaign docs from `tracking_clients` (`get_client`, `list_icp_configs`, `list_sourcing_configs`, `list_campaigns`, `list_campaign_docs`); no drift from the 2026-11-12 entries below.
