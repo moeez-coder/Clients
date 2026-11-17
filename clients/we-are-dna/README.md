@@ -10,12 +10,12 @@
 - **Slack channel ID:** C0CE71ZARLZ
 - **HeyReach workspace:** `172307` (heyreachConnected: true). No HeyReach MCP connector in the 2026-11-12 session served this workspace. 16 connectors answered `list_workspaces`, each with another client's workspace, and 13 returned 401. Reach it through tracking_clients' `gtm_sheet_*` HeyReach tools, which use the client's own key, or add a connector for 172307. Never use another client's connector.
 - **Staff:** campaign strategist Moeez; infrastructure John Paul; closer Rueban; GTM engineer `-` (unassigned); sourcing engineer `-` (unassigned).
-- **Booking link:** https://bookings.cloud.microsoft/book/WeAreDNA1@wearedna.co.uk/ (set in tracking_clients; it was empty at the 2026-11-12 sync)
-- **DNC:** `dncList` holds **143 companies** (name + domain) as of 2026-11-17, `dncSkipped` false. Mirrored verbatim to `context/dnc-list.csv` (with a normalised `company_domain` column added for matching). Earlier syncs found it empty; it was loaded in tracking_clients after 2026-11-16.
+- **Booking link:** https://bookings.cloud.microsoft/book/WeAreDNA1@wearedna.co.uk/ (set in tracking_clients by 2026-11-16)
+- **DNC:** `dncList` now holds **143 companies** (loaded into tracking_clients after 2026-11-12; `dncSkipped` false). Copy at `context/dnc-list.csv`. It includes Pets at Home, Medivet, Dunbia, Aesop and OVO, and 10 names match the GPG list by exact name. Campaign 6's 491 leads were pulled before it was loaded and have **not** been checked against it yet.
 - **Infrastructure:** `{"vaSeatCount": 10}`. `callTranscript` and `notes` are empty.
 - **Created in tracking_clients:** 2026-11-02 (`createdBy: sales`)
 - **Tracking client ID:** `f5ff426b-c514-4a64-91b0-0e141a6a0669`
-- **Last synced:** 2026-11-17 via `get_client` + `list_sourcing_configs` + `list_campaigns` + `list_campaign_docs`
+- **Last synced:** 2026-11-17 via `get_client` + `list_sourcing_configs` + `list_campaigns` + `list_campaign_docs` (doc 1 still `client_review`, 2 open comments, 221 open changes; no change since 2026-11-16)
 
 **Who they are:** a Bristol creative agency, trading since 2010. They work across three pillars: Employer Branding, Employee Engagement, and Marketing Solutions, using their BrandShift™ method. **They are not a recruitment agency** and charge no placement fees. Deal value is about $45k and the sales cycle is about 12 weeks (ICP form).
 
@@ -27,7 +27,7 @@ These are verbatim copies of tracking_clients fields, each with its source in a 
 - `context/icp-form.md`: `icpForm`, the client's own answers (submitted 2026-11-10), rendered as Q&A
 - `context/client-description.md`: `clientDescription`
 - `context/caller-notes.md`: `callerBriefing` + `callerFaqs`
-- `context/dnc-list.csv`: `dncList` (143 companies), pulled 2026-11-17, plus a `company_domain` column (host without `www.`) for matching
+- `context/dnc-list.csv`: `dncList`, 143 rows (`company_name`, `company_domain`), pulled 2026-11-16
 
 ## Sourcing configs
 
@@ -52,6 +52,7 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 | Date | Doc | tracking_clients id | Status |
 |---|---|---|---|
 | 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (re-sent 2026-11-13 after John's open-role feedback; 221 open suggested changes and 2 open comments as of 2026-11-17, pending the client's accept/reject; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
+| 2026-11-16 | [`campaign-docs/2026-11-16-mql-concepts-discussion.md`](campaign-docs/2026-11-16-mql-concepts-discussion.md): internal discussion of 5 MQL (reply-first) concepts, not a campaign doc | `-` (not in tracking_clients) | internal discussion, nothing built or sent |
 
 ## Sourced data in this repo
 
@@ -67,11 +68,21 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 - **2026-11-17**: **Resync and branch catch-up** (Moe opened a session for a new Glassdoor bad-review campaign).
   - Merged the default branch `claude/initialize-u03yyd` into this branch (47 commits behind, clean merge) so the current CLAUDE.md rules apply: campaign doc standard, 7-day HeyReach schedule, GTM Sheets standard.
-  - **Drift from tracking_clients:** the DNC list is now loaded (143 companies, saved to `context/dnc-list.csv`); the booking link is now set; `infrastructure` now `{"vaSeatCount": 10}`. Doc 1 has 221 open suggested changes and 2 open comments, still `client_review`. Sourcing config `71717207-…` now shows `campaign_count: 2`.
+  - **Resync:** no drift beyond the 2026-11-16 resync below (DNC 143, booking link, vaSeatCount 10). Sourcing config `71717207-…` now shows `campaign_count: 2` (Campaign 6 plus "sdasdad").
   - **Second campaign in tracking_clients:** "sdasdad" (`5a652828-0cd2-4354-bfe1-7ed4ff8eb1f4`, status `creation`, step 5, created 2026-11-16 13:19 UTC, no HeyReach id). Looks like test junk; **not deleted**, waiting on Moe.
   - Campaign 6 (`6ce9ac82-…`, HeyReach `735291`) untouched: still `creation`, waiting for Moe's final approval.
-  - `campaign-docs/2026-11-16-mql-concepts-discussion.md`, which the brief points to, **does not exist on any branch** of this repo; asked Moe for it.
+  - A parallel session (session_013MzxQhYguH8vDsAXrwvGq7) pushed the DNC copy and the MQL concepts note to this branch while this session was starting; merged, keeping its `context/dnc-list.csv` as committed.
   - (session_013MzxQfnKsdVbThAsX3zi7V)
+
+- **2026-11-16**: **Resync, and MQL campaign discussion opened.**
+  - **Resync** (`get_client`, `list_sourcing_configs`, `list_campaign_docs`). Since 2026-11-12, tracking_clients gained:
+    - the DNC list (143 companies; copy at `context/dnc-list.csv`)
+    - a booking link
+    - `infrastructure.vaSeatCount` 10
+  - The sourcing config and doc 1 (`client_review`) are unchanged.
+  - Campaign 6's 491 leads have 0 exact company-name matches against the DNC list. Domains weren't compared, because the leads CSV has no domain column.
+  - **MQL discussion:** Moe asked what a reply-first MQL campaign could look like, to raise reply rates. Five concepts are written up in `campaign-docs/2026-11-16-mql-concepts-discussion.md`. The recommendation is to test the GPG sector benchmark first. Sector benchmarks were computed locally from the GPG CSV (£0).
+  - **Nothing was built or sent:** no configs, campaigns, docs, HeyReach changes, client contact or paid sourcing. Campaign 6 was not touched.
 
 - **2026-11-16**: **Campaign 6 staged for launch, not started.** Moe said to set it up in GTM Sheets and go live **without John's (the client's) approval of doc 1**. That is Moe's decision, recorded here. Moe then added: **don't go live without his final approval.** So everything stops before any lead is pushed or the campaign is started.
   - **tracking_clients:**
