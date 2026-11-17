@@ -17,7 +17,7 @@
 - **Meeting hours:** EDT 08:30–18:00
 - **Sales Nav:** no
 - **Onboarding form:** submitted 2026-10-29. The client was added to `tracking_clients` on 2026-11-02.
-- **Last synced:** 2026-11-12 via `list_sourcing_configs` + `list_campaigns` (profile last confirmed 2026-11-05 via `get_client`)
+- **Last synced:** 2026-11-17 via `get_client` + `list_sourcing_configs` + `list_icp_configs` + `list_campaigns` + `list_campaign_docs`
 
 ## ICP (from `list_icp_configs`)
 
@@ -90,12 +90,26 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
   - `sourcing/c5-owner-on-the-floor/2026-11-12-3-leads.csv` (+ `.query.md`): 43 leads, 28 with email. Lead list `0b60bfec-6f20-4a36-bb76-7458d741bfcf`, HeyReach list 1148945.
   - `sourcing/c6-hospitality-food-event-crews/2026-11-12-3-leads.csv` (+ `.query.md`): 3 leads, 0 with email. Lead list `7aa78a73-31b7-4e42-9146-3ef473098294`, HeyReach list 1148946.
 
+- **C7 Multiple Open Roles sizing (2026-11-17, proposed campaign, no config yet):** see `sourcing/tam/2026-11-17-c7-multiple-open-roles.query.md`.
+  - `sourcing/tam/2026-11-17-c7-blitz-jobs.csv`: 10,249 LinkedIn job postings from the last 60 days in 7 Michiana towns, pulled 2026-11-17 via Blitz API `POST /v2/jobs/search`.
+  - `sourcing/tam/2026-11-17-c7-blitz-hiring-companies.csv`: the 1,398 companies behind those postings, pulled 2026-11-17 via Blitz API `POST /v2/company/tam-by-jobs`, with ICP bucket and job counts. Parent config: none yet (the sizing comes before the campaign doc); closest existing is Michiana shift employers `184a0f39-d738-4f8f-a908-3c97d71dd4cf`.
+  - `sourcing/tam/classify.py`, `sourcing/tam/pull_jobs.py`: the scripts that produced these.
+
 ## Analysis
 
 - `campaign-ideas.md`: GigWorx Campaign Ideas, six signal-led LinkedIn campaigns, modelled on the Nextwo RaaS campaign-ideas doc. Uploaded to `tracking_clients` as campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` (draft, not shared with the client). Sent to the client on 2026-11-05 (status `client_review`). Which campaigns run is decided on the pre-launch call.
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-17** — The repo owner asked for a new campaign that uses open jobs as the signal (any ICP-fit company with multiple open jobs) and for its company count. This is a **new segment**, proposed as C7 Multiple Open Roles; nothing is created in `tracking_clients` yet because a campaign doc and client approval come first.
+  - **Resynced** profile, ICP configs, sourcing configs, campaigns and campaign docs from `tracking_clients` (`get_client`, `list_icp_configs`, `list_sourcing_configs`, `list_campaigns`, `list_campaign_docs`); no drift from the 2026-11-12 entries below.
+  - **Merged branch** `claude/stoic-hawking-utkftq` (all prior GigWorx work, only `clients/gigworx/**`) into this branch, because it had never reached the default branch.
+  - **LinkedIn sizing (Blitz):** 10,249 postings in the last 60 days from 1,398 companies. ICP-fit (manufacturing, warehousing, retail, hospitality/F&B; 11+ employees; no staffing or dealerships): 473 hiring, **314 with 2+ postings, 184 with 2+ hourly postings**, 126 with 3+ hourly, 73 with 5+ hourly. Method and exact queries: `sourcing/tam/2026-11-17-c7-multiple-open-roles.query.md`.
+  - **Why this is far above C1/C4 (12 and 17 companies):** those searched HQ-located companies; this searches where the jobs are posted, which picks up plants and stores run from out-of-state HQs (Lippert, SpartanNash, Meijer, Walmart and others).
+  - **Clay** could not size it: its job-location filter matches "IN" as a token (it returned India-based jobs) and gives no total.
+  - **Indeed coverage** (the owner asked for complete job coverage, via Apify in GTM Sheets): workbook `b8b23680-230f-4c31-a58d-8692c1368df4` holds three Indeed tables. Two runs of `memo23/apify-indeed-cheerio-ppr` were still running after 75 and 50 minutes with no rows; the fast `valig/indeed-jobs-scraper` split runs landed 10,048 rows in about a minute. The merged LinkedIn + Indeed count follows in the next commit.
+  - Session: branch `claude/practical-darwin-ejgil8`.
 
 - **2026-11-12** — The repo owner asked to set GigWorx up in HeyReach with the Claude Code leads and to add the same leads to GTM Sheets. Scope: all six campaigns.
   - **Built:** Claude Code lists for C1–C6, 166 unique prospects (snapshot `-3`, expanding each existing segment). Method is in `sourcing/michiana-shift-employers/2026-11-12-companies.query.md`.
