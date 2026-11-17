@@ -98,6 +98,8 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
   - `sourcing/tam/2026-11-17-c7-indeed-180d-jobs.csv`: 3,673 live Indeed jobs posted in the last 6 months in the 17 Michiana towns, pulled 2026-11-17 via Apify `memo23/apify-indeed-cheerio-ppr` (deep search) + `valig/indeed-jobs-scraper`, run from GTM Sheets. **This is the counted source.**
   - `sourcing/tam/2026-11-17-c7-indeed-180d-companies.csv`: the 1,139 employers behind them with ICP fit and role counts; 236 ICP-fit with 2+ roles, 148 with 2+ hourly roles.
   - `sourcing/tam/classify.py`, `pull_jobs.py`, `merge.py`, `size_indeed.py`: the scripts that produced these.
+- **C7 Multiple Open Roles leads (campaign-specific, proposed C7, no config yet):**
+  - `sourcing/c7-multiple-open-roles/2026-11-17-leads.csv` (+ `.query.md`, scripts): 471 decision makers at 154 of the 236 C7 companies, pulled 2026-11-17 via Blitz API `POST /v2/search/waterfall-icp-keyword` and Clay MCP `search-contacts`, keyed by `linkedin_url`. Parent: no tracking_clients config yet.
 
 ## Analysis
 
@@ -105,6 +107,16 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-17** — **C7 decision makers pulled (new segment, Campaign-specific: C7 Multiple Open Roles).** The repo owner asked for the 236 companies and up to 10 client-fit decision makers at each.
+  - **Result:** 471 people at 154 companies, all located in Indiana (Michiana towns) or, for small local firms, Indiana/Michigan. Blitz waterfall + Clay MCP, deduped on LinkedIn URL. Personas: site ops lead 308, HR 62, owner/exec 44, supervisor/lead 59.
+  - **Seniority:** deliberately down to Manager/Supervisor (GigWorx's form names Production Supervisor and Operations Manager, and shift labour is booked at the site). So `title_check` fails on 324 rows; that is expected.
+  - **Per-company depth:** cap 10 per the owner, filled site ops → HR → owner/exec → supervisor. 236 companies is a small-to-medium SAM, so going deep per company is the right call.
+  - **Bug caught:** Blitz's person city filter matched same-named towns in other states (Bristol CT/TN/VA, Goshen OH ...). 86 people were removed by checking `location.state_code`.
+  - **Clay REST API** is exhausted for the year (999,988 / 1,000,000), so Clay ran through the MCP connection instead.
+  - **Overlap (rule 3a): 23 of these also appear in `sourcing/c1-hourly-roles-wont-close/2026-11-12-2-leads.csv`; 9 in C1 `-3`; 1 in C1; 9 in C2 `-2`; 3 in C2 `-3`; 4 in C2; 13 in C3 `-2`; 28 in C3 `-3`; 4 in C3; 18 in C4 `-2`; 3 in C4; 1 each in C5, C5 `-2`, C5 `-3`; 6 in C6 `-2`; 3 in C6 `-3`; 2 in list-build-comparison cc; 1 in gtm. About 44 are already in C1/C2/C3/C5/C6 HeyReach lists (the `-3` files), so dedupe against those before loading C7.**
+  - **82 companies still have no contact.** They and the thin ones (154 companies under 3 contacts) are being researched with a GTM Sheets AI web column (Spider Cloud), table `fa2bcba2-9d32-4e82-ae2e-b912e2cb13c2`, at the owner's request. Results follow as a `-2` snapshot.
+  - Session: branch `claude/practical-darwin-ejgil8`.
 
 - **2026-11-17** — **C7 count rebuilt on Indeed only, 6-month window (supersedes the two entries below).** The repo owner asked to widen to the last 6 months, then said to ignore Blitz if it isn't accurate.
   - Blitz was spot-checked and dropped for job counts: it returns postings that are already closed (a sampled Discount Tire job read "No longer accepting applications") and has no state on job location. Indeed lists live postings only, with state, industry and headcount.
