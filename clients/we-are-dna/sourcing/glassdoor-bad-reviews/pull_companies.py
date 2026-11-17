@@ -9,6 +9,7 @@ _src = open(os.path.join(HERE, "..", "tam", "tam_counts.py")).read()
 _node = next(n for n in ast.parse(_src).body if isinstance(n, ast.Assign) and getattr(n.targets[0], "id", "") == "SEGMENTS")
 SEGMENTS = eval(compile(ast.Expression(_node.value), "tam_counts.py", "eval"), {"dict": dict})
 H = {"x-api-key": os.environ["BLITZ_API_KEY"], "Content-Type": "application/json"}
+BANDS_ALL = {"51-200": ["51-200"], "201-500": ["201-500"], "501-1000": ["501-1000"], "1001-5000": ["1001-5000"], "5001+": ["5001-10000", "10001+"]}
 BANDS = {"201-500": ["201-500"], "501-1000": ["501-1000"], "1001-5000": ["1001-5000"], "5001+": ["5001-10000", "10001+"]}
 
 def post(body):
@@ -22,7 +23,13 @@ def post(body):
     raise SystemExit("blitz failed")
 
 date = sys.argv[1]
-out = open(os.path.join(HERE, f"{date}-companies-blitz-raw.jsonl"), "w")
+# optional 2nd arg: comma-separated band names to pull (default: all in BANDS); 3rd arg: output suffix
+if len(sys.argv) > 2:
+    BANDS = {b: BANDS_ALL[b] for b in sys.argv[2].split(",")}
+suffix = sys.argv[3] if len(sys.argv) > 3 else ""
+out_path = os.path.join(HERE, f"{date}{suffix}-companies-blitz-raw.jsonl")
+assert not os.path.exists(out_path) and not os.path.exists(out_path + ".gz"), "append-only: pick a new suffix"
+out = open(out_path, "w")
 used = 0
 for seg, s in SEGMENTS.items():
     for band, rng in BANDS.items():

@@ -5,11 +5,12 @@
   (all 280 candidates, qualified or not, by LinkedIn URL or name) and every company in its 491-lead snapshot
 - flag public sector (NHS, councils, police, universities...) as `public_sector=yes`; kept, not dropped
 Every excluded row stays in the file with `status` = "excluded: <reason>", so the drop-off is visible.
-Usage: python3 build_companies.py 2026-11-17"""
+Usage: python3 build_companies.py 2026-11-17 [suffix]"""
 import csv, json, os, re, sys
 from urllib.parse import urlparse
 HERE = os.path.dirname(os.path.abspath(__file__))
 date = sys.argv[1]
+suffix = sys.argv[2] if len(sys.argv) > 2 else ""   # e.g. "-2" for the 51-200 band pull
 SECT = {"1-health-care-medical": "Health, care, vet", "2-retail-hospitality": "Retail, hospitality",
         "3-manufacturing-engineering-automotive-defence": "Manufacturing, engineering",
         "4-law-accounting-top100": "Law, accounting", "5-financial-services": "Financial services"}
@@ -47,7 +48,7 @@ PUBLIC = re.compile(r"\b(nhs|council|police|constabulary|university|college|hm |
 
 rows, seen = {}, {}
 import gzip
-RAW = os.path.join(HERE, f"{date}-companies-blitz-raw.jsonl.gz")  # pull_companies.py writes .jsonl; gzip -9 it after
+RAW = os.path.join(HERE, f"{date}{suffix}-companies-blitz-raw.jsonl.gz")  # pull_companies.py writes .jsonl; gzip -9 it after
 for line in gzip.open(RAW, "rt"):
     j = json.loads(line); r = j["record"]; key = li(r.get("linkedin_url")) or r.get("name")
     if key in rows:
@@ -75,7 +76,7 @@ for key, x in rows.items():
         "status": status, "source_tool": "Blitz API POST /v2/search/companies",
     })
 out.sort(key=lambda d: (d["status"] != "icp", -(d["employees_on_linkedin"] if isinstance(d["employees_on_linkedin"], int) else 0)))
-p = os.path.join(HERE, f"{date}-companies.csv")
+p = os.path.join(HERE, f"{date}{suffix}-companies.csv")
 assert not os.path.exists(p), f"{p} exists; snapshots are append-only"
 with open(p, "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(out[0])); w.writeheader(); w.writerows(out)
