@@ -163,6 +163,19 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-17**: **New campaign C11 "Consulting and Advisory Firms" built and LIVE, plus 614 more leads added to the live C1/C5/C7/C6** (Moe: "leave D&E and create a new campaign for consulting and proceed"; "client approval not required for the copy").
+  - **C11 ids:**
+    - ICP config `1f47b70f-5c2e-4690-a7bc-4d79de938d44`, segment `f3ad950b-3b83-41e4-b83e-99f52ff49272`, persona `1ceff299-e148-484e-bcf5-6c1ad5f8428a`
+    - lead list `8c8faf96-07d3-42a1-94eb-9675136d7f29` (campaign_split false: one list, one campaign)
+    - campaign `1dd016eb-13c7-4356-a90d-df22446c3950`, sequence validated
+    - HeyReach `739441` / list `1176467`, linked
+    - GTM workbook `8f80390b-48d3-4810-9937-80052c5d096c` (Companies `e6d0e2cf-b335-462f-aac0-c61b916af4fa`, Leads `583a9a3b-9d75-410e-8561-201c064a5e35`)
+  - **C11 copy (written this session, not in the client doc):** blank connection request, then M1 on the executive communities as a place where advisory firms meet those leaders, M2 the roundtable format plus the Forum offer, M3 a soft close. M1 delay saves as 3 hours.
+  - **C11 leads:** 278 at 91 firms, at most 15 per firm. See `sourcing/c11-consulting-advisory-firms/2026-11-17-leads.query.md`.
+  - **C11 senders:** the same 5 as the other live campaigns. `add_all_available` also offered 8 older accounts that are back in the workspace (Delosjene, Joanna, Brett, Ralph, Eianne, Shiela, Milca, Marjorie). They were taken off C11 pending Moe's call, along with the placeholder Erika Stefani (182761).
+  - **C11 status:** started, IN_PROGRESS. Its tracking_clients record is still in `creation`: campaign_thinking is needed from Moe.
+  - **B + C additions:** 614 more leads routed into the live campaigns (C1 +11, C5 +178, C7 +103, C6 +322), loaded into GTM Sheets and queued into HeyReach. See `sourcing/c6-nordic-cio-pulse/2026-11-17-leads-2.query.md`.
+  - **Not done, per Moe:** D (Manager-level) and E (201-500 employees).
 - **2026-11-17**: **C6 re-pulled in full with no per-company cap** (Moe: "Do not place any per company cap for C6 ... pull the complete amount"). Blitz returned 10,605 people. After the title, region and DNC filters, removing people live in C1/C5/C7, and a new exclusion of 24 non-vendor companies (Booking.com, Wolt, Klarna, Visa etc.), **1,125 new leads** were found. They were loaded into the C6 Leads table in GTM Sheets (now 2,012 rows) and queued into live HeyReach campaign 729840. Snapshot `2026-11-17-leads.csv`; the 2026-11-13 files are unchanged.
   - **Sized for more volume (Blitz people counts, Dir+ GTM unless noted):** consulting-industry vendors 6,071; Nordic-titled leaders based elsewhere in Europe 696; partnerships/alliances leaders 716; Manager-level Nordic field/country roles 568; 201-500-employee vendors 2,851 (outside the ICP); 157 persona-fit people new in role within 6 months. Raw counts, before filters.
 - **2026-11-17**: **All 5 workspace senders added to all 4 live campaigns** (Moe: "Use all available senders for all live campaigns"). `set_campaign_senders add_all_available` added Kimberly Almazan (203828), Kirky Palamos (241273), Christine Joy Ochosa (251033) and Markim Eniola (264397) next to Chavali Praneeth (265480) on C1 (729831), C5 (729838), C7 (729841) and C6 (729840). Each paused briefly and resumed; all four confirmed IN_PROGRESS with 5 senders.
