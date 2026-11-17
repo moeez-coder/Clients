@@ -162,6 +162,8 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-17**: **All 5 workspace senders added to all 4 live campaigns** (Moe: "Use all available senders for all live campaigns"). `set_campaign_senders add_all_available` added Kimberly Almazan (203828), Kirky Palamos (241273), Christine Joy Ochosa (251033) and Markim Eniola (264397) next to Chavali Praneeth (265480) on C1 (729831), C5 (729838), C7 (729841) and C6 (729840). Each paused briefly and resumed; all four confirmed IN_PROGRESS with 5 senders.
+  - **Branding:** on 2026-11-16 Moe confirmed only Chavali as branded correctly. The other four are now sending too; their branding is not recorded here.
 - **2026-11-16**: **Sender on all four live campaigns switched to Chavali Praneeth (265480)**, which Moe confirmed is branded correctly. Kimberly Almazan (203828) was removed from C1 (729831), C5 (729838), C7 (729841) and C6 (729840). Each campaign paused for a few seconds and resumed; all four confirmed IN_PROGRESS afterwards.
   - **Leads now in HeyReach:** C1 75, C5 446, C7 375, C6 452 (all loading finished).
   - **C5 is 3 short of 449:** the GTM Sheets client exclusion list skipped 3 NTT Data contacts (NTT Data is on the DNC; the repo-side name match missed this LinkedIn company name). They stay in the CSV but were never pushed.
