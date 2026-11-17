@@ -56,6 +56,7 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## Sourced data in this repo
 
+- `sourcing/glassdoor-bad-reviews/2026-11-17-companies.csv`: 11,854 UK-HQ companies, 201+ employees, in doc 1's five sectors; 11,714 `icp`, 58 excluded as DNC, 82 excluded as Campaign 6; 695 ICP rows flagged `public_sector`. **Glassdoor bad-review campaign** (stage 1 of its funnel; no tracking_clients config or campaign yet, UUID `-`). From Blitz API `POST /v2/search/companies` (11,854 records), pulled 2026-11-17. Raw responses `2026-11-17-companies-blitz-raw.jsonl.gz`; query and method `2026-11-17-companies.query.md` (scripts `gd_counts.py`, `pull_companies.py`, `build_companies.py`).
 - `sourcing/tam/2026-11-13-signal-read.query.md` with `gpg_signal.py` and `2026-11-13-gpg-signal-companies.csv`: 3,796 employers (250+ staff) in the five doc-1 sectors from the gov.uk gender pay gap 2025 data, with a `gpg_signal_15pct` flag. This backs campaigns 3–5's new signal, pulled 2026-11-13. No config yet (config UUID `-`). Cost £0.
 - `sourcing/pe-investment-triggers/2026-11-16-pe-deal-news.csv`: 1,119 UK PE deal articles published since 2026-08-18, each kept or dropped with a reason. **Campaign 6, Fresh Investment** (doc `fed8e905-…`; no config yet, UUID `-`). From the Exa API `POST /search` (news) with structured summaries. Pulled 2026-11-16.
 - `sourcing/pe-investment-triggers/2026-11-16-companies-qualified.csv`: 280 candidate companies, 112 qualified (Exa `/contents` check plus `2026-11-16-manual-review.csv`), with leads found per company. Campaign 6, config `-`, pulled 2026-11-16. The pre-qualification list is `2026-11-16-companies.csv` (273).
@@ -65,6 +66,15 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-17**: **Glassdoor bad-review campaign: ICP company pool pulled** (Moe's brief of 2026-11-17: scrape Glassdoor reviews for ICP companies with Apify via GTM Sheets, then message the ones with bad reviews about the review themes). This opens a **new segment** (`sourcing/glassdoor-bad-reviews/`). Scope recorded as **Campaign-specific: Glassdoor bad-review outreach**, since the brief defines the campaign.
+  - **Pool:** Blitz `POST /v2/search/companies`, UK HQ, 201+ employees, doc 1's five sectors (same industry labels as the doc 1 TAM read). 11,854 companies; 11,714 after DNC (58) and Campaign 6 (82) exclusions; 11,019 private sector. By size: 5,809 at 201-500, 2,090 at 501-1000, 1,937 at 1001-5000, 1,183 at 5001+.
+  - **Why 201+:** smaller UK employers rarely have enough Glassdoor reviews to rate. Which bands get scraped is Moe's cost call.
+  - **Clay not run** for this pool (MCP pages 20 rows with no total; Blitz slices were exhaustive). Flagged in the `.query.md`; can be added on the scraped slice.
+  - **Cost:** 11,869 Blitz records (13.59M fair-usage records remaining). No Apify spend yet.
+  - **Apify actor shortlist** (researched from the public Apify store, no runs): reviews `kaix/glassdoor-reviews-scraper` (~$0.05 per 1k reviews, sub-ratings and employer replies, no date filter), backup `zen-studio/glassdoor-scraper` ($0.99 per 1k, date and rating filters, almost no users), fallback `memo23/glassdoor-scraper-ppr` (~$4.75 per 1k, most used). Resolver `kaix/glassdoor-company-scraper` (~$0.20 per 1k companies, name or website search, returns overall rating, review count and sub-ratings, so it doubles as a cheap pre-screen). It doesn't show in GTM Sheets' actor search, so the tiny test will confirm `gtm_sheet_apify_run` accepts it. Glassdoor employer IDs are global: reviews are not UK-only.
+  - **Waiting on Moe** before any scraping: bad-review definition, which size bands to scrape and the spend cap, doc route (doc for John or Moe's own approval), "sdasdad".
+  - (session_013MzxQfnKsdVbThAsX3zi7V)
 
 - **2026-11-17**: **Resync and branch catch-up** (Moe opened a session for a new Glassdoor bad-review campaign).
   - Merged the default branch `claude/initialize-u03yyd` into this branch (47 commits behind, clean merge) so the current CLAUDE.md rules apply: campaign doc standard, 7-day HeyReach schedule, GTM Sheets standard.
