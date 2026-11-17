@@ -69,6 +69,14 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## History
 
+- **2026-11-17**: **Moe's decisions on the Glassdoor campaign** (in this session, after the 5-company preview):
+  - **Bad-review bar (union of two rules):** a company qualifies if (a) its overall Glassdoor rating is < 3.5 with 30+ reviews, OR its last-12-month average is 0.3+ stars below the prior 12 months (15+ reviews in each window); OR (b) its culture & values or senior leadership sub-rating is < 3.3 with 30+ reviews. Complaint themes and "no employer replies to negative reviews" choose the message angle; they don't gate.
+  - **Scrape scope:** the **501+ staff** slice of the private-sector ICP pool (5,210 companies; 4,677 after removing duplicate domains, LinkedIn showcase and school pages). Estimated ~$3 lookups + ~$10 reviews at published rates.
+  - **Approval route:** the campaign goes **into doc 1** (`fed8e905-…`) as a new campaign for John's approval, with `### Signal and data` and the doc's existing `## Offers for your feedback`.
+  - **"sdasdad" deleted** (`delete_campaign`, `5a652828-0cd2-4354-bfe1-7ed4ff8eb1f4`, new system). Checked first: empty sequence, no HeyReach/Smartlead/Instantly link, no doc. It was attached to Campaign 6's lead list `71717207-…` (allocation 1), which is why that config showed `campaign_count: 2`. Campaign 6 and the config are untouched.
+  - **Preview first:** per Moe's standing rule, a 25-company preview of the stage-2 lookup at full-run settings (non-compact, ratings only) runs before the 4,677-company lookup.
+  - (session_013MzxQfnKsdVbThAsX3zi7V)
+
 - **2026-11-17**: **Moe's standing rule: preview every new process before the full run.** Moe, in this session: "always give a preview of a new process before going full fledged into the run. This is a new process." For this campaign that means the 5-company Glassdoor preview below goes to Moe, and no full lookup or review scrape starts until he has seen it and approved the bar, scope and cap. Proposed for CLAUDE.md as a repo-wide rule (system file, so not edited without Moe's confirmation).
 
 - **2026-11-17**: **Glassdoor 5-company preview run** (the brief's tiny test; spend ≈ $0.01 at the actors' published rates, $1 cap per run).
