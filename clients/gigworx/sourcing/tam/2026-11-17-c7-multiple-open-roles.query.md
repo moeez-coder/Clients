@@ -80,3 +80,34 @@ Why the 2+ hourly number (174) is lower than Part 1's 184: Part 1 counted raw po
 GTM table `3. Companies - merged LinkedIn + Indeed (60d, 2+ roles)` (`931ec6d5-d86b-4bc5-9f3a-25b8455c8b25`) holds the 323 fit + review rows, loaded by webhook. `2. Companies - LinkedIn jobs (Blitz, 60d)` (`1c02028c-d32c-410b-a241-24599b242d8b`) is the earlier LinkedIn-only version.
 
 Known limits: hourly classification is a title regex; a company's LinkedIn and Indeed records can occasionally resolve to two LinkedIn pages (e.g. Lowe's); Blitz job location has no state field, so a few homonym towns may slip in (spot-checked, rare).
+
+## Part 3 (supersedes Parts 1–2 for the count): Indeed only, last 6 months — FINAL
+
+**Why the change:** the repo owner asked to widen the window to 6 months and then said "Ignore Blitz if it's not accurate. Just use the accurate ones."
+- **Blitz was tested and dropped for job counts.** A spot-check of random Blitz LinkedIn job URLs (most were rate-limited by LinkedIn) found a Discount Tire posting already marked "No longer accepting applications". Blitz returns jobs *posted* in the window and cannot say which are still open, which gets worse over 6 months. `job.location` also has no state, so homonym towns can slip in.
+  - The 180-day Blitz pull is kept for reference only: 30,649 postings in 7 towns, 2,228 companies (`POST /v2/company/tam-by-jobs`, `last_days: 180`, all titles plus an hourly-keyword pass, scratchpad `tam_180d.json`). It is not counted and not committed.
+- **Indeed is the count source.** Indeed search shows live listings only, and every row carries city, state and the employer's own industry and headcount.
+
+### Sources
+- `1. Jobs - Indeed (Apify)` (`b38a1682-3222-42b0-8dce-c2411598940c`): `memo23/apify-indeed-cheerio-ppr`, all 17 towns, `radius=0`, `deepSearch: true` (splits past Indeed's per-search cap), `postedBy: EMPLOYER` (staffing posts dropped at source), `includeCompanyDetails: true`. Finished 10:56 UTC with 5,560 jobs, 5,498 in IN.
+- `1c. Jobs - Indeed (fast actor, split runs)` (`70ebdabf-fb7b-4c28-8aca-6d1cba3f8623`): `valig/indeed-jobs-scraper`, adds jobs the deep run missed.
+- Export: `gtm_sheet_export_csv` filtered on plain field columns (`State = IN`, `Published` by year-month).
+
+### Method (`size_indeed.py 180`)
+1. Dedupe on Indeed job key; keep state IN, one of the 17 towns, `datePublished` within 180 days (2026-05-21 to 2026-11-17): **3,673 live jobs** (3,385 deep, 288 fast).
+2. Group by employer website domain, else normalised name: 1,139 employers.
+3. ICP bucket from **Indeed's industry** (Manufacturing / Retail & Wholesale / Restaurants & Food Service / Transportation & Logistics ...). Where Indeed had none and the employer had 2+ roles, the industry *label* came from Blitz company enrichment by domain (`/v2/enrichment/domain-to-linkedin` then `/v2/enrichment/company`; firmographics only, no job data). The remaining 24 unknowns with 2+ hourly roles were reviewed by hand: 15 in (restaurants, manufacturers, retail, distribution, event rentals), 9 out (senior care, dental, county, landscaping, concrete, dry cleaner, temp custodian).
+4. Same exclusions: staffing, dealerships, construction held, out-of-ICP, 1–10 employees.
+5. Roles counted as **distinct job titles** per company; hourly by the `classify.py` title regex.
+
+### Result: `2026-11-17-c7-indeed-180d-companies.csv`, `2026-11-17-c7-indeed-180d-jobs.csv`
+| ICP-fit companies with live Indeed jobs posted in the last 6 months | Companies |
+|---|---|
+| 2+ open roles of any kind | **236** (+41 with unknown industry, not reviewed) |
+| **2+ open hourly/shift roles** | **148** (manufacturing 60, retail 41, hospitality/F&B 37, warehousing 10) |
+| 3+ open hourly/shift roles | 65 |
+| 5+ open hourly/shift roles | 24 |
+
+GTM table `4. Companies - Indeed live jobs, last 6 months (FINAL)` (`85e3bafa-198b-40be-9d14-7b6dae295fec`): 277 rows (236 fit + 41 unreviewed), sorted by hourly roles.
+
+Known limits: Indeed is the only board counted, so a company that posts only on LinkedIn or its own careers site is missed; hourly is a title regex; 34 of the 148 have no headcount on Indeed (kept, not small by any evidence).

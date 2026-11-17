@@ -95,7 +95,9 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
   - `sourcing/tam/2026-11-17-c7-blitz-hiring-companies.csv`: the 1,398 companies behind those postings, pulled 2026-11-17 via Blitz API `POST /v2/company/tam-by-jobs`, with ICP bucket and job counts. Parent config: none yet (the sizing comes before the campaign doc); closest existing is Michiana shift employers `184a0f39-d738-4f8f-a908-3c97d71dd4cf`.
   - `sourcing/tam/2026-11-17-c7-indeed-jobs.csv`: 1,010 Indeed job postings (last 60 days, 17 Michiana towns, IN), pulled 2026-11-17 via Apify actor `valig/indeed-jobs-scraper` run from GTM Sheets table `70ebdabf-fb7b-4c28-8aca-6d1cba3f8623`.
   - `sourcing/tam/2026-11-17-c7-merged-hiring-companies.csv`: 1,650 hiring companies from LinkedIn + Indeed with ICP fit, signal tier and distinct-role counts; 323 are ICP-fit (or review) with 2+ roles.
-  - `sourcing/tam/classify.py`, `pull_jobs.py`, `merge.py`: the scripts that produced these.
+  - `sourcing/tam/2026-11-17-c7-indeed-180d-jobs.csv`: 3,673 live Indeed jobs posted in the last 6 months in the 17 Michiana towns, pulled 2026-11-17 via Apify `memo23/apify-indeed-cheerio-ppr` (deep search) + `valig/indeed-jobs-scraper`, run from GTM Sheets. **This is the counted source.**
+  - `sourcing/tam/2026-11-17-c7-indeed-180d-companies.csv`: the 1,139 employers behind them with ICP fit and role counts; 236 ICP-fit with 2+ roles, 148 with 2+ hourly roles.
+  - `sourcing/tam/classify.py`, `pull_jobs.py`, `merge.py`, `size_indeed.py`: the scripts that produced these.
 
 ## Analysis
 
@@ -103,6 +105,14 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-17** — **C7 count rebuilt on Indeed only, 6-month window (supersedes the two entries below).** The repo owner asked to widen to the last 6 months, then said to ignore Blitz if it isn't accurate.
+  - Blitz was spot-checked and dropped for job counts: it returns postings that are already closed (a sampled Discount Tire job read "No longer accepting applications") and has no state on job location. Indeed lists live postings only, with state, industry and headcount.
+  - **Final (ICP-fit, live Indeed jobs posted in the last 6 months, distinct roles): 148 companies with 2+ hourly/shift roles; 236 with 2+ roles of any kind (+41 unknown-industry not reviewed); 65 with 3+ hourly; 24 with 5+.**
+  - The earlier 60-day LinkedIn+Indeed numbers (323 / 189) stay in the repo as history but are no longer the count.
+  - **TAM/SAM read:** 148 is a small-to-medium SAM, below the 200–300 bar on the hourly definition. Per the inverse rule, go deeper per company (3+ contacts: ops/plant, HR, owner/GM), and note the list refills as new jobs post. The "any roles" version (236) clears the bar.
+  - Details: `sourcing/tam/2026-11-17-c7-multiple-open-roles.query.md` Part 3. GTM table `85e3bafa-198b-40be-9d14-7b6dae295fec`.
+  - Session: branch `claude/practical-darwin-ejgil8`.
 
 - **2026-11-17** — **C7 Multiple Open Roles sizing finished (LinkedIn + Indeed).** Expanding the C7 segment opened in the entry below.
   - **Final count (ICP-fit, last 60 days, distinct roles):** **323 companies with 2+ open roles of any kind; 189 with 2+ hourly/shift roles** (174 confirmed fit + 15 likely fit to review), 106 with 3+ hourly, 44 with 5+. That clears the 200–300 bar on "any roles"; on "hourly roles" it sits just under 200 but refills every month as postings roll over.
