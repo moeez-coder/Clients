@@ -50,12 +50,12 @@ Config IDs: Michiana shift employers `184a0f39-d738-4f8f-a908-3c97d71dd4cf`; C1 
 | Campaign | Status | Channel | Identity | HeyReach ID | Approved | GTM Sheets workbook |
 |---|---|---|---|---|---|---|
 | GigWorx - Michiana ops & HR - first shift comped | creation (step 18) | LinkedIn | Client | `-` | no | `-` |
-| GigWorx C1 - Hourly Roles That Won't Close | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/69715427-1a7e-404e-acde-49ff5fd29999) |
-| GigWorx C2 - Peak Season Crews | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/1311af65-9477-46e9-842e-9a832f40136c) |
-| GigWorx C3 - RV Corridor Ramps | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/8b0d1757-37c5-49ff-917a-8d55b08b6e98) |
-| GigWorx C4 - Try Before You Hire | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/423c947c-f5d2-4dcf-92f1-d9a2edae2406) |
-| GigWorx C5 - Owner on the Floor | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/a38c7c5d-4aca-433a-8ffd-fc60ac00f1e9) |
-| GigWorx C6 - Hospitality, Food and Event Crews | creation | LinkedIn | Client | `-` | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/4fe52894-5a11-495b-8ddf-8e57e2037ba4) |
+| GigWorx C1 - Hourly Roles That Won't Close | creation | LinkedIn | Client | `739134` (paused in HeyReach, not linked) | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/69715427-1a7e-404e-acde-49ff5fd29999) |
+| GigWorx C2 - Peak Season Crews | creation | LinkedIn | Client | `739135` (paused in HeyReach, not linked) | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/1311af65-9477-46e9-842e-9a832f40136c) |
+| GigWorx C3 - RV Corridor Ramps | creation | LinkedIn | Client | `739136` (paused in HeyReach, not linked) | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/8b0d1757-37c5-49ff-917a-8d55b08b6e98) |
+| GigWorx C4 - Try Before You Hire | creation | LinkedIn | Client | `739137` (paused in HeyReach, not linked) | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/423c947c-f5d2-4dcf-92f1-d9a2edae2406) |
+| GigWorx C5 - Owner on the Floor | running | LinkedIn | Client | `739110` (live) | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/a38c7c5d-4aca-433a-8ffd-fc60ac00f1e9) |
+| GigWorx C6 - Hospitality, Food and Event Crews | creation | LinkedIn | Client | `739138` (paused in HeyReach, not linked) | no | [workbook](https://dashboard.algoacquisition.ai/#/clients/94da4a2f-8f90-4bc0-87e6-22ff98fafd6a/gtm-sheet/4fe52894-5a11-495b-8ddf-8e57e2037ba4) |
 
 Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-doc, superseded by C1–C6); C1 `01d9de9e-fc5c-492a-8208-7df9a4221c39`; C2 `76ee58e3-3f38-4fb3-909e-2163afcdd34b`; C3 `020a9904-2e57-4fe1-aa0b-2bc1776603db`; C4 `f67ca1d8-aeb4-428c-bb3a-504826992051`; C5 `af97c845-2ab3-4a1d-97d1-4b0dd477784f`; C6 `b6ef20e9-9668-4644-b10f-ab91002b238d`. C1–C6 are built from approved campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b`.
 
@@ -96,6 +96,20 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-17** — **C5 Owner on the Floor is live.** Mathew's LinkedIn is now connected to HeyReach workspace 172344 as account `276172` (25 connection requests a day).
+  - **Built and started:** all six campaigns, using the approved copy from `campaign-ideas.md`. Sequence: connection request, then 3 messages at +1, +4 and +7 days after acceptance. Schedule Mon–Fri 08:30–17:30 Eastern; leads already in another campaign are excluded.
+    - Message 1 uses per-lead custom fields `company_name`, `role_title`, `city`, `posted_month`, `other_roles` and `open_roles`. HeyReach overwrites `{COMPANY}` with the LinkedIn company name, so the cleaned name is held in `company_name`.
+    - Each message has a fallback with no variables. A C3 lead with no posting gets the approved question-only CTA.
+    - All 165 rendered Message 1s were checked against the approved text before launch: 0 mismatches.
+  - **Then:** a few minutes after the start, the repo owner asked for **only C5 live** in both HeyReach and `tracking_clients`.
+    - C1 `739134`, C2 `739135`, C3 `739136`, C4 `739137` and C6 `739138` are **paused** in HeyReach and **unlinked** in `tracking_clients`.
+    - C5 `739110` (43 leads, list 1148945) is linked to `af97c845-2ab3-4a1d-97d1-4b0dd477784f` and moved to `running`.
+    - The paused campaigns ran for about 3–7 minutes, so some first connection requests may already have gone out from them. Check the HeyReach UI.
+  - **Files:**
+    - `heyreach/2026-11-17-launch.json`: the exact payloads and sequences, with ids and statuses.
+    - `heyreach/2026-11-17-lead-fields.csv`: the per-lead custom fields (165 rows, keyed by `linkedin_url`).
+  - Session: branch `claude/stoic-hawking-utkftq`.
 
 - **2026-11-12** — The repo owner asked to set GigWorx up in HeyReach with the Claude Code leads and to add the same leads to GTM Sheets. Scope: all six campaigns.
   - **Built:** Claude Code lists for C1–C6, 166 unique prospects (snapshot `-3`, expanding each existing segment). Method is in `sourcing/michiana-shift-employers/2026-11-12-companies.query.md`.

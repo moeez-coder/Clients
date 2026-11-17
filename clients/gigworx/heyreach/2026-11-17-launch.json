@@ -1,0 +1,509 @@
+{
+ "workspaceId": 172344,
+ "linkedInAccountIds": [
+  276172
+ ],
+ "schedule": {
+  "dailyStartTime": "08:30:00",
+  "dailyEndTime": "17:30:00",
+  "timeZoneId": "Eastern Standard Time",
+  "enabledMonday": true,
+  "enabledTuesday": true,
+  "enabledWednesday": true,
+  "enabledThursday": true,
+  "enabledFriday": true,
+  "enabledSaturday": false,
+  "enabledSunday": false
+ },
+ "excludeContactedFromOtherCampaigns": true,
+ "campaigns": {
+  "C1": {
+   "name": "US | C1 Hourly Roles Won't Close | GigWorx |Moe v1",
+   "linkedInUserListId": 1148941,
+   "heyreachCampaignId": 739134,
+   "sequence": {
+    "nodeType": "CONNECTION_REQUEST",
+    "actionDelay": 0,
+    "actionDelayUnit": "HOUR",
+    "payload": {
+     "messages": [
+      "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect."
+     ],
+     "fallbackMessage": "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect.",
+     "toBeWithdrawnAfterDays": 25
+    },
+    "unconditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 3,
+     "actionDelayUnit": "HOUR",
+     "payload": null
+    },
+    "conditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 1,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messages": [
+       "Hi {FIRST_NAME}, saw {company_name} has had a {role_title} opening up since {posted_month}, with {other_roles} other hourly roles open.\n\nWhile you hire, GigWorx can cover the shifts. You post a shift in our app, vetted local workers claim it, and you only pay for the hours worked.\n\nWant me to comp your first {role_title} shift so you can see the quality for yourself?"
+      ],
+      "fallbackMessage": "Hi {FIRST_NAME}, while you hire for your open hourly roles, GigWorx can cover the shifts. You post a shift in our app, vetted local workers claim it, and you only pay for the hours worked.\n\nWant to try one shift on us?"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 4,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messages": [
+        "No worries if that one is filled now, {FIRST_NAME}.\n\nThere's no subscription, no minimums and no contract. If a worker isn't a fit, you block them in the app and we handle the conversation. If one is great, you can bring them onto your team."
+       ],
+       "fallbackMessage": "No worries if that one is filled now, {FIRST_NAME}.\n\nThere's no subscription, no minimums and no contract. If a worker isn't a fit, you block them in the app and we handle the conversation. If one is great, you can bring them onto your team."
+      },
+      "unconditionalNode": {
+       "nodeType": "MESSAGE",
+       "actionDelay": 7,
+       "actionDelayUnit": "DAY",
+       "payload": {
+        "messages": [
+         "I'll leave it here, {FIRST_NAME}.\n\nIf {role_title} is still open next month, the free shift still stands."
+        ],
+        "fallbackMessage": "I'll leave it here, {FIRST_NAME}.\n\nIf those roles are still open next month, the free shift still stands."
+       },
+       "unconditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 3,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       },
+       "conditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 0,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       }
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR",
+       "payload": null
+      }
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR",
+      "payload": null
+     }
+    }
+   },
+   "status": "PAUSED 2026-11-17 ~10:07 UTC, about 3-7 min after start, on owner request (only C5 live)"
+  },
+  "C2": {
+   "name": "US | C2 Peak Season Crews | GigWorx |Moe v1",
+   "linkedInUserListId": 1148942,
+   "heyreachCampaignId": 739135,
+   "sequence": {
+    "nodeType": "CONNECTION_REQUEST",
+    "actionDelay": 0,
+    "actionDelayUnit": "HOUR",
+    "payload": {
+     "messages": [
+      "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect."
+     ],
+     "fallbackMessage": "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect.",
+     "toBeWithdrawnAfterDays": 25
+    },
+    "unconditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 3,
+     "actionDelayUnit": "HOUR",
+     "payload": null
+    },
+    "conditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 1,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messages": [
+       "Hi {FIRST_NAME}, noticed {company_name} is hiring {role_title} help in {city}.\n\nPeak is when call-offs hurt most. GigWorx fills short-notice shifts with vetted local workers, and you only pay for the hours worked. No contract to unwind in January.\n\nWant your first peak shift on us?"
+      ],
+      "fallbackMessage": "Hi {FIRST_NAME}, peak is when call-offs hurt most. GigWorx fills short-notice shifts with vetted local workers, and you only pay for the hours worked. No contract to unwind in January.\n\nWant your first peak shift on us?"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 4,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messages": [
+        "Fair enough if you're staffed up, {FIRST_NAME}.\n\nIt also works as a backup. Keep the app for the days three people call off, post the shift, and a vetted worker claims it."
+       ],
+       "fallbackMessage": "Fair enough if you're staffed up, {FIRST_NAME}.\n\nIt also works as a backup. Keep the app for the days three people call off, post the shift, and a vetted worker claims it."
+      },
+      "unconditionalNode": {
+       "nodeType": "MESSAGE",
+       "actionDelay": 7,
+       "actionDelayUnit": "DAY",
+       "payload": {
+        "messages": [
+         "Last note from me, {FIRST_NAME}.\n\nIf peak gets tight, just reply \"shift\" and I'll set up the free one."
+        ],
+        "fallbackMessage": "Last note from me, {FIRST_NAME}.\n\nIf peak gets tight, just reply \"shift\" and I'll set up the free one."
+       },
+       "unconditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 3,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       },
+       "conditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 0,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       }
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR",
+       "payload": null
+      }
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR",
+      "payload": null
+     }
+    }
+   },
+   "status": "PAUSED 2026-11-17 ~10:07 UTC, about 3-7 min after start, on owner request (only C5 live)"
+  },
+  "C3": {
+   "name": "US | C3 RV Corridor Ramps | GigWorx |Moe v1",
+   "linkedInUserListId": 1148943,
+   "heyreachCampaignId": 739136,
+   "sequence": {
+    "nodeType": "CONNECTION_REQUEST",
+    "actionDelay": 0,
+    "actionDelayUnit": "HOUR",
+    "payload": {
+     "messages": [
+      "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect."
+     ],
+     "fallbackMessage": "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect.",
+     "toBeWithdrawnAfterDays": 25
+    },
+    "unconditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 3,
+     "actionDelayUnit": "HOUR",
+     "payload": null
+    },
+    "conditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 1,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messages": [
+       "Hi {FIRST_NAME}, saw {company_name} is hiring {role_title} in {city}.\n\nRV builds swing with dealer orders, so a lot of plants around here run short on the line one month and overstaffed the next. GigWorx lets you add vetted workers by the shift and only pay for the hours worked.\n\nWant me to comp a shift on your next ramp?"
+      ],
+      "fallbackMessage": "Hi {FIRST_NAME}, RV builds swing with dealer orders, so a lot of plants around here run short on the line one month and overstaffed the next.\n\nHow are you covering ramps today: overtime, agency, or running short?"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 4,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messages": [
+        "No worries if the line is staffed, {FIRST_NAME}.\n\nThere's no contract and no minimums, so it can sit there until the weeks you need it. Workers you like can join your team with no minimum hours first."
+       ],
+       "fallbackMessage": "No worries if the line is staffed, {FIRST_NAME}.\n\nThere's no contract and no minimums, so it can sit there until the weeks you need it. Workers you like can join your team with no minimum hours first."
+      },
+      "unconditionalNode": {
+       "nodeType": "MESSAGE",
+       "actionDelay": 7,
+       "actionDelayUnit": "DAY",
+       "payload": {
+        "messages": [
+         "I'll leave it here, {FIRST_NAME}.\n\nWhen the next model-year push starts, the free shift is there if you want it."
+        ],
+        "fallbackMessage": "I'll leave it here, {FIRST_NAME}.\n\nWhen the next model-year push starts, the free shift is there if you want it."
+       },
+       "unconditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 3,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       },
+       "conditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 0,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       }
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR",
+       "payload": null
+      }
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR",
+      "payload": null
+     }
+    }
+   },
+   "status": "PAUSED 2026-11-17 ~10:07 UTC, about 3-7 min after start, on owner request (only C5 live)"
+  },
+  "C4": {
+   "name": "US | C4 Try Before You Hire | GigWorx |Moe v1",
+   "linkedInUserListId": 1148944,
+   "heyreachCampaignId": 739137,
+   "sequence": {
+    "nodeType": "CONNECTION_REQUEST",
+    "actionDelay": 0,
+    "actionDelayUnit": "HOUR",
+    "payload": {
+     "messages": [
+      "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect."
+     ],
+     "fallbackMessage": "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect.",
+     "toBeWithdrawnAfterDays": 25
+    },
+    "unconditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 3,
+     "actionDelayUnit": "HOUR",
+     "payload": null
+    },
+    "conditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 1,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messages": [
+       "Hi {FIRST_NAME}, saw {company_name} has {open_roles} hourly roles open, including {role_title}.\n\nGigWorx lets you see people work real shifts before you make an offer. Our workers are vetted W-2 employees on our payroll, and there are no minimum hours before you can hire one onto your team.\n\nWant your first shift on us to try it?"
+      ],
+      "fallbackMessage": "Hi {FIRST_NAME}, GigWorx lets you see people work real shifts before you make an offer. Our workers are vetted W-2 employees on our payroll, and there are no minimum hours before you can hire one onto your team.\n\nWant your first shift on us to try it?"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 4,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messages": [
+        "No worries if hiring is under control, {FIRST_NAME}.\n\nIf a worker isn't a fit, you block them in the app and we have that conversation, not you. You only pay for the hours worked, with no subscription or contract."
+       ],
+       "fallbackMessage": "No worries if hiring is under control, {FIRST_NAME}.\n\nIf a worker isn't a fit, you block them in the app and we have that conversation, not you. You only pay for the hours worked, with no subscription or contract."
+      },
+      "unconditionalNode": {
+       "nodeType": "MESSAGE",
+       "actionDelay": 7,
+       "actionDelayUnit": "DAY",
+       "payload": {
+        "messages": [
+         "I'll leave it here, {FIRST_NAME}.\n\nIf the {role_title} openings keep coming back, happy to set up the free shift."
+        ],
+        "fallbackMessage": "I'll leave it here, {FIRST_NAME}.\n\nIf those openings keep coming back, happy to set up the free shift."
+       },
+       "unconditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 3,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       },
+       "conditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 0,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       }
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR",
+       "payload": null
+      }
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR",
+      "payload": null
+     }
+    }
+   },
+   "status": "PAUSED 2026-11-17 ~10:07 UTC, about 3-7 min after start, on owner request (only C5 live)"
+  },
+  "C5": {
+   "name": "US | C5 Owner on the Floor | GigWorx |Moe v1",
+   "linkedInUserListId": 1148945,
+   "heyreachCampaignId": 739110,
+   "sequence": {
+    "nodeType": "CONNECTION_REQUEST",
+    "actionDelay": 0,
+    "actionDelayUnit": "HOUR",
+    "payload": {
+     "messages": [
+      "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect."
+     ],
+     "fallbackMessage": "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect.",
+     "toBeWithdrawnAfterDays": 25
+    },
+    "unconditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 3,
+     "actionDelayUnit": "HOUR",
+     "payload": null
+    },
+    "conditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 1,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messages": [
+       "Hi {FIRST_NAME}, quick question from one local business owner to another.\n\nWhen a couple of people call off at {company_name}, who ends up covering? You, overtime, or does the work just wait?"
+      ],
+      "fallbackMessage": "Hi {FIRST_NAME}, quick question from one local business owner to another.\n\nWhen a couple of people call off, who ends up covering? You, overtime, or does the work just wait?"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 4,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messages": [
+        "Asking because that's what GigWorx is for, {FIRST_NAME}. You post a shift in our app, a vetted local worker claims it, and you only pay for the hours worked. No contract and no minimums.\n\nHappy to comp your first shift so you can see the quality."
+       ],
+       "fallbackMessage": "Asking because that's what GigWorx is for, {FIRST_NAME}. You post a shift in our app, a vetted local worker claims it, and you only pay for the hours worked. No contract and no minimums.\n\nHappy to comp your first shift so you can see the quality."
+      },
+      "unconditionalNode": {
+       "nodeType": "MESSAGE",
+       "actionDelay": 7,
+       "actionDelayUnit": "DAY",
+       "payload": {
+        "messages": [
+         "I'll leave it here, {FIRST_NAME}.\n\nIf you're short-handed on a busy week, reply \"shift\" and the first one's on us."
+        ],
+        "fallbackMessage": "I'll leave it here, {FIRST_NAME}.\n\nIf you're short-handed on a busy week, reply \"shift\" and the first one's on us."
+       },
+       "unconditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 3,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       },
+       "conditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 0,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       }
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR",
+       "payload": null
+      }
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR",
+      "payload": null
+     }
+    }
+   },
+   "status": "IN_PROGRESS (live)"
+  },
+  "C6": {
+   "name": "US | C6 Hospitality Crews | GigWorx |Moe v1",
+   "linkedInUserListId": 1148946,
+   "heyreachCampaignId": 739138,
+   "sequence": {
+    "nodeType": "CONNECTION_REQUEST",
+    "actionDelay": 0,
+    "actionDelayUnit": "HOUR",
+    "payload": {
+     "messages": [
+      "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect."
+     ],
+     "fallbackMessage": "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect.",
+     "toBeWithdrawnAfterDays": 25
+    },
+    "unconditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 3,
+     "actionDelayUnit": "HOUR",
+     "payload": null
+    },
+    "conditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 1,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messages": [
+       "Hi {FIRST_NAME}, saw {company_name} is looking for {role_title} help in {city}.\n\nGigWorx fills short-notice shifts with vetted local W-2 workers, so you can add hands for a busy weekend or an event and only pay for the hours worked.\n\nWant me to comp a shift on your next one?"
+      ],
+      "fallbackMessage": "Hi {FIRST_NAME}, GigWorx fills short-notice shifts with vetted local W-2 workers, so you can add hands for a busy weekend or an event and only pay for the hours worked.\n\nWant me to comp a shift on your next one?"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 4,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messages": [
+        "No worries if you're covered, {FIRST_NAME}.\n\nThere's no contract and no minimums, so it's there for the days you need it. If a worker isn't a fit, you block them in the app and we handle it."
+       ],
+       "fallbackMessage": "No worries if you're covered, {FIRST_NAME}.\n\nThere's no contract and no minimums, so it's there for the days you need it. If a worker isn't a fit, you block them in the app and we handle it."
+      },
+      "unconditionalNode": {
+       "nodeType": "MESSAGE",
+       "actionDelay": 7,
+       "actionDelayUnit": "DAY",
+       "payload": {
+        "messages": [
+         "I'll leave it here, {FIRST_NAME}.\n\nWhen the next big weekend or event lands, reply \"shift\" and the first one's on us."
+        ],
+        "fallbackMessage": "I'll leave it here, {FIRST_NAME}.\n\nWhen the next big weekend or event lands, reply \"shift\" and the first one's on us."
+       },
+       "unconditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 3,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       },
+       "conditionalNode": {
+        "nodeType": "END",
+        "actionDelay": 0,
+        "actionDelayUnit": "HOUR",
+        "payload": null
+       }
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR",
+       "payload": null
+      }
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR",
+      "payload": null
+     }
+    }
+   },
+   "status": "PAUSED 2026-11-17 ~10:07 UTC, about 3-7 min after start, on owner request (only C5 live)"
+  }
+ },
+ "startedAt": "2026-11-17 (UTC 10:00-10:05)",
+ "note": "All six were created and started 2026-11-17. Within minutes the repo owner asked for only C5 to be live, so C1, C2, C3, C4 and C6 were paused in HeyReach and unlinked in tracking_clients. C5 (739110) is linked to tracking_clients campaign af97c845-2ab3-4a1d-97d1-4b0dd477784f and moved to running."
+}
