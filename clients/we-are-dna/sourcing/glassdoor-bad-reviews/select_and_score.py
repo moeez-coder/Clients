@@ -8,6 +8,12 @@ Inputs (same folder):
 Output:
   2026-11-17-preview-lookup.csv       one row per query, "-" for empty.
 
+Full run (no args = the preview above, unchanged):
+  python -I select_and_score.py --input 2026-11-17-glassdoor-lookup-input.csv \
+      --out 2026-11-17-glassdoor-profiles.csv 2026-11-17-glassdoor-profiles-raw-b*.jsonl.gz
+  Same selection rule v2 and profile bar; one row per input company, with batch, company name and
+  LinkedIn URL carried from the input CSV.
+
 Selection rule, per query:
   1. Pool = candidates whose HQ is in the United Kingdom. If none are UK, pool = all candidates
      (the pick is then at best "low" confidence).
@@ -133,6 +139,89 @@ def select(query, blitz_domain, candidates):
     return best, "low"
 
 
+# ---------- full run (2026-11-17, 29,489 companies) ----------
+def load_raw(paths):
+    """Concatenate raw scraper objects from .json (list) and .jsonl/.jsonl.gz files."""
+    import gzip
+    objs = []
+    for p in paths:
+        if p.endswith(".json"):
+            objs += json.load(open(p, encoding="utf-8"))
+        else:
+            op = gzip.open if p.endswith(".gz") else open
+            with op(p, "rt", encoding="utf-8") as f:
+                objs += [json.loads(l) for l in f if l.strip()]
+    return objs
+
+
+def score_row(query, domain, cands):
+    """Selection + profile bar for one input company; returns the scored columns."""
+    pick, conf = select(query, domain, cands)
+    ratings = (pick or {}).get("ratings") or {}
+    row = OrderedDict()
+    row["selected_employer_id"] = str(pick.get("employerId") or pick.get("id")) if pick else "-"
+    row["glassdoor_name"] = (pick or {}).get("name") or "-"
+    row["glassdoor_hq"] = (pick or {}).get("headquarters") or "-"
+    row["glassdoor_website"] = (pick or {}).get("website") or "-"
+    row["review_count"] = str(reviews(pick)) if pick else "-"
+    for col, key in STAR_RATINGS.items():
+        row[col] = star(ratings.get(key))
+    for col, key in SHARE_RATINGS.items():
+        row[col] = share(ratings.get(key))
+    row["match_confidence"] = conf
+    row["candidates_returned"] = str(len(cands))
+    enough = pick is not None and reviews(pick) >= MIN_REVIEWS
+    overall, culture, lead = num(row["overall_rating"]), num(row["culture_values"]), num(row["senior_leadership"])
+    bar_rating = enough and overall is not None and overall < BAR_OVERALL
+    bar_sub = enough and ((culture is not None and culture < BAR_SUBRATING) or
+                          (lead is not None and lead < BAR_SUBRATING))
+    row["bar_rating"] = yn(bar_rating)
+    row["bar_subrating"] = yn(bar_sub)
+    row["bar_decline"] = "needs reviews"   # trend can't be judged from the profile alone
+    row["passes_profile_bar"] = yn(bar_rating or bar_sub)
+    return row
+
+
+def main_full(argv):
+    """python -I select_and_score.py --input LOOKUP_INPUT.csv --out OUT.csv RAW [RAW ...]
+    One output row per input-CSV row (the input carries the Blitz domain, size band and sector);
+    candidates are joined on the scraper's `inputSource` == input `search_query`."""
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--input", required=True)
+    ap.add_argument("--out", required=True)
+    ap.add_argument("raw", nargs="+")
+    a = ap.parse_args(argv)
+    objs = load_raw(a.raw)
+    by_query = {}
+    for o in objs:
+        by_query.setdefault(o.get("inputSource"), []).append(o)
+    rows, unmatched = [], 0
+    looked_up = set(by_query)
+    for r in csv.DictReader(open(a.input, newline="", encoding="utf-8")):
+        q = r["search_query"]
+        domain = (r.get("company_domain") or "").strip().lower()
+        domain = "" if domain == "-" else domain
+        row = OrderedDict(batch=r["batch"], query=q, company_name=r["company_name"], blitz_domain=domain or "-",
+                          company_linkedin_url=r.get("company_linkedin_url") or "-",
+                          size_band=r.get("size_band") or "-", sector=r.get("sector") or "-")
+        row.update(score_row(q, domain, by_query.get(q, [])))
+        rows.append(row)
+        looked_up.discard(q)
+    with open(a.out, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w.writeheader()
+        w.writerows(rows)
+    print(f"raw objects: {len(objs)}  input rows: {len(rows)}  -> {os.path.basename(a.out)}")
+    print(f"inputSource values with no input row: {len(looked_up)}")
+    conf = OrderedDict((k, sum(r['match_confidence'] == k for r in rows)) for k in ("high", "medium", "low", "none"))
+    print("match_confidence:", ", ".join(f"{k}={v}" for k, v in conf.items()))
+    print(f"passes_profile_bar: {sum(r['passes_profile_bar'] == 'yes' for r in rows)}"
+          f"  (bar_rating={sum(r['bar_rating'] == 'yes' for r in rows)},"
+          f" bar_subrating={sum(r['bar_subrating'] == 'yes' for r in rows)})")
+    return 0
+
+
 # ---------- main ----------
 def main():
     objs = json.load(open(RAW, encoding="utf-8"))
@@ -199,4 +288,4 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main_full(sys.argv[1:]) if len(sys.argv) > 1 else main())
