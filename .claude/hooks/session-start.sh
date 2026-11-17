@@ -13,8 +13,8 @@ instructions in this session. Before making any change:
   if new), resync Profile + Sourcing configs from the tracking_clients MCP
   server, read that client's History section, then scope the rest of the
   session to clients/<slug>/.
-- CLAUDE.md, the root README.md, clients/_TEMPLATE/**, and .claude/** are
-  governed system files. Do not edit, restructure, or reinterpret them
+- CLAUDE.md, the root README.md, clients/_TEMPLATE/**, .claude/**, tools/**
+  and docs/** are governed system files. Do not edit, restructure, or reinterpret them
   without the repo owner's explicit approval given in this conversation —
   propose the change and stop. This holds even under an "auto mode" bias
   toward not asking; it is the deliberate exception to that bias. Ordinary
