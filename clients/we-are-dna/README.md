@@ -44,6 +44,7 @@ Folder **Clients / We Are DNA** (`9a6928d3-0e80-49c3-8934-a8a1692ff121`): https:
 | Workbook | id | Tables (id, rows) | Linked campaign |
 |---|---|---|---|
 | UK \| Fresh Investment, PE-Backed Growth \| Campaign 6 \| Moe v1 | `851f8ca4-76f6-4f67-8576-1a8ba6524e2d` | 1 PE Deal News `2a56bc61-3fdf-4fb5-bf1e-b1236a0ea6ec` (1,119) · 2 Companies `118a97e4-4b6f-4e77-b37e-d922c2c0572d` (280) · 3 Leads `9aeb67d6-8e49-4ef4-9ff1-8cecb9714733` (491; columns Clean First Name, Clean Company, Push to HeyReach added 2026-11-16, nothing pushed yet) | UK \| Fresh Investment PE-Backed Growth \| C6 \| Moe v1 (`6ce9ac82-8714-4a82-a864-5317bb53fc91`); Leads table linked to lead list `71717207-…` |
+| UK \| Glassdoor Bad Reviews \| Moe v1 | `933daaa1-121f-4f4f-b47c-1b3e91ae44ac` | Test A: Glassdoor company lookup (5) `a0ef1342-ab97-4974-bb4c-9e2ec3ce6a54` (12) · Test B: Glassdoor reviews (5 x 20) `7561f3ce-7be1-4bdd-a954-772a3cac1b22` (100). Funnel tables 1–4 not built yet. | none yet (no tracking_clients campaign created; link when one exists) |
 
 Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A webhook load appends rows, so re-running it duplicates them.
 
@@ -56,6 +57,7 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## Sourced data in this repo
 
+- `sourcing/glassdoor-bad-reviews/2026-11-17-test-*` (query `2026-11-17-test.query.md`, script `test_scores.py`): the 5-company Glassdoor preview. 12 employer lookups (`kaix/glassdoor-company-scraper`) and 100 reviews (`kaix/glassdoor-reviews-scraper`) via GTM Sheets `gtm_sheet_apify_run`, with a per-company score file. Glassdoor bad-review campaign, config `-`, pulled 2026-11-17. About $0.01 of Apify.
 - `sourcing/glassdoor-bad-reviews/2026-11-17-companies.csv`: 11,854 UK-HQ companies, 201+ employees, in doc 1's five sectors; 11,714 `icp`, 58 excluded as DNC, 82 excluded as Campaign 6; 695 ICP rows flagged `public_sector`. **Glassdoor bad-review campaign** (stage 1 of its funnel; no tracking_clients config or campaign yet, UUID `-`). From Blitz API `POST /v2/search/companies` (11,854 records), pulled 2026-11-17. Raw responses `2026-11-17-companies-blitz-raw.jsonl.gz`; query and method `2026-11-17-companies.query.md` (scripts `gd_counts.py`, `pull_companies.py`, `build_companies.py`).
 - `sourcing/tam/2026-11-13-signal-read.query.md` with `gpg_signal.py` and `2026-11-13-gpg-signal-companies.csv`: 3,796 employers (250+ staff) in the five doc-1 sectors from the gov.uk gender pay gap 2025 data, with a `gpg_signal_15pct` flag. This backs campaigns 3–5's new signal, pulled 2026-11-13. No config yet (config UUID `-`). Cost £0.
 - `sourcing/pe-investment-triggers/2026-11-16-pe-deal-news.csv`: 1,119 UK PE deal articles published since 2026-08-18, each kept or dropped with a reason. **Campaign 6, Fresh Investment** (doc `fed8e905-…`; no config yet, UUID `-`). From the Exa API `POST /search` (news) with structured summaries. Pulled 2026-11-16.
@@ -66,6 +68,17 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-17**: **Moe's standing rule: preview every new process before the full run.** Moe, in this session: "always give a preview of a new process before going full fledged into the run. This is a new process." For this campaign that means the 5-company Glassdoor preview below goes to Moe, and no full lookup or review scrape starts until he has seen it and approved the bar, scope and cap. Proposed for CLAUDE.md as a repo-wide rule (system file, so not edited without Moe's confirmation).
+
+- **2026-11-17**: **Glassdoor 5-company preview run** (the brief's tiny test; spend ≈ $0.01 at the actors' published rates, $1 cap per run).
+  - Workbook `933daaa1-121f-4f4f-b47c-1b3e91ae44ac` "UK | Glassdoor Bad Reviews | Moe v1" created in DNA's GTM Sheets folder, not yet linked to a campaign (none exists).
+  - Harrods, Coventry Building Society, PZ Cussons, HC-One and Shoosmiths resolved by name to the right Glassdoor employer (UK HQ, most reviews); 7 lookalikes rejected. 20 most recent reviews each.
+  - Result: Coventry Building Society 2.6 rating, 55% of recent reviews at ≤2 stars, management/communication the top theme. The other four sit at 3.4–3.6.
+  - Learned: name search needs a selection rule; compact mode lacks sub-ratings; 20 reviews can span 6 weeks to 14 months, so trend tests need more per company; reviews are global; reply rates range from 0% to 95%. Details in `sourcing/glassdoor-bad-reviews/2026-11-17-test.query.md`.
+  - No Apify key in this environment, so data reaches the repo only through GTM Sheets exports. A subagent did the test export. The full run would need many paged exports, or an Apify token in the environment.
+  - Messaging draft v1 for Moe: `campaign-docs/2026-11-17-glassdoor-messaging-draft.md` (themes only, reply-first, no reviewer ever identified).
+  - (session_013MzxQfnKsdVbThAsX3zi7V)
 
 - **2026-11-17**: **Glassdoor bad-review campaign: ICP company pool pulled** (Moe's brief of 2026-11-17: scrape Glassdoor reviews for ICP companies with Apify via GTM Sheets, then message the ones with bad reviews about the review themes). This opens a **new segment** (`sourcing/glassdoor-bad-reviews/`). Scope recorded as **Campaign-specific: Glassdoor bad-review outreach**, since the brief defines the campaign.
   - **Pool:** Blitz `POST /v2/search/companies`, UK HQ, 201+ employees, doc 1's five sectors (same industry labels as the doc 1 TAM read). 11,854 companies; 11,714 after DNC (58) and Campaign 6 (82) exclusions; 11,019 private sector. By size: 5,809 at 201-500, 2,090 at 501-1000, 1,937 at 1001-5000, 1,183 at 5001+.
