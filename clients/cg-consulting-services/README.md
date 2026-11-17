@@ -168,6 +168,7 @@ The connection-request fallback ("Hi {FIRST_NAME}, figured it was worth connecti
 | 2026-11-13 | 0 (launch 10:06 UTC) | – | – | baseline: 499 leads loaded, 224 in progress, 0 failed |
 | 2026-11-14 (check-in 1) | 35 | 3 (8.6%) | 0 / – / – / – / – / – | 1 thread so far, a CR-B note (Director Physician & APP Recruitment, CVAUSA); the other 2 accepts show no thread, consistent with CR-A blank. No message 1 sent yet (+1 day after accept). 7 leads failed. |
 | 2026-11-16 (check-in 2) | 42 | 4 (9.5%) | 0 / 0 / 0 / – / – / – | 1 message 1 sent so far: **V2** to the CR-B lead (CVAUSA). The other 3 accepts have no thread yet; message 1 is due in today's sending window. Only 7 requests went out today by 17:15 UTC. HeyReach marks 32 leads finished, unexplained (see History). |
+| 2026-11-17 (check-in 3) | 42 (0 new today) | 6 (14.3%) | 0 / 0 / 0 / 0 / – / – | Message 1 sent once per version: V1 (Head of Talent Relations, Cameo), V2 (CVAUSA), V3 (TA Lead, Navitas). 1 more CR-B note is still pending (VP People & Talent, Finix). 39 finished, 7 failed. |
 
 ## Sourced data in this repo
 
@@ -226,6 +227,14 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
+
+- **2026-11-17**: **MQC check-in 3 (end of the daily phase).** HeyReach `727548`: **42 requests sent, 6 accepted (14.3% of sent), 4 threads, message 1 sent 3 times (one each of V1/V2/V3), 0 replies.**
+  - **Acceptance looks better than Bench (3.8%), but n is tiny.** 6 of 42 is a promising early sign for the TA/HR persona and nothing more.
+  - **Volume problem:** **0 new requests today and 7 on Monday.** The MQC is getting almost none of the shared senders' daily limits, which go first to the 6 older campaigns and their large pending queues. At this pace the variant test cannot reach a readable sample (≥15 accepts per message-1 version) for weeks. **Raised with Moe; nothing changed without asking**, because the fix means throttling or re-prioritising other campaigns.
+  - **List quality:** "PV Ramana" (TA Lead, Navitas Business Consulting) recruits for federal IT contracts, so Navitas is closer to a staffing/consulting shop than a buyer. Its industry label got past the consulting exclusion. One case; noted for a v2 list filter.
+  - "Finished" is now 39 (32 at check-in 2), still unexplained from the API.
+  - Next check-in Fri 11-20 (every 2–3 days from here).
+  - Per-client CG session (MQC).
 
 - **2026-11-16**: **MQC check-in 2.** HeyReach `727548`: **42 requests sent, 4 accepted (9.5%), 1 message 1 sent, 0 replies.**
   - **Message 1:** the one sent was **V2** (contract vs full-time), to the CR-B lead accepted on 11-14 (Director, Physician & APP Recruitment, CVAUSA). The other 3 accepts (1 on 11-14, 1 on Sun 11-15, 1 more) have no thread yet. Their message 1 is due in today's 08:00–18:00 ET window.
