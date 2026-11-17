@@ -1,0 +1,26 @@
+query,blitz_domain,size_band,sector,selected_employer_id,glassdoor_name,glassdoor_hq,glassdoor_website,review_count,overall_rating,culture_values,senior_leadership,career_opportunities,work_life_balance,comp_benefits,diversity_inclusion,ceo_approval,recommend_to_friend,match_confidence,candidates_returned,bar_rating,bar_subrating,bar_decline,passes_profile_bar
+Tempus Services,tempusservices.co.uk,1001-5000,Financial services,4186404,TEMPS Services,"Calgary, Canada",https://www.tempsservices.ca,1,3.0,4.0,3.0,2.0,3.0,3.0,5.0,-,1.00,low,1,no,no,needs reviews,no
+Almondine,almondine.co.uk,10001+,"Manufacturing, engineering",2281606,Almondine Bakery,"Brooklyn, NY",https://www.almondinebakery.com,0,-,-,-,-,-,-,-,-,-,low,3,no,no,needs reviews,no
+European LifeCare Group,europeanlifecaregroup.dk,501-1000,"Health, care, vet",7619933,European LifeCare Group,"Søborg, Denmark",https://www.europeanlifecaregroup.dk,1,3.0,2.0,3.0,2.0,3.0,3.0,3.0,-,-,low,1,no,no,needs reviews,no
+The Endeavour Partnership now Ward Hadaway,endeavour.law,501-1000,"Law, accounting",-,-,-,-,-,-,-,-,-,-,-,-,-,-,none,0,no,no,needs reviews,no
+Karali Limited,0.0.0.1,501-1000,"Retail, hospitality",3913815,Karali Ltd,"Ealing, United Kingdom",https://www.karali-group.com,22,2.1,1.7,1.6,1.7,1.4,1.6,2.2,-,0.08,medium,2,no,no,needs reviews,no
+chaiiwala,chaiiwala.co.uk,1001-5000,"Retail, hospitality",2446761,Chaiiwala,"Batley, United Kingdom",https://www.chaiiwala.co.uk,71,3.6,3.9,3.6,3.5,3.7,3.1,4.3,-,0.60,high,3,no,no,needs reviews,no
+Tesco Marketplace,tesco.com,10001+,"Retail, hospitality",-,-,-,-,-,-,-,-,-,-,-,-,-,-,none,0,no,no,needs reviews,no
+SJD Accountancy,caroola.com,501-1000,"Law, accounting",1259289,SJD Accountancy,"Hemel Hempstead, United Kingdom",https://www.sjdaccountancy.com,70,3.0,2.9,2.6,3.0,2.8,2.7,3.5,-,0.31,high,1,yes,yes,needs reviews,yes
+Noble Foods Ltd,noblefoods.co.uk,1001-5000,"Manufacturing, engineering",36494,Noble Foods Ltd,"Staines, United Kingdom",https://www.noblefoods.co.uk,43,3.2,3.0,3.1,3.1,3.1,2.8,3.1,0.78,0.48,high,1,yes,yes,needs reviews,yes
+Vesuvius,vesuvius.com,10001+,"Manufacturing, engineering",19803,Vesuvius Group S.A./N.V.,"London, United Kingdom",https://www.vesuvius.com,498,3.4,3.2,2.8,3.1,3.2,3.7,3.4,0.63,0.56,high,3,yes,yes,needs reviews,yes
+Billington Foods,billington-foods.com,501-1000,"Manufacturing, engineering",36181,The Billington Food Group Limited,"Peterborough, United Kingdom",https://www.billingtons.co.uk,7,3.0,3.0,2.4,2.8,2.9,2.9,3.4,0.00,0.16,low,2,no,no,needs reviews,no
+Research at Leicester's Hospitals,uhleicester.nhs.uk,501-1000,"Health, care, vet",-,-,-,-,-,-,-,-,-,-,-,-,-,-,none,0,no,no,needs reviews,no
+RBS ACCOUNTANTS LTD,rbsca.com,501-1000,"Law, accounting",974351,RBS Accountants Limited,"London, United Kingdom",https://www.rbsca.com,1,4.0,3.0,4.0,5.0,4.0,2.0,3.0,-,1.00,medium,1,no,no,needs reviews,no
+Hyatt Regency London – The Churchill,hyatt.com,501-1000,"Retail, hospitality",-,-,-,-,-,-,-,-,-,-,-,-,-,-,none,0,no,no,needs reviews,no
+GAIL's,gails.com,1001-5000,"Retail, hospitality",997177,GAIL’s Limited,"London, United Kingdom",https://www.gailsbread.co.uk,860,3.2,3.2,2.9,3.4,3.2,3.1,3.9,0.54,0.55,high,3,yes,yes,needs reviews,yes
+British Airways Pensions,-,10001+,Financial services,-,-,-,-,-,-,-,-,-,-,-,-,-,-,none,0,no,no,needs reviews,no
+Giraffe World Kitchen,-,1001-5000,"Retail, hospitality",-,-,-,-,-,-,-,-,-,-,-,-,-,-,none,0,no,no,needs reviews,no
+Claridge's,claridges.co.uk,501-1000,"Retail, hospitality",2225129,Claridge's,"London, United Kingdom",https://www.claridges.co.uk,59,4.2,4.3,3.6,3.7,3.7,4.3,4.3,-,0.89,high,3,no,no,needs reviews,no
+Pro Formula Uk & Ire,proformula.com,5001-10000,"Manufacturing, engineering",-,-,-,-,-,-,-,-,-,-,-,-,-,-,none,0,no,no,needs reviews,no
+United Response,unitedresponse.org.uk,1001-5000,"Health, care, vet",1050537,United Response,"Wimbledon, United Kingdom",https://www.unitedresponse.org.uk,143,3.5,3.6,3.1,3.1,3.7,2.9,3.6,0.49,0.55,high,1,no,yes,needs reviews,yes
+Scottish Autism,scottishautism.org,501-1000,"Health, care, vet",804669,Scottish Autism,"Alloa, United Kingdom",https://www.scottishautism.org,56,2.9,2.9,2.5,2.6,2.8,2.6,3.3,0.48,0.41,high,1,yes,yes,needs reviews,yes
+Kinnerton Confectionery,kinnerton.com,501-1000,"Retail, hospitality",417178,Kinnerton Confectionery Company Ltd.,"London, United Kingdom",https://www.kinnerton.com,18,3.2,2.9,2.9,2.6,3.5,2.6,3.3,0.54,0.53,medium,2,no,no,needs reviews,no
+Russell & Bromley,russellandbromley.co.uk,501-1000,"Retail, hospitality",865857,Russell & Bromley Ltd,"London, United Kingdom",https://www.russellandbromley.co.uk,219,3.6,3.6,3.4,3.2,3.7,3.5,3.6,0.58,0.53,high,1,no,no,needs reviews,no
+Vicky Modlin,-,10001+,"Health, care, vet",-,-,-,-,-,-,-,-,-,-,-,-,-,-,none,0,no,no,needs reviews,no
+PFM UK,pfm.com,501-1000,Financial services,-,-,-,-,-,-,-,-,-,-,-,-,-,-,none,0,no,no,needs reviews,no
