@@ -44,7 +44,7 @@ Folder **Clients / We Are DNA** (`9a6928d3-0e80-49c3-8934-a8a1692ff121`): https:
 | Workbook | id | Tables (id, rows) | Linked campaign |
 |---|---|---|---|
 | UK \| Fresh Investment, PE-Backed Growth \| Campaign 6 \| Moe v1 | `851f8ca4-76f6-4f67-8576-1a8ba6524e2d` | 1 PE Deal News `2a56bc61-3fdf-4fb5-bf1e-b1236a0ea6ec` (1,119) · 2 Companies `118a97e4-4b6f-4e77-b37e-d922c2c0572d` (280) · 3 Leads `9aeb67d6-8e49-4ef4-9ff1-8cecb9714733` (491; columns Clean First Name, Clean Company, Push to HeyReach added 2026-11-16, nothing pushed yet) | UK \| Fresh Investment PE-Backed Growth \| C6 \| Moe v1 (`6ce9ac82-8714-4a82-a864-5317bb53fc91`); Leads table linked to lead list `71717207-…` |
-| UK \| Glassdoor Bad Reviews \| Moe v1 | `933daaa1-121f-4f4f-b47c-1b3e91ae44ac` | Test A: Glassdoor company lookup (5) `a0ef1342-ab97-4974-bb4c-9e2ec3ce6a54` (12) · Test B: Glassdoor reviews (5 x 20) `7561f3ce-7be1-4bdd-a954-772a3cac1b22` (100) · Preview C: Glassdoor lookup, full settings (25) `57b416c5-a780-42d7-bfdb-e00f9cf77c4a` (29) · Preview C (scored): Glassdoor lookup, 25 companies `2a4e6b5b-3bb2-4a0e-9ca5-d2e399e57869` (25, webhook-loaded from `2026-11-17-preview-lookup.csv`, passing companies first) · 2 Glassdoor company profiles `55c0230b-f042-47c2-927a-243594553677` (0, created for the full lookup, still empty). Funnel tables 1–4 not built yet. | none yet (no tracking_clients campaign created; link when one exists) |
+| UK \| Glassdoor Bad Reviews \| Moe v1 | `933daaa1-121f-4f4f-b47c-1b3e91ae44ac` | Test A: Glassdoor company lookup (5) `a0ef1342-ab97-4974-bb4c-9e2ec3ce6a54` (12) · Test B: Glassdoor reviews (5 x 20) `7561f3ce-7be1-4bdd-a954-772a3cac1b22` (100) · Preview C: Glassdoor lookup, full settings (25) `57b416c5-a780-42d7-bfdb-e00f9cf77c4a` (29) · Preview C (scored): Glassdoor lookup, 25 companies `2a4e6b5b-3bb2-4a0e-9ca5-d2e399e57869` (25, webhook-loaded from `2026-11-17-preview-lookup.csv`, passing companies first) · 2 Glassdoor company profiles `55c0230b-f042-47c2-927a-243594553677` (29,489, webhook table with readable field columns, loaded 2026-11-17 from `2026-11-17-glassdoor-profiles.csv` by `push_profiles_to_gtm.py`; passing companies first, then high > medium > low > none, then most reviews). Funnel tables 1–4 not built yet. | none yet (no tracking_clients campaign created; link when one exists) |
 
 Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A webhook load appends rows, so re-running it duplicates them.
 
@@ -57,6 +57,8 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## Sourced data in this repo
 
+- `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-profiles.csv`: **29,489 rows**, one per lookup-input company, scored with `select_and_score.py` rule v2. Match confidence: high 2,264, medium 10,007, low 2,546, none 14,672. **1,796 pass Moe's profile bar** (1,384 high confidence, 412 low). Glassdoor bad-review campaign, config `-` (no tracking_clients config, UUID `-`). From Apify `kaix/glassdoor-company-scraper` via the Apify REST API (60 runs, run ids and costs in `2026-11-17-glassdoor-lookup-runs.json`), pulled 2026-11-17, **$2.80**. Query record `2026-11-17-glassdoor-profiles.query.md`.
+- `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-profiles-raw-b1..b6.jsonl.gz`: the raw actor output behind that CSV, one file per input batch (7,429 / 6,347 / 5,220 / 3,960 / 3,043 / 1,994 = 27,993 employer profiles). Same tool, config `-`, and date. Assembled by `run_lookup.py assemble`.
 - `sourcing/glassdoor-bad-reviews/2026-11-17-2-companies.csv`: 22,627 UK-HQ companies with **51–200** employees in doc 1's five sectors; 22,570 `icp`, 15 excluded as DNC, 42 as Campaign 6; 319 ICP rows flagged `public_sector`. Glassdoor bad-review campaign, config `-`. Blitz API `POST /v2/search/companies` (22,627 records), pulled 2026-11-17 with `pull_companies.py 2026-11-17 51-200 -2`; raw `2026-11-17-2-companies-blitz-raw.jsonl.gz`.
 - `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-lookup-input.csv` (from `build_lookup_input.py`): the **29,489-company** stage-2 lookup list: private-sector ICP, 51–5,000 staff (Moe's floor and ceiling), deduped by domain and company LinkedIn, largest first, in 6 batches of 5,000.
 - `sourcing/glassdoor-bad-reviews/2026-11-17-preview-lookup-raw.json` / `.csv` with `select_and_score.py`: 25-company preview of the stage-2 Glassdoor lookup at full-run settings (29 employer profiles with ratings; 9 usable, 6 pass Moe's bar). `kaix/glassdoor-company-scraper` via GTM Sheets, ≈$0.006. Glassdoor bad-review campaign, config `-`, pulled 2026-11-17. Method in `2026-11-17-test.query.md` (Preview 2).
@@ -72,6 +74,32 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## History
 
+- **2026-11-17**: **Full Glassdoor company lookup run, scored and loaded to GTM Sheets.** This followed the paused-lookup handoff below. It **expands** the existing `glassdoor-bad-reviews` segment (Campaign-specific: Glassdoor bad-review outreach).
+  - **Tool:**
+    - Apify `kaix/glassdoor-company-scraper` via the REST API, using the session token (env `Apify_API_KEY`, not `APIFY_API_TOKEN` as briefed).
+    - Settings were Moe's: maxSearchResults 3, full ratings, every other include off.
+  - **Price and runs:**
+    - The live price was $0.0001 per profile, lower than the $0.0002 assumed.
+    - The actor takes about 7 s per query, so the job ran as 60 runs: a 50-row smoke test (`qpVI8dpA69sxnflfc`, shape matched the preview) plus 59 runs of 500 queries.
+    - Each run had a $0.16 `maxTotalChargeUsd` cap, for a $9.45 worst case against the $10 hard cap. All 60 runs SUCCEEDED.
+    - **Actual spend: $2.7987** (Apify `usageTotalUsd`). All run ids are in `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-lookup-runs.json` and the `.query.md`.
+  - **Results** (29,489 companies):
+    - Match confidence: high 2,264 · medium 10,007 · low 2,546 · none 14,672.
+    - **1,796 pass the bar** (1,384 high confidence). By sector: retail and hospitality 705 (560 high), financial services 421 (329), manufacturing and engineering 279 (191), health, care and vet 235 (173), law and accounting 156 (131).
+    - By size: 51-200 629, 201-500 459, 501-1000 293, 1001-5000 415.
+    - The decline test is `needs reviews` on every row.
+  - **GTM Sheets:**
+    - Table `55c0230b-f042-47c2-927a-243594553677` was rebuilt as a webhook table, using Preview C (scored) for the layout.
+    - 29,489 rows were loaded in 30 POSTs, and the count was verified via `gtm_sheet_get_workbook`.
+    - The webhook URL is not committed.
+  - **Flagged for Moe:**
+    - 372 of the 412 low-confidence passes have a non-UK HQ, so they are probably the wrong company.
+    - 575 rows share a Glassdoor employer with another row (131 of them pass). Some are aliases; some are wrong matches, such as Christie's matched to Christies Care.
+    - The input has 3 rows with `.` as the search term and 98 duplicate search queries.
+    - The size-band counts in the entry below are slightly off. The actual counts are 20,597 / 5,264 / 1,893 / 1,735.
+    - Batches 4-6 (small companies) are 53-85% `none`.
+  - **Not done, waiting for Moe:** reviews, leads, campaigns, doc 1, HeyReach, Campaign 6.
+  - Scripts: `run_lookup.py`, `select_and_score.py` (full-file mode), `push_profiles_to_gtm.py`. (session_013MzxQfS4USBg3GQoTHx9Ai)
 - **2026-11-17**: **Full Glassdoor lookup paused for an Apify token (Moe's choice).** `gtm_sheet_apify_run` only takes the company list inline in each call, so 29,489 names would be hand-copied with no check, and GTM table exports need auth this environment lacks. A subagent stopped before submitting anything (**$0 spent**). Moe chose: add `APIFY_API_TOKEN` to the cloud environment, then a **fresh session** runs `kaix/glassdoor-company-scraper` straight from `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-lookup-input.csv`, under the $10 cap, writes raw + scored CSVs to the repo, and loads GTM table `55c0230b-…` by webhook.
   - **Next session's settings:** 6 batches as in the input file; `maxSearchResults: 3`, `compactMode: false`, `includeRatings: true`, every other section off; select with `select_and_score.py` rule v2 (UK HQ first, then most reviews); profile bar = overall < 3.5 or culture/leadership < 3.3, 30+ reviews. Cost so far on Apify this campaign ≈ $0.02.
   - **Still open with Moe:** the CLAUDE.md wording for his preview rule; who handles replies; HeyReach window and timezone (7 days required); the review pull for the decline rule and themes; trigger ranking (decline + hiring first?) and fixed vs peer-relative cut-offs.

@@ -28,11 +28,18 @@
   "queries": 450,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:28:51.766Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "U3m0UV8BPArrtBYGw",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 811,
+  "cost_usd": 0.08115,
+  "charged_events": {
+   "apify-default-dataset-item": 811,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:27:21.438Z",
+  "status_message": null
  },
  {
   "run_id": "sDD5vKdpSGDAkN0h7",
@@ -42,11 +49,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:28:52.525Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "56hOm70NWByT0Bh9o",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 787,
+  "cost_usd": 0.07875,
+  "charged_events": {
+   "apify-default-dataset-item": 787,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:53:29.922Z",
+  "status_message": null
  },
  {
   "run_id": "ieTR6uAhjv0ubF1yd",
@@ -56,11 +70,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:28:53.543Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "VdvP0FArBQDrlvKzS",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 741,
+  "cost_usd": 0.07415,
+  "charged_events": {
+   "apify-default-dataset-item": 741,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:34:55.753Z",
+  "status_message": null
  },
  {
   "run_id": "ieYQe4hoXGHy3bF1W",
@@ -70,11 +91,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:28:54.568Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "h8fSaKwybVbsCelYC",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 726,
+  "cost_usd": 0.07175,
+  "charged_events": {
+   "apify-default-dataset-item": 717,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:02:05.198Z",
+  "status_message": null
  },
  {
   "run_id": "6gFj6ucEbAdma18ib",
@@ -84,11 +112,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:28:55.561Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "7SE0qcEqxOedMK4qQ",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 768,
+  "cost_usd": 0.07615,
+  "charged_events": {
+   "apify-default-dataset-item": 761,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:49:15.980Z",
+  "status_message": null
  },
  {
   "run_id": "wfcpkENz7Ycd24e91",
@@ -98,11 +133,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:28:56.557Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "bztMsxIq4gKCOEJJL",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 710,
+  "cost_usd": 0.07105,
+  "charged_events": {
+   "apify-default-dataset-item": 710,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:48:57.311Z",
+  "status_message": null
  },
  {
   "run_id": "2vwPrqJvM32U3L4T0",
@@ -112,11 +154,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:28:57.551Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "ZNcJuJv0UyP7iOAlC",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 696,
+  "cost_usd": 0.06965,
+  "charged_events": {
+   "apify-default-dataset-item": 696,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:03:15.474Z",
+  "status_message": null
  },
  {
   "run_id": "NoWsQdMQl6gSuP9W8",
@@ -126,11 +175,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:28:58.597Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "wS5gc6UOxa7U6Sc41",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 653,
+  "cost_usd": 0.06534999999999999,
+  "charged_events": {
+   "apify-default-dataset-item": 653,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T13:13:43.394Z",
+  "status_message": null
  },
  {
   "run_id": "GYakNgjPkhhpagIzC",
@@ -140,11 +196,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:28:59.607Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "PFNQTTs3iqVLRqZz6",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 734,
+  "cost_usd": 0.07345,
+  "charged_events": {
+   "apify-default-dataset-item": 734,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:17:30.115Z",
+  "status_message": null
  },
  {
   "run_id": "CTSUFSz5PQjDr2bxQ",
@@ -154,11 +217,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:00.651Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "FC4lCpcrs6Q8rrYJo",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 699,
+  "cost_usd": 0.06995,
+  "charged_events": {
+   "apify-default-dataset-item": 699,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:43:55.398Z",
+  "status_message": null
  },
  {
   "run_id": "MEEasNatmRvwlAu8C",
@@ -168,11 +238,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:01.621Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "3Jag2v9hTyNBxJaJc",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 646,
+  "cost_usd": 0.06455,
+  "charged_events": {
+   "apify-default-dataset-item": 646,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:40:10.088Z",
+  "status_message": null
  },
  {
   "run_id": "VMWNPI82GyT6VOICw",
@@ -182,11 +259,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:02.622Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "g23nf20skLdvcYngV",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 693,
+  "cost_usd": 0.06935,
+  "charged_events": {
+   "apify-default-dataset-item": 693,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:09:37.386Z",
+  "status_message": null
  },
  {
   "run_id": "Y7jqfswMUMX6QCgCb",
@@ -196,11 +280,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:03.630Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "bO2cyIpR4KDwWqfvo",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 640,
+  "cost_usd": 0.06405,
+  "charged_events": {
+   "apify-default-dataset-item": 640,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:07:39.049Z",
+  "status_message": null
  },
  {
   "run_id": "ac4TxtKcYUUN7iPFO",
@@ -210,11 +301,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:04.610Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "BfnDdNxFeCYEgXVdK",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 677,
+  "cost_usd": 0.06775,
+  "charged_events": {
+   "apify-default-dataset-item": 677,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:52:36.057Z",
+  "status_message": null
  },
  {
   "run_id": "Q4YrkNn6VsNYFg5Ww",
@@ -224,11 +322,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:05.635Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "WTbMPKLl2hfT7P3gF",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 622,
+  "cost_usd": 0.06225000000000001,
+  "charged_events": {
+   "apify-default-dataset-item": 622,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:12:11.008Z",
+  "status_message": null
  },
  {
   "run_id": "eWcVuZvLiYRc8GVyu",
@@ -238,11 +343,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:06.595Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "GtWm1WtHbjbmogojY",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 625,
+  "cost_usd": 0.06255,
+  "charged_events": {
+   "apify-default-dataset-item": 625,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:22:31.231Z",
+  "status_message": null
  },
  {
   "run_id": "nkCA00MOouslDsKxd",
@@ -252,11 +364,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:07.641Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "QBmyPo5QJEqbmt8UT",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 588,
+  "cost_usd": 0.058850000000000006,
+  "charged_events": {
+   "apify-default-dataset-item": 588,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:23:38.384Z",
+  "status_message": null
  },
  {
   "run_id": "QAAmIJKlaaJBrd8kd",
@@ -266,11 +385,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:08.612Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "QM9UBTF9I0JJfE0yQ",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 644,
+  "cost_usd": 0.06435,
+  "charged_events": {
+   "apify-default-dataset-item": 643,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:16:18.097Z",
+  "status_message": null
  },
  {
   "run_id": "WJ300KfVeVtwW4Ej1",
@@ -280,11 +406,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:09.627Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "Hfwgc6b1GhcmDapie",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 607,
+  "cost_usd": 0.060750000000000005,
+  "charged_events": {
+   "apify-default-dataset-item": 607,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:45:39.428Z",
+  "status_message": null
  },
  {
   "run_id": "wwDosIgVoa7EgfXQd",
@@ -294,11 +427,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:10.616Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "dJTl9OJOKZOsvpUaE",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 605,
+  "cost_usd": 0.06055000000000001,
+  "charged_events": {
+   "apify-default-dataset-item": 605,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:16:39.181Z",
+  "status_message": null
  },
  {
   "run_id": "8IebmiIXfe6gomEr6",
@@ -308,11 +448,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:11.625Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "dxoqY3czj0ZeoZEEh",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 574,
+  "cost_usd": 0.05745,
+  "charged_events": {
+   "apify-default-dataset-item": 574,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:11:52.151Z",
+  "status_message": null
  },
  {
   "run_id": "XTLufX1ZpIBzb3hmp",
@@ -322,11 +469,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:12.629Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "bzMV6x4hLTbPu6qXg",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 550,
+  "cost_usd": 0.05505,
+  "charged_events": {
+   "apify-default-dataset-item": 550,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:04:53.623Z",
+  "status_message": null
  },
  {
   "run_id": "uLLgkHDF7CKkf9TkD",
@@ -336,11 +490,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:13.624Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "tDEZFHKpg7AaCnFZ3",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 530,
+  "cost_usd": 0.05305000000000001,
+  "charged_events": {
+   "apify-default-dataset-item": 530,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:07:02.186Z",
+  "status_message": null
  },
  {
   "run_id": "QkwxoeNvUBYbY1aEQ",
@@ -350,11 +511,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:14.622Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "ttXxeDfROwJXAIa0h",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 554,
+  "cost_usd": 0.055450000000000006,
+  "charged_events": {
+   "apify-default-dataset-item": 554,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:11:42.370Z",
+  "status_message": null
  },
  {
   "run_id": "sg4coDeDcebQbMYEy",
@@ -364,11 +532,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:15.681Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "6xw62KuJzucX2s5hj",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 510,
+  "cost_usd": 0.051050000000000005,
+  "charged_events": {
+   "apify-default-dataset-item": 510,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T11:57:44.997Z",
+  "status_message": null
  },
  {
   "run_id": "qeKkdqR5NalCL80O4",
@@ -378,11 +553,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:16.623Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "WLVX49f0SzK1aAuiL",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 498,
+  "cost_usd": 0.049850000000000005,
+  "charged_events": {
+   "apify-default-dataset-item": 498,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T11:54:51.159Z",
+  "status_message": null
  },
  {
   "run_id": "7SGdwfeaLtqDzsOPc",
@@ -392,11 +574,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:17.631Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "eq5Ioz7z3vigeFmeg",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 487,
+  "cost_usd": 0.04875,
+  "charged_events": {
+   "apify-default-dataset-item": 487,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:49:41.675Z",
+  "status_message": null
  },
  {
   "run_id": "G1CtvelsqC7QMIqS2",
@@ -406,11 +595,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:18.616Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "KYwiiBeYgMkQYYgwO",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 521,
+  "cost_usd": 0.05215,
+  "charged_events": {
+   "apify-default-dataset-item": 521,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:02:52.306Z",
+  "status_message": null
  },
  {
   "run_id": "TsZetpzNYmjjnUnvy",
@@ -420,11 +616,18 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:19.615Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "DDk4ieki0sWMZ1kv0",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 503,
+  "cost_usd": 0.04995,
+  "charged_events": {
+   "apify-default-dataset-item": 499,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:34:39.409Z",
+  "status_message": null
  },
  {
   "run_id": "2IaBfLCkt6XjYlFun",
@@ -434,10 +637,626 @@
   "queries": 500,
   "cap_usd": 0.16,
   "started_at": "2026-11-17T11:29:20.625Z",
-  "status": "READY",
+  "status": "SUCCEEDED",
   "dataset_id": "Ap4BAiRF4txYYoHds",
-  "items": null,
-  "cost_usd": null,
-  "charged_events": null
+  "items": 493,
+  "cost_usd": 0.049350000000000005,
+  "charged_events": {
+   "apify-default-dataset-item": 493,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T11:57:15.804Z",
+  "status_message": null
+ },
+ {
+  "run_id": "ZAWd2yP2gabydtGFo",
+  "batch": 4,
+  "start": 0,
+  "end": 500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:33.895Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "3Qq7OeED2IYauuMYA",
+  "items": 444,
+  "cost_usd": 0.04415,
+  "charged_events": {
+   "apify-default-dataset-item": 441,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:08:33.647Z",
+  "status_message": null
+ },
+ {
+  "run_id": "DNh3iYvpgvT85P2sk",
+  "batch": 4,
+  "start": 500,
+  "end": 1000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:34.892Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "x78MhgNzqevfd0vUo",
+  "items": 433,
+  "cost_usd": 0.04335000000000001,
+  "charged_events": {
+   "apify-default-dataset-item": 433,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:12:48.125Z",
+  "status_message": null
+ },
+ {
+  "run_id": "0PWFdgCj2SLt1wdsk",
+  "batch": 4,
+  "start": 1000,
+  "end": 1500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:35.889Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "Ng7FSZQmwh80lKvud",
+  "items": 411,
+  "cost_usd": 0.041150000000000006,
+  "charged_events": {
+   "apify-default-dataset-item": 411,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:43:17.970Z",
+  "status_message": null
+ },
+ {
+  "run_id": "4q79AWXwVqZPcSpFm",
+  "batch": 4,
+  "start": 1500,
+  "end": 2000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:36.906Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "BAjLoNFQhMLqM1IO6",
+  "items": 437,
+  "cost_usd": 0.04365,
+  "charged_events": {
+   "apify-default-dataset-item": 437,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:44:39.948Z",
+  "status_message": null
+ },
+ {
+  "run_id": "F3aCjmbBVieiKqMP5",
+  "batch": 4,
+  "start": 2000,
+  "end": 2500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:37.892Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "Qqj0ioQVEQ8ZM4Eji",
+  "items": 407,
+  "cost_usd": 0.04075,
+  "charged_events": {
+   "apify-default-dataset-item": 407,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:16:53.868Z",
+  "status_message": null
+ },
+ {
+  "run_id": "1q39agpGpNqdwqf5x",
+  "batch": 4,
+  "start": 2500,
+  "end": 3000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:38.875Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "Qs1LMwZm0ayWhZPxb",
+  "items": 382,
+  "cost_usd": 0.038250000000000006,
+  "charged_events": {
+   "apify-default-dataset-item": 382,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:24:20.938Z",
+  "status_message": null
+ },
+ {
+  "run_id": "q5Y0rmORiVh8xtpHz",
+  "batch": 4,
+  "start": 3000,
+  "end": 3500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:39.875Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "KR9vM8VPe7CjKEqCa",
+  "items": 403,
+  "cost_usd": 0.040350000000000004,
+  "charged_events": {
+   "apify-default-dataset-item": 403,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:51:05.357Z",
+  "status_message": null
+ },
+ {
+  "run_id": "dojvtsh8S3auexQiM",
+  "batch": 4,
+  "start": 3500,
+  "end": 4000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:40.896Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "BSExFs28FRwulXemV",
+  "items": 364,
+  "cost_usd": 0.03645,
+  "charged_events": {
+   "apify-default-dataset-item": 364,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:11:59.977Z",
+  "status_message": null
+ },
+ {
+  "run_id": "I4ecZpYrbKhIDh5bX",
+  "batch": 4,
+  "start": 4000,
+  "end": 4500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:41.940Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "A91hq9vNFlnjsjlLg",
+  "items": 343,
+  "cost_usd": 0.034350000000000006,
+  "charged_events": {
+   "apify-default-dataset-item": 343,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:10:01.481Z",
+  "status_message": null
+ },
+ {
+  "run_id": "V7GT1hhUk21gXi6Qj",
+  "batch": 4,
+  "start": 4500,
+  "end": 5000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:42.914Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "M8W0W2uqlA2pYe51a",
+  "items": 336,
+  "cost_usd": 0.033650000000000006,
+  "charged_events": {
+   "apify-default-dataset-item": 336,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:30:02.231Z",
+  "status_message": null
+ },
+ {
+  "run_id": "xaE8GTW7fnaPUgJd5",
+  "batch": 5,
+  "start": 0,
+  "end": 500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:43.892Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "J0unzCrYDeeMDj7bA",
+  "items": 340,
+  "cost_usd": 0.034050000000000004,
+  "charged_events": {
+   "apify-default-dataset-item": 340,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:26:36.387Z",
+  "status_message": null
+ },
+ {
+  "run_id": "MpmmAF0KocqzsnMK6",
+  "batch": 5,
+  "start": 500,
+  "end": 1000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:44.892Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "CDG4LAJSx3iQzcja6",
+  "items": 403,
+  "cost_usd": 0.04025,
+  "charged_events": {
+   "apify-default-dataset-item": 403,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T11:59:39.367Z",
+  "status_message": null
+ },
+ {
+  "run_id": "V1TcMq3hhdN9DhQ8r",
+  "batch": 5,
+  "start": 1000,
+  "end": 1500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:45.987Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "d14S7xGhGRmksHKOh",
+  "items": 337,
+  "cost_usd": 0.03325,
+  "charged_events": {
+   "apify-default-dataset-item": 332,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:17:49.760Z",
+  "status_message": null
+ },
+ {
+  "run_id": "GaK3sO9oXNQMMCLVo",
+  "batch": 5,
+  "start": 1500,
+  "end": 2000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:46.913Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "MMywD5t4CwmwPC2uN",
+  "items": 323,
+  "cost_usd": 0.032350000000000004,
+  "charged_events": {
+   "apify-default-dataset-item": 323,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:10:04.807Z",
+  "status_message": null
+ },
+ {
+  "run_id": "wnuHxjSzZnYFpVjdC",
+  "batch": 5,
+  "start": 2000,
+  "end": 2500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:47.912Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "yAcbV9m6bjoL7ruNx",
+  "items": 288,
+  "cost_usd": 0.028850000000000004,
+  "charged_events": {
+   "apify-default-dataset-item": 288,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:50:08.992Z",
+  "status_message": null
+ },
+ {
+  "run_id": "eExauObsUz6AaxO6J",
+  "batch": 5,
+  "start": 2500,
+  "end": 3000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:48.911Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "sq2MmFjkeLjnyHcs5",
+  "items": 292,
+  "cost_usd": 0.02925,
+  "charged_events": {
+   "apify-default-dataset-item": 292,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:02:01.803Z",
+  "status_message": null
+ },
+ {
+  "run_id": "7zaT3ELUgYpxa1NFe",
+  "batch": 5,
+  "start": 3000,
+  "end": 3500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:49.958Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "FbHPstQiVuNA7Rg7J",
+  "items": 302,
+  "cost_usd": 0.030250000000000003,
+  "charged_events": {
+   "apify-default-dataset-item": 302,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:06:39.527Z",
+  "status_message": null
+ },
+ {
+  "run_id": "pHJpiqkRXqVQXzQg6",
+  "batch": 5,
+  "start": 3500,
+  "end": 4000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:50.992Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "bUZvMNklfSzlVdJiF",
+  "items": 283,
+  "cost_usd": 0.028350000000000004,
+  "charged_events": {
+   "apify-default-dataset-item": 283,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:04:37.159Z",
+  "status_message": null
+ },
+ {
+  "run_id": "4jg8kU4BpoVxsLeB6",
+  "batch": 5,
+  "start": 4000,
+  "end": 4500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:51.990Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "5lV7HAIZ5LRv3FjRp",
+  "items": 235,
+  "cost_usd": 0.02355,
+  "charged_events": {
+   "apify-default-dataset-item": 235,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T11:58:59.803Z",
+  "status_message": null
+ },
+ {
+  "run_id": "oEsIxIzHTwWUjCsHs",
+  "batch": 5,
+  "start": 4500,
+  "end": 5000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:52.956Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "piEyjX1LjmVggYdQc",
+  "items": 240,
+  "cost_usd": 0.024050000000000002,
+  "charged_events": {
+   "apify-default-dataset-item": 240,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:07:30.897Z",
+  "status_message": null
+ },
+ {
+  "run_id": "C1qNdQlIFfjbFjOLo",
+  "batch": 6,
+  "start": 0,
+  "end": 500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:53.949Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "RevsNEUnaRoRvDQCL",
+  "items": 256,
+  "cost_usd": 0.025650000000000003,
+  "charged_events": {
+   "apify-default-dataset-item": 256,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T11:56:31.860Z",
+  "status_message": null
+ },
+ {
+  "run_id": "i6pR4EQG64thvFEDm",
+  "batch": 6,
+  "start": 500,
+  "end": 1000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:54.949Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "rEc3Wh5jf6mgo5Cjp",
+  "items": 220,
+  "cost_usd": 0.022050000000000004,
+  "charged_events": {
+   "apify-default-dataset-item": 220,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T11:58:06.233Z",
+  "status_message": null
+ },
+ {
+  "run_id": "eC1Ps5tzqIwzV5anA",
+  "batch": 6,
+  "start": 1000,
+  "end": 1500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:55.979Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "tDKw0djN86OOmzLSy",
+  "items": 234,
+  "cost_usd": 0.023450000000000002,
+  "charged_events": {
+   "apify-default-dataset-item": 234,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:25:36.989Z",
+  "status_message": null
+ },
+ {
+  "run_id": "qxBdgmR5xsJI4EJkw",
+  "batch": 6,
+  "start": 1500,
+  "end": 2000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:56.967Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "XA30VxdjDvoBBeDXk",
+  "items": 257,
+  "cost_usd": 0.025750000000000002,
+  "charged_events": {
+   "apify-default-dataset-item": 257,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T11:54:17.755Z",
+  "status_message": null
+ },
+ {
+  "run_id": "SfBabpqLT2BesKOEN",
+  "batch": 6,
+  "start": 2000,
+  "end": 2500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:57.971Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "n1MxQoXWegNwBSl2u",
+  "items": 217,
+  "cost_usd": 0.021550000000000003,
+  "charged_events": {
+   "apify-default-dataset-item": 215,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:11:52.780Z",
+  "status_message": null
+ },
+ {
+  "run_id": "dDDrbj5g8xr4NHvtg",
+  "batch": 6,
+  "start": 2500,
+  "end": 3000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:58.982Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "xcqHYWIoxOUY9nH58",
+  "items": 183,
+  "cost_usd": 0.01835,
+  "charged_events": {
+   "apify-default-dataset-item": 183,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:15:26.655Z",
+  "status_message": null
+ },
+ {
+  "run_id": "etptkcjUMWz6ZiFV4",
+  "batch": 6,
+  "start": 3000,
+  "end": 3500,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:37:59.978Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "8ATozYbtFpDicSvb9",
+  "items": 209,
+  "cost_usd": 0.020950000000000003,
+  "charged_events": {
+   "apify-default-dataset-item": 209,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T11:55:10.490Z",
+  "status_message": null
+ },
+ {
+  "run_id": "qOa8u7YJ7G7RlTUsx",
+  "batch": 6,
+  "start": 3500,
+  "end": 4000,
+  "queries": 500,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:38:00.999Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "sgSiTbIDNbPwKjm6q",
+  "items": 204,
+  "cost_usd": 0.020250000000000004,
+  "charged_events": {
+   "apify-default-dataset-item": 202,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:15:00.264Z",
+  "status_message": null
+ },
+ {
+  "run_id": "ugREko0WTZgLzbvFx",
+  "batch": 6,
+  "start": 4000,
+  "end": 4489,
+  "queries": 489,
+  "cap_usd": 0.16,
+  "started_at": "2026-11-17T11:38:01.992Z",
+  "status": "SUCCEEDED",
+  "dataset_id": "oou031ig03qsHYiBk",
+  "items": 214,
+  "cost_usd": 0.021450000000000004,
+  "charged_events": {
+   "apify-default-dataset-item": 214,
+   "interview-scraped": 0,
+   "job-scraped": 0,
+   "apify-actor-start": 1
+  },
+  "finished_at": "2026-11-17T12:29:21.642Z",
+  "status_message": null
  }
 ]
