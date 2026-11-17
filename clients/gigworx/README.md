@@ -100,6 +100,7 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
   - `sourcing/tam/classify.py`, `pull_jobs.py`, `merge.py`, `size_indeed.py`: the scripts that produced these.
 - **C7 Multiple Open Roles leads (campaign-specific, proposed C7, no config yet):**
   - `sourcing/c7-multiple-open-roles/2026-11-17-leads.csv` (+ `.query.md`, scripts): 471 decision makers at 154 of the 236 C7 companies, pulled 2026-11-17 via Blitz API `POST /v2/search/waterfall-icp-keyword` and Clay MCP `search-contacts`, keyed by `linkedin_url`. Parent: no tracking_clients config yet.
+  - `sourcing/c7-multiple-open-roles/2026-11-17-2-leads.csv`: 93 more decision makers with LinkedIn URLs, from GTM Sheets AI web research (Gemini + Spider Cloud, table `fa2bcba2-9d32-4e82-ae2e-b912e2cb13c2`), pulled 2026-11-17. `-2-leads-unverified.csv` holds 34 sourced people with no LinkedIn URL (not keyed); `-2-research-raw.csv` is the raw AI output.
 
 ## Analysis
 
@@ -107,6 +108,8 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
 ## History
+
+- **2026-11-17** — **C7 decision makers expanded with Spider Cloud web research** (expanding the C7 segment), at the owner's request. 154 thin companies were researched in GTM Sheets; 93 sourced people with LinkedIn URLs went to `-2-leads.csv`, and 34 without one went to `-2-leads-unverified.csv`. **C7 totals: 564 keyed decision makers (+34 unverified) at 199 of the 236 companies**; 37 companies still have nobody publicly findable. Overlap: 3 also in C1 `-2`, 1 in C1, 1 in C4 `-2`. Session: branch `claude/practical-darwin-ejgil8`.
 
 - **2026-11-17** — **C7 decision makers pulled (new segment, Campaign-specific: C7 Multiple Open Roles).** The repo owner asked for the 236 companies and up to 10 client-fit decision makers at each.
   - **Result:** 471 people at 154 companies, all located in Indiana (Michiana towns) or, for small local firms, Indiana/Michigan. Blitz waterfall + Clay MCP, deduped on LinkedIn URL. Personas: site ops lead 308, HR 62, owner/exec 44, supervisor/lead 59.
