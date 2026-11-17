@@ -128,23 +128,29 @@ def cmd_run(a):
     print(f"total real spend so far: ${sum(e['cost_usd'] or 0 for e in log):.4f}")
 
 
+LIVE = ("READY", "RUNNING", "SUCCEEDED")   # a logged run in one of these covers its range; never relaunch it
+
+
 def cmd_runall(a):
-    """Launch every not-yet-logged chunk of `--chunk` queries for the given batches, at most `--parallel` at
-    once. Per-run cap = chunk x maxSearchResults x price + start fee, so a cap can never cut a run short; the
-    sum of all caps plus spend so far must stay under TOTAL_CAP_USD or nothing starts."""
+    """Resumable: watch every logged run that has not finished (download + log on completion), and launch
+    every chunk of `--chunk` queries not covered by a live or succeeded logged run, at most `--parallel` new
+    runs at once. Per-run cap = chunk x maxSearchResults x price + start fee, so a cap can never cut a run
+    short. Worst case = real spend of finished runs + caps of unfinished and planned runs; it must stay under
+    TOTAL_CAP_USD or nothing new starts."""
     import threading
     log = load_log()
+    pending = [e for e in log if e["status"] in ("READY", "RUNNING")]
     plan = []
     for b in a.batches:
         n = len(batch_rows(b))
-        ok = [(e["start"], e["end"]) for e in log if e["batch"] == b and e["status"] == "SUCCEEDED"]
-        cuts = sorted({*range(0, n, a.chunk), n} | {x for se in ok for x in se})
+        cov = [(e["start"], e["end"]) for e in log if e["batch"] == b and e["status"] in LIVE]
+        cuts = sorted({*range(0, n, a.chunk), n} | {x for se in cov for x in se})
         for s, e_ in zip(cuts, cuts[1:]):
-            if not any(os_ <= s and e_ <= oe for os_, oe in ok):   # skip ranges a successful run already covers
+            if not any(os_ <= s and e_ <= oe for os_, oe in cov):
                 plan.append((b, s, e_))
-    spent = sum(e["cost_usd"] or 0 for e in log)
-    need = spent + a.cap * len(plan)
-    print(f"{len(plan)} runs planned; spent ${spent:.4f}; caps ${a.cap * len(plan):.2f}; worst case ${need:.2f}")
+    spent = sum(e["cost_usd"] or 0 for e in log if e["status"] not in ("READY", "RUNNING"))
+    need = spent + sum(e["cap_usd"] for e in pending) + a.cap * len(plan)
+    print(f"{len(pending)} runs to watch, {len(plan)} to launch; spent ${spent:.4f}; worst case ${need:.2f}", flush=True)
     if need > TOTAL_CAP_USD + 1e-9:
         sys.exit("would exceed the $10 total cap; nothing started")
     if a.dry:
@@ -152,42 +158,46 @@ def cmd_runall(a):
         return
     lock, sem = threading.Lock(), threading.Semaphore(a.parallel)
 
-    def one(b, s, e_):
+    def watch(rid, b, s, e_):
+        run = call("GET", f"/actor-runs/{rid}")["data"]
+        while run["status"] in ("READY", "RUNNING"):
+            time.sleep(60)
+            run = call("GET", f"/actor-runs/{rid}")["data"]
+        os.makedirs(os.path.join(SCRATCH, "runs"), exist_ok=True)
+        n, off = 0, 0
+        with open(os.path.join(SCRATCH, "runs", rid + ".jsonl"), "w", encoding="utf-8") as f:
+            while True:
+                items = call("GET", f"/datasets/{run['defaultDatasetId']}/items?format=json&clean=1&offset={off}&limit=1000")
+                for it in items:
+                    f.write(json.dumps(it, ensure_ascii=False) + "\n")
+                n += len(items); off += len(items)
+                if len(items) < 1000:
+                    break
+        with lock:
+            lg = load_log()
+            for x in lg:
+                if x["run_id"] == rid:
+                    x.update(status=run["status"], finished_at=run.get("finishedAt"), items=n,
+                             cost_usd=run.get("usageTotalUsd"), charged_events=run.get("chargedEventCounts"),
+                             status_message=run.get("statusMessage"))
+            save_log(lg)
+            print(f"{time.strftime('%H:%M:%S')} b{b} [{s},{e_}) {rid} {run['status']} items={n} "
+                  f"${run.get('usageTotalUsd')}  total ${sum(x['cost_usd'] or 0 for x in lg):.4f}", flush=True)
+
+    def launch(b, s, e_):
         with sem:
             rows = batch_rows(b)[s:e_]
             body = dict(ACTOR_INPUT, searchQueries=[r["search_query"] for r in rows])
             run = call("POST", f"/acts/{ACTOR}/runs?maxTotalChargeUsd={a.cap}&timeout={a.timeout}&memory=512", body)["data"]
-            rid = run["id"]
-            entry = {"run_id": rid, "batch": b, "start": s, "end": e_, "queries": len(rows), "cap_usd": a.cap,
+            entry = {"run_id": run["id"], "batch": b, "start": s, "end": e_, "queries": len(rows), "cap_usd": a.cap,
                      "started_at": run["startedAt"], "status": run["status"], "dataset_id": run["defaultDatasetId"],
                      "items": None, "cost_usd": None, "charged_events": None}
             with lock:
                 lg = load_log(); lg.append(entry); save_log(lg)
-            while run["status"] in ("READY", "RUNNING"):
-                time.sleep(60)
-                run = call("GET", f"/actor-runs/{rid}")["data"]
-            os.makedirs(os.path.join(SCRATCH, "runs"), exist_ok=True)
-            n, off = 0, 0
-            with open(os.path.join(SCRATCH, "runs", rid + ".jsonl"), "w", encoding="utf-8") as f:
-                while True:
-                    items = call("GET", f"/datasets/{run['defaultDatasetId']}/items?format=json&clean=1&offset={off}&limit=1000")
-                    for it in items:
-                        f.write(json.dumps(it, ensure_ascii=False) + "\n")
-                    n += len(items); off += len(items)
-                    if len(items) < 1000:
-                        break
-            with lock:
-                lg = load_log()
-                for x in lg:
-                    if x["run_id"] == rid:
-                        x.update(status=run["status"], finished_at=run.get("finishedAt"), items=n,
-                                 cost_usd=run.get("usageTotalUsd"), charged_events=run.get("chargedEventCounts"),
-                                 status_message=run.get("statusMessage"))
-                save_log(lg)
-                print(f"{time.strftime('%H:%M:%S')} b{b} [{s},{e_}) {rid} {run['status']} items={n} "
-                      f"${run.get('usageTotalUsd')}  total ${sum(x['cost_usd'] or 0 for x in lg):.4f}", flush=True)
+            watch(run["id"], b, s, e_)
 
-    ts = [threading.Thread(target=one, args=p) for p in plan]
+    ts = [threading.Thread(target=watch, args=(e["run_id"], e["batch"], e["start"], e["end"])) for e in pending]
+    ts += [threading.Thread(target=launch, args=p) for p in plan]
     for t in ts:
         t.start(); time.sleep(1)
     for t in ts:
