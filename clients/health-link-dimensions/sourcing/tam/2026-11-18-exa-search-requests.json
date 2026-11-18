@@ -1,0 +1,95 @@
+{
+ "queries": [
+  {
+   "body": {
+    "query": "US healthcare advertising agency for pharmaceutical brands",
+    "category": "company",
+    "numResults": 100,
+    "type": "auto"
+   },
+   "n": 100,
+   "cost": {
+    "total": 0.097,
+    "search": {
+     "neural": 0.097
+    }
+   }
+  },
+  {
+   "body": {
+    "query": "pharma media agency programmatic HCP targeting United States",
+    "category": "company",
+    "numResults": 100,
+    "type": "auto"
+   },
+   "n": 100,
+   "cost": {
+    "total": 0.097,
+    "search": {
+     "neural": 0.097
+    }
+   }
+  },
+  {
+   "body": {
+    "query": "independent health and wellness communications agency serving biotech and pharma clients",
+    "category": "company",
+    "numResults": 100,
+    "type": "auto"
+   },
+   "n": 100,
+   "cost": {
+    "total": 0.097,
+    "search": {
+     "neural": 0.097
+    }
+   }
+  },
+  {
+   "body": {
+    "query": "medical communications agency United States pharmaceutical marketing",
+    "category": "company",
+    "numResults": 100,
+    "type": "auto"
+   },
+   "n": 100,
+   "cost": {
+    "total": 0.097,
+    "search": {
+     "neural": 0.097
+    }
+   }
+  },
+  {
+   "body": {
+    "query": "healthcare marketing data and analytics agency for life sciences brands",
+    "category": "company",
+    "numResults": 100,
+    "type": "auto"
+   },
+   "n": 100,
+   "cost": {
+    "total": 0.097,
+    "search": {
+     "neural": 0.097
+    }
+   }
+  },
+  {
+   "body": {
+    "query": "omnichannel HCP engagement agency for medical device and pharma companies",
+    "category": "company",
+    "numResults": 100,
+    "type": "auto"
+   },
+   "n": 100,
+   "cost": {
+    "total": 0.097,
+    "search": {
+     "neural": 0.097
+    }
+   }
+  }
+ ],
+ "total_cost_usd": 0.582
+}

@@ -61,6 +61,10 @@ No lead or company snapshots yet. A pull can only happen after the client approv
   - `sourcing/tam/2026-11-18-agency-persona-companies.csv`: 147 rows, companies with persona people found, from Blitz `POST /v2/company/tam-by-people`.
   - `sourcing/tam/2026-11-18-agency-universe-sample-companies.csv`: 40 rows, company fit samples with verdicts, from Blitz `POST /v2/search/companies`.
   - `sourcing/tam/2026-11-18-agency-persona-title-samples-leads.csv`: 45 rows, people title samples keyed by `linkedin_url`, from Blitz `POST /v2/search/people`.
+  - `sourcing/tam/2026-11-18-discolike-agency-lookalike-companies.csv`: 600 rows, DiscoLike `GET /discover` lookalike of US health agencies (request in `2026-11-18-discolike-discover-request.json`, counts in `2026-11-18-discolike-counts.json`), pulled 2026-11-18, $1.50.
+  - `sourcing/tam/2026-11-18-exa-agency-search-companies.csv`: 414 rows, Exa `POST /search` (`category: company`, 6 queries in `2026-11-18-exa-search-requests.json`), pulled 2026-11-18, $0.58.
+  - `sourcing/tam/2026-11-18-blitz-capture-check-companies.csv`: 30 rows, DiscoLike agencies checked by name in Blitz `POST /v2/search/companies`, 25 records.
+  - `sourcing/tam/dl.py`, `dl_counts.py`, `dl_discover.py`, `exa.py`, `capture.py`: the scripts (they read/write JSON in the working directory).
   - `sourcing/tam/agency_tam_expansion.py` + `2026-11-18-agency-tam-expansion.json`: TAM expansion options (counts and 75 sample company rows), 100 more Blitz records.
   - `sourcing/tam/persona_counts.py` + `2026-11-18-persona_counts.json`, `sourcing/tam/persona_companies.py` + `2026-11-18-persona_companies.json`: scripts with exact request bodies and results.
 
@@ -73,6 +77,7 @@ No lead or company snapshots yet. A pull can only happen after the client approv
   - **Contacts per company (inverse rule, small TAM):** Leadership 2, Data and Analytics up to 4, Media up to 5. Expected about 510 leads in total.
   - **Records:** 547 Blitz records (no step over 500); Clay 0.
   - **TAM expansion (Moe asked for a larger TAM):** recommended core + broader health keywords + health agencies filed under pharma/biotech + 5,001+ health networks = 699 companies (about 315 real, up from about 155). With health PR firms and 11-50 agencies: 1,265 (about 380 real). Fit drops to 30-45%, so a qualifier is required. 100 more Blitz records (session total 647). Details in section 8 of the query file.
+  - **DiscoLike + Exa cross-check (Moe asked to use both):** DiscoLike lookalike returned 600 US health agencies (about 400 real, list not exhausted); Exa 414 (about 180 real); 79 in both. Capture-recapture puts the market at about 1,000+ US health agencies with 11+ employees, about 350 to 500 at 51+. Blitz's core keyword filter only catches about 30% of them (mostly keyword misses). Recommended DiscoLike as the company source for this segment. Spend: DiscoLike $1.50, Exa $0.58, Blitz 25 records. Section 9 of the query file.
   - **Why:** Moe wants the agency campaigns segmented by Christopher Martin's persona deck. **Not done, on purpose:** no configs, no full pull, no HeyReach, no client message. Moe decides next steps.
   - Profile resynced from tracking_clients (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`): no drift, still 0 sourcing configs. Session: claude.ai/code session_013MzxQguARXeFKghchjnaJ4.
 

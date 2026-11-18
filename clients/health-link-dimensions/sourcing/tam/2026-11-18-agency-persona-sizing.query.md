@@ -173,3 +173,51 @@ Same method: Blitz `POST /v2/search/companies`, `max_results: 1` for counts, the
 **Recommended expanded TAM:** core + A + B + C = **699 companies, about 315 real health agencies**, roughly double the core. Adding D (PR, Leadership only) and E (small agencies, qualifier required) gives **1,265 companies, about 380 real**. Fit falls from 60% (core) to about 30% to 45%, so a qualifier prompt at pull time is required, not optional.
 
 Records used for this section: 100 Blitz (8 counts, 92 sample rows). Session total: 647.
+
+## 9. Cross-check with DiscoLike and Exa (added later on 2026-11-18, Moe asked to use both)
+
+### DiscoLike (`https://api.discolike.com/v1`, key `DISCOLIKE_API_KEY`)
+
+Parameters taken from DiscoLike's own OpenAPI spec (`/v1/openapi.json`), not guessed.
+
+1. **`GET /count`** (free), category `ADVERTISING_AND_MARKETING`, country `US`. Exact params: `2026-11-18-discolike-counts.json`.
+   - any US ad/marketing business: 1,292,949
+   - + health phrases on the website: 64,086; with 11+ employees: 13,881; with 51+ employees: 1,787
+   - + health phrases AND a media/programmatic/omnichannel phrase, 11+: 5,195
+   - These match any mention of the phrase anywhere on the site, so they are loose upper bounds, not a TAM.
+2. **`GET /discover`** (lookalike), the useful one. `icp_text` describing US pharma/health marketing agencies with media, HCP or data work; `negate_icp_text` for hospitals, practices, staffing, CROs, manufacturers, SEO/web shops; seed domains cmimediagroup.com, realchemistry.com, klick.com, digitashealth.com, fingerpaint.com; HLD clients, HLD and adtech vendors hard-excluded; US; 11+ employees; `relevance=BALANCED`; `max_records=600`. Exact params: `2026-11-18-discolike-discover-request.json`.
+   - **Returned the full 600** without reaching the relevance stop, so there are more beyond 600.
+   - Fit by rank (eyeballed): ranks 1-150 about 90% real health agencies, around 300 about 70%, around 450 about 50%, around 560 about 35%. **About 400 real agencies in the 600.**
+   - Size mix: 392 at 11-50, 143 at 51-200, 45 at 201-500, 20 at 501+.
+   - It finds health media agencies Blitz missed entirely, e.g. Evolvics, Underscore, SSCG Media Group, AbelsonTaylor, Heartbeat, GSW, RevHealth.
+   - All 600 rows: `2026-11-18-discolike-agency-lookalike-companies.csv`. Cost: 600 records, $1.50 (account spend went 15.54 to 17.04).
+
+### Exa (`POST https://api.exa.ai/search`, `category: company`, 100 results per query)
+
+6 queries (exact bodies in `2026-11-18-exa-search-requests.json`): US healthcare ad agency for pharma brands; pharma media agency programmatic HCP; independent health and wellness comms agency; medical communications agency; healthcare marketing data and analytics agency; omnichannel HCP engagement agency.
+- 414 unique domains; **79 also in the DiscoLike 600**.
+- Exa has no US or size filter. In a 40-row random sample about 17 were real US health agencies (about 43%); the rest were India/UK med comms, analytics vendors, contract sales and adtech. About 180 real agencies in the 414.
+- One hit is Publicis Health Media (HLD client), so the Exa list needs the same exclusions.
+- All rows: `2026-11-18-exa-agency-search-companies.csv`. Cost: $0.58.
+
+### Blitz capture check (25 Blitz records)
+
+30 random DiscoLike agencies (51+ employees, top 300 ranks) checked by name in Blitz (`2026-11-18-blitz-capture-check-companies.csv`):
+
+| Where the agency sits in Blitz | Count |
+|---|---|
+| In the 260 core universe | 9 (30%) |
+| Caught by expansion option A (broader keywords) | 4 |
+| In Blitz as Advertising Services, but its description misses every keyword | 5 (Good Apple, SOLVE(D), emagineHealth, MissionOne Media, Circa Healthcare) |
+| In Blitz under PR (option D) or pharma (option B) | 4 (JPA Health, Greenough, PAN, Evolution Health) |
+| Not found in Blitz by name, or name matched a different company | 8 |
+
+So the Blitz keyword filter catches about 30% of real health agencies (core) and about 55-60% with expansions A + B + D. The gap is mostly keyword misses, not missing data.
+
+### What this does to the TAM
+
+- **Capture-recapture** on the two independent lists (about 400 real in DiscoLike, about 180 real in Exa, about 75 real in both): 400 x 180 / 75 = **about 1,000 US health-focused agencies with 11+ employees**. This method undercounts when both tools favour the same well-known agencies, so treat 1,000 as a floor (range 1,000 to 1,200).
+- About 35% of them have 51+ employees: **about 350 to 500 at 51+**, against about 155 real in the Blitz core. Blitz alone was seeing roughly a third of the market.
+- **Recommendation:** use DiscoLike `/discover` as the company source for this segment (it ranks by fit and its top half is clean), run it past 600 to the relevance stop, then send those domains to Blitz/Clay for the persona people. Use Exa only to top up names DiscoLike misses.
+
+Spend for this section: DiscoLike $1.50 (600 records; counts free), Exa $0.58, Blitz 25 records (session total 672).
