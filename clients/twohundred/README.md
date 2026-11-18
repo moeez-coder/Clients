@@ -163,6 +163,10 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-18**: **All 14 workspace senders on all 5 live campaigns** (Moe: "Add all to all active campaigns"). `add_all_available` added Erika Stefani (182761), Delosjene Encarnado, Joanna Alipio, Brett Magat, Ralph John Taboada, Eianne Tantiado, Shiela Mae Inoc, Milca Lavarias and Marjorie Paulo to C1 (729831), C5 (729838), C7 (729841), C6 (729840) and C11 (739441). All five confirmed IN_PROGRESS afterwards.
+  - **Leads in HeyReach:** C1 86, C5 624, C7 478, C6 1,898, C11 278 = **3,364**. All loading finished.
+  - **Failed so far:** 15 (HeyReach "failed" leads, e.g. profiles it could not reach).
+  - **Branding:** only Chavali Praneeth is confirmed branded correctly (2026-11-16).
 - **2026-11-17**: **New campaign C11 "Consulting and Advisory Firms" built and LIVE, plus 614 more leads added to the live C1/C5/C7/C6** (Moe: "leave D&E and create a new campaign for consulting and proceed"; "client approval not required for the copy").
   - **C11 ids:**
     - ICP config `1f47b70f-5c2e-4690-a7bc-4d79de938d44`, segment `f3ad950b-3b83-41e4-b83e-99f52ff49272`, persona `1ceff299-e148-484e-bcf5-6c1ad5f8428a`
