@@ -33,7 +33,7 @@
 | Erika Stefani | 182761 | erikastefaniboenari@gmail.com | twoHundred (per Moe; the screenshot showed Legal Project Manager at Reco Legal) | `-` (the screenshot showed a ReCo.Legal headline) | `-` | **branded** (confirmed by Moe 2026-11-18) | Moe says the profile is now correct and the screenshot was older. Profile: https://www.linkedin.com/in/erika-stefani-48432a3b3/ | **Keep** |
 | Brett Magat | 213311 | brettmagat@yahoo.com | Legal Project Manager at Reco Legal | "Legal Project Manager @ReCo.Legal \| 500+ Commercial Contracts Reviewed…" | New York, US | **not branded** (branded for ReCo.Legal) | Whole profile is ReCo.Legal. | **Remove** |
 | Eianne Tantiado | 229280 | tantiadoeianne@gmail.com | Operations Lead at Reco Legal | "Operations Lead @ReCo.Legal \| 500+ Commercial Contracts Reviewed…" | New York, US | **not branded** (branded for ReCo.Legal) | Whole profile is ReCo.Legal. | **Remove** |
-| Shiela Mae Inoc | 230019 | shielamaeinoc0711@gmail.com | Strategic Projects at Reco Legal | Long ReCo.Legal pitch (same copy as Ralph John) | New York, US | **not branded** (branded for ReCo.Legal) | Headline and about are ReCo.Legal copy. | **Remove** |
+| Shiela Mae Inoc | 230019 | shielamaeinoc0711@gmail.com | twoHundred (per Moe; the screenshot showed Strategic Projects at Reco Legal) | `-` (the screenshot showed ReCo.Legal copy) | `-` | **branded** (confirmed by Moe 2026-11-18) | Moe says the profile is fine and the screenshot was older. | **Keep** |
 
 ## Other sender health flags
 
@@ -51,9 +51,9 @@ All 14 accounts have been checked.
 
 | Decision | Accounts |
 |---|---|
-| **Keep** | Chavali Praneeth (265480): fix the position line, which reads "Btech at Gitam". Milca Lavarias (243800) and Erika Stefani (182761): confirmed correct by Moe 2026-11-18; the screenshots were older. |
+| **Keep** | Chavali Praneeth (265480): fix the position line, which reads "Btech at Gitam". Milca Lavarias (243800), Erika Stefani (182761) and Shiela Mae Inoc (230019): confirmed correct by Moe 2026-11-18; the screenshots were older. |
 | **Keep after a fix** | Joanna Alipio (185097). She has the twoHundred headline, but her position is at Reco Legal and her location is New York. Her screenshot may be as old as Milca's, so re-check before fixing. |
-| **Remove: branded for ReCo.Legal (6)** | Delosjene Encarnado (182788), Marjorie Paulo (246363), Ralph John Taboada (213851), Brett Magat (213311), Shiela Mae Inoc (230019), Eianne Tantiado (229280) |
+| **Remove: branded for ReCo.Legal (5)** | Delosjene Encarnado (182788), Marjorie Paulo (246363), Ralph John Taboada (213851), Brett Magat (213311), Eianne Tantiado (229280) |
 | **Remove: shows Algo Acquisition (2)** | Kimberly Almazan (203828), Markim Eniola (264397) |
 | **Remove: personal profiles (2)** | Kirky Palamos (241273), Christine Joy Ochosa (251033) |
 
@@ -63,6 +63,6 @@ All 14 accounts have been checked.
 - End or remove the Reco Legal (Joanna) and Gitam (Chavali) entries as the current position.
 
 **Capacity:**
-- 3 senders are usable today (Chavali, Milca, Erika) and 4 after Joanna is fixed, against 3,364 leads across 5 campaigns.
+- 4 senders are usable today (Chavali, Milca, Erika, Shiela Mae) and 5 after Joanna is fixed, against 3,364 leads across 5 campaigns.
 - More twoHundred-branded accounts are needed. One option is to fully rebrand some of the 7 ReCo.Legal accounts (headline, about, position, location, banner, per `get_client_sdr_profile`), but only if ReCo.Legal does not also need them.
 - Raise this with John, the SDR owner.
