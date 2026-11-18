@@ -15,7 +15,7 @@
 - **Infrastructure:** `{"vaSeatCount": 10}`. `callTranscript` and `notes` are empty.
 - **Created in tracking_clients:** 2026-11-02 (`createdBy: sales`)
 - **Tracking client ID:** `f5ff426b-c514-4a64-91b0-0e141a6a0669`
-- **Last synced:** 2026-11-17 via `get_client` + `list_sourcing_configs` + `list_campaigns` + `list_campaign_docs` (doc 1 still `client_review`, 2 open comments, 221 open changes; no change since 2026-11-16)
+- **Last synced:** 2026-11-18 via `get_client` + `list_sourcing_configs` + `list_campaigns` + `list_client_accounts` + `get_campaign_senders` (no drift: DNC 143, 1 config, 1 campaign (C6, `creation`); HeyReach 172307 holds only the 10 VA seats, no founder account)
 
 **Who they are:** a Bristol creative agency, trading since 2010. They work across three pillars: Employer Branding, Employee Engagement, and Marketing Solutions, using their BrandShift™ method. **They are not a recruitment agency** and charge no placement fees. Deal value is about $45k and the sales cycle is about 12 weeks (ICP form).
 
@@ -53,10 +53,12 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 | Date | Doc | tracking_clients id | Status |
 |---|---|---|---|
 | 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (re-sent 2026-11-13 after John's open-role feedback; 221 open suggested changes and 2 open comments as of 2026-11-17, pending the client's accept/reject; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
+| 2026-11-18 | [`campaign-docs/2026-11-18-casual-connections-plan.md`](campaign-docs/2026-11-18-casual-connections-plan.md): internal Casual Connections plan v0 (senders, capacity, wave 1, draft copy, questions), not a campaign doc | `-` (not in tracking_clients) | internal draft for Moe, nothing built |
 | 2026-11-16 | [`campaign-docs/2026-11-16-mql-concepts-discussion.md`](campaign-docs/2026-11-16-mql-concepts-discussion.md): internal discussion of 5 MQL (reply-first) concepts, not a campaign doc | `-` (not in tracking_clients) | internal discussion, nothing built or sent |
 
 ## Sourced data in this repo
 
+- `sourcing/casual-connections/2026-11-18-preview-leads.csv`: **45 rows, 19 `preview`** (26 removed with reasons), keyed by `linkedin_url`. A 20-company preview of Bristol-HQ TAM companies for the **Casual Connections** campaign, config `-` (no tracking_clients config, UUID `-`). From Blitz API `POST /v2/search/waterfall-icp-keyword` (30 records kept) and the Clay MCP `search-contacts` (20 rows), pulled 2026-11-18. Raw `2026-11-18-preview-waterfall-raw.jsonl`, `-blitz-raw.csv`, `-clay-raw.json`, `-combined-raw.csv`; query `2026-11-18-preview.query.md`; scripts `preview_leads.py`, `build_preview.py`.
 - `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-profiles.csv`: **29,489 rows**, one per lookup-input company, scored with `select_and_score.py` rule v2. Match confidence: high 2,264, medium 10,007, low 2,546, none 14,672. **1,796 pass Moe's profile bar** (1,384 high confidence, 412 low). Glassdoor bad-review campaign, config `-` (no tracking_clients config, UUID `-`). From Apify `kaix/glassdoor-company-scraper` via the Apify REST API (60 runs, run ids and costs in `2026-11-17-glassdoor-lookup-runs.json`), pulled 2026-11-17, **$2.80**. Query record `2026-11-17-glassdoor-profiles.query.md`.
 - `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-profiles-raw-b1..b6.jsonl.gz`: the raw actor output behind that CSV, one file per input batch (7,429 / 6,347 / 5,220 / 3,960 / 3,043 / 1,994 = 27,993 employer profiles). Same tool, config `-`, and date. Assembled by `run_lookup.py assemble`.
 - `sourcing/glassdoor-bad-reviews/2026-11-17-2-companies.csv`: 22,627 UK-HQ companies with **51–200** employees in doc 1's five sectors; 22,570 `icp`, 15 excluded as DNC, 42 as Campaign 6; 319 ICP rows flagged `public_sector`. Glassdoor bad-review campaign, config `-`. Blitz API `POST /v2/search/companies` (22,627 records), pulled 2026-11-17 with `pull_companies.py 2026-11-17 51-200 -2`; raw `2026-11-17-2-companies-blitz-raw.jsonl.gz`.
@@ -73,6 +75,29 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-18**: **Casual Connections campaign started (Moe's ask of 2026-11-18): preview only, nothing built.** This opens a **new segment** `sourcing/casual-connections/`. Scope: **Campaign-specific: Casual Connections (founder-led)**.
+  - **Skill:** `anthropic-skills:casual-connections-campaign` is not in this session's skills listing, so the work follows CLAUDE.md plus Moe's brief. Moe has been told.
+  - **Resync:** no drift (`get_client`, `list_sourcing_configs`, `list_campaigns`, `list_client_accounts`).
+  - **Senders, the blocker:**
+    - John Tarrant is DNA's **sole founder** (2010) and has been **Founder & Chair** since 21 Jul 2026.
+    - **Eoin Rodgers** joined as **MD** in Jul 2026; he is not a founder. Source: wearedna.co.uk team page and the Worldcom press release, via one Exa search ($0.007).
+    - HeyReach 172307 holds **only the 10 VA/SDR seats** (`get_campaign_senders` on C6 lists every workspace account; none available or signed out).
+    - So **no founder account is connected**, and the campaign can't send until John's LinkedIn is added.
+  - **TAM:** the 29,489-company lookup-input list. Bristol HQ 312 companies; South West about 1,354.
+  - **Inverse rule:** a large TAM means **1 to 2 C-suite per company** (tier 1 first, plus a second only at 201+ staff). Capacity is about 100 invites a week per founder account, so the list is pulled in waves, not in bulk.
+  - **Proposed wave 1:** Bristol HQ, about 300 to 350 contacts.
+  - **Preview:**
+    - 20 largest Bristol-HQ companies gave 45 rows and **19 usable** C-suite contacts (0.95 per company).
+    - **0 overlap** with Campaign 6's lead files; 0 DNC matches.
+    - Clay added CPOs and CFOs that Blitz missed.
+    - Blitz's fuzzy title match ("Senior People Partner", "Product Owner") is fixed with strict excludes plus a regex.
+    - Charities and CICs slipped through the private-sector flag.
+  - **Cost:** Blitz 54 records (24 from a discarded first run), Clay MCP 1 search, Exa $0.007.
+  - **Draft copy and plan:** `campaign-docs/2026-11-18-casual-connections-plan.md`.
+  - **Waiting on Moe:** sender accounts (John only, or John + Eoin, and who connects them), the wave-1 slice, the approval route (campaign doc for John, or Moe's own approval), follow-up depth, charities, and the schedule (proposed 08:00 to 18:00 Europe/London, 7 days).
+  - **Not touched:** Campaign 6, doc 1 and the Glassdoor campaign.
+  - (session_013MzxQfxb1tFTNdnVAHYrw5)
 
 - **2026-11-17**: **Full Glassdoor company lookup run, scored and loaded to GTM Sheets.** This followed the paused-lookup handoff below. It **expands** the existing `glassdoor-bad-reviews` segment (Campaign-specific: Glassdoor bad-review outreach).
   - **Tool:**
