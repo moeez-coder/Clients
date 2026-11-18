@@ -1,0 +1,554 @@
+{
+ "Medtronic": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/medtronic",
+   "https://www.linkedin.com/company/covidien-2"
+  ],
+  "persona_total": 393,
+  "bu_weight": {
+   "Cardiac Rhythm": 35,
+   "Structural Heart": 26,
+   "Coronary": 16,
+   "Peripheral Vascular": 18,
+   "Neuromodulation": 38,
+   "Pain": 13,
+   "Spine": 13,
+   "Neurovascular": 23,
+   "Surgical": 127,
+   "ENT": 18,
+   "Pelvic": 31,
+   "Diabetes": 58
+  },
+  "bu_persona_est": {
+   "Cardiac Rhythm": 33,
+   "Structural Heart": 25,
+   "Coronary": 15,
+   "Peripheral Vascular": 17,
+   "Neuromodulation": 36,
+   "Pain": 12,
+   "Spine": 12,
+   "Neurovascular": 22,
+   "Surgical": 120,
+   "ENT": 17,
+   "Pelvic": 29,
+   "Diabetes": 55
+  }
+ },
+ "Abbott (medical devices)": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/abbott-"
+  ],
+  "persona_total": 515,
+  "bu_weight": {
+   "Electrophysiology": 35,
+   "Structural Heart": 34,
+   "Vascular": 19,
+   "Heart Failure": 24,
+   "Neuromodulation": 20,
+   "Diabetes": 60,
+   "Rhythm": 17
+  },
+  "bu_persona_est": {
+   "Electrophysiology": 86,
+   "Structural Heart": 84,
+   "Vascular": 47,
+   "Heart Failure": 59,
+   "Neuromodulation": 49,
+   "Diabetes": 148,
+   "Rhythm": 42
+  }
+ },
+ "Stryker": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/stryker"
+  ],
+  "persona_total": 336,
+  "bu_weight": {
+   "Spine": 12,
+   "Neurovascular": 14,
+   "Endoscopy": 17,
+   "Joint Replacement": 23,
+   "Trauma": 43,
+   "Instruments": 20,
+   "Sports Medicine": 7,
+   "CMF": 5,
+   "Mako": 30
+  },
+  "bu_persona_est": {
+   "Spine": 24,
+   "Neurovascular": 28,
+   "Endoscopy": 33,
+   "Joint Replacement": 45,
+   "Trauma": 84,
+   "Instruments": 39,
+   "Sports Medicine": 14,
+   "CMF": 10,
+   "Mako": 59
+  }
+ },
+ "Boston Scientific": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/boston-scientific",
+   "https://www.linkedin.com/company/bsc-urology"
+  ],
+  "persona_total": 334,
+  "bu_weight": {
+   "Electrophysiology": 29,
+   "Watchman": 33,
+   "Interventional Cardiology": 10,
+   "Peripheral": 15,
+   "Urology": 43,
+   "Endoscopy": 35,
+   "Neuromodulation": 20,
+   "Cardiac Rhythm": 9
+  },
+  "bu_persona_est": {
+   "Electrophysiology": 50,
+   "Watchman": 57,
+   "Interventional Cardiology": 17,
+   "Peripheral": 26,
+   "Urology": 74,
+   "Endoscopy": 60,
+   "Neuromodulation": 34,
+   "Cardiac Rhythm": 15
+  }
+ },
+ "BD": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/bd1"
+  ],
+  "persona_total": 272,
+  "bu_weight": {
+   "Interventional": 15,
+   "Urology": 10,
+   "Peripheral": 13,
+   "Surgery": 29,
+   "Medication Delivery": 14,
+   "Pharmacy": 20,
+   "Vascular Access": 4
+  },
+  "bu_persona_est": {
+   "Interventional": 39,
+   "Urology": 26,
+   "Peripheral": 34,
+   "Surgery": 75,
+   "Medication Delivery": 36,
+   "Pharmacy": 52,
+   "Vascular Access": 10
+  }
+ },
+ "Zimmer Biomet": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/zimmerbiomet"
+  ],
+  "persona_total": 73,
+  "bu_weight": {
+   "Knee": 8,
+   "Hip": 7,
+   "Sports Medicine": 16,
+   "Trauma": 11,
+   "CMF": 2,
+   "ROSA": 8,
+   "Extremities": 10
+  },
+  "bu_persona_est": {
+   "Knee": 9,
+   "Hip": 8,
+   "Sports Medicine": 19,
+   "Trauma": 13,
+   "CMF": 2,
+   "ROSA": 9,
+   "Extremities": 12
+  }
+ },
+ "Edwards Lifesciences": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/edwards-lifesciences"
+  ],
+  "persona_total": 111,
+  "bu_weight": {
+   "TAVR": 1,
+   "Transcatheter": 49,
+   "Surgical Structural": 9,
+   "Mitral": 20,
+   "Tricuspid": 19,
+   "Critical Care": 6
+  },
+  "bu_persona_est": {
+   "TAVR": 1,
+   "Transcatheter": 52,
+   "Surgical Structural": 10,
+   "Mitral": 21,
+   "Tricuspid": 20,
+   "Critical Care": 6
+  }
+ },
+ "Intuitive": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/intuitivesurgical"
+  ],
+  "persona_total": 115,
+  "bu_weight": {
+   "General Surgery": 3,
+   "Urology": 3,
+   "Gynecology": 1,
+   "Thoracic": 0,
+   "Colorectal": 1,
+   "Ion": 18
+  },
+  "bu_persona_est": {
+   "General Surgery": 13,
+   "Urology": 13,
+   "Gynecology": 4,
+   "Thoracic": 0,
+   "Colorectal": 4,
+   "Ion": 80
+  }
+ },
+ "Baxter": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/baxter-healthcare"
+  ],
+  "persona_total": 150,
+  "bu_weight": {
+   "Pharmaceuticals": 14,
+   "Medical Products": 6,
+   "Infusion": 18,
+   "Front Line Care": 11,
+   "Surgical": 2,
+   "Renal": 18
+  },
+  "bu_persona_est": {
+   "Pharmaceuticals": 30,
+   "Medical Products": 13,
+   "Infusion": 39,
+   "Front Line Care": 24,
+   "Surgical": 4,
+   "Renal": 39
+  }
+ },
+ "GE HealthCare": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/gehealthcare"
+  ],
+  "persona_total": 224,
+  "bu_weight": {
+   "Ultrasound": 135,
+   "Imaging": 178,
+   "Patient Care": 40,
+   "Pharmaceutical Diagnostics": 16,
+   "MR": 96,
+   "CT": 80
+  },
+  "bu_persona_est": {
+   "Ultrasound": 55,
+   "Imaging": 73,
+   "Patient Care": 16,
+   "Pharmaceutical Diagnostics": 7,
+   "MR": 39,
+   "CT": 33
+  }
+ },
+ "Siemens Healthineers (incl. Varian)": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/siemens-healthineers",
+   "https://www.linkedin.com/company/varian-medical-systems"
+  ],
+  "persona_total": 217,
+  "bu_weight": {
+   "Imaging": 50,
+   "Radiation Oncology": 8,
+   "Varian": 50,
+   "Ultrasound": 39,
+   "Advanced Therapies": 9,
+   "Diagnostics": 53
+  },
+  "bu_persona_est": {
+   "Imaging": 52,
+   "Radiation Oncology": 8,
+   "Varian": 52,
+   "Ultrasound": 40,
+   "Advanced Therapies": 9,
+   "Diagnostics": 55
+  }
+ },
+ "Philips (health)": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/philips"
+  ],
+  "persona_total": 194,
+  "bu_weight": {
+   "Image Guided Therapy": 34,
+   "Ultrasound": 83,
+   "Sleep": 27,
+   "Respiratory": 25,
+   "Monitoring": 79,
+   "Precision Diagnosis": 10
+  },
+  "bu_persona_est": {
+   "Image Guided Therapy": 26,
+   "Ultrasound": 62,
+   "Sleep": 20,
+   "Respiratory": 19,
+   "Monitoring": 59,
+   "Precision Diagnosis": 8
+  }
+ },
+ "Olympus": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/olympus"
+  ],
+  "persona_total": 0,
+  "bu_weight": {
+   "Gastrointestinal": 0,
+   "GI": 0,
+   "Urology": 0,
+   "ENT": 0,
+   "Respiratory": 0,
+   "Surgical": 0,
+   "Endoscopy": 1
+  },
+  "bu_persona_est": {
+   "Gastrointestinal": 0,
+   "GI": 0,
+   "Urology": 0,
+   "ENT": 0,
+   "Respiratory": 0,
+   "Surgical": 0,
+   "Endoscopy": 0
+  }
+ },
+ "Smith+Nephew": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/smith-&-nephew",
+   "https://www.linkedin.com/company/smithnephew"
+  ],
+  "persona_total": 114,
+  "bu_weight": {
+   "Sports Medicine": 27,
+   "Orthopaedics": 19,
+   "Reconstruction": 7,
+   "Wound": 8,
+   "ENT": 20,
+   "Trauma": 22
+  },
+  "bu_persona_est": {
+   "Sports Medicine": 30,
+   "Orthopaedics": 21,
+   "Reconstruction": 8,
+   "Wound": 9,
+   "ENT": 22,
+   "Trauma": 24
+  }
+ },
+ "Teleflex": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/teleflex"
+  ],
+  "persona_total": 52,
+  "bu_weight": {
+   "Interventional": 12,
+   "Urology": 3,
+   "Vascular": 11,
+   "Anesthesia": 4,
+   "Surgical": 11,
+   "Emergency": 6
+  },
+  "bu_persona_est": {
+   "Interventional": 13,
+   "Urology": 3,
+   "Vascular": 12,
+   "Anesthesia": 4,
+   "Surgical": 12,
+   "Emergency": 7
+  }
+ },
+ "Dexcom": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/dexcom"
+  ],
+  "persona_total": 49,
+  "bu_weight": {
+   "Diabetes": 1,
+   "CGM": 2,
+   "Endocrinology": 0,
+   "Primary Care": 0
+  },
+  "bu_persona_est": {
+   "Diabetes": 16,
+   "CGM": 33,
+   "Endocrinology": 0,
+   "Primary Care": 0
+  }
+ },
+ "ResMed": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/resmed"
+  ],
+  "persona_total": 62,
+  "bu_weight": {
+   "Sleep": 4,
+   "Respiratory": 1,
+   "SaaS": 7
+  },
+  "bu_persona_est": {
+   "Sleep": 21,
+   "Respiratory": 5,
+   "SaaS": 36
+  }
+ },
+ "Align Technology": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/align-technology"
+  ],
+  "persona_total": 51,
+  "bu_weight": {
+   "Invisalign": 6,
+   "iTero": 21,
+   "Orthodontic": 2,
+   "GP": 5
+  },
+  "bu_persona_est": {
+   "Invisalign": 9,
+   "iTero": 32,
+   "Orthodontic": 3,
+   "GP": 8
+  }
+ },
+ "Dentsply Sirona": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/dentsplysirona"
+  ],
+  "persona_total": 29,
+  "bu_weight": {
+   "Implants": 9,
+   "Orthodontics": 6,
+   "Endodontics": 5,
+   "Equipment": 2,
+   "Restorative": 5
+  },
+  "bu_persona_est": {
+   "Implants": 10,
+   "Orthodontics": 6,
+   "Endodontics": 5,
+   "Equipment": 2,
+   "Restorative": 5
+  }
+ },
+ "Solventum": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/solventumhealth"
+  ],
+  "persona_total": 82,
+  "bu_weight": {
+   "MedSurg": 11,
+   "Dental": 23,
+   "Wound": 11,
+   "Infection Prevention": 3
+  },
+  "bu_persona_est": {
+   "MedSurg": 19,
+   "Dental": 39,
+   "Wound": 19,
+   "Infection Prevention": 5
+  }
+ },
+ "Cook Medical": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/cookmedical"
+  ],
+  "persona_total": 40,
+  "bu_weight": {
+   "Vascular": 14,
+   "Endoscopy": 5,
+   "Urology": 4,
+   "Reproductive": 2,
+   "Aortic": 11,
+   "Interventional": 5
+  },
+  "bu_persona_est": {
+   "Vascular": 14,
+   "Endoscopy": 5,
+   "Urology": 4,
+   "Reproductive": 2,
+   "Aortic": 11,
+   "Interventional": 5
+  }
+ },
+ "B. Braun (US)": {
+  "linkedin_urls": [
+   "https://www.linkedin.com/company/b--braun-medical-inc.-us"
+  ],
+  "persona_total": 29,
+  "bu_weight": {
+   "Surgical": 0,
+   "Regional Anesthesia": 0,
+   "Pain": 1,
+   "Renal": 2,
+   "Infusion": 7,
+   "Aesculap": 1
+  },
+  "bu_persona_est": {
+   "Surgical": 0,
+   "Regional Anesthesia": 0,
+   "Pain": 3,
+   "Renal": 5,
+   "Infusion": 18,
+   "Aesculap": 3
+  }
+ },
+ "_meta": {
+  "persona_titles": [
+   "Marketing",
+   "Commercial Excellence",
+   "Sales Operations",
+   "Commercial Operations",
+   "CRM",
+   "Professional Education",
+   "Medical Education",
+   "Marketing Operations",
+   "Digital Marketing",
+   "Customer Engagement",
+   "Product Marketing"
+  ],
+  "persona_exclude": [
+   "Intern",
+   "Assistant",
+   "Coordinator",
+   "Recruiter",
+   "Talent",
+   "Human Resources",
+   "Finance",
+   "Accounting",
+   "Legal",
+   "Facilities",
+   "Administrative",
+   "Executive Assistant",
+   "Regional",
+   "District",
+   "Area",
+   "Territory",
+   "Representative",
+   "Specialist",
+   "Key Account",
+   "Account Manager",
+   "Account Executive",
+   "Business Development",
+   "Clinical",
+   "Quality",
+   "Regulatory",
+   "Engineering",
+   "Engineer",
+   "Manufacturing",
+   "Supply Chain",
+   "R&D",
+   "Research",
+   "Inside Sales",
+   "Customer Service",
+   "Communications",
+   "Sales Representative",
+   "Sales Manager"
+  ],
+  "records_used": 147
+ }
+}

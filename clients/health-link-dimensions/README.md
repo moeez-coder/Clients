@@ -9,12 +9,12 @@
 - **Slack channel ID:** C0CD0RXFBS4
 - **HeyReach workspace:** `170993` (`heyreachConnected: true`)
 - **Staff:** campaign strategist Moeez; infrastructure John Paul; closer Rueban; GTM engineer `-` (unassigned); sourcing engineer `-` (unassigned)
-- **Booking link:** `-` (empty in tracking_clients)
+- **Booking link:** https://healthlinkdimensions.chilipiper.com/me/algoacquistion-algoacquistion (set in tracking_clients since the last sync; was empty)
 - **DNC list:** 0 entries (`dncSkipped: false`, so not yet supplied rather than waived)
 - **Infrastructure:** `{"vaSeatCount": 10}` (changed from `{}` since the 2026-11-09 sync)
 - **Created in tracking_clients:** 2026-10-26 (by sales)
 - **Tracking client ID:** `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`
-- **Last synced:** 2026-11-18 via `get_client` + `list_sourcing_configs` (0 configs, no drift). Previous sync: 2026-11-16.
+- **Last synced:** 2026-11-18 (Doc 2 sizing session) via `get_client` + `list_sourcing_configs`: 0 configs; one drift, the booking link is now set. DNC is still 0 entries in tracking_clients. Previous sync: 2026-11-18 (earlier session).
 
 ## Context files
 
@@ -68,8 +68,54 @@ No lead or company snapshots yet. A pull can only happen after the client approv
   - `sourcing/tam/dl.py`, `dl_counts.py`, `dl_discover.py`, `exa.py`, `capture.py`: the scripts (they read/write JSON in the working directory).
   - `sourcing/tam/agency_tam_expansion.py` + `2026-11-18-agency-tam-expansion.json`: TAM expansion options (counts and 75 sample company rows), 100 more Blitz records.
   - `sourcing/tam/persona_counts.py` + `2026-11-18-persona_counts.json`, `sourcing/tam/persona_companies.py` + `2026-11-18-persona_companies.json`: scripts with exact request bodies and results.
+- `sourcing/tam/2026-11-18-doc-2-sizing.query.md`: **Campaign Doc 2 sizing**, all 12 campaigns (doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`), config `-`, pulled 2026-11-18. Blitz API (about 5,560 records), Prospeo (11 credits), DiscoLike `/count` (free), Exa ($0.047), Clay (1 query), openFDA (free); AI Ark returned 403. Count-only; the CSVs below are capped list outputs and samples, not lead pulls.
+  - `sourcing/tam/2026-11-18-doc-2-fit-sample-companies.csv`: 50 rows, pharma and device company fit samples with verdicts, from Blitz `POST /v2/search/companies`.
+  - `sourcing/tam/2026-11-18-doc-2-title-samples-leads.csv`: 54 rows, persona title samples keyed by `linkedin_url`, from Blitz `POST /v2/search/people`.
+  - `sourcing/tam/2026-11-18-doc-2-hiring-companies.csv`: 1,098 rows, companies with matching US job posts in the last 30/90 days per campaign, from Blitz `POST /v2/company/tam-by-jobs`, with a DNC/client flag.
+  - `sourcing/tam/2026-11-18-doc-2-persona-companies.csv`: 2,492 rows, pharma (Campaigns 1-5) and device (Campaign 7, capped at 900) companies with persona people and their counts, from Blitz `POST /v2/company/tam-by-people`.
+  - `sourcing/tam/2026-11-18-doc-2-agency-wide-persona-companies.csv`: 773 rows, agencies in the wider DiscoLike + Blitz universe with persona people, health flag and DNC flag, from Blitz `POST /v2/company/tam-by-people`.
+  - `sourcing/tam/2026-11-18-doc-2-large-device-bu-companies.csv`: 137 rows, Campaign 8 persona estimates per company and business unit, from Blitz `POST /v2/search/people`.
+  - `sourcing/tam/2026-11-18-doc-2-fda-drug-approvals.csv`: 393 rows, openFDA `drug/drugsfda` novel approvals and efficacy supplements, 2025-11-01 to 2026-11-18.
+  - Scripts `sourcing/tam/doc2_*.py`, `dnc.py`, `prospeo_probe.py` and their raw JSON outputs `2026-11-18-doc-2-*.json`. The file list is in section 12 of the query file.
 
 ## History
+
+- **2026-11-18**: **Campaign Doc 2 sized, all 12 campaigns** (doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, config `-`). File: `sourcing/tam/2026-11-18-doc-2-sizing.query.md`. Session `session_013MzxQeLxrp2aPyVTnp1YUd`.
+  - **Why:** Moe asked for sizing of every segment in Doc 2, using all tools and cross-checking between them. This is for Doc 2, not Doc 1.
+  - **Segments:** Campaigns 1 to 8 are new segments (pharma personas, triggers, device). Campaigns 9 to 12 expand the existing agency segment.
+  - **Results (post-DNC people; contacts per company from the inverse TAM rule):**
+    - Brand 3,618 people at 441 companies, 2 per company.
+    - Media/Omni 1,351 at 186, 3 per company.
+    - Comm Ops 1,551 at 411, 2 per company.
+    - D&A 2,829 at 282, 2 per company.
+    - Market Access 2,388 at 272, 3 per company. It is far above 150, so keep it separate and do not merge into Campaign 3.
+    - Big pharma (50+ persona people) gets a higher cap.
+    - About 2,840 pharma leads in the full universe, about 470 a month from 30-day hiring.
+    - New Indication: 2 to 4 qualifying events a month, so keep it small.
+    - Specialist device: about 2,700 real companies, about 225 leads a month on triggers.
+    - Large device: 22 companies, about 3,440 persona people, about 190 leads in the first wave.
+    - Agencies on the wider DiscoLike universe: Leadership about 1,000 people at 353 agencies; Investment 38 at 13 (too small alone, kept separate per Moe); Planning 293 at 92; D&A 250 at 92. About 970 agency leads.
+  - **DNC impact:**
+    - Pharma: -19% of people, mostly AbbVie, Gilead, Takeda and AstraZeneca.
+    - Agencies on the Blitz core: -26%. Investment fell from 40 to 5 people because of CMI Media Group.
+    - Named contacts: 0 to 3 people.
+    - "Verve Therapeutics" was a false-positive match against the DNC adtech "Verve" and is not removed.
+    - Publicis Health, Deerfield Group and Bausch + Lomb are flagged for Moe.
+  - **J&J/PTC fact-check:**
+    - ICOTYDE psoriasis approval: true. Its PsA Phase 3 data at ACR 2026: true.
+    - RYBREVANT FASPRO head and neck approval (2026-11-05): true.
+    - IMAAVY wAIHA "under review": false, it was approved 2026-08-24, so the copy needs fixing.
+    - IMAAVY Sjögren's Phase 3: true.
+    - CAPLYTA acquisition: true.
+    - SEPHIENCE "all centers prescribing": unclear, PTC says over 90%.
+    - PTC Fabry (ST-920) acquisition: true, closed around September 2026.
+  - **Tools:**
+    - AI Ark returns 403 (plan or billing).
+    - Clay MCP gives no totals.
+    - Prospeo person search is exact-title only.
+  - **Spend:** under $1 cash, plus about 5,560 Blitz plan records.
+  - **Profile:** resynced; the booking link drifted (it is now set).
+  - **Not done, on purpose:** no doc edit or send, no configs, no HeyReach, no client message.
 
 - **2026-11-18**: **Campaign doc 2 created as a hidden draft** (`create_campaign_doc`, doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, "HealthLink Dimensions Campaign Plan, Doc 2", status `draft`, `shared_with_client: false`). Moe said not to send it to the client. Repo copy: `campaign-docs/2026-11-18-doc-2.md`, the same markdown that was submitted. Session `session_013MzxQeqnTt4RM93i4VniUQ`.
   - **Why:** Moe asked for a new doc built from the persona approach rather than further edits to doc 1.

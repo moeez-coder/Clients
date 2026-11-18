@@ -1,0 +1,153 @@
+{
+ "ICOTYDE": [
+  {
+   "application": "NDA220149",
+   "sponsor": "JANSSEN BIOTECH",
+   "submissions": [
+    [
+     "20260317",
+     "ORIG",
+     "1",
+     "TYPE 1",
+     "AP"
+    ]
+   ]
+  }
+ ],
+ "RYBREVANT FASPRO": [
+  {
+   "application": "BLA761433",
+   "sponsor": "JANSSEN BIOTECH",
+   "submissions": [
+    [
+     "20251217",
+     "ORIG",
+     "1",
+     "TYPE 5",
+     "AP"
+    ],
+    [
+     "20261105",
+     "SUPPL",
+     "2",
+     "EFFICACY",
+     "AP"
+    ]
+   ]
+  },
+  {
+   "application": "BLA761484",
+   "sponsor": "JANSSEN BIOTECH",
+   "submissions": [
+    [
+     "20260213",
+     "ORIG",
+     "1",
+     "TYPE 5",
+     "AP"
+    ]
+   ]
+  }
+ ],
+ "IMAAVY": [
+  {
+   "application": "BLA761430",
+   "sponsor": "JANSSEN BIOTECH",
+   "submissions": [
+    [
+     "20250429",
+     "ORIG",
+     "1",
+     "TYPE 1",
+     "AP"
+    ],
+    [
+     "20260824",
+     "SUPPL",
+     "2",
+     "EFFICACY",
+     "AP"
+    ]
+   ]
+  }
+ ],
+ "CAPLYTA": [
+  {
+   "application": "NDA209500",
+   "sponsor": "INTRA-CELLULAR",
+   "submissions": [
+    [
+     "20191220",
+     "ORIG",
+     "1",
+     "TYPE 1",
+     "AP"
+    ],
+    [
+     "20191220",
+     "SUPPL",
+     "1",
+     "TYPE 1",
+     "AP"
+    ],
+    [
+     "20211217",
+     "SUPPL",
+     "5",
+     "EFFICACY",
+     "AP"
+    ],
+    [
+     "20211217",
+     "SUPPL",
+     "6",
+     "EFFICACY",
+     "AP"
+    ],
+    [
+     "20220426",
+     "SUPPL",
+     "9",
+     "MANUF (CMC)",
+     "AP"
+    ],
+    [
+     "20230628",
+     "SUPPL",
+     "11",
+     "LABELING",
+     "AP"
+    ],
+    [
+     "20251105",
+     "SUPPL",
+     "16",
+     "EFFICACY",
+     "AP"
+    ],
+    [
+     "20260424",
+     "SUPPL",
+     "17",
+     "EFFICACY",
+     "AP"
+    ]
+   ]
+  }
+ ],
+ "SEPHIENCE": [
+  {
+   "application": "NDA219666",
+   "sponsor": "PTC THERAP",
+   "submissions": [
+    [
+     "20250728",
+     "ORIG",
+     "1",
+     "TYPE 1",
+     "AP"
+    ]
+   ]
+  }
+ ]
+}

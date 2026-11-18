@@ -1,0 +1,4991 @@
+{
+ "window": [
+  "20251101",
+  "20261118"
+ ],
+ "drug_events": [
+  {
+   "month": "202602",
+   "date": "20260225",
+   "kind": "efficacy_supplement",
+   "application": "NDA203858",
+   "sponsor": "CHIESI",
+   "brands": [
+    "JUXTAPID"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260813",
+   "kind": "novel",
+   "application": "NDA220496",
+   "sponsor": "CERVEAU LANTHEUS",
+   "brands": [
+    "TAUKLARIFY"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202603",
+   "date": "20260327",
+   "kind": "efficacy_supplement",
+   "application": "NDA212273",
+   "sponsor": "VERTEX PHARMS INC",
+   "brands": [
+    "TRIKAFTA (COPACKAGED)"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261016",
+   "kind": "efficacy_supplement",
+   "application": "NDA212608",
+   "sponsor": "BLUEPRINT MEDICINES",
+   "brands": [
+    "AYVAKIT"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260616",
+   "kind": "new_nda_other",
+   "application": "NDA218754",
+   "sponsor": "AZURITY",
+   "brands": [
+    "APREPITANT"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202605",
+   "date": "20260507",
+   "kind": "novel",
+   "application": "BLA761147",
+   "sponsor": "ACCORD BIOPHARMA INC.",
+   "brands": [
+    "ENNUMO"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202601",
+   "date": "20260112",
+   "kind": "efficacy_supplement",
+   "application": "BLA020367",
+   "sponsor": "GENZYME",
+   "brands": [
+    "CEREZYME"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260729",
+   "kind": "new_nda_other",
+   "application": "NDA220381",
+   "sponsor": "FRESENIUS KABI USA",
+   "brands": [
+    "GLYCOPHOS"
+   ],
+   "class": "TYPE 2",
+   "class_desc": "Type 2 - New Active Ingredient"
+  },
+  {
+   "month": "202606",
+   "date": "20260611",
+   "kind": "efficacy_supplement",
+   "application": "NDA208434",
+   "sponsor": "HOFFMANN-LA ROCHE",
+   "brands": [
+    "ALECENSA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261015",
+   "kind": "efficacy_supplement",
+   "application": "BLA761149",
+   "sponsor": "GENENTECH",
+   "brands": [
+    "ENSPRYNG"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251223",
+   "kind": "novel",
+   "application": "BLA761152",
+   "sponsor": "OMEROS CORP",
+   "brands": [
+    "YARTEMLEA"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202607",
+   "date": "20260716",
+   "kind": "efficacy_supplement",
+   "application": "NDA217417",
+   "sponsor": "MUNDIPHARMA",
+   "brands": [
+    "REZZAYO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260914",
+   "kind": "efficacy_supplement",
+   "application": "NDA208065",
+   "sponsor": "ASTRAZENECA",
+   "brands": [
+    "TAGRISSO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251105",
+   "kind": "efficacy_supplement",
+   "application": "NDA209500",
+   "sponsor": "INTRA-CELLULAR",
+   "brands": [
+    "CAPLYTA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260424",
+   "kind": "efficacy_supplement",
+   "application": "NDA209500",
+   "sponsor": "INTRA-CELLULAR",
+   "brands": [
+    "CAPLYTA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260602",
+   "kind": "new_nda_other",
+   "application": "NDA212927",
+   "sponsor": "CASPER PHARMA LLC",
+   "brands": [
+    "TIOCYSTIN"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202608",
+   "date": "20260826",
+   "kind": "efficacy_supplement",
+   "application": "NDA217806",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "ZEPBOUND",
+    "ZEPBOUND (AUTOINJECTOR)",
+    "ZEPBOUND KWIKPEN"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260203",
+   "kind": "new_nda_other",
+   "application": "NDA220406",
+   "sponsor": "AVYXA HOLDINGS",
+   "brands": [
+    "VYKOURA"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202602",
+   "date": "20260227",
+   "kind": "efficacy_supplement",
+   "application": "BLA761156",
+   "sponsor": "NOVO NORDISK INC",
+   "brands": [
+    "SOGROYA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260227",
+   "kind": "efficacy_supplement",
+   "application": "BLA761156",
+   "sponsor": "NOVO NORDISK INC",
+   "brands": [
+    "SOGROYA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260227",
+   "kind": "efficacy_supplement",
+   "application": "BLA761156",
+   "sponsor": "NOVO NORDISK INC",
+   "brands": [
+    "SOGROYA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260319",
+   "kind": "new_nda_other",
+   "application": "NDA216564",
+   "sponsor": "DEPROCO",
+   "brands": [
+    "FLAVALTA"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202609",
+   "date": "20260916",
+   "kind": "efficacy_supplement",
+   "application": "NDA219713",
+   "sponsor": "NUVATION",
+   "brands": [
+    "IBTROZI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251213",
+   "kind": "efficacy_supplement",
+   "application": "NDA022526",
+   "sponsor": "SPROUT PHARMS",
+   "brands": [
+    "ADDYI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260220",
+   "kind": "efficacy_supplement",
+   "application": "NDA216986",
+   "sponsor": "GUERBET",
+   "brands": [
+    "ELUCIREM"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202611",
+   "date": "20261110",
+   "kind": "novel",
+   "application": "NDA220414",
+   "sponsor": "EMD SERONO",
+   "brands": [
+    "PIMJETMI"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202609",
+   "date": "20260925",
+   "kind": "novel",
+   "application": "NDA220415",
+   "sponsor": "ABBVIE",
+   "brands": [
+    "JUVMO",
+    "JUVMO (COPACKAGED)"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202604",
+   "date": "20260427",
+   "kind": "efficacy_supplement",
+   "application": "NDA216579",
+   "sponsor": "ASTRAZENECA",
+   "brands": [
+    "SYMBICORT AEROSPHERE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260828",
+   "kind": "efficacy_supplement",
+   "application": "BLA761166",
+   "sponsor": "PHARMAESSENTIA CORP",
+   "brands": [
+    "BESREMI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260923",
+   "kind": "novel",
+   "application": "NDA220425",
+   "sponsor": "ELEVAR",
+   "brands": [
+    "LYRFIGTU"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202609",
+   "date": "20260916",
+   "kind": "efficacy_supplement",
+   "application": "NDA215341",
+   "sponsor": "BAYER HLTHCARE",
+   "brands": [
+    "KERENDIA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260724",
+   "kind": "efficacy_supplement",
+   "application": "NDA213674",
+   "sponsor": "ASTELLAS",
+   "brands": [
+    "XTANDI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261026",
+   "kind": "efficacy_supplement",
+   "application": "NDA217439",
+   "sponsor": "PFIZER",
+   "brands": [
+    "TALZENNA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260513",
+   "kind": "efficacy_supplement",
+   "application": "NDA212576",
+   "sponsor": "TAIHO ONCOLOGY",
+   "brands": [
+    "INQOVI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260427",
+   "kind": "efficacy_supplement",
+   "application": "NDA207318",
+   "sponsor": "ACADIA PHARMS INC",
+   "brands": [
+    "NUPLAZID"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260909",
+   "kind": "efficacy_supplement",
+   "application": "NDA208081",
+   "sponsor": "BIOFRONTERA",
+   "brands": [
+    "AMELUZ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260624",
+   "kind": "new_nda_other",
+   "application": "NDA220436",
+   "sponsor": "AVYXA HOLDINGS",
+   "brands": [
+    "NAVITRUX"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202610",
+   "date": "20261019",
+   "kind": "efficacy_supplement",
+   "application": "BLA761174",
+   "sponsor": "GLAXOSMITHKLINE",
+   "brands": [
+    "JEMPERLI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260924",
+   "kind": "efficacy_supplement",
+   "application": "NDA206947",
+   "sponsor": "EISAI INC",
+   "brands": [
+    "LENVIMA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251216",
+   "kind": "new_nda_other",
+   "application": "NDA210858",
+   "sponsor": "IBSA",
+   "brands": [
+    "VYBRIQUE"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202607",
+   "date": "20260716",
+   "kind": "efficacy_supplement",
+   "application": "NDA218276",
+   "sponsor": "NOVARTIS",
+   "brands": [
+    "FABHALTA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260529",
+   "kind": "novel",
+   "application": "NDA220442",
+   "sponsor": "SHIONOGI",
+   "brands": [
+    "XOCOVA"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202512",
+   "date": "20251223",
+   "kind": "efficacy_supplement",
+   "application": "NDA216196",
+   "sponsor": "AGIOS PHARMS INC",
+   "brands": [
+    "AQVESME",
+    "PYRUKYND"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260327",
+   "kind": "efficacy_supplement",
+   "application": "NDA218730",
+   "sponsor": "VERTEX PHARMS INC",
+   "brands": [
+    "ALYFTREK"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251219",
+   "kind": "new_nda_other",
+   "application": "NDA220449",
+   "sponsor": "BOEHRINGER INGELHEIM",
+   "brands": [
+    "JASCAYD"
+   ],
+   "class": "TYPE 9",
+   "class_desc": "Type 9 - New Indication Submitted as Distinct NDA, Consolidated with Original NDA after Approval"
+  },
+  {
+   "month": "202606",
+   "date": "20260612",
+   "kind": "efficacy_supplement",
+   "application": "BLA761183",
+   "sponsor": "PROVENTION BIO INC",
+   "brands": [
+    "TZIELD"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260420",
+   "kind": "efficacy_supplement",
+   "application": "BLA761183",
+   "sponsor": "PROVENTION BIO INC",
+   "brands": [
+    "TZIELD"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251125",
+   "kind": "efficacy_supplement",
+   "application": "NDA215358",
+   "sponsor": "NOVARTIS",
+   "brands": [
+    "SCEMBLIX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251211",
+   "kind": "new_nda_other",
+   "application": "NDA219776",
+   "sponsor": "BIOCRYST",
+   "brands": [
+    "ORLADEYO"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202603",
+   "date": "20260327",
+   "kind": "efficacy_supplement",
+   "application": "NDA209531",
+   "sponsor": "BIOGEN",
+   "brands": [
+    "SPINRAZA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260409",
+   "kind": "efficacy_supplement",
+   "application": "NDA214120",
+   "sponsor": "BRISTOL",
+   "brands": [
+    "ONUREG"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261027",
+   "kind": "novel",
+   "application": "BLA761187",
+   "sponsor": "XBRANE BIOPHARMA AB",
+   "brands": [
+    "LUCAMZI"
+   ],
+   "class": "TYPE 2",
+   "class_desc": "Type 2 - New Active Ingredient"
+  },
+  {
+   "month": "202603",
+   "date": "20260327",
+   "kind": "efficacy_supplement",
+   "application": "NDA217026",
+   "sponsor": "ACADIA PHARMS INC",
+   "brands": [
+    "DAYBUE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260226",
+   "kind": "efficacy_supplement",
+   "application": "NDA205394",
+   "sponsor": "GENSCO",
+   "brands": [
+    "RIZAFILM"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251103",
+   "kind": "novel",
+   "application": "NDA219792",
+   "sponsor": "UCB INC",
+   "brands": [
+    "KYGEVVI"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260508",
+   "kind": "efficacy_supplement",
+   "application": "BLA761195",
+   "sponsor": "ARGENX BV",
+   "brands": [
+    "VYVGART"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260227",
+   "kind": "efficacy_supplement",
+   "application": "NDA205395",
+   "sponsor": "JANSSEN PRODS",
+   "brands": [
+    "PREZCOBIX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260529",
+   "kind": "novel",
+   "application": "NDA220482",
+   "sponsor": "HAISCO",
+   "brands": [
+    "CYPSEDO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202606",
+   "date": "20260612",
+   "kind": "efficacy_supplement",
+   "application": "NDA215383",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "WELIREG"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260924",
+   "kind": "efficacy_supplement",
+   "application": "NDA215383",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "WELIREG"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260501",
+   "kind": "novel",
+   "application": "NDA219835",
+   "sponsor": "RIGEL PHARMS",
+   "brands": [
+    "VEPPANU"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202603",
+   "date": "20260306",
+   "kind": "efficacy_supplement",
+   "application": "NDA214958",
+   "sponsor": "BRISTOL",
+   "brands": [
+    "SOTYKTU"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202601",
+   "date": "20260112",
+   "kind": "novel",
+   "application": "NDA211241",
+   "sponsor": "SENTYNL THERAPS INC",
+   "brands": [
+    "ZYCUBO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202603",
+   "date": "20260309",
+   "kind": "efficacy_supplement",
+   "application": "NDA018342",
+   "sponsor": "GLAXOSMITHKLINE",
+   "brands": [
+    "WELLCOVORIN"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202611",
+   "date": "20261113",
+   "kind": "efficacy_supplement",
+   "application": "NDA215390",
+   "sponsor": "TEVA",
+   "brands": [
+    "IGALMI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251119",
+   "kind": "efficacy_supplement",
+   "application": "NDA215390",
+   "sponsor": "TEVA",
+   "brands": [
+    "IGALMI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260825",
+   "kind": "efficacy_supplement",
+   "application": "BLA761232",
+   "sponsor": "BEIGENE",
+   "brands": [
+    "TEVIMBRA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251209",
+   "kind": "efficacy_supplement",
+   "application": "BLA761232",
+   "sponsor": "BEIGENE",
+   "brands": [
+    "TEVIMBRA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251209",
+   "kind": "efficacy_supplement",
+   "application": "BLA761232",
+   "sponsor": "BEIGENE",
+   "brands": [
+    "TEVIMBRA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251209",
+   "kind": "efficacy_supplement",
+   "application": "BLA761232",
+   "sponsor": "BEIGENE",
+   "brands": [
+    "TEVIMBRA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261009",
+   "kind": "new_nda_other",
+   "application": "NDA220583",
+   "sponsor": "BRACCO",
+   "brands": [
+    "ISOVUE READI"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202610",
+   "date": "20261016",
+   "kind": "efficacy_supplement",
+   "application": "NDA217064",
+   "sponsor": "FAMYGEN LIFE SCI",
+   "brands": [
+    "RYZUMVI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260409",
+   "kind": "efficacy_supplement",
+   "application": "BLA761235",
+   "sponsor": "GENENTECH INC",
+   "brands": [
+    "VABYSMO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260828",
+   "kind": "novel",
+   "application": "NDA220605",
+   "sponsor": "TAKEDA PHARMS AM",
+   "brands": [
+    "MIMRYLO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202602",
+   "date": "20260225",
+   "kind": "new_nda_other",
+   "application": "NDA219873",
+   "sponsor": "ETON",
+   "brands": [
+    "DESMODA"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202609",
+   "date": "20260903",
+   "kind": "new_nda_other",
+   "application": "NDA220613",
+   "sponsor": "HANDA ONCOL",
+   "brands": [
+    "OMCAZIO"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202511",
+   "date": "20251119",
+   "kind": "efficacy_supplement",
+   "application": "NDA213756",
+   "sponsor": "ASTRAZENECA",
+   "brands": [
+    "KOSELUGO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260515",
+   "kind": "novel",
+   "application": "NDA219878",
+   "sponsor": "ASTRAZENECA AB",
+   "brands": [
+    "BAXFENDY"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202603",
+   "date": "20260330",
+   "kind": "new_nda_other",
+   "application": "NDA220626",
+   "sponsor": "BAXTER HLTHCARE CORP",
+   "brands": [
+    "EPINEPHRINE"
+   ],
+   "class": "TYPE 4/5",
+   "class_desc": "New Combination and New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202512",
+   "date": "20251219",
+   "kind": "efficacy_supplement",
+   "application": "BLA761263",
+   "sponsor": "GENENTECH INC",
+   "brands": [
+    "LUNSUMIO",
+    "LUNSUMIO VELO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260325",
+   "kind": "novel",
+   "application": "NDA220641",
+   "sponsor": "CORCEPT THERAP",
+   "brands": [
+    "LIFYORLI (COPACKAGED)"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202511",
+   "date": "20251121",
+   "kind": "efficacy_supplement",
+   "application": "NDA211616",
+   "sponsor": "ESPERION THERAPS INC",
+   "brands": [
+    "NEXLETOL"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260731",
+   "kind": "efficacy_supplement",
+   "application": "NDA215833",
+   "sponsor": "NOVARTIS",
+   "brands": [
+    "PLUVICTO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251121",
+   "kind": "efficacy_supplement",
+   "application": "NDA211617",
+   "sponsor": "ESPERION THERAPS INC",
+   "brands": [
+    "NEXLIZET"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260423",
+   "kind": "efficacy_supplement",
+   "application": "NDA212306",
+   "sponsor": "KARYOPHARM THERAPS",
+   "brands": [
+    "XPOVIO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251211",
+   "kind": "new_nda_other",
+   "application": "NDA219884",
+   "sponsor": "ACADIA PHARMS INC",
+   "brands": [
+    "DAYBUE STIX"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202609",
+   "date": "20260930",
+   "kind": "efficacy_supplement",
+   "application": "NDA214998",
+   "sponsor": "BRISTOL",
+   "brands": [
+    "CAMZYOS"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260925",
+   "kind": "new_nda_other",
+   "application": "NDA218379",
+   "sponsor": "ADVENTAPHARMA",
+   "brands": [
+    "ZUEINO"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202606",
+   "date": "20260626",
+   "kind": "efficacy_supplement",
+   "application": "NDA219304",
+   "sponsor": "DECIPHERA PHARMS",
+   "brands": [
+    "ROMVIMZA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260714",
+   "kind": "novel",
+   "application": "NDA219908",
+   "sponsor": "CELCUITY",
+   "brands": [
+    "REVTORPYK"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202607",
+   "date": "20260701",
+   "kind": "efficacy_supplement",
+   "application": "NDA209935",
+   "sponsor": "NOVARTIS",
+   "brands": [
+    "KISQALI FEMARA CO-PACK (COPACKAGED)"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260513",
+   "kind": "novel",
+   "application": "NDA220711",
+   "sponsor": "BEONE MEDICINES USA",
+   "brands": [
+    "BEQALZI"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202512",
+   "date": "20251219",
+   "kind": "efficacy_supplement",
+   "application": "NDA212320",
+   "sponsor": "SHIELD TX",
+   "brands": [
+    "ACCRUFER"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260305",
+   "kind": "efficacy_supplement",
+   "application": "BLA761291",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "TECVAYLI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261023",
+   "kind": "efficacy_supplement",
+   "application": "NDA208171",
+   "sponsor": "PHARMACOSMOS",
+   "brands": [
+    "MONOFERRIC"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260430",
+   "kind": "efficacy_supplement",
+   "application": "NDA215430",
+   "sponsor": "AXSOME",
+   "brands": [
+    "AUVELITY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251121",
+   "kind": "efficacy_supplement",
+   "application": "BLA761297",
+   "sponsor": "CHECKPOINT THERAPEUTICS INC",
+   "brands": [
+    "UNLOXCYT"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261007",
+   "kind": "efficacy_supplement",
+   "application": "NDA213411",
+   "sponsor": "SEAGEN",
+   "brands": [
+    "TUKYSA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261022",
+   "kind": "novel",
+   "application": "BLA761298",
+   "sponsor": "AMGEN INC",
+   "brands": [
+    "PAVBLU"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202603",
+   "date": "20260319",
+   "kind": "efficacy_supplement",
+   "application": "NDA213793",
+   "sponsor": "RHYTHM",
+   "brands": [
+    "IMCIVREE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260618",
+   "kind": "efficacy_supplement",
+   "application": "NDA214231",
+   "sponsor": "ZEALAND PHARMA",
+   "brands": [
+    "ZEGALOGUE",
+    "ZEGALOGUE (AUTOINJECTOR)"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260820",
+   "kind": "efficacy_supplement",
+   "application": "NDA215014",
+   "sponsor": "APELLIS PHARMS",
+   "brands": [
+    "EMPAVELI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260508",
+   "kind": "efficacy_supplement",
+   "application": "BLA761304",
+   "sponsor": "ARGENX BV",
+   "brands": [
+    "VYVGART HYTRULO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260219",
+   "kind": "efficacy_supplement",
+   "application": "NDA210259",
+   "sponsor": "ASTRAZENECA",
+   "brands": [
+    "CALQUENCE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260522",
+   "kind": "new_nda_other",
+   "application": "NDA220736",
+   "sponsor": "GALDERMA LABS LP",
+   "brands": [
+    "DIFFERIN EPIDUO",
+    "DIFFERIN EPIDUO ACNE GEL (ADAPALENE AND BENZOYL PEROXIDE)"
+   ],
+   "class": "TYPE 8",
+   "class_desc": "Type 8 - Partial Rx to OTC Switch"
+  },
+  {
+   "month": "202606",
+   "date": "20260609",
+   "kind": "efficacy_supplement",
+   "application": "BLA761306",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "EBGLYSS"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261029",
+   "kind": "new_nda_other",
+   "application": "NDA220748",
+   "sponsor": "AVYXA HOLDINGS",
+   "brands": [
+    "AXYCIS"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202608",
+   "date": "20260827",
+   "kind": "efficacy_supplement",
+   "application": "NDA215866",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "MOUNJARO",
+    "MOUNJARO (AUTOINJECTOR)",
+    "MOUNJARO KWIKPEN"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251219",
+   "kind": "efficacy_supplement",
+   "application": "NDA215866",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "MOUNJARO",
+    "MOUNJARO (AUTOINJECTOR)",
+    "MOUNJARO KWIKPEN"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260827",
+   "kind": "efficacy_supplement",
+   "application": "NDA215866",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "MOUNJARO",
+    "MOUNJARO (AUTOINJECTOR)",
+    "MOUNJARO KWIKPEN"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260521",
+   "kind": "efficacy_supplement",
+   "application": "NDA202811",
+   "sponsor": "ABBVIE",
+   "brands": [
+    "LINZESS"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251104",
+   "kind": "efficacy_supplement",
+   "application": "NDA202811",
+   "sponsor": "ABBVIE",
+   "brands": [
+    "LINZESS"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202601",
+   "date": "20260127",
+   "kind": "efficacy_supplement",
+   "application": "NDA205053",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "NOXAFIL"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260724",
+   "kind": "novel",
+   "application": "BLA761320",
+   "sponsor": "OUTLOOK THERAPEUTICS, INC.",
+   "brands": [
+    "LYTENAVA"
+   ],
+   "class": "TYPE 1/4",
+   "class_desc": "Type 1 - New Molecular Entity and Type 4 - New Combination"
+  },
+  {
+   "month": "202605",
+   "date": "20260529",
+   "kind": "novel",
+   "application": "NDA220787",
+   "sponsor": "WOCKHARDT BIO AG",
+   "brands": [
+    "ZAYNICH"
+   ],
+   "class": "TYPE 1/4",
+   "class_desc": "Type 1 - New Molecular Entity and Type 4 - New Combination"
+  },
+  {
+   "month": "202603",
+   "date": "20260327",
+   "kind": "efficacy_supplement",
+   "application": "BLA761324",
+   "sponsor": "GENMAB US, INC.",
+   "brands": [
+    "EPKINLY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251118",
+   "kind": "efficacy_supplement",
+   "application": "BLA761324",
+   "sponsor": "GENMAB US, INC.",
+   "brands": [
+    "EPKINLY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260709",
+   "kind": "new_nda_other",
+   "application": "NDA220790",
+   "sponsor": "AMNEAL",
+   "brands": [
+    "SODIUM BICARBONATE"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202610",
+   "date": "20261023",
+   "kind": "efficacy_supplement",
+   "application": "BLA761326",
+   "sponsor": "NOVO NORDISK INC",
+   "brands": [
+    "AWIQLI FLEXTOUCH"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260326",
+   "kind": "novel",
+   "application": "BLA761326",
+   "sponsor": "NOVO NORDISK INC",
+   "brands": [
+    "AWIQLI FLEXTOUCH"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260501",
+   "kind": "new_nda_other",
+   "application": "NDA220837",
+   "sponsor": "APOTEX",
+   "brands": [
+    "EVDI"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202610",
+   "date": "20261026",
+   "kind": "efficacy_supplement",
+   "application": "NDA211651",
+   "sponsor": "PFIZER",
+   "brands": [
+    "TALZENNA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251118",
+   "kind": "novel",
+   "application": "NDA219947",
+   "sponsor": "ARROWHEAD",
+   "brands": [
+    "REDEMPLO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202607",
+   "date": "20260715",
+   "kind": "novel",
+   "application": "NDA220848",
+   "sponsor": "MSD",
+   "brands": [
+    "LIPFENDRA"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260520",
+   "kind": "efficacy_supplement",
+   "application": "NDA208573",
+   "sponsor": "ABBVIE",
+   "brands": [
+    "VENCLEXTA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260219",
+   "kind": "efficacy_supplement",
+   "application": "NDA208573",
+   "sponsor": "ABBVIE",
+   "brands": [
+    "VENCLEXTA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260805",
+   "kind": "novel",
+   "application": "NDA220860",
+   "sponsor": "TAKEDA PHARMS USA",
+   "brands": [
+    "ORZEYFUL"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260518",
+   "kind": "efficacy_supplement",
+   "application": "BLA761334",
+   "sponsor": "INCYTE CORP",
+   "brands": [
+    "ZYNYZ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251217",
+   "kind": "efficacy_supplement",
+   "application": "BLA761334",
+   "sponsor": "INCYTE CORP",
+   "brands": [
+    "ZYNYZ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260330",
+   "kind": "efficacy_supplement",
+   "application": "BLA761334",
+   "sponsor": "INCYTE CORP",
+   "brands": [
+    "ZYNYZ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261014",
+   "kind": "efficacy_supplement",
+   "application": "BLA761336",
+   "sponsor": "ALTOR BIOSCIENCE, LLC, AN INDIRECT WHOLLY-OWNED SU",
+   "brands": [
+    "ANKTIVA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260724",
+   "kind": "new_nda_other",
+   "application": "NDA219962",
+   "sponsor": "KENVUE BRANDS",
+   "brands": [
+    "TYLENOL WITH NAPROXEN"
+   ],
+   "class": "TYPE 4",
+   "class_desc": "Type 4 - New Combination"
+  },
+  {
+   "month": "202511",
+   "date": "20251128",
+   "kind": "novel",
+   "application": "BLA761340",
+   "sponsor": "SAMSUNG BIOEPIS CO LTD",
+   "brands": [
+    "EPYSQLI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251119",
+   "kind": "novel",
+   "application": "NDA219972",
+   "sponsor": "BAYER HEALTHCARE",
+   "brands": [
+    "HYRNUO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202609",
+   "date": "20260909",
+   "kind": "efficacy_supplement",
+   "application": "NDA219972",
+   "sponsor": "BAYER HEALTHCARE",
+   "brands": [
+    "HYRNUO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251119",
+   "kind": "efficacy_supplement",
+   "application": "BLA761344",
+   "sponsor": "AMGEN INC",
+   "brands": [
+    "IMDELLTRA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260826",
+   "kind": "novel",
+   "application": "NDA220910",
+   "sponsor": "REVOLUTION MEDICINES",
+   "brands": [
+    "RASONQUE"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202610",
+   "date": "20261006",
+   "kind": "efficacy_supplement",
+   "application": "NDA218436",
+   "sponsor": "NOVARTIS",
+   "brands": [
+    "RHAPSIDO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260401",
+   "kind": "novel",
+   "application": "NDA220934",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "FOUNDAYO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260515",
+   "kind": "efficacy_supplement",
+   "application": "BLA761347",
+   "sponsor": "GENENTECH INC",
+   "brands": [
+    "TECENTRIQ HYBREZA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261008",
+   "kind": "efficacy_supplement",
+   "application": "BLA761347",
+   "sponsor": "GENENTECH INC",
+   "brands": [
+    "TECENTRIQ HYBREZA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251124",
+   "kind": "efficacy_supplement",
+   "application": "BLA761347",
+   "sponsor": "GENENTECH INC",
+   "brands": [
+    "TECENTRIQ HYBREZA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202601",
+   "date": "20260116",
+   "kind": "efficacy_supplement",
+   "application": "NDA021529",
+   "sponsor": "ORGANON",
+   "brands": [
+    "IMPLANON",
+    "NEXPLANON"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260918",
+   "kind": "efficacy_supplement",
+   "application": "NDA218881",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "INLURIYO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261015",
+   "kind": "efficacy_supplement",
+   "application": "BLA761349",
+   "sponsor": "NOVARTIS PHARMS CORP",
+   "brands": [
+    "COSENTYX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260306",
+   "kind": "efficacy_supplement",
+   "application": "NDA213082",
+   "sponsor": "PFIZER",
+   "brands": [
+    "XELJANZ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260928",
+   "kind": "novel",
+   "application": "NDA220963",
+   "sponsor": "RARE THYROID",
+   "brands": [
+    "EMCITATE"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260508",
+   "kind": "efficacy_supplement",
+   "application": "BLA761352",
+   "sponsor": "MERUS N.V.",
+   "brands": [
+    "BIZENGRI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260728",
+   "kind": "new_nda_other",
+   "application": "NDA219990",
+   "sponsor": "VIATRIS SPECIALTY",
+   "brands": [
+    "GWYN LO"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202512",
+   "date": "20251219",
+   "kind": "efficacy_supplement",
+   "application": "NDA215498",
+   "sponsor": "IPSEN",
+   "brands": [
+    "BYLVAY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260402",
+   "kind": "efficacy_supplement",
+   "application": "BLA761355",
+   "sponsor": "REGENERON PHARMACEUTICALS",
+   "brands": [
+    "EYLEA HD"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251119",
+   "kind": "efficacy_supplement",
+   "application": "BLA761355",
+   "sponsor": "REGENERON PHARMACEUTICALS",
+   "brands": [
+    "EYLEA HD"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260723",
+   "kind": "efficacy_supplement",
+   "application": "NDA209988",
+   "sponsor": "SCPHARMACEUTICALS",
+   "brands": [
+    "FUROSCIX",
+    "FUROSCIX READYFLOW (AUTOINJECTOR)"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251222",
+   "kind": "efficacy_supplement",
+   "application": "NDA209988",
+   "sponsor": "SCPHARMACEUTICALS",
+   "brands": [
+    "FUROSCIX",
+    "FUROSCIX READYFLOW (AUTOINJECTOR)"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260501",
+   "kind": "new_nda_other",
+   "application": "NDA217180",
+   "sponsor": "INCYTE CORP",
+   "brands": [
+    "JAKAFI XR"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202512",
+   "date": "20251218",
+   "kind": "efficacy_supplement",
+   "application": "NDA204370",
+   "sponsor": "ABBVIE",
+   "brands": [
+    "VRAYLAR"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251218",
+   "kind": "efficacy_supplement",
+   "application": "NDA204370",
+   "sponsor": "ABBVIE",
+   "brands": [
+    "VRAYLAR"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251218",
+   "kind": "efficacy_supplement",
+   "application": "NDA204370",
+   "sponsor": "ABBVIE",
+   "brands": [
+    "VRAYLAR"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251218",
+   "kind": "efficacy_supplement",
+   "application": "NDA204370",
+   "sponsor": "ABBVIE",
+   "brands": [
+    "VRAYLAR"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261016",
+   "kind": "new_nda_other",
+   "application": "NDA221033",
+   "sponsor": "ROSEMONT PHARMS",
+   "brands": [
+    "YULZETY"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202609",
+   "date": "20260921",
+   "kind": "efficacy_supplement",
+   "application": "BLA761363",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "WINREVAIR"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202601",
+   "date": "20260127",
+   "kind": "efficacy_supplement",
+   "application": "NDA218010",
+   "sponsor": "GLAUKOS",
+   "brands": [
+    "IDOSE TR"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260625",
+   "kind": "efficacy_supplement",
+   "application": "BLA125360",
+   "sponsor": "MERZ PHARMS",
+   "brands": [
+    "Xeomin"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260813",
+   "kind": "novel",
+   "application": "NDA221075",
+   "sponsor": "BRISTOL MYERS SQUIBB",
+   "brands": [
+    "ZENBEXUS"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202606",
+   "date": "20260605",
+   "kind": "efficacy_supplement",
+   "application": "BLA761369",
+   "sponsor": "PFIZER INC",
+   "brands": [
+    "HYMPAVZI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260306",
+   "kind": "efficacy_supplement",
+   "application": "NDA203214",
+   "sponsor": "PF PRISM CV",
+   "brands": [
+    "XELJANZ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202611",
+   "date": "20261109",
+   "kind": "new_nda_other",
+   "application": "NDA221093",
+   "sponsor": "AVYXA HOLDINGS",
+   "brands": [
+    "OXDERYS"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202607",
+   "date": "20260729",
+   "kind": "new_nda_other",
+   "application": "NDA221094",
+   "sponsor": "CMP DEV LLC",
+   "brands": [
+    "QLONILIK"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202608",
+   "date": "20260827",
+   "kind": "new_nda_other",
+   "application": "NDA221104",
+   "sponsor": "GILEAD SCIENCES INC",
+   "brands": [
+    "BIXLENVO"
+   ],
+   "class": "TYPE 4",
+   "class_desc": "Type 4 - New Combination"
+  },
+  {
+   "month": "202607",
+   "date": "20260713",
+   "kind": "efficacy_supplement",
+   "application": "BLA761375",
+   "sponsor": "EISAI INC",
+   "brands": [
+    "LEQEMBI IQLIK"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260306",
+   "kind": "efficacy_supplement",
+   "application": "NDA208246",
+   "sponsor": "PFIZER",
+   "brands": [
+    "XELJANZ XR"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260925",
+   "kind": "new_nda_other",
+   "application": "NDA221109",
+   "sponsor": "AZURITY",
+   "brands": [
+    "LAMLIQUE"
+   ],
+   "class": "TYPE 2",
+   "class_desc": "Type 2 - New Active Ingredient"
+  },
+  {
+   "month": "202607",
+   "date": "20260731",
+   "kind": "novel",
+   "application": "BLA761376",
+   "sponsor": "DR REDDYS LABS SA",
+   "brands": [
+    "ZIMRIXBY"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202610",
+   "date": "20261009",
+   "kind": "novel",
+   "application": "NDA221154",
+   "sponsor": "AICURIS ANTI-INFECT",
+   "brands": [
+    "HOVILPRI"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202610",
+   "date": "20261022",
+   "kind": "novel",
+   "application": "BLA761378",
+   "sponsor": "FORMYCON AG",
+   "brands": [
+    "AHZANTIVE"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202604",
+   "date": "20260423",
+   "kind": "efficacy_supplement",
+   "application": "BLA125409",
+   "sponsor": "GENENTECH",
+   "brands": [
+    "PERJETA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260624",
+   "kind": "efficacy_supplement",
+   "application": "NDA207103",
+   "sponsor": "PFIZER",
+   "brands": [
+    "IBRANCE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261013",
+   "kind": "efficacy_supplement",
+   "application": "NDA205109",
+   "sponsor": "VIFOR FRESENIUS",
+   "brands": [
+    "VELPHORO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261015",
+   "kind": "new_nda_other",
+   "application": "NDA221183",
+   "sponsor": "COSETTE",
+   "brands": [
+    "EVOXAC"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202606",
+   "date": "20260616",
+   "kind": "efficacy_supplement",
+   "application": "NDA208969",
+   "sponsor": "AMPHASTAR PHARMS INC",
+   "brands": [
+    "REXTOVY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260213",
+   "kind": "efficacy_supplement",
+   "application": "NDA217202",
+   "sponsor": "AOP HLTH US",
+   "brands": [
+    "RAPIBLYK"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260925",
+   "kind": "novel",
+   "application": "NDA221198",
+   "sponsor": "MIRUM",
+   "brands": [
+    "ATEBRIOZ"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202512",
+   "date": "20251212",
+   "kind": "efficacy_supplement",
+   "application": "NDA216793",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "AKEEGA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251124",
+   "kind": "efficacy_supplement",
+   "application": "BLA761381",
+   "sponsor": "BRISTOL-MYERS SQUIBB",
+   "brands": [
+    "OPDIVO QVANTIG"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261020",
+   "kind": "novel",
+   "application": "NDA221276",
+   "sponsor": "GLAXOSMITHKLINE",
+   "brands": [
+    "HIBSAGO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202610",
+   "date": "20261022",
+   "kind": "novel",
+   "application": "BLA761382",
+   "sponsor": "SANDOZ INC",
+   "brands": [
+    "ENZEEVU"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202602",
+   "date": "20260202",
+   "kind": "new_nda_other",
+   "application": "NDA221287",
+   "sponsor": "GENERAL AIR SERVICE & SUPPLY COMPANY",
+   "brands": [
+    "AIR"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202610",
+   "date": "20261019",
+   "kind": "new_nda_other",
+   "application": "NDA219455",
+   "sponsor": "FRESENIUS MEDCL CARE",
+   "brands": [
+    "CIENBY"
+   ],
+   "class": "TYPE 2",
+   "class_desc": "Type 2 - New Active Ingredient"
+  },
+  {
+   "month": "202611",
+   "date": "20261109",
+   "kind": "novel",
+   "application": "NDA221291",
+   "sponsor": "BAYER HEALTHCARE",
+   "brands": [
+    "SUNHARBO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202603",
+   "date": "20260327",
+   "kind": "novel",
+   "application": "BLA761385",
+   "sponsor": "TEVA PHARMACEUTICALS, INC.",
+   "brands": [
+    "PONLIMSI"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202610",
+   "date": "20261019",
+   "kind": "new_nda_other",
+   "application": "NDA219456",
+   "sponsor": "FRESENIUS MEDCL CARE",
+   "brands": [
+    "CALREZDY"
+   ],
+   "class": "TYPE 2",
+   "class_desc": "Type 2 - New Active Ingredient"
+  },
+  {
+   "month": "202611",
+   "date": "20261109",
+   "kind": "new_nda_other",
+   "application": "NDA219457",
+   "sponsor": "FRESENIUS MEDICAL CARE RENAL THERAPIES GROUP LLC",
+   "brands": [
+    "MULTIBIC"
+   ],
+   "class": "TYPE 2",
+   "class_desc": "Type 2 - New Active Ingredient"
+  },
+  {
+   "month": "202602",
+   "date": "20260217",
+   "kind": "new_nda_other",
+   "application": "NDA221337",
+   "sponsor": "INDUSTRIAL WELDING SUPPLY CO OF HARVEY INC",
+   "brands": [
+    "MEDICAL AIR, USP"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202608",
+   "date": "20260827",
+   "kind": "new_nda_other",
+   "application": "NDA221443",
+   "sponsor": "GILEAD SCIENCES INC",
+   "brands": [
+    "BIXLENVO SUNLENCA STARTER PACK (COPACKAGED)"
+   ],
+   "class": "TYPE 4",
+   "class_desc": "Type 4 - New Combination"
+  },
+  {
+   "month": "202611",
+   "date": "20261113",
+   "kind": "efficacy_supplement",
+   "application": "BLA125486",
+   "sponsor": "GENENTECH",
+   "brands": [
+    "GAZYVA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260925",
+   "kind": "efficacy_supplement",
+   "application": "BLA125486",
+   "sponsor": "GENENTECH",
+   "brands": [
+    "GAZYVA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260617",
+   "kind": "novel",
+   "application": "NDA215960",
+   "sponsor": "GLAXOSMITHKLINE",
+   "brands": [
+    "UTEBZI"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202607",
+   "date": "20260719",
+   "kind": "new_nda_other",
+   "application": "NDA221805",
+   "sponsor": "NOBLE GAS SOLUTIONS INC.",
+   "brands": [
+    "AIR"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202605",
+   "date": "20260522",
+   "kind": "efficacy_supplement",
+   "application": "BLA761394",
+   "sponsor": "DAIICHI SANKYO INC",
+   "brands": [
+    "DATROWAY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260326",
+   "kind": "efficacy_supplement",
+   "application": "NDA214697",
+   "sponsor": "ARS PHARMS OPERATION",
+   "brands": [
+    "NEFFY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260219",
+   "kind": "efficacy_supplement",
+   "application": "NDA216387",
+   "sponsor": "ASTRAZENECA",
+   "brands": [
+    "CALQUENCE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260809",
+   "kind": "new_nda_other",
+   "application": "NDA221892",
+   "sponsor": "LINDE GAS EQUIP",
+   "brands": [
+    "NITROUS OXIDE, USP"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202603",
+   "date": "20260306",
+   "kind": "new_nda_other",
+   "application": "NDA220089",
+   "sponsor": "APHELION",
+   "brands": [
+    "PYLARIFY TRUVU"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202609",
+   "date": "20260922",
+   "kind": "new_nda_other",
+   "application": "NDA222000",
+   "sponsor": "AGL WELDING SUPPLY CO INC DBA AGL GAS TECHNOLOGIES",
+   "brands": [
+    "CARBON DIOXIDE, USP"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202604",
+   "date": "20260417",
+   "kind": "efficacy_supplement",
+   "application": "BLA125504",
+   "sponsor": "NOVARTIS PHARMS CORP",
+   "brands": [
+    "COSENTYX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260312",
+   "kind": "efficacy_supplement",
+   "application": "BLA125504",
+   "sponsor": "NOVARTIS PHARMS CORP",
+   "brands": [
+    "COSENTYX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260417",
+   "kind": "efficacy_supplement",
+   "application": "BLA125504",
+   "sponsor": "NOVARTIS PHARMS CORP",
+   "brands": [
+    "COSENTYX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202601",
+   "date": "20260126",
+   "kind": "new_nda_other",
+   "application": "NDA216395",
+   "sponsor": "SOLUBIOMIX",
+   "brands": [
+    "QUIOFIC"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202604",
+   "date": "20260415",
+   "kind": "efficacy_supplement",
+   "application": "NDA219249",
+   "sponsor": "GENENTECH INC",
+   "brands": [
+    "ITOVEBI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260327",
+   "kind": "efficacy_supplement",
+   "application": "NDA206976",
+   "sponsor": "IBSA INST BIO",
+   "brands": [
+    "LICART"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251222",
+   "kind": "new_nda_other",
+   "application": "NDA218316",
+   "sponsor": "NOVO",
+   "brands": [
+    "WEGOVY"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202602",
+   "date": "20260223",
+   "kind": "novel",
+   "application": "BLA761211",
+   "sponsor": "IMMEDICA PHARMA AB",
+   "brands": [
+    "LOARGYS"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202511",
+   "date": "20251128",
+   "kind": "novel",
+   "application": "BLA761212",
+   "sponsor": "LUPIN LTD",
+   "brands": [
+    "ARMLUPEG"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202602",
+   "date": "20260227",
+   "kind": "new_nda_other",
+   "application": "NDA220092",
+   "sponsor": "JANSSEN PRODS",
+   "brands": [
+    "PREZCOBIX",
+    "PREZCOBIX PED"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202602",
+   "date": "20260212",
+   "kind": "novel",
+   "application": "NDA219474",
+   "sponsor": "ACROTECH BIOPHARMA",
+   "brands": [
+    "ADQUEY"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202601",
+   "date": "20260115",
+   "kind": "novel",
+   "application": "BLA761027",
+   "sponsor": "ACCORD BIOPHARMA INC.",
+   "brands": [
+    "FILKRI"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202608",
+   "date": "20260814",
+   "kind": "efficacy_supplement",
+   "application": "BLA761406",
+   "sponsor": "BIOCON BIOLOGICS INC",
+   "brands": [
+    "YESINTEK"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260923",
+   "kind": "novel",
+   "application": "BLA761408",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "ONSWIK"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202606",
+   "date": "20260624",
+   "kind": "efficacy_supplement",
+   "application": "BLA125514",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261016",
+   "kind": "efficacy_supplement",
+   "application": "BLA125514",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251121",
+   "kind": "efficacy_supplement",
+   "application": "BLA125514",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260710",
+   "kind": "efficacy_supplement",
+   "application": "BLA125514",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260210",
+   "kind": "efficacy_supplement",
+   "application": "BLA125514",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260612",
+   "kind": "efficacy_supplement",
+   "application": "BLA125514",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260827",
+   "kind": "efficacy_supplement",
+   "application": "NDA215973",
+   "sponsor": "GILEAD SCIENCES INC",
+   "brands": [
+    "SUNLENCA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260925",
+   "kind": "efficacy_supplement",
+   "application": "NDA207924",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "OLUMIANT"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261009",
+   "kind": "efficacy_supplement",
+   "application": "NDA207924",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "OLUMIANT"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260827",
+   "kind": "efficacy_supplement",
+   "application": "NDA215974",
+   "sponsor": "GILEAD SCIENCES INC",
+   "brands": [
+    "SUNLENCA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260413",
+   "kind": "efficacy_supplement",
+   "application": "NDA216403",
+   "sponsor": "TRAVERE",
+   "brands": [
+    "FILSPARI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260429",
+   "kind": "novel",
+   "application": "BLA761412",
+   "sponsor": "SUNSHINE LAKE PHARMA CO LTD",
+   "brands": [
+    "LANGLARA"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202601",
+   "date": "20260123",
+   "kind": "efficacy_supplement",
+   "application": "NDA022348",
+   "sponsor": "APOTEX",
+   "brands": [
+    "CALDOLOR"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260827",
+   "kind": "novel",
+   "application": "NDA220106",
+   "sponsor": "PRIOVANT THERAP",
+   "brands": [
+    "LISRAYA"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202608",
+   "date": "20260825",
+   "kind": "efficacy_supplement",
+   "application": "BLA761416",
+   "sponsor": "JAZZ PHARMS",
+   "brands": [
+    "ZIIHERA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261009",
+   "kind": "efficacy_supplement",
+   "application": "BLA125522",
+   "sponsor": "AMGEN INC",
+   "brands": [
+    "REPATHA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260814",
+   "kind": "new_nda_other",
+   "application": "NDA218524",
+   "sponsor": "BAXTER HLTHCARE CORP",
+   "brands": [
+    "SODIUM BICARBONATE"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202610",
+   "date": "20261008",
+   "kind": "efficacy_supplement",
+   "application": "BLA761034",
+   "sponsor": "GENENTECH INC",
+   "brands": [
+    "TECENTRIQ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260515",
+   "kind": "efficacy_supplement",
+   "application": "BLA761034",
+   "sponsor": "GENENTECH INC",
+   "brands": [
+    "TECENTRIQ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260914",
+   "kind": "new_nda_other",
+   "application": "NDA218525",
+   "sponsor": "CURIUM",
+   "brands": [
+    "BEXLUTRY"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202601",
+   "date": "20260127",
+   "kind": "efficacy_supplement",
+   "application": "NDA205596",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "NOXAFIL"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260723",
+   "kind": "efficacy_supplement",
+   "application": "NDA205598",
+   "sponsor": "AETERNA ZENTARIS",
+   "brands": [
+    "MACRILEN"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261008",
+   "kind": "new_nda_other",
+   "application": "NDA219007",
+   "sponsor": "TEVA",
+   "brands": [
+    "WELTRUZA"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202512",
+   "date": "20251212",
+   "kind": "novel",
+   "application": "NDA219491",
+   "sponsor": "ENTASIS THERAP",
+   "brands": [
+    "NUZOLVENCE"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202512",
+   "date": "20251212",
+   "kind": "novel",
+   "application": "BLA761427",
+   "sponsor": "LIB THERAPEUTICS, INC.",
+   "brands": [
+    "LEROCHOL"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202606",
+   "date": "20260629",
+   "kind": "efficacy_supplement",
+   "application": "NDA215985",
+   "sponsor": "ARCUTIS",
+   "brands": [
+    "ZORYVE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260327",
+   "kind": "efficacy_supplement",
+   "application": "NDA217660",
+   "sponsor": "VERTEX PHARMS INC",
+   "brands": [
+    "TRIKAFTA (COPACKAGED)"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261015",
+   "kind": "efficacy_supplement",
+   "application": "NDA216834",
+   "sponsor": "UCB INC",
+   "brands": [
+    "ZILBRYSQ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260320",
+   "kind": "efficacy_supplement",
+   "application": "BLA125554",
+   "sponsor": "BRISTOL MYERS SQUIBB",
+   "brands": [
+    "OPDIVO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260824",
+   "kind": "efficacy_supplement",
+   "application": "BLA761430",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "IMAAVY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261014",
+   "kind": "efficacy_supplement",
+   "application": "BLA761432",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "ENFLONSIA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260415",
+   "kind": "efficacy_supplement",
+   "application": "BLA761044",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "STELARA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260828",
+   "kind": "efficacy_supplement",
+   "application": "BLA761044",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "STELARA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251217",
+   "kind": "novel",
+   "application": "BLA761433",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "RYBREVANT FASPRO"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202611",
+   "date": "20261105",
+   "kind": "efficacy_supplement",
+   "application": "BLA761433",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "RYBREVANT FASPRO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260825",
+   "kind": "efficacy_supplement",
+   "application": "NDA204790",
+   "sponsor": "VIIV HLTHCARE",
+   "brands": [
+    "TIVICAY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251125",
+   "kind": "novel",
+   "application": "BLA761434",
+   "sponsor": "OTSUKA PHARM CO LTD",
+   "brands": [
+    "VOYXACT"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202601",
+   "date": "20260128",
+   "kind": "new_nda_other",
+   "application": "NDA220142",
+   "sponsor": "VISUS",
+   "brands": [
+    "YUVEZZI"
+   ],
+   "class": "TYPE 3/4",
+   "class_desc": "Type 3 - New Dosage Form and Type 4 - New Combination"
+  },
+  {
+   "month": "202601",
+   "date": "20260127",
+   "kind": "efficacy_supplement",
+   "application": "NDA022003",
+   "sponsor": "SCHERING",
+   "brands": [
+    "NOXAFIL"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260523",
+   "kind": "efficacy_supplement",
+   "application": "NDA207947",
+   "sponsor": "ACTELION",
+   "brands": [
+    "UPTRAVI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260624",
+   "kind": "efficacy_supplement",
+   "application": "NDA212436",
+   "sponsor": "PFIZER",
+   "brands": [
+    "IBRANCE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260317",
+   "kind": "novel",
+   "application": "NDA220149",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "ICOTYDE"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202607",
+   "date": "20260709",
+   "kind": "novel",
+   "application": "BLA761445",
+   "sponsor": "SANOFI-AVENTIS U.S. LLC",
+   "brands": [
+    "SARCLISA ESCENA"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202602",
+   "date": "20260213",
+   "kind": "efficacy_supplement",
+   "application": "NDA211413",
+   "sponsor": "HQ SPCLT PHARMA",
+   "brands": [
+    "CEFAZOLIN SODIUM"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251230",
+   "kind": "novel",
+   "application": "NDA220152",
+   "sponsor": "VANDA PHARMS INC",
+   "brands": [
+    "NEREUS"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260508",
+   "kind": "efficacy_supplement",
+   "application": "BLA761053",
+   "sponsor": "GENENTECH INC",
+   "brands": [
+    "OCREVUS"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251113",
+   "kind": "novel",
+   "application": "BLA761450",
+   "sponsor": "SHANGHAI HENLIUS BIOTECH",
+   "brands": [
+    "POHERDY"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202604",
+   "date": "20260424",
+   "kind": "novel",
+   "application": "BLA761451",
+   "sponsor": "ASTRAZENECA AB",
+   "brands": [
+    "SAPHNELO"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202607",
+   "date": "20260707",
+   "kind": "efficacy_supplement",
+   "application": "NDA211746",
+   "sponsor": "GLENMARK SPECLT",
+   "brands": [
+    "RYALTRIS"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251121",
+   "kind": "efficacy_supplement",
+   "application": "NDA215596",
+   "sponsor": "TAKEDA PHARMS USA",
+   "brands": [
+    "LIVTENCITY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260226",
+   "kind": "efficacy_supplement",
+   "application": "NDA219042",
+   "sponsor": "BOEHRINGER INGELHEIM",
+   "brands": [
+    "HERNEXEOS"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260422",
+   "kind": "efficacy_supplement",
+   "application": "BLA761055",
+   "sponsor": "REGENERON PHARMACEUTICALS",
+   "brands": [
+    "DUPIXENT"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260223",
+   "kind": "efficacy_supplement",
+   "application": "BLA761055",
+   "sponsor": "REGENERON PHARMACEUTICALS",
+   "brands": [
+    "DUPIXENT"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260515",
+   "kind": "novel",
+   "application": "BLA761452",
+   "sponsor": "ACCORD BIOPHARMA INC.",
+   "brands": [
+    "IMMGOLIS",
+    "IMMGOLIS INTRI"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202512",
+   "date": "20251219",
+   "kind": "novel",
+   "application": "BLA761456",
+   "sponsor": "AMNEAL PHARMS LLC",
+   "brands": [
+    "BONCRESA"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202512",
+   "date": "20251219",
+   "kind": "novel",
+   "application": "BLA761457",
+   "sponsor": "AMNEAL PHARMS LLC",
+   "brands": [
+    "OZILTUS"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202512",
+   "date": "20251216",
+   "kind": "novel",
+   "application": "BLA761458",
+   "sponsor": "GLAXOSMITHKLINE LLC",
+   "brands": [
+    "EXDENSUR"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202607",
+   "date": "20260722",
+   "kind": "novel",
+   "application": "NDA220185",
+   "sponsor": "NUVALENT",
+   "brands": [
+    "JIDEYTRO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260528",
+   "kind": "efficacy_supplement",
+   "application": "BLA761061",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "TREMFYA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260527",
+   "kind": "novel",
+   "application": "BLA761460",
+   "sponsor": "ABBVIE INC",
+   "brands": [
+    "DECNUPAZ"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202609",
+   "date": "20260911",
+   "kind": "novel",
+   "application": "BLA761463",
+   "sponsor": "SCHOLAR ROCK INC",
+   "brands": [
+    "ISEMBYLD"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202602",
+   "date": "20260213",
+   "kind": "new_nda_other",
+   "application": "NDA220200",
+   "sponsor": "AVYXA HOLDINGS",
+   "brands": [
+    "AVOPEF"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202607",
+   "date": "20260710",
+   "kind": "efficacy_supplement",
+   "application": "BLA761467",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA QLEX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261016",
+   "kind": "efficacy_supplement",
+   "application": "BLA761467",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA QLEX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260624",
+   "kind": "efficacy_supplement",
+   "application": "BLA761467",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA QLEX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260210",
+   "kind": "efficacy_supplement",
+   "application": "BLA761467",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA QLEX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260612",
+   "kind": "efficacy_supplement",
+   "application": "BLA761467",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA QLEX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260424",
+   "kind": "efficacy_supplement",
+   "application": "BLA761467",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA QLEX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251121",
+   "kind": "efficacy_supplement",
+   "application": "BLA761467",
+   "sponsor": "MERCK SHARP DOHME",
+   "brands": [
+    "KEYTRUDA QLEX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260220",
+   "kind": "new_nda_other",
+   "application": "NDA220201",
+   "sponsor": "AVYXA HOLDINGS",
+   "brands": [
+    "FAVLYXA"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202605",
+   "date": "20260522",
+   "kind": "novel",
+   "application": "BLA761468",
+   "sponsor": "GILEAD SCIENCES INC",
+   "brands": [
+    "HEPCLUDEX"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202601",
+   "date": "20260127",
+   "kind": "efficacy_supplement",
+   "application": "NDA209401",
+   "sponsor": "JAZZ PHARMS THERAP",
+   "brands": [
+    "VYXEOS"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260903",
+   "kind": "novel",
+   "application": "NDA220210",
+   "sponsor": "IONIS PHARMS INC",
+   "brands": [
+    "ZANVASTRO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202512",
+   "date": "20251218",
+   "kind": "novel",
+   "application": "BLA761473",
+   "sponsor": "FORMYCON AG",
+   "brands": [
+    "NUFYMCO"
+   ],
+   "class": "TYPE 2",
+   "class_desc": "Type 2 - New Active Ingredient"
+  },
+  {
+   "month": "202601",
+   "date": "20260121",
+   "kind": "efficacy_supplement",
+   "application": "NDA214377",
+   "sponsor": "MSD",
+   "brands": [
+    "VERQUVO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261029",
+   "kind": "efficacy_supplement",
+   "application": "BLA761067",
+   "sponsor": "SUN PHARMA GLOBAL",
+   "brands": [
+    "ILUMYA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251212",
+   "kind": "efficacy_supplement",
+   "application": "BLA761067",
+   "sponsor": "SUN PHARMA GLOBAL",
+   "brands": [
+    "ILUMYA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260716",
+   "kind": "efficacy_supplement",
+   "application": "BLA761067",
+   "sponsor": "SUN PHARMA GLOBAL",
+   "brands": [
+    "ILUMYA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260602",
+   "kind": "novel",
+   "application": "BLA761480",
+   "sponsor": "LUPIN LIMITED",
+   "brands": [
+    "RANLUSPEC"
+   ],
+   "class": "TYPE 2",
+   "class_desc": "Type 2 - New Active Ingredient"
+  },
+  {
+   "month": "202604",
+   "date": "20260423",
+   "kind": "efficacy_supplement",
+   "application": "BLA761068",
+   "sponsor": "KYOWA KIRIN",
+   "brands": [
+    "CRYSVITA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251212",
+   "kind": "novel",
+   "application": "NDA218571",
+   "sponsor": "MILESTONE PHARMS USA",
+   "brands": [
+    "CARDAMYST"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202609",
+   "date": "20260925",
+   "kind": "novel",
+   "application": "BLA761481",
+   "sponsor": "TEVA PHARMACEUTICALS, INC.",
+   "brands": [
+    "DEGEVMA"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202601",
+   "date": "20260127",
+   "kind": "efficacy_supplement",
+   "application": "NDA214770",
+   "sponsor": "MSD MERCK CO",
+   "brands": [
+    "NOXAFIL POWDERMIX KIT"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251125",
+   "kind": "efficacy_supplement",
+   "application": "BLA761069",
+   "sponsor": "ASTRAZENECA UK LTD",
+   "brands": [
+    "IMFINZI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202611",
+   "date": "20261113",
+   "kind": "efficacy_supplement",
+   "application": "BLA761069",
+   "sponsor": "ASTRAZENECA UK LTD",
+   "brands": [
+    "IMFINZI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260528",
+   "kind": "efficacy_supplement",
+   "application": "BLA761069",
+   "sponsor": "ASTRAZENECA UK LTD",
+   "brands": [
+    "IMFINZI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260213",
+   "kind": "novel",
+   "application": "BLA761484",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "RYBREVANT FASPRO"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202512",
+   "date": "20251209",
+   "kind": "efficacy_supplement",
+   "application": "NDA212819",
+   "sponsor": "MSD MERCK CO",
+   "brands": [
+    "RECARBRIO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260513",
+   "kind": "efficacy_supplement",
+   "application": "BLA761070",
+   "sponsor": "ASTRAZENECA AB",
+   "brands": [
+    "FASENRA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260324",
+   "kind": "novel",
+   "application": "BLA761485",
+   "sponsor": "DENALI THERAPEUTICS INC.",
+   "brands": [
+    "AVLAYAH"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260512",
+   "kind": "efficacy_supplement",
+   "application": "NDA206829",
+   "sponsor": "CUBIST PHARMS LLC",
+   "brands": [
+    "ZERBAXA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260427",
+   "kind": "efficacy_supplement",
+   "application": "NDA212122",
+   "sponsor": "ASTRAZENECA AB",
+   "brands": [
+    "BREZTRI AEROSPHERE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260707",
+   "kind": "novel",
+   "application": "BLA761486",
+   "sponsor": "VERA THERAPEUTICS INC.",
+   "brands": [
+    "TRUTAKNA"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202611",
+   "date": "20261113",
+   "kind": "novel",
+   "application": "BLA761488",
+   "sponsor": "ALEXION PHARM",
+   "brands": [
+    "KLYGEFA"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202608",
+   "date": "20260825",
+   "kind": "efficacy_supplement",
+   "application": "NDA213983",
+   "sponsor": "VIIV HLTHCARE",
+   "brands": [
+    "TIVICAY PD"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260724",
+   "kind": "efficacy_supplement",
+   "application": "NDA021314",
+   "sponsor": "MERIDIAN BIOSCIENCE",
+   "brands": [
+    "IDKIT:HP"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260710",
+   "kind": "new_nda_other",
+   "application": "NDA218579",
+   "sponsor": "PROVEPHARM SAS",
+   "brands": [
+    "ZYOGREEN"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202607",
+   "date": "20260724",
+   "kind": "novel",
+   "application": "BLA761497",
+   "sponsor": "EMERGE BIOSCIENCE PTE. LTD.",
+   "brands": [
+    "GARZULYS"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202609",
+   "date": "20260915",
+   "kind": "novel",
+   "application": "BLA761497",
+   "sponsor": "EMERGE BIOSCIENCE PTE. LTD.",
+   "brands": [
+    "GARZULYS"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202601",
+   "date": "20260121",
+   "kind": "novel",
+   "application": "BLA761498",
+   "sponsor": "CELLTRION INC",
+   "brands": [
+    "AVTOZMA"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202611",
+   "date": "20261110",
+   "kind": "efficacy_supplement",
+   "application": "NDA211448",
+   "sponsor": "CMG PHARM CO LTD",
+   "brands": [
+    "MEZOFY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260724",
+   "kind": "novel",
+   "application": "NDA218145",
+   "sponsor": "OTSUKA",
+   "brands": [
+    "SIMTRIYO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202611",
+   "date": "20261112",
+   "kind": "novel",
+   "application": "BLA761501",
+   "sponsor": "BIOCON BIOLOGICS INC",
+   "brands": [
+    "PEBRILZO"
+   ],
+   "class": "UNKNOWN",
+   "class_desc": null
+  },
+  {
+   "month": "202611",
+   "date": "20261113",
+   "kind": "efficacy_supplement",
+   "application": "NDA219083",
+   "sponsor": "CYTOKINETICS",
+   "brands": [
+    "MYQORZO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251219",
+   "kind": "novel",
+   "application": "NDA219083",
+   "sponsor": "CYTOKINETICS",
+   "brands": [
+    "MYQORZO"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202608",
+   "date": "20260819",
+   "kind": "novel",
+   "application": "BLA761508",
+   "sponsor": "REGENERON PHARMACEUTICALS, INC",
+   "brands": [
+    "PASATRU"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202602",
+   "date": "20260227",
+   "kind": "efficacy_supplement",
+   "application": "BLA761079",
+   "sponsor": "BIOMARIN PHARM",
+   "brands": [
+    "PALYNZIQ"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260626",
+   "kind": "novel",
+   "application": "BLA761530",
+   "sponsor": "VIRIDIAN THERAPEUTICS INC",
+   "brands": [
+    "LUMVOA"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202512",
+   "date": "20251202",
+   "kind": "efficacy_supplement",
+   "application": "NDA216059",
+   "sponsor": "LOXO ONCOL",
+   "brands": [
+    "JAYPIRCA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261002",
+   "kind": "efficacy_supplement",
+   "application": "NDA216059",
+   "sponsor": "LOXO ONCOL",
+   "brands": [
+    "JAYPIRCA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260911",
+   "kind": "novel",
+   "application": "NDA218592",
+   "sponsor": "TELIX",
+   "brands": [
+    "PIXCLARA"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202512",
+   "date": "20251222",
+   "kind": "new_nda_other",
+   "application": "NDA217338",
+   "sponsor": "RECKITT BENCKISER",
+   "brands": [
+    "MUCINEX 12HR COLD & FEVER MULTI-SYMPTOM"
+   ],
+   "class": "TYPE 4",
+   "class_desc": "Type 4 - New Combination"
+  },
+  {
+   "month": "202607",
+   "date": "20260714",
+   "kind": "efficacy_supplement",
+   "application": "NDA218160",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "RETEVMO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251120",
+   "kind": "efficacy_supplement",
+   "application": "NDA218160",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "RETEVMO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260713",
+   "kind": "efficacy_supplement",
+   "application": "NDA208716",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "VERZENIO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260918",
+   "kind": "efficacy_supplement",
+   "application": "NDA208716",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "VERZENIO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202608",
+   "date": "20260826",
+   "kind": "new_nda_other",
+   "application": "NDA213225",
+   "sponsor": "SUN PHARM",
+   "brands": [
+    "VOBRIG"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202602",
+   "date": "20260212",
+   "kind": "efficacy_supplement",
+   "application": "NDA214012",
+   "sponsor": "NOVARTIS",
+   "brands": [
+    "LEQVIO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260212",
+   "kind": "efficacy_supplement",
+   "application": "NDA214012",
+   "sponsor": "NOVARTIS",
+   "brands": [
+    "LEQVIO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261008",
+   "kind": "new_nda_other",
+   "application": "NDA220290",
+   "sponsor": "ASTRAZENECA AB",
+   "brands": [
+    "BREZTRI AEROSPHERE"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202603",
+   "date": "20260317",
+   "kind": "novel",
+   "application": "NDA220295",
+   "sponsor": "INTERCEPT",
+   "brands": [
+    "LYNAVOY"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202610",
+   "date": "20261001",
+   "kind": "new_nda_other",
+   "application": "NDA219617",
+   "sponsor": "EVER",
+   "brands": [
+    "TRABECTEDIN"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202606",
+   "date": "20260624",
+   "kind": "efficacy_supplement",
+   "application": "NDA218614",
+   "sponsor": "IONIS PHARMS INC",
+   "brands": [
+    "TRYNGOLZA (AUTOINJECTOR)"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260514",
+   "kind": "new_nda_other",
+   "application": "NDA219622",
+   "sponsor": "CHIESI",
+   "brands": [
+    "TRIMBOW"
+   ],
+   "class": "TYPE 4",
+   "class_desc": "Type 4 - New Combination"
+  },
+  {
+   "month": "202606",
+   "date": "20260612",
+   "kind": "novel",
+   "application": "NDA219627",
+   "sponsor": "BAYER HEALTHCARE",
+   "brands": [
+    "AMBELVIST"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202511",
+   "date": "20251113",
+   "kind": "novel",
+   "application": "NDA220305",
+   "sponsor": "KURA",
+   "brands": [
+    "KOMZIFTI"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202606",
+   "date": "20260612",
+   "kind": "efficacy_supplement",
+   "application": "BLA761105",
+   "sponsor": "ABBVIE INC",
+   "brands": [
+    "SKYRIZI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260306",
+   "kind": "efficacy_supplement",
+   "application": "BLA761105",
+   "sponsor": "ABBVIE INC",
+   "brands": [
+    "SKYRIZI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261023",
+   "kind": "efficacy_supplement",
+   "application": "BLA761105",
+   "sponsor": "ABBVIE INC",
+   "brands": [
+    "SKYRIZI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260626",
+   "kind": "efficacy_supplement",
+   "application": "BLA761105",
+   "sponsor": "ABBVIE INC",
+   "brands": [
+    "SKYRIZI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260701",
+   "kind": "efficacy_supplement",
+   "application": "NDA209092",
+   "sponsor": "NOVARTIS",
+   "brands": [
+    "KISQALI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260911",
+   "kind": "efficacy_supplement",
+   "application": "NDA217759",
+   "sponsor": "PHARMING",
+   "brands": [
+    "JOENJA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202611",
+   "date": "20261113",
+   "kind": "efficacy_supplement",
+   "application": "NDA217369",
+   "sponsor": "BIOGEN",
+   "brands": [
+    "ZURZUVAE"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261021",
+   "kind": "efficacy_supplement",
+   "application": "BLA761108",
+   "sponsor": "ALEXION PHARM",
+   "brands": [
+    "ULTOMIRIS"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260427",
+   "kind": "efficacy_supplement",
+   "application": "NDA210793",
+   "sponsor": "ACADIA PHARMS INC",
+   "brands": [
+    "NUPLAZID"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260529",
+   "kind": "efficacy_supplement",
+   "application": "BLA022472",
+   "sponsor": "MANNKIND",
+   "brands": [
+    "AFREZZA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202601",
+   "date": "20260123",
+   "kind": "efficacy_supplement",
+   "application": "BLA022472",
+   "sponsor": "MANNKIND",
+   "brands": [
+    "AFREZZA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260714",
+   "kind": "efficacy_supplement",
+   "application": "NDA213246",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "RETEVMO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251120",
+   "kind": "efficacy_supplement",
+   "application": "NDA213246",
+   "sponsor": "ELI LILLY AND CO",
+   "brands": [
+    "RETEVMO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260227",
+   "kind": "new_nda_other",
+   "application": "NDA219131",
+   "sponsor": "ALMATICA",
+   "brands": [
+    "DULOXETINE HYDROCHLORIDE"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202512",
+   "date": "20251223",
+   "kind": "efficacy_supplement",
+   "application": "BLA761112",
+   "sponsor": "ABLYNX NV",
+   "brands": [
+    "CABLIVI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260918",
+   "kind": "efficacy_supplement",
+   "application": "NDA219132",
+   "sponsor": "INTRABIO",
+   "brands": [
+    "AQNEURSA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260320",
+   "kind": "new_nda_other",
+   "application": "NDA220320",
+   "sponsor": "MAP77",
+   "brands": [
+    "ATONCY"
+   ],
+   "class": "TYPE 3",
+   "class_desc": "Type 3 - New Dosage Form"
+  },
+  {
+   "month": "202605",
+   "date": "20260529",
+   "kind": "new_nda_other",
+   "application": "NDA217379",
+   "sponsor": "CYCLE",
+   "brands": [
+    "CAVHANZA"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202606",
+   "date": "20260624",
+   "kind": "efficacy_supplement",
+   "application": "BLA761115",
+   "sponsor": "IMMUNOMEDICS INC",
+   "brands": [
+    "TRODELVY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260624",
+   "kind": "efficacy_supplement",
+   "application": "BLA761115",
+   "sponsor": "IMMUNOMEDICS INC",
+   "brands": [
+    "TRODELVY"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202603",
+   "date": "20260319",
+   "kind": "efficacy_supplement",
+   "application": "NDA215256",
+   "sponsor": "NOVO",
+   "brands": [
+    "WEGOVY",
+    "WEGOVY FLEXTOUCH",
+    "WEGOVY HD"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251121",
+   "kind": "efficacy_supplement",
+   "application": "NDA215256",
+   "sponsor": "NOVO",
+   "brands": [
+    "WEGOVY",
+    "WEGOVY FLEXTOUCH",
+    "WEGOVY HD"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260916",
+   "kind": "efficacy_supplement",
+   "application": "NDA218197",
+   "sponsor": "ASTRAZENECA",
+   "brands": [
+    "TRUQAP"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202606",
+   "date": "20260612",
+   "kind": "efficacy_supplement",
+   "application": "NDA218197",
+   "sponsor": "ASTRAZENECA",
+   "brands": [
+    "TRUQAP"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260213",
+   "kind": "efficacy_supplement",
+   "application": "NDA211150",
+   "sponsor": "HARMONY",
+   "brands": [
+    "WAKIX"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260415",
+   "kind": "efficacy_supplement",
+   "application": "NDA217388",
+   "sponsor": "ASTRAZENECA AB",
+   "brands": [
+    "WAINUA",
+    "WAINUA (AUTOINJECTOR)"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202610",
+   "date": "20261016",
+   "kind": "new_nda_other",
+   "application": "NDA220341",
+   "sponsor": "ALCON LABS INC",
+   "brands": [
+    "BRYTLY"
+   ],
+   "class": "TYPE 5",
+   "class_desc": "Type 5 - New Formulation or New Manufacturer"
+  },
+  {
+   "month": "202602",
+   "date": "20260220",
+   "kind": "novel",
+   "application": "NDA220358",
+   "sponsor": "VANDA PHARMS INC",
+   "brands": [
+    "BYSANTI"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260513",
+   "kind": "efficacy_supplement",
+   "application": "NDA209816",
+   "sponsor": "PARATEK PHARMS",
+   "brands": [
+    "NUZYRA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202609",
+   "date": "20260904",
+   "kind": "novel",
+   "application": "NDA220359",
+   "sponsor": "ASTRAZENECA",
+   "brands": [
+    "ETCAMAH"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202605",
+   "date": "20260513",
+   "kind": "efficacy_supplement",
+   "application": "NDA209817",
+   "sponsor": "PARATEK PHARMS",
+   "brands": [
+    "NUZYRA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251217",
+   "kind": "efficacy_supplement",
+   "application": "NDA209115",
+   "sponsor": "PHARMAAND",
+   "brands": [
+    "RUBRACA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251217",
+   "kind": "efficacy_supplement",
+   "application": "NDA209115",
+   "sponsor": "PHARMAAND",
+   "brands": [
+    "RUBRACA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260224",
+   "kind": "efficacy_supplement",
+   "application": "NDA210496",
+   "sponsor": "ARRAY BIOPHARMA INC",
+   "brands": [
+    "BRAFTOVI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260224",
+   "kind": "efficacy_supplement",
+   "application": "NDA210496",
+   "sponsor": "ARRAY BIOPHARMA INC",
+   "brands": [
+    "BRAFTOVI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251121",
+   "kind": "efficacy_supplement",
+   "application": "BLA761137",
+   "sponsor": "ASTELLAS",
+   "brands": [
+    "PADCEV"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260710",
+   "kind": "efficacy_supplement",
+   "application": "BLA761137",
+   "sponsor": "ASTELLAS",
+   "brands": [
+    "PADCEV"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202604",
+   "date": "20260420",
+   "kind": "novel",
+   "application": "NDA216964",
+   "sponsor": "MSD",
+   "brands": [
+    "IDVYNSO"
+   ],
+   "class": "TYPE 1/4",
+   "class_desc": "Type 1 - New Molecular Entity and Type 4 - New Combination"
+  },
+  {
+   "month": "202604",
+   "date": "20260427",
+   "kind": "efficacy_supplement",
+   "application": "BLA761139",
+   "sponsor": "DAIICHI SANKYO",
+   "brands": [
+    "ENHERTU"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260515",
+   "kind": "efficacy_supplement",
+   "application": "BLA761139",
+   "sponsor": "DAIICHI SANKYO",
+   "brands": [
+    "ENHERTU"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202605",
+   "date": "20260515",
+   "kind": "efficacy_supplement",
+   "application": "BLA761139",
+   "sponsor": "DAIICHI SANKYO",
+   "brands": [
+    "ENHERTU"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251215",
+   "kind": "efficacy_supplement",
+   "application": "BLA761139",
+   "sponsor": "DAIICHI SANKYO",
+   "brands": [
+    "ENHERTU"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202602",
+   "date": "20260227",
+   "kind": "novel",
+   "application": "NDA219164",
+   "sponsor": "ASCENDIS",
+   "brands": [
+    "YUVIWEL"
+   ],
+   "class": "TYPE 1",
+   "class_desc": "Type 1 - New Molecular Entity"
+  },
+  {
+   "month": "202512",
+   "date": "20251211",
+   "kind": "efficacy_supplement",
+   "application": "BLA761142",
+   "sponsor": "VIELA BIO",
+   "brands": [
+    "UPLIZNA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202607",
+   "date": "20260724",
+   "kind": "efficacy_supplement",
+   "application": "NDA203415",
+   "sponsor": "ASTELLAS",
+   "brands": [
+    "XTANDI"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202601",
+   "date": "20260127",
+   "kind": "efficacy_supplement",
+   "application": "BLA761145",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "DARZALEX FASPRO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251119",
+   "kind": "efficacy_supplement",
+   "application": "BLA761145",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "DARZALEX FASPRO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202511",
+   "date": "20251106",
+   "kind": "efficacy_supplement",
+   "application": "BLA761145",
+   "sponsor": "JANSSEN BIOTECH",
+   "brands": [
+    "DARZALEX FASPRO"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  },
+  {
+   "month": "202512",
+   "date": "20251211",
+   "kind": "efficacy_supplement",
+   "application": "NDA218230",
+   "sponsor": "GLAXOSMITHKLINE",
+   "brands": [
+    "BLUJEPA"
+   ],
+   "class": "EFFICACY",
+   "class_desc": "Efficacy"
+  }
+ ],
+ "drug_by_month": {
+  "202511": {
+   "efficacy_supplement": 23,
+   "novel": 8
+  },
+  "202512": {
+   "novel": 11,
+   "efficacy_supplement": 25,
+   "new_nda_other": 6
+  },
+  "202601": {
+   "efficacy_supplement": 12,
+   "novel": 3,
+   "new_nda_other": 2
+  },
+  "202602": {
+   "efficacy_supplement": 22,
+   "new_nda_other": 8,
+   "novel": 5
+  },
+  "202603": {
+   "efficacy_supplement": 20,
+   "new_nda_other": 4,
+   "novel": 6
+  },
+  "202604": {
+   "efficacy_supplement": 22,
+   "novel": 4
+  },
+  "202605": {
+   "novel": 10,
+   "efficacy_supplement": 21,
+   "new_nda_other": 5
+  },
+  "202606": {
+   "new_nda_other": 3,
+   "efficacy_supplement": 22,
+   "novel": 4
+  },
+  "202607": {
+   "new_nda_other": 7,
+   "efficacy_supplement": 19,
+   "novel": 9
+  },
+  "202608": {
+   "novel": 7,
+   "efficacy_supplement": 14,
+   "new_nda_other": 5
+  },
+  "202609": {
+   "efficacy_supplement": 16,
+   "novel": 11,
+   "new_nda_other": 5
+  },
+  "202610": {
+   "efficacy_supplement": 25,
+   "novel": 6,
+   "new_nda_other": 10
+  },
+  "202611": {
+   "novel": 4,
+   "efficacy_supplement": 7,
+   "new_nda_other": 2
+  }
+ },
+ "device_by_month": {
+  "510k_all": {
+   "202511": 207,
+   "202512": 291,
+   "202601": 238,
+   "202602": 217,
+   "202603": 301,
+   "202604": 317,
+   "202605": 281,
+   "202606": 325,
+   "202607": 283,
+   "202608": 253,
+   "202609": 320,
+   "202610": 295,
+   "202611": 58
+  },
+  "510k_substantially_equivalent": {
+   "202511": 203,
+   "202512": 287,
+   "202601": 235,
+   "202602": 215,
+   "202603": 299,
+   "202604": 314,
+   "202605": 276,
+   "202606": 324,
+   "202607": 278,
+   "202608": 248,
+   "202609": 318,
+   "202610": 293,
+   "202611": 57
+  },
+  "denovo_DEN": {
+   "202511": 2,
+   "202512": 2,
+   "202601": 2,
+   "202602": 2,
+   "202603": 2,
+   "202604": 3,
+   "202605": 4,
+   "202606": 1,
+   "202607": 5,
+   "202608": 5,
+   "202609": 2,
+   "202610": 2,
+   "202611": 1
+  },
+  "pma_all_incl_supplements": {
+   "202511": 80,
+   "202512": 218,
+   "202601": 136,
+   "202602": 253,
+   "202603": 178,
+   "202604": 210,
+   "202605": 213,
+   "202606": 185,
+   "202607": 218,
+   "202608": 160,
+   "202609": 187,
+   "202610": 221,
+   "202611": 31
+  },
+  "pma_original_or_panel_track": {}
+ },
+ "device_detail_by_month": {
+  "202511": {
+   "510k_all": 205,
+   "510k_us_non_large": 88,
+   "denovo_all": 2,
+   "denovo_us_non_large": 2,
+   "pma_original_all": 2,
+   "pma_original_non_large": 2,
+   "distinct_us_non_large_applicants": 86
+  },
+  "202512": {
+   "510k_all": 289,
+   "510k_us_non_large": 119,
+   "denovo_all": 2,
+   "denovo_us_non_large": 2,
+   "pma_original_all": 10,
+   "pma_original_non_large": 6,
+   "distinct_us_non_large_applicants": 119
+  },
+  "202601": {
+   "510k_all": 236,
+   "510k_us_non_large": 94,
+   "denovo_all": 2,
+   "denovo_us_non_large": 2,
+   "pma_original_all": 2,
+   "pma_original_non_large": 2,
+   "distinct_us_non_large_applicants": 92
+  },
+  "202602": {
+   "510k_all": 215,
+   "510k_us_non_large": 82,
+   "denovo_all": 2,
+   "denovo_us_non_large": 1,
+   "pma_original_all": 5,
+   "pma_original_non_large": 5,
+   "distinct_us_non_large_applicants": 84
+  },
+  "202603": {
+   "510k_all": 299,
+   "510k_us_non_large": 116,
+   "denovo_all": 2,
+   "denovo_us_non_large": 1,
+   "pma_original_all": 4,
+   "pma_original_non_large": 3,
+   "distinct_us_non_large_applicants": 104
+  },
+  "202604": {
+   "510k_all": 314,
+   "510k_us_non_large": 117,
+   "denovo_all": 3,
+   "denovo_us_non_large": 3,
+   "pma_original_all": 1,
+   "pma_original_non_large": 1,
+   "distinct_us_non_large_applicants": 115
+  },
+  "202605": {
+   "510k_all": 277,
+   "510k_us_non_large": 95,
+   "denovo_all": 4,
+   "denovo_us_non_large": 3,
+   "pma_original_all": 5,
+   "pma_original_non_large": 4,
+   "distinct_us_non_large_applicants": 98
+  },
+  "202606": {
+   "510k_all": 324,
+   "510k_us_non_large": 125,
+   "denovo_all": 1,
+   "denovo_us_non_large": 1,
+   "pma_original_all": 6,
+   "pma_original_non_large": 6,
+   "distinct_us_non_large_applicants": 127
+  },
+  "202607": {
+   "510k_all": 278,
+   "510k_us_non_large": 123,
+   "denovo_all": 5,
+   "denovo_us_non_large": 2,
+   "pma_original_all": 4,
+   "pma_original_non_large": 4,
+   "distinct_us_non_large_applicants": 118
+  },
+  "202608": {
+   "510k_all": 248,
+   "510k_us_non_large": 103,
+   "denovo_all": 5,
+   "denovo_us_non_large": 3,
+   "pma_original_all": 3,
+   "pma_original_non_large": 3,
+   "distinct_us_non_large_applicants": 98
+  },
+  "202609": {
+   "510k_all": 318,
+   "510k_us_non_large": 120,
+   "denovo_all": 2,
+   "denovo_us_non_large": 2,
+   "pma_original_all": 4,
+   "pma_original_non_large": 4,
+   "distinct_us_non_large_applicants": 120
+  },
+  "202610": {
+   "510k_all": 293,
+   "510k_us_non_large": 136,
+   "denovo_all": 2,
+   "denovo_us_non_large": 2,
+   "pma_original_all": 3,
+   "pma_original_non_large": 1,
+   "distinct_us_non_large_applicants": 126
+  },
+  "202611": {
+   "510k_all": 57,
+   "510k_us_non_large": 19,
+   "denovo_all": 1,
+   "distinct_us_non_large_applicants": 19
+  }
+ }
+}
