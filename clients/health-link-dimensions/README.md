@@ -14,7 +14,7 @@
 - **Infrastructure:** `{"vaSeatCount": 10}` (changed from `{}` since the 2026-11-09 sync)
 - **Created in tracking_clients:** 2026-10-26 (by sales)
 - **Tracking client ID:** `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`
-- **Last synced:** 2026-11-16 via `get_client` + `list_sourcing_configs` (0 configs). Previous sync: 2026-11-09.
+- **Last synced:** 2026-11-18 via `get_client` + `list_sourcing_configs` (0 configs, no drift). Previous sync: 2026-11-16.
 
 ## Context files
 
@@ -57,8 +57,22 @@ No lead or company snapshots yet. A pull can only happen after the client approv
   - Pulled 2026-11-09.
 - `sourcing/tam/tam_counts.py` and `sourcing/tam/tam_counts.json`: the script and its exact request bodies and results.
 - `sourcing/tam/2026-11-09-clay-sample-seg1.json`: the Clay sample, with a fit verdict per company.
+- `sourcing/tam/2026-11-18-agency-persona-sizing.query.md`: agency persona sizing (3 recommended campaigns: Leadership, Data and Analytics, Media), config `-`, Blitz API, pulled 2026-11-18, 547 records.
+  - `sourcing/tam/2026-11-18-agency-persona-companies.csv`: 147 rows, companies with persona people found, from Blitz `POST /v2/company/tam-by-people`.
+  - `sourcing/tam/2026-11-18-agency-universe-sample-companies.csv`: 40 rows, company fit samples with verdicts, from Blitz `POST /v2/search/companies`.
+  - `sourcing/tam/2026-11-18-agency-persona-title-samples-leads.csv`: 45 rows, people title samples keyed by `linkedin_url`, from Blitz `POST /v2/search/people`.
+  - `sourcing/tam/persona_counts.py` + `2026-11-18-persona_counts.json`, `sourcing/tam/persona_companies.py` + `2026-11-18-persona_companies.json`: scripts with exact request bodies and results.
 
 ## History
+
+- **2026-11-18**: **Agency persona campaigns sized** (expanding the existing agency segment, doc 1 segment 5; no config, config `-`). File: `sourcing/tam/2026-11-18-agency-persona-sizing.query.md`.
+  - **Campaign count: 3, not 4.** Leadership; Data and Analytics; Media (Investment + Planning and Activation merged). Investment alone is only 6 companies / 40 people inside health agencies, and its Advocates row is identical to Planning's. Levels are copy tiers inside each campaign, not separate campaigns.
+  - **Universe:** Blitz `POST /v2/search/companies`, ad/marketing industries + pharma keywords, US, 51 to 5,000 emp, excluding Publicis Health Media, EVERSANA, Relevate Health, HLD itself and identity/adtech vendors: 260 companies, 60% fit in a 20-company sample (about 155 real).
+  - **People (Blitz `POST /v2/search/people`, US):** Leadership 539 at 140 companies; Data and Analytics 159 at 45; Media 197 at 40 (Investment 40 at 6, Planning 157 at 39). Title filters are mutually exclusive by priority, so no person is double counted.
+  - **Contacts per company (inverse rule, small TAM):** Leadership 2, Data and Analytics up to 4, Media up to 5. Expected about 510 leads in total.
+  - **Records:** 547 Blitz records (no step over 500); Clay 0.
+  - **Why:** Moe wants the agency campaigns segmented by Christopher Martin's persona deck. **Not done, on purpose:** no configs, no full pull, no HeyReach, no client message. Moe decides next steps.
+  - Profile resynced from tracking_clients (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`): no drift, still 0 sourcing configs. Session: claude.ai/code session_013MzxQguARXeFKghchjnaJ4.
 
 - **2026-11-18**: Added `context/2026-11-16-client-call-notes.md` (from Fathom recording 203556039) and `context/agency-personas-cwm.md`.
   - The personas file is the verbatim text of Christopher Martin's "Agency_Personas_HLD_CWM.pptx", emailed 2026-11-16, Gmail thread `1a1e5719af1fc633`. The .pptx itself is not committed.

@@ -1,0 +1,1691 @@
+{
+ "companies": {
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Advertising Services",
+      "Marketing and Advertising",
+      "Marketing Services"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ]
+    },
+    "keywords": {
+     "include": [
+      "pharmaceutical marketing",
+      "pharma marketing",
+      "pharmaceutical advertising",
+      "pharma advertising",
+      "medical communications",
+      "life sciences marketing",
+      "life sciences communications",
+      "HCP marketing",
+      "HCP",
+      "biopharma",
+      "healthcare communications",
+      "health and wellness communications",
+      "pharmaceutical",
+      "pharma"
+     ],
+     "exclude": [
+      "staffing",
+      "SEO",
+      "hospital marketing",
+      "dental marketing",
+      "senior living"
+     ]
+    },
+    "name": {
+     "exclude": [
+      "Publicis Health Media",
+      "EVERSANA",
+      "Relevate Health",
+      "HealthLink Dimensions",
+      "Health Link Dimensions",
+      "Throtle",
+      "DeepIntent",
+      "PulsePoint",
+      "OptimizeRx",
+      "IQVIA",
+      "Komodo"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "total_results": 260
+ },
+ "cells": {
+  "data_analytics/influencers": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation"
+      ]
+     },
+     "job_level": [
+      "C-Team",
+      "VP"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 49
+  },
+  "data_analytics/decision_makers": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation"
+      ]
+     },
+     "job_level": [
+      "Director"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 65
+  },
+  "data_analytics/advocates": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation"
+      ]
+     },
+     "job_level": [
+      "Manager"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 45
+  },
+  "investment/influencers": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Media Investment",
+       "Investment",
+       "Programmatic",
+       "Media Buying",
+       "Media Buyer",
+       "Biddable",
+       "Trading",
+       "Activation Economics",
+       "Supply Partnerships",
+       "Media Partnerships"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science"
+      ]
+     },
+     "job_level": [
+      "C-Team",
+      "VP"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 10
+  },
+  "investment/decision_makers": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Media Investment",
+       "Investment",
+       "Programmatic",
+       "Media Buying",
+       "Media Buyer",
+       "Biddable",
+       "Trading",
+       "Activation Economics",
+       "Supply Partnerships",
+       "Media Partnerships"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science"
+      ]
+     },
+     "job_level": [
+      "Director"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 18
+  },
+  "investment/advocates": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Media Investment",
+       "Investment",
+       "Programmatic",
+       "Media Buying",
+       "Media Buyer",
+       "Biddable",
+       "Trading",
+       "Activation Economics",
+       "Supply Partnerships",
+       "Media Partnerships"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science"
+      ]
+     },
+     "job_level": [
+      "Manager"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 12
+  },
+  "planning_activation/influencers": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Media Planning",
+       "Media Planner",
+       "Activation",
+       "Omnichannel",
+       "Omni-channel",
+       "HCP Media",
+       "Media Strategy",
+       "Media Director",
+       "Media Supervisor",
+       "Channel Planning",
+       "Connections Planning",
+       "Paid Media",
+       "Engagement Planning"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science",
+       "Media Investment",
+       "Investment",
+       "Programmatic",
+       "Media Buying",
+       "Media Buyer",
+       "Biddable",
+       "Trading",
+       "Activation Economics",
+       "Supply Partnerships",
+       "Media Partnerships"
+      ]
+     },
+     "job_level": [
+      "C-Team",
+      "VP"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 31
+  },
+  "planning_activation/decision_makers": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Media Planning",
+       "Media Planner",
+       "Activation",
+       "Omnichannel",
+       "Omni-channel",
+       "HCP Media",
+       "Media Strategy",
+       "Media Director",
+       "Media Supervisor",
+       "Channel Planning",
+       "Connections Planning",
+       "Paid Media",
+       "Engagement Planning"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science",
+       "Media Investment",
+       "Investment",
+       "Programmatic",
+       "Media Buying",
+       "Media Buyer",
+       "Biddable",
+       "Trading",
+       "Activation Economics",
+       "Supply Partnerships",
+       "Media Partnerships"
+      ]
+     },
+     "job_level": [
+      "Director"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 81
+  },
+  "planning_activation/advocates": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Media Planning",
+       "Media Planner",
+       "Activation",
+       "Omnichannel",
+       "Omni-channel",
+       "HCP Media",
+       "Media Strategy",
+       "Media Director",
+       "Media Supervisor",
+       "Channel Planning",
+       "Connections Planning",
+       "Paid Media",
+       "Engagement Planning"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science",
+       "Media Investment",
+       "Investment",
+       "Programmatic",
+       "Media Buying",
+       "Media Buyer",
+       "Biddable",
+       "Trading",
+       "Activation Economics",
+       "Supply Partnerships",
+       "Media Partnerships"
+      ]
+     },
+     "job_level": [
+      "Manager"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 45
+  },
+  "leadership/influencers": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "CEO",
+       "Chief Executive",
+       "[President]",
+       "President and CEO",
+       "President & CEO",
+       "Chief Strategy Officer",
+       "Chief Media Officer",
+       "Chief Operating Officer",
+       "Chief Growth Officer",
+       "Chief Innovation Officer",
+       "Chief Commercial Officer",
+       "Founder",
+       "Co-Founder"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Insights",
+       "Programmatic",
+       "Activation",
+       "Omnichannel",
+       "Planning",
+       "Account",
+       "Creative",
+       "Client",
+       "Business Development",
+       "Sales",
+       "Copy",
+       "Art Director",
+       "Editorial",
+       "Medical Director",
+       "Scientific",
+       "Production",
+       "Technology",
+       "Engineering",
+       "Vice President"
+      ]
+     },
+     "job_level": [
+      "C-Team",
+      "VP"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 188
+  },
+  "leadership/decision_makers": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Managing Director",
+       "General Manager",
+       "Executive Vice President",
+       "EVP",
+       "Head of Strategy",
+       "SVP, Strategy",
+       "SVP Strategy",
+       "Group President",
+       "Office Lead"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Insights",
+       "Programmatic",
+       "Activation",
+       "Omnichannel",
+       "Planning",
+       "Account",
+       "Creative",
+       "Client",
+       "Business Development",
+       "Sales",
+       "Copy",
+       "Art Director",
+       "Editorial",
+       "Medical Director",
+       "Scientific",
+       "Production",
+       "Technology",
+       "Engineering",
+       "Media",
+       "Data",
+       "Investment",
+       "Assistant Vice President",
+       "CEO",
+       "Chief",
+       "Founder"
+      ]
+     },
+     "job_level": [
+      "C-Team",
+      "VP",
+      "Director"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 351
+  }
+ },
+ "extension_general_agencies": {
+  "data_analytics": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation"
+      ]
+     },
+     "job_level": [
+      "C-Team",
+      "VP",
+      "Director",
+      "Manager"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "job_description": {
+      "include": [
+       "pharma",
+       "pharmaceutical",
+       "HCP",
+       "healthcare clients",
+       "health clients",
+       "life sciences"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 108
+  },
+  "investment": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Media Investment",
+       "Investment",
+       "Programmatic",
+       "Media Buying",
+       "Media Buyer",
+       "Biddable",
+       "Trading",
+       "Activation Economics",
+       "Supply Partnerships",
+       "Media Partnerships"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science"
+      ]
+     },
+     "job_level": [
+      "C-Team",
+      "VP",
+      "Director",
+      "Manager"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "job_description": {
+      "include": [
+       "pharma",
+       "pharmaceutical",
+       "HCP",
+       "healthcare clients",
+       "health clients",
+       "life sciences"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 23
+  },
+  "planning_activation": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "people": {
+     "job_title": {
+      "include": [
+       "Media Planning",
+       "Media Planner",
+       "Activation",
+       "Omnichannel",
+       "Omni-channel",
+       "HCP Media",
+       "Media Strategy",
+       "Media Director",
+       "Media Supervisor",
+       "Channel Planning",
+       "Connections Planning",
+       "Paid Media",
+       "Engagement Planning"
+      ],
+      "exclude": [
+       "Intern",
+       "Assistant",
+       "Coordinator",
+       "Recruiter",
+       "Talent",
+       "Human Resources",
+       "Finance",
+       "Accounting",
+       "Legal",
+       "Facilities",
+       "Media Relations",
+       "Public Relations",
+       "Social Media",
+       "Sales Activation",
+       "Analytics",
+       "Measurement",
+       "Data Science",
+       "Data Scientist",
+       "Data Strategy",
+       "Data Analyst",
+       "Attribution",
+       "Insights",
+       "Marketing Science",
+       "Decision Science",
+       "Media Investment",
+       "Investment",
+       "Programmatic",
+       "Media Buying",
+       "Media Buyer",
+       "Biddable",
+       "Trading",
+       "Activation Economics",
+       "Supply Partnerships",
+       "Media Partnerships"
+      ]
+     },
+     "job_level": [
+      "C-Team",
+      "VP",
+      "Director",
+      "Manager"
+     ],
+     "location": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "job_description": {
+      "include": [
+       "pharma",
+       "pharmaceutical",
+       "HCP",
+       "healthcare clients",
+       "health clients",
+       "life sciences"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 123
+  }
+ },
+ "records_used": 15
+}
