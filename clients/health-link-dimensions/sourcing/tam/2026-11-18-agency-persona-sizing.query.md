@@ -151,3 +151,25 @@ Clay: not used (0 credits). Note: the Blitz key is shared; `records_remaining` f
 - `job_level` buckets are Blitz's own; "Associate Director" may land in `Director`, so Advocates may be undercounted and Decision Makers overcounted a little.
 - Parris's pharma/med device persona deck is still not received; this file covers agencies only.
 - HLD's full client list is still missing (DNC is 0 in tracking_clients). Only the 3 named clients are excluded.
+
+## 8. TAM expansion options (added later on 2026-11-18, Moe asked for a larger TAM)
+
+Same method: Blitz `POST /v2/search/companies`, `max_results: 1` for counts, then 10 to 15-row fit samples per option. Exact bodies and sample rows: `2026-11-18-agency-tam-expansion.json`; script: `agency_tam_expansion.py`. All options keep the same client, HLD and vendor name exclusions. The slices are built so they don't overlap (different industry, size band or keyword set), so they add up.
+
+| Option | Filter change | Added companies (Blitz) | Sample fit | Est. real agencies added |
+|---|---|---|---|---|
+| Core (sections 2 to 4) | ad/marketing industries, pharma keywords, 51 to 5,000 emp | 260 | 12/20 | ~155 |
+| A. Broader health keywords | same industries and sizes, adds "healthcare marketing", "healthcare advertising", "health communications", "healthcare media", "life sciences", "medical marketing", "HCP engagement", "healthcare agency" (only companies that miss the pharma keywords) | +318 | 5/15 (Woven Health, Havas Health Network, Razorfish Health, Pivot Design, linqd) | ~105 |
+| B. Health agencies filed under pharma or biotech industry | `Pharmaceutical Manufacturing`, `Pharmaceuticals`, `Biotechnology Research`, `Biotechnology` + agency keywords, 11 to 5,000 emp, CRO/CDMO/pharmacy/infusion excluded | +106 (89 pharma, 17 biotech) | 8/15 (IPG Health Medical Communications, BOLDSCIENCE, Propel Health, Caudex, Atlantis Health, Evolution Health, AREA 23 on Hudson, Trio) | ~50, mostly med comms |
+| C. 5,001+ employees | core filter, big bands only | +15 | mix of health networks and general networks | ~7 |
+| D. Health PR firms | `Public Relations and Communications Services` + pharma keywords, 51+ | +47 | ~half health-relevant (BCW, Ruder Finn, MMC/RXMOSAIC, PAN, Coyne) | ~25, Leadership campaign only (no media teams) |
+| E. Small agencies | core filter, 11 to 50 emp | +519 | ~1-2/20 (earlier sample S3) | ~40, very noisy |
+
+**Not recommended as "agencies"** (sampled, kept out):
+- Hospitals and health care industries + agency keywords: 1,368, almost all hospitals and public agencies.
+- Data / consulting / IT / media industries + agency keywords: 1,073. Pharma commercial-analytics consultancies (Precision AQ, ProcDNA, P360) and HCP media platforms (Doceree, HMP Global, Definitive Healthcare). These are a different segment and some are HLD competitors or partners.
+- Healthcare market research (103: Konovo, Adelphi, Spherix, M3). Possible separate segment (they buy HCP panel data), but not agencies.
+
+**Recommended expanded TAM:** core + A + B + C = **699 companies, about 315 real health agencies**, roughly double the core. Adding D (PR, Leadership only) and E (small agencies, qualifier required) gives **1,265 companies, about 380 real**. Fit falls from 60% (core) to about 30% to 45%, so a qualifier prompt at pull time is required, not optional.
+
+Records used for this section: 100 Blitz (8 counts, 92 sample rows). Session total: 647.

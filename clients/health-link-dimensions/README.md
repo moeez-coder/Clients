@@ -61,6 +61,7 @@ No lead or company snapshots yet. A pull can only happen after the client approv
   - `sourcing/tam/2026-11-18-agency-persona-companies.csv`: 147 rows, companies with persona people found, from Blitz `POST /v2/company/tam-by-people`.
   - `sourcing/tam/2026-11-18-agency-universe-sample-companies.csv`: 40 rows, company fit samples with verdicts, from Blitz `POST /v2/search/companies`.
   - `sourcing/tam/2026-11-18-agency-persona-title-samples-leads.csv`: 45 rows, people title samples keyed by `linkedin_url`, from Blitz `POST /v2/search/people`.
+  - `sourcing/tam/agency_tam_expansion.py` + `2026-11-18-agency-tam-expansion.json`: TAM expansion options (counts and 75 sample company rows), 100 more Blitz records.
   - `sourcing/tam/persona_counts.py` + `2026-11-18-persona_counts.json`, `sourcing/tam/persona_companies.py` + `2026-11-18-persona_companies.json`: scripts with exact request bodies and results.
 
 ## History
@@ -71,6 +72,7 @@ No lead or company snapshots yet. A pull can only happen after the client approv
   - **People (Blitz `POST /v2/search/people`, US):** Leadership 539 at 140 companies; Data and Analytics 159 at 45; Media 197 at 40 (Investment 40 at 6, Planning 157 at 39). Title filters are mutually exclusive by priority, so no person is double counted.
   - **Contacts per company (inverse rule, small TAM):** Leadership 2, Data and Analytics up to 4, Media up to 5. Expected about 510 leads in total.
   - **Records:** 547 Blitz records (no step over 500); Clay 0.
+  - **TAM expansion (Moe asked for a larger TAM):** recommended core + broader health keywords + health agencies filed under pharma/biotech + 5,001+ health networks = 699 companies (about 315 real, up from about 155). With health PR firms and 11-50 agencies: 1,265 (about 380 real). Fit drops to 30-45%, so a qualifier is required. 100 more Blitz records (session total 647). Details in section 8 of the query file.
   - **Why:** Moe wants the agency campaigns segmented by Christopher Martin's persona deck. **Not done, on purpose:** no configs, no full pull, no HeyReach, no client message. Moe decides next steps.
   - Profile resynced from tracking_clients (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`): no drift, still 0 sourcing configs. Session: claude.ai/code session_013MzxQguARXeFKghchjnaJ4.
 
