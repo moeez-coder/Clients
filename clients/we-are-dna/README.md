@@ -76,6 +76,14 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## History
 
+- **2026-11-18**: **Moe's Casual Connections decisions** (in this session, after the preview):
+  - **Senders: John Tarrant and Eoin Rodgers**, each with his own signed note. Neither is in HeyReach 172307 yet, so both accounts must be connected before anything sends.
+  - **Wave 1: Bristol-HQ companies** (312; about 300 to 350 C-suite contacts).
+  - **Approval: through a campaign doc for John.** Moe then said Casual Connections should **replace one of the campaigns in doc 1** (`fed8e905-…`) rather than go in a new doc. This overrides the brief's "don't touch doc 1" for that one change. Doc 1 is `client_review` and shared, with 221 open changes and 2 client comments, so the swap goes in as tracked suggestions via `review_campaign_doc`, never `replace_markdown`. Which campaign gets replaced is still being asked; Campaign 6 is excluded.
+  - **Follow-ups: message 1 only** (the thank-you a day after accept, no pitch). The soft-offer message 2 is dropped.
+  - Still open: charities and CICs (excluded for now), and the 7-day window (proposed 08:00 to 18:00 Europe/London).
+  - (session_013MzxQfxb1tFTNdnVAHYrw5)
+
 - **2026-11-18**: **Casual Connections campaign started (Moe's ask of 2026-11-18): preview only, nothing built.** This opens a **new segment** `sourcing/casual-connections/`. Scope: **Campaign-specific: Casual Connections (founder-led)**.
   - **Skill:** `anthropic-skills:casual-connections-campaign` is not in this session's skills listing, so the work follows CLAUDE.md plus Moe's brief. Moe has been told.
   - **Resync:** no drift (`get_client`, `list_sourcing_configs`, `list_campaigns`, `list_client_accounts`).
