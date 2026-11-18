@@ -169,12 +169,13 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
     - Profiles from HeyReach profile-card screenshots Moe pasted into the session. No HeyReach connector reaches 172772 and there are no profile URLs, so Blitz enrichment was not possible.
   - **Results (all 14 checked):**
     - Keep: Chavali Praneeth (265480). Its position line needs fixing.
-    - Fix, then keep: Joanna Alipio (185097) and Milca Lavarias (243800), whose positions are at Reco Legal.
+    - Fix, then keep: Joanna Alipio (185097), whose position is at Reco Legal.
+    - Milca Lavarias (243800): Moe confirmed on 2026-11-18 that she is branded correctly; the screenshot was older. Keep.
     - Remove 11:
       - Branded for ReCo.Legal: Delosjene, Marjorie, Ralph John, Brett, Shiela Mae, Erika, Eianne.
       - Show the Algo Acquisition agency: Kimberly, Markim.
       - Personal profiles: Kirky, Christine Joy.
-    - Capacity: 1 usable sender now and 3 after fixes, for 3,364 leads.
+    - Capacity: 2 usable senders now (Chavali, Milca) and 3 after Joanna is fixed, for 3,364 leads.
   - **Also flagged:**
     - Sales Nav is not connected on any account.
     - No sign-in is broken.

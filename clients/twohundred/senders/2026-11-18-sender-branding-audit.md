@@ -22,7 +22,7 @@
 |---|---|---|---|---|---|---|---|---|
 | Chavali Praneeth | 265480 | schavali@gitam.in | Btech at Gitam Deemed to be University (no twoHundred position shown) | twoHundred SDR headline (exact) | `-` (not shown) | **partly branded** (Moe confirmed as branded 2026-11-16) | Headline is right, but the card's position line is a university degree, not "Enterprise Account Executive at twoHundred". No location is shown. The best profile in the pool. | **Keep**, and add the twoHundred position and Copenhagen location |
 | Joanna Alipio | 185097 | alipiojoanna@yahoo.com | Legal Project Manager at Reco Legal | twoHundred SDR headline (exact) | New York, US | **partly branded** | Headline is right. Current position is at another agency client (Reco Legal) and the location is New York, not Copenhagen. | Remove until the position and location are changed to twoHundred / Copenhagen. Then keep. |
-| Milca Lavarias | 243800 | milkyway101795@gmail.com | Applied Operations at Reco Legal | twoHundred SDR headline (exact) | New York, US | **partly branded** | Same pattern as Joanna. | Remove until fixed. Then keep. |
+| Milca Lavarias | 243800 | milkyway101795@gmail.com | twoHundred (per Moe; the screenshot showed Applied Operations at Reco Legal) | twoHundred SDR headline (exact) | `-` | **branded** (confirmed by Moe 2026-11-18) | Moe says the profile is now correct and the screenshot was older. Profile: https://www.linkedin.com/in/milca-lavarias-880b63336/ | **Keep** |
 | Delosjene Encarnado | 182788 | djeneintod0318@gmail.com | Client Operations at Reco Legal | "Client Operations @ReCo.Legal \| 500+ Commercial Contracts Reviewed…" | New York, US | **not branded** (branded for ReCo.Legal) | The whole profile is ReCo.Legal. | **Remove** |
 | Marjorie Paulo | 246363 | marjoriepaulo14@gmail.com | (ReCo.Legal) | "Operations Lead @ReCo.Legal \| 500+ Commercial Contracts Reviewed…" | `-` (not shown) | **not branded** (branded for ReCo.Legal) | Headline is ReCo.Legal. | **Remove** |
 | Ralph John Taboada | 213851 | ralphjohnmontibanotaboada@gmail.com | Knowledge Operations at Reco Legal | Long ReCo.Legal pitch ("At ReCo.Legal we fixed the part…") | New York, US | **not branded** (branded for ReCo.Legal) | Headline and about are ReCo.Legal copy. | **Remove** |
@@ -51,18 +51,18 @@ All 14 accounts have been checked.
 
 | Decision | Accounts |
 |---|---|
-| **Keep** | Chavali Praneeth (265480). Fix the position line, which currently reads "Btech at Gitam". |
-| **Keep after a fix** | Joanna Alipio (185097) and Milca Lavarias (243800). They have the twoHundred headline, but their position is at Reco Legal and their location is New York. |
+| **Keep** | Chavali Praneeth (265480): fix the position line, which reads "Btech at Gitam". Milca Lavarias (243800): confirmed correct by Moe 2026-11-18; the screenshot was older. |
+| **Keep after a fix** | Joanna Alipio (185097). She has the twoHundred headline, but her position is at Reco Legal and her location is New York. Her screenshot may be as old as Milca's, so re-check before fixing. |
 | **Remove: branded for ReCo.Legal (7)** | Delosjene Encarnado (182788), Marjorie Paulo (246363), Ralph John Taboada (213851), Brett Magat (213311), Shiela Mae Inoc (230019), Erika Stefani (182761), Eianne Tantiado (229280) |
 | **Remove: shows Algo Acquisition (2)** | Kimberly Almazan (203828), Markim Eniola (264397) |
 | **Remove: personal profiles (2)** | Kirky Palamos (241273), Christine Joy Ochosa (251033) |
 
-**Profile fixes for Chavali, Joanna and Milca:**
+**Profile fixes for Chavali and Joanna:**
 - Set the current position to "Enterprise Account Executive" at twoHundred. Choose the `twohundred-aps` company page so the logo attaches.
 - Set the location to Copenhagen, Capital Region, Denmark.
-- End or remove the Reco Legal (Joanna, Milca) and Gitam (Chavali) entries as the current position.
+- End or remove the Reco Legal (Joanna) and Gitam (Chavali) entries as the current position.
 
 **Capacity:**
-- 1 sender is usable today and 3 after the fixes, against 3,364 leads across 5 campaigns.
+- 2 senders are usable today (Chavali, Milca) and 3 after Joanna is fixed, against 3,364 leads across 5 campaigns.
 - More twoHundred-branded accounts are needed. One option is to fully rebrand some of the 7 ReCo.Legal accounts (headline, about, position, location, banner, per `get_client_sdr_profile`), but only if ReCo.Legal does not also need them.
 - Raise this with John, the SDR owner.
