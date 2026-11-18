@@ -78,6 +78,13 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## History
 
+- **2026-11-18**: **Handoff to the Casual Connections session (session_013MzxQfxb1tFTNdnVAHYrw5): Moe says Casual Connections goes in right after Campaign 3 of doc 1.**
+  - Doc 1 is now v2 (`campaign-docs/2026-11-18-doc-1-v2.md`):
+    - Glassdoor reputation campaigns 1 to 3, then sector campaigns 4 to 8, PE investment 9, New in the Seat 10.
+    - The old "Campaign 4" (Mergers and New Leadership, Top 100 Law and Accounting) is now **Campaign 7**.
+  - **Paragraph numbers in `campaign-docs/2026-11-18-doc-1-campaign-4-casual-connections.md` are stale.**
+  - **Tracked suggestions won't work for this:** a `review_campaign_doc` insert can't create headings or new paragraphs. A test landed as raw text inside a bullet, and I rejected it. Moving a campaign into slot 4 means a `replace_markdown` rewrite built on the v2 file. Moe approved that kind of rewrite for the Glassdoor change.
+  - **Check with Moe:** whether Casual Connections still replaces Mergers/Law and Accounting (now 7), or is added as an 11th campaign. Then renumber the campaigns after it, and the intro, "Before launch" and offer references. (session_013MzxQfS4USBg3GQoTHx9Ai)
 - **2026-11-18**: **Doc 1 rewritten: the three Glassdoor campaigns replace old Campaigns 8, 9 and 10 and move to the top (Moe's call).**
   - **Why:**
     - Old 8 (Reputation and Retention) used the same signal, now measured: 1,384 companies.
