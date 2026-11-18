@@ -1,3 +1,4 @@
+<!-- APPLIED 2026-11-18 12:28 UTC by session_013MzxQfS4USBg3GQoTHx9Ai: this campaign is now Campaign 4 of doc 1 v3 (campaign-docs/2026-11-18-doc-1-v3.md), replacing Mergers and New Leadership, Law and Accounting, per Moe. Do NOT apply again. -->
 <!-- UPDATE 2026-11-18 (session_013MzxQfS4USBg3GQoTHx9Ai): doc 1 was rewritten to v2 (campaign-docs/2026-11-18-doc-1-v2.md). Moe now says Casual Connections goes right after Campaign 3, so it becomes Campaign 4. Old 'Campaign 4' (Mergers, Law and Accounting) is now Campaign 7. The paragraph numbers below are stale, and review_campaign_doc cannot create headings, so this needs a replace_markdown rewrite built on the v2 file. See README History. -->
 <!--
 Draft replacement for doc 1 (tracking_clients fed8e905-ea1c-4a91-ade7-0da0f7f732a6), Campaign 4.
