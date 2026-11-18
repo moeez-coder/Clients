@@ -1,0 +1,96 @@
+{
+ "workspaceId": 172344,
+ "name": "US | C5 Owner on the Floor | GigWorx |Moe v1",
+ "linkedInUserListId": 1148709,
+ "linkedInAccountIds": [
+  "<Mathew Welsch's HeyReach account id, once connected>"
+ ],
+ "schedule": {
+  "dailyStartTime": "08:30:00",
+  "dailyEndTime": "17:30:00",
+  "timeZoneId": "Eastern Standard Time",
+  "enabledMonday": true,
+  "enabledTuesday": true,
+  "enabledWednesday": true,
+  "enabledThursday": true,
+  "enabledFriday": true,
+  "enabledSaturday": false,
+  "enabledSunday": false
+ },
+ "excludeContactedFromOtherCampaigns": true,
+ "sequenceJson": {
+  "nodeType": "CONNECTION_REQUEST",
+  "actionDelay": 0,
+  "actionDelayUnit": "HOUR",
+  "payload": {
+   "messages": [
+    "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect."
+   ],
+   "fallbackMessage": "Hi {FIRST_NAME}, I run GigWorx here in Michiana. We cover open shifts for local plants, warehouses, stores and hotels with vetted W-2 workers. Would be good to connect.",
+   "toBeWithdrawnAfterDays": 25
+  },
+  "unconditionalNode": {
+   "nodeType": "END",
+   "actionDelay": 3,
+   "actionDelayUnit": "HOUR",
+   "payload": null
+  },
+  "conditionalNode": {
+   "nodeType": "MESSAGE",
+   "actionDelay": 1,
+   "actionDelayUnit": "DAY",
+   "payload": {
+    "messages": [
+     "Hi {FIRST_NAME}, quick question from one local business owner to another.\n\nWhen a couple of people call off at {COMPANY}, who ends up covering? You, overtime, or does the work just wait?"
+    ],
+    "fallbackMessage": "Hi {FIRST_NAME}, quick question from one local business owner to another.\n\nWhen a couple of people call off, who ends up covering? You, overtime, or does the work just wait?"
+   },
+   "unconditionalNode": {
+    "nodeType": "MESSAGE",
+    "actionDelay": 4,
+    "actionDelayUnit": "DAY",
+    "payload": {
+     "messages": [
+      "Asking because that's what GigWorx is for, {FIRST_NAME}. You post a shift in our app, a vetted local worker claims it, and you only pay for the hours worked. No contract and no minimums.\n\nHappy to comp your first shift so you can see the quality."
+     ],
+     "fallbackMessage": "Asking because that's what GigWorx is for, {FIRST_NAME}. You post a shift in our app, a vetted local worker claims it, and you only pay for the hours worked. No contract and no minimums.\n\nHappy to comp your first shift so you can see the quality."
+    },
+    "unconditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 7,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messages": [
+       "I'll leave it here, {FIRST_NAME}.\n\nIf you're short-handed on a busy week, reply \"shift\" and the first one's on us."
+      ],
+      "fallbackMessage": "I'll leave it here, {FIRST_NAME}.\n\nIf you're short-handed on a busy week, reply \"shift\" and the first one's on us."
+     },
+     "unconditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 3,
+      "actionDelayUnit": "HOUR",
+      "payload": null
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR",
+      "payload": null
+     }
+    },
+    "conditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 0,
+     "actionDelayUnit": "HOUR",
+     "payload": null
+    }
+   },
+   "conditionalNode": {
+    "nodeType": "END",
+    "actionDelay": 0,
+    "actionDelayUnit": "HOUR",
+    "payload": null
+   }
+  }
+ }
+}
