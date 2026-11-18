@@ -163,6 +163,20 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-18**: **Sender branding audit** written to `senders/2026-11-18-sender-branding-audit.md`. It checks the 14 accounts in HeyReach workspace 172772 against the twoHundred SDR profile. The audit is read-only: no senders changed and nothing paused or started.
+  - **Evidence:**
+    - Account list from `list_client_accounts` and `get_campaign_senders`.
+    - Profiles from HeyReach profile-card screenshots Moe pasted into the session. No HeyReach connector reaches 172772 and there are no profile URLs, so Blitz enrichment was not possible.
+  - **Results (8 of 14 checked):**
+    - Chavali Praneeth (265480): branded, keep.
+    - Joanna Alipio (185097) and Milca Lavarias (243800): partly branded. They have the twoHundred headline, but their current position is at Reco Legal in New York. Fix, then keep.
+    - Delosjene Encarnado, Marjorie Paulo and Ralph John Taboada: branded for ReCo.Legal (another client). Remove.
+    - Kirky Palamos and Christine Joy Ochosa: personal profiles, never rebranded. Remove.
+    - Kimberly, Markim, Erika, Brett, Eianne and Shiela: not checked yet.
+  - **Also flagged:**
+    - Sales Nav is not connected on any account.
+    - No sign-in is broken.
+    - C1 (729831) and C5 (729838) read **PAUSED** at audit time.
 - **2026-11-18**: **All 14 workspace senders on all 5 live campaigns** (Moe: "Add all to all active campaigns"). `add_all_available` added Erika Stefani (182761), Delosjene Encarnado, Joanna Alipio, Brett Magat, Ralph John Taboada, Eianne Tantiado, Shiela Mae Inoc, Milca Lavarias and Marjorie Paulo to C1 (729831), C5 (729838), C7 (729841), C6 (729840) and C11 (739441). All five confirmed IN_PROGRESS afterwards.
   - **Leads in HeyReach:** C1 86, C5 624, C7 478, C6 1,898, C11 278 = **3,364**. All loading finished.
   - **Failed so far:** 15 (HeyReach "failed" leads, e.g. profiles it could not reach).
