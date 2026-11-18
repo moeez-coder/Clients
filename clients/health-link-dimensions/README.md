@@ -60,6 +60,10 @@ No lead or company snapshots yet. A pull can only happen after the client approv
 
 ## History
 
+- **2026-11-18**: Added `context/2026-11-16-client-call-notes.md` (from Fathom recording 203556039) and `context/agency-personas-cwm.md`.
+  - The personas file is the verbatim text of Christopher Martin's "Agency_Personas_HLD_CWM.pptx", emailed 2026-11-16, Gmail thread `1a1e5719af1fc633`. The .pptx itself is not committed.
+  - **Why:** the call replaced generic freebies with persona-specific offers and the Provider Insight Report, and Moe wants the agency campaigns segmented by persona. A new session is sizing those persona campaigns.
+
 - **2026-11-16**: **MQL campaign ideas drafted for discussion with Moe.** Nothing was built.
   - **Moe's question:** "what could be an MQL (marketing qualified lead) campaign? Something that will increase the reply ratio."
   - **File:** `campaign-docs/2026-11-16-mql-campaign-ideas.md`. It has 5 ideas, each with segment, asset, connection request, Message 1, MQL definition and handoff:
