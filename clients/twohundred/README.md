@@ -167,12 +167,14 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
   - **Evidence:**
     - Account list from `list_client_accounts` and `get_campaign_senders`.
     - Profiles from HeyReach profile-card screenshots Moe pasted into the session. No HeyReach connector reaches 172772 and there are no profile URLs, so Blitz enrichment was not possible.
-  - **Results (8 of 14 checked):**
-    - Chavali Praneeth (265480): branded, keep.
-    - Joanna Alipio (185097) and Milca Lavarias (243800): partly branded. They have the twoHundred headline, but their current position is at Reco Legal in New York. Fix, then keep.
-    - Delosjene Encarnado, Marjorie Paulo and Ralph John Taboada: branded for ReCo.Legal (another client). Remove.
-    - Kirky Palamos and Christine Joy Ochosa: personal profiles, never rebranded. Remove.
-    - Kimberly, Markim, Erika, Brett, Eianne and Shiela: not checked yet.
+  - **Results (12 of 14 checked; follow-up the same day after more screenshots):**
+    - Keep: Chavali Praneeth (265480). The headline is right, but the card shows "Btech at Gitam" as the position, so the position needs fixing.
+    - Fix, then keep: Joanna Alipio (185097) and Milca Lavarias (243800). They have the twoHundred headline, but their position is at Reco Legal in New York.
+    - Remove 9:
+      - Branded for ReCo.Legal: Delosjene, Marjorie, Ralph John, Brett, Shiela Mae, Erika.
+      - Markim, whose profile names algoacquisition.
+      - Kirky and Christine Joy, which are personal profiles.
+    - Pending: Kimberly Almazan and Eianne Tantiado.
   - **Also flagged:**
     - Sales Nav is not connected on any account.
     - No sign-in is broken.
