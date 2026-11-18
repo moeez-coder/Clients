@@ -28,11 +28,11 @@
 | Ralph John Taboada | 213851 | ralphjohnmontibanotaboada@gmail.com | Knowledge Operations at Reco Legal | Long ReCo.Legal pitch ("At ReCo.Legal we fixed the part…") | New York, US | **not branded** (branded for ReCo.Legal) | Headline and about are ReCo.Legal copy. | **Remove** |
 | Kirky Palamos | 241273 | kirkypalamos18@gmail.com | Missionary at The Church of Jesus Christ of Latter-day Saints | Same as title | `-` | **not branded** (personal profile, never rebranded) | No twoHundred or business content. | **Remove** |
 | Christine Joy Ochosa | 251033 | ochosachristinejoy4@gmail.com | Cashier at Sison Bus Stop Restaurant | Same as title | `-` | **not branded** (personal profile, no photo) | No twoHundred content and no headshot. | **Remove** |
-| Kimberly Almazan | 203828 | kimberlyjoyalmazan27@gmail.com | `-` | `-` | `-` | **not checked** | No screenshot yet | Hold. Need the profile card. |
+| Kimberly Almazan | 203828 | kimberlyjoyalmazan27@gmail.com | Sales Development Representative at Sutherland Global Services Ltd | "Sales Development Representative @algoacquisition \| AI-Powered Outbound Systems for B2B Companies" | Angeles, Central Luzon, Philippines | **not branded** (shows the agency, Algo Acquisition) | Headline names our agency and the position is at Sutherland. She sent for C1 for a few hours on 2026-11-16. | **Remove** |
 | Markim Eniola | 264397 | eniolamarkim@gmail.com | Sales Development Representative at algoacquisition | "Bookkeeping, Graphics Design" | United Kingdom | **not branded** (shows the agency, Algo Acquisition) | No twoHundred content; the position names our agency. | **Remove** |
 | Erika Stefani | 182761 | erikastefaniboenari@gmail.com | Legal Project Manager at Reco Legal | "Enterprise Account Executive @ReCo.Legal \| Attorney-Reviewed Contracts in 24 Hours…" | New York, US | **not branded** (branded for ReCo.Legal) | Whole profile is ReCo.Legal. | **Remove** |
 | Brett Magat | 213311 | brettmagat@yahoo.com | Legal Project Manager at Reco Legal | "Legal Project Manager @ReCo.Legal \| 500+ Commercial Contracts Reviewed…" | New York, US | **not branded** (branded for ReCo.Legal) | Whole profile is ReCo.Legal. | **Remove** |
-| Eianne Tantiado | 229280 | tantiadoeianne@gmail.com | `-` | `-` | `-` | **not checked** | No screenshot yet | Hold |
+| Eianne Tantiado | 229280 | tantiadoeianne@gmail.com | Operations Lead at Reco Legal | "Operations Lead @ReCo.Legal \| 500+ Commercial Contracts Reviewed…" | New York, US | **not branded** (branded for ReCo.Legal) | Whole profile is ReCo.Legal. | **Remove** |
 | Shiela Mae Inoc | 230019 | shielamaeinoc0711@gmail.com | Strategic Projects at Reco Legal | Long ReCo.Legal pitch (same copy as Ralph John) | New York, US | **not branded** (branded for ReCo.Legal) | Headline and about are ReCo.Legal copy. | **Remove** |
 
 ## Other sender health flags
@@ -47,16 +47,22 @@
 
 ## Recommended sender list
 
-12 of the 14 accounts are checked. Kimberly Almazan and Eianne Tantiado are still pending.
+All 14 accounts have been checked.
 
-- **Keep now:** Chavali Praneeth (265480), the only account whose headline is right and that carries nothing for another company. Its position line still needs fixing (see below).
-- **Keep after a fix:** Joanna Alipio (185097) and Milca Lavarias (243800). They have the twoHundred headline, but their current position is at Reco Legal and their location is New York.
-- **Remove (9 accounts):**
-  - Delosjene Encarnado (182788), Marjorie Paulo (246363), Ralph John Taboada (213851), Brett Magat (213311), Shiela Mae Inoc (230019) and Erika Stefani (182761) are fully branded for ReCo.Legal.
-  - Markim Eniola (264397) shows an SDR position at algoacquisition, with a bookkeeping/graphics headline.
-  - Kirky Palamos (241273) and Christine Joy Ochosa (251033) are personal profiles.
-- **Pending:** Kimberly Almazan (203828) and Eianne Tantiado (229280).
+| Decision | Accounts |
+|---|---|
+| **Keep** | Chavali Praneeth (265480). Fix the position line, which currently reads "Btech at Gitam". |
+| **Keep after a fix** | Joanna Alipio (185097) and Milca Lavarias (243800). They have the twoHundred headline, but their position is at Reco Legal and their location is New York. |
+| **Remove: branded for ReCo.Legal (7)** | Delosjene Encarnado (182788), Marjorie Paulo (246363), Ralph John Taboada (213851), Brett Magat (213311), Shiela Mae Inoc (230019), Erika Stefani (182761), Eianne Tantiado (229280) |
+| **Remove: shows Algo Acquisition (2)** | Kimberly Almazan (203828), Markim Eniola (264397) |
+| **Remove: personal profiles (2)** | Kirky Palamos (241273), Christine Joy Ochosa (251033) |
 
-**Profile fixes for Chavali, Joanna and Milca:** set the current position to "Enterprise Account Executive" at twoHundred, choosing the `twohundred-aps` company page so the logo attaches. Set the location to Copenhagen, Capital Region, Denmark. Joanna and Milca also need their Reco Legal experience entry ended or removed.
+**Profile fixes for Chavali, Joanna and Milca:**
+- Set the current position to "Enterprise Account Executive" at twoHundred. Choose the `twohundred-aps` company page so the logo attaches.
+- Set the location to Copenhagen, Capital Region, Denmark.
+- End or remove the Reco Legal (Joanna, Milca) and Gitam (Chavali) entries as the current position.
 
-**Capacity:** this leaves 1 sender now, and 3 after the fixes, against 3,364 leads across 5 campaigns. Either more twoHundred-branded accounts are needed, or the 6 ReCo.Legal accounts need rebranding in full (headline, about, position, location, banner). Rebranding is only possible if they are not also needed for ReCo.Legal.
+**Capacity:**
+- 1 sender is usable today and 3 after the fixes, against 3,364 leads across 5 campaigns.
+- More twoHundred-branded accounts are needed. One option is to fully rebrand some of the 7 ReCo.Legal accounts (headline, about, position, location, banner, per `get_client_sdr_profile`), but only if ReCo.Legal does not also need them.
+- Raise this with John, the SDR owner.
