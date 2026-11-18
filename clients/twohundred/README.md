@@ -66,19 +66,20 @@ All 10 were created 2026-11-12 from approved doc `a4c10f55-28e7-420e-9040-d8fe8a
 
 | # | Campaign | session id | Lead list (sourcing config) | ICP config | HeyReach campaign / list |
 |---|---|---|---|---|---|
-| C1 | The CPO and CSCO Table | `094e9b70-89e2-414f-b48b-8eb7d9ae45e3` | `b81f2795-76e8-4f63-a8d0-3f0d53cabf6e` | `94a6a632-88eb-43cb-8401-9b286033fa17` | `729831` / `1152302` |
+| C1 | The CPO and CSCO Table | `094e9b70-89e2-414f-b48b-8eb7d9ae45e3` | `b81f2795-76e8-4f63-a8d0-3f0d53cabf6e` | `94a6a632-88eb-43cb-8401-9b286033fa17` | **`743543` / `1184762` (v2, live)**; v1 `729831` / `1152302` paused |
 | C2 | Beyond the Expo Hall | `a767b822-f1d5-422b-acba-e536d54882b4` | `c659923d-b864-4572-a5f9-6034425882a9` | `b359767a-463a-4e85-abe5-7b625be7f013` | `729835` / `1152307` |
 | C3 | New in the Seat | `919f494a-06d5-439f-9f3c-7181367c75a6` | `82f47ea4-d434-444c-830f-4fffa6d5c2fe` | `92d229b6-875a-43ab-9f50-2749bd6913f9` | `729836` / `1152308` |
 | C4 | Entering the Nordics | `51e55b6c-f97f-4a5a-9109-4bd7f730598d` | `a42149fc-d3ac-44d4-86e6-aa5a856d1827` | `35d03c8c-ab82-4053-8e9c-55e9cb1ebb01` | `729837` / `1152309` |
-| C5 | The CISO Room | `0637bac6-5e24-41be-b829-25350eb83b25` | `3b6c78bc-ec87-4bd4-b6b6-4a0d89936f4c` | `ee1bb78d-8fd4-4826-a689-3e0a07844836` | `729838` / `1152310` |
-| C6 | Nordic CIO Pulse | `aad8be08-a118-420c-b11c-7c1581c9baf4` | `52e26a7a-c209-42d5-b3e4-a81548a2a5f8` | `4b955c4a-326c-495c-beab-da078d093bf9` | `729840` / `1152311` |
-| C7 | Finance and People Leaders | `fe3ef189-38f6-42ab-ae9a-712517eace39` | `d3ebc835-ae65-4777-a770-650a0ef0f417` | `0694d62b-8932-4f8c-8dc9-c9467de0cec6` | `729841` / `1152312` |
+| C5 | The CISO Room | `0637bac6-5e24-41be-b829-25350eb83b25` | `3b6c78bc-ec87-4bd4-b6b6-4a0d89936f4c` | `ee1bb78d-8fd4-4826-a689-3e0a07844836` | **`743545` / `1184764` (v2, live)**; v1 `729838` / `1152310` paused |
+| C6 | Nordic CIO Pulse | `aad8be08-a118-420c-b11c-7c1581c9baf4` | `52e26a7a-c209-42d5-b3e4-a81548a2a5f8` | `4b955c4a-326c-495c-beab-da078d093bf9` | **`743548` / `1184769` (v2, live)**; v1 `729840` / `1152311` paused |
+| C7 | Finance and People Leaders | `fe3ef189-38f6-42ab-ae9a-712517eace39` | `d3ebc835-ae65-4777-a770-650a0ef0f417` | `0694d62b-8932-4f8c-8dc9-c9467de0cec6` | **`743546` / `1184765` (v2, live)**; v1 `729841` / `1152312` paused |
 | C8 | Open Roles, Field and Event Marketing | `c8b08608-897e-4ec0-8568-fc26c2525827` | `41d63fbf-1b66-44d1-ba91-2ad0b2def817` | `99443fa9-fbcf-450e-bcfe-89a57e40b5a1` | `729842` / `1152313` |
 | C9 | Open Roles, Country and Sales Leadership | `f7d16968-870a-4477-90d9-1cc32d3fd0bc` | `25cf23a0-bd3d-4d32-a8aa-9f91fb131150` | `01f08a0f-2a51-426f-9aad-7c0f8b128671` | `729843` / `1152315` |
 | C10 | Open Roles, ABM, Demand and Partner Marketing | `65ed1c2f-4a4e-4b3e-9fe5-9b7502d6c97f` | `55fb215f-cad1-4d8b-890a-72f366e81b38` | `f9c2c642-d732-420c-bf3f-7b90812be327` | `729844` / `1152317` |
 
 ## HeyReach state (2026-11-13)
 
+- **2026-11-18: the live campaigns are the five v2 campaigns, sending only from the 4 accounts confirmed as branded for twoHundred.** Ids are in History 2026-11-18 (v2 launch). The v1 campaigns (729831, 729838, 729841, 729840, 739441) are PAUSED and no longer linked in tracking_clients.
 - **2026-11-16: C1 (`729831`) is LIVE with 75 leads and 1 sender (Kimberly Almazan). The other 9 are DRAFT with 0 senders (old roster left the workspace).**
 - Workspace 172772 "twoHundred" had **10 DRAFT campaigns**, one per tracking_clients campaign (ids in the Campaigns table). Each has its own empty list. All were created 2026-11-13 with `gtm_sheet_create_heyreach_campaign` and linked with `link_platform_campaign`. **None has been started.**
 - **Senders:** all 9 VSDR accounts are on all 10 campaigns (`set_campaign_senders add_all_available`, 9 per campaign): Delosjene Encarnado, Joanna Marie Alipio, Brett Magat, Ralph John Taboada, Eianne Maurice Tantiado, Shiela Mae Inoc, Milca Lavarias, Marjorie Paulo, plus account `182761` (put on at creation). All are `heyreach_connected: true` and `sales_nav_connected: false`.
@@ -163,6 +164,24 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-18**: **v2 campaigns launched with branded senders only** (Moe: "Duplicate the campaigns that were running before and keep the leadlist. Label them v2 and just attach these 4 senders and make those live only").
+  - **Why:** the sender audit (`senders/2026-11-18-sender-branding-audit.md`) found that most workspace accounts are not branded for twoHundred. Moe confirmed 4 that are: Chavali Praneeth (265480), Milca Lavarias (243800), Erika Stefani (182761) and Shiela Mae Inoc (230019).
+  - **v2 campaigns:** created with `gtm_sheet_create_heyreach_campaign`. Each sequence is copied word for word from its v1 (read with `gtm_sheet_get_heyreach_sequence`): blank connection request withdrawn after 25 days, M1 after 3 hours, M2 after 4 days, M3 after 5 days, the same fallbacks, and weekend sending on.
+
+    | Campaign | v1 (paused) | v2 HeyReach campaign / list | tracking_clients campaign |
+    |---|---|---|---|
+    | C1 EU \| CPO and CSCO Table \| Moe v2 | 729831 | `743543` / `1184762` | `094e9b70-89e2-414f-b48b-8eb7d9ae45e3` |
+    | C5 EU \| The CISO Room \| Moe v2 | 729838 | `743545` / `1184764` | `0637bac6-5e24-41be-b829-25350eb83b25` |
+    | C7 EU \| Finance and People Leaders \| Moe v2 | 729841 | `743546` / `1184765` | `fe3ef189-38f6-42ab-ae9a-712517eace39` |
+    | C6 EU \| Nordic CIO Pulse \| Moe v2 | 729840 | `743548` / `1184769` | `aad8be08-a118-420c-b11c-7c1581c9baf4` |
+    | C11 EU \| Consulting and Advisory Firms \| Moe v2 | 739441 | `743550` / `1184770` | `1dd016eb-13c7-4356-a90d-df22446c3950` |
+  - **Re-linked:** each tracking_clients campaign now points at its v2 (`link_platform_campaign`, approved by Moe). The portal and stats follow v2 from here on. The v1 campaigns stay PAUSED in HeyReach and are unlinked.
+  - **Senders:** exactly the 4 above on every v2. Erika was the placeholder HeyReach requires at create; the other 3 were added with `set_campaign_senders`. Afterwards those 4 show 5 active campaigns each, and the other 10 workspace accounts show none.
+  - **Leads ("keep the leadlist"):**
+    - Each Leads table in GTM Sheets got a new **Push to HeyReach v2** column. It has the same inputs, custom fields (`community` for C7, `category_short` for C6) and run_if as the v1 push column.
+    - The column was run over all rows: queued C1 86, C5 627, C7 478, C6 1,899, C11 278.
+    - Moe chose to include every lead (option "All leads"), including those v1 had already started on. Leads a removed account already sent a connection request may get a second one from a branded sender.
+  - **Started:** `start_campaign` (dry runs clean first). All 5 are IN_PROGRESS, started while the pushes were still running. Pushes run about one lead at a time, so the lists fill over the next few hours; C1 had 17 leads in at start. Re-check the final counts with `get_campaign_live_status`.
 - **2026-11-18**: **Sender branding audit** written to `senders/2026-11-18-sender-branding-audit.md`. It checks the 14 accounts in HeyReach workspace 172772 against the twoHundred SDR profile. The audit is read-only: no senders changed and nothing paused or started.
   - **Evidence:**
     - Account list from `list_client_accounts` and `get_campaign_senders`.
