@@ -66,6 +66,21 @@ No lead or company snapshots yet. A pull can only happen after the client approv
 
 ## History
 
+- **2026-11-18**: **Agency persona campaigns written into doc 1, replacing Campaigns 5 and 10** (doc `1f2e4277-1a09-445e-8684-75cc542ab003`, client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`). File: `campaign-docs/2026-11-18-doc-1-agency-persona-campaigns.md`. Session `session_013MzxQeqnTt4RM93i4VniUQ`.
+  - **Why:** Moe asked for one campaign per persona from Christopher's deck (`context/agency-personas-cwm.md`) and the 16 Nov call, with each persona messaged on its own terms.
+  - **4 campaigns, not 3.** Moe kept Investment as its own campaign, which overrides the sizing entry below. Sizes come from that sizing run:
+    - A Leadership: 539 people at 140 agencies, 2 per agency.
+    - B Investment: 40 at 6, up to 5 per agency.
+    - C Planning and Activation: 157 at 39, up to 5 per agency.
+    - D Data and Analytics: 159 at 45, up to 4 per agency.
+    - Each campaign's signal is an open role or a new client win.
+  - **Doc ops (all via `review_campaign_doc`, author "Algo Acquisition"):**
+    - Accepted the client's copy changes 1 to 38.
+    - Tracked-deleted paragraphs 122 to 149 (Campaign 5) and 245 to 268 (Campaign 10).
+    - Updated the intro paragraph [2] to say "Twelve campaigns" and "Campaigns 1 to 4", and pointed to the persona campaigns.
+    - Inserted the persona section as one tracked insert after paragraph 275, before the offers section. It is plain text, not heading-formatted.
+  - **Doc state:** `client_review`, so the client can already see the tracked changes. It was not re-sent.
+
 - **2026-11-18**: **Agency persona campaigns sized** (expanding the existing agency segment, doc 1 segment 5; no config, config `-`). File: `sourcing/tam/2026-11-18-agency-persona-sizing.query.md`.
   - **Campaign count: 3, not 4.** Leadership; Data and Analytics; Media (Investment + Planning and Activation merged). Investment alone is only 6 companies / 40 people inside health agencies, and its Advocates row is identical to Planning's. Levels are copy tiers inside each campaign, not separate campaigns.
   - **Universe:** Blitz `POST /v2/search/companies`, ad/marketing industries + pharma keywords, US, 51 to 5,000 emp, excluding Publicis Health Media, EVERSANA, Relevate Health, HLD itself and identity/adtech vendors: 260 companies, 60% fit in a 20-company sample (about 155 real).
