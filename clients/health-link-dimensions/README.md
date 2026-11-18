@@ -31,7 +31,8 @@ Verbatim copies of tracking_clients `get_client` fields, pulled 2026-11-09. Each
 
 | Doc | tracking_clients doc id | Status | Repo copy |
 |---|---|---|---|
-| HealthLink Dimensions Campaign Plan, Doc 1 (10 campaigns) | `1f2e4277-1a09-445e-8684-75cc542ab003` | `internal_review` (client commented 2026-11-11; agency copy revised 2026-11-13) | `campaign-docs/2026-11-09-doc-1.md` |
+| HealthLink Dimensions Campaign Plan, Doc 1 (10 campaigns) | `1f2e4277-1a09-445e-8684-75cc542ab003` | `client_review` (re-sent 2026-11-18; agency Campaigns 5 and 10 replaced by persona campaigns as tracked changes) | `campaign-docs/2026-11-09-doc-1.md` |
+| HealthLink Dimensions Campaign Plan, Doc 2 (12 persona campaigns, replaces Doc 1) | `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9` | `draft`, hidden from the client; not to be sent (Moe, 2026-11-18) | `campaign-docs/2026-11-18-doc-2.md` |
 
 Internal discussion drafts (not in tracking_clients, not sent to the client):
 
@@ -69,6 +70,24 @@ No lead or company snapshots yet. A pull can only happen after the client approv
   - `sourcing/tam/persona_counts.py` + `2026-11-18-persona_counts.json`, `sourcing/tam/persona_companies.py` + `2026-11-18-persona_companies.json`: scripts with exact request bodies and results.
 
 ## History
+
+- **2026-11-18**: **Campaign doc 2 created as a hidden draft** (`create_campaign_doc`, doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, "HealthLink Dimensions Campaign Plan, Doc 2", status `draft`, `shared_with_client: false`). Moe said not to send it to the client. Repo copy: `campaign-docs/2026-11-18-doc-2.md`, the same markdown that was submitted. Session `session_013MzxQeqnTt4RM93i4VniUQ`.
+  - **Why:** Moe asked for a new doc built from the persona approach rather than further edits to doc 1.
+  - **Sources:** both persona decks (`context/agency-personas-cwm.md`, `context/pharma-personas-pab.md`), Parris's Doc 2 draft (`context/2026-11-13-tailored-campaigns-doc2-pab.md`), the 16 Nov call notes and the DNC list.
+  - **Structure (12 campaigns):**
+    - Pharma personas 1 to 5: Brand Marketing; Media/Omnichannel; Commercial Ops + Field Sales, merged because their pains and triggers match; Data & Analytics; Market Access.
+    - 6: New Indication / New Specialty trigger. This is Parris's J&J and PTC accounts turned into a reusable trigger.
+    - 7: Specialist device, doc 1 Campaigns 3 and 8 merged.
+    - 8: Large device by business unit (Parris's Campaign B).
+    - 9 to 12: Agency Leadership, Investment, Planning and Activation, Data and Analytics, with copy unchanged from doc 1.
+  - **Signals and seniority:** doc 1's trigger campaigns (Launch, Funding, New Leader) became signal variants inside each persona campaign. Seniority levels are copy tiers, not separate campaigns.
+  - **Offer:** the Provider Insight Report, teased in the message and shown on the call (16 Nov decision). The call to action is left as a question, because Robert wants a calendar link instead.
+  - **Copy changes from Parris's draft:** his "best of luck" was replaced to follow the no-"best" rule. The brand facts are his and are flagged to be verified the week each message is sent.
+  - **Medical Affairs** is left as an open question: the persona deck includes it, but the Doc 2 draft excludes it.
+  - **Open:**
+    - Pharma sizing is not run yet; the doc says "being counted". Moe has not approved the Blitz count calls.
+    - Agency and device sizes are pre-DNC.
+    - Contacts per company: 2 for pharma personas (large TAM), 3 for Market Access, and agency counts unchanged.
 
 - **2026-11-18**: **Client documents from Slack saved to `context/`** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeqnTt4RM93i4VniUQ`). Moe asked for them to be analysed for new campaigns. All three came from Slack #client-health-link-dimensions-algoacquisition.
   - `context/pharma-personas-pab.md`: Parris's Pharma personas deck (posted 2026-11-17), verbatim. It covers 7 functional teams (Brand Marketing, Commercial Ops, Media/Omnichannel, Data & Analytics, Market Access, Medical Affairs, Field Sales), each at 3 levels with 8 attributes, and maps the teams to Profile, Enrich, Engage and Pulse.
