@@ -70,6 +70,13 @@ No lead or company snapshots yet. A pull can only happen after the client approv
 
 ## History
 
+- **2026-11-18**: **Client documents from Slack saved to `context/`** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeqnTt4RM93i4VniUQ`). Moe asked for them to be analysed for new campaigns. All three came from Slack #client-health-link-dimensions-algoacquisition.
+  - `context/pharma-personas-pab.md`: Parris's Pharma personas deck (posted 2026-11-17), verbatim. It covers 7 functional teams (Brand Marketing, Commercial Ops, Media/Omnichannel, Data & Analytics, Market Access, Medical Affairs, Field Sales), each at 3 levels with 8 attributes, and maps the teams to Profile, Enrich, Engage and Pulse.
+  - `context/2026-11-13-tailored-campaigns-doc2-pab.md`: Parris's "Tailored Campaign Plan, Doc 2" (posted 2026-11-13), verbatim. It has three account-level campaigns: J&J Innovative Medicine, large HCP-facing device companies, and PTC Therapeutics.
+  - `context/2026-11-12-dnc-accounts.csv` (199 accounts) and `context/2026-11-12-dnc-named-contacts.csv` (12 people, header plus a footnote row): Robert's DNC list (posted 2026-11-12, `Do_Not_Call_List_Updated_Exclusions_CWM.xlsx`).
+    - This list was supplied six days ago, but the Profile above still says DNC is 0 because tracking_clients has not been updated.
+    - Checked against the agency persona universe: about 10 of the 147 agencies are on the DNC (CMI Media Group, Fingerpaint, GSW/Syneos Health, Health Monitor, Hibbert, InStep, Publicis Health entities, MJH, Vaniam), so the agency sizes in doc 1 are overstated.
+
 - **2026-11-18**: **Agency persona campaigns written into doc 1, replacing Campaigns 5 and 10** (doc `1f2e4277-1a09-445e-8684-75cc542ab003`, client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`). File: `campaign-docs/2026-11-18-doc-1-agency-persona-campaigns.md`. Session `session_013MzxQeqnTt4RM93i4VniUQ`.
   - **Why:** Moe asked for one campaign per persona from Christopher's deck (`context/agency-personas-cwm.md`) and the 16 Nov call, with each persona messaged on its own terms.
   - **4 campaigns, not 3.** Moe kept Investment as its own campaign, which overrides the sizing entry below. Sizes come from that sizing run:
