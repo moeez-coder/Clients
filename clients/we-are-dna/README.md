@@ -53,11 +53,13 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 | Date | Doc | tracking_clients id | Status |
 |---|---|---|---|
 | 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (re-sent 2026-11-13 after John's open-role feedback; 221 open suggested changes and 2 open comments as of 2026-11-17, pending the client's accept/reject; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
+| 2026-11-18 | [`campaign-docs/2026-11-18-doc-1-campaign-4-casual-connections.md`](campaign-docs/2026-11-18-doc-1-campaign-4-casual-connections.md): draft replacement for doc 1's Campaign 4 (Casual Connections, Bristol), **not applied** | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` (target) | waiting for another session's doc 1 edits to finish (Moe) |
 | 2026-11-18 | [`campaign-docs/2026-11-18-casual-connections-plan.md`](campaign-docs/2026-11-18-casual-connections-plan.md): internal Casual Connections plan v0 (senders, capacity, wave 1, draft copy, questions), not a campaign doc | `-` (not in tracking_clients) | internal draft for Moe, nothing built |
 | 2026-11-16 | [`campaign-docs/2026-11-16-mql-concepts-discussion.md`](campaign-docs/2026-11-16-mql-concepts-discussion.md): internal discussion of 5 MQL (reply-first) concepts, not a campaign doc | `-` (not in tracking_clients) | internal discussion, nothing built or sent |
 
 ## Sourced data in this repo
 
+- `sourcing/tam/2026-11-18-casual-connections-tam.query.md`: TAM read for Casual Connections wave 1 (312 Bristol-HQ companies, 0.95 C-suite per company measured). No new pull: it reuses the 2026-11-17 Blitz company pulls and the 2026-11-18 preview. Config `-` (UUID `-`).
 - `sourcing/casual-connections/2026-11-18-preview-leads.csv`: **45 rows, 19 `preview`** (26 removed with reasons), keyed by `linkedin_url`. A 20-company preview of Bristol-HQ TAM companies for the **Casual Connections** campaign, config `-` (no tracking_clients config, UUID `-`). From Blitz API `POST /v2/search/waterfall-icp-keyword` (30 records kept) and the Clay MCP `search-contacts` (20 rows), pulled 2026-11-18. Raw `2026-11-18-preview-waterfall-raw.jsonl`, `-blitz-raw.csv`, `-clay-raw.json`, `-combined-raw.csv`; query `2026-11-18-preview.query.md`; scripts `preview_leads.py`, `build_preview.py`.
 - `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-profiles.csv`: **29,489 rows**, one per lookup-input company, scored with `select_and_score.py` rule v2. Match confidence: high 2,264, medium 10,007, low 2,546, none 14,672. **1,796 pass Moe's profile bar** (1,384 high confidence, 412 low). Glassdoor bad-review campaign, config `-` (no tracking_clients config, UUID `-`). From Apify `kaix/glassdoor-company-scraper` via the Apify REST API (60 runs, run ids and costs in `2026-11-17-glassdoor-lookup-runs.json`), pulled 2026-11-17, **$2.80**. Query record `2026-11-17-glassdoor-profiles.query.md`.
 - `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-profiles-raw-b1..b6.jsonl.gz`: the raw actor output behind that CSV, one file per input batch (7,429 / 6,347 / 5,220 / 3,960 / 3,043 / 1,994 = 27,993 employer profiles). Same tool, config `-`, and date. Assembled by `run_lookup.py assemble`.
@@ -75,6 +77,17 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-18**: **Casual Connections goes into doc 1 as Campaign 4** (Moe: "add in the 4th place"). It replaces "Mergers and New Leadership, Top 100 Law and Accounting Firms".
+  - **Not applied yet:** Moe said to wait, because another session is editing doc 1 now.
+  - **Ready to apply:**
+    - the section draft: `campaign-docs/2026-11-18-doc-1-campaign-4-casual-connections.md`
+    - the TAM record, committed first as the doc standard requires: `sourcing/tam/2026-11-18-casual-connections-tam.query.md`
+  - **How it will be applied:** as tracked suggestions via `review_campaign_doc`, with paragraph numbers re-read first. As of today they are [107] to [134].
+  - **The doc itself was read only** (`get_campaign_doc`): `client_review`, 221 open changes, 2 client comments.
+  - **Flag for Moe:** dropping the old Campaign 4 removes the only campaign aimed specifically at the Top 100 law and accounting firms that John's ICP form asked for. Law and accounting firms are still in Campaigns 6 and 9 and in the Casual Connections pool.
+  - **The swapped section has no offer by design**, so `## Offers for your feedback` is unchanged.
+  - (session_013MzxQfxb1tFTNdnVAHYrw5)
 
 - **2026-11-18**: **Moe's Casual Connections decisions** (in this session, after the preview):
   - **Senders: John Tarrant and Eoin Rodgers**, each with his own signed note. Neither is in HeyReach 172307 yet, so both accounts must be connected before anything sends.
