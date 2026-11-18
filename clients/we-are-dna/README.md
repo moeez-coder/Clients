@@ -89,6 +89,18 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
   - **The swapped section has no offer by design**, so `## Offers for your feedback` is unchanged.
   - (session_013MzxQfxb1tFTNdnVAHYrw5)
 
+- **2026-11-18**: **Glassdoor campaigns drafted by persona (internal draft for Moe, nothing sent).** Moe asked for three campaigns on the same Glassdoor company list (the 1,384 high-confidence companies that pass the bar in `sourcing/glassdoor-bad-reviews/2026-11-17-glassdoor-profiles.csv`), each with different messaging per persona, in the doc 1 format.
+  - **File:** `campaign-docs/2026-11-18-glassdoor-persona-campaigns.md`.
+  - **Format:** each campaign has a connection request and 3 messages, as sent to John in doc 1 `fed8e905-…`.
+  - **Campaigns:**
+    - A: CEO / MD, 24-month payback, DHU proof.
+    - B: People leaders, a quarter off unwanted turnover, MAN and Glendola proof.
+    - C: TA leaders at 201+ staff (995 companies), half off agency spend, MAN proof.
+  - **Free first step:** the 10-day reputation snapshot, in all three.
+  - **Offers:** from the `outcome-led-offer-generation` skill (algoacquisition-brain PR #36, run read-only). Its evidence is the ICP form, wearedna.co.uk case studies (MAN: attrition 20% to under 10% and agency spend £600k+ to under £30k, within a year) and the 12 Nov onboarding call (John ranks cost per hire, attrition and story above time to hire).
+  - **Every guarantee needs John's sign-off.** Not in doc 1, tracking_clients or HeyReach.
+  - **Contacts per persona:** not measured yet.
+  - **Open for Moe:** the approval route (doc 1 tracked suggestions or his own), naming Glassdoor, replacing doc 1 campaign 8, and who builds the snapshot. (session_013MzxQfS4USBg3GQoTHx9Ai)
 - **2026-11-18**: **Moe's Casual Connections decisions** (in this session, after the preview):
   - **Senders: John Tarrant and Eoin Rodgers**, each with his own signed note. Neither is in HeyReach 172307 yet, so both accounts must be connected before anything sends.
   - **Wave 1: Bristol-HQ companies** (312; about 300 to 350 C-suite contacts).
