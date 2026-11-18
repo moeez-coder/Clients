@@ -52,7 +52,7 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 | Date | Doc | tracking_clients id | Status |
 |---|---|---|---|
-| 2026-11-12 (v3 2026-11-18) | [`campaign-docs/2026-11-18-doc-1-v3.md`](campaign-docs/2026-11-18-doc-1-v3.md) (current): 10 campaigns, Glassdoor reputation 1 to 3, Casual Connections 4, sector 5 to 8, PE investment 9, new in seat 10. Earlier: [v2](campaign-docs/2026-11-18-doc-1-v2.md), [v1](campaign-docs/2026-11-12-doc-1.md) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (v3 pushed 2026-11-18 12:28 UTC by replace_markdown: 0 open changes, 0 comments; not re-sent; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
+| 2026-11-12 (v3 2026-11-18) | [`campaign-docs/2026-11-18-doc-1-v3.md`](campaign-docs/2026-11-18-doc-1-v3.md) (current): 10 campaigns, Glassdoor reputation 1 to 3, Casual Connections 4, sector 5 to 8, PE investment 9, new in seat 10. Earlier: [v2](campaign-docs/2026-11-18-doc-1-v2.md), [v1](campaign-docs/2026-11-12-doc-1.md) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (v3 pushed 2026-11-18 12:28 UTC by replace_markdown, **sent to the client 2026-11-18 12:48 UTC**; 0 open changes, 0 comments; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
 | 2026-11-18 | [`campaign-docs/2026-11-18-doc-1-campaign-4-casual-connections.md`](campaign-docs/2026-11-18-doc-1-campaign-4-casual-connections.md): draft replacement for doc 1's Campaign 4 (Casual Connections, Bristol), **not applied** | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` (target) | waiting for another session's doc 1 edits to finish (Moe) |
 | 2026-11-18 | [`campaign-docs/2026-11-18-casual-connections-plan.md`](campaign-docs/2026-11-18-casual-connections-plan.md): internal Casual Connections plan v0 (senders, capacity, wave 1, draft copy, questions), not a campaign doc | `-` (not in tracking_clients) | internal draft for Moe, nothing built |
 | 2026-11-16 | [`campaign-docs/2026-11-16-mql-concepts-discussion.md`](campaign-docs/2026-11-16-mql-concepts-discussion.md): internal discussion of 5 MQL (reply-first) concepts, not a campaign doc | `-` (not in tracking_clients) | internal discussion, nothing built or sent |
@@ -78,6 +78,10 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## History
 
+- **2026-11-18**: **Doc 1 v3 sent to the client (status change: re-sent, `client_review`).**
+  - **How:** Moe said "send this to the client". Sent with `send_campaign_doc_to_client` at 12:48 UTC; `notified_client.ok` = true, so the portal link was posted in DNA's Slack.
+  - **Note posted with the link:** "We've updated the plan. Campaigns 1 to 3 now lead, using about 1,400 employers whose own staff rate them below average, with a different promise for the CEO, the people leader and the talent lead. Campaign 4 is the new Bristol casual connections campaign from John and Eoin. Please let us know which offers at the end you're happy to make."
+  - **Next:** answer John's comments with `review_campaign_doc`, never `replace_markdown`. Every guarantee in Offers 4, 5, 8 and 9 needs his sign-off. (session_013MzxQfS4USBg3GQoTHx9Ai)
 - **2026-11-18**: **Doc 1 v3: Casual Connections is Campaign 4, replacing Mergers and New Leadership (Law and Accounting) (Moe: "Replace the 7th").**
   - **Change:** I did it in this session rather than the Casual Connections one, because there's no channel to message that session. Built on v2, re-read first: 0 changes, 0 comments. Pushed with `replace_markdown` (confirm). The live doc has 356 paragraphs, matching the file.
   - **New order:**
