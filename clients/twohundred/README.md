@@ -170,12 +170,12 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
   - **Results (all 14 checked):**
     - Keep: Chavali Praneeth (265480). Its position line needs fixing.
     - Fix, then keep: Joanna Alipio (185097), whose position is at Reco Legal.
-    - Milca Lavarias (243800): Moe confirmed on 2026-11-18 that she is branded correctly; the screenshot was older. Keep.
-    - Remove 11:
-      - Branded for ReCo.Legal: Delosjene, Marjorie, Ralph John, Brett, Shiela Mae, Erika, Eianne.
+    - Milca Lavarias (243800) and Erika Stefani (182761): Moe confirmed on 2026-11-18 that both are branded correctly; the screenshots were older. Keep.
+    - Remove 10:
+      - Branded for ReCo.Legal: Delosjene, Marjorie, Ralph John, Brett, Shiela Mae, Eianne.
       - Show the Algo Acquisition agency: Kimberly, Markim.
       - Personal profiles: Kirky, Christine Joy.
-    - Capacity: 2 usable senders now (Chavali, Milca) and 3 after Joanna is fixed, for 3,364 leads.
+    - Capacity: 3 usable senders now (Chavali, Milca, Erika) and 4 after Joanna is fixed, for 3,364 leads.
   - **Also flagged:**
     - Sales Nav is not connected on any account.
     - No sign-in is broken.
