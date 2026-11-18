@@ -107,7 +107,23 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - `campaign-ideas.md`: GigWorx Campaign Ideas, six signal-led LinkedIn campaigns, modelled on the Nextwo RaaS campaign-ideas doc. Uploaded to `tracking_clients` as campaign doc `4d41ad80-0451-4524-bf83-819a4418be7b` (draft, not shared with the client). Sent to the client on 2026-11-05 (status `client_review`). Which campaigns run is decided on the pre-launch call.
 - `client-analysis.md`: full analysis of the onboarding form, ICP, market size, competitors and messaging, plus the questions for the pre-launch call (2026-11-05).
 
+## C7 Multiple Open Roles — LIVE in HeyReach (2026-11-18)
+
+- **HeyReach campaign:** `US | C7 Multiple Open Roles | GigWorx |Moe v1`, id **743845**, status IN_PROGRESS since 2026-11-18 13:26 UTC.
+- **List:** `US | C7 Multiple Open Roles | GigWorx |Moe v1`, id **1185139**, 564 leads: all of `2026-11-17-leads.csv` + `2026-11-17-2-leads.csv`.
+- **Sender:** Mathew Welsch (`276172`); the only account in the workspace, shared with C1–C6.
+- **Schedule:** 7 days (Mon–Sun), 08:30–17:30, timezone `Eastern Standard Time`. This follows the 7-day rule; the window matches the earlier GigWorx launch payload.
+- **Settings:** `excludeInOtherCampaigns: true`, so the 44 leads already loaded in C1–C6 HeyReach lists are skipped by HeyReach. The other 60 C7 leads that appear in C1–C6 repo files were never loaded there, so they are contacted only by C7. Lead and company blacklists apply.
+- **Sequence:** cloned from C1 (739134), i.e. Mathew's approved copy: connection request, then +1 / +4 / +7 day messages and the comped-first-shift offer. **Only message 1 was changed**, to "saw {company_name} has {open_roles} roles open right now, including {role_title}", because C1's "{other_roles} other hourly roles" wording is wrong for companies hiring mostly non-hourly roles.
+- **Custom fields:** `company_name`, `role_title` (the most-posted hourly Indeed title at that company, cleaned; blank for 184 leads so they get the approved fallback copy), `posted_month`, `open_roles`, `other_roles`. Payload: `sourcing/c7-multiple-open-roles/2026-11-18-heyreach-payload.json`.
+- **tracking_clients:** no C7 campaign record yet; create one and link HeyReach 743845.
+
 ## History
+
+- **2026-11-18** — **C7 launched in HeyReach** on the repo owner's instruction ("Add all 564 and make them live"). That instruction stands in for the campaign-doc approval step; **Mathew has not reviewed C7 specifically**, but its copy is his approved C1 copy with message 1 reworded (see the C7 section above). Campaign 743845, list 1185139, 564 leads, 7 days 08:30–17:30 Eastern, sender 276172.
+  - Capacity note: one sender at about 25 connection requests a day, shared with C1/C5 (live) and C2/C3/C4/C6 (paused), so 564 leads take several weeks.
+  - Also corrected: the 2026-11-12 "blocked, no LinkedIn sender" note below is stale. Mathew's account (276172) is connected, and C1–C6 HeyReach campaigns (739134–739138, 739110) were created 2026-11-17 by another session. On 2026-11-18: C1 and C5 IN_PROGRESS; C2, C3, C4, C6 PAUSED.
+  - Session: branch `claude/practical-darwin-ejgil8`.
 
 - **2026-11-17** — **C7 decision makers expanded with Spider Cloud web research** (expanding the C7 segment), at the owner's request. 154 thin companies were researched in GTM Sheets; 93 sourced people with LinkedIn URLs went to `-2-leads.csv`, and 34 without one went to `-2-leads-unverified.csv`. **C7 totals: 564 keyed decision makers (+34 unverified) at 199 of the 236 companies**; 37 companies still have nobody publicly findable. Overlap: 3 also in C1 `-2`, 1 in C1, 1 in C4 `-2`. Session: branch `claude/practical-darwin-ejgil8`.
 
