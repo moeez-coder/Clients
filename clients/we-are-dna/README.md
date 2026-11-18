@@ -52,7 +52,7 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 | Date | Doc | tracking_clients id | Status |
 |---|---|---|---|
-| 2026-11-12 | [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md): 10 campaigns (5 open-role MPC + 5 trigger) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (re-sent 2026-11-13 after John's open-role feedback; 221 open suggested changes and 2 open comments as of 2026-11-17, pending the client's accept/reject; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
+| 2026-11-12 (v2 2026-11-18) | [`campaign-docs/2026-11-18-doc-1-v2.md`](campaign-docs/2026-11-18-doc-1-v2.md) (current): 10 campaigns, Glassdoor reputation 1 to 3 (three personas, one list), sector 4 to 8, PE investment 9, new in seat 10. v1: [`campaign-docs/2026-11-12-doc-1.md`](campaign-docs/2026-11-12-doc-1.md) | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` | `client_review` (v2 pushed 2026-11-18 by replace_markdown: 0 open changes, 0 comments; not re-sent; [portal](https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=fed8e905-ea1c-4a91-ade7-0da0f7f732a6)) |
 | 2026-11-18 | [`campaign-docs/2026-11-18-doc-1-campaign-4-casual-connections.md`](campaign-docs/2026-11-18-doc-1-campaign-4-casual-connections.md): draft replacement for doc 1's Campaign 4 (Casual Connections, Bristol), **not applied** | `fed8e905-ea1c-4a91-ade7-0da0f7f732a6` (target) | waiting for another session's doc 1 edits to finish (Moe) |
 | 2026-11-18 | [`campaign-docs/2026-11-18-casual-connections-plan.md`](campaign-docs/2026-11-18-casual-connections-plan.md): internal Casual Connections plan v0 (senders, capacity, wave 1, draft copy, questions), not a campaign doc | `-` (not in tracking_clients) | internal draft for Moe, nothing built |
 | 2026-11-16 | [`campaign-docs/2026-11-16-mql-concepts-discussion.md`](campaign-docs/2026-11-16-mql-concepts-discussion.md): internal discussion of 5 MQL (reply-first) concepts, not a campaign doc | `-` (not in tracking_clients) | internal discussion, nothing built or sent |
@@ -78,6 +78,27 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## History
 
+- **2026-11-18**: **Doc 1 rewritten: the three Glassdoor campaigns replace old Campaigns 8, 9 and 10 and move to the top (Moe's call).**
+  - **Why:**
+    - Old 8 (Reputation and Retention) used the same signal, now measured: 1,384 companies.
+    - Old 9 (Growth, M&A, Rebrands) and old 10 (Careers Site Refresh) had unmeasured signals and overlapped other campaigns.
+  - **Why a full rewrite:** a `review_campaign_doc` insert can't create headings. A test insert landed as raw text inside a bullet (change 223), and I rejected it at once. So Moe chose a full rewrite (`update_campaign_doc` `replace_markdown`, confirm) over a tracked in-place swap.
+  - **What the rewrite did to doc 1:**
+    - It accepted all 221 open tracked changes as final.
+    - It removed the client's 2 comments, both test text ("XYZ", "sdijada").
+    - Status stays `client_review`, shared, **not re-sent**.
+  - **New layout:**
+    - Campaigns 1 to 3: employer reputation. 1 is CEO/MD (24-month payback, DHU); 2 is people leaders (a quarter off unwanted turnover, MAN/Glendola); 3 is TA leaders at 201+ (half off agency spend, MAN). Each has a `### Signal and data` section.
+    - Old 1 to 7 are now 4 to 10.
+  - **Offers:**
+    - Offer 4's guarantee is now a quarter within 18 months, and Offer 5's payback is now 24 months (conservative numbers from the offer skill).
+    - Offers 8 (reputation snapshot) and 9 (half off agency spend in 18 months) are new.
+  - **Repo copy:** `campaign-docs/2026-11-18-doc-1-v2.md`, byte-identical to what was pushed. v1 is kept.
+  - **Watch:**
+    - Old Campaign 6 (PE) is now **Campaign 9**, but tracking_clients campaign `6ce9ac82-…` and its name still say "C6".
+    - Casual Connections was also meant to replace a doc 1 campaign; that choice is still open.
+    - Contacts per persona for Campaigns 1 to 3 are not yet measured.
+    - The draft `campaign-docs/2026-11-18-glassdoor-persona-campaigns.md` is superseded by v2. (session_013MzxQfS4USBg3GQoTHx9Ai)
 - **2026-11-18**: **Casual Connections goes into doc 1 as Campaign 4** (Moe: "add in the 4th place"). It replaces "Mergers and New Leadership, Top 100 Law and Accounting Firms".
   - **Not applied yet:** Moe said to wait, because another session is editing doc 1 now.
   - **Ready to apply:**
