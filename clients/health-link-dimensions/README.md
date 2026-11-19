@@ -112,6 +112,7 @@ Synced 2026-11-19 for both C1 and C9 (C9: segment `efba1aca-7103-4c26-a917-66a16
 
 ## History
 
+- **2026-11-19 15:35 UTC**: **Final push sweep: both campaigns fully loaded** (session `session_013MzxQeLxrp2aPyVTnp1YUd`, scheduled sweep). HeyReach C1 `747212`: 1,060 leads (237 in progress, 818 pending, 5 failed). C9 `747297`: 1,032 leads (275 in progress, 746 pending, 4 failed, 1 excluded by blacklist, and the 6 Deerfield Group leads confirmed manually stopped). Still held in GTM: Publicis Health (10, waiting on Moe's call), plus blank-name and non-fit rows.
 - **2026-11-19**: **C1 and C9 expanded past 1,000 leads each** (Moe: "we need atleast 1000 leads in each campaign", then "that is fine" to the plan; session `session_013MzxQeLxrp2aPyVTnp1YUd`). Expanding existing segments.
   - **C1, 1,063 leads.** Cap raised to 30 at the 9 big-pharma companies (+225, from the cache). Added 51–200 employee biotechs: 412 companies, 89 Rx-fit, +218 leads at cap 5. Topped up the other fit companies to 10 (+188). Files: `leads-4`, `leads-5`, `small-*`.
   - **C9, 1,042 loaded and 1,026 sendable.** Widened the titles at the 269 fit agencies (+361 after filtering). Files: `leads-2`, `leads-2-filtered`, `wide-blitz-people-cache.json`.
