@@ -44,13 +44,16 @@ Portal link: https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=1f2e427
 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
-| `-` | `-` | `-` | `-` | `-` | `-` | `-` |
+| C1 Brand Marketing: Blitz people search + GTM Rx fit (2026-11-19) (`0c33f341-8d76-4a55-a79b-e49956afa7aa`) | C1 Pharma Brand Marketing (Doc 2) (`767826c6-f927-42c6-ba50-b7e6c4e7bd6c`) | Pharma / Biotech | ready | US \| Pharma \| C1 Brand Marketing \| v1 (`7c26af94-1a44-405c-b1e9-45bdf3258931`, running, HeyReach `747212`) | `-` (leads are in GTM, not ingested) | `-` (GTM Sheets workbook `11915594-8092-4954-95e1-ff4dcaeebd78`) |
 
-No ICP configs, sourcing configs or campaigns exist in tracking_clients as of 2026-11-09. By the tracking_clients rule, none should exist until the client approves a campaign doc.
+Synced 2026-11-19 via `create_icp_config`, `create_sourcing_config`, `create_campaign`, `link_platform_campaign` and `move_campaign`, all called in this session.
+- **Segment and persona:** segment `5caf1726-edab-4915-a146-c302386e5e67`, persona `071da678-c28f-4c94-be23-2575a93e9843`.
+- **Lead list:** static, with `campaign_split: false` (Moe: "No split").
+- **Client approval:** none. The client has not approved Doc 2, and Moe skipped approval for the first launches.
 
 ## Sourced data in this repo
 
-**Campaign 1: Pharma Brand Marketing (Doc 2).** New segment. No tracking_clients sourcing config (config `-`); see the query file for why. Tool: Blitz API `POST /v2/search/people`. Pulled 2026-11-19. Full method: `sourcing/c1-brand-marketing/2026-11-19-leads.query.md`.
+**Campaign 1: Pharma Brand Marketing (Doc 2).** New segment. Lead list *C1 Brand Marketing: Blitz people search + GTM Rx fit (2026-11-19)* (`0c33f341-8d76-4a55-a79b-e49956afa7aa`), created after the pull when Moe asked for the campaign to be live in tracking_clients. Tool: Blitz API `POST /v2/search/people`. Pulled 2026-11-19. Full method: `sourcing/c1-brand-marketing/2026-11-19-leads.query.md`.
 
 - `sourcing/c1-brand-marketing/2026-11-19-leads.csv`: 733 leads. Pull 1, at Doc 2's original cap of 2 per company (5 at 10001+).
 - `sourcing/c1-brand-marketing/2026-11-19-companies.csv`: 412 companies. These went to the GTM *Rx Brand Fit* check, and 119 passed.
@@ -96,7 +99,7 @@ No ICP configs, sourcing configs or campaigns exist in tracking_clients as of 20
 
 ## History
 
-- **2026-11-19**: **Campaign 1 (Pharma Brand Marketing) built in GTM Sheets + HeyReach (launch status below)** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, session `session_013MzxQeLxrp2aPyVTnp1YUd`). New segment. Moe: "Do one at a time and make one live first", so C1 goes first and C9 follows.
+- **2026-11-19**: **Campaign 1 (Pharma Brand Marketing) launched: GTM Sheets + HeyReach + tracking_clients** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, session `session_013MzxQeLxrp2aPyVTnp1YUd`). New segment. Moe: "Do one at a time and make one live first", so C1 goes first and C9 follows.
   - **Structure (Moe chose this over the 4-campaign Vertical Launch):** one HeyReach campaign, *US | Pharma | C1 Brand Marketing | v1* (`747212`, list `1189465`).
     - All 8 HLD senders.
     - A blank connection request, withdrawn after 25 days.
@@ -113,6 +116,8 @@ No ICP configs, sourcing configs or campaigns exist in tracking_clients as of 20
   - **Slips, fixed:**
     - People-level fields first read computed columns through the lookup, which come back empty, so Research was skipped. Message 3 only required First Name, so it was drafted without research for about 370 rows (wasted Opus spend, about $2).
     - Fix: re-pointed the fields to the raw record paths, made all message columns require the research outputs, and re-ran everything.
+  - **Launched:** HeyReach `747212` started 2026-11-19 12:55 UTC (IN_PROGRESS). The first lead was pushed and its custom fields checked in HeyReach, then the rest were pushed as their messages finished.
+  - **tracking_clients:** Moe said "Make it live in tracking clients aswell". This session created the ICP config, segment, persona, lead list and campaign (IDs in the Sourcing configs table), linked HeyReach `747212` and moved the campaign to **running**.
   - **Housekeeping:** the old launch session `session_013MzxQg3nJX88Ucm6tmv4To` was archived. It had the old copy and never built anything.
 - **2026-11-19**: **Campaigns 1 and 9 rewritten: no connection note, no open-role hook** (doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeLxrp2aPyVTnp1YUd`).
   - **Moe:** "Open role i think is not a good relevancy point in case of this client." He asked for Message 1 to read "{First Name}, Thanks for connecting. [something to personalise with] [a genuine question]", and for the connection request message to be removed.
