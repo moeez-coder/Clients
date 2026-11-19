@@ -108,7 +108,7 @@ No ICP configs, sourcing configs or campaigns exist in tracking_clients as of 20
     - **C1 People** (`7576f0ac-3f74-45f7-bb07-7c04c0d754bf`): a lookup into Companies, and *Research* (gpt-6.1-terra with web, gated on Company Fit = yes). Research picks the person's level, a personalisation tier, a line and the best question for their level, using the persona deck worries.
     - **Messages 1, 2 and 3** in C1 People are written by `anthropic/claude-opus-5.5`. *Push to HeyReach* sends `message1`, `message2` and `message3` as custom fields, and only fires when all three exist.
     - **C1 People Inbox** (`18181eef-20e2-438a-9419-75c84f0eff79`): a webhook intake that de-dupes on LinkedIn URL and forwards new leads to C1 People.
-  - **HeyReach company blacklist:** 252 name entries, built from the 198 DNC accounts, the known clients and cleaned name variants. The campaign excludes both the lead and company blacklists.
+  - **HeyReach company blacklist:** 256 entries, built from the 198 DNC accounts, the known clients, the legacy MedImmune and Zeneca pages and cleaned name variants. tracking_clients DNC was merged to 217, adding the known clients and the legacy AstraZeneca pages; before this the GTM Exclusion list refill had dropped the known clients. The campaign excludes both the lead and company blacklists.
   - **Cap: Moe, "10 if less number of people are found and 5 if more".** C1 is a large pool (2,582 people at 117 companies), so the cap is 5 per company. Live list: 432 leads.
   - **Slips, fixed:**
     - People-level fields first read computed columns through the lookup, which come back empty, so Research was skipped. Message 3 only required First Name, so it was drafted without research for about 370 rows (wasted Opus spend, about $2).
