@@ -10,7 +10,7 @@
 - **HeyReach workspace:** `170993` (`heyreachConnected: true`)
 - **Staff:** campaign strategist Moeez; infrastructure John Paul; closer Rueban; GTM engineer `-` (unassigned); sourcing engineer `-` (unassigned)
 - **Booking link:** https://healthlinkdimensions.chilipiper.com/me/algoacquistion-algoacquistion (set in tracking_clients since the last sync; was empty)
-- **DNC list:** 0 entries (`dncSkipped: false`, so not yet supplied rather than waived)
+- **DNC list:** 210 entries, uploaded 2026-11-19 with `update_client_dnc` (merge into an empty list): 198 unique accounts from `context/2026-11-12-dnc-accounts.csv` (199 rows, Ionis Pharma listed twice) plus the 12 named contacts from `context/2026-11-12-dnc-named-contacts.csv`. The named contacts carry their agency in `agency_note`, not `company`, so their agencies stay open.
 - **Infrastructure:** `{"vaSeatCount": 10}` (changed from `{}` since the 2026-11-09 sync)
 - **Created in tracking_clients:** 2026-10-26 (by sales)
 - **Tracking client ID:** `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`
@@ -32,7 +32,7 @@ Verbatim copies of tracking_clients `get_client` fields, pulled 2026-11-09. Each
 | Doc | tracking_clients doc id | Status | Repo copy |
 |---|---|---|---|
 | HealthLink Dimensions Campaign Plan, Doc 1 (10 campaigns) | `1f2e4277-1a09-445e-8684-75cc542ab003` | `client_review` (re-sent 2026-11-18; agency Campaigns 5 and 10 replaced by persona campaigns as tracked changes) | `campaign-docs/2026-11-09-doc-1.md` |
-| HealthLink Dimensions Campaign Plan, Doc 2 (12 persona campaigns, replaces Doc 1) | `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9` | `draft`, hidden from the client; not to be sent (Moe, 2026-11-18) | `campaign-docs/2026-11-18-doc-2.md` |
+| HealthLink Dimensions Campaign Plan, Doc 2 (12 persona campaigns, replaces Doc 1) | `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9` | `draft`, hidden from the client. Sizes and copy fixes added 2026-11-19. Moe said to skip client approval for the first two launches | `campaign-docs/2026-11-18-doc-2.md` (updated in place 2026-11-19, matches the tracking_clients doc) |
 
 Internal discussion drafts (not in tracking_clients, not sent to the client):
 
@@ -78,7 +78,29 @@ No lead or company snapshots yet. A pull can only happen after the client approv
   - `sourcing/tam/2026-11-18-doc-2-fda-drug-approvals.csv`: 393 rows, openFDA `drug/drugsfda` novel approvals and efficacy supplements, 2025-11-01 to 2026-11-18.
   - Scripts `sourcing/tam/doc2_*.py`, `dnc.py`, `prospeo_probe.py` and their raw JSON outputs `2026-11-18-doc-2-*.json`. The file list is in section 12 of the query file.
 
+- `sourcing/tam/2026-11-19-ctgov-phase3-sponsors-companies.query.md`: ClinicalTrials.gov Phase 3 sponsors, config `-`, pulled 2026-11-19, ClinicalTrials.gov API v2 `GET /api/v2/studies` (free). Near-launch list for Doc 2 Campaigns 1 to 5 and early warning for Campaign 6.
+  - `sourcing/tam/2026-11-19-ctgov-phase3-sponsors-companies.csv`: 384 rows, one per lead sponsor, with a DNC/client flag (14 flagged).
+  - `sourcing/tam/2026-11-19-ctgov-phase3-trials.csv`: 898 rows, one per trial.
+  - Script `sourcing/tam/ctgov_phase3.py`. Also in GTM Sheets: workbook "ClinicalTrials.gov Phase 3 sponsors (2026-11-19)", table "Phase 3 sponsors" (384 rows).
+
 ## History
+
+- **2026-11-19**: **DNC uploaded; ClinicalTrials.gov sponsors pulled; Doc 2 updated with sizes; Moe skips client approval for the first launches** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeLxrp2aPyVTnp1YUd`).
+  - **Moe's decision:** "We will skip the approval for now." The first two live campaigns go out without the client signing Doc 1 or Doc 2. Recommended pair: Campaign 1 (Pharma Brand Marketing) and Campaign 9 (Agency Leadership). The HeyReach build is handed to a new session, because the HealthLink Dimensions HeyReach connector only appeared mid-session.
+  - **DNC (Moe: "Take the DNC from the Slack chat and upload it"):**
+    - tracking_clients `update_client_dnc` (merge), 210 entries: 198 accounts and 12 named contacts.
+    - GTM Sheets "Exclusion list" workbook: 203 company rows (the 198 DNC accounts, plus AstraZeneca, Alexion, Allergan, Kite Pharma and EVERSANA as known clients). The table did not refill itself after the tracking_clients update, so the rows were inserted by hand.
+    - The 12 named contacts are a separate "DNC named contacts (person only)" table, so their agencies (WPP, Omnicom, VML, 22Squared, Havas, Publicis) are not blocked.
+    - AstraZeneca, a known client, is not on the Slack DNC list. It is excluded in our lists, but HLD should confirm it.
+  - **ClinicalTrials.gov:** Moe asked whether the MeetLife / MX Life Sciences clinical-trials scraping was relevant to HLD. It is, as a near-launch and new-indication signal (not for investigators). 898 Phase 3 trials and 384 sponsors; files and GTM Sheets table are listed under Sourced data.
+  - **Doc 2 updated** in tracking_clients (22 tracked edits, all accepted, still a hidden `draft`) and in the repo copy:
+    - sizes for all 12 campaigns
+    - contacts per company, with higher caps at the largest pharma companies
+    - the ClinicalTrials.gov near-launch rule (Campaigns 1 to 5) and early warning (Campaign 6)
+    - fact-check fixes: IMAAVY's wAIHA indication is approved; SEPHIENCE is at "over 90%" of centers
+    - launch order changed to Campaigns 1 and 9 first
+  - **Correction to the 2026-11-18 sizing:** the DNC matcher missed "SOLVE(D), a division of IPG Health" (and would have missed "Ionis Pharmaceuticals"). `dnc.py` is fixed, and the corrected agency numbers are in section 14 of the sizing query file. Investment is now 31 people at 12 agencies, Planning 271 at 91, D&A 226 at 91, and Leadership 938 at 352.
+  - **Process slip, caught and reverted:** a re-run of `doc2_export_csv.py` overwrote the dated `2026-11-18-doc-2-hiring-companies.csv`. It was restored from git before commit (append-only rule).
 
 - **2026-11-18**: **Campaign Doc 2 sized, all 12 campaigns** (doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, config `-`). File: `sourcing/tam/2026-11-18-doc-2-sizing.query.md`. Session `session_013MzxQeLxrp2aPyVTnp1YUd`.
   - **Why:** Moe asked for sizing of every segment in Doc 2, using all tools and cross-checking between them. This is for Doc 2, not Doc 1.

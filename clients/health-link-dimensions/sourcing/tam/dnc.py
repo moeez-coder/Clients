@@ -6,7 +6,9 @@ import csv, re, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 SUFFIX = {"inc", "llc", "corp", "corporation", "co", "ltd", "limited", "lp", "plc", "the", "sa", "sarl", "us", "usa", "fka", "aka"}
 def norm(s):
-    s = re.sub(r"\(.*?\)", " ", (s or "").lower()).replace("&", " and ").replace("+", " and ")
+    s = re.split(r",? a division of |,? powered by |,? an? \w+ company\b", (s or "").lower())[0]
+    s = re.sub(r"\(d\)", "d", s)   # SOLVE(D) -> solved, not solve
+    s = re.sub(r"\(.*?\)", " ", s).replace("&", " and ").replace("+", " and ")
     return [t for t in re.sub(r"[^a-z0-9 ]", " ", s).split() if t not in SUFFIX]
 def load_keys():
     names = [r[0] for r in csv.reader(open(os.path.join(HERE, "../../context/2026-11-12-dnc-accounts.csv"))) if r and r[0] != "account_name"]
@@ -32,7 +34,8 @@ def match(name):
     for r in ("cadent medical", "prompt"):
         if j0.startswith(r): return {"dnc_source": r, "kind": "review", "review": True}
     for src, k, kind in KEYS:
-        if t[:len(k)] == k:
+        # first word must match exactly; later words may be abbreviated in the DNC row (Pharma -> Pharmaceuticals), 4+ chars
+        if len(t) >= len(k) and t[0] == k[0] and all(a == b or (len(b) >= 4 and a.startswith(b)) for a, b in zip(t[1:len(k)], k[1:])):
             return {"dnc_source": src, "kind": kind, "review": False}
     j = " ".join(t)
     for r in REVIEW:
