@@ -64,6 +64,13 @@ Synced 2026-11-19 via `create_icp_config`, `create_sourcing_config`, `create_cam
 - `sourcing/c1-brand-marketing/2026-11-19-blitz-people-cache.json`: 2,582 matched people at the fit companies, before the cap.
 - Script: `sourcing/tam/c1_leads_pull.py`. Blitz records used: 3 × 3,618.
 
+**Campaign 9: Agency Leadership (Doc 2).** New segment, no lead list yet (config `-`). Tool: Blitz API `POST /v2/search/people`. Pulled 2026-11-19. Method: `sourcing/c9-agency-leadership/2026-11-19-leads.query.md`.
+
+- `sourcing/c9-agency-leadership/2026-11-19-leads.csv`: 821 leads at 350 agencies. Cap 10, the small-pool case under Moe's rule.
+- `sourcing/c9-agency-leadership/2026-11-19-companies.csv`: 351 agencies. These are going through the GTM *Agency Fit* check.
+- `sourcing/c9-agency-leadership/2026-11-19-blitz-people-cache.json`: 896 matched people.
+- Script: `sourcing/tam/c9_leads_pull.py`. 899 Blitz records used.
+
 **Before Doc 2:** no lead or company snapshots were pulled for doc 1, because a pull could only happen after the client approved it. The sizing read is on disk:
 
 - `sourcing/tam/2026-11-09-tam-read.query.md`: the TAM/SAM read for the 5 doc-1 segments, with no config yet (config `-`).
@@ -99,6 +106,11 @@ Synced 2026-11-19 via `create_icp_config`, `create_sourcing_config`, `create_cam
 
 ## History
 
+- **2026-11-19**: **Campaign 9 (Agency Leadership) pull, in progress** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeLxrp2aPyVTnp1YUd`). New segment. C9 follows C1, per Moe's "make one live first and then make the other one".
+  - **Pull:** Blitz people search over the 351 health agencies left after the DNC filter in the sizing universe. 896 people found, 821 leads at a cap of 10 (small pool).
+  - **GTM:** *C9 Companies* rebuilt as a webhook table (`002ab742-560f-4cca-8bcd-cbd7c057ae24`) with Blitz enrichment and the *Agency Fit* AI check. 350 agencies posted.
+  - **C9 People (`04b15d47-589f-40a8-8a6f-aed331fc1a8c`):** got the same fixes as C1: raw lookup paths, Research gated on agency fit, and message columns that require the research outputs.
+  - **Next:** HeyReach campaign, push and tracking_clients registration.
 - **2026-11-19**: **Campaign 1 (Pharma Brand Marketing) launched: GTM Sheets + HeyReach + tracking_clients** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, session `session_013MzxQeLxrp2aPyVTnp1YUd`). New segment. Moe: "Do one at a time and make one live first", so C1 goes first and C9 follows.
   - **Structure (Moe chose this over the 4-campaign Vertical Launch):** one HeyReach campaign, *US | Pharma | C1 Brand Marketing | v1* (`747212`, list `1189465`).
     - All 8 HLD senders.
