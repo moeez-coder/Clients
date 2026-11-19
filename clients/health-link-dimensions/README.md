@@ -85,6 +85,16 @@ No lead or company snapshots yet. A pull can only happen after the client approv
 
 ## History
 
+- **2026-11-19**: **Campaigns 1 and 9 rewritten: no connection note, no open-role hook** (doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeLxrp2aPyVTnp1YUd`).
+  - **Moe:** "Open role i think is not a good relevancy point in case of this client." He asked for Message 1 to read "{First Name}, Thanks for connecting. [something to personalise with] [a genuine question]", and for the connection request message to be removed.
+  - **What changed:**
+    - Connection requests now go out blank.
+    - Message 1 is the thanks, a personalisation line and a question, with three tiers. Campaign 1 uses a brand event, then a Phase 3 readout, then the person's brand. Campaign 9 uses a client win, then agency news, then the agency's health focus.
+    - The pitch (Provider Insight Report for Campaign 1, a client-ready HCP audience brief for Campaign 9) moved to Message 2.
+    - Hiring is no longer a trigger for these two campaigns; the "new hire" closers are gone.
+  - **Applied** in tracking_clients (40 tracked edits, all accepted, still a hidden `draft`) and in `campaign-docs/2026-11-18-doc-2.md`. Campaigns 2 to 8 and 10 to 12 still use the hiring-signal copy, and the doc says so.
+  - **Launch session** `session_013MzxQg3nJX88Ucm6tmv4To` was told to use this copy.
+
 - **2026-11-19**: **DNC uploaded; ClinicalTrials.gov sponsors pulled; Doc 2 updated with sizes; Moe skips client approval for the first launches** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeLxrp2aPyVTnp1YUd`).
   - **Moe's decision:** "We will skip the approval for now." The first two live campaigns go out without the client signing Doc 1 or Doc 2. Recommended pair: Campaign 1 (Pharma Brand Marketing) and Campaign 9 (Agency Leadership). The HeyReach build is handed to a new session, because the HealthLink Dimensions HeyReach connector only appeared mid-session.
   - **DNC (Moe: "Take the DNC from the Slack chat and upload it"):**
