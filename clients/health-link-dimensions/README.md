@@ -63,6 +63,9 @@ Synced 2026-11-19 for both C1 and C9 (C9: segment `efba1aca-7103-4c26-a917-66a16
 - `sourcing/c1-brand-marketing/2026-11-19-leads-2.csv`: 477 leads. Pull 2, at a cap of 5/10. Superseded and never loaded.
 - `sourcing/c1-brand-marketing/2026-11-19-leads-3.csv`: 432 leads. Pull 3, at 5 per company. **This is the live list** in GTM *C1 People* and HeyReach campaign `747212`.
 - `sourcing/c1-brand-marketing/2026-11-19-blitz-people-cache.json`: 2,582 matched people at the fit companies, before the cap.
+- `sourcing/c1-brand-marketing/2026-11-19-leads-4.csv`: 657 leads (the live 432, plus 225 from raising big pharma to 30 each).
+- `sourcing/c1-brand-marketing/2026-11-19-leads-5.csv`: 406 leads (218 at 51–200 employee companies, plus 188 from topping up to 10). **C1 total 1,063.**
+- `sourcing/c1-brand-marketing/2026-11-19-small-blitz-people-cache.json`, `-small-companies.csv` (412 companies) and `-small-fit-company-slugs.txt` (89 passed): the 51–200 employee pull, via `sourcing/tam/c1_small_pull.py`.
 - Script: `sourcing/tam/c1_leads_pull.py`. Blitz records used: 3 × 3,618.
 
 **Campaign 9: Agency Leadership (Doc 2).** New segment. Lead list *C9 Agency Leadership: Blitz people search + GTM agency fit (2026-11-19)* (`4573aa11-738b-4bb2-a0f7-be90caaf82b4`). Tool: Blitz API `POST /v2/search/people`. Pulled 2026-11-19. Method: `sourcing/c9-agency-leadership/2026-11-19-leads.query.md`.
@@ -71,6 +74,7 @@ Synced 2026-11-19 for both C1 and C9 (C9: segment `efba1aca-7103-4c26-a917-66a16
 - `sourcing/c9-agency-leadership/2026-11-19-companies.csv`: 351 agencies. 350 went through the GTM *Agency Fit* check, and 269 passed.
 - `sourcing/c9-agency-leadership/2026-11-19-launch-leads.csv`: 681 leads at the 269 fit agencies. **This is the live list** in GTM *C9 People* and HeyReach campaign `747297`.
 - `sourcing/c9-agency-leadership/2026-11-19-blitz-people-cache.json`: 896 matched people.
+- `sourcing/c9-agency-leadership/2026-11-19-leads-2.csv`: 466 leads from the wider-title pull. `-leads-2-filtered.csv` has 361 after filtering; these were loaded. Also `-wide-blitz-people-cache.json` (1,207 people) and `-fit-agency-slugs.txt` (269 agencies). Script: `sourcing/tam/c9_wide_pull.py`. **C9 total 1,042 loaded.**
 - Script: `sourcing/tam/c9_leads_pull.py`. 899 Blitz records used.
 
 **Before Doc 2:** no lead or company snapshots were pulled for doc 1, because a pull could only happen after the client approved it. The sizing read is on disk:
@@ -108,6 +112,11 @@ Synced 2026-11-19 for both C1 and C9 (C9: segment `efba1aca-7103-4c26-a917-66a16
 
 ## History
 
+- **2026-11-19**: **C1 and C9 expanded past 1,000 leads each** (Moe: "we need atleast 1000 leads in each campaign", then "that is fine" to the plan; session `session_013MzxQeLxrp2aPyVTnp1YUd`). Expanding existing segments.
+  - **C1, 1,063 leads.** Cap raised to 30 at the 9 big-pharma companies (+225, from the cache). Added 51–200 employee biotechs: 412 companies, 89 Rx-fit, +218 leads at cap 5. Topped up the other fit companies to 10 (+188). Files: `leads-4`, `leads-5`, `small-*`.
+  - **C9, 1,042 loaded and 1,026 sendable.** Widened the titles at the 269 fit agencies (+361 after filtering). Files: `leads-2`, `leads-2-filtered`, `wide-blitz-people-cache.json`.
+  - **DNC slip:** Deerfield Group is the DNC account "Deerfield Agency", but `dnc.py` only flagged it for review. 6 of its leads reached HeyReach. They were stopped, added to the lead and company blacklists, excluded in the push formula and added to the tracking_clients DNC (now 218). Details in the C9 query file.
+  - **Blitz:** 724 + 1,397 records.
 - **2026-11-19**: **Campaign 9 (Agency Leadership) launched: GTM Sheets + HeyReach + tracking_clients** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeLxrp2aPyVTnp1YUd`). New segment. C9 follows C1, per Moe's "make one live first and then make the other one".
   - **Pull:** Blitz people search over the 351 health agencies left after the DNC filter in the sizing universe. 896 people found, 821 leads at a cap of 10 (small pool).
   - **GTM:** *C9 Companies* rebuilt as a webhook table (`002ab742-560f-4cca-8bcd-cbd7c057ae24`) with Blitz enrichment and the *Agency Fit* AI check. 350 agencies posted.
