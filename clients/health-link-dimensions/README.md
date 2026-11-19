@@ -50,7 +50,18 @@ No ICP configs, sourcing configs or campaigns exist in tracking_clients as of 20
 
 ## Sourced data in this repo
 
-No lead or company snapshots yet. A pull can only happen after the client approves doc 1. The sizing read is on disk:
+**Campaign 1: Pharma Brand Marketing (Doc 2).** New segment. No tracking_clients sourcing config (config `-`); see the query file for why. Tool: Blitz API `POST /v2/search/people`. Pulled 2026-11-19. Full method: `sourcing/c1-brand-marketing/2026-11-19-leads.query.md`.
+
+- `sourcing/c1-brand-marketing/2026-11-19-leads.csv`: 733 leads. Pull 1, at Doc 2's original cap of 2 per company (5 at 10001+).
+- `sourcing/c1-brand-marketing/2026-11-19-companies.csv`: 412 companies. These went to the GTM *Rx Brand Fit* check, and 119 passed.
+- `sourcing/c1-brand-marketing/2026-11-19-fit-company-slugs.txt`: 117 fit companies (119, minus 2 removed by hand).
+- `sourcing/c1-brand-marketing/2026-11-19-launch-leads.csv`: 235 pull-1 leads at the fit companies. These were the first leads loaded.
+- `sourcing/c1-brand-marketing/2026-11-19-leads-2.csv`: 477 leads. Pull 2, at a cap of 5/10. Superseded and never loaded.
+- `sourcing/c1-brand-marketing/2026-11-19-leads-3.csv`: 432 leads. Pull 3, at 5 per company. **This is the live list** in GTM *C1 People* and HeyReach campaign `747212`.
+- `sourcing/c1-brand-marketing/2026-11-19-blitz-people-cache.json`: 2,582 matched people at the fit companies, before the cap.
+- Script: `sourcing/tam/c1_leads_pull.py`. Blitz records used: 3 × 3,618.
+
+**Before Doc 2:** no lead or company snapshots were pulled for doc 1, because a pull could only happen after the client approved it. The sizing read is on disk:
 
 - `sourcing/tam/2026-11-09-tam-read.query.md`: the TAM/SAM read for the 5 doc-1 segments, with no config yet (config `-`).
   - Blitz API `POST /v2/search/companies` and `POST /v2/jobs/search`, counts only with `max_results: 1`, 15 records used.
@@ -85,6 +96,24 @@ No lead or company snapshots yet. A pull can only happen after the client approv
 
 ## History
 
+- **2026-11-19**: **Campaign 1 (Pharma Brand Marketing) built in GTM Sheets + HeyReach (launch status below)** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, session `session_013MzxQeLxrp2aPyVTnp1YUd`). New segment. Moe: "Do one at a time and make one live first", so C1 goes first and C9 follows.
+  - **Structure (Moe chose this over the 4-campaign Vertical Launch):** one HeyReach campaign, *US | Pharma | C1 Brand Marketing | v1* (`747212`, list `1189465`).
+    - All 8 HLD senders.
+    - A blank connection request, withdrawn after 25 days.
+    - `{message1}` 3 hours after acceptance (HeyReach raised the 1 hour we set), `{message2}` 3 days later, `{message3}` 4 days after that. The sequence stops on reply.
+    - Mon–Fri, 08:00–17:30 Eastern.
+    - The messages are written per lead in GTM Sheets before the push, so no Clay webhooks are needed.
+  - **GTM workbook** *HLD C1 Pharma Brand Marketing* (`11915594-8092-4954-95e1-ff4dcaeebd78`):
+    - **C1 Companies** (`34dbef44-6cbe-4540-8630-bde48ca16280`, webhook table): Blitz company enrichment, the exclusion-list lookup, and *Rx Brand Fit* (`openai/gpt-6.1-terra` with web access). 119 of 412 passed.
+    - **C1 People** (`7576f0ac-3f74-45f7-bb07-7c04c0d754bf`): a lookup into Companies, and *Research* (gpt-6.1-terra with web, gated on Company Fit = yes). Research picks the person's level, a personalisation tier, a line and the best question for their level, using the persona deck worries.
+    - **Messages 1, 2 and 3** in C1 People are written by `anthropic/claude-opus-5.5`. *Push to HeyReach* sends `message1`, `message2` and `message3` as custom fields, and only fires when all three exist.
+    - **C1 People Inbox** (`18181eef-20e2-438a-9419-75c84f0eff79`): a webhook intake that de-dupes on LinkedIn URL and forwards new leads to C1 People.
+  - **HeyReach company blacklist:** 252 name entries, built from the 198 DNC accounts, the known clients and cleaned name variants. The campaign excludes both the lead and company blacklists.
+  - **Cap: Moe, "10 if less number of people are found and 5 if more".** C1 is a large pool (2,582 people at 117 companies), so the cap is 5 per company. Live list: 432 leads.
+  - **Slips, fixed:**
+    - People-level fields first read computed columns through the lookup, which come back empty, so Research was skipped. Message 3 only required First Name, so it was drafted without research for about 370 rows (wasted Opus spend, about $2).
+    - Fix: re-pointed the fields to the raw record paths, made all message columns require the research outputs, and re-ran everything.
+  - **Housekeeping:** the old launch session `session_013MzxQg3nJX88Ucm6tmv4To` was archived. It had the old copy and never built anything.
 - **2026-11-19**: **Campaigns 1 and 9 rewritten: no connection note, no open-role hook** (doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeLxrp2aPyVTnp1YUd`).
   - **Moe:** "Open role i think is not a good relevancy point in case of this client." He asked for Message 1 to read "{First Name}, Thanks for connecting. [something to personalise with] [a genuine question]", and for the connection request message to be removed.
   - **What changed:**
