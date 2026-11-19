@@ -46,7 +46,8 @@ Portal link: https://dashboard.algoacquisition.ai/#/portal/campaigns?doc=1f2e427
 |---|---|---|---|---|---|---|
 | C1 Brand Marketing: Blitz people search + GTM Rx fit (2026-11-19) (`0c33f341-8d76-4a55-a79b-e49956afa7aa`) | C1 Pharma Brand Marketing (Doc 2) (`767826c6-f927-42c6-ba50-b7e6c4e7bd6c`) | Pharma / Biotech | ready | US \| Pharma \| C1 Brand Marketing \| v1 (`7c26af94-1a44-405c-b1e9-45bdf3258931`, running, HeyReach `747212`) | `-` (leads are in GTM, not ingested) | `-` (GTM Sheets workbook `11915594-8092-4954-95e1-ff4dcaeebd78`) |
 
-Synced 2026-11-19 via `create_icp_config`, `create_sourcing_config`, `create_campaign`, `link_platform_campaign` and `move_campaign`, all called in this session.
+| C9 Agency Leadership: Blitz people search + GTM agency fit (2026-11-19) (`4573aa11-738b-4bb2-a0f7-be90caaf82b4`) | C9 Agency Leadership (Doc 2) (`235fd4a5-a827-4dd5-8de0-5554a54098de`) | Healthcare / Pharma Agencies | ready | US \| Agency \| C9 Agency Leadership \| v1 (`4a5a19c0-1f8b-4c31-8323-f09a6826f7ed`, running, HeyReach `747297`) | `-` (leads are in GTM, not ingested) | `-` (GTM Sheets workbook `3788b8c3-b019-4691-8d1f-62fafe8ac939`) |
+Synced 2026-11-19 for both C1 and C9 (C9: segment `efba1aca-7103-4c26-a917-66a16c3238d8`, persona `4ab28eb0-fb84-4ef0-beed-e88ca288264e`, no split) via `create_icp_config`, `create_sourcing_config`, `create_campaign`, `link_platform_campaign` and `move_campaign`, all called in this session.
 - **Segment and persona:** segment `5caf1726-edab-4915-a146-c302386e5e67`, persona `071da678-c28f-4c94-be23-2575a93e9843`.
 - **Lead list:** static, with `campaign_split: false` (Moe: "No split").
 - **Client approval:** none. The client has not approved Doc 2, and Moe skipped approval for the first launches.
@@ -64,10 +65,11 @@ Synced 2026-11-19 via `create_icp_config`, `create_sourcing_config`, `create_cam
 - `sourcing/c1-brand-marketing/2026-11-19-blitz-people-cache.json`: 2,582 matched people at the fit companies, before the cap.
 - Script: `sourcing/tam/c1_leads_pull.py`. Blitz records used: 3 × 3,618.
 
-**Campaign 9: Agency Leadership (Doc 2).** New segment, no lead list yet (config `-`). Tool: Blitz API `POST /v2/search/people`. Pulled 2026-11-19. Method: `sourcing/c9-agency-leadership/2026-11-19-leads.query.md`.
+**Campaign 9: Agency Leadership (Doc 2).** New segment. Lead list *C9 Agency Leadership: Blitz people search + GTM agency fit (2026-11-19)* (`4573aa11-738b-4bb2-a0f7-be90caaf82b4`). Tool: Blitz API `POST /v2/search/people`. Pulled 2026-11-19. Method: `sourcing/c9-agency-leadership/2026-11-19-leads.query.md`.
 
 - `sourcing/c9-agency-leadership/2026-11-19-leads.csv`: 821 leads at 350 agencies. Cap 10, the small-pool case under Moe's rule.
-- `sourcing/c9-agency-leadership/2026-11-19-companies.csv`: 351 agencies. These are going through the GTM *Agency Fit* check.
+- `sourcing/c9-agency-leadership/2026-11-19-companies.csv`: 351 agencies. 350 went through the GTM *Agency Fit* check, and 269 passed.
+- `sourcing/c9-agency-leadership/2026-11-19-launch-leads.csv`: 681 leads at the 269 fit agencies. **This is the live list** in GTM *C9 People* and HeyReach campaign `747297`.
 - `sourcing/c9-agency-leadership/2026-11-19-blitz-people-cache.json`: 896 matched people.
 - Script: `sourcing/tam/c9_leads_pull.py`. 899 Blitz records used.
 
@@ -106,11 +108,15 @@ Synced 2026-11-19 via `create_icp_config`, `create_sourcing_config`, `create_cam
 
 ## History
 
-- **2026-11-19**: **Campaign 9 (Agency Leadership) pull, in progress** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeLxrp2aPyVTnp1YUd`). New segment. C9 follows C1, per Moe's "make one live first and then make the other one".
+- **2026-11-19**: **Campaign 9 (Agency Leadership) launched: GTM Sheets + HeyReach + tracking_clients** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, session `session_013MzxQeLxrp2aPyVTnp1YUd`). New segment. C9 follows C1, per Moe's "make one live first and then make the other one".
   - **Pull:** Blitz people search over the 351 health agencies left after the DNC filter in the sizing universe. 896 people found, 821 leads at a cap of 10 (small pool).
   - **GTM:** *C9 Companies* rebuilt as a webhook table (`002ab742-560f-4cca-8bcd-cbd7c057ae24`) with Blitz enrichment and the *Agency Fit* AI check. 350 agencies posted.
   - **C9 People (`04b15d47-589f-40a8-8a6f-aed331fc1a8c`):** got the same fixes as C1: raw lookup paths, Research gated on agency fit, and message columns that require the research outputs.
-  - **Next:** HeyReach campaign, push and tracking_clients registration.
+  - **Agency Fit:** 269 of 350 agencies passed. 81 failed, mostly legacy pages of agencies absorbed in the Omnicom/IPG consolidation (McCann Health, DDB Health, FCBCURE, ProHealth, HCG, Sudler & Hennessey) and non-pharma shops.
+  - **Launch list:** 681 leads at the fit agencies, after dropping noise titles and blank first names. None of the 12 named DNC contacts were in the list.
+  - **HeyReach:** *US | Agency | C9 Agency Leadership | v1* (`747297`, list `1189600`) has the same structure as C1: blank connection request, `{message1}`, `{message2}`, `{message3}`, all 8 senders (shared with C1, so LinkedIn daily limits are shared too) and Mon–Fri 08:00–17:30 ET. It was started 2026-11-19 13:07 UTC with 38 leads in, and the rest are pushed as their research and messages finish.
+  - **tracking_clients:** ICP config `235fd4a5`, lead list `4573aa11` (ready, no split) and campaign `4a5a19c0`, linked to `747297` and running.
+  - **Held for Moe:** the 10 *Publicis Health* leads are excluded from the push. Publicis Health is the parent of the DNC accounts Publicis Health Media and Insagic, and its research lines cited PHM news. They can be released by removing the `Company Name !== 'Publicis Health'` clause from the push column's run_if.
 - **2026-11-19**: **Campaign 1 (Pharma Brand Marketing) launched: GTM Sheets + HeyReach + tracking_clients** (client `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`, doc `fa54bc2b-ddcf-4fdd-9c71-ed512635f9c9`, session `session_013MzxQeLxrp2aPyVTnp1YUd`). New segment. Moe: "Do one at a time and make one live first", so C1 goes first and C9 follows.
   - **Structure (Moe chose this over the 4-campaign Vertical Launch):** one HeyReach campaign, *US | Pharma | C1 Brand Marketing | v1* (`747212`, list `1189465`).
     - All 8 HLD senders.
