@@ -164,6 +164,14 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-20**: **4 more senders added to the 4 active v2 campaigns, confirmed by Moe from HeyReach profile cards** (Moe: "Aside from angelyn pamisa, add all of the rest to all the active campaigns").
+  - **Added** with `set_campaign_senders`: Joanna Alipio (185097), Delosjene Encarnado (182788), Sheryl Yare (277636) and Joanne Alfonso (182870).
+  - **Campaigns:** C1 v2 (743543), C5 v2 (743545), C7 v2 (743546) and C6 v2 (743548). Each now has 8 senders and was confirmed IN_PROGRESS afterwards. C6 briefly read STARTING, then IN_PROGRESS.
+  - **Not added:**
+    - Angelyn Pamisa (277691), per Moe.
+    - lhaicalianga (277690), whose HeyReach sign-in is broken.
+    - C11 v2 (743550) got no senders because it is PAUSED (not paused by this session).
+  - Moe's confirmation overrides the 2026-11-20 web check and the 2026-11-18 screenshots for these accounts.
 - **2026-11-20**: **Web branding check of the workspace senders (GTM Sheets + Spider Cloud). It is unreliable, and no senders were added** (Moe: "Use gtm sheet and spider cloud to see which ones are branded correctly and add those to the campaign").
   - **Built:** workbook "twoHundred | Sender branding check" (`fdce20c8-9b53-4dbe-8cc4-f0f19e05d4cd`) with table "1. Senders" (`a811a803-b110-4db7-9f00-bb34a228c3d9`).
     - The rows come from `senders/2026-11-20-sender-candidates.csv`: the 10 accounts in workspace 172772 per `get_campaign_senders` on 2026-11-20.
