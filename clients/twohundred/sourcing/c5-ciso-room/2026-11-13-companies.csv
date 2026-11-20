@@ -1,0 +1,231 @@
+company_name,company_linkedin_url,domain,industry,size,hq_country,leads_found
+Capgemini,https://www.linkedin.com/company/capgemini,capgemini.com,IT Services and IT Consulting,10001+,FR,3
+Amazon Web Services (AWS),https://www.linkedin.com/company/amazon-web-services,amazon.com,IT Services and IT Consulting,10001+,US,3
+Tata Consultancy Services,https://www.linkedin.com/company/tata-consultancy-services,tcs.com,IT Services and IT Consulting,10001+,IN,3
+HCLTech,https://www.linkedin.com/company/hcltech,hcltech.com,IT Services and IT Consulting,10001+,IN,3
+Fujitsu,https://www.linkedin.com/company/fujitsu,fujitsu.com,IT Services and IT Consulting,10001+,JP,3
+Microsoft,https://www.linkedin.com/company/microsoft,microsoft.com,Software Development,10001+,US,3
+Salesforce,https://www.linkedin.com/company/salesforce,salesforce.com,Software Development,10001+,US,3
+IBM,https://www.linkedin.com/company/ibm,ibm.com,IT Services and IT Consulting,10001+,US,3
+Sopra Steria,https://www.linkedin.com/company/soprasteria,soprasteria.com,IT Services and IT Consulting,10001+,FR,3
+TDC Erhverv,https://www.linkedin.com/company/tdcerhverv,tdc.dk,IT Services and IT Consulting,1001-5000,DK,3
+Mendix,https://www.linkedin.com/company/mendix,mendix.com,Software Development,1001-5000,US,3
+ServiceNow,https://www.linkedin.com/company/servicenow,servicenow.com,Software Development,10001+,US,3
+Irdeto,https://www.linkedin.com/company/irdeto,irdeto.com,IT Services and IT Consulting,1001-5000,NL,3
+Vivicta,https://www.linkedin.com/company/vivictatech,vivicta.com,IT Services and IT Consulting,5001-10000,US,3
+DXC Technology,https://www.linkedin.com/company/dxctechnology,dxc.com,IT Services and IT Consulting,10001+,US,3
+Sogeti,https://www.linkedin.com/company/sogeti,sogeti.com,IT Services and IT Consulting,10001+,FR,3
+SAS,https://www.linkedin.com/company/sas,sas.com,Software Development,10001+,US,3
+Frequentis,https://www.linkedin.com/company/frequentis,frequentis.com,IT Services and IT Consulting,1001-5000,AT,3
+Leaseweb,https://www.linkedin.com/company/leaseweb,leaseweb.com,IT Services and IT Consulting,501-1000,NL,3
+HSO,https://www.linkedin.com/company/hso,hso.com,IT Services and IT Consulting,1001-5000,NL,3
+Kaseya,https://www.linkedin.com/company/kaseya,kaseya.com,Software Development,5001-10000,US,3
+Google,https://www.linkedin.com/company/google,goo.gle,Software Development,10001+,US,3
+Pax8,https://www.linkedin.com/company/pax8,pax8.com,Technology; Information and Internet,1001-5000,US,3
+Iron Mountain,https://www.linkedin.com/company/iron-mountain,ironmountain.com,IT Services and IT Consulting,10001+,US,3
+Innofactor,https://www.linkedin.com/company/innofactor-plc,innofactor.com,Software Development,501-1000,FI,3
+Team Rockstars IT,https://www.linkedin.com/company/teamrockstars,teamrockstars.nl,IT Services and IT Consulting,501-1000,NL,3
+Conscia,https://www.linkedin.com/company/conscia-group,conscia.com,IT Services and IT Consulting,1001-5000,DK,3
+Elastic,https://www.linkedin.com/company/elastic-co,elastic.co,Software Development,1001-5000,US,3
+NNIT,https://www.linkedin.com/company/nnit,nnit.com,IT Services and IT Consulting,1001-5000,DK,3
+Amesto,https://www.linkedin.com/company/amesto-group,amesto.no,IT Services and IT Consulting,501-1000,NO,3
+Init,https://www.linkedin.com/company/init,initgroup.com,Software Development,501-1000,DK,3
+"NTT DATA, Inc.",https://www.linkedin.com/company/ntt-data-inc,global.ntt,IT Services and IT Consulting,10001+,JP,3
+CGI,https://www.linkedin.com/company/cgi,cgi.com,IT Services and IT Consulting,10001+,CA,3
+Cisco,https://www.linkedin.com/company/cisco,cisco.com,Software Development,10001+,US,3
+T-Systems International,https://www.linkedin.com/company/t-systems,t-systems.com,IT Services and IT Consulting,10001+,DE,3
+ALSO Group,https://www.linkedin.com/company/alsogroup,also.com,IT Services and IT Consulting,1001-5000,CH,3
+Brivo,https://www.linkedin.com/company/brivo-inc,brivo.com,IT Services and IT Consulting,501-1000,US,3
+Red Hat,https://www.linkedin.com/company/red-hat,redhat.com,Software Development,10001+,US,3
+Atos,https://www.linkedin.com/company/atos,atos.net,IT Services and IT Consulting,10001+,FR,3
+Cato Networks,https://www.linkedin.com/company/cato-networks,catonetworks.com,Computer and Network Security,1001-5000,IL,3
+Insta,https://www.linkedin.com/company/insta-group-oy,insta.fi,IT Services and IT Consulting,1001-5000,FI,3
+Centric,https://www.linkedin.com/company/centric,centric.eu,IT Services and IT Consulting,5001-10000,NL,3
+Fireblocks,https://www.linkedin.com/company/fireblocks,fireblocks.com,Software Development,501-1000,US,3
+One Identity,https://www.linkedin.com/company/one-identity,oneidentity.com,Software Development,501-1000,US,3
+NiCE,https://www.linkedin.com/company/nice-systems,nice.com,Software Development,5001-10000,US,3
+Esprit ICT,https://www.linkedin.com/company/esprit-ict,esprit-ict.nl,IT Services and IT Consulting,501-1000,NL,3
+Cegeka,https://www.linkedin.com/company/cegeka,cegeka.com,IT Services and IT Consulting,5001-10000,BE,3
+WithSecure,https://www.linkedin.com/company/withsecure,withsecure.com,Computer and Network Security,1001-5000,FI,3
+Interstellar,https://www.linkedin.com/company/thisisinterstellar,interstellar.nl,IT Services and IT Consulting,501-1000,NL,3
+Datasite,https://www.linkedin.com/company/datasiteglobal,datasite.com,Software Development,1001-5000,US,3
+Netcompany,https://www.linkedin.com/company/netcompany-a-s,netcompany.com,IT Services and IT Consulting,5001-10000,DK,3
+Westcon-Comstor,https://www.linkedin.com/company/westconcomstor,westconcomstor.com,IT Services and IT Consulting,1001-5000,US,3
+Tech Mahindra,https://www.linkedin.com/company/tech-mahindra,techmahindra.com,IT Services and IT Consulting,10001+,IN,3
+Tieto,https://www.linkedin.com/company/tieto,tieto.com,Technology; Information and Internet,10001+,US,3
+Avanade,https://www.linkedin.com/company/avanade,avanade.com,IT Services and IT Consulting,10001+,US,3
+Check Point Software,https://www.linkedin.com/company/check-point-software-technologies,checkpoint.com,Computer and Network Security,5001-10000,US,3
+Illumio,https://www.linkedin.com/company/illumio,illumio.com,Computer and Network Security,501-1000,US,3
+NetNordic Norway,https://www.linkedin.com/company/netnordicnorge,netnordic.no,IT Services and IT Consulting,501-1000,NO,3
+Experis Norway,https://www.linkedin.com/company/experis-norge,experis.no,IT Services and IT Consulting,501-1000,NO,3
+Thales Cyber and Digital,https://www.linkedin.com/company/thalesdis,thalesgroup.com,IT Services and IT Consulting,10001+,FR,3
+Orange Business,https://www.linkedin.com/company/orange-business,orange-business.com,IT Services and IT Consulting,10001+,FR,3
+Keyfactor,https://www.linkedin.com/company/wearekeyfactor,keyfactor.com,Computer and Network Security,501-1000,US,3
+Wipro,https://www.linkedin.com/company/wipro,wipro.com,IT Services and IT Consulting,10001+,IN,3
+Canon EMEA,https://www.linkedin.com/company/canon-emea,canon-europe.com,IT Services and IT Consulting,10001+,GB,3
+Progress Software,https://www.linkedin.com/company/progress-software,progress.com,Software Development,1001-5000,US,3
+Marlink,https://www.linkedin.com/company/marlink,marlink.com,IT Services and IT Consulting,1001-5000,FR,3
+Akkodis Group Nordics,https://www.linkedin.com/company/akkodis-group-nordics,akkodis.com,IT Services and IT Consulting,1001-5000,NO,3
+itm8 Danmark,https://www.linkedin.com/company/itm8danmark,itm8.dk,IT Services and IT Consulting,1001-5000,DK,3
+Advania Norge,https://www.linkedin.com/company/advania-norge,advania.no,IT Services and IT Consulting,501-1000,NO,3
+Advania Sweden,https://www.linkedin.com/company/advania-sweden,advania.se,IT Services and IT Consulting,1001-5000,SE,3
+Arrow Electronics,https://www.linkedin.com/company/arrow-electronics,arrow.com,Technology; Information and Internet,10001+,US,3
+Saviynt,https://www.linkedin.com/company/saviynt,saviynt.com,Software Development,1001-5000,US,3
+F-Secure Corporation,https://www.linkedin.com/company/f-secure-corporation,f-secure.com,Computer and Network Security,501-1000,FI,3
+HCLSoftware,https://www.linkedin.com/company/hclsoftware,hcl-software.com,Software Development,10001+,IN,3
+Akamai Technologies,https://www.linkedin.com/company/akamai-technologies,akamai.com,Technology; Information and Internet,5001-10000,US,3
+AddSecure,https://www.linkedin.com/company/addsecure,addsecuregroup.com,IT Services and IT Consulting,1001-5000,SE,3
+Sectra,https://www.linkedin.com/company/sectra,sectra.com,IT Services and IT Consulting,1001-5000,SE,3
+BMC Software,https://www.linkedin.com/company/bmc-software,bmc.com,IT Services and IT Consulting,5001-10000,US,3
+Cegal,https://www.linkedin.com/company/cegalglobal,cegal.com,IT Services and IT Consulting,501-1000,NO,3
+VMware,https://www.linkedin.com/company/vmware,broadcom.com,Software Development,10001+,US,3
+Proact IT Group AB,https://www.linkedin.com/company/proact,proact.eu,IT Services and IT Consulting,1001-5000,SE,3
+Orange Cyberdefense,https://www.linkedin.com/company/orange-cyberdefense,orangecyberdefense.com,IT Services and IT Consulting,1001-5000,FR,3
+Combitech,https://www.linkedin.com/company/combitech-ab,combitech.se,IT Services and IT Consulting,1001-5000,SE,3
+Unisys,https://www.linkedin.com/company/unisys,unisys.com,IT Services and IT Consulting,10001+,US,3
+Ping Identity,https://www.linkedin.com/company/ping-identity,pingidentity.com,Software Development,1001-5000,US,2
+NETGEAR,https://www.linkedin.com/company/netgear,netgear.com,Software Development,1001-5000,US,2
+Noesis,https://www.linkedin.com/company/noesis-portugal,noesis-corporation.com,IT Services and IT Consulting,1001-5000,PT,2
+Thales Cybersecurity Products,https://www.linkedin.com/company/thalescloudsec,thalesgroup.com,Computer and Network Security,1001-5000,US,2
+Semperis,https://www.linkedin.com/company/semperis,semperis.com,Computer and Network Security,501-1000,US,2
+Infosys,https://www.linkedin.com/company/infosys,infosys.com,IT Services and IT Consulting,10001+,IN,2
+KnowBe4,https://www.linkedin.com/company/knowbe4,knowbe4.com,Computer and Network Security,1001-5000,US,2
+Genetec,https://www.linkedin.com/company/genetec,genetec.com,Software Development,1001-5000,CA,2
+Aeven,https://www.linkedin.com/company/aeven-group,aevengroup.com,IT Services and IT Consulting,1001-5000,DK,2
+T-Systems Nordic,https://www.linkedin.com/company/t-systems-nordic,t-systems.com,IT Services and IT Consulting,10001+,DK,2
+Wortell - Smart,https://www.linkedin.com/company/wortell-smart,wortell.nl,IT Services and IT Consulting,501-1000,NL,2
+Wind River,https://www.linkedin.com/company/wind-river,windriver.com,Software Development,1001-5000,US,2
+SoftServe,https://www.linkedin.com/company/softserve,softserveinc.com,IT Services and IT Consulting,10001+,US,2
+Aderian Group,https://www.linkedin.com/company/aderian,aderian.se,IT Services and IT Consulting,501-1000,SE,2
+GitLab,https://www.linkedin.com/company/gitlab-com,gitlab.com,IT Services and IT Consulting,1001-5000,US,2
+Juniper Networks,https://www.linkedin.com/company/juniper-networks,juniper.net,Software Development,5001-10000,US,2
+Kong,https://www.linkedin.com/company/konghq,konghq.com,Software Development,501-1000,US,2
+Sysdig,https://www.linkedin.com/company/sysdig,sysdig.com,Computer and Network Security,501-1000,US,2
+Group-IB,https://www.linkedin.com/company/group-ib,group-ib.com,Computer and Network Security,501-1000,SG,2
+Mastek,https://www.linkedin.com/company/mastek,mastek.com,IT Services and IT Consulting,5001-10000,GB,2
+Zoho,https://www.linkedin.com/company/zoho,zoho.com,Software Development,10001+,IN,2
+Lyvia Group,https://www.linkedin.com/company/lyvia-group,lyviagroup.com,Software Development,1001-5000,SE,2
+Qualys,https://www.linkedin.com/company/qualys,qualys.com,Computer and Network Security,1001-5000,US,2
+Nomios Netherlands,https://www.linkedin.com/company/nomios-netherlands,nomios.com,Computer and Network Security,501-1000,NL,2
+Insight,https://www.linkedin.com/company/insight,insight.com,IT Services and IT Consulting,10001+,US,2
+Nortal,https://www.linkedin.com/company/nortal,nortal.com,IT Services and IT Consulting,1001-5000,EE,2
+Infinigate Finland Oy,https://www.linkedin.com/company/infinigate-finland-oy,infinigate.com,Computer and Network Security,1001-5000,FI,2
+Infoblox,https://www.linkedin.com/company/infoblox,infoblox.com,Computer and Network Security,1001-5000,US,2
+NCR Corporation,https://www.linkedin.com/company/ncr-corporation,ncr.com,IT Services and IT Consulting,10001+,US,2
+SK tes,https://www.linkedin.com/company/sktes,sktes.com,IT Services and IT Consulting,1001-5000,SG,2
+NetApp,https://www.linkedin.com/company/netapp,netapp.com,Software Development,10001+,US,2
+Black Duck,https://www.linkedin.com/company/black-duck-software,blackduck.com,Software Development,5001-10000,US,2
+Extreme Networks,https://www.linkedin.com/company/extreme-networks,extremenetworks.com,Software Development,1001-5000,US,2
+Signicat,https://www.linkedin.com/company/signicat,signicat.com,IT Services and IT Consulting,501-1000,NO,2
+Ivanti,https://www.linkedin.com/company/ivanti,ivanti.com,Software Development,1001-5000,US,2
+OutSystems,https://www.linkedin.com/company/outsystems,outsystems.com,Software Development,1001-5000,US,2
+Eviden,https://www.linkedin.com/company/eviden,eviden.com,IT Services and IT Consulting,1001-5000,FR,2
+Trusted Shops,https://www.linkedin.com/company/trustedshops,trustedshops.com,Software Development,501-1000,DE,2
+Okta,https://www.linkedin.com/company/okta-inc-,okta.com,Software Development,5001-10000,US,2
+Informatica,https://www.linkedin.com/company/informatica,informatica.com,Software Development,5001-10000,US,2
+Descartes Systems Group,https://www.linkedin.com/company/descartes-systems-group,descartes.com,Software Development,1001-5000,CA,2
+Exclusive Networks Denmark A/S,https://www.linkedin.com/company/exclusive-networks-denmark,exclusive-networks.com,IT Services and IT Consulting,1001-5000,DK,2
+Kongsberg Digital,https://www.linkedin.com/company/kongsbergdigital,kongsberg.com,Software Development,501-1000,NO,2
+NAGRA,https://www.linkedin.com/company/nagra,nagra.vision,IT Services and IT Consulting,1001-5000,CH,2
+Keepit,https://www.linkedin.com/company/keepit-a-s,keepit.com,IT Services and IT Consulting,501-1000,DK,2
+Rhenus Office Systems,https://www.linkedin.com/company/rhenus-office-systems,rhenus.group,IT Services and IT Consulting,10001+,DE,2
+SoftwareOne,https://www.linkedin.com/company/softwareone,softwareone.com,IT Services and IT Consulting,5001-10000,CH,2
+Giesecke+Devrient,https://www.linkedin.com/company/giesecke-devrient,gi-de.com,IT Services and IT Consulting,10001+,DE,2
+NetNordic Sverige,https://www.linkedin.com/company/netnordicsverige,netnordic.se,Computer and Network Security,501-1000,SE,2
+IDEMIA,https://www.linkedin.com/company/idemiagroup,idemia.com,Software Development,10001+,FR,2
+Dimension Data,https://www.linkedin.com/company/dimension-data,dimensiondata.com,IT Services and IT Consulting,10001+,ZA,2
+Ingram Micro,https://www.linkedin.com/company/ingram-micro,ingrammicro.com,IT Services and IT Consulting,10001+,US,2
+CA Technologies,https://www.linkedin.com/company/ca-technologies,ca.com,Software Development,10001+,US,2
+Eagle Eye Networks,https://www.linkedin.com/company/eagleeyenetworks,een.com,IT Services and IT Consulting,501-1000,US,1
+Akkodis,https://www.linkedin.com/company/akkodis,akkodis.com,IT Services and IT Consulting,10001+,US,1
+Barracuda,https://www.linkedin.com/company/barracuda-networks,barracuda.com,Computer and Network Security,1001-5000,US,1
+Tenable,https://www.linkedin.com/company/tenableinc,tenable.com,Computer and Network Security,1001-5000,US,1
+7Generation,https://www.linkedin.com/company/7generation,7g.team,IT Services and IT Consulting,501-1000,KZ,1
+Bitsight,https://www.linkedin.com/company/bitsight,bitsight.com,Software Development,501-1000,US,1
+Intermedia Intelligent Communications,https://www.linkedin.com/company/intermedia,intermedia.com,IT Services and IT Consulting,1001-5000,US,1
+Linden-IT,https://www.linkedin.com/company/lindenit,linden-it.com,IT Services and IT Consulting,501-1000,NL,1
+Pure Storage,https://www.linkedin.com/company/purestorage,purestorage.com,IT Services and IT Consulting,5001-10000,US,1
+Mimecast,https://www.linkedin.com/company/mimecast,mimecast.com,Computer and Network Security,1001-5000,GB,1
+Beta Systems Software,https://www.linkedin.com/company/beta-systems-software-ag,betasystems.com,Software Development,501-1000,DE,1
+Virtusa,https://www.linkedin.com/company/virtusa,virtusa.com,IT Services and IT Consulting,10001+,US,1
+Darktrace,https://www.linkedin.com/company/darktrace,darktrace.com,Computer and Network Security,1001-5000,GB,1
+HashiCorp,https://www.linkedin.com/company/hashicorp,hashicorp.com,Software Development,1001-5000,US,1
+TEAM International,https://www.linkedin.com/company/team-international,teaminternational.com,IT Services and IT Consulting,1001-5000,US,1
+Soliton Systems,https://www.linkedin.com/company/soliton-systems-europe,solitonsystems.com,IT Services and IT Consulting,501-1000,NL,1
+ScanSource,https://www.linkedin.com/company/scansource,scansource.com,IT Services and IT Consulting,1001-5000,US,1
+Gateway Digital AS (A Gateway Group Company),https://www.linkedin.com/company/gateway-digital-as,thegatewaydigital.com,IT Services and IT Consulting,1001-5000,NO,1
+ConnectWise,https://www.linkedin.com/company/connectwise,connectwise.com,Software Development,1001-5000,US,1
+Proofpoint,https://www.linkedin.com/company/proofpoint,proofpoint.com,Computer and Network Security,1001-5000,US,1
+Proton,https://www.linkedin.com/company/protonprivacy,proton.me,Technology; Information and Internet,501-1000,CH,1
+Forcepoint,https://www.linkedin.com/company/forcepoint,forcepoint.com,Software Development,1001-5000,US,1
+Devoteam | Microsoft Partner,https://www.linkedin.com/company/devoteam-m-cloud,devoteam.com,IT Services and IT Consulting,1001-5000,FR,1
+EPI-USE Nordic & Baltic,https://www.linkedin.com/company/epi-use-nordic-&-baltic,epiuse.com,IT Services and IT Consulting,1001-5000,DK,1
+OneTrust,https://www.linkedin.com/company/onetrust,onetrust.com,Software Development,1001-5000,US,1
+Schwarz Digits,https://www.linkedin.com/company/schwarz-digits,schwarz-digits.de,IT Services and IT Consulting,5001-10000,DE,1
+Arctic Wolf,https://www.linkedin.com/company/arcticwolf,arcticwolf.com,Computer and Network Security,1001-5000,US,1
+NEC Corporation,https://www.linkedin.com/company/nec,nec.com,IT Services and IT Consulting,10001+,JP,1
+Resillion,https://www.linkedin.com/company/resillion,resillion.com,IT Services and IT Consulting,501-1000,GB,1
+TD SYNNEX Netherlands​,https://www.linkedin.com/company/tdsynnexnetherlands,tdsynnex.com,IT Services and IT Consulting,10001+,NL,1
+VikingCloud,https://www.linkedin.com/company/vikingcloud,vikingcloud.com,Computer and Network Security,1001-5000,US,1
+Salute,https://www.linkedin.com/company/inc-salute,salutemissioncritical.com,IT Services and IT Consulting,1001-5000,US,1
+Exclusive Networks NL,https://www.linkedin.com/company/exclusive-networks-nl,exclusive-networks.com,IT Services and IT Consulting,5001-10000,NL,1
+BBTG | Building Beyond Technology Group,https://www.linkedin.com/company/bbtg-building-beyond-technology-group,bbtg.com,IT Services and IT Consulting,1001-5000,US,1
+FICO,https://www.linkedin.com/company/fico,fico.com,Software Development,1001-5000,US,1
+DynaTech Systems,https://www.linkedin.com/company/dynatechsystems,dynatechconsultancy.com,IT Services and IT Consulting,501-1000,US,1
+Exabeam,https://www.linkedin.com/company/exabeam,exabeam.com,Computer and Network Security,501-1000,US,1
+Your.Cloud,https://www.linkedin.com/company/yourcloud,your.cloud,IT Services and IT Consulting,1001-5000,NL,1
+EOH,https://www.linkedin.com/company/ioco-previously-eoh,ioco.tech,IT Services and IT Consulting,1001-5000,ZA,1
+In Time Tec Europe,https://www.linkedin.com/company/in-time-tec-eu,intimetec.nl,Software Development,501-1000,NL,1
+Claranet Nederland,https://www.linkedin.com/company/claranet-benelux-b-v-,claranet.com,IT Services and IT Consulting,1001-5000,NL,1
+iC Consult,https://www.linkedin.com/company/ic-consult,ic-consult.com,IT Services and IT Consulting,501-1000,DE,1
+Exterro,https://www.linkedin.com/company/exterro-inc,exterro.com,Software Development,501-1000,US,1
+Jamf,https://www.linkedin.com/company/jamf-software,jamf.com,Software Development,1001-5000,US,1
+Versa Networks,https://www.linkedin.com/company/versa-networks,versa-networks.com,Software Development,501-1000,US,1
+BeyondTrust,https://www.linkedin.com/company/beyondtrust,beyondtrust.com,Software Development,1001-5000,US,1
+Sims Lifecycle Services,https://www.linkedin.com/company/simslifecycleservices,simslifecycle.com,IT Services and IT Consulting,1001-5000,US,1
+Infinigate Norway,https://www.linkedin.com/company/infinigate-norway,infinigate.com,Computer and Network Security,1001-5000,NO,1
+Previder,https://www.linkedin.com/company/previder,previder.nl,IT Services and IT Consulting,501-1000,NL,1
+Valid,https://www.linkedin.com/company/valid-s-a-,valid.com,IT Services and IT Consulting,5001-10000,BR,1
+Admin By Request,https://www.linkedin.com/company/adminbyrequest,adminbyrequest.com,Software Development,501-1000,US,1
+Gigamon,https://www.linkedin.com/company/gigamon,gigamon.com,Software Development,1001-5000,US,1
+Bitdefender,https://www.linkedin.com/company/bitdefender,bitdefender.com,Software Development,1001-5000,RO,1
+Precisely,https://www.linkedin.com/company/preciselydata,precisely.com,Software Development,1001-5000,US,1
+AddSecure - Transport solutions,https://www.linkedin.com/company/addsecure-transport-solutions,addsecure.com,Software Development,1001-5000,SE,1
+Enreach Outbound,https://www.linkedin.com/company/enreachoutbound,enreach.com,Technology; Information and Internet,501-1000,DK,1
+Luxoft,https://www.linkedin.com/company/luxoft,luxoft.com,IT Services and IT Consulting,10001+,CH,1
+Deutsche Telekom IoT,https://www.linkedin.com/company/deutschetelekom-iot,telekom.com,IT Services and IT Consulting,501-1000,DE,1
+ValueLabs,https://www.linkedin.com/company/valuelabs,valuelabs.com,IT Services and IT Consulting,5001-10000,IN,1
+Cognyte,https://www.linkedin.com/company/cognyte,cognyte.com,Software Development,1001-5000,IL,1
+Previder Belgium,https://www.linkedin.com/company/previder-belgium,previder.be,IT Services and IT Consulting,501-1000,BE,1
+Exclusive Networks,https://www.linkedin.com/company/exclusive-networks,exclusive-networks.com,Computer and Network Security,1001-5000,FR,1
+IT RELATION A/S,https://www.linkedin.com/company/it-relation-a-s,itrelation.dk,IT Services and IT Consulting,501-1000,DK,1
+Pathlock,https://www.linkedin.com/company/pathlock,pathlock.com,Software Development,501-1000,US,1
+SCIENTIFIC GAMES,https://www.linkedin.com/company/scientific-games-lottery,scientificgames.com,IT Services and IT Consulting,1001-5000,US,1
+XTIUM,https://www.linkedin.com/company/xtium,evolveip.net,IT Services and IT Consulting,501-1000,US,1
+TOPPAN Security,https://www.linkedin.com/company/toppan-security,toppansecurity.com,IT Services and IT Consulting,501-1000,AE,1
+Synopsys Inc,https://www.linkedin.com/company/synopsys,synopsys.com,Software Development,10001+,US,1
+secunet Security Networks AG,https://www.linkedin.com/company/secunet-security-networks-ag,secunet.com,Computer and Network Security,1001-5000,DE,1
+Infinigate Nederland,https://www.linkedin.com/company/infinigatenederland,infinigate.nl,Computer and Network Security,1001-5000,NL,1
+Smartmatic,https://www.linkedin.com/company/smartmatic,smartmatic.com,IT Services and IT Consulting,501-1000,GB,1
+WatchGuard Technologies,https://www.linkedin.com/company/watchguard-technologies,watchguard.com,Computer and Network Security,1001-5000,US,1
+Econet Group,https://www.linkedin.com/company/econet-global,econetafrica.com,Technology; Information and Internet,1001-5000,MU,1
+DDN,https://www.linkedin.com/company/ddn,ddn.com,Software Development,1001-5000,US,1
+Panda Security,https://www.linkedin.com/company/panda-security,pandasecurity.com,Computer and Network Security,501-1000,ES,1
+Advania Group,https://www.linkedin.com/company/advania,advania.com,IT Services and IT Consulting,5001-10000,SE,1
+Claroty,https://www.linkedin.com/company/claroty,claroty.com,Computer and Network Security,501-1000,US,1
+3Pillar,https://www.linkedin.com/company/3pillar,3pillarglobal.com,Software Development,1001-5000,US,1
+Arrow Security Solutions,https://www.linkedin.com/company/arrow-security-solutions,arrow.com,IT Services and IT Consulting,501-1000,GB,1
+Tanium,https://www.linkedin.com/company/tanium,tanium.com,Computer and Network Security,1001-5000,US,1
+Software AG,https://www.linkedin.com/company/software-ag,softwareag.com,Software Development,501-1000,DE,1
+NEORIS,https://www.linkedin.com/company/epamneoris,neoris.com,IT Services and IT Consulting,10001+,US,1
+Government ICT Centre Valtori,https://www.linkedin.com/company/valtion-tieto--ja-viestint%c3%a4tekniikkakeskus-valtori,valtori.fi,IT Services and IT Consulting,1001-5000,FI,1
+Micro Focus,https://www.linkedin.com/company/micro-focus,microfocus.com,IT Services and IT Consulting,10001+,GB,1
+McAfee,https://www.linkedin.com/company/mcafee,mcafee.com,Computer and Network Security,1001-5000,US,1
+Batenburg Magion,https://www.linkedin.com/company/batenburgmagion,batenburg.nl,IT Services and IT Consulting,1001-5000,NL,1
+Comstor,https://www.linkedin.com/company/comstor,synnexcorp.com,IT Services and IT Consulting,501-1000,US,1
+Descartes Systems Group Nordics,https://www.linkedin.com/company/descartes-group-nordics,descartes.com,Software Development,1001-5000,SE,1
+BlackBerry,https://www.linkedin.com/company/blackberry,blackberry.com,Software Development,1001-5000,CA,1
+Acronis,https://www.linkedin.com/company/acronis,acronis.com,Software Development,1001-5000,CH,1
+Cybercom Group,https://www.linkedin.com/company/cybercom,knowit.eu,IT Services and IT Consulting,1001-5000,SE,1
+HTC Global Services,https://www.linkedin.com/company/htc-global-services,htcinc.com,IT Services and IT Consulting,10001+,US,1
+Materna,https://www.linkedin.com/company/materna-information-communications-se,materna.de,IT Services and IT Consulting,1001-5000,DE,1
