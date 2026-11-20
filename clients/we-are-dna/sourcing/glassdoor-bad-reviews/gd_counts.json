@@ -1,0 +1,468 @@
+{
+ "1-health-care-medical|201-500": {
+  "total_results": 1205,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "employee_range": [
+     "201-500"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "1-health-care-medical|501-1000": {
+  "total_results": 461,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "employee_range": [
+     "501-1000"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "1-health-care-medical|1001+": {
+  "total_results": 919,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Hospitals and Health Care",
+      "Hospital and Health Care",
+      "Hospitals",
+      "Home Health Care Services",
+      "Nursing Homes and Residential Care Facilities",
+      "Mental Health Care",
+      "Medical Practices",
+      "Medical Practice",
+      "Outpatient Care Centers",
+      "Veterinary",
+      "Veterinary Services",
+      "Ambulance Services",
+      "Individual and Family Services"
+     ]
+    },
+    "employee_range": [
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "2-retail-hospitality|201-500": {
+  "total_results": 1666,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "employee_range": [
+     "201-500"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "2-retail-hospitality|501-1000": {
+  "total_results": 613,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "employee_range": [
+     "501-1000"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "2-retail-hospitality|1001+": {
+  "total_results": 1001,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Retail",
+      "Retail Apparel and Fashion",
+      "Retail Groceries",
+      "Retail Health and Personal Care Products",
+      "Retail Luxury Goods and Jewelry",
+      "Retail Furniture and Home Furnishings",
+      "Online and Mail Order Retail",
+      "Apparel and Fashion",
+      "Hospitality",
+      "Restaurants",
+      "Hotels and Motels",
+      "Food and Beverage Services",
+      "Leisure; Travel and Tourism"
+     ]
+    },
+    "employee_range": [
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "3-manufacturing-engineering-automotive-defence|201-500": {
+  "total_results": 1472,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "employee_range": [
+     "201-500"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "3-manufacturing-engineering-automotive-defence|501-1000": {
+  "total_results": 514,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "employee_range": [
+     "501-1000"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "3-manufacturing-engineering-automotive-defence|1001+": {
+  "total_results": 820,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Manufacturing",
+      "Industrial Machinery Manufacturing",
+      "Machinery Manufacturing",
+      "Automotive",
+      "Motor Vehicle Manufacturing",
+      "Motor Vehicle Parts Manufacturing",
+      "Defense and Space Manufacturing",
+      "Defense and Space",
+      "Aviation and Aerospace Component Manufacturing",
+      "Engineering Services",
+      "Mechanical Or Industrial Engineering",
+      "Food and Beverage Manufacturing",
+      "Food Production",
+      "Meat Products Manufacturing",
+      "Electrical Equipment Manufacturing",
+      "Chemical Manufacturing"
+     ]
+    },
+    "employee_range": [
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "4-law-accounting-top100|201-500": {
+  "total_results": 409,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "employee_range": [
+     "201-500"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "4-law-accounting-top100|501-1000": {
+  "total_results": 163,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "employee_range": [
+     "501-1000"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "4-law-accounting-top100|1001+": {
+  "total_results": 218,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Law Practice",
+      "Legal Services",
+      "Accounting"
+     ]
+    },
+    "employee_range": [
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "5-financial-services|201-500": {
+  "total_results": 1235,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "employee_range": [
+     "201-500"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "5-financial-services|501-1000": {
+  "total_results": 442,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "employee_range": [
+     "501-1000"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "5-financial-services|1001+": {
+  "total_results": 716,
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Financial Services",
+      "Banking",
+      "Insurance",
+      "Insurance Carriers",
+      "Investment Management",
+      "Credit Intermediation",
+      "Capital Markets"
+     ]
+    },
+    "employee_range": [
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "GB"
+     ]
+    }
+   },
+   "max_results": 1
+  }
+ }
+}
