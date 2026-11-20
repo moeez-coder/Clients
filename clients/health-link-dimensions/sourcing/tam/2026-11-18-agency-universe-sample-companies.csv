@@ -1,0 +1,41 @@
+company_linkedin_url,company_name,employees_on_linkedin,sample,verdict,reason
+https://www.linkedin.com/company/reverba,Reverba Global,163,"S4 core universe (pharma keywords, 51-200 band)",fit,biopharma patient/HCP engagement agency
+https://www.linkedin.com/company/medtrix-healthcare,MedTrix Healthcare,115,"S4 core universe (pharma keywords, 51-200 band)",fit,pharma marketing agency
+https://www.linkedin.com/company/the-bloc,The Bloc,304,"S4 core universe (pharma keywords, 51-200 band)",fit,health-native agency
+https://www.linkedin.com/company/continuum-clinical,"Continuum Clinical, A Spectrum Science Company",78,"S4 core universe (pharma keywords, 51-200 band)",noise,clinical-trial patient recruitment
+https://www.linkedin.com/company/synchrony-group,"Synchrony Group, LLC",110,"S4 core universe (pharma keywords, 51-200 band)",fit,medical + marketing communications
+https://www.linkedin.com/company/pixacore,PIXACORE,106,"S4 core universe (pharma keywords, 51-200 band)",fit,"healthcare marketing agency, digital core"
+https://www.linkedin.com/company/fcb-health-brazil,FCB Health Brazil,50,"S4 core universe (pharma keywords, 51-200 band)",noise,"non-US page, merged into Omnicom Health"
+https://www.linkedin.com/company/signal-theory-inc,Signal Theory Inc.,135,"S4 core universe (pharma keywords, 51-200 band)",noise,general brand agency
+https://www.linkedin.com/company/precisioneffect,PRECISIONeffect,33,"S4 core universe (pharma keywords, 51-200 band)",fit,healthcare ad agency
+https://www.linkedin.com/company/health-monitor-network,Health Monitor Network,207,"S4 core universe (pharma keywords, 51-200 band)",borderline,"point-of-care media publisher, sells to pharma"
+https://www.linkedin.com/company/closerlook-inc-,closerlook,56,"S4 core universe (pharma keywords, 51-200 band)",fit,"now Avalere Health, biopharma commercialization"
+https://www.linkedin.com/company/ddbhealth,DDB Health New York,167,"S4 core universe (pharma keywords, 51-200 band)",fit,HCP agency (Omnicom Health)
+https://www.linkedin.com/company/navisync-llc,Navisync,104,"S4 core universe (pharma keywords, 51-200 band)",fit,market access / payer marketing agency
+https://www.linkedin.com/company/brand-institute,Brand Institute,294,"S4 core universe (pharma keywords, 51-200 band)",noise,brand naming firm
+https://www.linkedin.com/company/cramer,Cramer,219,"S4 core universe (pharma keywords, 51-200 band)",noise,experiential agency
+https://www.linkedin.com/company/juice-pharma-worldwide,JUICE Pharma Worldwide,59,"S4 core universe (pharma keywords, 51-200 band)",fit,pharma agency
+https://www.linkedin.com/company/calcium-company,Calcium+Company,196,"S4 core universe (pharma keywords, 51-200 band)",fit,health communications group
+https://www.linkedin.com/company/deerfieldgroup,Deerfield Group,239,"S4 core universe (pharma keywords, 51-200 band)",fit,life sciences agency
+https://www.linkedin.com/company/throtle,Throtle,63,"S4 core universe (pharma keywords, 51-200 band)",noise,"healthcare identity vendor, HLD competitor; now name-excluded"
+https://www.linkedin.com/company/shs,Sullivan Higdon & Sink,379,"S4 core universe (pharma keywords, 51-200 band)",noise,general agency
+https://www.linkedin.com/company/admed-inc,"AdMed, Inc.",46,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/merritt-group,Merritt Group,78,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/egg-strategy,Egg Strategy,82,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/synima,Synima,44,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/schaefer-advertising-co-,Schaefer Advertising Co.,45,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/serotoninco,Serotonin,129,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/audacity-marketing-advertising-for-health-and-science-brands,Audacity Health,27,"S3 pharma keywords, 11-50 band (band dropped)",fit,health brand + activation agency
+https://www.linkedin.com/company/wickfire,Wickfire,23,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/chernoffnewman,Chernoff Newman,74,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/addison-whitney,"Addison Whitney, now AW",56,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/foundersagency,Founders Agency,42,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/my-proxy,MyProxy,13,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/moveo-chicago,Movéo,50,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/be-inspired-agency,Inspire Agency,-,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/tipping-point-media-group-llc,Tipping Point Media (tipmedia.com),20,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/ehealthcare-solutions,eHealthcare Solutions,39,"S3 pharma keywords, 11-50 band (band dropped)",borderline,health ad network
+https://www.linkedin.com/company/bluewhale-research,BlueWhale Research,50,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/arbor-scientia,Arbor Scientia Group,50,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/ascender-studios,Ascender Studios,60,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"
+https://www.linkedin.com/company/supreme-comms,Health+Commerce,16,"S3 pharma keywords, 11-50 band (band dropped)",noise,"11-50 band: training, PR, video, branding or general agency; no media/data team"

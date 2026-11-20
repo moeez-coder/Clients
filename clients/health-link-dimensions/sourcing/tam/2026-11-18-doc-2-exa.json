@@ -1,0 +1,268 @@
+{
+ "body": {
+  "query": "FDA approves drug for new indication label expansion",
+  "category": "news",
+  "numResults": 50,
+  "type": "auto",
+  "startPublishedDate": "2026-10-01T00:00:00Z",
+  "endPublishedDate": "2026-10-31T23:59:59Z"
+ },
+ "cost": {
+  "total": 0.047,
+  "search": {
+   "neural": 0.047
+  }
+ },
+ "rows": [
+  {
+   "title": "Pfizer\u2019s TALZENNA Plus XTANDI FDA-Approved for an Earlier Metastatic Prostate Cancer Treatment Setting | Pfizer",
+   "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-talzenna-plus-xtandi-fda-approved-earlier",
+   "published": "2026-10-26T17:41:00.000Z"
+  },
+  {
+   "title": "FDA Approves First Treatment for Certain People With BCG-Unresponsive Bladder Cancer",
+   "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/42f2227",
+   "published": "2026-10-14T00:00:00.000Z"
+  },
+  {
+   "title": "FDA Expands Mavacamten Label to Pediatric Patients With oHCM",
+   "url": "https://www.pharmacytimes.com/view/fda-expands-mavacamten-label-to-pediatric-patients-with-ohcm",
+   "published": "2026-10-18T00:00:00.000Z"
+  },
+  {
+   "title": "FDA Expands ANKTIVA\u00ae Approval for BCG-Unresponsive Non-Muscle-Invasive Bladder Cancer to Cover Both Papillary and CIS Disease - ImmunityBio, Inc.",
+   "url": "https://ir.immunitybio.com/news-releases/news-release-details/fda-expands-anktivar-approval-bcg-unresponsive-non-muscle",
+   "published": "2026-10-14T20:18:23.000Z"
+  },
+  {
+   "title": "Lilly's Jaypirca (pirtobrutinib), the first-and-only approved non-covalent BTK inhibitor, receives expanded indication from U.S. FDA for certain patients with previously untreated CLL/SLL | Eli Lilly and Company",
+   "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-jaypirca-pirtobrutinib-first-and-only-approved-non-1",
+   "published": "2026-10-02T19:06:09.000Z"
+  },
+  {
+   "title": "Roche\u2019s Enspryng nets a second indication on FDA eye disease approval\u00a0 - Pharmaceutical Technology",
+   "url": "https://www.pharmaceutical-technology.com/news/roche-enspryng-thyroid-eye-disease-fda-approval/",
+   "published": "2026-10-19T16:28:21.000Z"
+  },
+  {
+   "title": "Novartis Rhapsido\u00ae (remibrutinib) receives FDA approval as first treatment for symptomatic dermographism (SD), expanding its use beyond chronic spontaneous urticaria (CSU) | Novartis United States of America",
+   "url": "https://www.novartis.com/us-en/news/media-releases/novartis-rhapsido-remibrutinib-receives-fda-approval-first-treatment-symptomatic-dermographism-sd-expanding-its-use-beyond-chronic-spontaneous-urticaria-csu",
+   "published": "2026-10-07T15:50:00.000Z"
+  },
+  {
+   "title": "FDA approves Roche\u2019s Enspryng, a first-in-class IL-6R inhibitor, as the first and only at-home subcutaneous treatment option for thyroid eye disease (TED)",
+   "url": "https://www.roche.com/media/releases/med-cor-2026-10-16",
+   "published": "2026-10-16T00:00:00.000Z"
+  },
+  {
+   "title": "U.S. FDA Approves Subcutaneous Induction Regimen for AbbVie's SKYRIZI\u00ae (risankizumab-rzaa) for Adults With Moderately to Severely Active Crohn's Disease - Oct 23, 2026",
+   "url": "https://news.abbvie.com/2026-10-23-U-S-FDA-Approves-Subcutaneous-Induction-Regimen-for-AbbVies-SKYRIZI-R-risankizumab-rzaa-for-Adults-With-Moderately-to-Severely-Active-Crohns-Disease",
+   "published": "2026-10-23T00:00:00.000Z"
+  },
+  {
+   "title": "Pfizer\u2019s prostate cancer combo moves to earlier line on expanded US approval\u00a0\u00a0 - Pharmaceutical Technology",
+   "url": "https://www.pharmaceutical-technology.com/news/pfizer-talzenna-xtandi-prostate-cancer-fda-label-expansion/",
+   "published": "2026-10-27T11:34:41.000Z"
+  },
+  {
+   "title": "FDA Clears Secukinumab for Use in Polymyalgia Rheumatica",
+   "url": "https://www.medscape.com/viewarticle/fda-clears-secukinumab-use-polymyalgia-rheumatica-2026a10018t8",
+   "published": "2026-10-17T17:38:49.000Z"
+  },
+  {
+   "title": "FDA Approves Expanded Indication for Nogapendekin Alfa Inbakicept in BCG-Unresponsive NMIBC - The ASCO Post",
+   "url": "https://ascopost.com/articles/2026/10-october/fda-approves-expanded-indication-for-nogapendekin-alfa-inbakicept-in-bcg-unresponsive-nmibc/",
+   "published": "2026-10-14T00:00:00.000Z"
+  },
+  {
+   "title": "Jemperli (dostarlimab-gxly) approved in US as first and only immunotherapy for adults with MSI-H/dMMR locally advanced rectal cancer | GSK US",
+   "url": "https://us.gsk.com/en-us/media/press-releases/jemperli-dostarlimab-gxly-approved-in-us-as-first-and-only-immunotherapy-for-adults-with-msi-hdmmr-locally-advanced-rectal-cancer/",
+   "published": "2026-10-19T00:00:00.000Z"
+  },
+  {
+   "title": "ILUMYA\u00ae (tildrakizumab-asmn) approved in the U.S. for the Treatment of Adults with Active Psoriatic Arthritis",
+   "url": "https://www.prnewswire.com/news-releases/ilumya-tildrakizumab-asmn-approved-in-the-us-for-the-treatment-of-adults-with-active-psoriatic-arthritis-302924320.html",
+   "published": "2026-10-30T11:02:00.000Z"
+  },
+  {
+   "title": "BioCryst Announces U.S. FDA Approval of ORLADEYO\u00ae 150 mg Oral Pellets for Adults and Adolescents with HAE | BioCryst Pharmaceuticals, Inc.",
+   "url": "https://biocryst.gcs-web.com/news-releases/news-release-details/biocryst-announces-us-fda-approval-orladeyor-150-mg-oral-pellets",
+   "published": "2026-10-21T11:00:54.000Z"
+  },
+  {
+   "title": "Pfizer\u2019s TUKYSA Regimen Receives FDA Approval as Front-Line Maintenance Treatment for HER2+ Metastatic Breast Cancer | Pfizer",
+   "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-tukysa-regimen-receives-fda-approval-front-line",
+   "published": "2026-10-07T16:57:00.000Z"
+  },
+  {
+   "title": "FDA Expands Anktiva Approval to Papillary-Only BCG-Unresponsive NMIBC",
+   "url": "https://www.oncnursingnews.com/view/fda-expands-anktiva-approval-to-papillary-only-bcg-unresponsive-nmibc",
+   "published": "2026-10-18T00:00:00.000Z"
+  },
+  {
+   "title": "FDA Grants Accelerated Approval to Neladalkib for NSCLC",
+   "url": "https://www.medscape.com/viewarticle/fda-grants-accelerated-approval-neladalkib-alk-positive-2026a10018tu",
+   "published": "2026-10-17T21:42:54.000Z"
+  },
+  {
+   "title": "Teva Announces U.S. Food and Drug Administration (FDA) Approval of WELTRUZA\u2122 (Olanzapine) For Extended-Re",
+   "url": "https://www.tevausa.com/news-and-media/press-releases/teva-announces-u.s.-food-and-drug-administration-fda-approval-of-weltruza-olanzapine-for-extended-re",
+   "published": "2026-10-09T00:00:00.000Z"
+  },
+  {
+   "title": "Opus Genetics Announces FDA Approval of Phentolamine Ophthalmic Solution 0.75% for the Treatment of Presbyopia :: Opus Genetics, Inc. (Nasdaq:IRD)",
+   "url": "https://ir.opusgtx.com/press-releases/detail/546/opus-genetics-announces-fda-approval-of-phentolamine-ophthalmic-solution-0-75-for-the-treatment-of-presbyopia",
+   "published": "2026-10-16T16:00:00.000Z"
+  },
+  {
+   "title": "Pfizer (PFE) Scores Phase 3 Cancer Win As FDA Broadens Another Oncology Approval",
+   "url": "https://sg.finance.yahoo.com/news/pfizer-pfe-scores-phase-3-171235965.html",
+   "published": "2026-10-27T17:12:35.000Z"
+  },
+  {
+   "title": "FDA Grants Traditional Approval to Merck's Keytruda for TMB-H Tumors, Boosting MRK's Growth Prospects",
+   "url": "https://www.gurufocus.com/news/9137597/fda-grants-traditional-approval-to-mercks-keytruda-for-tmbh-tumors-boosting-mrks-growth-prospects",
+   "published": "2026-10-22T19:50:59.000Z"
+  },
+  {
+   "title": "H.C. Wainwright reiterates Immunitybio stock rating on FDA approval expansion By Investing.com",
+   "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-reiterates-immunitybio-stock-rating-on-fda-approval-expansion-93CH-4951424",
+   "published": "2026-10-15T11:44:53.000Z"
+  },
+  {
+   "title": "The FDA widens Anktiva's bladder-cancer approval to papillary-only tumours | Health Newspapers",
+   "url": "https://www.healthnewspapers.com/body/anktiva-papillary-only-bladder-cancer-expansion",
+   "published": "2026-10-18T04:41:21.000Z"
+  },
+  {
+   "title": "ImmunityBio\u2019s ANKTIVA Wins FDA Label Expansion for Papillary-Only Bladder Cancer \u2013 Minichart",
+   "url": "https://www.minichart.com.sg/2026/10/15/immunitybios-anktiva-wins-fda-label-expansion-for-papillary-only-bladder-cancer/",
+   "published": "2026-10-15T00:00:00.000Z"
+  },
+  {
+   "title": "Which Drugs and Pharma Shaped Oncology in the First Half of 2026? Breaking Down FDA Approvals",
+   "url": "https://oncodaily.com/not-to-miss/oncology-approvals-2026-571048",
+   "published": "2026-10-18T00:00:00.000Z"
+  },
+  {
+   "title": "First Patients Dosed with Telix\u2019s FDA-Approved Brain Cancer Imaging Drug Pixclara\u00ae (floretyrosine F 18) - \u65b0\u6d6a\u9999\u6e2f",
+   "url": "https://portal.sina.com.hk/finance/finance-globenewswire/globenewswire/2026/10/06/1946475/first-patients-dosed-with-telixs-fda-approved-brain-cancer-imaging-drug-pixclara-floretyrosine-f-18/",
+   "published": "2026-10-06T02:30:00.000Z"
+  },
+  {
+   "title": "FDA Fast Track Designation for TRE-515 Combined with KRAS Inhibitor in KRAS G12C Lung Cancer\uff5cCancerLink \u764c\u7814\u9023\u7dda",
+   "url": "https://cancerlink.co/en/news/fda-fast-track-tre-515-kras-g12c-nsclc",
+   "published": "2026-10-05T06:38:12.000Z"
+  },
+  {
+   "title": "HLB says bile duct cancer drug lirafugratinib enters full review for European approval",
+   "url": "https://en.asiatoday.co.kr/view.php?key=20261007001630173",
+   "published": "2026-10-07T07:35:05.000Z"
+  },
+  {
+   "title": "Betta Pharmaceuticals secures US FDA approval for BPI-572270 capsules",
+   "url": "https://filingreader.com/news-wire/shenzhen/2026-10-07/betta-pharmaceuticals-secures-us-fda-approval-for-bpi-572270-capsules",
+   "published": "2026-10-07T17:14:18.000Z"
+  },
+  {
+   "title": "First Patients Dosed with Telix\u2019s FDA-Approved Brain Cancer Imaging Drug Pixclara\u00ae (floretyrosine F 18) | MarketMinute",
+   "url": "https://gem.marketminute.com/article/gnwcq-2026-10-6-first-patients-dosed-with-telixs-fda-approved-brain-cancer-imaging-drug-pixclara-floretyrosine-f-18",
+   "published": "2026-10-06T10:30:00.000Z"
+  },
+  {
+   "title": "First Patients Dosed with Telix\u2019s FDA-Approved Brain Cancer Imaging Drug Pixclara\u00ae (floretyrosine F 18)",
+   "url": "http://markets.chroniclejournal.com/observerreporter/article/gnwcq-2026-10-6-first-patients-dosed-with-telixs-fda-approved-brain-cancer-imaging-drug-pixclara-floretyrosine-f-18",
+   "published": "2026-10-06T10:30:00.000Z"
+  },
+  {
+   "title": "Aevice Health Advances US Expansions Plans with FDA Clearance for AI-Powered Respiratory Analytics",
+   "url": "https://www.aevice.com/en-us/press/aevice-health-advances-u-s-expansion-plans-with-fda-clearance-for-ai-powered-respiratory-analytics",
+   "published": "2026-10-01T00:00:00.000Z"
+  },
+  {
+   "title": "HLB | Elevar-Hengrui hit with third FDA rejection for liver cancer therapy over manufacturing concerns (updated)",
+   "url": "https://www.stockopedia.com/share-prices/hlb-KOSDAQ:028300/news/elevar-hengrui-hit-with-third-fda-rejection-for-liver-cancer-therapy-over-manufacturing-concerns-updated-019f4d3d-9992-7033-ae5f-e27f406e2853/",
+   "published": "2026-10-07T18:06:00.000Z"
+  },
+  {
+   "title": "Lilly's Jaypirca (pirtobrutinib), the first-and-only approved non-covalent BTK inhibitor, receives expanded indication from U.S. FDA for certain patients with previously untreated CLL/SLL",
+   "url": "https://www.google.com/url?opi=89978449&q=CAESqQIBxCJF19aHwNG7EUXrQ1_hVCUV1D79g3jXm1OPPYzqVyBoV7BhPIX87rsZsMTWNX982aLY5Oe8t_4QESlzjhLDpHanI59njP5gppYcbol2fd09r9D9WE-aPWQsb4U2XUygXUGbUn2_ZR5-kiFqEdNLm7Ip10j6Wkt5CT07sKthRdLGojbHrFkO7mE5hXVR9yaiVeahshOoWKNUL6RT6u8sfzXiKe2-eM0Day4g1KOU0xoBBEbLNnkeHh75VdJX7VhygRSn4ytVPqGfDLI2W02hHRayHZ-goOA5FrSBYq7DEPkJ7PYc6ssUjx34GM_HpfphvhFknraAhsapGIpRQmu4favXECZmaATAQ2gh6W2x0z5B64Ww1X6qh8x_Zd4NquEKFgZc5jXt_ak&sa=U&uoh=3&usg=AOvVaw0NYVVHtDmcAgFfSz0FcasK&ved=2ahUKEwjZveyosJKYAxWGIEQIHSNFCh4QxfQBegQIAxAC",
+   "published": "2026-10-18T00:00:00.000Z"
+  },
+  {
+   "title": "The glucagon and GLP-1 receptor dual agonist DD01 for metabolic dysfunction-associated steatotic liver disease and steatohepatitis (DD01-DN-02): 12-week results from a randomised, double-blind, multicentre, placebo-controlled, phase 2 trial - The Lancet Gastroenterology & Hepatology",
+   "url": "https://www.thelancet.com/journals/langas/article/PIIS2468-1253%2826%2900130-5/abstract?dgcid=raven_jbs_etoc_feature_langas",
+   "published": "2026-10-01T17:26:45.000Z"
+  },
+  {
+   "title": "Approval for BCG-Unresponsive Non-Muscle-Invasive Bladder Cancer to Cover Both Papillary and CIS Disease",
+   "url": "https://www.google.com/url?opi=89978449&q=CAES8wEBxCJF176FPjKeebNFqcje5851nAr5tuun8u7gutRgvZgYLZ8Hs6yaLKHpixHVGXGFNtPcdEVLLOahr-acKJ7-UyMEIYzKzj93_3Si6VMFSJW76b2NUZELywJ2ipZ53Ac6yDLkH2Pf0oPiWtfXeFwvzuuvrlbEhH85lUtdXfvpHkZ9VoFXaxv8z-JQ4EjGU0WSGvQfnsi_8MkFwN8gp-gEp-cj3AruGTSvKeUdOAeOuAmd_ezpcp-oDHg_Yc6sK3z00J-AyKS7Vi6Zvfc54oPNxs2FxJZW48t5cjFtlktx5yOaMPCGEayNGPFZ5k4JXJNztQc&sa=U&uoh=3&usg=AOvVaw0AMFEsorGYGWwDiqJdOIwt&ved=2ahUKEwjZveyosJKYAxWGIEQIHSNFCh4QxfQBegQICBAC",
+   "published": "2026-10-18T00:00:00.000Z"
+  },
+  {
+   "title": "FDA clears ImmunityBio\u2019s Anktiva expansion in bladder cancer after regulatory whiplash",
+   "url": "https://www.google.com/url?opi=89978449&q=CAESsgEBxCJF1wz4ePEz8cys2ITZ5EeOPCoClPHO6uYVvgQEBJz3YglUlv52B1P-ZlGIa7HR3cd-4Z-I_ucEfYnlZPq5MrBfI-8A0VYGlUDbhI4FKK2pZ-Po54CFqbo28Vre3MyNQgKIdWtPfS0KtjljDJ-Ae0qZtItzmXjYs40-2o45MkxndjOLPsgHuwQRTOjAgK_FyQpOYma1A8-6bC06MDataZ_2EbGJ6oXrMEMGS9qyE8Bh&sa=U&uoh=3&usg=AOvVaw1nmLQm05TRiKGmcpqFN98U&ved=2ahUKEwjZveyosJKYAxWGIEQIHSNFCh4QxfQBegQIBhAC",
+   "published": "2026-10-18T00:00:00.000Z"
+  },
+  {
+   "title": "The glucagon and GLP-1 receptor dual agonist DD01 for metabolic dysfunction-associated steatotic liver disease and steatohepatitis (DD01-DN-02): 12-week results from a randomised, double-blind, multicentre, placebo-controlled, phase 2 trial - The Lancet Gastroenterology & Hepatology",
+   "url": "https://www.thelancet.com/journals/langas/article/PIIS2468-1253(26)00130-5/abstract",
+   "published": "2026-10-01T15:42:22.000Z"
+  },
+  {
+   "title": "European Medicines Agency approvals of new medicines in July and August 2026 - The Lancet Regional Health \u2013 Europe",
+   "url": "https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(26)00274-7/fulltext",
+   "published": "2026-10-01T01:10:42.000Z"
+  },
+  {
+   "title": "Alzheimer's disease testing needs evidence, ethics, and equity - The Lancet Neurology",
+   "url": "https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(26)00324-8/fulltext",
+   "published": "2026-10-01T00:36:00.000Z"
+  },
+  {
+   "title": "Symptomatic Dermographism: Novartis Lands Remibrutinib Label Expansion",
+   "url": "https://www.google.com/url?opi=89978449&q=CAESoQEBxCJF1-qya6VupUSjTAg5M6a-6OEWf1WTP2qCc21TCSMq6t0L0uUxPtNQJjV2KkrqdS8FwKDy5N-auTTgXVLpEPf1i1ZC7k3_flQNc4ogEDn8SZxkvZrEWiCiiZYuFdgBu21sIiKx7W45Mi85L0dFOWqiOuo25umIuJPRz4Vl-GFe39TqvoiZFWae0y4OkyidA-Nv-xlaCdDL6JaEIHIwUw&sa=U&uoh=3&usg=AOvVaw0xA0qcbY9xeQlrFCjonixe&ved=2ahUKEwjZveyosJKYAxWGIEQIHSNFCh4QxfQBegQICRAC",
+   "published": "2026-10-18T00:00:00.000Z"
+  },
+  {
+   "title": "Neurological effects of encapsulated dexamethasone sodium phosphate in children aged 6\u20139 years with ataxia telangiectasia (NEAT): a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial - The Lancet Child & Adolescent Health",
+   "url": "https://www.thelancet.com/journals/lanchi/article/PIIS2352-4642(26)00125-2/abstract",
+   "published": "2026-10-01T01:20:29.000Z"
+  },
+  {
+   "title": "FDA Expands Mavacamten Label to Include Children With oHCM",
+   "url": "https://www.google.com/url?opi=89978449&q=CAESkQEBxCJF14vW-t9OzWHUVuxC6Mmo3EYgDdcpo7cb3ydiJEv8jknjo2-MU_lCl-X5EBC1cs65TuJJAsy9K0EOTS0yIfOsCf-4Lylye2CR7-3TKZ7DvHSL_d_tMWFDwcsqE0wmC_54zd3Kegzmg9iT8z5Z3AWoQwKan1hSjjtLBYi-qUpAeSFIGMSUQKxzYTXAaX9m&sa=U&uoh=3&usg=AOvVaw0OsGqqIEFUXsgbDyhi6AXn&ved=2ahUKEwjZveyosJKYAxWGIEQIHSNFCh4QxfQBegQIChAC",
+   "published": "2026-10-18T00:00:00.000Z"
+  },
+  {
+   "title": "SPRY Shareholder Alert: October 5, 2026 Lead Plaintiff",
+   "url": "https://www.globenewswire.com/news-release/2026/09/08/3357841/0/en/spry-shareholder-alert-october-5-2026-lead-plaintiff-deadline-in-ars-pharmaceuticals-inc-securities-class-action-contact-suewallst.html",
+   "published": "2026-10-05T00:00:00.000Z"
+  },
+  {
+   "title": "Baxter Health adds interventional cardiologist to clinic | KTLO",
+   "url": "https://www.ktlo.com/2026/04/27/baxter-health-adds-interventional-cardiologist-to-clinic/",
+   "published": "2026-10-20T00:00:00.000Z"
+  },
+  {
+   "title": "BIONTECH SE | BioNTech's founding couple Sahin, Tuereci to leave to set up new venture (updated)",
+   "url": "https://www.stockopedia.com/share-prices/bio-n-tech-se-NSQ:BNTX/news/bio-n-tech-apos-s-founding-couple-sahin-tuereci-to-leave-to-set-up-new-venture-updated-019e6a13-69ed-774b-b3ef-ba54e918966c/",
+   "published": "2026-10-03T11:11:00.000Z"
+  },
+  {
+   "title": "Karl Mayer\u2019s HKS 4-S EL \u2500 The World\u2019s Fastest And Most Flexible Four-Bar Short-Stroke Tricot Machine On The Market \u2014 TEXINTEL",
+   "url": "https://www.texintel.com/press-room/karlmayer-07-26-p-karl-mayers-hks-4-s-el-the-worlds-fastest-and-most-flexible-four-bar-short-stroke-tricot-machine-on-the-market",
+   "published": "2026-10-06T00:00:00.000Z"
+  },
+  {
+   "title": "M\u00e1s de 25.000 j\u00f3venes de Castilla-La Mancha ya pueden solicitar el Bono Cultural Joven",
+   "url": "https://www.abc.es/espana/castilla-la-mancha/25000-jovenes-castillala-mancha-pueden-solicitar-bono-20260622192935-nt.html",
+   "published": "2026-10-31T00:00:00.000Z"
+  },
+  {
+   "title": "Lubrizol Launch A New TPU Solution For HP Multi Jet Fusion 3D Printing Technology \u2014 TEXINTEL",
+   "url": "https://www.texintel.com/press-room/lubrizol-launch-a-new-tpu-solution-for-hp-multi-jet-fusion-3d-printing-technology",
+   "published": "2026-10-06T00:00:00.000Z"
+  }
+ ]
+}

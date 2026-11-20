@@ -1,0 +1,385 @@
+sponsor_name,phase3_trials,next_primary_completion,last_primary_completion,drug_or_biologic,intervention_types,conditions_sample,interventions_sample,nct_ids,dnc_or_client
+AstraZeneca,43,2025-11-04,2027-06-30,yes,BIOLOGICAL; COMBINATION_PRODUCT; DRUG; OTHER; PROCEDURE; RADIATION,Chronic Lymphocytic Leukemia; Papillary Renal Cell Carcinoma; Chronic Obstructive Pulmonary Disease (COPD); Chronic Obstructive Pulmonary Disease; Hepatocellular Carcinoma; Muscle Invasive Bladder Cancer,Acalabrutinib; savolitinib; durvalumab; sunitinib; Tozorakimab; Placebo,NCT04008706; NCT05043090; NCT05166889; NCT05158387; NCT06067828; NCT05301842; NCT05742802; NCT04960709; NCT05348577; NCT06040086; NCT03997123; NCT05883644; NCT06502366; NCT03847428; NCT06346392; NCT03682068; NCT05048797; NCT04711252; NCT05261399; NCT06564844; NCT05583227; NCT05267613; NCT05211895; NCT05984277; NCT06750289; NCT06015737; NCT05692180; NCT05303532; NCT07000136; NCT05925803; NCT05221840; NCT07000123; NCT06417814; NCT06706817; NCT06087835; NCT05138133; NCT04421963; NCT06307652; NCT05774951; NCT04784715; NCT07619118; NCT06473779; NCT04550260,AstraZeneca
+Eli Lilly and Company,30,2025-11-12,2027-06,yes,DRUG,Migraine; Episodic Migraine; Obesity; Overweight; Osteo Arthritis Knee; Psoriatic Arthritis,Lasmiditan; Placebo; Galcanezumab; Retatrutide; Ixekizumab; Tirzepatide,NCT04396236; NCT03432286; NCT05931367; NCT06588296; NCT06584916; NCT04396574; NCT04616326; NCT06588283; NCT04819100; NCT05559359; NCT06047548; NCT06354660; NCT03519945; NCT05803421; NCT05929066; NCT05882045; NCT05784246; NCT06921759; NCT06075667; NCT05929079; NCT06649045; NCT06260722; NCT06339008; NCT06297603; NCT06662383; NCT06962280; NCT06914895; NCT06672549; NCT06338995; NCT07232719,-
+Hoffmann-La Roche,24,2025-11-20,2027-06-30,yes,DRUG; OTHER,"Myelin Oligodendrocyte Glycoprotein Antibody-Associated Disease (MOGAD); Primary Membranous Nephropathy; Non-Small Cell Lung Cancer; Relapsing Multiple Sclerosis; Estrogen Receptor-Positive, HER2-Negative Locally Advanced or Metastatic Breast Cancer; Diffuse Large B-Cell Lymphoma",Satralizumab; Placebo; Obinutuzumab; Tacrolimus; Methylprednisolone; Acetaminophen,NCT05271409; NCT04629248; NCT04294810; NCT04586010; NCT04546009; NCT03274492; NCT06497556; NCT04712097; NCT04543617; NCT03523858; NCT06588855; NCT05115110; NCT05646862; NCT03148418; NCT05503264; NCT05170204; NCT06589986; NCT04873362; NCT05199688; NCT04432584; NCT05894239; NCT06094010; NCT05878769; NCT03178552,-
+Novartis Pharmaceuticals,23,2026-01-28,2027-06-03,yes,BIOLOGICAL; DRUG; OTHER,Relapsing Multiple Sclerosis (RMS); Warm Autoimmune Hemolytic Anemia (wAIHA); Multiple Sclerosis (MS); Elevated Lp(a) and Established Atherosclerotic Cardiovascular Disease; Atypical Hemolytic Uremic Syndrome; Chronic Inducible Urticaria,Ofatumumab approved dose; Ofatumumab new dose; Ianalumab; Placebo; Fingolimod; Ofatumumab,NCT06869785; NCT05648968; NCT04926818; NCT06267560; NCT04889430; NCT05976243; NCT04023552; NCT05147220; NCT05156281; NCT05132075; NCT05360446; NCT05653349; NCT05677451; NCT04817618; NCT06868212; NCT02962414; NCT04208178; NCT05639114; NCT05624749; NCT06517758; NCT05030428; NCT06799000; NCT06840392,-
+AbbVie,22,2025-11-10,2027-05,yes,BIOLOGICAL; DEVICE; DRUG; GENETIC; OTHER,Masseter Muscle Prominence; Parkinson Disease; Open-Angle Glaucoma; Parkinson's Disease (PD); Ocular Hypertension; Rheumatoid Arthritis,BOTOX; Placebo; Tavapadon; XEN45 (Glaucoma Gel Stent); ABBV-951; Bimatoprost SR,NCT06399718; NCT06387394; NCT04760769; NCT05411198; NCT04379050; NCT04750226; NCT03891446; NCT05814627; NCT05316220; NCT03539744; NCT07284381; NCT06100744; NCT05407636; NCT06389136; NCT04704921; NCT06468228; NCT06109272; NCT05843643; NCT06063967; NCT04777357; NCT05445778; NCT05125302,Abbvie
+Sanofi,22,2025-11-14,2027-06-07,yes,BIOLOGICAL; COMBINATION_PRODUCT; DRUG,Primary Progressive Multiple Sclerosis; Dermatitis Atopic; Fabry Disease; COVID-19; SARS-CoV-2 Infection; Yellow Fever Immunization,Tolebrutinib; Placebo; Amlitelimab; Venglustat (GZ402671); NVX-CoV2705; Yellow fever vaccine (live),NCT04458051; NCT06181435; NCT05206773; NCT07079670; NCT07002060; NCT04910776; NCT06805513; NCT05280548; NCT06687980; NCT06687967; NCT06407934; NCT06290128; NCT06208306; NCT06834347; NCT06834360; NCT07247188; NCT07424144; NCT05662319; NCT03319667; NCT06141473; NCT05263206; NCT07348692,-
+Merck Sharp & Dohme LLC,21,2026-01-21,2027-06-24,yes,BIOLOGICAL; DRUG; OTHER; PROCEDURE; RADIATION,"Esophageal Squamous Cell Carcinoma (ESCC); Gastroesophageal Junction Carcinoma (GEJC); Esophageal Adenocarcinoma (EAC); Bladder Cancer; Carcinoma, Renal Cell; Carcinoma, Squamous Cell",pembrolizumab; placebo; cisplatin; 5-FU; radiotherapy; leucovorin,NCT04210115; NCT03924856; NCT04586231; NCT04736706; NCT06295809; NCT06698042; NCT04895358; NCT05298423; NCT07216482; NCT06052059; NCT06356311; NCT05239728; NCT04634877; NCT05609968; NCT04199689; NCT04241185; NCT04380636; NCT06074588; NCT05624554; NCT05173987; NCT06655883,-
+Pfizer,21,2025-11-07,2027-05-16,yes,BIOLOGICAL; COMBINATION_PRODUCT; DRUG; OTHER,"Sickle Cell Disease; Vaso-occlusive Crisis; Vaso-occlusive Pain Episode in Sickle Cell Disease; Dermatitis, Atopic; Lyme Disease; Stable Nonsegmental Vitiligo",Inclacumab; Abrocitinib 100 mg; Abrocitinib 200 mg; Placebo; VLA15; Saline,NCT05348915; NCT03422822; NCT05477524; NCT05583526; NCT04821622; NCT05020236; NCT05261139; NCT06152575; NCT04657991; NCT06641466; NCT07029711; NCT07500506; NCT05909397; NCT05059522; NCT05035212; NCT06551324; NCT04624230; NCT06163326; NCT07794748; NCT06807268; NCT07819097,-
+"Janssen Research & Development, LLC",17,2025-11-17,2027-06-30,yes,BIOLOGICAL; DRUG; OTHER; RADIATION,"Plaque Psoriasis; Arthritis, Juvenile; Acute Coronary Syndrome; Multiple Myeloma; Arthritis, Psoriatic; Metastatic Castrate-sensitive Prostate Cancer",JNJ-77242113; Matching Placebo to JNJ-77242113; Ustekinumab; Matching Placebo to Ustekinumab; Guselkumab; Milvexian,NCT06934226; NCT05083182; NCT05754957; NCT06208150; NCT06878404; NCT05884398; NCT05702034; NCT03767244; NCT05757869; NCT05327114; NCT04658862; NCT06559306; NCT01804686; NCT06741969; NCT06260163; NCT06807424; NCT05265273,-
+Bristol-Myers Squibb,16,2025-11-25,2027-06-28,yes,BIOLOGICAL; DRUG; OTHER,"Cardiomyopathy, Hypertrophic; Hypertrophic Cardiomyopathy; Obstructive Hypertrophic Cardiomyopathy; Non-obstructive Hypertrophic Cardiomyopathy; Urinary Bladder Neoplasms; Muscle-Invasive Bladder Cancer",Mavacamten; Placebo; mavacamten; Nivolumab; Gemcitabine; Cisplatin,NCT06253221; NCT03723655; NCT03661320; NCT03383458; NCT04039607; NCT04036435; NCT05552976; NCT06003426; NCT05620407; NCT05617677; NCT06951698; NCT06951711; NCT05946941; NCT06140836; NCT03873402; NCT07140913,-
+Novo Nordisk A/S,16,2025-11-19,2027-06-09,yes,DRUG,"Type 2 Diabetes Mellitus; Obesity; Type 2 Diabetes; Haemophilia A and B With and Without Inhibitors; Diabetes Mellitus, Type 2; Cardiovascular Risk",Cagrilintide; Semaglutide; Placebo cagrilintide; Placebo semaglutide; Tirzepatide; Concizumab,NCT06065540; NCT06131437; NCT06221969; NCT05135559; NCT06388187; NCT06534411; NCT05021835; NCT05636176; NCT06200207; NCT07076199; NCT06118281; NCT07011667; NCT07220642; NCT07220759; NCT07745504; NCT07817251,-
+Amgen,14,2025-11-19,2027-06-30,yes,BIOLOGICAL; DEVICE; DRUG; OTHER,Migraine; Thyroid Eye Disease; Chemotherapy-induced Thrombocytopenia; Prurigo Nodularis; Atopic Dermatitis; Sjogren's Syndrome,Erenumab Dose 1; Erenumab Dose 2; Erenumab Dose 3; Placebo; Teprotumumab; Romiplostim,NCT03836040; NCT06248619; NCT03937154; NCT06527404; NCT05882877; NCT06104124; NCT06088199; NCT06245408; NCT06858878; NCT06858839; NCT06700343; NCT05972551; NCT07871409; NCT05920356,-
+GlaxoSmithKline,12,2025-11-03,2027-03-01,yes,BIOLOGICAL; DEVICE; DRUG; OTHER,"Chronic Hepatitis B; Hepatitis B, Chronic; Lung Cancer, Non-Small Cell; Chickenpox; Cholestasis; Respiratory Syncytial Virus Infections",Bepirovirsen; Placebo; Dostarlimab; Belrestotug; Pembrolizumab; Candidate varicella vaccine,NCT05630820; NCT05630807; NCT06472076; NCT06855160; NCT04167358; NCT06534892; NCT05263934; NCT06693895; NCT06740630; NCT07645248; NCT05757102; NCT07671001,-
+UCB Biopharma SRL,12,2026-02-06,2027-05-12,yes,DRUG; OTHER,Psoriatic Arthritis; Moderate Chronic Plaque Psoriasis; Severe Chronic Plaque Psoriasis; Mixed Guttate/Plaque Psoriasis; Childhood Absence Epilepsy; Juvenile Absence Epilepsy,Bimekizumab; Risankizumab; Placebo; Certolizumab pegol; Brivaracetam; zilucoplan (RA101495),NCT06624228; NCT04123795; NCT04009499; NCT04666610; NCT04901195; NCT04225871; NCT04436640; NCT06921850; NCT06506916; NCT05077904; NCT05063162; NCT06055959,-
+Boehringer Ingelheim,10,2025-12-02,2027-06-15,yes,COMBINATION_PRODUCT; DRUG,"Obesity; Diabetes Mellitus, Type 2; Liposarcoma, Dedifferentiated; Lung Cancer, Non-squamous, Non-small Cell; Kidney Disease, Chronic; Interstitial Lung Diseases",survodutide; Placebo; Survodutide; Brigimadlin; zongertinib; pembrolizumab,NCT06066515; NCT06066528; NCT06058793; NCT06077864; NCT06151574; NCT06531824; NCT06806592; NCT07107945; NCT06238622; NCT06872892,-
+Incyte Corporation,9,2026-02-24,2026-12-26,yes,DRUG,NonSegmental Vitiligo; Atopic Dermatitis; Diffuse Large B-cell Lymphoma; Prurigo Nodularis; Hidradenitis Suppurativa; Hidradenitis Suppurativa (HS),Povorcitinib; Placebo; Ruxolitinib; Vehicle Cream; Tafasitamab; Lenalidomide,NCT06113445; NCT06113471; NCT06832618; NCT04824092; NCT06516965; NCT06958211; NCT06516952; NCT06959225; NCT06212999,Incyte
+Regeneron Pharmaceuticals,9,2026-03-12,2027-05-17,yes,DRUG,Melanoma; Allergic Conjunctivitis; Generalized Lipodystrophy; Paroxysmal Nocturnal Hemoglobinuria; Atopic Dermatitis; Venous Thromboembolism (VTE),Fianlimab; Cemiplimab; Pembrolizumab; Placebo; REGN5713; REGN5715,NCT05352672; NCT07309432; NCT06548100; NCT05133531; NCT02612454; NCT05608291; NCT07015905; NCT06246916; NCT07213778,-
+Takeda,9,2026-01-20,2027-06-08,yes,BIOLOGICAL; DRUG,Primary Immunodeficiency Diseases (PID); Plaque Psoriasis; Advanced/Metastatic Non-Small Cell Lung Cancer (NSCLC); Narcolepsy Type 1 (NT1); Narcolepsy With Cataplexy; Cytomegalovirus (CMV),TAK-881; HYQVIA; Zasocitinib; Deucravacitinib; Placebo to match zasocitinib; Placebo to match deucravacitinib,NCT05755035; NCT06973291; NCT04129502; NCT07363720; NCT05319353; NCT04683003; NCT06671483; NCT06671496; NCT06227910,Takeda
+Vertex Pharmaceuticals Incorporated,9,2025-11-13,2027-06-09,yes,BIOLOGICAL; DRUG,"Beta-Thalassemia; Thalassemia; Genetic Diseases, Inborn; Hematologic Diseases; Hemoglobinopathies; Cystic Fibrosis",CTX001; ELX/TEZ/IVA; IVA; Biological/Vaccine; VX-121/TEZ/D-IVA; Suzetrigine,NCT03655678; NCT05153317; NCT06832410; NCT05444257; NCT06696443; NCT07231419; NCT06628908; NCT05329649; NCT05477563,-
+argenx,7,2025-12-15,2027-03,yes,BIOLOGICAL; COMBINATION_PRODUCT; OTHER,"Thyroid Eye Disease; Myasthenia Gravis, Ocular; Primary Immune Thrombocytopenia; Active Idiopathic Inflammatory Myopathy; Myositis; Dermatomyositis",Efgartigimod PH20 SC; Placebo PH20 SC; efgartigimod; EFG PH20 SC; PBO; Empasiprubart,NCT06307626; NCT06307613; NCT06558279; NCT04225156; NCT05523167; NCT06742190; NCT04833894,-
+Biogen,7,2026-07-30,2027-05-31,yes,DRUG,"Muscular Atrophy, Spinal; Lupus Erythematosus, Systemic; Subacute Cutaneous Lupus Erythematosus; Chronic Cutaneous Lupus Erythematosus; Antibody-mediated Rejection; Multiple Sclerosis, Relapsing-Remitting",Nusinersen; Litifilimab; Placebo; Felzartamab; BIIB017 (peginterferon beta-1a); Interferon beta type 1a,NCT04729907; NCT04961567; NCT04895241; NCT05531565; NCT06685757; NCT03958877; NCT06935357,-
+Gilead Sciences,7,2026-03-16,2027-06,yes,DRUG,HIV-1-infection; HIV-1-Infection; Primary Biliary Cholangitis; Triple Negative Breast Cancer; PD-L1 Positive,lepetegravir; lenacapavir pacfosacil; Bictegravir/emtricitabine/tenofovir alafenamide; lepetegravir/lenacapavir pacfosacil FDC; Placebo to Match BVY; Placebo to Match GS1720/GS-4182 FDC,NCT06613685; NCT06630286; NCT06630299; NCT06060665; NCT06544733; NCT05382286; NCT05633654,Gilead
+"Alexion Pharmaceuticals, Inc.",6,2026-01-05,2026-12-15,yes,COMBINATION_PRODUCT; DRUG,Immunoglobulin A Nephropathy; IgAN; Hypophosphatasia; Neuromyelitis Optica Spectrum Disorder; Generalized Myasthenia Gravis; gMG,Ravulizumab; Placebo; ALXN1850; Danicopan; Gefurulimab,NCT06291376; NCT06079359; NCT05346354; NCT05644561; NCT05389449; NCT06607627,Alexion
+BioNTech SE,5,2026-05-01,2027-04-12,yes,BIOLOGICAL,COVID-19; SARS-COV-2 Infection; SARS-CoV-2 Virus; Severe Acute Respiratory Syndrome Coronavirus 2; COVID-19 Vaccines,BNT162b2 (2025/2026 recommended SARS-CoV-2 strain); Bivalent BNT162b2 (original/Omicron BA.4/BA.5) 3 microgram dose; Bivalent BNT162b2 (original/Omicron BA.4/BA.5) 6 microgram dose; Bivalent BNT162b2 (original/Omicron BA.4/BA.5) 10 microgram dose; Variant-adapted BNT162b2 (Omicron XBB.1.5) 3 microgram dose; Variant-adapted BNT162b2 (Omicron XBB.1.5) 6 microgram dose,NCT07069309; NCT05543616; NCT07222384; NCT07300839; NCT07798648,-
+Colgate Palmolive,5,2025-11-04,2026-11,yes,COMBINATION_PRODUCT; DEVICE; DRUG; OTHER,"Hypersensitivity; Health Adult Subjects; Plaque; Enamel Erosion; Plaque, Dental; Gingivitis",Toothpaste containing 8% Arginine; Colgate Cavity Protection Toothpaste; Beaming White; Philips Zoom Professional Whitening Treatment; Opalescence Boost PF; Fluoride Toothpaste,NCT07257042; NCT07225478; NCT07398846; NCT07442136; NCT07605338,-
+"Intra-Cellular Therapies, Inc.",5,2026-02-24,2027-06-21,yes,DRUG,"Bipolar Disorder, Manic; Major Depressive Disorder; Irritability Associated With Autism Spectrum Disorder",Lumateperone; Placebo; Lumateperone high dose; Lumateperone low dose,NCT06462586; NCT06462612; NCT05850689; NCT06706674; NCT06690398,-
+"Ionis Pharmaceuticals, Inc.",5,2026-03-25,2027-06,yes,DRUG,Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR CM); Amyotrophic Lateral Sclerosis; Hereditary Angioedema; Severe Hypertriglyceridemia; Familial Chylomicronemia Syndrome,Eplontersen; Placebo; ION363; Donidalorsen; Olezarsen,NCT04136171; NCT04768972; NCT05392114; NCT05681351; NCT05185843,Ionis Pharma
+Ipsen,5,2026-05-28,2026-12-15,yes,BIOLOGICAL; DRUG; OTHER,Chronic Migraine; Episodic Migraine; Primary Biliary Cholangitis; Moderate to Severe Glabellar Lines,Botulinum toxin type A; Placebo; Elafibranor; Corabotase,NCT06047444; NCT06047457; NCT06383403; NCT07435428; NCT07427797,-
+"ModernaTX, Inc.",5,2025-11-04,2027-02-15,yes,BIOLOGICAL,Cytomegalovirus Infection; Respiratory Syncytial Virus; Influenza; Acute Gastroenteritis; Norovirus Acute Gastroenteritis,mRNA-1647; Placebo; mRNA-1345; mRNA-1018-H5; mRNA-1403,NCT05085366; NCT07117487; NCT06067230; NCT07496450; NCT06592794,-
+"Otsuka Pharmaceutical Development & Commercialization, Inc.",5,2026-04-22,2027-05-27,yes,DRUG; OTHER,ADHD; Anxiety; Generalized Anxiety; Social Anxiety Disorder; Attention Deficit/Hyperactivity Disorder; Immunoglobulin A Nephropathy,Centanafadine; Placebo; Centanafadine Hydrochloride; Sibeprenlimab 400 mg; SEP-363856; Centanafadine XR,NCT06973577; NCT05279313; NCT05248646; NCT06894212; NCT07759154,-
+Praxis Precision Medicines,5,2025-11-12,2027-01,yes,DRUG,SCN2A Encephalopathy; SCN8A Encephalopathy; Focal Seizure; Developmental and Epileptic Encephalopathy 1; Epileptic Encephalopathy; Focal Epilepsy,PRAX-562; 20mg/day PRAX-628 for 6 weeks then 30mg/day PRAX-628 for remaining 6 weeks; Placebo; 1.0mg/kg/day PRAX-562; 1.5mg/kg/day PRAX-562; 1mg elsunersen,NCT05818553; NCT06999902; NCT07010471; NCT07019922; NCT07505004,-
+Xenon Pharmaceuticals Inc.,5,2026-01-12,2027-05,yes,DRUG,Focal Onset Seizures; Major Depressive Disorder; Primary Generalized Tonic-Clonic Seizures,XEN1101; Placebo; Azetukalner,NCT05614063; NCT06775379; NCT06922110; NCT05667142; NCT07076407,-
+"Alkermes, Inc.",4,2026-09,2027-06,yes,DRUG,Schizophrenia; Bipolar I Disorder; Narcolepsy Type 1; Narcolepsy Type 2,OLZ/SAM; Olanzapine; ALKS 2680 Dose 1; ALKS 2680 Dose 2; Placebo; ALKS 2680 Dose 3,NCT05303064; NCT07455383; NCT07502443; NCT07540897,-
+Chiesi Farmaceutici S.p.A.,4,2025-12-23,2026-07-14,yes,DRUG,Chronic Obstructive Pulmonary Disease; COPD; COPD Exacerbation; Fabry Disease; Partial Lipodystrophy,CHF6001 1600µg; CHF6001 3200µg; Placebo; Roflumilast; Beclomethasone Dipropionate; Glycopyrronium Bromide,NCT04636814; NCT04320342; NCT03614234; NCT05164341,-
+CSL Behring,4,2025-11-19,2027-04-06,yes,BIOLOGICAL,Hereditary Angioedema (HAE); Hereditary Angioedema; Acute-graft-versus-host Disease; Complex Cardiovascular Surgery With Cardiopulmonary Bypass,CSL312; AAT; Placebo; BE1116; FFP,NCT05819775; NCT04739059; NCT03805789; NCT07094087,-
+"Karuna Therapeutics, Inc., a Bristol Myers Squibb company",4,2026-03-25,2026-12-09,yes,DRUG,Schizophrenia; Psychosis Associated With Alzheimer's Disease; Alzheimer Disease,Xanomeline and Trospium Chloride Capsules; KarXT; Placebo,NCT05304767; NCT05511363; NCT06585787; NCT06126224,-
+Kodiak Sciences Inc,4,2026-02-13,2027-04,yes,DRUG; OTHER,Diabetic Retinopathy; Wet Age-related Macular Degeneration; Macular Edema Secondary to Inflammation,Tarcocimab; Sham injection; Tarcocimab tedromer; Tabirafusp tedromer; Aflibercept; KSI-101,NCT06270836; NCT06556368; NCT06996080; NCT06990399,-
+Octapharma,4,2026-01-13,2026-12-01,yes,BIOLOGICAL; DRUG; OTHER,Acute Major Bleeding; Primary Immune Deficiency; Acute Hereditary Angio Edema; Congenital Antithrombin Deficiency,Octaplex; Newnorm; OCTA-C1-INH; Placebo; Atenativ,NCT04867837; NCT04640142; NCT06361537; NCT04918173,Octapharma USA
+Quoin Pharmaceuticals,4,2025-12-30,2027-01-31,yes,DRUG,Netherton Syndrome,"QRX003-2% Lotion; QRX003-4% Lotion QAM; Vehicle; QRX003-4% Lotion BID; QRX003, 4% Lotion; QRX003",NCT05521438; NCT05789056; NCT06953466; NCT07538583,-
+"Sarfez Pharmaceuticals, Inc.",4,2025-12-30,2026-09-17,yes,COMBINATION_PRODUCT; DRUG,Bioavailability Heathy Volunteers; Bioequivalence Study in Healthy Subjects; PK/PD; Hypertension (HTN),FDC (24 mg ER torsemide and 30 mg Spironolactone) without food; FDC (24 mg ER torsemide and 30 mg Spironolactone) with food; 10 mg Torsemide tablet; 25 mg Aldactone (Spironolactone) tablet; FDC (12 mg ER Torsemide + 15mg Spironolactone) tablet; Torsemide and Spironolactone tablet,NCT07043634; NCT07015671; NCT07046975; NCT07223502,-
+"Viridian Therapeutics, Inc.",4,2026-02-12,2026-05-28,yes,DEVICE; DRUG,Thyroid Eye Disease; Thyroid Eye Disease (TED),VRDN-003; Placebo; Autoinjector,NCT06625411; NCT06625398; NCT06812325; NCT07155668,-
+Acerta Pharma BV,3,2027-02-15,2027-04-30,yes,DRUG,"Lymphoma, Mantle Cell; Diffuse Large B-Cell Lymphoma; Chronic Lymphocytic Leukemia",Acalabrutinib; Bendamustine; Rituximab; Placebo; acalabrutinib; placebo,NCT02972840; NCT04529772; NCT03836261,-
+Akebia Therapeutics,3,2026-07,2026-08-12,yes,DRUG,Anemia of Chronic Kidney Disease,vadadustat; Vadadustat; Erythropoiesis-Stimulating Agent (ESA),NCT05082571; NCT05082584; NCT06901505,-
+"Albireo, an Ipsen Company",3,2026-06-22,2027-02-15,yes,DRUG,Biliary Atresia; Alagille Syndrome,Odevixibat; Placebo,NCT04336722; NCT05426733; NCT05035030,-
+Alcon Research,3,2026-04-06,2027-02,yes,DRUG,Ocular Hypertension; Open Angle Glaucoma; Ocular Hyperemia,"Netarsudil 0.01%/latanoprost 0.005% ophthalmic solution; Netarsudil 0.02%/latanoprost 0.005% ophthalmic solution; Apraclonidine Ophthalmic Solution, 0.125% Unit Dose Preservative Free; Vehicle",NCT07082816; NCT07578363; NCT07531043,-
+Areteia Therapeutics,3,2025-12-08,2025-12-08,yes,DRUG,Eosinophilic Asthma; Asthma; Eosinophilic,Dexpramipexole Dihydrochloride; Placebo,NCT05813288; NCT06388889; NCT05763121,-
+Arrowhead Pharmaceuticals,3,2026-06-01,2026-06-17,yes,DRUG,Hypertriglyceridemia; Severe Hypertriglyceridemia,Plozasiran Injection; Placebo,NCT06347133; NCT06347003; NCT06347016,-
+Bayer,3,2025-12-31,2027-04-10,yes,COMBINATION_PRODUCT; DRUG,Non-diabetic Chronic Kidney Disease; Endometrial Hyperplasia; Chronic Kidney Disease; Proteinuria,"Finerenone (BAY94-8862); Placebo; BAY865028; Medroxyprogesterone acetate; Finerenone (Kerendia, BAY94-8862)",NCT05047263; NCT06904274; NCT05196035,-
+BeOne Medicines,3,2026-04-27,2026-12-31,yes,DRUG,Mantle Cell Lymphoma; Non-Hodgkin Lymphoma; Advanced Malignancies; B-cell Malignancies,zanubrutinib; bendamustine; rituximab; Tislelizumab; Pamiparib; Temozolomide,NCT04002297; NCT04164199; NCT04170283,-
+Biohaven Therapeutics Ltd.,3,2026-03-12,2026-12,yes,DRUG,Generalized Epilepsy; Focal Epilepsy,BHV-7000; Placebo,NCT06425159; NCT06309966; NCT06132893,-
+Celgene,3,2025-11-16,2027-01-10,yes,BIOLOGICAL; DRUG,Multiple Myeloma; Relapsed or Refractory Multiple Myeloma,Alnuctamab; Pomalidomide; Daratumumab; Elotuzumab; Carfilzomib; Dexamethasone,NCT06232707; NCT03651128; NCT05519085,-
+"Definium Therapeutics US, Inc.",3,2026-05-20,2026-08-13,yes,DRUG; OTHER,Major Depressive Disorder; Generalized Anxiety Disorder,Placebo; DT120,NCT06941844; NCT06741228; NCT06809595,-
+Immunovant Sciences GmbH,3,2025-11-02,2026-04-02,yes,DRUG; OTHER,Thyroid Eye Disease,Batoclimab; Placebo; Observational cohort study,NCT05517421; NCT05524571; NCT05517447,-
+"KalVista Pharmaceuticals, Ltd.",3,2026-01-15,2026-05-27,yes,DRUG,Hereditary Angioedema,KVD900 150 mg; KVD900 300 mg; KVD900 600 mg; Drug: KVD900 300 mg,NCT06467084; NCT05511922; NCT05505916,-
+Karyopharm Therapeutics Inc,3,2026-02-20,2026-12,yes,DRUG; OTHER,Myelofibrosis; Endometrial Cancer; Relapsed/Refractory Diffuse Large B-cell Lymphoma,Selinexor; Placebo; Ruxolitinib; Matching Placebo for selinexor; Selinexor (combination therapy); Placebo matching for Selinexor (combination therapy),NCT04562389; NCT05611931; NCT04442022,-
+MoonLake Immunotherapeutics AG,3,2026-05-28,2027-01-04,yes,DRUG,"Arthritis, Psoriatic; Hidradenitis Suppurativa",Sonelokimab; Placebo; Risankizumab,NCT06641076; NCT06768671; NCT06641089,-
+"Neumora Therapeutics, Inc.",3,2026-05-04,2026-08-17,yes,DRUG,Major Depressive Disorder,NMRA-335140; Placebo,NCT06058039; NCT06058013; NCT06029439,-
+"Ocular Therapeutix, Inc.",3,2026-04-29,2027-03,yes,DRUG; OTHER,Neovascular Age-Related Macular Degeneration; Neovascular Age-related Macular Degeneration; Non-Proliferative Diabetic Retinopathy,OTX-TKI (axitinib implant); Aflibercept; OTX-TKI; Single intravitreal injection of axitinib hydrogel implant followed by a mock (sham) injection procedure at Week 24; Intravitreal injection of axitinib hydrogel implant followed by a second intravitreal injection of the axitinib implant at Week 24; Sham/mock procedure of intravitreal injection followed by a second sham/mock procedure at Week 24,NCT06223958; NCT06495918; NCT07235085,-
+Oculis,3,2026-04-02,2026-12,yes,DRUG; OTHER,Diabetic Macular Edema; Dry Eye Disease (DED),Dexamethasone ophthalmic suspension (OCS-01); Vehicle; Artificial Tear Run-in; licaminlimab; Vehicle of licaminlimab,NCT06172257; NCT05066997; NCT07548632,-
+Pharvaris Netherlands B.V.,3,2026-07-21,2027-06,yes,DRUG,Hereditary Angioedema (HAE); Acquired Angioedema Due to C1-Inhibitor Deficiency (AAE-C1-INH); Hereditary Angioedema; Hereditary Angioedema Type I; Hereditary Angioedema Type II; Hereditary Angioedema Types I and II,Deucrictibant; Placebo; deucrictibant,NCT06669754; NCT07266805; NCT05396105,-
+"Rhythm Pharmaceuticals, Inc.",3,2025-12-19,2027-03-13,yes,DRUG,Obesity; Genetic Obesity; Obesity Associated With Defects in Leptin-melanocortin Pathway; Hypothalamic Obesity; Multiple Pituitary Hormone Deficiency Genetic Form; Septo-Optic Dysplasia,Setmelanotide; Placebo,NCT05093634; NCT06596135; NCT06760546,-
+"Sanofi Pasteur, a Sanofi Company",3,2025-12-04,2027-05-17,yes,BIOLOGICAL,RSV Immunisation; Pneumococcal Infections; Pneumococcal Immunization,RSVt Vaccine; Placebo; PCV21; 20vPCV; PCV21 vaccine; Prevnar 20 vaccine,NCT06252285; NCT06838000; NCT06736041,-
+"Seagen, a wholly owned subsidiary of Pfizer",3,2026-01-23,2027-01-29,yes,DRUG; OTHER,"Diffuse Large B-cell Lymphoma; Carcinoma, Non-Small-Cell Lung; Urothelial Carcinoma",Brentuximab vedotin; Rituximab; Lenalidomide; Placebo; sigvotatug vedotin; docetaxel,NCT04404283; NCT06012435; NCT05911295,-
+"SK Life Science, Inc.",3,2026-06-10,2027-02,yes,DRUG,Primary Generalized Tonic Clonic Seizures in the Setting of Idiopathic Generalized Epilepsy; Partial Epilepsy; Seizures; Lennox Gastaut Syndrome,Cenobamate; Xcopri; Carisbamate,NCT03961568; NCT05067634; NCT05219617,-
+"Sun Pharmaceutical Industries, Inc.",3,2027-01,2027-05,yes,DEVICE; DRUG; OTHER,Actinic Keratosis; Alopecia Areata,"Reformulated Levulan Kerastick containing aminolevulinic acid hydrochloride (ALA HCl), 20%; Vehicle; Blue Light Photodynamic Therapy Illuminator device, BLU-U® model 4170E.; Vehicle containing excipients only (VEH) without active ingredient; Blue Light Photodynamic Therapy Illuminator device, BLU-U® model 4170E; CTP-543",NCT07144852; NCT07144345; NCT03898479,-
+United Therapeutics,3,2025-12-31,2026-12,yes,DEVICE; DRUG,PAH; Pulmonary Hypertension; Pulmonary Arterial Hypertension; Hypertension; Connective Tissue Diseases; Familial Primary Pulmonary Hypertension,Ralinepag; Placebo; Inhaled Treprostinil; Treprostinil Ultrasonic Nebulizer,NCT03626688; NCT04708782; NCT03683186,-
+Vanda Pharmaceuticals,3,2026-09-04,2026-12-01,yes,DRUG,"Sleep Wake Disorders; Sleep Disorders, Circadian Rhythm; Chronobiology Disorders; Social Anxiety Disorder (SAD); Nausea and Vomiting; Obesity",Tasimelteon; Placebo; VQW-765; Tradipitant,NCT04652882; NCT07221578; NCT07446439,-
+"Vaxcyte, Inc.",3,2026-09-17,2026-10-25,yes,BIOLOGICAL,Pneumococcal Disease,31 valent pneumococcal conjugate vaccine; PCV20; PCV21; 31-valent pneumococcal conjugate vaccine; Seasonal Influenza Vaccine (SIV) (Flublok); Placebo,NCT07284654; NCT07365826; NCT07425392,-
+"Veradermics, Inc.",3,2026-02,2027-06,yes,DRUG,Androgenetic Alopecia; AGA; Male Pattern Baldness; Androgenetic Alopecia (AGA); Female Androgenetic Alopecia; Hair Loss,VDPHL01; Placebo; VDPHL01 QD; VDPHL01 BID,NCT06724614; NCT06972264; NCT07146022,-
+"Aardvark Therapeutics, Inc.",2,2026-04-15,2026-05-07,yes,DRUG,Hyperphagia; Prader-Willi Syndrome; Hyperphagia in Prader-Willi Syndrome,ARD-101; Placebo,NCT07197034; NCT06828861,-
+"Aesculap Biologics, LLC",2,2025-12,2026-01,yes,BIOLOGICAL; COMBINATION_PRODUCT; PROCEDURE,Articular Cartilage of the Femoral Condyle Between 2-6cm2; Articular Cartilage Defect,Microfracture; NOVOCART 3D,NCT01957722; NCT03219307,-
+"AMAG Pharmaceuticals, Inc.",2,2026-07,2026-08-31,yes,DRUG,Iron Deficiency Anemia; Chronic Kidney Disease,ferumoxytol; Iron sucrose; Ferumoxytol,NCT03893045; NCT03619850,-
+Amicus Therapeutics,2,2026-12-31,2027-03,yes,BIOLOGICAL; DRUG,Fabry Disease; Pompe Disease (Late-onset),migalastat HCl 150 mg; Cipaglucosidase Alfa; Miglustat,NCT04020055; NCT03911505,-
+"Anthos Therapeutics, Inc.",2,2026-02-04,2026-04-10,yes,BIOLOGICAL; DRUG,Venous Thromboembolism; Deep Venous Thrombosis; Pulmonary Embolism,Abelacimab; Apixaban; Dalteparin,NCT05171049; NCT05171075,-
+Ardelyx,2,2026-08-20,2027-02-26,yes,DRUG,Irritable Bowel Syndrome With Constipation (IBS-C); Chronic Idiopathic Constipation (CIC),Tenapanor 50 MG; Tenapanor 25 mg bid; Placebo; Tenapanor 5 mg BID; Tenapanor 25 mg BID; Tenapanor 50 mg BID,NCT05643534; NCT07382167,-
+"Arog Pharmaceuticals, Inc.",2,2026-04-03,2026-04-06,yes,DRUG,Relapsed/Refractory Acute Myeloid Leukemia With FLT3 Activating Mutations; Newly Diagnosed FLT3 Mutated AML,Crenolanib; Cytarabine; Mitoxantrone; Placebo Oral Tablet; Fludarabine; Idarubicin,NCT03250338; NCT03258931,-
+Arthrosi Therapeutics,2,2026-03-20,2026-08-31,yes,DRUG,"Gout; Arthritis, Gouty; Hyperuricemia; Gout Chronic",AR882 50 mg; AR882 75 mg; Placebo,NCT06439602; NCT06846515,-
+Ascentage Pharma Group Inc.,2,2026-12-31,2027-06-30,yes,DRUG,"CLL/SLL; Chronic Myeloid Leukemia; CML; CML, Chronic Phase",lisaftoclax +BTK inhibitor; BTK inhibitor; olverembatinib; Bosutinib,NCT06104566; NCT06423911,-
+AUG Therapeutics,2,2026-11-30,2026-12-31,yes,DRUG,Leukocyte Adhesion Deficiency,AVTX-803 (L-Fucose); AVTX-803,NCT05462587; NCT05754450,-
+"Axsome Therapeutics, Inc.",2,2026-12,2026-12,yes,DRUG,Binge-Eating Disorder; Excessive Sleepiness; Shift-work Disorder,Solriamfetol 150 mg; Solriamfetol 300 mg; Placebo,NCT06413433; NCT06568367,-
+Bellus Health Inc. - a GSK company,2,2025-12-17,2026-06-10,yes,DRUG,Cough; Refractory Chronic Cough,BLU-5937; Placebo,NCT05599191; NCT05600777,-
+Celldex Therapeutics,2,2026-08-04,2026-08-12,yes,BIOLOGICAL,Chronic Spontaneous Urticaria,barzolvolimab; Matching placebo,NCT06455202; NCT06445023,-
+Clarity Pharmaceuticals Ltd,2,2026-09,2026-12-31,yes,DRUG,Prostate Cancer; Prostatic Neoplasms; Prostate Cancer Patients With Detectable PSA Following Prostatectomy; Prostate Cancer Recurrent; Prostate Cancer Patients Who Have Brachytherapy Seed Implant; Prostate Cancer Patients Treated by Radiotherapy,64Cu-SAR-bisPSMA,NCT06056830; NCT06970847,-
+Cook MyoSite,2,2026-06-11,2026-12,yes,BIOLOGICAL; OTHER,Stress Urinary Incontinence; Fecal Incontinence,AMDC-USR (iltamiocel); Placebo; Iltamiocel,NCT03104517; NCT05776277,-
+Cybin IRL Limited,2,2026-09-04,2027-06-07,yes,BEHAVIORAL; DRUG,Major Depressive Disorder; Major Depressive Disorder (MDD); Depression in Adults; Depression - Major Depressive Disorder; Depression Disorders; Depression Disorder,CYB003; Psychological Support; Placebo,NCT06564818; NCT06793397,-
+DBV Technologies,2,2025-11-06,2026-11,yes,COMBINATION_PRODUCT; DRUG; OTHER,"Allergy, Peanut; Allergy; Peanut Allergy",DBV712; Placebo; DBV712 250 mcg,NCT05741476; NCT07003919,-
+Ebima Clifford Okundaye,2,2026-10,2026-12-30,yes,DRUG,Chronic Kidney Diseases; Acute Kidney Injury; Kidney Failure; Acute Renal Failure (ARF); Acute Tubular Necrosis,QRX-3,NCT06866236; NCT07161843,-
+Epion Therapeutics,2,2026-02-13,2026-05-27,no,COMBINATION_PRODUCT,Keratoconus,Riboflavin and Sodium Iodide solution and Ultraviolet-A treatment; Placebo and sham treatment,NCT06100952; NCT06100939,-
+Epygenix,2,2026-11-01,2027-04,yes,DRUG,Lennox Gastaut Syndrome; Dravet Syndrome,Clemizole HCl; Placebo,NCT05066217; NCT04462770,-
+Exelixis,2,2026-06-16,2026-12-15,yes,DRUG,Colorectal Cancer; Non-Clear Cell Renal Cell Carcinoma,XL092; Atezolizumab; Regorafenib; Nivolumab; Sunitinib Malate,NCT05425940; NCT05678673,-
+EyeBiotech Ltd.,2,2026-07-14,2027-01-11,yes,DRUG,Diabetic Macular Edema (DME),Ranibizumab; Remigromig,NCT06571045; NCT06957080,-
+"EyePoint Pharmaceuticals, Inc.",2,2026-07-13,2026-09-09,yes,DRUG,Wet Age Related Macular Degeneration; wAMD,EYP-1901; Aflibercept (2.0 mg),NCT06668064; NCT06683742,-
+Galderma R&D,2,2026-08-31,2026-10-26,yes,DRUG,Moderate-to-Severe Atopic Dermatitis; Prurigo Nodularis,Nemolizumab,NCT03989206; NCT04204616,-
+Genmab,2,2026-08-18,2027-06,yes,DRUG,Platinum-resistant Ovarian Cancer; Diffuse Large B-Cell Lymphoma,Rina-S; Paclitaxel; Topotecan; Pegylated liposomal doxorubicin (PLD); Gemcitabine; Epcoritamab,NCT06619236; NCT05578976,-
+"Genzyme, a Sanofi Company",2,2026-08-04,2026-09-14,yes,DRUG,Hemophilia,Fitusiran,NCT03974113; NCT03754790,-
+"Han Xu, M.D., Ph.D., FAPCR, Medical Director,, IRB Chair",2,2026-10-18,2026-11-18,yes,DRUG,Type 2 Diabetes; Small Cell Lung Cancer,Farxiga® (dapagliflozin) + Onglyza® (saxagliptin) + Metformin Oral Mix Treat type 2 diabetes; China Import (dapagliflozin) + China Import (saxagliptin) + Metformin Oral Mix Treat type 2 diabetes; ETOPOSIDE - Usual; ETOPOSIDE - Study,NCT07033585; NCT01064466,-
+"Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, IRB Chair",2,2026-11-18,2026-12-18,yes,DRUG,Prostate Cancer; Breast Cancer,Abiraterone - Usual; Abiraterone - Study; Raloxifene - Usual; Raloxifene - Study,NCT03348670; NCT06062810,-
+Immunic AG,2,2026-11,2026-11,yes,DRUG,"Multiple Sclerosis; Multiple Sclerosis, Relapsing-Remitting",IMU-838 tablets; Placebo matching IMU-838 tablets,NCT05134441; NCT05201638,-
+Immutep S.A.S.,2,2026-04-30,2027-06,yes,BIOLOGICAL; DRUG; OTHER,Breast Carcinoma; Advanced/Metastatic Non-Small Cell Lung Cancer (NSCLC),eftilagimod alpha; Paclitaxel; placebo; eftilagimod alfa; carboplatin plus paclitaxel; cisplatin or carboplatin + pemetrexed,NCT05747794; NCT06726265,-
+Insmed Incorporated,2,2025-11-21,2026-12-31,yes,DRUG,"Mycobacterium Infections, Nontuberculous; Pulmonary Arterial Hypertension",ALIS; Azithromycin; Ethambutol; ELC (matching placebo for ALIS); Treprostinil Palmitil; Placebo,NCT04677569; NCT05649748,-
+"Invivyd, Inc.",2,2026-08,2026-08-15,yes,DRUG,COVID-19,VYD2311-SD; VYD2311-MD; Placebo; COVID-19 mRNA vaccine; VYD2311; Placebo (Normal Saline),NCT07298434; NCT07655180,-
+Janssen-Cilag Ltd.,2,2027-03-25,2027-06-08,yes,DRUG,Fistulizing Crohns Disease; Perianal Crohns Disease; Crohn's Disease,Guselkumab; Placebo,NCT05347095; NCT06408935,-
+Kedrion S.p.A.,2,2026-12,2026-12,yes,BIOLOGICAL,Primary Immunodeficiency Disease; Chronic Primary Immune Thrombocytopenia (ITP),Kedrion IVIG 10%,NCT04944979; NCT07059000,-
+Longboard Pharmaceuticals,2,2026-10-31,2026-12-31,yes,DRUG,Developmental and Epileptic Encephalopathy; Dravet Syndrome,LP352; Placebo,NCT06719141; NCT06660394,-
+"Madrigal Pharmaceuticals, Inc.",2,2026-12,2027-03,yes,DRUG,"NASH; Cirrhosis, Liver; Non-Alcoholic Fatty Liver Disease",Resmetirom; Placebo,NCT05500222; NCT04951219,-
+Merz Therapeutics GmbH,2,2027-03,2027-03,yes,DRUG,Episodic Migraine; Chronic Migraine,Xeomin; Placebo,NCT07018700; NCT07018713,-
+"Mirum Pharmaceuticals, Inc.",2,2026-07-29,2026-08,yes,DRUG; OTHER,"Cholestatic Liver Disease (Except ALGS, PFIC, PBC and PSC); Chronic Hepatitis D Infection",Maralixibat; Placebo; Brelovitug 300 mg; Brelovitug 900 mg; Delayed Treatment with Brelovitug 300mg,NCT06553768; NCT07298330,-
+Ocugen,2,2026-09-28,2027-02-12,yes,DRUG; GENETIC,Stargardt Disease; Retinitis Pigmentosa,OCU410ST; Sub-Retinal Administration of OCU400-301,NCT05956626; NCT06388200,-
+PTC Therapeutics,2,2026-02-10,2026-07-21,yes,DRUG,Duchenne Muscular Dystrophy; Phenylketonuria,Ataluren; PTC923,NCT01247207; NCT05166161,-
+"QED Therapeutics, a BridgeBio company",2,2025-12-18,2027-01,yes,DRUG,Achondroplasia; Hypochondroplasia,Infigratinib 0.25 mg/kg/day; Placebo Comparator 0.25 mg/kg/day; infigratinib 0.128 mg/kg/day; infigratinib 0.25 mg/kg/day,NCT06164951; NCT06873035,-
+Quince Therapeutics S.p.A.,2,2025-12-17,2026-01-30,yes,DRUG; OTHER,Ataxia Telangiectasia,Dexamethasone sodium phosphate; Placebo,NCT06193200; NCT06664853,-
+Sandoz,2,2026-03-16,2026-11-03,yes,BIOLOGICAL; DRUG,Metastatic NSCLC; Relapsing Multiple Sclerosis,GME751; Keytruda-EU; CYB704; Ocrevus-EU; Ocrevus-US,NCT06159790; NCT06847724,-
+"Sarepta Therapeutics, Inc.",2,2026-09-07,2027-05-31,yes,DRUG; GENETIC,"Muscular Dystrophy, Duchenne; Duchenne Muscular Dystrophy",Eteplirsen; delandistrogene moxeparvovec; placebo,NCT03992430; NCT05881408,-
+Shanghai Henlius Biotech,2,2026-06-30,2027-06-01,yes,DRUG; RADIATION,Limited-Stage Small Cell Lung Cancer; Gastroesophageal-junction Cancer; Monoclonal Antibody; Gastric Cancer; HER2-positive Gastric Cancer,HLX10; carboplatin/cisplatin-etoposide; Thoracic radiotherapy; Placebo; Prophylactic Cranial Irradiation (PCI); HLX22,NCT05353257; NCT06532006,-
+"Taiho Oncology, Inc.",2,2027-04,2027-05-27,yes,DRUG,Advanced/Metastatic Cancer; Advanced or Metastatic NSCLS With Exon 20 Insertion Mutation,"futibatinib; futibatinib, fulvestrant; TAS6417",NCT06506955; NCT05973773,-
+Teva Branded Pharmaceutical Products R&D LLC,2,2026-10-26,2026-12-31,yes,DRUG,Asthma,Fp/ABS; FP; ABS; Placebo; TEV-56248; Albuterol sulfate,NCT06664619; NCT06052267,-
+Ultragenyx Pharmaceutical Inc,2,2026-07-10,2026-10-30,yes,DRUG; PROCEDURE,Angelman Syndrome,GTX-102; Sham-LP,NCT06617429; NCT06415344,-
+Verrica Pharmaceuticals Inc.,2,2026-11,2027-05,no,COMBINATION_PRODUCT,Common Warts; Common Warts (Verruca Vulgaris); Human Papilloma Virus (HPV); Warts,VP-102; Vehicle; VP-102 (US) / TO-208 (Japan); Vehicle (US) / Vehicle (Japan),NCT07246590; NCT07637734,-
+Viatris Innovation GmbH,2,2026-12-31,2027-03-31,yes,DRUG,"Lupus Erythematosus, Systemic",Cenerimod; Placebo,NCT05672576; NCT05648500,-
+ViiV Healthcare,2,2026-01-23,2026-08-19,yes,DRUG,HIV; HIV Infections,DTG/3TC; CAB LA + RPV LA; Oral ART,NCT05911360; NCT06694805,-
+Zealand Pharma,2,2026-04-30,2026-04-30,yes,DRUG,Short Bowel Syndrome,glepaglutide; Glepaglutide,NCT03905707; NCT04881825,-
+4D Molecular Therapeutics,1,2027-06,2027-06,yes,BIOLOGICAL,Macular Neovascularization Secondary to Age-Related Macular Degeneration,4D-150 IVT (3E10 vg/eye); EYLEA® (aflibercept) Injection 2 mg (0.05mL),NCT06864988,-
+"Abcuro, Inc.",1,2025-11-06,2025-11-06,yes,DRUG,Inclusion Body Myositis,ABC008,NCT05721573,-
+Abivax S.A.,1,2026-04-28,2026-04-28,yes,DRUG,Ulcerative Colitis,ABX464; Placebo,NCT05535946,-
+ACADIA Pharmaceuticals Inc.,1,2025-12-19,2025-12-19,yes,DRUG,Hyperphagia in Prader-Willi Syndrome,Carbetocin,NCT06420297,-
+Actinogen Medical,1,2026-09-22,2026-09-22,yes,DRUG,"Dementia Moderate; Dementia, Mild; Alzheimer Disease",Xanamem; Placebo,NCT06125951,-
+ADC Therapeutics S.A.,1,2026-03-31,2026-03-31,yes,DRUG,Relapsed Diffuse Large B-Cell Lymphoma; Refractory Diffuse Large B-Cell Lymphoma,Loncastuximab Tesirine; Rituximab; Gemcitabine; Oxaliplatin,NCT04384484,-
+"Adlai Nortye Biopharma Co., Ltd.",1,2025-11-02,2025-11-02,yes,DRUG,Head and Neck Cancer,Buparlisib & Paclitaxel,NCT04338399,-
+"Adneuris Therapeutics, Inc.",1,2027-01,2027-01,yes,DRUG,Pain,Cebranopadol 400 ug,NCT07845071,-
+"Adverum Biotechnologies, Inc.",1,2026-12-22,2026-12-22,yes,DRUG; GENETIC,Neovascular Age-Related Macular Degeneration (nAMD); Wet AMD,Ixo-vec; Aflibercept,NCT06856577,-
+Aerogen Pharma Limited,1,2027-05,2027-05,no,COMBINATION_PRODUCT; OTHER,Respiratory Distress Syndrome; Pre-term Infants,APC-0101 (SF-RI 1 surfactant for inhalation combined with a dedicated delivery system); Control,NCT06776783,-
+AgelessRx,1,2026-04-09,2026-04-09,yes,BEHAVIORAL; DIETARY_SUPPLEMENT; DRUG,Healthspan Improvement; Aging; Longevity,Rapamycin; Naltrexone; Metformin; NAD+; GSH; Infinite Supplement,NCT07475546,-
+"Agitated Solutions, Inc.",1,2026-11,2026-11,yes,DRUG,Right-To-Left Shunt,Agitated Saline SoC; ASI-02,NCT06938347,-
+"Akero Therapeutics, Inc",1,2026-03-03,2026-03-03,yes,DRUG,NASH/MASH; NAFLD/MASLD,Efruxifermin; Placebo,NCT06161571,-
+Akeso,1,2026-02-23,2026-02-23,yes,DRUG,Nasopharyngeal Carcinoma,Penpulimab; placebo,NCT04974398,-
+Alebund Pharmaceuticals,1,2026-06-20,2026-06-20,yes,DRUG,"Hyperphosphatemia; Chronic Kidney Disease, Receiving Dialysis; ESRD (End-Stage Renal Disease); Dialysis",AP301; AP301 Low Dose,NCT06933472,-
+Alfasigma S.p.A.,1,2026-09-08,2026-09-08,yes,DRUG,Ulcerative Colitis,Filgotinib; Placebo,NCT02914535,-
+Alzheon Inc.,1,2026-03-11,2026-03-11,yes,DRUG,Early Alzheimer's Disease,Experimental: ALZ-801,NCT06304883,-
+"Amneal Pharmaceuticals, LLC",1,2027-03-31,2027-03-31,yes,DRUG,Male Hypogonadism,Testosterone Cypionate 75 mg; Testosterone cypionate 50 mg; Testosterone cypionate 100 mg,NCT07898072,-
+AMO Pharma Limited,1,2026-12-31,2026-12-31,yes,DRUG,Congenital Myotonic Dystrophy,Tideglusib,NCT05004129,-
+"Amphastar Pharmaceuticals, Inc.",1,2026-06-22,2026-06-22,yes,DRUG,Pharmacokinetics; Pharmacodynamics; Insulin Aspart,I004; NovoLog,NCT07560150,-
+Amylyx Pharmaceuticals Inc.,1,2026-07-08,2026-07-08,yes,DRUG; OTHER,Post Bariatric Hypoglycemia,Avexitide; Placebo,NCT06747468,-
+Amzell,1,2025-12-22,2025-12-22,yes,DRUG,"Osteoarthritis of Knee; Osteoarthritis, Knee",AMZ001 Diclofenac gel; Placebo gel,NCT06693648,-
+"Annexon, Inc.",1,2027-05-31,2027-05-31,yes,DRUG,Guillain-Barre Syndrome,Tanruprubart,NCT07020819,-
+"Apellis Pharmaceuticals, Inc.",1,2025-12-12,2025-12-12,yes,DRUG,Geographic Atrophy Secondary to Age-related Macular Degeneration,"APL-2, Pegcetacoplan",NCT07214740,Apellis Pharmaceuticals Inc
+Apnimed,1,2026-06-30,2026-06-30,yes,DRUG,OSA,Aroxybutynin and Atomoxetine,NCT06566820,-
+"Aponia Laboratories, Inc.",1,2027-06,2027-06,yes,DRUG,Acute Pain Due to Trauma,S-Ibuprofen Gel 5%; Vehicle Topical Gel,NCT07930559,-
+"Aragon Pharmaceuticals, Inc.",1,2027-03-01,2027-03-01,yes,DRUG; RADIATION,Prostatic Neoplasms,Apalutamide; Bicalutamide; Bicalutamide Placebo; Apalutamide Placebo; GnRH (agonist); 74-80 Grays (units of radiation),NCT02531516,-
+"Arcus Biosciences, Inc.",1,2026-08-28,2026-08-28,yes,DRUG,Advanced Upper Gastrointestinal Tract Adenocarcinoma,Domvanalimab; Zimberelimab; Capecitabine; Fluorouracil; Leucovorin; Oxaliplatin,NCT05568095,-
+"AriBio Co., Ltd.",1,2026-06-29,2026-06-29,yes,DRUG,Alzheimer Disease,AR1001; Placebo,NCT05531526,-
+"ArriVent BioPharma, Inc.",1,2026-10-06,2026-10-06,yes,DRUG,Metastatic Non-Small Cell Lung Cancer; Advanced Non-Small Cell Lung Cancer; EGFR Exon 20 Mutations,"furmonertinib 240 mg oral, daily; furmonertinib 160 mg oral, daily; platinum-based chemotherapy",NCT05607550,-
+Ascendis Pharma Bone Diseases A/S,1,2027-06,2027-06,no,COMBINATION_PRODUCT,Hypoparathyroidism; Endocrine System Diseases; Parathyroid Diseases,Palopegteriparatide Experimental Arm; Palopegteriparatide Control Arm,NCT07081997,-
+"Asklepion Pharmaceuticals, LLC",1,2027-06,2027-06,yes,DRUG; OTHER,Sickle Cell Disease,L-citrulline; Placebo,NCT06989567,-
+"Astria Therapeutics, Inc.",1,2026-12,2026-12,yes,DRUG,Hereditary Angioedema (HAE),navenibart; Placebo,NCT06842823,-
+"Atea Pharmaceuticals, Inc.",1,2026-06-18,2026-06-18,yes,DRUG,HEPATITIS C VIRUS CHRONIC INFECTION,Bemnifosbuvir-Ruzasvir (BEM/RZR); Sofosbuvir-Velpatasvir (SOF/VEL),NCT06868264,-
+Aurion Biotech,1,2027-06,2027-06,yes,DRUG; OTHER,Corneal Edema; Corneal Endothelial Dysfunction; Fuchs Endothelial Corneal Dysfunction; Pseudophakic Bullous Keratopathy (PBK),Combination Product: AURN001 + Y-27632; Placebo,NCT07368959,-
+Avadel,1,2026-03-25,2026-03-25,yes,DRUG; OTHER,Idiopathic Hypersomnia,FT218; Placebo,NCT06525077,-
+"AVEO Pharmaceuticals, Inc.",1,2026-01-20,2026-01-20,yes,DRUG,Renal Cell Carcinoma,Tivozanib; Nivolumab,NCT04987203,-
+"Avidity Biosciences, Inc.",1,2026-07-23,2026-07-23,yes,DRUG,DM1; Myotonic Dystrophy; Myotonic Dystrophy 1; Myotonia; Myotonic Dystrophy Type 1 (DM1); Dystrophy Myotonic,AOC 1001 (del-desiran); Placebo,NCT06411288,-
+"Bausch Health Americas, Inc.",1,2026-02-24,2026-02-24,yes,DRUG,Hepatic Encephalopathy,Rifaximin SSD; Placebo,NCT05297448,Bausch Health US LLC
+Baxalta now part of Shire,1,2026-04-17,2026-04-17,yes,BIOLOGICAL,Von Willebrand Disease,Vonicog alfa; Antihemophilic Factor (Recombinant),NCT02932618,-
+"Baxis Pharmaceuticals, Inc.",1,2026-03-16,2026-03-16,yes,DRUG,Bacterial Conjunctivitis,Fusidic Acid 1%; Placebo,NCT06911424,-
+Beacon Therapeutics,1,2026-06-30,2026-06-30,yes,BIOLOGICAL; DRUG,X-Linked Retinitis Pigmentosa,rAAV2tYF-GRK1-hRPGRco; Control,NCT04850118,-
+"Belite Bio, Inc",1,2027-06-30,2027-06-30,yes,DRUG,Geographic Atrophy,Tinlarebant; Placebo,NCT05949593,-
+"Biohaven Pharmaceuticals, Inc.",1,2026-02-13,2026-02-13,yes,DRUG,Obsessive Compulsive Disorder,Troriluzole (BHV-4157),NCT04708834,-
+BioMarin Pharmaceutical,1,2026-04-23,2026-04-23,yes,DRUG,Hypochondroplasia,Vosoritide; Placebo,NCT06455059,-
+"Bioverativ, a Sanofi company",1,2027-01-15,2027-01-15,yes,DRUG,Hemophilia A,efanesoctocog alfa (BIVV001),NCT04644575,-
+Boston Scientific Corporation,1,2025-12-19,2025-12-19,no,DEVICE,In-Stent Restenosis,AGENT DCB 40 mm,NCT06492174,-
+"Bracco Diagnostics, Inc",1,2026-08-29,2026-08-29,yes,DRUG,Heart Diseases,Sulfur Hexafluoride Lipid Type A Microspheres 25 MG Injection Powder for Suspension [LUMASON]; Lumason,NCT06400004,Bracco
+Cali Pharmaceuticals LLC,1,2027-06-30,2027-06-30,yes,DRUG,Postoperative Pain; Bunion,CPL-01; saline placebo,NCT07490496,-
+Camurus AB,1,2026-11,2026-11,yes,DRUG,Gastro-enteropancreatic Neuroendocrine Tumor,CAM2029; Octreotide LAR; Lanreotide ATG,NCT05050942,-
+Can-Fite BioPharma,1,2026-02,2026-02,yes,DRUG,Hepatocellular Carcinoma; Cirrhosis,Namodenoson; Placebo,NCT05201404,-
+CanariaBio Inc.,1,2026-12-26,2026-12-26,yes,BIOLOGICAL; DRUG,"Carcinoma, Ovarian Epithelial; Ovarian Neoplasms; Ovarian Cancer; Ovarian Serous Adenocarcinoma; Fallopian Tube Neoplasms; Fallopian Tube Adenocarcinoma",Oregovomab; Paclitaxel; Carboplatin; Placebo,NCT04498117,-
+Cardiol Therapeutics Inc.,1,2026-09-21,2026-09-21,yes,DRUG,Recurrent Pericarditis,CardiolRx,NCT06708299,-
+Cartesian Therapeutics,1,2026-12-30,2026-12-30,yes,BIOLOGICAL; OTHER,Myasthaenia Gravis,Decartes-08; Placebo Drug,NCT06799247,-
+Cassiopea SpA,1,2026-01-26,2026-01-26,yes,DRUG,"Alopecia, Androgenetic",Clascoterone 5% solution; Vehicle solution,NCT05910450,-
+Celcuity Inc,1,2026-06-30,2026-06-30,yes,DRUG,Breast Cancer,Gedatolisib; Palbociclib; Fulvestrant; Alpelisib,NCT05501886,-
+CeleCor Therapeutics,1,2026-05-13,2026-05-13,yes,DRUG,ST-elevation Myocardial Infarction (STEMI),zalunfiban; Placebo,NCT04825743,-
+Cell>Point LLC,1,2025-12,2025-12,yes,DRUG,Lung Cancer,(99m Tc) ECDG (Ethylenedicysteine-Deoxyglucose); 18 F FDG followed by PET/CT imaging,NCT01394679,-
+Cerevance,1,2026-08,2026-08,yes,DRUG,Parkinson Disease,CVN424 75 mg; CVN424 150 mg; Placebo,NCT06553027,-
+"Cerium Pharmaceuticals, Inc.",1,2027-04-01,2027-04-01,yes,DRUG,Primary Membranous Nephropathy,SNP-ACTH (1-39) Gel; Rituximab,NCT05696613,-
+Cerus Corporation,1,2026-04-29,2026-04-29,no,DEVICE,Anemia,INTERCEPT Blood System for Red Blood Cells; Conventional (Control),NCT03037164,-
+"CG Oncology, Inc.",1,2026-11,2026-11,yes,DRUG; OTHER,Non Muscle Invasive Bladder Cancer; Urologic Cancer; Bladder Cancer; Urothelial Carcinoma,Cretostimogene Grenadenorepvec; n-dodecyl-B-D-maltoside,NCT06111235,-
+Cingulate Therapeutics,1,2027-02,2027-02,yes,DRUG,ADHD; ADHD - Combined Type; Attention Deficit Hyper Activity; Attention Deficit Hyperactivity Disorder; Attention Deficit Disorder With Hyperactivity; Attention Deficit Hyperactivity Disorder Combined,CTx-1301 - Dexmethylphenidate 6.25mg; CTx-1301 - Dexmethylphenidate 12.5mg; CTx-1301 - Dexmethylphenidate 18.75mg; CTx-1301 - Dexmethylphenidate 25.0mg; CTx-1301 - Dexmethylphenidate 31.25mg; CTx-1301 - Dexmethylphenidate 37.5mg,NCT05924594,-
+"Clinuvel, Inc.",1,2025-12,2025-12,yes,DRUG; PROCEDURE,Vitiligo,Afamelanotide and NB-UVB Light; NB-UVB Light,NCT06109649,-
+"Cloudbreak Therapeutics, LLC",1,2026-12-31,2026-12-31,yes,DRUG,Pterygium,CBT-001; Vehicle,NCT05456425,-
+COMPASS Pathways,1,2025-11-13,2025-11-13,yes,DRUG,Treatment Resistant Depression,Psilocybin,NCT05711940,-
+Corza Medical GmbH,1,2026-12-31,2026-12-31,yes,BIOLOGICAL,Hemorrhage,TachoSil; Surgicel Original,NCT06664775,-
+Coya Therapeutics,1,2027-04,2027-04,yes,DRUG,Amyotrophic Lateral Sclerosis (ALS),COYA 302; Placebo,NCT07161999,-
+Crinetics Pharmaceuticals Inc.,1,2027-05,2027-05,yes,DRUG,Congenital Adrenal Hyperplasia; Classic Congenital Adrenal Hyperplasia,Atumelnant; Placebo,NCT07144163,-
+"Curadel Surgical Innovations, Inc.",1,2026-07,2026-07,yes,DRUG,Injury of Ureter During Surgery (Disorder),Nizaracianine Triflutate; Placebo Comparator,NCT06101745,-
+Curium US LLC,1,2026-10,2026-10,yes,DRUG,Prostate Cancer; Prostate Adenocarcinoma,Copper Cu 64 PSMA I&T,NCT06235151,-
+Cytokinetics,1,2026-08-31,2026-08-31,yes,DRUG,Symptomatic Non-Obstructive Hypertrophic Cardiomyopathy,Aficamten; Placebo,NCT06081894,-
+"Day One Biopharmaceuticals, Inc.",1,2027-06,2027-06,yes,DRUG,Low-grade Glioma; Rapidly Accelerated Fibrosarcoma (RAF) Altered Glioma; Pediatric Low-grade Glioma,Tovorafenib; Chemotherapeutic Agent,NCT05566795,-
+Debiopharm International SA,1,2026-10-09,2026-10-09,yes,DRUG,Central Precocious Puberty,Debio 4326,NCT06129539,-
+"Delta-Fly Pharma, Inc.",1,2026-01-07,2026-01-07,yes,DRUG,"Leukemia, Myeloid, Acute",DFP-10917; Cytarabine; Azacitidine; Decitabine; Mitoxantrone; Etoposide,NCT03926624,-
+Denali Therapeutics Inc.,1,2027-06,2027-06,yes,DRUG,Mucopolysaccharidosis II,tividenofusp alfa,NCT06075537,-
+DiaMedica Therapeutics Inc,1,2026-12,2026-12,yes,DRUG; OTHER,Acute Stroke; Ischemic Stroke; Stroke,Recombinant human tissue kallikrein; Placebo for DM199 Solution for Injection,NCT05065216,-
+Diamyd Medical AB,1,2026-06-24,2026-06-24,yes,BIOLOGICAL; DIETARY_SUPPLEMENT,Type 1 Diabetes Mellitus,Recombinant human glutamic acid decarboxylase (rhGAD65) formulated in Alhydrogel®; Colecalciferol 2000 IU; Placebo,NCT05018585,-
+"Disc Medicine, Inc",1,2026-09-08,2026-09-08,yes,DRUG,Erythropoietic Protoporphyria (EPP); X-Linked Protoporphyria (XLP),Placebo; DISC-1459,NCT06910358,-
+Dizal Pharmaceuticals,1,2026-01-16,2026-01-16,yes,DRUG,Non-small Cell Lung Cancer,sunvozertinib; Pemetrexed+carboplatin,NCT05668988,-
+Dompé Farmaceutici S.p.A,1,2027-03,2027-03,yes,DRUG,Atopic Keratoconjunctivitis,DFL24498; Vehicle; dexamethasone sodium phosphate (DSP) ophthalmic solution,NCT07395232,-
+Doron Therapeutics Inc.,1,2027-06-30,2027-06-30,yes,BIOLOGICAL; OTHER,Knee Osteoarthritis,PTP-01; Placebo control / saline vehicle,NCT07219771,-
+Dr. Falk Pharma GmbH,1,2026-12,2026-12,yes,DRUG,Eosinophilic Esophagitis,Budesonide,NCT06596252,-
+DualityBio Inc.,1,2026-08-12,2026-08-12,yes,DRUG,Metastatic Breast Cancer,DB-1303/BNT323; Capecitabine; Paclitaxel; Nab-paclitaxel,NCT06018337,-
+"EirGenix, Inc.",1,2026-11,2026-11,yes,DRUG,Early Breast Cancer,EG1206A; Perjeta,NCT06884254,-
+Eisai Inc.,1,2026-12-31,2026-12-31,yes,DRUG,Early Alzheimer's Disease,Lecanemab IV; Placebo; Lecanemab SC,NCT03887455,-
+"EMD Serono Research & Development Institute, Inc.",1,2026-11-24,2026-11-24,yes,DRUG,Solid Tumors,Avelumab,NCT03815643,-
+"Endo USA Inc., a Keenova Therapeutics Company",1,2026-06-09,2026-06-09,yes,BIOLOGICAL; OTHER,Plantar Fibromatosis; Ledderhose Disease,EN3835; Placebo,NCT06151197,-
+"Energenesis Biomedical Co., Ltd.",1,2025-12-30,2025-12-30,yes,DRUG,Diabetic Foot Ulcer; Foot Ulcer; Diabetes Mellitus; Wound,ENERGI-F703 GEL; ENERGI-F703 matched vehicle,NCT05930210,-
+Ensysce Biosciences,1,2026-08,2026-08,yes,DRUG,"Postoperative Pain, Acute",PF614 capsule; Placebo,NCT06602271,-
+"EpicentRx, Inc.",1,2025-12-31,2025-12-31,yes,DRUG,"Carcinoma, Small Cell Lung",RRx-001 + eLOOP Device; Cisplatin/carboplatin plus etoposide,NCT05566041,-
+"Epizyme, Inc.",1,2027-02-13,2027-02-13,yes,COMBINATION_PRODUCT; DRUG,Relapsed/Refractory Follicular Lymphoma; Follicular Lymphoma; Refractory Follicular Lymphoma,Tazemetostat; Placebo oral tablet; Lenalidomide; Rituximab,NCT04224493,-
+F2G Ltd,1,2025-11-18,2025-11-18,yes,DRUG,Invasive Aspergillosis,Olorofim; AmBisome®,NCT05101187,-
+"Foresee Pharmaceuticals Co., Ltd.",1,2025-12-07,2025-12-07,yes,DRUG,"Puberty; Precocious, Central","Leuprolide Mesylate, Subcutaneous injection of 42 mg Leuprolide",NCT05493709,-
+"Forma Therapeutics, Inc.",1,2026-02-06,2026-02-06,yes,DRUG,Sickle Cell Disease,Etavopivat Tablets Low dose; Etavopivat Tablets High dose; Placebo Tablets; Etavopivat Tablets,NCT04624659,-
+Galaxy Therapeutics INC,1,2026-09-10,2026-09-10,no,DEVICE,Intracranial Aneurysm,The SEAL™ Saccular Endovascular Aneurysm Lattice System,NCT05831202,-
+"Gameto, Inc.",1,2027-05,2027-05,yes,BIOLOGICAL; DEVICE,In Vitro Maturation of Oocytes,Fertilo; Medicult IVM,NCT06858111,-
+"GB002, Inc.",1,2025-11-27,2025-11-27,yes,DEVICE; DRUG,Pulmonary Arterial Hypertension,Placebo; Seralutinib; Generic Dry Powder Inhaler,NCT05934526,-
+GC Biopharma Corp,1,2026-05,2026-05,yes,BIOLOGICAL,Primary Immune Deficiency,GC5107,NCT04565015,-
+Gedeon Richter Plc.,1,2026-12-15,2026-12-15,yes,DRUG,Schizophrenia,Cariprazine; Placebo,NCT03817502,-
+Genelux Corporation,1,2026-12,2026-12,yes,BIOLOGICAL; DRUG,Platinum-resistant Ovarian Cancer; Platinum-refractory Ovarian Cancer; Fallopian Tube Cancer; Primary Peritoneal Cancer; High-grade Serous Ovarian Cancer; Endometrioid Ovarian Cancer,"olvimulogene nanivacirepvec; Platinum chemotherapy: carboplatin (preferred) or cisplatin; Non-platinum chemotherapy: Physician's Choice of gemcitabine, taxane (paclitaxel, docetaxel or nab-paclitaxel) or pegylated liposomal doxorubicin; Bevacizumab (or biosimilar)",NCT05281471,-
+Genetix Biotherapeutics Inc.,1,2027-05,2027-05,no,GENETIC,Sickle Cell Disease,bb1111,NCT04293185,-
+GIE Medical,1,2026-10,2026-10,no,COMBINATION_PRODUCT; OTHER,Esophageal Stricture,GIE Medical ProTractX3 TTS DCB; Control,NCT05561114,-
+"Glycomine, Inc.",1,2026-08-05,2026-08-05,yes,DRUG,Phosphomannomutase 2 Deficiency; PMM2-CDG,"GLM101 (Part A, Double-blind); Placebo (Part A, Double-blind); GLM101 (Part B, Open-label)",NCT06892288,-
+"Good Molecules, LLC",1,2026-02-16,2026-02-16,yes,DRUG; OTHER,Hyperpigmentation,Facial Toner; Placebo Toner,NCT07136766,-
+"Gossamer Bio USA, Inc.",1,2026-12,2026-12,yes,DEVICE; DRUG,Pulmonary Arterial Hypertension,Seralutinib; Gereic Dry Powder Inhaler,NCT06274801,-
+"Grace Science, LLC",1,2027-03,2027-03,no,GENETIC,NGLY1 Deficiency,GS-100,NCT06199531,-
+"Green Valley (Shanghai) Pharmaceuticals Co., Ltd.",1,2025-12,2025-12,yes,DRUG,Alzheimer Disease,GV-971; Placebo,NCT04520412,-
+Grifols Therapeutics LLC,1,2026-07-07,2026-07-07,yes,BIOLOGICAL; OTHER,Pulmonary Emphysema in Alpha-1 PI Deficiency,"Alpha-1 MP; 0.9% Sodium Chloride for Injection, USP",NCT01983241,-
+"GRIN Therapeutics, Inc.",1,2027-05,2027-05,yes,DRUG,GRIN-related Neurodevelopmental Disorder,Radiprodil; Placebo,NCT07224581,-
+H. Lundbeck A/S,1,2027-03-26,2027-03-26,yes,DRUG,Chronic Migraine in Children,Eptinezumab; Placebo,NCT04965675,-
+HALEON,1,2026-08-11,2026-08-11,yes,DRUG,Dentin Hypersensitivity,Stannous fluoride and Potassium nitrate Dentifrice; Stannous fluoride Dentifrice; Potassium nitrate Dentifrice; Vehicle Dentifrice,NCT07215767,-
+"Han Xu, M.D., Ph.D., FAPCR, Medical Director, IRB Chair",1,2026-12-18,2026-12-18,yes,DRUG,SCLC,Topotecan - usual; Topotecan - study,NCT07145333,-
+"Harmony Biosciences Management, Inc.",1,2027-04,2027-04,yes,DRUG; OTHER,Prader-Willi Syndrome,Pitolisant tablet; Placebo tablet,NCT06366464,-
+Harrow Inc,1,2026-12,2026-12,yes,DRUG; PROCEDURE,Postoperative Ocular Inflammation; Postoperative Ocular Pain,Sham (No Treatment); TRIESENCE (triamcinolone acetonide injectable suspension),NCT07832552,Harrow Inc.
+"HealthBio, Inc.",1,2026-12-01,2026-12-01,yes,DRUG,Long COVID,"Maraviroc (MVC); Atorvastatin, 10mg, 20mg, 40mg; Placebo, Maraviroc; Placebo, Atorvastatin",NCT06974084,-
+"Humacyte, Inc.",1,2027-06,2027-06,yes,BIOLOGICAL; OTHER,End Stage Renal Disease (ESRD),Acellular Tissue Engineered Vessel (ATEV); AVF,NCT05908084,-
+"HUYABIO International, LLC.",1,2026-07,2026-07,yes,DRUG,Unresectable or Metastatic Melanoma; Progressive Brain Metastasis,HBI-8000 in combination with nivolumab; Placebo in combination with nivolumab,NCT04674683,-
+IBSA Institut Biochimique SA,1,2026-01-20,2026-01-20,yes,DRUG,Infertility,Progesterone-IBSA Injectable Solution; Progesterone Vaginal Gel with Applicator; Placebo Vaginal gel with applicator; Placebo injectable solution,NCT04549116,-
+IDEAYA Biosciences,1,2027-01-15,2027-01-15,yes,DRUG,Metastatic Uveal Melanoma,IDE196; Crizotinib; Pembrolizumab; Ipilimumab; Nivolumab; Dacarbazine,NCT05987332,IDEAYA Biosciences
+Idorsia Pharmaceuticals Ltd.,1,2026-08-31,2026-08-31,yes,DRUG,Fabry Disease,Lucerastat,NCT03737214,-
+Immedica Pharma AB,1,2026-01-15,2026-01-15,yes,DRUG,Congenital Adrenal Hyperplasia,Chronocort,NCT05299554,-
+"Immunome, Inc.",1,2025-12-03,2025-12-03,yes,DRUG; OTHER,Desmoid; Desmoid Tumor,AL102; Placebo,NCT04871282,-
+Innervate Radiopharmaceuticals LLC (Formerly: Illumina Radiopharmaceuticals LLC),1,2026-07-30,2026-07-30,yes,DRUG,Neuroblastoma,18F-MFBG,NCT04724369,-
+Inozyme Pharma,1,2026-01-29,2026-01-29,yes,DRUG,Ectonucleotide Pyrophosphatase/Phosphodiesterase1 Deficiency; Autosomal Recessive Hypophosphatemic Rickets; Generalized Arterial Calcification of Infancy,INZ-701; Control Arm (Conventional Therapy),NCT06046820,-
+Intellia Therapeutics,1,2026-02-10,2026-02-10,yes,BIOLOGICAL,Hereditary Angioedema,NTLA-2002; Normal Saline IV Administration,NCT06634420,-
+Intuitive Surgical,1,2027-04-30,2027-04-30,yes,DRUG,Ureter Injury,filricianine,NCT07346066,-
+Inventiva Pharma,1,2026-09-29,2026-09-29,yes,DRUG,NASH - Nonalcoholic Steatohepatitis,IVA337; Placebo,NCT04849728,-
+"iRenix Medical, Inc.",1,2027-01-31,2027-01-31,yes,DRUG,Retinal Disease,IRX-101; Providone-Iodine,NCT05750589,-
+Italfarmaco,1,2026-07,2026-07,yes,DRUG,Polycythemia Vera,Givinostat; Hydroxyurea,NCT06093672,-
+ITM Solucin GmbH,1,2027-06,2027-06,yes,DRUG; OTHER,Neuroendocrine Tumors,177Lu-Edotreotide (Peptide Receptor Radionuclide Therapy) PRRT; CAPTEM (Capecitabine and Temozolomide); Amino-Acid Solution; Everolimus; FOLFOX (Folinic acid + Fluorouracil + Oxaliplatin),NCT04919226,-
+"Jiangsu HengRui Medicine Co., Ltd.",1,2026-12-31,2026-12-31,yes,DRUG,Metastatic Castration-Resistant Prostate Cancer (mCRPC),"Fuzuloparib , Abiraterone acetate and Prednisone; Fuzuloparib Placebo， Abiraterone acetate and Prednisone",NCT04691804,-
+"Kartos Therapeutics, Inc.",1,2026-12-31,2026-12-31,yes,DRUG,Myelofibrosis; Post-PV MF; Post-ET Myelofibrosis; Primary Myelofibrosis; MF,Navtemadlin; Navtemadlin placebo; Ruxolitinib,NCT06479135,-
+Keryx Biopharmaceuticals,1,2027-02,2027-02,yes,DRUG,Hyperphosphatemia Related to Chronic Kidney Disease,ferric citrate,NCT04523727,-
+Kibow Pharma,1,2025-12,2025-12,yes,DRUG,Chronic Kidney Disease stage4,KT-301 (formerly US-APR2020),NCT05407389,-
+"Krystal Biotech, Inc.",1,2026-12,2026-12,yes,BIOLOGICAL; DRUG,Dystrophic Epidermolysis Bullosa; DEB - Dystrophic Epidermolysis Bullosa; Recessive Dystrophic Epidermolysis Bullosa; Dominant Dystrophic Epidermolysis Bullosa,KB803; Placebo,NCT07016750,-
+Laekna Limited,1,2026-10-30,2026-10-30,yes,DRUG,Breast Cancer,Afuresertib; Afuresertib/placebo,NCT04851613,-
+Lantheus Germany GmbH,1,2026-04-21,2026-04-21,yes,DRUG,Cardiac Amyloidosis; AL Amyloidosis; ATTR Amyloidosis,[18F]florbetaben,NCT05184088,-
+LB Pharmaceuticals Inc.,1,2027-06,2027-06,yes,DRUG; OTHER,Schizophrenia,LB-102 (50 mg tablet); LB-102 (100 mg tablet); Placebo,NCT07363577,-
+LEO Pharma,1,2026-10-16,2026-10-16,yes,DRUG,Atopic Dermatitis,Tralokinumab + TCS; Placebo + TCS,NCT06311682,-
+LeonaBio,1,2027-04,2027-04,yes,DRUG,Metastatic Breast Cancer,Lasofoxifene in combination with abemaciclib; Fulvestrant in combination with abemaciclib,NCT05696626,-
+Lexicon Pharmaceuticals,1,2027-01,2027-01,yes,DRUG,"Obstructive Cardiomyopathy, Hypertrophic; Non-obstructive Hypertrophic Cardiomyopathy",Sotagliflozin; Placebo,NCT06481891,-
+Lipocine Inc.,1,2026-01-16,2026-01-16,yes,DRUG,"Depression, Postpartum; Depression, Post-Partum; Postpartum Depression (PPD); Post-Natal Depression; Peripartum Depression; Postnatal Depression",LPCN 1154A; Placebo,NCT06979544,-
+"Loxo Oncology, Inc.",1,2026-10,2026-10,yes,DRUG,Chronic Lymphocytic Leukemia; Small Lymphocytic Lymphoma,Pirtobrutinib; Venetoclax; Rituximab,NCT04965493,-
+"Lumen Bioscience, Inc.",1,2026-08-31,2026-08-31,yes,DRUG,Clostridioides Difficile Infection,LMN-201; Placebo,NCT05330182,-
+Mannkind Corporation,1,2025-11-10,2025-11-10,yes,DRUG,"MAC Lung Disease; Treatment Refractory MAC Lung Disease; Mycobacterium Infections, Nontuberculous",Clofazimine Inhalation Suspension; Placebo,NCT06418711,-
+"Medicine Invention Design, Inc",1,2026-11-18,2026-11-18,yes,DRUG,ALK-Positive Non-Small Cell Lung Cancer (NSCLC),ALECENSA - alectinib hydrochloride capsule,NCT05987956,-
+MediciNova,1,2027-04,2027-04,yes,DRUG,Amyotrophic Lateral Sclerosis,MN-166; placebo,NCT04057898,-
+MediWound Ltd,1,2026-12,2026-12,yes,DRUG,Venous Leg Ulcer (VLU),EscharEx (EX-03); Placebo (Gel vehicle),NCT06568627,-
+MedTrace Pharma A/S,1,2026-10-02,2026-10-02,yes,DRUG,Coronary Artery Disease,[O-15]-Water PET Myocardial Perfusion Imaging (MPI),NCT05134012,-
+"Merz North America, Inc.",1,2026-06-05,2026-06-05,yes,DRUG,Neuromuscular Agents; Peripheral Nervous System Agents; Physiological Effects of Drugs; Acetylcholine Release Inhibitors; Membrane Transport Modulators; Molecular Mechanisms of Pharmacological Action,NT 201; NT 201 Placebo,NCT07122193,-
+MicuRx,1,2027-06-30,2027-06-30,yes,DRUG,Diabetic Foot Infection,contezolid acefosamil (IV)/contezolid (PO); Linezolid (IV and PO),NCT05369052,-
+Mineralys Therapeutics Inc.,1,2025-12-30,2025-12-30,yes,DRUG,Hypertension,lorundrostat; Placebo,NCT05968430,-
+"Minoryx Therapeutics, S.L.",1,2027-05,2027-05,yes,DRUG,Cerebral Adrenoleukodystrophy (cALD),Leriglitazone; Placebo,NCT05819866,-
+Mirati Therapeutics Inc.,1,2026-01-16,2026-01-16,yes,BIOLOGICAL; DRUG,Advanced Colorectal Cancer; Metastatic Colorectal Cancer,MRTX849; Cetuximab; mFOLFOX6 Regimen; FOLFIRI Regimen,NCT04793958,-
+Mundipharma Research Limited,1,2026-01-29,2026-01-29,yes,DRUG,Candidemia; Mycoses; Fungal Infection; Fungemia; Invasive Candidiasis; Pneumocystis,Rezafungin for Injection; Posaconazole; Fluconazole; Trimethoprim-sulfamethoxazole (TMP/SMX); Intravenous Placebo; Oral Placebo,NCT04368559,-
+Mylan Pharmaceuticals Inc,1,2027-05,2027-05,yes,DRUG,Female Contraception,Transdermal system containing progestin,NCT06672016,-
+"Napo Pharmaceuticals, Inc.",1,2026-12,2026-12,yes,DRUG,Microvillus Inclusion Disease; Congenital Disorders; Rare Diseases,Crofelemer Powder for Oral Solution; Placebo Powder for Oral Solution,NCT06721871,-
+Neuraptive Therapeutics Inc.,1,2027-03-31,2027-03-31,no,COMBINATION_PRODUCT,Peripheral Nerve Injury Upper Limb; Peripheral Nerve Injury (PNI),NTX-001 (PEG-Fusion),NCT06616025,-
+Neurocrine Biosciences,1,2025-11-05,2025-11-05,yes,DRUG,"Chorea, Huntington",Valbenazine,NCT04400331,-
+NewAmsterdam Pharma,1,2026-11,2026-11,yes,DRUG,Atherosclerotic Cardiovascular Disease,Obicetrapib; Placebo,NCT05202509,-
+Newron Pharmaceuticals SPA,1,2027-03-31,2027-03-31,yes,DRUG,Treatment-resistant Schizophrenia,Evenamide 15 mg bid; Placebo,NCT07184619,-
+Noema Pharma AG,1,2027-02-02,2027-02-02,yes,DRUG; OTHER,Trigeminal Neuralgia,Basimglurant; Placebo,NCT05217628,-
+"OBI Pharma, Inc",1,2025-12-30,2025-12-30,yes,BIOLOGICAL; DEVICE; OTHER,Triple Negative Breast Cancer,adagloxad simolenin combined with OBI-821; Globo H IHC Assay; Standard of care treatment,NCT03562637,-
+Okyo Pharma Ltd,1,2027-05,2027-05,yes,DRUG; OTHER,Neuropathic Corneal Pain,Urcosimod ophthalmic solution is a preservative-free topical ophthalmic product; supplied in unit dose ampoules; administered QID for 12-weeks.; Vehicle Ophthalmic Solution,NCT07838506,-
+"Olatec Therapeutics, Inc.",1,2026-12-31,2026-12-31,yes,DRUG; OTHER,Acute Gout Flare; Gout Attack; Gout Flare; Gouty Arthritis; Gout; Arthritis,Dapansutrile; Placebo Tablet,NCT05658575,-
+"Olema Oncology, Inc.",1,2026-10-31,2026-10-31,yes,DRUG,Breast Cancer; Advanced Breast Cancer; Metastatic Breast Cancer; ER Positive Breast Cancer; HER2 Negative Breast Carcinoma,Palazestrant; Fulvestrant; Anastrozole; Letrozole; Exemestane,NCT06016738,-
+Oncotelic Inc.,1,2026-06-01,2026-06-01,yes,DRUG,Pancreatic Ductal Adenocarcinoma,OT-101; mFOLFIRINOX,NCT06079346,-
+Ondine Biomedical Inc.,1,2026-04-03,2026-04-03,no,COMBINATION_PRODUCT,Surgical Site Infections; Surgical Wound Infection; Infections; Anti-Infective Agents,nasal antimicrobial photodisinfection therapy,NCT06702878,-
+ONY,1,2026-01-01,2026-01-01,no,COMBINATION_PRODUCT,Respiratory Distress Syndrome (Neonatal); Intubation Complication; Death; Neonatal,Infasurf Aero™,NCT05960929,-
+Optinose US Inc.,1,2026-03-31,2026-03-31,yes,DRUG,Bilateral Nasal Polyposis,OPN-375,NCT03747458,-
+"Oramed, Ltd.",1,2027-04-25,2027-04-25,yes,DRUG; OTHER,Type 2 Diabetes Mellitus,ORMD-0801 8 mg; Placebo capsule; ORMD-0801 16 mg,NCT06731075,-
+Organon and Co,1,2026-10-14,2026-10-14,yes,DRUG,Plaque Psoriasis,"tapinarof cream, 1%",NCT05172726,-
+"Pacira Pharmaceuticals, Inc",1,2026-12,2026-12,yes,DRUG; OTHER,Glenohumeral Osteoarthritis,ZILRETTA; Placebo,NCT06269705,-
+"Palvella Therapeutics, Inc.",1,2026-01-14,2026-01-14,yes,DRUG,Microcystic Lymphatic Malformation,QTORIN 3.9% Rapamycin Anhydrous Gel,NCT06239480,-
+"Panbela Therapeutics, Inc.",1,2026-08-29,2026-08-29,yes,DRUG; OTHER,Pancreatic Cancer Metastatic; Pancreatic Ductal Adenocarcinoma; Pancreatic Cancer Stage IV,SBP-101; Nab-paclitaxel; Gemcitabine; Placebo,NCT05254171,-
+Paradigm Therapeutics,1,2027-05-17,2027-05-17,yes,DRUG,Epidermolysis Bullosa (EB),SD-101 Dermal Cream (6%); Vehicle (SD-101 0%),NCT07482787,-
+PDS Biotechnology Corp.,1,2026-08-25,2026-08-25,yes,COMBINATION_PRODUCT; DRUG,"Recurrent Head and Neck Cancer; Metastatic Head and Neck Cancer; HPV Positive Oropharyngeal Squamous Cell Carcinoma; Neoplasms, Head and Neck; Unresectable Head and Neck Squamous Cell Carcinoma",Combination Treatment of PDS0101 and Pembrolizumab; Pembrolizumab Monotherapy,NCT06790966,-
+pH-D Feminine Health LLC,1,2026-08-12,2026-08-12,yes,DRUG; OTHER,"Vulvovaginal Candidiases; Vulvovaginal Candidiasis, Genital; Vulvovaginal Candidiasis (VVC)",Boric acid; Placebo,NCT07109869,-
+Pharmacosmos A/S,1,2027-04-30,2027-04-30,yes,DRUG,"Iron Deficiency, Anaemia in Children",Ferric Derisomaltose,NCT05179226,-
+PharmaMar,1,2026-04-10,2026-04-10,yes,DRUG,Relapsed Small Cell Lung Cancer,Irinotecan; Lurbinectedin; Topotecan,NCT05153239,-
+Pharming Technologies B.V.,1,2026-11-30,2026-11-30,yes,DRUG,APDS,Leniolisib,NCT05438407,-
+"PleoPharma, Inc.",1,2027-06,2027-06,yes,COMBINATION_PRODUCT; DRUG,Cannabis Withdrawal,PP-01; Nabilone; Placebo,NCT07644052,-
+Polaris Group,1,2026-05-25,2026-05-25,yes,DRUG; OTHER,Soft Tissue Sarcoma,ADI PEG20; Placebo,NCT05712694,-
+PolarityTE,1,2026-01-30,2026-01-30,yes,BIOLOGICAL; OTHER,Diabetic Foot,SkinTE; Control,NCT06140303,-
+Precision Life Sciences Group,1,2025-12,2025-12,yes,BIOLOGICAL,Glioblastoma Multiforme,ICT-107; Placebo,NCT02546102,-
+Price Vision Group,1,2026-06-30,2026-06-30,no,COMBINATION_PRODUCT,Keratoconus; Ectasia Corneal,riboflavin 0.1%; Riboflavin 0.1%,NCT03922542,-
+Priothera SAS,1,2027-05,2027-05,yes,DRUG,Adult Acute Myeloid Leukemia,mocravimod,NCT05429632,-
+"Priovant Therapeutics, Inc.",1,2026-09-11,2026-09-11,yes,DRUG,"Uveitis, Posterior; Uveitis, Intermediate; Uveitis",Brepocitinib PO QD; Placebo PO QD,NCT06431373,-
+Privo Technologies,1,2026-10,2026-10,yes,DRUG,Oral Squamous Cell Carcinoma,PRV211 (Intraoperative Cisplatin System); PRV111 (Cisplatin Transmucosal System); PRV131 (Cisplatin Intratumoral Injectable),NCT05893888,-
+"Protagonist Therapeutics, Inc.",1,2026-04-01,2026-04-01,yes,DRUG,Polycythemia Vera,Open-label rusfertide,NCT06033586,-
+Pulmocide Ltd,1,2025-12-29,2025-12-29,yes,DRUG,Refractory IPA,PC945; Placebo,NCT05238116,-
+"Qlaris Bio, Inc.",1,2026-07-22,2026-07-22,yes,COMBINATION_PRODUCT; DRUG,OAG - Open-Angle Glaucoma; OHT - Ocular Hypertension,QLS-111-FDC; Latanoprost (0.005%),NCT07354516,-
+Quetzal Therapeutics,1,2027-03,2027-03,yes,DRUG,Acute Promyelocytic Leukemia (APL); Acute Promyelocytic Leukaemia; Acute Promyelocytic Leukemia With PML-RARA; Acute Promyelocytic Leukemia With t(15;17)(q24.1;q21.2); PML-RARA; Acute Promyelocytic Leukemia,QTX-2101 + ATRA; IV arsenic trioxide (ATO) + ATRA,NCT07504458,-
+"R-Pharm Overseas, Inc.",1,2027-05,2027-05,yes,BIOLOGICAL; DRUG,Recurrent Pericarditis,RPH-104; Placebo,NCT05107934,-
+"Rakuten Medical, Inc.",1,2025-12,2025-12,yes,COMBINATION_PRODUCT; DRUG,Head and Neck Cancer,ASP-1929 Photoimmunotherapy; Physician's Choice SOC,NCT03769506,-
+"RayzeBio, Inc.",1,2026-12,2026-12,yes,DRUG,GEP-NET; Gastroenteropancreatic Neuroendocrine Tumor; Gastroenteropancreatic Neuroendocrine Tumor Disease; Neuroendocrine Tumors; Carcinoid; Carcinoid Tumor,RYZ101; Everolimus; Sunitinib; Octreotide; Lanreotide,NCT05477576,-
+"ReAlta Life Sciences, Inc.",1,2026-12,2026-12,yes,DRUG,Hypoxic-Ischemic Encephalopathy,RLS-0071; Placebo,NCT05778188,-
+"REDNVIA Co., Ltd.",1,2026-03-21,2026-03-21,yes,DRUG,Calcific Aortic Valve Disease,Evogliptin; Placebo,NCT05143177,-
+Regenerative Ocular Immunobiologics LLC,1,2027-03-31,2027-03-31,yes,BIOLOGICAL,oGVHD; Ocular Graft Versus Host Disease,d-MAPPS™ Ophthalmic Solution; Matching vehicle control,NCT07776210,-
+"ReGenTree, LLC",1,2026-07-28,2026-07-28,yes,DRUG,Neurotrophic Keratopathy,RGN-259; Placebo,NCT05555589,-
+REGENXBIO Inc.,1,2026-09,2026-09,no,GENETIC,Duchenne Muscular Dystrophy,RGX-202,NCT05693142,-
+"Renibus Therapeutics, Inc.",1,2027-06,2027-06,yes,DRUG,CKD; Metabolic Acidosis,Veverimer; Placebo,NCT07355062,-
+RenovoRx,1,2027-06,2027-06,yes,DEVICE; DRUG,Locally Advanced Pancreatic Cancer,Gemcitabine; nab-paclitaxel; RenovoCath,NCT03257033,-
+"Revolution Medicines, Inc.",1,2026-06,2026-06,yes,DRUG,Pancreatic Cancer; PDAC; PDAC - Pancreatic Ductal Adenocarcinoma,RMC-6236; Gemcitabine; nab-paclitaxel; Irinotecan; Liposomal irinotecan; 5-fluorouracil,NCT06625320,Revolution Medicines
+RHEACELL GmbH & Co. KG,1,2027-04,2027-04,yes,DRUG,Venous Leg Ulcer,allo-APZ2-CVU; Placebo,NCT06489028,-
+"Rophibio, Inc.",1,2026-09,2026-09,yes,DRUG,Neovascular Age-related Macular Degeneration (nAMD),RBS-001 Solution for intravitreal injection; Eylea® Solution for intravitreal injection,NCT06470373,-
+"Rose Research Center, LLC",1,2025-12-09,2025-12-09,yes,DRUG; OTHER,Smoking Cessation; Harm Reduction,Nicoderm; Nicorette 4Mg Chewing Gum; Nicorette Lozenge Product; NJOY e-cigarette; on!,NCT06554873,-
+Saol Therapeutics Inc,1,2026-11-30,2026-11-30,yes,DRUG,Osteoarthritis Knee Pain,SL1002; Normal Saline,NCT07226258,-
+"Scholar Rock, Inc.",1,2026-11-01,2026-11-01,yes,DRUG,Spinal Muscular Atrophy; Spinal Muscular Atrophy Type 3; Spinal Muscular Atrophy Type 2; SMA; Neuromuscular Diseases; Muscular Atrophy,Apitegromab,NCT05626855,-
+"Scynexis, Inc.",1,2025-11-07,2025-11-07,yes,DRUG,"Candidiasis, Invasive; Candidemia",SCY-078; Fluconazole; Echinocandin,NCT05178862,-
+Seattle Project Corporation,1,2027-03,2027-03,yes,DRUG,Colorectal Neoplasms,GRT-C901; GRT-R902; Atezolizumab; Ipilimumab; Fluoropyrimidine plus leucovorin; Bevacizumab,NCT05141721,-
+Sellas Life Sciences Group,1,2025-12,2025-12,yes,BIOLOGICAL; DRUG; OTHER,Acute Myeloid Leukemia,Galinpepimut-S; Azacitidine; Venetoclax; Decitabine; Cytarabine; Observation,NCT04229979,-
+"Senseye, Inc.",1,2026-10,2026-10,no,BEHAVIORAL; DEVICE,PTSD - Post Traumatic Stress Disorder,"Senseye Diagnostic Tool (DT); Clinician Administered PTSD Scale for DSM-5, Revised Version",NCT07280065,-
+Seqirus,1,2026-05-26,2026-05-26,yes,BIOLOGICAL,"Influenza, Human",aQIV or aTIV; QIV or TIV,NCT06087640,-
+"Sling Therapeutics, Inc.",1,2026-06,2026-06,yes,DRUG,Thyroid Eye Disease; Graves Orbitopathy; Endocrine System Diseases; Eye Diseases; Thyroid Associated Ophthalmopathy; Graves Ophthalmopathy,linsitinib,NCT06112340,-
+"Sol-Gel Technologies, Ltd.",1,2026-08-20,2026-08-20,yes,DRUG,Gorlin Syndrome,Patidegib Topical Gel; Patidegib Topical Gel with no active patidegib,NCT06050122,-
+"Soleno Therapeutics, Inc.",1,2026-01-12,2026-01-12,yes,DRUG,Prader-Willi Syndrome,DCCR,NCT05701774,-
+Soligenix,1,2026-05-22,2026-05-22,yes,DRUG,CTCL/ Mycosis Fungoides; CTCL; Mycosis Fungoides; Cutaneous T Cell Lymphoma,Hypericin; Placebo,NCT06470451,-
+"Sound Pharmaceuticals, Incorporated",1,2026-12,2026-12,yes,DRUG,Meniere's Disease; Ménière's Disease,Ebselen,NCT06859788,-
+"Spark Therapeutics, Inc.",1,2027-05,2027-05,no,GENETIC,Hemophilia A,SPK-8011,NCT06297486,-
+"Stoke Therapeutics, Inc",1,2027-03,2027-03,yes,DRUG; OTHER,Dravet Syndrome,zorevunersen; Sham Comparator,NCT06872125,-
+Sun Pharmaceutical Industries Limited,1,2026-01-21,2026-01-21,yes,DRUG,Moderate to Severe Genital Psoriasis,Tildrakizumab 100 mg; Placebo,NCT06611163,-
+"Supernus Pharmaceuticals, Inc.",1,2026-12,2026-12,yes,DRUG,Attention-Deficit/Hyperactivity Disorder,SPN-812,NCT02736656,-
+Suven Life Sciences Limited,1,2026-12,2026-12,yes,DRUG,Agitation; Alzheimer's Type Dementia,Masupirdine 50 mg; Masupirdine 100 mg; Placebo,NCT05397639,-
+Swedish Orphan Biovitrum,1,2026-10-05,2026-10-05,yes,DRUG,Primary Myelofibrosis; Post-polycythemia Vera Myelofibrosis; Post-essential Thrombocythemia Myelofibrosis,Pacritinib; Physician's Choice medications,NCT03165734,-
+SyneuRx International (Taiwan) Corp,1,2026-09-30,2026-09-30,yes,DRUG; OTHER,Refractory Schizophrenia,NaBen®; Placebo,NCT03094429,-
+SynOx Therapeutics Limited,1,2025-12-23,2025-12-23,yes,DRUG,TGCT,Emactuzumab; Placebo,NCT05417789,-
+"Tanabe Pharma America, Inc.",1,2026-04-14,2026-04-14,yes,DRUG,Erythropoietic Protoporphyria (EPP); X-Linked Protoporphyria (XLP),Dersimelagon; Placebo,NCT06144840,-
+"Tasly Pharmaceuticals, Inc.",1,2026-12,2026-12,yes,DRUG,Chronic Stable Angina Pectoris,T89 capsule; Placebo capsule,NCT03789552,-
+Telix Pharmaceuticals (Innovations) Pty Limited,1,2027-01,2027-01,yes,DRUG,PCA; Prostate Cancer; Prostatic Neoplasm; PSMA PET; Diagnostic Imaging; Elevated PSA,68Ga-PSMA-11,NCT07052214,-
+"Tenax Therapeutics, Inc.",1,2026-06-30,2026-06-30,yes,DRUG,Pulmonary Hypertension,TNX-103; Placebo,NCT05983250,-
+"Tesaro, Inc.",1,2026-11-26,2026-11-26,yes,BIOLOGICAL; DRUG,Neoplasms,Dostarlimab; Placebo matching dostarlimab; Carboplatin; Paclitaxel; Niraparib; Placebo matching Niraparib,NCT03981796,-
+"TG Therapeutics, Inc.",1,2027-01-21,2027-01-21,yes,BIOLOGICAL; DRUG,Relapsing Multiple Sclerosis,Ublituximab; Placebo,NCT05877963,-
+Theravance Biopharma,1,2026-01,2026-01,yes,DRUG,Symptomatic Neurogenic Orthostatic Hypotension; MSA - Multiple System Atrophy,Ampreloxetine; Placebo,NCT05696717,-
+Thryv Therapeutics,1,2027-06-30,2027-06-30,yes,DRUG; OTHER,Long QT Syndrome (LQTS) 2,baseline lead-in; THRV-1268,NCT07277582,-
+"TLC Biopharmaceuticals, Inc.",1,2026-06-12,2026-06-12,yes,DRUG,Postoperative Pain,TLC590; Liposomal Bupivacaine; Saline Placebo,NCT07222748,-
+Tolmar Inc.,1,2027-01-30,2027-01-30,yes,DRUG,Breast Cancer,TOL2506; Tamoxifen; Letrozole Tablets; Anastrozole Tablets; Exemestane Tablets,NCT04906395,-
+TR Therapeutics,1,2026-12,2026-12,yes,DRUG; OTHER,Venous Leg Ulcer; Venous Ulcer; Venous Stasis Ulcer; Venous Stasis; Wound Heal; Wound,TR987 0.1% gel + Standard of Care; Standard of care,NCT06707103,-
+"TransThera Sciences (Nanjing), Inc.",1,2026-12,2026-12,yes,DRUG,Cholangiocarcinoma,Tinengotinib 8 mg; Tinengotinib 10 mg; Physician's Choice,NCT05948475,-
+"TriGemX Bio, Inc.",1,2027-02,2027-02,yes,DRUG,Migraine,Elismetrep; Placebo,NCT07645924,-
+"TuHURA Biosciences, Inc.",1,2027-03-31,2027-03-31,yes,DRUG,Advanced Or Metastatic Merkel Cell Carcinoma,IFx-Hu2.0; Placebo; Pembrolizumab,NCT06947928,-
+Turn Therapeutics,1,2027-01-20,2027-01-20,no,COMBINATION_PRODUCT; OTHER,Eczema Atopic Dermatitis; Eczema; Atopic Dermatitis,GX-03; Vehicle,NCT07355075,-
+"TWi Biotechnology, Inc.",1,2026-06-10,2026-06-10,yes,DRUG,Generalized Epidermolysis Bullosa Simplex,AC-203; Vehicle,NCT06073132,-
+"UCB BIOSCIENCES, Inc.",1,2026-09-01,2026-09-01,yes,DRUG,Dravet Syndrome,fenfluramine,NCT06118255,-
+UroGen Pharma Ltd.,1,2027-03,2027-03,yes,DRUG,Upper Urinary Tract Urothelial Carcinoma; Urothelial Carcinoma,UGN-104,NCT06774131,-
+Vantive Health LLC,1,2027-01,2027-01,yes,DEVICE; DRUG,Regional Citrate Anticoagulation (RCA); Continuous Renal Replacement Therapy (CRRT); Acute Kidney Injury (AKI),Prismocitrate 18; PrisMax System Version 3.x with calcium line accessory,NCT05399537,-
+"Vedanta Biosciences, Inc.",1,2027-06,2027-06,yes,BIOLOGICAL,Clostridium Difficile; Clostridium Difficile Infections; Clostridium Difficile Infection Recurrence; Clostridioides Difficile Infection; Clostridioides Difficile Infection Recurrence; CDI,VE303; Placebo,NCT06237452,-
+"Vera Therapeutics, Inc.",1,2026-03-15,2026-03-15,yes,DRUG,Lupus Nephritis (LN),Atacicept; Placebo,NCT05609812,-
+"Vergent Bioscience, Inc.",1,2026-12,2026-12,yes,DRUG; OTHER,Lung Cancer; Lung Metastases,Abenacianine; Near Infrared (NIR) Imaging,NCT07499674,-
+"Vir Biotechnology, Inc.",1,2026-09-30,2026-09-30,yes,DRUG,Viral Hepatitis,Tobevibart; Elebsiran,NCT06903338,-
+"VIS, Inc.",1,2026-12,2026-12,no,DEVICE,Presbyopia,Optimal laser keratoplasty,NCT06487897,-
+"VistaGen Therapeutics, Inc.",1,2026-04-21,2026-04-21,yes,DRUG,Social Anxiety Disorder (SAD),Fasedienol Nasal Spray; Placebo Nasal Spray,NCT06615557,-
+Vivacelle Bio,1,2026-06-29,2026-06-29,yes,DRUG,Septic Shock; Sepsis; Hypovolemia,VBI-S,NCT06072430,-
+Vor Biopharma,1,2027-03,2027-03,yes,BIOLOGICAL; DRUG,Generalized Myasthenia Gravis,Telitacicept; Placebo,NCT06456580,-
+vTv Therapeutics,1,2027-04,2027-04,yes,DRUG,"Diabetes Mellitus, Type 1",Cadisegliatin 800 mg QD; Cadisegliatin 800 mg BID; Placebo,NCT06334133,-
+X4 Pharmaceuticals,1,2025-12-23,2025-12-23,yes,DRUG,WHIM Syndrome,Mavorixafor; Placebo,NCT03995108,-
+"Xcovery Holdings, Inc.",1,2025-12-30,2025-12-30,yes,DRUG,Non-small Cell Lung Cancer,X-396 (ensartinib); crizotinib,NCT02767804,-
+"Xynomic Pharmaceuticals, Inc.",1,2026-12-30,2026-12-30,yes,DRUG; OTHER,Renal Cell Carcinoma,Pazopanib; Abexinostat; Placebo,NCT03592472,-
+Zambon SpA,1,2026-02-25,2026-02-25,yes,DRUG,Bronchiolitis Obliterans; Obliterative Bronchiolitis; Bronchiolitis Obliterans Syndrome,Liposomal Cyclosporine A 5 mg; Liposomal Cyclosporine A 10 mg,NCT04039347,-
+"Zenas BioPharma (USA), LLC",1,2025-11-13,2025-11-13,yes,DRUG; OTHER,IgG4 Related Disease,Obexelimab; Placebo,NCT05662241,-
+Zydus Therapeutics Inc.,1,2027-04-18,2027-04-18,yes,DRUG,Primary Biliary Cholangitis,Saroglitazar Magnesium 1 mg,NCT06427395,-
+"Zynerba Pharmaceuticals, Inc.",1,2026-06-30,2026-06-30,yes,DRUG,Fragile X Syndrome,ZYN002 - Cannabidiol Transdermal Gel,NCT03802799,-

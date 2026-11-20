@@ -1,0 +1,190 @@
+{
+ "aiark": {
+  "credits_before": {
+   "error": 403,
+   "body": "{\"message\":\"API access is not included in your plan, or your subscription has a past-due payment. Upgrade your plan or pay the outstanding invoice to use the API.\"}"
+  },
+  "baseline_no_filter": {
+   "body": {
+    "page": 0,
+    "size": 1
+   },
+   "totalElements": null,
+   "error": 403,
+   "errbody": "{\"message\":\"API access is not included in your plan, or your subscription has a past-due payment. Upgrade your plan or pay the outstanding invoice to use the API.\"}",
+   "sample": []
+  },
+  "pharma_us_201plus": {
+   "body": {
+    "page": 0,
+    "size": 1,
+    "account": {
+     "location": {
+      "any": {
+       "include": [
+        "United States"
+       ]
+      }
+     },
+     "industries": {
+      "any": {
+       "include": [
+        "pharmaceutical manufacturing",
+        "biotechnology research"
+       ]
+      }
+     },
+     "employeeSize": {
+      "type": "RANGE",
+      "range": [
+       {
+        "start": 201,
+        "end": 1000000
+       }
+      ]
+     }
+    }
+   },
+   "totalElements": null,
+   "error": 403,
+   "errbody": "{\"message\":\"API access is not included in your plan, or your subscription has a past-due payment. Upgrade your plan or pay the outstanding invoice to use the API.\"}",
+   "sample": []
+  },
+  "credits_after": {
+   "error": 403,
+   "body": "{\"message\":\"API access is not included in your plan, or your subscription has a past-due payment. Upgrade your plan or pay the outstanding invoice to use the API.\"}"
+  }
+ },
+ "discolike": {
+  "pharma_us_201plus": {
+   "params": [
+    [
+     "category",
+     "PHARMACEUTICALS"
+    ],
+    [
+     "country",
+     "US"
+    ],
+    [
+     "employee_range",
+     "201,"
+    ]
+   ],
+   "response": {
+    "count": 723
+   }
+  },
+  "pharma_us_201plus_commercial": {
+   "params": [
+    [
+     "category",
+     "PHARMACEUTICALS"
+    ],
+    [
+     "country",
+     "US"
+    ],
+    [
+     "employee_range",
+     "201,"
+    ],
+    [
+     "phrase_match",
+     "+commercial|commercialization|marketed|FDA-approved|launch"
+    ]
+   ],
+   "response": {
+    "count": 254
+   }
+  },
+  "biotech_us_201plus": {
+   "params": [
+    [
+     "category",
+     "BIOTECHNOLOGY"
+    ],
+    [
+     "country",
+     "US"
+    ],
+    [
+     "employee_range",
+     "201,"
+    ]
+   ],
+   "response": {
+    "count": 938
+   }
+  },
+  "biotech_us_201plus_commercial": {
+   "params": [
+    [
+     "category",
+     "BIOTECHNOLOGY"
+    ],
+    [
+     "country",
+     "US"
+    ],
+    [
+     "employee_range",
+     "201,"
+    ],
+    [
+     "phrase_match",
+     "+commercial|commercialization|marketed|FDA-approved|launch"
+    ]
+   ],
+   "response": {
+    "count": 295
+   }
+  },
+  "healthcare_device_phrases_us_51_10000": {
+   "params": [
+    [
+     "category",
+     "HEALTHCARE"
+    ],
+    [
+     "country",
+     "US"
+    ],
+    [
+     "employee_range",
+     "51,10000"
+    ],
+    [
+     "phrase_match",
+     "+medical device|medical devices|medtech|surgical device|implant"
+    ]
+   ],
+   "response": {
+    "count": 2217
+   }
+  },
+  "healthcare_device_phrases_us_10001plus": {
+   "params": [
+    [
+     "category",
+     "HEALTHCARE"
+    ],
+    [
+     "country",
+     "US"
+    ],
+    [
+     "employee_range",
+     "10001,"
+    ],
+    [
+     "phrase_match",
+     "+medical device|medical devices|medtech|surgical device|implant"
+    ]
+   ],
+   "response": {
+    "count": 35
+   }
+  }
+ }
+}

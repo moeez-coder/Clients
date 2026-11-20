@@ -1,0 +1,78 @@
+{
+ "params": [
+  [
+   "icp_text",
+   "US healthcare and pharmaceutical marketing agencies: advertising, media, omnichannel and medical communications agencies whose clients are pharma, biotech and medical device brands, that plan and buy media, run programmatic or HCP-targeted campaigns, or provide healthcare marketing data and analytics for those brands."
+  ],
+  [
+   "negate_icp_text",
+   "hospitals, clinics, medical practices, dental or medspa marketing, staffing and recruiting, CROs and clinical trial services, drug manufacturers, healthcare software vendors, SEO and web design shops"
+  ],
+  [
+   "country",
+   "US"
+  ],
+  [
+   "employee_range",
+   "11,"
+  ],
+  [
+   "relevance",
+   "BALANCED"
+  ],
+  [
+   "max_records",
+   "600"
+  ],
+  [
+   "domain",
+   "cmimediagroup.com"
+  ],
+  [
+   "domain",
+   "realchemistry.com"
+  ],
+  [
+   "domain",
+   "klick.com"
+  ],
+  [
+   "domain",
+   "digitashealth.com"
+  ],
+  [
+   "domain",
+   "fingerpaint.com"
+  ],
+  [
+   "exclude_domain",
+   "publicishealthmedia.com"
+  ],
+  [
+   "exclude_domain",
+   "eversana.com"
+  ],
+  [
+   "exclude_domain",
+   "relevatehealth.com"
+  ],
+  [
+   "exclude_domain",
+   "healthlinkdimensions.com"
+  ],
+  [
+   "exclude_domain",
+   "throtle.io"
+  ],
+  [
+   "exclude_domain",
+   "deepintent.com"
+  ],
+  [
+   "exclude_domain",
+   "pulsepoint.com"
+  ]
+ ],
+ "records_returned": 600,
+ "cost_usd": 1.5
+}

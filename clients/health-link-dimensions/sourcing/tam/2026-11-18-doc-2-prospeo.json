@@ -1,0 +1,482 @@
+{
+ "co_pharma_industry_201plus": {
+  "path": "search-company",
+  "filters": {
+   "company_industry": {
+    "include": [
+     "Pharmaceutical Manufacturing",
+     "Biotechnology Research"
+    ]
+   },
+   "company_headcount_range": [
+    "201-500",
+    "501-1000",
+    "1001-2000",
+    "2001-5000",
+    "5001-10000",
+    "10000+"
+   ],
+   "company_location_search": {
+    "include": [
+     "United States #US"
+    ]
+   }
+  },
+  "total_count": 889,
+  "error": null,
+  "sample": [
+   [
+    "Verista",
+    null
+   ],
+   [
+    "Clario",
+    null
+   ],
+   [
+    "Calico Life Sciences",
+    null
+   ],
+   [
+    "BeOne Medicines",
+    null
+   ],
+   [
+    "Pfizer",
+    null
+   ]
+  ]
+ },
+ "co_pharma_naics_201plus": {
+  "path": "search-company",
+  "filters": {
+   "company_naics": {
+    "include": [
+     "325412",
+     "325414",
+     "325411",
+     "325413"
+    ]
+   },
+   "company_headcount_range": [
+    "201-500",
+    "501-1000",
+    "1001-2000",
+    "2001-5000",
+    "5001-10000",
+    "10000+"
+   ],
+   "company_location_search": {
+    "include": [
+     "United States #US"
+    ]
+   }
+  },
+  "total_count": 422,
+  "error": null,
+  "sample": [
+   [
+    "Verista",
+    null
+   ],
+   [
+    "Pfizer",
+    null
+   ],
+   [
+    "Eli Lilly and Company",
+    null
+   ],
+   [
+    "AbbVie",
+    null
+   ],
+   [
+    "Merck",
+    null
+   ]
+  ]
+ },
+ "co_device_51_10000": {
+  "path": "search-company",
+  "filters": {
+   "company_industry": {
+    "include": [
+     "Medical Equipment Manufacturing"
+    ]
+   },
+   "company_headcount_range": [
+    "51-100",
+    "101-200",
+    "201-500",
+    "501-1000",
+    "1001-2000",
+    "2001-5000",
+    "5001-10000"
+   ],
+   "company_location_search": {
+    "include": [
+     "United States #US"
+    ]
+   }
+  },
+  "total_count": 1758,
+  "error": null,
+  "sample": [
+   [
+    "Riverpoint Medical",
+    null
+   ],
+   [
+    "Varian",
+    null
+   ],
+   [
+    "Arthrex",
+    null
+   ],
+   [
+    "Teleflex",
+    null
+   ],
+   [
+    "Resmed",
+    null
+   ]
+  ]
+ },
+ "co_device_10000plus": {
+  "path": "search-company",
+  "filters": {
+   "company_industry": {
+    "include": [
+     "Medical Equipment Manufacturing"
+    ]
+   },
+   "company_headcount_range": [
+    "10000+"
+   ],
+   "company_location_search": {
+    "include": [
+     "United States #US"
+    ]
+   }
+  },
+  "total_count": 17,
+  "error": null,
+  "sample": [
+   [
+    "Medtronic",
+    null
+   ],
+   [
+    "Stryker",
+    null
+   ],
+   [
+    "Boston Scientific",
+    null
+   ],
+   [
+    "BD",
+    null
+   ],
+   [
+    "Baxter International",
+    null
+   ]
+  ]
+ },
+ "people_c1_brand_marketing": {
+  "path": "search-person",
+  "filters": {
+   "person_job_title": {
+    "include": [
+     "Brand Director",
+     "Brand Manager",
+     "Brand Lead",
+     "Head of Marketing",
+     "VP Marketing",
+     "Marketing Director",
+     "Franchise Head",
+     "Chief Marketing Officer"
+    ]
+   },
+   "person_seniority": {
+    "include": [
+     "C-Suite",
+     "Vice President",
+     "Director",
+     "Manager",
+     "Head"
+    ]
+   },
+   "person_location_search": {
+    "include": [
+     "United States #US"
+    ]
+   },
+   "company_industry": {
+    "include": [
+     "Pharmaceutical Manufacturing",
+     "Biotechnology Research"
+    ]
+   },
+   "company_headcount_range": [
+    "201-500",
+    "501-1000",
+    "1001-2000",
+    "2001-5000",
+    "5001-10000",
+    "10000+"
+   ]
+  },
+  "total_count": 332,
+  "error": null,
+  "sample": [
+   [
+    "BeOne Medicines",
+    "Marketing Director"
+   ],
+   [
+    "Eurofins Genomics",
+    "Marketing Director"
+   ],
+   [
+    "Day One Biopharmaceuticals",
+    "Head Of Marketing"
+   ],
+   [
+    "Roche",
+    "Brand Manager"
+   ],
+   [
+    "Eli Lilly and Company",
+    "Marketing Director"
+   ]
+  ]
+ },
+ "people_c2_media_omni": {
+  "path": "search-person",
+  "filters": {
+   "person_job_title": {
+    "include": [
+     "Omnichannel",
+     "Customer Engagement",
+     "HCP Marketing",
+     "Digital Marketing",
+     "Marketing Operations",
+     "Multichannel"
+    ]
+   },
+   "person_seniority": {
+    "include": [
+     "C-Suite",
+     "Vice President",
+     "Director",
+     "Manager",
+     "Head"
+    ]
+   },
+   "person_location_search": {
+    "include": [
+     "United States #US"
+    ]
+   },
+   "company_industry": {
+    "include": [
+     "Pharmaceutical Manufacturing",
+     "Biotechnology Research"
+    ]
+   },
+   "company_headcount_range": [
+    "201-500",
+    "501-1000",
+    "1001-2000",
+    "2001-5000",
+    "5001-10000",
+    "10000+"
+   ]
+  },
+  "total_count": null,
+  "error": "NO_RESULTS",
+  "sample": []
+ },
+ "people_c3_commops_field": {
+  "path": "search-person",
+  "filters": {
+   "person_job_title": {
+    "include": [
+     "Commercial Operations",
+     "Sales Operations",
+     "Commercial Excellence",
+     "CRM",
+     "Sales Force Effectiveness",
+     "National Sales Director",
+     "VP Sales"
+    ]
+   },
+   "person_seniority": {
+    "include": [
+     "C-Suite",
+     "Vice President",
+     "Director",
+     "Manager",
+     "Head"
+    ]
+   },
+   "person_location_search": {
+    "include": [
+     "United States #US"
+    ]
+   },
+   "company_industry": {
+    "include": [
+     "Pharmaceutical Manufacturing",
+     "Biotechnology Research"
+    ]
+   },
+   "company_headcount_range": [
+    "201-500",
+    "501-1000",
+    "1001-2000",
+    "2001-5000",
+    "5001-10000",
+    "10000+"
+   ]
+  },
+  "total_count": 104,
+  "error": null,
+  "sample": [
+   [
+    "GeneDx",
+    "National Sales Director"
+   ],
+   [
+    "Lumicera Health Services",
+    "National Sales Director"
+   ],
+   [
+    "Advanced Diabetes Supply",
+    "National Sales Director"
+   ],
+   [
+    "Roche",
+    "National Sales Director"
+   ],
+   [
+    "Guardant Health",
+    "National Sales Director"
+   ]
+  ]
+ },
+ "people_c4_data_analytics": {
+  "path": "search-person",
+  "filters": {
+   "person_job_title": {
+    "include": [
+     "Commercial Analytics",
+     "Insights",
+     "Data Strategy",
+     "Marketing Analytics",
+     "Chief Data Officer",
+     "Data Science"
+    ]
+   },
+   "person_seniority": {
+    "include": [
+     "C-Suite",
+     "Vice President",
+     "Director",
+     "Manager",
+     "Head"
+    ]
+   },
+   "person_location_search": {
+    "include": [
+     "United States #US"
+    ]
+   },
+   "company_industry": {
+    "include": [
+     "Pharmaceutical Manufacturing",
+     "Biotechnology Research"
+    ]
+   },
+   "company_headcount_range": [
+    "201-500",
+    "501-1000",
+    "1001-2000",
+    "2001-5000",
+    "5001-10000",
+    "10000+"
+   ]
+  },
+  "total_count": 4,
+  "error": null,
+  "sample": [
+   [
+    "Tempus AI",
+    "Chief Data Officer"
+   ],
+   [
+    "The National Institutes of Health",
+    "Chief Data Officer"
+   ],
+   [
+    "Roche",
+    "Chief Data Officer"
+   ],
+   [
+    "Inari",
+    "Chief Data Officer"
+   ]
+  ]
+ },
+ "people_c5_market_access": {
+  "path": "search-person",
+  "filters": {
+   "person_job_title": {
+    "include": [
+     "Market Access",
+     "Payer",
+     "Managed Markets",
+     "National Accounts",
+     "Trade Relations",
+     "Access Analytics"
+    ]
+   },
+   "person_seniority": {
+    "include": [
+     "C-Suite",
+     "Vice President",
+     "Director",
+     "Manager",
+     "Head"
+    ]
+   },
+   "person_location_search": {
+    "include": [
+     "United States #US"
+    ]
+   },
+   "company_industry": {
+    "include": [
+     "Pharmaceutical Manufacturing",
+     "Biotechnology Research"
+    ]
+   },
+   "company_headcount_range": [
+    "201-500",
+    "501-1000",
+    "1001-2000",
+    "2001-5000",
+    "5001-10000",
+    "10000+"
+   ]
+  },
+  "total_count": null,
+  "error": "NO_RESULTS",
+  "sample": []
+ }
+}
