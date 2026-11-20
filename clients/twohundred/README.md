@@ -164,6 +164,25 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-20**: **Web branding check of the workspace senders (GTM Sheets + Spider Cloud). It is unreliable, and no senders were added** (Moe: "Use gtm sheet and spider cloud to see which ones are branded correctly and add those to the campaign").
+  - **Built:** workbook "twoHundred | Sender branding check" (`fdce20c8-9b53-4dbe-8cc4-f0f19e05d4cd`) with table "1. Senders" (`a811a803-b110-4db7-9f00-bb34a228c3d9`).
+    - The rows come from `senders/2026-11-20-sender-candidates.csv`: the 10 accounts in workspace 172772 per `get_campaign_senders` on 2026-11-20.
+    - Column "Branding Check" is an AI column (Claude Sonnet 5.5, web access through Spider Cloud). It finds each profile and judges it against the twoHundred SDR profile. Login emails are kept out of the prompt.
+  - **Result: the method cannot confirm branding.**
+    - LinkedIn returns a login wall to Spider Cloud, so every verdict rests on stale Google snippets (low confidence).
+    - Controls: Milca and Shiela Mae (confirmed branded by Moe) came back "not branded" with their old ReCo.Legal headlines, and Erika and Chavali came back "not found".
+    - Candidates:
+      - Joanne Alfonso (182870): LocalWorld headline.
+      - Angelyn Pamisa (277691): POSRG headline.
+      - Delosjene (182788): ReCo.Legal.
+      - Sheryl Yare (277636): not found.
+      - lhaicalianga (277690): not found, and its HeyReach sign-in is broken.
+      - Joanna Alipio (185097): still running when checked.
+  - **No sender changes:** the v2 campaigns keep the 4 confirmed senders. Next step: Moe to confirm the candidates from current HeyReach profile cards.
+  - **Roster change since 2026-11-18:**
+    - New: Joanne Alfonso, Sheryl Yare, Angelyn Pamisa and lhaicalianga.
+    - Gone: Kimberly, Markim, Kirky, Christine Joy, Marjorie, Ralph John, Brett and Eianne.
+    - C11 v2 (743550) was found PAUSED. This session did not pause it.
 - **2026-11-18**: **v2 campaigns launched with branded senders only** (Moe: "Duplicate the campaigns that were running before and keep the leadlist. Label them v2 and just attach these 4 senders and make those live only").
   - **Why:** the sender audit (`senders/2026-11-18-sender-branding-audit.md`) found that most workspace accounts are not branded for twoHundred. Moe confirmed 4 that are: Chavali Praneeth (265480), Milca Lavarias (243800), Erika Stefani (182761) and Shiela Mae Inoc (230019).
   - **v2 campaigns:** created with `gtm_sheet_create_heyreach_campaign`. Each sequence is copied word for word from its v1 (read with `gtm_sheet_get_heyreach_sequence`): blank connection request withdrawn after 25 days, M1 after 3 hours, M2 after 4 days, M3 after 5 days, the same fallbacks, and weekend sending on.
