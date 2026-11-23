@@ -13,7 +13,7 @@ Usage: python3 full_build.py 2026-11-23 [--gaps] ; --gaps only writes <date>-cla
 launch-set contact after Blitz, per campaign, in batches of 10) for the Clay MCP gap-fill."""
 import csv, json, os, re, sys, collections
 from urllib.parse import unquote
-from personas import classify
+from personas import classify, classify_widen
 from variables import first_name, company
 HERE = os.path.dirname(os.path.abspath(__file__)); D = sys.argv[1]
 def norm(u):
@@ -30,6 +30,17 @@ for l in open(os.path.join(HERE, f"{D}-blitz-raw.jsonl")):
         cand[(d["campaign"], d["company_linkedin_url"])].append({"linkedin_url": norm(per.get("linkedin_url")),
             "first_name": per.get("first_name") or "-", "last_name": per.get("last_name") or "-", "job_title": exp.get("job_title") or "-",
             "person_country": ((per.get("location") or {}).get("country_code")) or "-", "source": "blitz", "rank": rank})
+WIDEN = "--widen" in sys.argv   # 2nd snapshot: widening pass (tier 3) + C3 manager/lead holds released (Moe, 2026-11-23)
+OUTP = f"{D}-2" if WIDEN else D
+wp = os.path.join(HERE, f"{D}-widen-blitz-raw.jsonl")
+if WIDEN:
+    for l in open(wp):
+        d = json.loads(l)
+        for rank, p in enumerate(d["response"].get("results", [])):
+            per = p.get("person") or p; exp = (per.get("experiences") or [{}])[0]
+            cand[(d["campaign"], d["company_linkedin_url"])].append({"linkedin_url": norm(per.get("linkedin_url")),
+                "first_name": per.get("first_name") or "-", "last_name": per.get("last_name") or "-", "job_title": exp.get("job_title") or "-",
+                "person_country": ((per.get("location") or {}).get("country_code")) or "-", "source": "blitz-widen", "rank": 20 + rank})
 cp = os.path.join(HERE, f"{D}-clay-raw.json"); cdir = os.path.join(HERE, f"{D}-clay-calls")
 calls = json.load(open(cp))["calls"] if os.path.exists(cp) else [json.load(open(os.path.join(cdir, f))) for f in sorted(os.listdir(cdir))] if os.path.isdir(cdir) else []
 if "--gaps" not in sys.argv:
@@ -55,13 +66,15 @@ for camp, clist in CAMPS.items():
                 continue
             seen[r["linkedin_url"]] = r; seen[k2] = r; rows.append(r)
         for r in rows:
-            t = classify(camp, r["job_title"]); r["tier"] = t if t in ("1", "2") else "-"
+            t = classify(camp, r["job_title"])
+            if WIDEN and t.startswith("removed") and classify_widen(camp, r["job_title"], c["sector"], c["size_band"]): t = "3"
+            r["tier"] = t if t in ("1", "2", "3") else "-"
             if r["person_country"] != "GB": r["status"] = "removed: not UK-based"
             elif t.startswith("removed"): r["status"] = t
             elif camp == "c1" and DIV_MD.search(r["job_title"]): r["status"] = "removed: divisional MD, not the company head"
             elif r["first_name"] in ("-", "") or r["last_name"] in ("-", ""): r["status"] = "removed: no name"
             elif r["linkedin_url"] in C6: r["status"] = "hold: also in Campaign 6 (PE investment) lead list"
-            elif camp == "c3" and t == "2": r["status"] = "hold: below doc persona (manager/lead)"
+            elif camp == "c3" and t == "2" and not WIDEN: r["status"] = "hold: below doc persona (manager/lead)"
             else: r["status"] = "launch set"
         mds = [r for r in rows if r["status"] == "launch set" and camp == "c1" and re.fullmatch(r"\s*managing director\s*", r["job_title"], re.I)]
         if len(mds) > 1 and any(r["status"] == "launch set" and r not in mds for r in rows) or len(mds) > 3:
@@ -86,7 +99,7 @@ if "--gaps" in sys.argv:
 NAMES = {"c1": "c1-ceo", "c2": "c2-people", "c3": "c3-ta"}
 for camp in CAMPS:
     for kind, rows in (("leads-raw", leads[camp]), ("companies", comp_rows[camp])):
-        p = os.path.join(HERE, f"{D}-{NAMES[camp]}-{kind}.csv")
+        p = os.path.join(HERE, f"{OUTP}-{NAMES[camp]}-{kind}.csv")
         with open(p, "w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
     ls = [r for r in leads[camp] if r["status"] == "launch set"]

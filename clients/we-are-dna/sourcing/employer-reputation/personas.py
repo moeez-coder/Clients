@@ -72,6 +72,8 @@ TIER3 = {
 def classify_widen(camp, title, sector, size_band):
     t = title or ""
     if BAD.search(t) or re.search(r"non[- ]?exec|business partner|recruit", t, re.I): return None
+    if camp == "c1" and re.search(r"\bowner\b", t, re.I) and not re.fullmatch(r"\s*(co-?\s?owner|owner|business owner|franchise owner|(co-?\s?)?founder\s*(and|&|/)\s*owner|owner\s*(and|&|/|,)\s*(director|managing director|ceo|founder))\s*", t, re.I): return None
+    if camp == "c1" and re.search(r"\b(product|technical|concession|process|data|service|system|committee|board|advisory|council|of the|of colleague)\b", t, re.I): return None
     if camp == "c1":
         if TIER3["c1"].search(t): return "3"
         if sector == "Law, accounting" and TIER3["c1_partner"].search(t): return "3"
