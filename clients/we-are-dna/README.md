@@ -67,9 +67,9 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 | Campaign | HeyReach id | List | Status | Senders | Schedule (days, window, timezone) |
 |---|---|---|---|---|---|
 | UK \| PE-Backed Growth \| C6 \| Moe v1 | 735291 | 1170661 | DRAFT | 10 | not recorded (set before start) |
-| UK \| Employer Reputation CEO \| Doc1 C1 | 756183 | 1210620 | DRAFT, 0 leads | 10 (all seats) | **Mon-Sun, 09:00-17:00, Europe/London** (Moe, 2026-11-23). **Not yet set in HeyReach:** no tool here can set it for 172307; set it in the UI before start. The create call reported `weekend_sending: true`. |
-| UK \| Employer Reputation People \| Doc1 C2 | 756186 | 1210624 | DRAFT, 0 leads | 10 (all seats) | same as C1, not yet set |
-| UK \| Employer Reputation TA \| Doc1 C3 | 756187 | 1210625 | DRAFT, 0 leads | 10 (all seats) | same as C1, not yet set |
+| UK \| Employer Reputation CEO \| Doc1 C1 | 756183 | 1210620 | DRAFT, 0 leads | 10 (all seats) | Mon-Sun, 09:00-17:00, Europe/London (set 2026-11-23 via HeyReach MCP `update_campaign_schedule`) |
+| UK \| Employer Reputation People \| Doc1 C2 | 756186 | 1210624 | **IN_PROGRESS** (started 2026-11-23), 818 launch-set leads pushed | 10 (all seats) | Mon-Sun, 09:00-17:00, Europe/London (set 2026-11-23 via HeyReach MCP `update_campaign_schedule`) |
+| UK \| Employer Reputation TA \| Doc1 C3 | 756187 | 1210625 | DRAFT, 0 leads | 10 (all seats) | Mon-Sun, 09:00-17:00, Europe/London (set 2026-11-23) |
 
 C1-3 copy as saved (variable-free connection notes Moe chose, messages, fallbacks): `campaign-docs/2026-11-23-doc1-c1-3-heyreach.json`. Message 1 goes 1 day after acceptance, then +3, +3 days; unaccepted requests are withdrawn after 25 days. Replies and the 10-day reputation snapshot: **Algo handles both** (Moe, 2026-11-23); bookings go to the booking link above.
 
@@ -109,6 +109,12 @@ C1-3 copy as saved (variable-free connection notes Moe chose, messages, fallback
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-23**: **C2 (UK | Employer Reputation People | Doc1 C2, HeyReach 756186) is LIVE (status change: DRAFT → IN_PROGRESS)** on Moe's go ("Make c2 live first", then "proceed"). John has still not approved doc 1; going live is Moe's call.
+  - **Schedule (7-day rule):** Moe supplied We Are DNA's HeyReach MCP endpoint (its key is kept out of the repo). Confirmed with `list_workspaces` that it serves 172307 "We Are DNA", then called `update_campaign_schedule` on **756186, 756183 and 756187**: Mon-Sun, 09:00-17:00, `Europe/London`. All three calls returned without error; no HeyReach tool reads a schedule back. Before: the draft default (weekend sending on, hours unknown). After: 7 days, 09:00-17:00 London.
+  - **Start:** `start_campaign` (tracking_clients, confirm) → `IN_PROGRESS`, 10 senders, none removed. Started while the push was part-way (211 of 818 in); the remaining launch-set rows keep pushing into the live campaign (checked: rows after the start show `added: 1`).
+  - C1 (756183) and C3 (756187) stay DRAFT with 0 leads, schedule now set.
+  - (session_013MzxQfbTXPU4XS6uuyCtrr)
 
 - **2026-11-23**: **C2 push to HeyReach started on Moe's go ("Make c2 live first"); C2 not started yet.**
   - **Push:** GTM Sheets table `3d36bfaa-…` Push to HeyReach column, 10-row test first (fields checked: name, company, theme, sector peers all filled), then all 818 launch-set rows (`only_empty`, run_if Status = "launch set") into HeyReach 756186 / list 1210624. In progress when recorded (about 73 done).
