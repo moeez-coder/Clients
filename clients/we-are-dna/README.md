@@ -79,6 +79,8 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 ## History
 
+- **2026-11-23**: **Build order set by Moe.** Doc 1 **Campaigns 1 to 3** (Employer Reputation: CEO/MD, people leaders, TA leaders) are to be built in tracking_clients, GTM Sheets and HeyReach now. Handed to session_013MzxQfbTXPU4XS6uuyCtrr with a full brief (preview first; no HeyReach push or start without Moe's go; nothing sent to the client; built before John's approval on Moe's call, as with Campaign 6). **Casual Connections (Doc 1 Campaign 4) is on hold** until the client gives two things: approval of the campaign, and the link connecting John's and Eoin's LinkedIn accounts to HeyReach 172307 (neither account is in the workspace yet). (session_013MzxQfnKsdVbThAsX3zi7V)
+
 - **2026-11-20**: **Doc 1 split into two docs (Moe: "Keep the first 5 in the doc 1 and move the rest to another document. Keep all the context in both", then "Don't send anything to the client").**
   - **Doc 1** `fed8e905-…` v4 (`campaign-docs/2026-11-20-doc-1-v4.md`) keeps v3's Campaigns 1 to 5 unchanged: Glassdoor reputation 1 to 3, Casual Connections 4, buy-and-build health and care 5. Pushed with `update_campaign_doc` `replace_markdown` (confirm) after re-checking it had 0 comments and 0 changes. Still `client_review` and shared, since v3 was sent on 2026-11-18, so John sees v4 if he opens the portal. **It was not re-sent and no Slack notification went out.**
   - **Doc 2** `712423f3-4f68-496b-b969-248c5b7ce681` "Doc 2 (Nov 20, 2026)" (`campaign-docs/2026-11-20-doc-2-v1.md`), created with `create_campaign_doc` as `draft`, `shared_with_client: false`, **not sent**. It holds v3's Campaigns 6 to 10, renumbered 1 to 5, with the copy unchanged.
