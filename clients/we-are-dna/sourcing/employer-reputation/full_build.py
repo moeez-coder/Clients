@@ -31,7 +31,7 @@ for l in open(os.path.join(HERE, f"{D}-blitz-raw.jsonl")):
             "first_name": per.get("first_name") or "-", "last_name": per.get("last_name") or "-", "job_title": exp.get("job_title") or "-",
             "person_country": ((per.get("location") or {}).get("country_code")) or "-", "source": "blitz", "rank": rank})
 WIDEN = "--widen" in sys.argv   # 2nd snapshot: widening pass (tier 3) + C3 manager/lead holds released (Moe, 2026-11-23)
-OUTP = f"{D}-2" if WIDEN else D
+OUTP = f"{D}-{sys.argv[sys.argv.index('--out') + 1]}" if "--out" in sys.argv else (f"{D}-2" if WIDEN else D)
 wp = os.path.join(HERE, f"{D}-widen-blitz-raw.jsonl")
 if WIDEN:
     for l in open(wp):
@@ -41,6 +41,35 @@ if WIDEN:
             cand[(d["campaign"], d["company_linkedin_url"])].append({"linkedin_url": norm(per.get("linkedin_url")),
                 "first_name": per.get("first_name") or "-", "last_name": per.get("last_name") or "-", "job_title": exp.get("job_title") or "-",
                 "person_country": ((per.get("location") or {}).get("country_code")) or "-", "source": "blitz-widen", "rank": 20 + rank})
+def _root(d): return (d or "").lower().replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0].strip()
+if WIDEN:   # Prospeo POST /search-person gap-fill (<date>-prospeo-full-<camp>-raw.jsonl), matched to target companies by root domain
+    import glob
+    by_dom = {}
+    for c in cos:
+        if _root(c["company_domain"]) not in ("", "-"): by_dom.setdefault(_root(c["company_domain"]), c)
+    for f in sorted(glob.glob(os.path.join(HERE, f"{D}-prospeo-full-c?-raw.jsonl"))):
+        for l in open(f):
+            d = json.loads(l)
+            for x in d["response"].get("results") or []:
+                p, co = x.get("person") or {}, x.get("company") or {}
+                c = by_dom.get(_root(co.get("domain") or co.get("website")))
+                if not c: continue
+                cand[(d["campaign"], c["company_linkedin_url"])].append({"linkedin_url": norm(p.get("linkedin_url")),
+                    "first_name": p.get("first_name") or "-", "last_name": p.get("last_name") or "-", "job_title": p.get("current_job_title") or "-",
+                    "person_country": ((p.get("location") or {}).get("country_code")) or "-", "source": "prospeo", "rank": 30})
+    ap = os.path.join(HERE, f"{D}-aiark-full-c3-raw.jsonl")   # AI Ark POST /v1/people gap-fill for C3, matched by company LinkedIn URL
+    if os.path.exists(ap):
+        by_li = {c["company_linkedin_url"].rstrip("/").lower(): c for c in cos}
+        for l in open(ap):
+            d = json.loads(l)
+            for x in (d["response"].get("content") or []):
+                co = x.get("company") or {}; cli = ((co.get("link") or {}).get("linkedin") or "").rstrip("/").lower()
+                c = by_li.get(cli) or by_dom.get(_root((co.get("link") or {}).get("domain")))
+                if not c: continue
+                pr = x.get("profile") or {}; loc = x.get("location") or {}
+                cand[("c3", c["company_linkedin_url"])].append({"linkedin_url": norm((x.get("link") or {}).get("linkedin")),
+                    "first_name": pr.get("first_name") or "-", "last_name": pr.get("last_name") or "-", "job_title": pr.get("title") or "-",
+                    "person_country": "GB" if loc.get("country") == "United Kingdom" else (loc.get("country") or "-"), "source": "aiark", "rank": 40})
 cp = os.path.join(HERE, f"{D}-clay-raw.json"); cdir = os.path.join(HERE, f"{D}-clay-calls")
 calls = json.load(open(cp))["calls"] if os.path.exists(cp) else [json.load(open(os.path.join(cdir, f))) for f in sorted(os.listdir(cdir))] if os.path.isdir(cdir) else []
 if "--gaps" not in sys.argv:

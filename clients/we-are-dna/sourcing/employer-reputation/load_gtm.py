@@ -7,6 +7,9 @@ leads_hold recounted from the final leads file; companies with 0 leads are kept 
 A webhook load APPENDS: never re-run against a table that already has rows."""
 import csv, json, os, sys, time, urllib.request, collections
 HERE = os.path.dirname(os.path.abspath(__file__)); D, HOOKS = sys.argv[1], sys.argv[2]; DRY = "--dry" in sys.argv
+# --delta <camp>=<older leads csv>: for that campaign send only Leads rows whose LinkedIn URL is not in the older file
+# (its table already holds the older rows, e.g. C2 live with snapshot 1); Companies tables are always sent in full.
+DELTA = dict(a.split("=", 1) for a in sys.argv[sys.argv.index("--delta") + 1:sys.argv.index("--delta") + 2]) if "--delta" in sys.argv else {}
 N = {"c1": "c1-ceo", "c2": "c2-people", "c3": "c3-ta"}; LBL = {"c1": "C1 CEO", "c2": "C2 People", "c3": "C3 TA"}
 hooks = {(a, b): c for a, b, c in (l.split() for l in open(HOOKS) if l.strip())}
 leads = {c: list(csv.DictReader(open(os.path.join(HERE, f"{D}-{n}-leads.csv")))) for c, n in N.items()}
@@ -31,6 +34,9 @@ for c in N:
     for r in C:
         r["leads_launch_set"] = cnt[(r["company_linkedin_url"], True, False)]; r["leads_hold"] = cnt[(r["company_linkedin_url"], False, True)]
     C.sort(key=lambda r: -int(r["leads_launch_set"]))
-    print(c, "companies", len(C), "leads", len(L), "launch set", sum(r["status"] == "launch set" for r in L))
+    if c in DELTA:
+        old = {r["linkedin_url"] for r in csv.DictReader(open(os.path.join(HERE, DELTA[c])))}
+        L = [r for r in L if r["linkedin_url"] not in old]
+    print(c, "companies", len(C), "leads sent", len(L), "launch set", sum(r["status"] == "launch set" for r in L))
     if not DRY:
         post(hooks[(c, "companies")], C); post(hooks[(c, "leads")], L)

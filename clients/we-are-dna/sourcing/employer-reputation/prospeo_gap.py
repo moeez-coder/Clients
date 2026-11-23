@@ -20,9 +20,12 @@ gap = [c for c in csv.DictReader(open(os.path.join(HERE, f"{D}-2-{NAMES[CAMP]}-c
 gap = gap if N == "all" else gap[:int(N)]
 doms = sorted({root(c["company_domain"]) for c in gap})
 out = open(os.path.join(HERE, f"{D}-prospeo-{TAG}-{CAMP}-raw.jsonl"), "a"); credits = 0; total = None
+import re
+REJECTED = []
 for i in range(0, len(doms), 500):
     chunk = doms[i:i + 500]
-    for page in range(1, MAXP + 1):
+    page = 1
+    while page <= MAXP:
         body = {"page": page, "filters": {"company": {"websites": {"include": chunk}},
                 "person_job_title": {"include": TITLES[CAMP], "match_mode": "CONTAINS"},
                 "person_location_search": {"include": ["United Kingdom"]}}}
@@ -35,9 +38,12 @@ for i in range(0, len(doms), 500):
                 if e.code == 429: time.sleep(3 * (a + 1)); continue
                 break
         out.write(json.dumps({"campaign": CAMP, "chunk": i // 500, "page": page, "domains": len(chunk), "response": d}) + "\n"); out.flush()
+        m = re.search(r": (\S+)$", d.get("filter_error") or "")
+        if d.get("error_code") == "INVALID_FILTERS" and m and m.group(1) in chunk:   # one bad domain fails the whole search: drop it, retry
+            chunk.remove(m.group(1)); REJECTED.append(m.group(1)); continue
         if d.get("error") or not d.get("results"): print("stop", d.get("error_code")); break
         if not d.get("free"): credits += 1
         pg = d.get("pagination") or {}; total = pg.get("total_count")
         if page >= (pg.get("total_page") or 0): break
-        time.sleep(0.25)
-print(CAMP, "gap companies", len(gap), "domains", len(doms), "total_count", total, "credits", credits)
+        page += 1; time.sleep(0.25)
+print("rejected domains", REJECTED); print(CAMP, "gap companies", len(gap), "domains", len(doms), "total_count", total, "credits", credits)
