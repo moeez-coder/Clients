@@ -1,0 +1,128 @@
+{
+ "c1": [
+  {
+   "step_number": 1,
+   "channel": "linkedin",
+   "type": "connection_request",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Hi {{module.standard.first_name}}, I've been looking at what staff say about employers across {{module.custom.sector_peers}} this year. A few patterns worth sharing. Would be good to connect.",
+   "delay_days": 0,
+   "doc_text": "Hi {first_name}, I've been looking at what staff say about employers across {sector_peers} this year. A few patterns worth sharing. Would be good to connect."
+  },
+  {
+   "step_number": 2,
+   "channel": "linkedin",
+   "type": "dm",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Thanks for connecting, {{module.standard.first_name}}.\n\nWhen the people inside a business rate {{module.custom.theme}} below their peers, it rarely stays an HR problem. It turns up in turnover, agency bills and how long roles sit empty.\n\nWe help leadership teams fix the story at the root. For DHU Healthcare that added over £2m to the bottom line in 20 months, and we're happy to stand behind a programme that pays for itself within two years.\n\nWould a one-page snapshot of how {{module.standard.company_name}} comes across to staff and candidates, next to your peers, be useful?",
+   "delay_days": 0,
+   "doc_text": "Thanks for connecting, {first_name}.\n\nWhen the people inside a business rate {theme} below their peers, it rarely stays an HR problem. It turns up in turnover, agency bills and how long roles sit empty.\n\nWe help leadership teams fix the story at the root. For DHU Healthcare that added over £2m to the bottom line in 20 months, and we're happy to stand behind a programme that pays for itself within two years.\n\nWould a one-page snapshot of how {company} comes across to staff and candidates, next to your peers, be useful?"
+  },
+  {
+   "step_number": 3,
+   "channel": "linkedin",
+   "type": "dm",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Hey {{module.standard.first_name}}, following up so this doesn't get buried.\n\nIs the cost of staff leaving something the board is looking at this year?",
+   "delay_days": 3,
+   "doc_text": "Hey {first_name}, following up so this doesn't get buried.\n\nIs the cost of staff leaving something the board is looking at this year?"
+  },
+  {
+   "step_number": 4,
+   "channel": "linkedin",
+   "type": "dm",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "No worries if the timing's off, {{module.standard.first_name}}.\n\nIf the snapshot would be useful, we'll send it over and you can read it whenever suits. If not, no hard feelings and we'll leave it there.",
+   "delay_days": 3,
+   "doc_text": "No worries if the timing's off, {first_name}.\n\nIf the snapshot would be useful, we'll send it over and you can read it whenever suits. If not, no hard feelings and we'll leave it there."
+  }
+ ],
+ "c2": [
+  {
+   "step_number": 1,
+   "channel": "linkedin",
+   "type": "connection_request",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Hi {{module.standard.first_name}}, I've been reading what staff and candidates say about {{module.custom.sector_peers}} this year. Some useful patterns for people teams. Would be good to connect.",
+   "delay_days": 0,
+   "doc_text": "Hi {first_name}, I've been reading what staff and candidates say about {sector_peers} this year. Some useful patterns for people teams. Would be good to connect."
+  },
+  {
+   "step_number": 2,
+   "channel": "linkedin",
+   "type": "dm",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Thanks for connecting, {{module.standard.first_name}}.\n\nAt {{module.standard.company_name}}, what people say online keeps coming back to {{module.custom.theme}}. Candidates read the same pages before they apply, so expectations get set before day one.\n\nWe help close the gap between what people are promised and what they find. At MAN Truck & Bus UK attrition went from 20% to under 10% within a year, and we'd put a quarter off your unwanted turnover in writing.\n\nWould a one-page snapshot, by theme and next to your peers, be useful?",
+   "delay_days": 0,
+   "doc_text": "Thanks for connecting, {first_name}.\n\nAt {company}, what people say online keeps coming back to {theme}. Candidates read the same pages before they apply, so expectations get set before day one.\n\nWe help close the gap between what people are promised and what they find. At MAN Truck & Bus UK attrition went from 20% to under 10% within a year, and we'd put a quarter off your unwanted turnover in writing.\n\nWould a one-page snapshot, by theme and next to your peers, be useful?"
+  },
+  {
+   "step_number": 3,
+   "channel": "linkedin",
+   "type": "dm",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Is retention something the people team is focused on this year?",
+   "delay_days": 3,
+   "doc_text": "Is retention something the people team is focused on this year?"
+  },
+  {
+   "step_number": 4,
+   "channel": "linkedin",
+   "type": "dm",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Asking because candidates now read review sites and ask AI tools about a place to work before they apply, and both shape who joins and who stays.\n\nNo pressure either way. Happy to send the snapshot if it helps.",
+   "delay_days": 3,
+   "doc_text": "Asking because candidates now read review sites and ask AI tools about a place to work before they apply, and both shape who joins and who stays.\n\nNo pressure either way. Happy to send the snapshot if it helps."
+  }
+ ],
+ "c3": [
+  {
+   "step_number": 1,
+   "channel": "linkedin",
+   "type": "connection_request",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Hi {{module.standard.first_name}}, I've been looking at what candidates read about {{module.custom.sector_peers}} before they apply. Some useful patterns for talent teams. Would be good to connect.",
+   "delay_days": 0,
+   "doc_text": "Hi {first_name}, I've been looking at what candidates read about {sector_peers} before they apply. Some useful patterns for talent teams. Would be good to connect."
+  },
+  {
+   "step_number": 2,
+   "channel": "linkedin",
+   "type": "dm",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Thanks for connecting, {{module.standard.first_name}}.\n\nBefore someone applies to {{module.standard.company_name}}, they read what staff say online, and right now that keeps coming back to {{module.custom.theme}}. When the story puts good people off, roles go to agencies.\n\nMAN Truck & Bus UK were spending over £600k a year on agencies. Within a year it was under £30k, because the right people started applying direct. We'd put half off your agency spend in writing.\n\nWould a one-page snapshot of what candidates see about {{module.standard.company_name}}, next to your peers, be useful?",
+   "delay_days": 0,
+   "doc_text": "Thanks for connecting, {first_name}.\n\nBefore someone applies to {company}, they read what staff say online, and right now that keeps coming back to {theme}. When the story puts good people off, roles go to agencies.\n\nMAN Truck & Bus UK were spending over £600k a year on agencies. Within a year it was under £30k, because the right people started applying direct. We'd put half off your agency spend in writing.\n\nWould a one-page snapshot of what candidates see about {company}, next to your peers, be useful?"
+  },
+  {
+   "step_number": 3,
+   "channel": "linkedin",
+   "type": "dm",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Is agency spend something you're being asked to bring down this year?",
+   "delay_days": 3,
+   "doc_text": "Is agency spend something you're being asked to bring down this year?"
+  },
+  {
+   "step_number": 4,
+   "channel": "linkedin",
+   "type": "dm",
+   "thread_id": "t1",
+   "subject": null,
+   "copy": "Asking because it's usually the quickest number to move once candidates like what they read. No pressure either way.",
+   "delay_days": 3,
+   "doc_text": "Asking because it's usually the quickest number to move once candidates like what they read. No pressure either way."
+  }
+ ]
+}

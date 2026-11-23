@@ -34,8 +34,17 @@ These are verbatim copies of tracking_clients fields, each with its source in a 
 | Config | ICP | Market | Status | Campaigns | Companies sourced | Clay workbook |
 |---|---|---|---|---|---|---|
 | PE investment triggers \| Exa news + Blitz waterfall \| 2026-11-16 | Trigger \| Fresh Investment, PE-Backed Growth \| UK five sectors | Health, care, vet, dental; retail and hospitality; manufacturing and engineering; law and accounting; financial services | draft (static, campaign_split false) | UK \| Fresh Investment PE-Backed Growth \| C6 \| Moe v1 | - (leads loaded via GTM Sheets, not the lead list ingest) | - |
+| Employer Reputation CEO \| Glassdoor list + Blitz/Clay \| 2026-11-23 | Employer Reputation \| CEO/MD \| UK five sectors | Five doc-1 sectors, UK, 51-5,000 staff, below-average Glassdoor | draft (static, campaign_split false) | UK \| Employer Reputation CEO \| Doc1 C1 | - (not ingested; leads go via GTM Sheets) | - |
+| Employer Reputation People \| Glassdoor list + Blitz/Clay \| 2026-11-23 | Employer Reputation \| People Leaders \| UK five sectors | as above | draft (static, campaign_split false) | UK \| Employer Reputation People \| Doc1 C2 | - | - |
+| Employer Reputation TA \| Glassdoor list + Blitz/Clay \| 2026-11-23 | Employer Reputation \| TA Leaders \| UK five sectors 201+ | as above, 201-5,000 staff | draft (static, campaign_split false) | UK \| Employer Reputation TA \| Doc1 C3 | - | - |
 
-Created 2026-11-16 by this session (`create_icp_config`, `create_sourcing_config`): ICP config `23a03003-f8ca-4c13-bee9-05d995a938e4`, segment `48f11ee4-3fc3-46df-8e3d-9e73dd514c9f`, persona `9185c9e9-660d-4114-9833-f38918c90879`, lead list `71717207-0948-4eb9-898a-ef086122741d`. No other configs exist.
+Created 2026-11-16 by this session (`create_icp_config`, `create_sourcing_config`): ICP config `23a03003-f8ca-4c13-bee9-05d995a938e4`, segment `48f11ee4-3fc3-46df-8e3d-9e73dd514c9f`, persona `9185c9e9-660d-4114-9833-f38918c90879`, lead list `71717207-0948-4eb9-898a-ef086122741d`. Created 2026-11-23 by session_013MzxQfbTXPU4XS6uuyCtrr for Doc 1 Campaigns 1-3 (Scope: Campaign-specific: Doc 1 Campaigns 1-3), one ICP config + lead list per persona:
+
+| Campaign | ICP config | Segment | Persona | Lead list (sourcing config) | tracking_clients campaign |
+|---|---|---|---|---|---|
+| C1 CEO/MD | `f1d491f2-0a8d-474a-8879-dfabbe08102a` | `c46ead9a-5942-404d-93b1-385d64096f7a` | `5fc272ee-86c6-4f3c-b2dd-cc5cd9103e04` | `00008ec7-961d-47a7-8019-71559b92be31` | `92045cee-a63b-4065-b90a-ebdc4e6b3acd` |
+| C2 People | `57cfc66d-a559-46e6-8c19-cbe7ee9b4a77` | `ed5203aa-6cbc-4a3e-994e-906d731f086e` | `9248dd1d-0607-4597-8ba4-ac2516f49b61` | `ad6da3b3-bc9f-47a6-b889-85e59f5db855` | `643e71b7-f984-4252-8ea5-8c9532240e44` |
+| C3 TA | `b9dddae9-88eb-42f7-a0e8-6e8b1f4ddaf4` | `b3e3eac5-daad-4cb0-ac14-a07713e9d322` | `15486a9e-868b-4d9c-bf7d-c7eeec7c3ead` | `ea31f83a-b23a-4eb0-af51-70ca998bf001` | `ee702ead-4315-4d94-8fc2-9f14c64f62fe` |
 
 ## GTM Sheets
 
@@ -80,6 +89,14 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-23**: **Doc 1 C1-3: Moe's go after the preview, tracking_clients built, Blitz full pull run.**
+  - **Moe's answers (this session):** pull "all from the accepted persona" (no 1-per-company cap; the doc's Lead list line says 1 per company, the doc text is untouched); "campaign duplication is not an issue. same lead can be in both campaigns"; Clay on Blitz's gaps only; 3 lead lists with `campaign_split` false; names without "Moe v1". C3 TA Managers/Leads are kept visible as "hold: below doc persona", since the doc's C3 persona is Head/Director level.
+  - **tracking_clients** (ids in the Sourcing configs section): 3 ICP configs, 3 lead lists (static, `campaign_split` false), 3 campaigns at `creation`, each linked to doc `fed8e905-…`, messaging type Normal. Sequences saved with `set_campaign_sequence` (valid), copy verbatim from doc 1 v4 via `campaign-docs/scripts/2026-11-23-doc1-c1-3-sequences.py` (output `campaign-docs/2026-11-23-doc1-c1-3-sequences.json`). Variables: `{{module.standard.first_name}}`, `{{module.standard.company_name}}`, `{{module.custom.sector_peers}}`, `{{module.custom.theme}}`. **Delays are not in the doc**, so Campaign 6's cadence is used: note, message 1 on accept, +3, +3 days. Read back C1's saved sequence: matches.
+  - **GTM Sheets:** `create_campaign` auto-created one empty workbook per campaign in DNA's folder, already linked: C1 `853127d0-f68f-40b0-a027-2f6fbf9638dc`, C2 `a1a80c9b-b26d-4ef9-8e90-78579705fdfe`, C3 `37aaa5b7-c35f-47e2-8bd1-28cc994ceb1d`.
+  - **Blitz full pull:** `full_pull_blitz.py`, 3,757 calls (C1 and C2 on 1,382 companies, C3 on 993; 2 companies have no LinkedIn page and were skipped: Scottish Autism, Gordon Murray), 0 errors, **3,404 Blitz records**. Before Clay: C1 1,555 launch-set leads at 780 companies; C2 805 at 518; C3 108 at 96 plus 246 on hold.
+  - **HeyReach:** no connector serves 172307 (checked 6 more: Polymers, S3 Partners, CG, Reesmarx, POSRG, one 401). HeyReach goes through `gtm_sheet_create_heyreach_campaign`.
+  - (session_013MzxQfbTXPU4XS6uuyCtrr)
 
 - **2026-11-23**: **Doc 1 Campaigns 1-3 (Employer Reputation): build started, lead preview run (gate: waiting for Moe's go).** This opens a **new segment** `sourcing/employer-reputation/`. Scope: **Campaign-specific: Doc 1 Campaigns 1-3**.
   - **Approval context:** Doc 1 is `client_review`; **John has not approved it.** CLAUDE.md says configs wait for client approval. Building now is **Moe's own call** ("Build out 1-3 in tracking clients gtm sheets and hey reach", 2026-11-23), as with Campaign 6 on 2026-11-16. Moe's standing rules for this build: preview first; nothing pushed to HeyReach or started without his go; nothing sent to the client.
