@@ -20,6 +20,7 @@ def norm(u):
     u = unquote(u or "").split("?")[0].rstrip("/").lower()
     return re.sub(r"https?://([a-z]{2,3}\.)?linkedin\.com", "https://www.linkedin.com", u)
 cos = [r for r in csv.DictReader(open(os.path.join(HERE, f"{D}-companies.csv"))) if r["excluded"] == "-"]
+cos = [r for r in cos if r["company_linkedin_url"] not in ("", "-")]   # 2 companies with no LinkedIn page can't be searched
 CAMPS = {"c1": [r for r in cos], "c2": [r for r in cos], "c3": [r for r in cos if r["c3_eligible"] == "yes"]}
 cand = collections.defaultdict(list)
 for l in open(os.path.join(HERE, f"{D}-blitz-raw.jsonl")):
@@ -29,9 +30,10 @@ for l in open(os.path.join(HERE, f"{D}-blitz-raw.jsonl")):
         cand[(d["campaign"], d["company_linkedin_url"])].append({"linkedin_url": norm(per.get("linkedin_url")),
             "first_name": per.get("first_name") or "-", "last_name": per.get("last_name") or "-", "job_title": exp.get("job_title") or "-",
             "person_country": ((per.get("location") or {}).get("country_code")) or "-", "source": "blitz", "rank": rank})
-cp = os.path.join(HERE, f"{D}-clay-raw.json")
-if os.path.exists(cp) and "--gaps" not in sys.argv:
-    for call in json.load(open(cp))["calls"]:
+cp = os.path.join(HERE, f"{D}-clay-raw.json"); cdir = os.path.join(HERE, f"{D}-clay-calls")
+calls = json.load(open(cp))["calls"] if os.path.exists(cp) else [json.load(open(os.path.join(cdir, f))) for f in sorted(os.listdir(cdir))] if os.path.isdir(cdir) else []
+if "--gaps" not in sys.argv:
+    for call in calls:
         camps = ["c1", "c2"] if call["campaign"] == "c1c2" else [call["campaign"]]
         for c in call["contacts"]:
             fn, _, ln = re.sub(r"\(.*?\)", "", c["name"]).strip().partition(" ")
@@ -39,6 +41,7 @@ if os.path.exists(cp) and "--gaps" not in sys.argv:
             row = {"linkedin_url": norm(c["url"]), "first_name": fn or "-", "last_name": ln.strip() or "-", "job_title": c.get("latest_experience_title") or "-",
                    "person_country": "GB" if ("United Kingdom" in loc or loc.endswith(" Area")) else "-", "source": "clay", "rank": 9}
             for camp in camps: cand[(camp, c["companyIdentifier"])].append(dict(row))
+C6 = {norm(r["linkedin_url"]) for f in ("2026-11-16-3-leads.csv",) for r in csv.DictReader(open(os.path.join(HERE, "../pe-investment-triggers", f)))}
 DIV_MD = re.compile(r"managing director\s*[,\-–|]\s*\w|managing director of (?!the group)", re.I)
 leads = collections.defaultdict(list); comp_rows = collections.defaultdict(list); gaps = collections.defaultdict(list)
 for camp, clist in CAMPS.items():
@@ -57,6 +60,7 @@ for camp, clist in CAMPS.items():
             elif t.startswith("removed"): r["status"] = t
             elif camp == "c1" and DIV_MD.search(r["job_title"]): r["status"] = "removed: divisional MD, not the company head"
             elif r["first_name"] in ("-", "") or r["last_name"] in ("-", ""): r["status"] = "removed: no name"
+            elif r["linkedin_url"] in C6: r["status"] = "hold: also in Campaign 6 (PE investment) lead list"
             elif camp == "c3" and t == "2": r["status"] = "hold: below doc persona (manager/lead)"
             else: r["status"] = "launch set"
         mds = [r for r in rows if r["status"] == "launch set" and camp == "c1" and re.fullmatch(r"\s*managing director\s*", r["job_title"], re.I)]

@@ -1,0 +1,86 @@
+{
+ "_note": "HeyReach drafts for Doc 1 C1-3, created 2026-11-23 via tracking_clients gtm_sheet_create_heyreach_campaign. Connection notes are the variable-free variants Moe chose (HeyReach can't take a note with variables via this tool: no note fallback). Messages are doc 1 v4 verbatim with HeyReach variables; fallbacks are variable-free versions. Custom fields theme and sector_peers come from the GTM Leads table push.",
+ "campaigns": {
+  "c1": {
+   "heyreach_campaign_id": 756183,
+   "heyreach_list_id": 1210620,
+   "workspace": 172307,
+   "status": "DRAFT",
+   "senders": 10,
+   "withdraw_after_days": 25,
+   "connection_note_doc": "Hi {first_name}, I've been looking at what staff say about employers across {sector_peers} this year. A few patterns worth sharing. Would be good to connect.",
+   "connection_note_saved": "Hi, I've been looking at what staff say about employers across your sector this year. A few patterns worth sharing. Would be good to connect.",
+   "messages": [
+    {
+     "delay_days": 1,
+     "text": "Thanks for connecting, {FIRST_NAME}.\n\nWhen the people inside a business rate {theme} below their peers, it rarely stays an HR problem. It turns up in turnover, agency bills and how long roles sit empty.\n\nWe help leadership teams fix the story at the root. For DHU Healthcare that added over £2m to the bottom line in 20 months, and we're happy to stand behind a programme that pays for itself within two years.\n\nWould a one-page snapshot of how {COMPANY} comes across to staff and candidates, next to your peers, be useful?",
+     "fallback": "Thanks for connecting.\n\nWhen the people inside a business rate it below their peers as a place to work, it rarely stays an HR problem. It turns up in turnover, agency bills and how long roles sit empty.\n\nWe help leadership teams fix the story at the root. For DHU Healthcare that added over £2m to the bottom line in 20 months, and we're happy to stand behind a programme that pays for itself within two years.\n\nWould a one-page snapshot of how your business comes across to staff and candidates, next to your peers, be useful?"
+    },
+    {
+     "delay_days": 3,
+     "text": "Hey {FIRST_NAME}, following up so this doesn't get buried.\n\nIs the cost of staff leaving something the board is looking at this year?",
+     "fallback": "Following up so this doesn't get buried.\n\nIs the cost of staff leaving something the board is looking at this year?"
+    },
+    {
+     "delay_days": 3,
+     "text": "No worries if the timing's off, {FIRST_NAME}.\n\nIf the snapshot would be useful, we'll send it over and you can read it whenever suits. If not, no hard feelings and we'll leave it there.",
+     "fallback": "No worries if the timing's off.\n\nIf the snapshot would be useful, we'll send it over and you can read it whenever suits. If not, no hard feelings and we'll leave it there."
+    }
+   ]
+  },
+  "c2": {
+   "heyreach_campaign_id": 756186,
+   "heyreach_list_id": 1210624,
+   "workspace": 172307,
+   "status": "DRAFT",
+   "senders": 10,
+   "withdraw_after_days": 25,
+   "connection_note_doc": "Hi {first_name}, I've been reading what staff and candidates say about {sector_peers} this year. Some useful patterns for people teams. Would be good to connect.",
+   "connection_note_saved": "Hi, I've been reading what staff and candidates say about employers in your sector this year. Some useful patterns for people teams. Would be good to connect.",
+   "messages": [
+    {
+     "delay_days": 1,
+     "text": "Thanks for connecting, {FIRST_NAME}.\n\nAt {COMPANY}, what people say online keeps coming back to {theme}. Candidates read the same pages before they apply, so expectations get set before day one.\n\nWe help close the gap between what people are promised and what they find. At MAN Truck & Bus UK attrition went from 20% to under 10% within a year, and we'd put a quarter off your unwanted turnover in writing.\n\nWould a one-page snapshot, by theme and next to your peers, be useful?",
+     "fallback": "Thanks for connecting.\n\nWhat people say online about a place to work tends to come back to a few themes. Candidates read the same pages before they apply, so expectations get set before day one.\n\nWe help close the gap between what people are promised and what they find. At MAN Truck & Bus UK attrition went from 20% to under 10% within a year, and we'd put a quarter off your unwanted turnover in writing.\n\nWould a one-page snapshot, by theme and next to your peers, be useful?"
+    },
+    {
+     "delay_days": 3,
+     "text": "Is retention something the people team is focused on this year?",
+     "fallback": null
+    },
+    {
+     "delay_days": 3,
+     "text": "Asking because candidates now read review sites and ask AI tools about a place to work before they apply, and both shape who joins and who stays.\n\nNo pressure either way. Happy to send the snapshot if it helps.",
+     "fallback": null
+    }
+   ]
+  },
+  "c3": {
+   "heyreach_campaign_id": 756187,
+   "heyreach_list_id": 1210625,
+   "workspace": 172307,
+   "status": "DRAFT",
+   "senders": 10,
+   "withdraw_after_days": 25,
+   "connection_note_doc": "Hi {first_name}, I've been looking at what candidates read about {sector_peers} before they apply. Some useful patterns for talent teams. Would be good to connect.",
+   "connection_note_saved": "Hi, I've been looking at what candidates read about employers in your sector before they apply. Some useful patterns for talent teams. Would be good to connect.",
+   "messages": [
+    {
+     "delay_days": 1,
+     "text": "Thanks for connecting, {FIRST_NAME}.\n\nBefore someone applies to {COMPANY}, they read what staff say online, and right now that keeps coming back to {theme}. When the story puts good people off, roles go to agencies.\n\nMAN Truck & Bus UK were spending over £600k a year on agencies. Within a year it was under £30k, because the right people started applying direct. We'd put half off your agency spend in writing.\n\nWould a one-page snapshot of what candidates see about {COMPANY}, next to your peers, be useful?",
+     "fallback": "Thanks for connecting.\n\nBefore someone applies, they read what staff say online, and that usually comes back to a few themes. When the story puts good people off, roles go to agencies.\n\nMAN Truck & Bus UK were spending over £600k a year on agencies. Within a year it was under £30k, because the right people started applying direct. We'd put half off your agency spend in writing.\n\nWould a one-page snapshot of what candidates see about your business, next to your peers, be useful?"
+    },
+    {
+     "delay_days": 3,
+     "text": "Is agency spend something you're being asked to bring down this year?",
+     "fallback": null
+    },
+    {
+     "delay_days": 3,
+     "text": "Asking because it's usually the quickest number to move once candidates like what they read. No pressure either way.",
+     "fallback": null
+    }
+   ]
+  }
+ }
+}
