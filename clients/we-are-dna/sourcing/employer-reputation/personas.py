@@ -51,3 +51,30 @@ def classify(camp, title):
     if TIER1[camp].search(t) and not (camp == "c1" and OTHER["c1"].search(t)) and not (camp != "c1" and OTHER[camp].search(t)): return "1"
     if TIER2[camp].search(t) and not OTHER[camp].search(t): return "2"
     return "removed: title not the persona"
+
+# --- Widening pass (Moe, 2026-11-23: "run them"), only on companies with no launch-set lead after the first pull ---
+# C1 tier 3: the company's top person under another title: Founder/Co-founder/Owner/Chair, Partner (law and accounting),
+#            a plain "Director" (51-200 staff only). C2 tier 3: HR / People / People and Culture Manager.
+WIDEN_CASCADES = {
+ "c1": [{"include_title": ["Founder", "Co-Founder", "Owner", "Chairman", "Executive Chairman", "Chair", "Partner", "Director", "Proprietor"],
+         "exclude_title": X_COMMON + ["Associate", "Sales", "Account", "Business Partner", "Talent Partner", "People Partner", "Non-Exec"],
+         "location": GB, "include_headline_search": False}],
+ "c2": [{"include_title": ["HR Manager", "Human Resources Manager", "People Manager", "People and Culture Manager", "People & Culture Manager",
+                           "Senior HR Manager", "HR & Payroll Manager", "HR Lead", "People Lead"],
+         "exclude_title": X_COMMON + ["Business Partner", "Recruitment", "Talent Acquisition", "Payroll Officer", "Systems", "Learning"],
+         "location": GB, "include_headline_search": False}]}
+TIER3 = {
+ "c1": re.compile(r"^\s*((co-?\s?)?founder|owner|proprietor|(executive )?chair(man|woman|person)?)\b|\b((co-?\s?)?founder|owner|(executive )?chair(man|woman|person)?)\s*$"
+                  r"|^\s*((co-?\s?)?founder|owner)\s*(and|&|/|,)\s*(director|ceo|managing director|chair(man)?)\s*$", re.I),
+ "c1_partner": re.compile(r"^\s*(equity |senior |salaried )?partner\s*$", re.I),
+ "c1_director": re.compile(r"^\s*(company |group )?director\s*$", re.I),
+ "c2": re.compile(r"\b(senior )?(hr|human resources|people|people (and|&) culture|hr (and|&) payroll)\s+(manager|lead)\b", re.I)}
+def classify_widen(camp, title, sector, size_band):
+    t = title or ""
+    if BAD.search(t) or re.search(r"non[- ]?exec|business partner|recruit", t, re.I): return None
+    if camp == "c1":
+        if TIER3["c1"].search(t): return "3"
+        if sector == "Law, accounting" and TIER3["c1_partner"].search(t): return "3"
+        if size_band == "51-200" and TIER3["c1_director"].search(t): return "3"
+    if camp == "c2" and TIER3["c2"].search(t) and not OTHER["c2"].search(t): return "3"
+    return None

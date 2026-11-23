@@ -110,6 +110,13 @@ C1-3 copy as saved (variable-free connection notes Moe chose, messages, fallback
 
 ## History
 
+- **2026-11-23**: **C2 push to HeyReach started on Moe's go ("Make c2 live first"); C2 not started yet.**
+  - **Push:** GTM Sheets table `3d36bfaa-…` Push to HeyReach column, 10-row test first (fields checked: name, company, theme, sector peers all filled), then all 818 launch-set rows (`only_empty`, run_if Status = "launch set") into HeyReach 756186 / list 1210624. In progress when recorded (about 73 done).
+  - **Start dry run** (`start_campaign` dry_run): DRAFT, 10 senders, none to remove.
+  - **Schedule blocker:** CLAUDE.md requires the 7-day schedule (Moe: 09:00-17:00 Europe/London) before start. Every HeyReach connector in the session was checked with `list_workspaces`: 19 serve other workspaces (none is 172307), 12 return 401 (Drebcon, Forge Digital, Jeanny, Leah Yosef, Mastrovito, MeetLife, Sensor Bio, Solutions Driven, Sullivan, Triumphus, Troi, Weilliptic). Asked Moe to add or fix a We Are DNA connector, set it in the UI, or start on the current schedule.
+  - **Also started (paused for C2):** widening personas in `personas.py` (C1 Founder/Owner/Chair/Partner/plain Director at 51-200; C2 HR/People Manager), not yet run. Prospeo `POST /search-person` and AI Ark `POST /v1/people` docs checked for the next gap-fill (Prospeo 1 credit per 25-result page; AI Ark 0.5 credit per result); nothing spent.
+  - (session_013MzxQfbTXPU4XS6uuyCtrr)
+
 - **2026-11-23**: **Doc 1 C1-3 lead lists, GTM Sheets and HeyReach drafts built. Nothing pushed, nothing started, nothing sent to the client.** This **expands** the new `employer-reputation` segment opened by the preview.
   - **Leads** (`2026-11-23-leads.query.md`): C1 **1,588** launch set at 806 of 1,382 companies (1,015 CEO/MD/partner, 573 COO/CFO); C2 **818** at 521; C3 **122** at 108 of 993, plus **268 TA managers/leads on hold** (below the doc persona; Moe to decide). 2,527 unique people; 1 is launch set in two campaigns (C2 and C3), which Moe allowed. Blitz 3,404 records; Clay MCP gap-fill **stopped by Moe after 35 of 188 batches** ("Skip Clay") because each call returns ~20k tokens (about 820k agent tokens spent); the 285 contacts already collected are kept (`source = clay`).
   - **Overlap (rule 3a):** Campaign 6: 1 in C1 and 1 in C2, both set to `hold: also in Campaign 6`. Casual Connections preview: 11 in C1, 3 in C2 (CC on hold; recheck before it launches).
