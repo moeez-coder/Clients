@@ -1,0 +1,53 @@
+"""Persona definitions for Doc 1 Campaigns 1-3 (We Are DNA), shared by the preview and full pulls.
+Blitz cascades (POST /v2/search/waterfall-icp-keyword, UK only, no headline search) and the strict title regexes
+that decide whether a returned person really is the persona. Tier 1 is preferred; tier 2 is the doc's fallback."""
+import re
+X_COMMON = ["Assistant", "PA to", "EA to", "Intern", "Graduate", "Apprentice", "Non-Executive", "Non Executive", "Advisor",
+            "Adviser", "Board Member", "Deputy", "Regional", "Area", "Store", "Branch", "Site", "Coordinator", "Co-ordinator",
+            "Administrator", "Consultant", "Trainee"]
+GB = {"country_code": ["GB"]}
+CASCADES = {
+ "c1": [{"include_title": ["CEO", "Chief Executive Officer", "Chief Executive", "Group Chief Executive", "Managing Director",
+                           "Group Managing Director", "Managing Partner", "Senior Partner"],
+         "exclude_title": X_COMMON + ["Sales", "Account", "Client", "Partner Manager", "Business Partner"], "location": GB, "include_headline_search": False},
+        {"include_title": ["Chief Operating Officer", "COO", "Chief Financial Officer", "CFO"],
+         "exclude_title": X_COMMON + ["Sales", "Business Partner", "to the COO", "to the CFO"], "location": GB, "include_headline_search": False}],
+ "c2": [{"include_title": ["Chief People Officer", "Chief HR Officer", "Chief Human Resources Officer", "People Director",
+                           "HR Director", "Human Resources Director", "Director of People", "Director of HR", "Director of Human Resources",
+                           "Group People Director", "Group HR Director", "People and Culture Director", "Director of People and Culture"],
+         "exclude_title": X_COMMON + ["Business Partner", "Talent Acquisition", "Recruitment", "Resourcing", "Reward", "Payroll", "Learning", "Systems", "Operations Manager"],
+         "location": GB, "include_headline_search": False},
+        {"include_title": ["Head of People", "Head of People and Culture", "Head of HR", "Head of Human Resources", "VP People", "VP HR", "Head of People & Culture"],
+         "exclude_title": X_COMMON + ["Business Partner", "Talent Acquisition", "Recruitment", "Resourcing", "Reward", "Payroll", "Learning", "Systems", "Analytics"],
+         "location": GB, "include_headline_search": False}],
+ "c3": [{"include_title": ["Head of Talent Acquisition", "Director of Talent Acquisition", "Talent Acquisition Director",
+                           "Head of Resourcing", "Resourcing Director", "Head of Recruitment", "Recruitment Director", "Head of Talent",
+                           "Global Head of Talent Acquisition", "VP Talent Acquisition", "Director of Talent"],
+         "exclude_title": X_COMMON + ["Partner", "Sourcer", "Recruiter", "Specialist", "Executive", "Officer", "Development", "Management", "Learning"],
+         "location": GB, "include_headline_search": False},
+        {"include_title": ["Talent Acquisition Manager", "Talent Acquisition Lead", "Resourcing Manager", "Recruitment Manager", "Resourcing Lead",
+                           "Recruitment Lead", "Senior Talent Acquisition Manager", "Head of Talent Acquisition and Employer Brand"],
+         "exclude_title": X_COMMON + ["Partner", "Sourcer", "Recruiter", "Specialist", "Executive", "Officer"],
+         "location": GB, "include_headline_search": False}]}
+BAD = re.compile(r"\b(assistant|pa to|ea to|intern|graduate|apprentice|non[- ]?executive|advis[eo]r|deputy|regional|area|store|branch|"
+                 r"coordinator|co-ordinator|administrator|consultant|trainee|interim deputy)\b", re.I)
+TIER1 = {
+ "c1": re.compile(r"\b(ceo|chief executive|managing director|group md|managing partner|senior partner)\b", re.I),
+ "c2": re.compile(r"\b(chief people( (and|&) [a-z ]+)? officer|cpo|chro|chief (hr|human resources) officer|(group |global )?(people|hr|human resources)( (and|&) [a-z]+)? director|"
+                  r"(group |global )?director of (people|hr|human resources)\b)", re.I),
+ "c3": re.compile(r"\b(head of (talent( acquisition)?|resourcing|recruitment)|(talent acquisition|resourcing|recruitment) director|"
+                  r"director of (talent( acquisition)?|resourcing|recruitment)|vp,? talent acquisition)\b", re.I)}
+TIER2 = {
+ "c1": re.compile(r"\b(coo|chief operat(ing|ions) officer|cfo|chief financial officer)\b", re.I),
+ "c2": re.compile(r"\b(head of (people|hr|human resources)( (and|&) culture)?|vp,? (people|hr))\b", re.I),
+ "c3": re.compile(r"\b(talent acquisition|resourcing|recruitment) (manager|lead)\b", re.I)}
+# words that, in the title, mean the person belongs to another campaign's persona (keeps the three lists disjoint)
+OTHER = {"c1": re.compile(r"\b(people|hr|human resources|talent|recruit|resourcing|sales|marketing|commercial|it|technology)\b", re.I),
+         "c2": re.compile(r"\b(talent acquisition|recruit|resourcing|business partner|partnering|payroll|learning|l&d)\b", re.I),
+         "c3": re.compile(r"\b(partner|sourcer|recruiter\b|specialist|coordinator|commercial|workforce planning)\b", re.I)}
+def classify(camp, title):
+    t = title or ""
+    if BAD.search(t): return "removed: title not the persona (junior/advisory/regional)"
+    if TIER1[camp].search(t) and not (camp == "c1" and OTHER["c1"].search(t)) and not (camp != "c1" and OTHER[camp].search(t)): return "1"
+    if TIER2[camp].search(t) and not OTHER[camp].search(t): return "2"
+    return "removed: title not the persona"
