@@ -1,0 +1,25 @@
+{
+ "blitz fls-kw 201-1000": 264,
+ "blitz fire-protection-label 201-1000": 52,
+ "blitz fls-kw 51-200": 782,
+ "blitz fire-protection-label 51-200": 259,
+ "blitz fls-kw 11-50": 1822,
+ "blitz fire-protection-label 11-50": 663,
+ "blitz fls-kw 1001-5000": 61,
+ "blitz fire-protection-label 1001-5000": 11,
+ "discolike fls-phrases 201-1000": 268,
+ "discolike fls-phrases 51-200": 798,
+ "discolike fls-phrases 11-50": 7022,
+ "discolike fls-phrases 1001-5000": 66,
+ "resolved F&LS list companies in ET/CT by size": {
+  "51-200": 69,
+  "11-50": 80,
+  "1001-5000": 18,
+  "1-10": 47,
+  "501-1000": 15,
+  "201-500": 21,
+  "5001-10000": 1,
+  "10001+": 3,
+  "-": 3
+ }
+}

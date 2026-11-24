@@ -1,0 +1,18 @@
+slice,source,rows,type_precision,adjacent,fits_strict,precision_strict,fits_not_contradicted,precision_not_contradicted,fits_not_in_blitz_tam,fits_only_this_source,li_url,domain,size,revenue,hq_state,ownership_type,signal_data,spend,usd_per_fit
+mfg,blitz,546,62%,-,339,62%,339,62%,0,256,100%,90%,100%,90%,100%,85%,0%,"plan records (2,314 company records + 15 waterfall calls); no per-call charge",-
+mfg,clay,50,58%,-,29,58%,29,58%,0,1,100%,98%,100%,98%,100%,100%,0%,50 + 20 results of the Clay free-plan quota,-
+mfg,coldiq,300,54%,-,161,54%,161,54%,100,33,100%,98%,100%,100%,100%,0%,0%,1.43,$0.0089
+mfg,discolike,196,74%,-,146,74%,146,74%,103,63,96%,100%,100%,100%,100%,0%,0%,1.07,$0.0073
+mfg,exa,98,61%,-,0,0%,60,61%,44,31,1%,99%,0%,0%,0%,0%,0%,0.26,$0.0043
+mfg,prospeo,161,67%,-,108,67%,108,67%,53,8,100%,88%,100%,100%,100%,100%,43%,"36 plan credits (PRO plan; 14,878 left)",-
+fls,blitz,286,24%,12,56,20%,68,24%,4,42,100%,97%,100%,87%,79%,100%,0%,"plan records (2,314 company records + 15 waterfall calls); no per-call charge",-
+fls,clay,20,0%,3,0,0%,0,0%,0,0,100%,100%,100%,100%,90%,0%,0%,50 + 20 results of the Clay free-plan quota,-
+fls,coldiq,73,18%,11,13,18%,13,18%,10,1,100%,100%,100%,100%,100%,0%,0%,1.43,$0.1100
+fls,discolike,240,15%,27,37,15%,37,15%,18,6,96%,100%,100%,100%,100%,0%,0%,1.07,$0.0289
+fls,exa,124,81%,2,0,0%,101,81%,86,82,4%,96%,0%,0%,0%,0%,0%,0.26,$0.0026
+fls,prospeo,449,8%,42,38,8%,38,8%,17,3,100%,94%,100%,100%,100%,100%,58%,"36 plan credits (PRO plan; 14,878 left)",-
+mfg,exa+blitz-resolve,98,61%,-,20,20%,20,20%,4,0,97% (after Blitz resolve),-,97% (after resolve),-,-,-,-,0.13,$0.0065
+fls,exa+blitz-resolve,124,81%,2,13,10%,13,10%,0,0,97% (after Blitz resolve),-,97% (after resolve),-,-,-,-,0.13,$0.0100
+fls,apify-googlemaps+blitz-resolve,254,96%,0,9,4%,9,4%,2,2,59% (after Blitz resolve),-,58% (after resolve),-,-,-,-,apify (see doc),-
+fls,nfsa-directory+blitz-resolve,147,96%,0,10,7%,10,7%,1,1,45% (after Blitz resolve),-,45% (after resolve),-,-,-,-,0.0,-
+mfg,fabtech2025+blitz-resolve,36,53%,-,1,3%,1,3%,1,0,81% (after Blitz resolve),-,81% (after resolve),-,-,-,-,0.0,-

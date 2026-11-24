@@ -1,0 +1,508 @@
+company_domain,company_linkedin_url,found,company_name,size,employees,revenue,hq_city,hq_state,industry,ownership_type,listed_by
+technetics.com,https://www.linkedin.com/company/technetics-group,yes,Technetics Group,501-1000,471,$100M-$1B,Columbia,South Carolina,Industrial Machinery Manufacturing,Public Company,exa:mfg
+contecinc.com,https://www.linkedin.com/company/contecinc,yes,"Contec, Inc.",501-1000,537,$100M-$1B,Spartanburg,South Carolina,Textile Manufacturing,Privately Held,exa:mfg
+tighitco.com,https://www.linkedin.com/company/tighitcoinc,yes,"TIGHITCO, Inc.",501-1000,390,$100M-$1B,Ladson,South Carolina,Airlines and Aviation,Sole Proprietorship,exa:mfg
+poly-med.com,https://www.linkedin.com/company/poly-med-inc,yes,"Poly-Med, Inc.",201-500,191,$10M-$50M,Anderson,South Carolina,Medical Equipment Manufacturing,Privately Held,exa:mfg
+astenjohnson.com,https://www.linkedin.com/company/astenjohnson,yes,AstenJohnson,1001-5000,670,$100M-$1B,North Charleston,South Carolina,Paper and Forest Product Manufacturing,Privately Held,exa:mfg
+keelusa.com,https://www.linkedin.com/company/keel-usa,yes,Keel,1001-5000,344,$100M-$1B,Ladson,South Carolina,Defense and Space Manufacturing,Privately Held,exa:mfg
+alltrista.com,https://www.linkedin.com/company/alltristaplasticsllc,yes,Alltrista Plastics LLC,501-1000,276,$100M-$1B,Greer,South Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+metromont.com,https://www.linkedin.com/company/metromont,yes,Metromont,1001-5000,487,$100M-$1B,Greenville,South Carolina,Wholesale Building Materials,Public Company,exa:mfg
+hartness.com,https://www.linkedin.com/company/itw-hartness,yes,ITW Hartness,201-500,223,$50M-$100M,Greenville,South Carolina,Machinery Manufacturing,Public Company,exa:mfg
+jwaluminum.com,https://www.linkedin.com/company/jw-aluminum,yes,JW Aluminum,201-500,346,$50M-$100M,Mount Holly,South Carolina,Mining,Privately Held,exa:mfg
+creggercompany.com,https://www.linkedin.com/company/cregger-company-inc.,yes,Cregger Company Inc.,501-1000,377,$50M-$100M,West Columbia,South Carolina,Wholesale,Sole Proprietorship,exa:mfg
+tindallcorp.com,https://www.linkedin.com/company/tindall-corporation,yes,Tindall Corporation,1001-5000,720,$100M-$1B,Spartanburg,South Carolina,Construction,Privately Held,exa:mfg
+dodgeindustrial.com,https://www.linkedin.com/company/dodge-industrial,yes,Dodge Industrial,1001-5000,802,$100M-$1B,Simpsonville,South Carolina,Industrial Machinery Manufacturing,Public Company,exa:mfg
+zeusinc.com,https://www.linkedin.com/company/zeus,yes,Zeus,1001-5000,1426,$100M-$1B,Orangeburg,South Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+polartec.com,https://www.linkedin.com/company/polartec,yes,Polartec,501-1000,259,$100M-$1B,Spartanburg,South Carolina,Textile Manufacturing,Privately Held,exa:mfg
+spartanburgsteelproducts.com,https://www.linkedin.com/company/spartanburg-steel-products,yes,Spartanburg Steel Products,501-1000,277,$100M-$1B,Spartanburg,South Carolina,Motor Vehicle Manufacturing,Privately Held,exa:mfg
+palmettocorp.com,https://www.linkedin.com/company/palmetto-corp-,yes,Palmetto Corp,501-1000,210,$100M-$1B,Conway,South Carolina,Construction,Privately Held,exa:mfg
+gracemg.com,https://www.linkedin.com/company/grace-management-group,yes,Grace Management Group,201-500,165,$50M-$100M,Spartanburg,South Carolina,Consumer Goods,Privately Held,exa:mfg
+jpscm.com,https://www.linkedin.com/company/jps-composite-materials,yes,JPS Composite Materials,501-1000,225,$100M-$1B,Anderson,South Carolina,Aviation and Aerospace Component Manufacturing,Public Company,exa:mfg
+pret-usa.com,https://www.linkedin.com/company/europe-pret-advanced-materials,yes,Europe Pret Advanced Materials,11-50,6,-,-,-,Manufacturing,Privately Held,exa:mfg
+engprod.com,https://www.linkedin.com/company/engineered-products-llc,yes,Engineered Products Pallet Rack,201-500,86,$10M-$50M,Greenville,South Carolina,Transportation; Logistics; Supply Chain and Storage,Privately Held,exa:mfg
+barnet.com,https://www.linkedin.com/company/william-barnet-and-son-llc,yes,"William Barnet and Son, LLC",201-500,143,$10M-$50M,Spartanburg,South Carolina,Textile Manufacturing,Privately Held,exa:mfg
+parkdalemills.com,https://www.linkedin.com/company/parkdale-mills-inc.,yes,"Parkdale Mills, Inc.",1001-5000,852,$100M-$1B,Gastonia,North Carolina,Textile Manufacturing,Privately Held,exa:mfg
+knightscompanies.com,https://www.linkedin.com/company/knights-companies,yes,Knight's Companies,201-500,142,$10M-$50M,Summerville,South Carolina,Construction,Privately Held,exa:mfg
+brycecorp.com,https://www.linkedin.com/company/bryce-corporation,yes,Bryce Corporation,501-1000,441,$100M-$1B,Memphis,Tennessee,Packaging and Containers Manufacturing,Privately Held,exa:mfg
+bernhardt.com,https://www.linkedin.com/company/bernhardtfurniture,yes,Bernhardt Furniture,1001-5000,416,$100M-$1B,Lenoir,North Carolina,Furniture and Home Furnishings Manufacturing,Privately Held,exa:mfg
+fletcherindustries.com,https://www.linkedin.com/company/fletcher-industries,yes,Fletcher Industries,11-50,16,$1M-$10M,Southern Pines,North Carolina,Machinery Manufacturing,Privately Held,exa:mfg
+fairfieldchair.com,https://www.linkedin.com/company/fairfield-chair-co.,yes,Fairfield,201-500,133,$50M-$100M,Lenoir,North Carolina,Furniture and Home Furnishings Manufacturing,Privately Held,exa:mfg
+napcousa.com,https://www.linkedin.com/company/napcousa,yes,NAPCO USA,51-200,90,$10M-$50M,Sparta,North Carolina,Packaging and Containers Manufacturing,Privately Held,exa:mfg
+kellex.com,https://www.linkedin.com/company/kellex-seating,yes,Kellex Seating,201-500,105,$10M-$50M,Hickory,North Carolina,Furniture,Privately Held,exa:mfg
+charlottepipe.com,https://www.linkedin.com/company/charlotte-pipe-and-foundry,yes,Charlotte Pipe and Foundry Company,1001-5000,606,$100M-$1B,Charlotte,North Carolina,Building Materials,Privately Held,exa:mfg
+kitocrosby.com,https://www.linkedin.com/company/kitolifting,yes,Kito,1001-5000,25,$100M-$1B,Shinjuku-ku,Tokyo,Industrial Machinery Manufacturing,Privately Held,exa:mfg
+carolinacontainer.com,https://www.linkedin.com/company/carolinacontainer,yes,Carolina Container,501-1000,386,$100M-$1B,High Point,North Carolina,Packaging and Containers Manufacturing,Privately Held,exa:mfg
+poeppelmann.com,https://www.linkedin.com/company/poeppelmann,yes,Pöppelmann GmbH & Co. KG,1001-5000,565,$100M-$1B,Lohne (Oldenburg),Lower Saxony,Plastics Manufacturing,Public Company,exa:mfg
+sherrillfurniture.com,https://www.linkedin.com/company/sherrill-furniture-co,yes,Sherrill Furniture Brands,201-500,155,$50M-$100M,Hickory,North Carolina,Furniture and Home Furnishings Manufacturing,Privately Held,exa:mfg
+shurtapetech.com,https://www.linkedin.com/company/shurtape-technologies-llc,yes,"Shurtape Technologies, LLC",501-1000,859,$100M-$1B,Hickory,North Carolina,Consumer Goods,Privately Held,exa:mfg
+hughesfurniture.com,https://www.linkedin.com/company/hughes-furniture-industries,yes,"Hughes Furniture Industries, Inc.",501-1000,92,$100M-$1B,Randleman,North Carolina,Furniture,Privately Held,exa:mfg
+valdeseweavers.com,https://www.linkedin.com/company/valdese-weavers,yes,Valdese Weavers,501-1000,347,$100M-$1B,Valdese,North Carolina,Textile Manufacturing,Privately Held,exa:mfg
+lcindustries.com,https://www.linkedin.com/company/lc-industries,yes,LCI,501-1000,435,$100M-$1B,Durham,North Carolina,Manufacturing,Nonprofit,exa:mfg
+millsmanufacturing.com,https://www.linkedin.com/company/mills-manufacturing,yes,Mills Manufacturing,51-200,52,$10M-$50M,Asheville,North Carolina,Textile Manufacturing,Privately Held,exa:mfg
+wysong.us,https://www.linkedin.com/company/wysong,yes,Wysong Fabrication Equipment,51-200,43,$10M-$50M,Greensboro,North Carolina,Machinery Manufacturing,Privately Held,exa:mfg
+johnsonproductsusa.com,https://www.linkedin.com/company/johnsonconcreteproducts,yes,Johnson Concrete Products,51-200,55,$10M-$50M,Salisbury,North Carolina,Construction,Privately Held,exa:mfg
+mccrearymodern.com,https://www.linkedin.com/company/mccreary-modern,yes,MCCREARY MODERN,501-1000,199,$100M-$1B,Newton,North Carolina,Furniture and Home Furnishings Manufacturing,Privately Held,exa:mfg
+carolon.com,https://www.linkedin.com/company/carolon,yes,Carolon,51-200,37,$10M-$50M,Rural Hall,North Carolina,Medical Equipment Manufacturing,Privately Held,exa:mfg
+hackneyusa.com,https://www.linkedin.com/company/hackneytruckbodies,yes,Hackney and Kidron,501-1000,176,$100M-$1B,Washington,North Carolina,Truck Transportation,Privately Held,exa:mfg
+templefurniture.com,https://www.linkedin.com/company/temple-furniture-limited,yes,TEMPLE FURNITURE | PARKER SOUTHERN,51-200,34,$10M-$50M,Maiden,North Carolina,Furniture and Home Furnishings Manufacturing,Privately Held,exa:mfg
+ifabcorp.com,https://www.linkedin.com/company/ifabcorp,yes,IFABCORP,201-500,58,$10M-$50M,Gastonia,North Carolina,Manufacturing,Privately Held,exa:mfg
+johnrichard.com,https://www.linkedin.com/company/john-richard,yes,John-Richard,201-500,131,$10M-$50M,Whitsett,North Carolina,Furniture and Home Furnishings Manufacturing,Privately Held,exa:mfg
+gregorypoole.com,https://www.linkedin.com/company/gregory-poole-equipment-company,yes,Gregory Poole Equipment Company,1001-5000,984,$100M-$1B,Raleigh,North Carolina,Machinery Manufacturing,Privately Held,exa:mfg
+eisenmann.com,https://www.linkedin.com/company/eisenmann-gmbh,yes,Eisenmann GmbH,51-200,207,$10M-$50M,Böblingen,Baden-Württemberg,Industrial Machinery Manufacturing,Public Company,exa:mfg
+ipack.com,https://www.linkedin.com/company/ips-packaging-automation,yes,IPS Packaging & Automation,201-500,212,$50M-$100M,Greenville,South Carolina,Packaging and Containers Manufacturing,Privately Held,exa:mfg
+cardmonroeautomation.com,https://www.linkedin.com/company/card-monroe-automation,yes,Card-Monroe Automation,51-200,46,$10M-$50M,Greenville,South Carolina,Automation Machinery Manufacturing,Privately Held,exa:mfg
+precisionglobal.com,https://www.linkedin.com/company/precision-valve-corporation,yes,Precision Valve Corporation,1001-5000,442,$100M-$1B,Greenville,South Carolina,Packaging and Containers,Privately Held,exa:mfg
+master-pt.com,https://www.linkedin.com/company/master-power-transmission,yes,"Master Power Transmission, Inc.",51-200,52,$10M-$50M,Greenville,South Carolina,Automation Machinery Manufacturing,Privately Held,exa:mfg
+republiclocomotive.com,https://www.linkedin.com/company/republic-locomotive,yes,Republic Locomotive,11-50,6,$1M-$10M,Greenville,South Carolina,Railroad Equipment Manufacturing,Privately Held,exa:mfg
+lionpowerusa.com,https://www.linkedin.com/company/lion-power,yes,Lion Power,11-50,19,$1M-$10M,Greenville,South Carolina,Embedded Software Products,Privately Held,exa:mfg
+motusus.com,https://www.linkedin.com/company/motus-us,yes,Motus US,11-50,23,$1M-$10M,Greenville,South Carolina,Machinery Manufacturing,Partnership,exa:mfg
+mascoe.com,https://www.linkedin.com/company/mascoe-systems-corp,yes,Mascoe Systems Corp,1-10,7,<$1M,Greenville,South Carolina,Machinery Manufacturing,-,exa:mfg
+izumiinternational.com,https://www.linkedin.com/company/izumi-international,yes,"Izumi International, Inc.",11-50,26,$1M-$10M,Greenville,South Carolina,Automation Machinery Manufacturing,Privately Held,exa:mfg
+iandmindustrials.com,https://www.linkedin.com/company/i&m-industrials-inc-,yes,"I&M Industrials, Inc.",11-50,25,$1M-$10M,Greenville,South Carolina,Machinery Manufacturing,Privately Held,exa:mfg
+dsisystems.com,https://www.linkedin.com/company/diversifiedsystems-inc,yes,"Diversified Systems, Inc.",51-200,30,$10M-$50M,Greenville,South Carolina,Machinery Manufacturing,Privately Held,exa:mfg
+uss-rhino.com,https://www.linkedin.com/company/uss-rhino,yes,Uss Rhino,51-200,-,$10M-$50M,Greenville,South Carolina,Automation Machinery Manufacturing,Privately Held,exa:mfg
+advautomation.com,-,no,-,-,-,-,-,-,-,-,exa:mfg
+wrightmetalproducts.com,https://www.linkedin.com/company/wright-metal-products-inc,yes,Wright Metal Products Inc,11-50,24,$1M-$10M,Greenville,South Carolina,Machinery Manufacturing,-,exa:mfg
+fwtool.com,https://www.linkedin.com/company/fw-tool,yes,Fw Tool,1-10,2,-,Greenville,South Carolina,-,-,exa:mfg
+baynethinline.com,https://www.linkedin.com/company/bayne-machine-works-inc,yes,Bayne Machine Works Inc,11-50,2,$1M-$10M,Greenville,South Carolina,Retail Office Equipment,-,exa:mfg
+leaguemfg.com,https://www.linkedin.com/company/league-manufacturing-&-quick-crate,yes,League Manufacturing & Quick-Crate,11-50,6,$1M-$10M,-,-,Packaging and Containers Manufacturing,Privately Held,exa:mfg
+lube-global.com,-,no,-,-,-,-,-,-,-,-,exa:mfg
+map-process.com,https://www.linkedin.com/company/map-process,yes,Map Process,1-10,-,-,Greenville,South Carolina,Machinery Manufacturing,Public Company,exa:mfg
+iquestengineering.com,https://www.linkedin.com/company/iquest-engineering-llc,yes,iQuest Engineering,1-10,2,<$1M,Greenville,South Carolina,Industrial Machinery Manufacturing,Privately Held,exa:mfg
+frankl-thomas.com,https://www.linkedin.com/company/frankl-&-thomas-inc-,yes,"Frankl & Thomas, Inc.",11-50,8,$1M-$10M,Greenville,South Carolina,Textile Manufacturing,Privately Held,exa:mfg
+rannproducts.com,https://www.linkedin.com/company/rann-products,yes,RANN Products LLC,11-50,4,$1M-$10M,Greenville,South Carolina,Machinery Manufacturing,Privately Held,exa:mfg
+fab-tec.com,https://www.linkedin.com/company/fabtecinc,yes,"Fab-Tec, Inc.",51-200,32,$10M-$50M,Dallas,North Carolina,Mechanical Or Industrial Engineering,Privately Held,exa:mfg
+ecsent.com,https://www.linkedin.com/company/ecsenterprisesinc,yes,"ECS Enterprises, Inc.",11-50,12,$1M-$10M,Concord,North Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+ddmmfg.com,https://www.linkedin.com/company/ddmmfg,yes,Digital Design & Modeling,11-50,4,$1M-$10M,Winston-Salem,North Carolina,Manufacturing,Privately Held,exa:mfg
+nninc.com,https://www.linkedin.com/company/nn-inc-,yes,"NN, Inc.",1001-5000,1364,$100M-$1B,Charlotte,North Carolina,Industrial Machinery Manufacturing,Public Company,exa:mfg
+lincolncountyfabricators.com,https://www.linkedin.com/company/lincoln-county-fabricators,yes,"Lincoln County Fabricators, Inc.",11-50,11,$1M-$10M,Lincolnton,North Carolina,Machinery Manufacturing,Privately Held,exa:mfg
+plastic-products.com,https://www.linkedin.com/company/plastic-products-inc.,yes,"PLASTIC PRODUCTS, INC.",11-50,30,$1M-$10M,Kings Mountain,North Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+cncplastics.com,https://www.linkedin.com/company/advanced-industrial,yes,ADVANCED INDUSTRIAL,11-50,5,$1M-$10M,Mooresville,North Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+engplas.com,https://www.linkedin.com/company/engineered-plastics-inc,yes,"Engineered Plastics, Inc.",11-50,26,$1M-$10M,Gibsonville,North Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+smtcoinc.com,https://www.linkedin.com/company/smtinc,yes,SMT Inc.,51-200,29,$10M-$50M,Raleigh,North Carolina,Manufacturing,Partnership,exa:mfg
+advancedplastiform.com,https://www.linkedin.com/company/advanced-plastiform-inc-,yes,"Advanced Plastiform, Inc.",51-200,55,$10M-$50M,Zebulon,North Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+gentryplastics.com,https://www.linkedin.com/company/gentry-plastics-inc,yes,"Gentry Plastics, Inc",51-200,29,$1M-$10M,Gastonia,North Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+templexinc.com,https://www.linkedin.com/company/templex-sales-inc,yes,Templex Sales Inc,1-10,-,-,Thornwood,New York,Wholesale Building Materials,-,exa:mfg
+mcintyredisplays.com,https://www.linkedin.com/company/mcintyre-metals-inc-,yes,McIntyre Manufacturing Group,51-200,54,$10M-$50M,Lexington,North Carolina,Design,Privately Held,exa:mfg
+customplasticforming.com,https://www.linkedin.com/company/custom-plastic-forming,yes,Custom Plastic Forming,51-200,21,$10M-$50M,Salisbury,North Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+kapstonemanufacturing.com,https://www.linkedin.com/company/kapstone-manufacturing,yes,Kapstone Manufacturing,1-10,8,-,Charlotte,North Carolina,Manufacturing,Privately Held,exa:mfg
+triolabs.com,https://www.linkedin.com/company/triolabsinc.,yes,"Trio Labs, Inc.",51-200,32,$1M-$10M,Morrisville,North Carolina,Medical Equipment Manufacturing,Privately Held,exa:mfg
+innovativefabrication.com,https://www.linkedin.com/company/innovative-fabrication-27615,yes,Innovative Fabrication,11-50,13,$1M-$10M,Raleigh,-,Manufacturing,Privately Held,exa:mfg
+aimolding.com,https://www.linkedin.com/company/american-injection-molding,yes,American Injection Molding,11-50,-,$1M-$10M,-,-,Plastics Manufacturing,Privately Held,exa:mfg
+mdm-mfg.com,https://www.linkedin.com/company/midwest-direct-manufacturing,yes,MDM Manufacturing,11-50,3,$1M-$10M,Durham,North Carolina,Machinery Manufacturing,Privately Held,exa:mfg
+customplasticenclosures.com,-,no,-,-,-,-,-,-,-,-,exa:mfg
+hsmsolutions.com,https://www.linkedin.com/company/hickory-springs-manufacturing-company,yes,HSM,1001-5000,981,$100M-$1B,Hickory,North Carolina,Furniture and Home Furnishings Manufacturing,Privately Held,exa:mfg
+cmiplastics.com,https://www.linkedin.com/company/cmi-plastics,yes,"CMI Plastics, Inc.",51-200,33,$10M-$50M,Ayden,North Carolina,Plastics Manufacturing,Privately Held,exa:mfg
+douglasfab.com,https://www.linkedin.com/company/douglas-fabrication-&-machine-inc-,yes,Douglas Fabrication & Machine Inc.,11-50,13,-,Wendell,North Carolina,Plastics Manufacturing,-,exa:mfg
+omnimoldnc.com,https://www.linkedin.com/company/omni-mold-and-die,yes,Omni Mold & Die,11-50,10,$1M-$10M,Winston-Salem,North Carolina,Machinery Manufacturing,Privately Held,exa:mfg
+daramic.com,https://www.linkedin.com/company/daramic-llc,yes,"Daramic, LLC",1001-5000,529,$100M-$1B,Charlotte,North Carolina,Plastics Manufacturing,Public Company,exa:mfg
+afp-nc.com,https://www.linkedin.com/company/associated-fire-protection-inc.,yes,Associated Fire Protection,51-200,19,$10M-$50M,Raleigh,North Carolina,Construction,Privately Held,apify-googlemaps:fls|exa:fls
+crawfordsprinkler.com,https://www.linkedin.com/company/crawford-sprinkler-company-of-raleigh,yes,Crawford Sprinkler Company of Raleigh,51-200,37,$10M-$50M,Raleigh,North Carolina,Construction,Privately Held,apify-googlemaps:fls|exa:fls
+jdsprinkler.com,https://www.linkedin.com/company/j&d-sprinkler-co-inc,yes,J&D SPRINKLER CO  INC,11-50,10,$1M-$10M,Clayton,North Carolina,-,-,apify-googlemaps:fls|exa:fls
+performancefire.com,https://www.linkedin.com/company/performancefireprotection,yes,"Performance Fire Protection, LLC",51-200,53,$10M-$50M,Mooresville,North Carolina,Construction,Privately Held,apify-googlemaps:fls|exa:fls
+associatedsprinkler.com,https://www.linkedin.com/company/associated-sprinkler-company-llc,yes,Associated Sprinkler Company LLC,51-200,4,$10M-$50M,Greensboro,North Carolina,Construction,Privately Held,exa:fls
+alliedfire.net,https://www.linkedin.com/company/allied-fire-protection-inc-,yes,"Allied Fire Protection, Inc.",11-50,37,$1M-$10M,Raleigh,North Carolina,Construction,Partnership,apify-googlemaps:fls|exa:fls
+williamsfiresprinkler.com,https://www.linkedin.com/company/williams-fire-sprinkler-co-inc,yes,Williams Fire Sprinkler Co. Inc,51-200,27,$10M-$50M,Williamston,North Carolina,Construction,Privately Held,exa:fls
+sunlandfire.com,https://www.linkedin.com/company/sunland-fire-protection-inc,yes,Sunland Fire Protection,51-200,80,$10M-$50M,High Point,North Carolina,Construction,Privately Held,apify-googlemaps:fls|exa:fls
+centralcarolinasprinkler.com,https://www.linkedin.com/company/central-carolina-sprinkler-co,yes,Central Carolina Sprinkler Co,11-50,9,$1M-$10M,Lenoir,North Carolina,Construction,-,apify-googlemaps:fls|exa:fls
+impactfireservices.com,https://www.linkedin.com/company/impact-fire-services,yes,Impact Fire Services,1001-5000,671,$100M-$1B,Round Rock,Texas,Facilities Services,Privately Held,apify-googlemaps:fls|exa:fls|nfsa:fls
+diboco.com,https://www.linkedin.com/company/diboco-fire-sprinklers-inc,yes,"DIBOCO FIRE SPRINKLERS, INC",11-50,2,$1M-$10M,FLAT ROCK,North Carolina,Construction,-,apify-googlemaps:fls|exa:fls
+unitedsprinklernc.com,https://www.linkedin.com/company/united-sprinkler-co,yes,United Sprinkler Co.,1-10,11,<$1M,Graham,North Carolina,Fire Protection,Sole Proprietorship,exa:fls
+rowesprinkler.com,https://www.linkedin.com/company/rowe-sprinkler-systems-inc,yes,Rowe Sprinkler Systems Inc,11-50,11,$1M-$10M,Hillsborough,North Carolina,Construction,-,exa:fls
+carolinafireprotection.com,https://www.linkedin.com/company/carolina-fire-protection-inc,yes,Carolina Fire Protection Inc.,11-50,15,$1M-$10M,Dunn,North Carolina,Fire Protection,Public Company,apify-googlemaps:fls|exa:fls
+sentryfp.com,https://www.linkedin.com/company/sentry-fire-protection,yes,Sentry Fire Protection,11-50,31,$1M-$10M,Asheboro,North Carolina,Construction,Public Company,apify-googlemaps:fls|exa:fls
+hillfp.com,https://www.linkedin.com/company/hill-fire-protection-llc,yes,Hill Fire Protection LLC,11-50,15,-,Mebane,North Carolina,-,-,apify-googlemaps:fls|exa:fls
+regionalfirenc.com,-,no,-,-,-,-,-,-,-,-,exa:fls
+bvssystemsinc.com,https://www.linkedin.com/company/bvs-systems-inc,yes,BVS Systems Inc,11-50,25,$1M-$10M,Cornelius,North Carolina,Construction,Privately Held,exa:fls|nfsa:fls
+reliablefireandsafety.com,https://www.linkedin.com/company/reliable-fire-&-safety,yes,Reliable Fire & Safety,11-50,28,$1M-$10M,Bessemer City,North Carolina,Retail Office Equipment,Privately Held,exa:fls
+phoenixfirenc.com,https://www.linkedin.com/company/phoenix-fire-protection-nc,yes,Phoenix Fire Protection,11-50,3,$1M-$10M,Sanford,North Carolina,Construction,Public Company,apify-googlemaps:fls|exa:fls
+cemcosystemsinc.com,https://www.linkedin.com/company/cemco-systems-inc-,yes,"Cemco Systems, Inc.",11-50,9,$1M-$10M,Charlotte,North Carolina,Architecture and Planning,Privately Held,exa:fls
+armorfireservices.com,https://www.linkedin.com/company/armor-fire-services,yes,Armor Fire Services,11-50,8,$1M-$10M,Charlotte,-,Construction,Partnership,exa:fls
+tomafireprotection.com,https://www.linkedin.com/company/toma-fire-protection-equipment,yes,Toma Fire Protection Equipment,51-200,9,<$1M,Shelby,North Carolina,Fire Protection,Public Company,apify-googlemaps:fls|exa:fls
+firetrol.net,https://www.linkedin.com/company/firetrol,yes,Firetrol Protection Systems,1001-5000,693,$100M-$1B,Dallas,Texas,Construction,Privately Held,exa:fls
+alliedfireprotection.com,https://www.linkedin.com/company/allied-fire-protection-l-p,yes,Allied Fire Protection,501-1000,387,$10M-$50M,Pearland,Texas,Construction,Partnership,exa:fls
+afpgusa.com,https://www.linkedin.com/company/american-fire-protection-group-inc-,yes,"American Fire Protection Group, Inc.",501-1000,334,$100M-$1B,Dallas,Texas,Construction,Privately Held,apify-googlemaps:fls|exa:fls|nfsa:fls
+thompson-safety.com,https://www.linkedin.com/company/thompsonsafety,yes,Thompson Safety,501-1000,349,$10M-$50M,Houston,Texas,Facilities Services,Privately Held,exa:fls
+firetron.com,https://www.linkedin.com/company/firetron-inc,yes,"Firetron, Inc.",501-1000,277,$10M-$50M,Stafford,Texas,Fire Protection,Privately Held,exa:fls
+everonsolutions.com,https://www.linkedin.com/company/everon-solutions,yes,Everon,1001-5000,2663,$100M-$1B,Irving,Texas,Security and Investigations,Privately Held,exa:fls
+totalsafety.com,https://www.linkedin.com/company/totalsafety,yes,Total Safety,1001-5000,3335,$100M-$1B,Pasadena,Texas,Oil and Gas,Privately Held,exa:fls
+mlncompany.com,https://www.linkedin.com/company/the-mln-company,yes,MLN Company,201-500,289,$10M-$50M,Stafford,Texas,Construction,Privately Held,exa:fls
+automaticfireprotection.com,https://www.linkedin.com/company/automaticfireprotection,yes,Automatic Fire Protection,201-500,131,$10M-$50M,Dallas,Texas,Construction,Sole Proprietorship,exa:fls
+americanfiresys.com,https://www.linkedin.com/company/american-fire-systems-inc.,yes,"American Fire Systems, Inc.",201-500,111,$10M-$50M,Houston,Texas,Construction,Privately Held,exa:fls|nfsa:fls
+caruthps.com,https://www.linkedin.com/company/caruth-protection-services-llc,yes,"Caruth Protection Services, LLC",201-500,68,$10M-$50M,Sunnyvale,Texas,Construction,Privately Held,exa:fls
+hillerfire.com,https://www.linkedin.com/company/hillerfire,yes,The Hiller Companies,1001-5000,892,$100M-$1B,Mobile,Alabama,Facilities Services,Privately Held,apify-googlemaps:fls|exa:fls
+tdindustries.com,https://www.linkedin.com/company/tdindustries,yes,"TDIndustries, Inc.",1001-5000,2118,$100M-$1B,Dallas,Texas,Construction,Privately Held,exa:fls
+coderedsafety.com,https://www.linkedin.com/company/code-red-safety,yes,Code Red Safety,501-1000,486,$100M-$1B,La Porte,Texas,Oil and Gas,Privately Held,exa:fls
+dynaten.com,https://www.linkedin.com/company/dynaten-corporation,yes,DynaTen Corporation,201-500,348,$50M-$100M,Fort Worth,Texas,Construction,Public Company,exa:fls
+bmscat.com,https://www.linkedin.com/company/bms-cat-hq,yes,BMS CAT,1001-5000,1006,$100M-$1B,Haltom City,Texas,Facilities Services,Privately Held,exa:fls
+bluejackfire.com,https://www.linkedin.com/company/bluejack-fire-life-safety,yes,Bluejack Fire Life & Safety,201-500,11,-,-,-,Fire Protection,Partnership,exa:fls
+cecfg.com,https://www.linkedin.com/company/cecfg,yes,CEC,1001-5000,1522,$100M-$1B,Irving,Texas,Construction,Privately Held,exa:fls
+goalterman.com,https://www.linkedin.com/company/alterman-inc.,yes,"Alterman, Inc.",501-1000,808,$100M-$1B,Live Oak,Texas,Construction,Privately Held,exa:fls
+spawglass.com,https://www.linkedin.com/company/spawglass,yes,SpawGlass,501-1000,618,$100M-$1B,Selma,Texas,Construction,Privately Held,exa:fls
+tellepsen.com,https://www.linkedin.com/company/tellepsen,yes,Tellepsen,201-500,533,$50M-$100M,Houston,Texas,Construction,Privately Held,exa:fls
+bayltd.com,https://www.linkedin.com/company/bayltd,yes,Bay Ltd.,1001-5000,1671,$100M-$1B,Corpus Christi,Texas,Construction,Privately Held,exa:fls
+saulsbury.com,https://www.linkedin.com/company/saulsbury-industries,yes,Saulsbury,1001-5000,1467,$100M-$1B,Odessa,Texas,Construction,Privately Held,exa:fls
+r-o.com,https://www.linkedin.com/company/rogersobrien,yes,Rogers-O'Brien Construction,501-1000,759,$100M-$1B,Dallas,Texas,Construction,Privately Held,exa:fls
+comunale.com,https://www.linkedin.com/company/harlingtonsrl,yes,HARLINGTON SRL,1-10,1,<$1M,Naples,Florida,Business Consulting and Services,Self-Employed,apify-googlemaps:fls|exa:fls
+rtffire.com,https://www.linkedin.com/company/rtf-fire-protection,yes,RTF Fire Protection (Retired),51-200,35,$1M-$10M,Cincinnati,Ohio,Facilities Services,Privately Held,exa:fls
+capfire.com,https://www.linkedin.com/company/capital-fire-protection-co.,yes,Capital Fire Protection Co.,11-50,43,$1M-$10M,COLUMBUS,Ohio,Construction,Sole Proprietorship,apify-googlemaps:fls|exa:fls
+eproserv.net,https://www.linkedin.com/company/eproservicesllc,yes,"ePro Services, LLC",11-50,16,$1M-$10M,COLUMBUS,Ohio,Facilities Services,Privately Held,apify-googlemaps:fls|exa:fls
+rgfire.com,https://www.linkedin.com/company/rgfireprotection,yes,RG Fire Protection,11-50,7,$1M-$10M,Canton,Ohio,Construction,Privately Held,apify-googlemaps:fls|exa:fls
+clinefire.com,https://www.linkedin.com/company/cline-fire,yes,Cline Fire,1-10,5,<$1M,Mansfield,Ohio,Architecture and Planning,Privately Held,exa:fls
+aafireohio.com,https://www.linkedin.com/company/aa-fire-protection-llc,yes,"AA Fire Protection, LLC",11-50,24,$1M-$10M,Elyria,Ohio,Public Safety,Sole Proprietorship,exa:fls
+ecfpinc.com,https://www.linkedin.com/company/ecfpinc,yes,"Environmental Controls Fire Protection, Inc.",11-50,7,$1M-$10M,Wadsworth,Ohio,Facilities Services,Privately Held,exa:fls
+elitefire.org,https://www.linkedin.com/company/elite-fire-services-llc,yes,Elite Fire Services LLC,11-50,19,$1M-$10M,Columbus,Ohio,Facilities Services,Privately Held,apify-googlemaps:fls|exa:fls
+silcofs.com,https://www.linkedin.com/company/silco-fire-&-security,yes,Silco Fire & Security,201-500,275,$10M-$50M,Evendale,Ohio,Facilities Services,Privately Held,apify-googlemaps:fls|exa:fls|nfsa:fls
+a1ssi.com,https://www.linkedin.com/company/a1-sprinkler-&-systems-integration,yes,A1 Sprinkler & Systems Integration,51-200,50,$10M-$50M,Miamisburg,Ohio,Construction,Privately Held,exa:fls
+protec-ohio.com,https://www.linkedin.com/company/protec-fire-system-services,yes,ProTec Fire System Services,1-10,12,<$1M,Harrison,Ohio,Facilities Services,Public Company,exa:fls
+megacityfire.com,https://www.linkedin.com/company/megacity-fire-protection,yes,Megacity Fire & Security,51-200,18,$10M-$50M,Dayton,Ohio,Facilities Services,Privately Held,exa:fls
+fesfire.com,https://www.linkedin.com/company/f-e-s-fire-&-security,yes,F.E.S. Fire & Security,11-50,4,$1M-$10M,-,-,Retail Office Equipment,Public Company,exa:fls
+advancedsfp.com,https://www.linkedin.com/company/advanced-safety-and-fire-protection-services,yes,Advanced Security And Fire Protection Services,1-10,3,-,Kettering,Ohio,Industrial Machinery Manufacturing,Public Company,exa:fls
+adamsonfire.com,https://www.linkedin.com/company/adamson-fire-protection-llc,yes,ADAMSON FIRE PROTECTION LLC,1-10,4,<$1M,MT Orab,Ohio,Farming; Ranching; Forestry,Sole Proprietorship,exa:fls
+gpsfire.com,https://www.linkedin.com/company/gene-ptacek-son-fire-equipment,yes,Gene Ptacek & Son Fire Equipment,51-200,26,$10M-$50M,Cleveland,Ohio,Fire Protection,Privately Held,exa:fls
+firefoe.com,https://www.linkedin.com/company/fire-foe-corp,yes,Fire Foe Corp,11-50,22,$1M-$10M,Girard,Ohio,Construction,Privately Held,exa:fls
+3s-incorporated.com,https://www.linkedin.com/company/3s-incorporated,yes,3S Incorporated,11-50,80,$1M-$10M,Harrison,Ohio,Facilities Services,Privately Held,exa:fls
+hardfire.com,https://www.linkedin.com/company/hard-fire-suppression-systems-inc-,yes,Hard Fire Suppression Systems Inc.,11-50,14,$1M-$10M,Worthington,Ohio,Construction,Public Company,apify-googlemaps:fls|exa:fls
+security-electronics.com,https://www.linkedin.com/company/security-electronics-inc.,yes,Security Electronics Inc.,1-10,11,<$1M,-,-,Design,Privately Held,exa:fls
+jdalarmsystems.com,https://www.linkedin.com/company/jd-alarm-systems-inc,yes,"JD Alarm Systems, Inc.",1-10,3,<$1M,Forest,Ohio,Specialty Trade Contractors,Sole Proprietorship,exa:fls
+state-security.com,https://www.linkedin.com/company/state-security-llc,yes,State Security,11-50,54,$1M-$10M,Westerville,Ohio,Security and Investigations,Partnership,exa:fls
+pillarfireprotection.com,https://www.linkedin.com/company/pillar-fire-protection,yes,Pillar Fire Protection,1-10,5,-,Centerburg,Ohio,Construction,Self-Owned,exa:fls
+centuryfp.com,https://www.linkedin.com/company/century-fire-protection,yes,Century Fire Protection,1001-5000,730,$100M-$1B,Duluth,Georgia,Construction,Privately Held,apify-googlemaps:fls|exa:fls|nfsa:fls
+mjwood.com,https://www.linkedin.com/company/milton-j-wood-fire-protection-inc.,yes,"Milton J Wood Fire Protection, Inc.",51-200,86,$10M-$50M,Jacksonville,Florida,Construction,Privately Held,exa:fls|nfsa:fls
+wiginton.net,https://www.linkedin.com/company/wiginton-fire-systems,yes,WIGINTON FIRE SYSTEMS,201-500,238,$10M-$50M,Sanford,Florida,Construction,Privately Held,apify-googlemaps:fls|exa:fls
+centralfire.net,https://www.linkedin.com/company/central-fire-protection-inc.-conyers-ga,yes,"Central Fire Protection, Inc.",51-200,23,$10M-$50M,Conyers,Georgia,Fire Protection,Sole Proprietorship,apify-googlemaps:fls|exa:fls
+southernfire.net,https://www.linkedin.com/company/southern-fire-protection-of-orlando-inc.,yes,"Southern Fire Protection of Orlando, Inc.",51-200,47,$10M-$50M,Sanford,Florida,Construction,Privately Held,apify-googlemaps:fls|exa:fls
+superherofire.com,https://www.linkedin.com/company/superhero-fire-protection-llc-,yes,"SuperHero Fire Protection,LLC.",51-200,185,$10M-$50M,Lawrenceville,Georgia,Construction,Partnership,exa:fls
+firesystems.net,https://www.linkedin.com/company/fire-systems-atlanta,yes,Fire Systems,51-200,80,$10M-$50M,Smyrna,Georgia,Facilities Services,Privately Held,apify-googlemaps:fls|exa:fls
+starfiresprinklers.com,https://www.linkedin.com/company/star-fire-sprinklers-inc,yes,"Star Fire Sprinklers, Inc.",11-50,10,$1M-$10M,Jacksonville,Florida,Construction,Sole Proprietorship,exa:fls
+7hillsfp.com,https://www.linkedin.com/company/7-hills-fire-protection-co.-inc,yes,"7 Hills Fire Protection Co., Inc",1-10,6,-,Cartersville,Georgia,-,-,apify-googlemaps:fls|exa:fls
+tritonsprinkler.com,https://www.linkedin.com/company/triton-sprinkler-company,yes,Triton Sprinkler Company,11-50,11,$1M-$10M,Marietta,Georgia,Construction,Sole Proprietorship,exa:fls
+frontierfireco.com,https://www.linkedin.com/company/frontier-fire-protection-co-florida,yes,Frontier Fire Protection Co,51-200,28,$10M-$50M,Coral Springs,Florida,Facilities Services,Sole Proprietorship,exa:fls
+primofp.com,-,no,-,-,-,-,-,-,-,-,exa:fls
+mandlsprinkler.com,https://www.linkedin.com/company/ml-sprinkler-inc,yes,"M&l Sprinkler, Inc",11-50,4,-,Lawrenceville,Georgia,Fire Protection,Privately Held,exa:fls
+agentfireusa.com,https://www.linkedin.com/company/agent-fire-llc,yes,AGENT FIRE LLC,11-50,11,<$1M,Jacksonville,Florida,-,Privately Held,exa:fls
+amberfireprotection.com,https://www.linkedin.com/company/amber-fire-protection-inc.,yes,"AMBER FIRE PROTECTION, INC.",1-10,8,<$1M,Lawrenceville,Georgia,-,-,exa:fls
+fortitudefire.com,-,no,-,-,-,-,-,-,-,-,exa:fls|nfsa:fls
+abrfireprotection.com,https://www.linkedin.com/company/abr-fire-protection-inc.,yes,ABR FIRE PROTECTION INC.,11-50,16,$1M-$10M,BUFORD,Georgia,Construction,-,exa:fls
+jjfireprotection.com,https://www.linkedin.com/company/j-&-j-fire-protection-inc.,yes,"J & J FIRE PROTECTION, INC.",11-50,2,$1M-$10M,SUNRISE,Florida,-,-,exa:fls
+weaverfire.com,https://www.linkedin.com/company/weaver-fire-protection-services,yes,Weaver Fire Protection Services Inc.,11-50,8,$1M-$10M,Groveland,Florida,Construction,Self-Employed,exa:fls
+flagshipfire.com,https://www.linkedin.com/company/flagship-fire-inc-,yes,"Flagship Fire, Inc.",11-50,19,$1M-$10M,Palmetto,Florida,Construction,Privately Held,apify-googlemaps:fls|exa:fls
+firesp.com,https://www.linkedin.com/company/fire-safety-and-protection-llc,yes,Fire Safety and Protection,201-500,219,$10M-$50M,Atlanta,Georgia,Facilities Services,Privately Held,exa:fls
+bigcountryfireprotection.com,https://www.linkedin.com/company/big-country-fire-protection-inc,yes,"Big Country Fire Protection, Inc.",1-10,2,<$1M,Bushnell,Florida,Construction,Privately Held,exa:fls
+cardelfire.com,https://www.linkedin.com/company/cardel-fire-protection-inc,yes,Cardel Fire Protection Inc,11-50,6,$1M-$10M,Miami,Florida,Construction,Privately Held,exa:fls
+triplesfire.com,https://www.linkedin.com/company/triple-s-fire-protection-incorporated,yes,"TRIPLE S FIRE PROTECTION, INCORPORATED",1-10,2,<$1M,JACKSONVILLE,Florida,-,-,exa:fls
+boyerfire.com,https://www.linkedin.com/company/boyer-fire-protection,yes,Boyer Fire Protection,51-200,47,$10M-$50M,St. Louis,Missouri,Construction,Partnership,exa:fls|nfsa:fls
+chicagofireprotect.com,https://www.linkedin.com/company/chicago-fire-protection-llc,yes,"Chicago Fire Protection, LLC",51-200,34,$1M-$10M,Chicago,Illinois,Construction,Privately Held,exa:fls
+rapidfiress.com,https://www.linkedin.com/company/rapid-fire-safety-security,yes,RapidFire Safety & Security,51-200,107,$10M-$50M,St Louis,Missouri,Public Safety,Privately Held,exa:fls
+cfplifesafety.com,https://www.linkedin.com/company/campbell-protection,yes,Campbell Fire Protection,11-50,-,$1M-$10M,Harrisonville,Missouri,Construction,Sole Proprietorship,exa:fls
+absolutefpi.com,https://www.linkedin.com/company/absolute-fire-protection,yes,Absolute Fire Protection,11-50,69,$1M-$10M,-,-,Construction,Privately Held,exa:fls
+firetechstl.com,https://www.linkedin.com/company/fire-tech-llc,yes,"FireTech, LLC",51-200,22,$1M-$10M,St Louis,Missouri,Fire Protection,Privately Held,exa:fls
+360fireprotection.com,https://www.linkedin.com/company/360-fire-protection-llc,yes,360 Fire Protection LLC,11-50,12,$1M-$10M,SPRINGFIELD,Missouri,Fire Protection,Partnership,exa:fls
+metrofp.com,https://www.linkedin.com/company/metrofp,yes,Metropolitan Fire Protection,11-50,6,<$1M,-,-,Fire Protection,Public Company,exa:fls
+automaticfirecontrols.com,https://www.linkedin.com/company/automatic-fire-controls-inc,yes,Automatic Fire Controls Inc,11-50,20,$1M-$10M,Mokena,Illinois,Facilities Services,Sole Proprietorship,exa:fls
+assurantfire.com,https://www.linkedin.com/company/assurant-fire-protection,yes,Assurant Fire Protection,51-200,18,$1M-$10M,-,Illinois,Facilities Services,Privately Held,exa:fls
+femoran.com,https://www.linkedin.com/company/fe-moran-group-of-companies,yes,F.E. Moran Group of Companies,1001-5000,673,$100M-$1B,Northbrook,Illinois,Construction,Privately Held,exa:fls
+aiefire.com,https://www.linkedin.com/company/aie-fire-protection,yes,AIE Fire Protection,11-50,21,$1M-$10M,Defiance,Missouri,Facilities Services,Privately Held,exa:fls
+foxvalleyfire.com,https://www.linkedin.com/company/fox-valley-fire-&-safety,yes,Fox Valley Fire & Safety,201-500,172,$10M-$50M,Elgin,Illinois,Facilities Services,Privately Held,exa:fls
+usafireprotectioninc.com,https://www.linkedin.com/company/usa-fire-protection,yes,USA Fire Protection,51-200,174,$10M-$50M,Lake Forest,Illinois,Construction,Privately Held,exa:fls|nfsa:fls
+pottersignal.com,https://www.linkedin.com/company/potter-electric-signal,yes,Potter Electric Signal Co.,501-1000,291,$100M-$1B,St. Louis,Missouri,Appliances; Electrical; and Electronics Manufacturing,Privately Held,exa:fls
+fortisfire.com,https://www.linkedin.com/company/fortisfire,yes,Fortis Fire & Safety,501-1000,34,<$1M,Schaumburg,Illinois,Facilities Services,Privately Held,exa:fls
+afssinc.com,https://www.linkedin.com/company/afssinc,yes,"Advanced Fire & Security Systems, Inc.",11-50,14,$1M-$10M,Alsip,Illinois,Construction,Privately Held,exa:fls
+marmicfire.com,https://www.linkedin.com/company/marmic-fire-safety-co-,yes,Marmic Fire & Safety Co.,1001-5000,471,$100M-$1B,Joplin,Missouri,Public Safety,Privately Held,apify-googlemaps:fls|exa:fls
+averusfireservices.com,https://www.linkedin.com/company/averus-inc,yes,Averus Fire Services,201-500,62,$10M-$50M,GURNEE,Illinois,Facilities Services,Privately Held,exa:fls
+allegiantfire.net,https://www.linkedin.com/company/allegiantfireprotection,yes,"Allegiant Fire Protection, LLC",11-50,44,$1M-$10M,Aurora,Illinois,Facilities Services,Partnership,exa:fls
+iss-fire.com,https://www.linkedin.com/company/intelligent-systems-services,yes,Intelligent Systems Services,11-50,11,$1M-$10M,Wood Dale,Illinois,Construction,Privately Held,exa:fls
+getzfire.com,https://www.linkedin.com/company/getz-fire-equipment-co.,yes,Getz Fire Equipment Co.,51-200,85,$10M-$50M,Peoria,Illinois,Business Supplies and Equipment,Privately Held,exa:fls
+securenet-service.com,https://www.linkedin.com/company/securenet-fire-security,yes,SecureNet Fire & Security,11-50,10,-,Clinton,Missouri,Security Systems Services,Privately Held,exa:fls
+passfireandsecurity.com,-,no,-,-,-,-,-,-,-,-,exa:fls
+florida-fire.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+blackbeltfirefl.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+boremfire.com,https://www.linkedin.com/company/borem-fire-protection-inc,yes,"Borem Fire Protection, Inc",11-50,6,$1M-$10M,Lakeland,Florida,Fire Protection,Privately Held,apify-googlemaps:fls
+wisefireinc.com,https://www.linkedin.com/company/wise-fire-&-safety-inc,yes,"Wise Fire & Safety, Inc",1-10,1,<$1M,Port St Lucie,Florida,Retail Office Equipment,Sole Proprietorship,apify-googlemaps:fls
+fire-line.net,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+fireprotectionriverview.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+redlinefirewatch.com,https://www.linkedin.com/company/redline-fire-watch-services,yes,REDLINE Fire Watch,51-200,13,$1M-$10M,Tampa,Florida,Fire Protection,Privately Held,apify-googlemaps:fls
+fireprotectionfortmyersfl.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+cityfireinc.com,https://www.linkedin.com/company/city-fire-inc.,yes,"City Fire, Inc.",1-10,39,$1M-$10M,-,-,Facilities Services,-,apify-googlemaps:fls
+jbfireprotectionllc.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+blackfireprotection.com,https://www.linkedin.com/company/black-fire-protection-inc-,yes,"Black Fire Protection, Inc.",1-10,5,<$1M,Fort Lauderdale,Florida,Construction,Public Company,apify-googlemaps:fls|nfsa:fls
+fireprotectionmiamifl.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+allinonefire.com,https://www.linkedin.com/company/allinonefire,yes,All In One Fire,11-50,5,-,Doral,Florida,Fire Protection,Privately Held,apify-googlemaps:fls
+fireprotectioncapecoral.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+piperfire.com,https://www.linkedin.com/company/piper-fire,yes,Piper Fire Protection,201-500,113,$50M-$100M,Clearwater,Florida,Public Safety,Privately Held,apify-googlemaps:fls
+engineeringfireprotection.com,https://www.linkedin.com/company/engineering-fire-protection-llc,yes,"Engineering Fire Protection, LLC",1-10,5,<$1M,New Boston,Massachusetts,Industrial Machinery Manufacturing,Privately Held,apify-googlemaps:fls
+xtremefirepro.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+dynafire.com,https://www.linkedin.com/company/dynafire,yes,DynaFire,201-500,342,$50M-$100M,Casselberry,Florida,Facilities Services,Privately Held,apify-googlemaps:fls
+fireprosolutions.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+ohiostatefireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+max-fp.com,https://www.linkedin.com/company/maximum-fire-protection,yes,Maximum Fire Protection,11-50,25,$1M-$10M,Milford,Ohio,Construction,Privately Held,apify-googlemaps:fls
+fairfieldfireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+sbiiiservices.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+allstatefirepro.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+pyebarkerfs.com,https://www.linkedin.com/company/pye-barker-fire-&-safety,yes,Pye-Barker Fire & Safety,5001-10000,2201,$100M-$1B,Alpharetta,Georgia,Public Safety,Privately Held,apify-googlemaps:fls
+summitfiresecurity.com,https://www.linkedin.com/company/summitfiresecurity,yes,Summit Fire & Security,1001-5000,1655,$100M-$1B,Reno,Nevada,Fire Protection,Privately Held,apify-googlemaps:fls|nfsa:fls
+benitezfireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+ssmidwestfire.com,https://www.linkedin.com/company/s-&-s-midwest-fire-protection,yes,S & S MidWest Fire Protection,1-10,11,<$1M,Lewis Center,Ohio,-,-,apify-googlemaps:fls
+centralfp.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+concordfp.com,https://www.linkedin.com/company/concord-fire-protection,yes,Concord Fire Protection,11-50,26,$1M-$10M,Cincinnati,Ohio,Construction,Privately Held,apify-googlemaps:fls
+reliablefireprotectionnc.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+fsservicellc.com,https://www.linkedin.com/company/fire-sprinkler-service-llc1,yes,"Fire Sprinkler Service, LLC",1-10,21,<$1M,Eden,North Carolina,Fire Protection,Self-Employed,apify-googlemaps:fls
+firepro.biz,https://www.linkedin.com/company/fire-protection-inc-,yes,Fire Protection Inc. Pittsburgh,11-50,31,<$1M,McKees Rocks,Pennsylvania,Fire Protection,Privately Held,apify-googlemaps:fls
+firesafetee.com,https://www.linkedin.com/company/firesafetee-by-asafetee-llc,yes,"FireSafeTee, aSafeTee LLC",1-10,2,<$1M,Raleigh,North Carolina,-,Self-Employed,apify-googlemaps:fls
+allamericanfireusa.com,https://www.linkedin.com/company/all-american-fire-protection-of-fayetteville,yes,All American Fire Protection of Fayetteville,11-50,15,$1M-$10M,Spring Lake,North Carolina,Fire Protection,Sole Proprietorship,apify-googlemaps:fls
+aquafireprotection.com,https://www.linkedin.com/company/aqua-fire-protection,yes,Aqua Fire Protection,1-10,19,<$1M,-,-,Construction,-,apify-googlemaps:fls
+yvfpi.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+rapidfireprotection.net,https://www.linkedin.com/company/rapid-fire-protection-llc,yes,"Rapid Fire Protection, LLC",1-10,2,<$1M,Thomasville,North Carolina,Facilities Services,Partnership,apify-googlemaps:fls
+cintas.com,https://www.linkedin.com/company/cintas,yes,Cintas,10001+,29787,$1B+,Mason,Ohio,Facilities Services,Public Company,apify-googlemaps:fls
+catawbafire.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+farrersfireprotection.com,https://www.linkedin.com/company/farrers-fire-protection,yes,Farrers Fire Protection,11-50,1,-,Charlotte,North Carolina,Fire Protection,Self-Owned,apify-googlemaps:fls|nfsa:fls
+fireprotectionservicesllc.com,https://www.linkedin.com/company/fire-protection-services-llc,yes,"Fire Protection Services, LLC",51-200,72,$10M-$50M,Atlanta,Georgia,Facilities Services,Privately Held,apify-googlemaps:fls
+usfireagency.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+certafireprotection.com,https://www.linkedin.com/company/certafire,yes,Certafire,1-10,1,-,Atlanta,Georgia,Public Safety,Privately Held,apify-googlemaps:fls
+usafire.com,https://www.linkedin.com/company/safe-t-sales-services,yes,Safe-T Fire Protection,11-50,4,<$1M,Buford,-,Retail Office Equipment,Privately Held,apify-googlemaps:fls
+espfireusa.com,https://www.linkedin.com/company/espfireusa,yes,ESP Fire Protection,1-10,6,<$1M,Senoia,Georgia,Fire Protection,Public Company,apify-googlemaps:fls
+advantagefire.com,https://www.linkedin.com/company/advantage-fire-sprinkler,yes,Advantage Fire Sprinkler,51-200,76,$10M-$50M,Winder,Georgia,Construction,Privately Held,apify-googlemaps:fls
+atlantafireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+alliancefire.com,https://www.linkedin.com/company/alliance-fire-protection-services,yes,Alliance Fire Protection Services,51-200,56,$10M-$50M,Loganville,Georgia,Construction,Privately Held,apify-googlemaps:fls
+candoifp.com,https://www.linkedin.com/company/international-fire-protection,yes,International Fire Protection,201-500,267,$10M-$50M,Madison,Alabama,Construction,Privately Held,apify-googlemaps:fls|nfsa:fls
+allamericanfireprotectionatl.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+firetronicsllc.net,https://www.linkedin.com/company/firetronics-llc,yes,Firetronics LLC,11-50,4,$1M-$10M,Oxford,Georgia,Construction,Privately Held,apify-googlemaps:fls
+northeastfireprotection.net,https://www.linkedin.com/company/northeast-fire-suppression,yes,Northeast Fire Suppression,1-10,1,-,Factoryville,Pennsylvania,Truck Transportation,-,apify-googlemaps:fls
+texasfireprotection.net,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+firesprinklertx.com,https://www.linkedin.com/company/fire-sprinkler-system-texas,yes,Fire Sprinkler System Texas,1-10,6,-,Sugar Land,Texas,-,-,apify-googlemaps:fls
+texasfiresolutions.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+autosprinkleroftx.com,https://www.linkedin.com/company/automatic-sprinkler-of-texas,yes,"Automatic Sprinkler of Texas, Inc.",11-50,30,$1M-$10M,Duncanville,Texas,Construction,Public Company,apify-googlemaps:fls
+smithfp.com,https://www.linkedin.com/company/smith-fire-protection-llc,yes,"Smith Fire Protection, LLC",1-10,9,<$1M,Burleson,Texas,Construction,Privately Held,apify-googlemaps:fls
+bossfireprotection.com,https://www.linkedin.com/company/boss-fire-protection-hood-boss,yes,Boss Fire Protection - DFW - Austin,1-10,2,<$1M,McKinney,Texas,Construction,Partnership,apify-googlemaps:fls
+firepowersystems.com,https://www.linkedin.com/company/fire-power-systems-inc,yes,Fire Power Systems Inc,51-200,23,$10M-$50M,Grand Prairie,Texas,Fire Protection,Sole Proprietorship,apify-googlemaps:fls
+lonestarfirepro.com,https://www.linkedin.com/company/lonestarfirepro,yes,Lonestar Fire Protection,11-50,15,$1M-$10M,Temple,Texas,Construction,Privately Held,apify-googlemaps:fls
+completefp.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+koetterfire.com,https://www.linkedin.com/company/koetterfire,yes,Koetter Fire Protection,51-200,65,$10M-$50M,Dallas,Texas,Construction,Privately Held,apify-googlemaps:fls
+eagleonefs.com,https://www.linkedin.com/company/eagle-one-fire-systems,yes,Eagle One Fire Systems,11-50,1,-,Dallas,Texas,Fire Protection,Privately Held,apify-googlemaps:fls
+houstontxfireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+reliable-fire-protection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+gfsfirepros.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+advantagefireprotection.com,https://www.linkedin.com/company/advantage-interests-inc,yes,Advantage Interests Inc,51-200,38,$10M-$50M,Houston,Texas,Facilities Services,Privately Held,apify-googlemaps:fls
+fireprotectionirvingtx.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+centralfireprotection.net,https://www.linkedin.com/company/central-fire-protection,yes,Central Fire Protection,51-200,18,$10M-$50M,Dallas,Texas,Construction,Privately Held,apify-googlemaps:fls
+afirepro.com,https://www.linkedin.com/company/american-fire-protection-inc,yes,"American Fire Protection, Inc.",11-50,21,$1M-$10M,Greenville,South Carolina,Construction,Privately Held,apify-googlemaps:fls
+superiorfireprotectionconway.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+firelinesprinkler.com,https://www.linkedin.com/company/fireline-sprinkler,yes,"Fireline Sprinkler, LLC",51-200,56,$10M-$50M,Appleton,Wisconsin,Construction,Privately Held,apify-googlemaps:fls|nfsa:fls
+aspirefiresprinkler.com,https://www.linkedin.com/company/aspire-fire-sprinkler-inc-,yes,Aspire Fire Sprinkler Inc.,1-10,6,<$1M,-,-,Construction,-,apify-googlemaps:fls
+dlpfire.com,https://www.linkedin.com/company/dlp-fire-protection-group-llc,yes,Dlp Fire Protection Group Llc,1-10,1,<$1M,Bluffton,South Carolina,-,-,apify-googlemaps:fls
+carolinafiresafetycolumbia.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+aandafireprotection.com,https://www.linkedin.com/company/a&a-fire-protection-inc,yes,A&A FIRE PROTECTION INC,1-10,4,-,Mauldin,South Carolina,-,-,apify-googlemaps:fls
+unitedfss.com,https://www.linkedin.com/company/united-fire-sprinkler-service-llc,yes,United Fire Sprinkler Service Llc,11-50,2,-,Summerville,South Carolina,Fire Protection,Privately Held,apify-googlemaps:fls
+lowcountryfireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+carolinasprinkler.com,https://www.linkedin.com/company/carolina-automatic-sprinkler,yes,Carolina Automatic Sprinkler,11-50,6,$1M-$10M,Mauldin,South Carolina,Transportation; Logistics; Supply Chain and Storage,-,apify-googlemaps:fls
+premierfire.net,https://www.linkedin.com/company/premier-fire-security-an-api-group-company,yes,Premier Fire & Security an APi Group company,51-200,37,$10M-$50M,-,-,Fire Protection,Public Company,apify-googlemaps:fls
+columbiafireandsafety.com,https://www.linkedin.com/company/columbia-fire-&-safety-inc,yes,Columbia Fire & Safety Inc,1-10,9,<$1M,West Columbia,South Carolina,Public Safety,-,apify-googlemaps:fls
+gsfire.net,https://www.linkedin.com/company/grand-strand-fire-sprinkler-inc,yes,Grand Strand Fire Sprinkler Inc.,11-50,3,$1M-$10M,Garden City,South Carolina,Construction,Privately Held,apify-googlemaps:fls
+seaislandfirepro.com,https://www.linkedin.com/company/sea-island-fire-protection,yes,Sea Island Fire Protection,1-10,1,-,-,-,Fire Protection,Partnership,apify-googlemaps:fls
+firetradeusa.com,https://www.linkedin.com/company/firetrade-llc,yes,FireTrade LLC,1-10,1,-,Greer,South Carolina,Fire Protection,Privately Held,apify-googlemaps:fls
+vigilantfireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+atcofire.com,https://www.linkedin.com/company/atco-fire-protection-inc.,yes,"Atco Fire Protection, Inc",11-50,8,$1M-$10M,Rome,Georgia,Construction,-,apify-googlemaps:fls
+northstarfire.com,https://www.linkedin.com/company/northstar-fire-protection-tx,yes,Northstar Fire Protection of Texas,51-200,96,$10M-$50M,Austin,Texas,Construction,Public Company,apify-googlemaps:fls|nfsa:fls
+firesprinklersarlington.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+paragonfireprotection.com,https://www.linkedin.com/company/paragon-fire-protection-limited,yes,PARAGON FIRE PROTECTION LIMITED,1-10,1,-,SURREY,-,Public Safety,-,apify-googlemaps:fls
+highlandfire.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+crispladewfire.com,https://www.linkedin.com/company/crisp-ladew-protection-co,yes,Crisp-LaDew Fire Protection,11-50,6,<$1M,-,-,Construction,Sole Proprietorship,apify-googlemaps:fls
+championfp.com,https://www.linkedin.com/company/champion-fire-protection,yes,Champion Fire Protection,11-50,53,$1M-$10M,Philadelphia,Pennsylvania,Construction,Privately Held,apify-googlemaps:fls
+united-fire.com,https://www.linkedin.com/company/united-fire-protection-inc.,yes,"United Fire Protection, Inc.",51-200,115,$10M-$50M,St. Petersburg,Florida,Facilities Services,Privately Held,apify-googlemaps:fls
+fireequipmentsystemsoffl.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+proactivefiresafety.net,https://www.linkedin.com/company/proactive-fire-safety,yes,Proactive Fire Safety,1-10,2,-,Winter Haven,Florida,-,-,apify-googlemaps:fls
+koorsen.com,https://www.linkedin.com/company/koorsen-fire-and-security,yes,Koorsen Fire and Security,1001-5000,962,$100M-$1B,Indianapolis,Indiana,Facilities Services,Privately Held,apify-googlemaps:fls
+accuratefirepro.com,https://www.linkedin.com/company/accurate-fire-audio-video-security,yes,Accurate Fire Audio Video Security,11-50,1,-,Dayton,Ohio,Construction,-,apify-googlemaps:fls
+northgafire.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+fireatl.com,https://www.linkedin.com/company/fire-atlanta-llc,yes,Fire Atlanta LLC,1-10,25,<$1M,Atlanta,Georgia,Construction,Privately Held,apify-googlemaps:fls
+asafire.com,https://www.linkedin.com/company/asa-fire-protection-inc,yes,"ASA Fire Protection, LLC",51-200,45,$10M-$50M,Cartersville,Georgia,Facilities Services,Privately Held,apify-googlemaps:fls
+precisionfiresystem.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+automaticfirepro.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+armorfireohio.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+pasco-inc.com,https://www.linkedin.com/company/palmetto-automatic-sprinkler-company-inc-,yes,"Palmetto Automatic Sprinkler Company, Inc. PASCO",201-500,120,$10M-$50M,West Columbia,South Carolina,Design,Privately Held,apify-googlemaps:fls|nfsa:fls
+precisionfiresolutions.com,https://www.linkedin.com/company/precision-fire-solutions-llc,yes,"Precision Fire Solutions, LLC",11-50,21,$1M-$10M,West Columbia,South Carolina,Facilities Services,Privately Held,apify-googlemaps:fls
+alliancefiresafety.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+jmcfireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+ateamfire.net,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+fireshieldjax.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+fsap24-7.com,https://www.linkedin.com/company/fsap24-7,yes,Fsap24-7,-,-,-,Opa Locka,Florida,-,-,apify-googlemaps:fls
+americanfiresystems.co,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+prostarfs.com,https://www.linkedin.com/company/prostar-fire-systems-inc-,yes,Prostar Fire Systems Inc.,1-10,8,<$1M,-,-,-,-,apify-googlemaps:fls
+txfs.us,https://www.linkedin.com/company/txfs,yes,Texas Fire & Sound,51-200,41,$10M-$50M,Garland,Texas,Fire Protection,Privately Held,apify-googlemaps:fls
+firewisetx.com,https://www.linkedin.com/company/firewise-texas-llc,yes,FireWise Texas LLC,11-50,16,$1M-$10M,Weatherford,Texas,Fire Protection,Partnership,apify-googlemaps:fls
+1sttexasfire.com,https://www.linkedin.com/company/1st-texas-fire-protection,yes,1st Texas Fire Protection,-,-,-,Houston,Texas,-,-,apify-googlemaps:fls
+fireprotectionhoustontx.net,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+spartanfirepro.com,https://www.linkedin.com/company/spartan-fire-protection,yes,Spartan Fire Protection,1-10,4,<$1M,Houston,Texas,Fire Protection,Public Company,apify-googlemaps:fls
+hellmanfire.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+dfs-fs.com,https://www.linkedin.com/company/dfs-fire-systems-llc,yes,DFS Fire Systems,51-200,25,$1M-$10M,Garland,Texas,Fire Protection,Privately Held,apify-googlemaps:fls
+parafire.systems,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+ardentfireequipmentllc.com,https://www.linkedin.com/company/ardent-fire-eqpt-&-safety-service,yes,Ardent Fire Eqpt & Safety Service,1-10,1,-,Spring,Texas,-,-,apify-googlemaps:fls
+wsfp.com,https://www.linkedin.com/company/western-states-fire-protection,yes,Western States Fire Protection,1001-5000,1024,$100M-$1B,Centennial,Colorado,Construction,Public Company,apify-googlemaps:fls|nfsa:fls
+legacyfiresafety.org,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+txstarfp.com,https://www.linkedin.com/company/texas-star-fire-protection,yes,Texas Star Fire Protection,1-10,2,-,New Caney,Texas,-,-,apify-googlemaps:fls
+hgfire.com,https://www.linkedin.com/company/hg-fire-systems-lp,yes,"Hg Fire Systems, Lp",51-200,2,$1M-$10M,Houston,Texas,Fire Protection,Partnership,apify-googlemaps:fls
+texassaffire.com,https://www.linkedin.com/company/texas-saffire-llc,yes,"Texas Saffire, LLC",51-200,9,$1M-$10M,-,-,Construction,Public Company,apify-googlemaps:fls
+eaglefire.com,https://www.linkedin.com/company/eagle-fire-inc-,yes,Eagle Fire Inc.,501-1000,256,$10M-$50M,Richmond,Virginia,Construction,Privately Held,apify-googlemaps:fls
+nextgenusa.com,https://www.linkedin.com/company/nextgenusa,yes,"NextGen Technologies, Inc.",11-50,19,$1M-$10M,North Charleston,South Carolina,Construction,Privately Held,apify-googlemaps:fls
+vscfire.com,https://www.linkedin.com/company/vsc-fire-and-security,yes,"VSC Fire & Security, Inc.",1001-5000,901,$100M-$1B,Richmond,Virginia,Construction,Public Company,apify-googlemaps:fls
+southland-fire-protection.webflow.io,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+forwardfire.com,https://www.linkedin.com/company/forward-fire-protection,yes,FORWARD FIRE PROTECTION,1-10,2,-,BUFORD,Georgia,-,-,apify-googlemaps:fls
+fireprotectionsolutioninc.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+globalfiresys.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+robfireco.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+floridafiresolutions.com,https://www.linkedin.com/company/florida-fire-solutions,yes,Florida Fire Solutions,1-10,3,-,Miami,Florida,Fire Protection,Privately Held,apify-googlemaps:fls
+fireprotectionjacksonvillefl.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+emergencyfire.com,https://www.linkedin.com/company/emergency-fire-protection-syst,yes,Emergency Fire Protection Syst,1-10,6,<$1M,Fort Worth,Texas,Defense and Space Manufacturing,-,apify-googlemaps:fls
+coreandmain.com,https://www.linkedin.com/company/core-main,yes,Core & Main,1001-5000,2625,$100M-$1B,St. Louis,Missouri,Wholesale,Public Company,apify-googlemaps:fls
+americanfireextinguisherservice.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+southerncrossfirellc.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls|nfsa:fls
+waynefire.com,https://www.linkedin.com/company/wayne-automatic-fire-sprinklers-inc,yes,"Wayne Automatic Fire Sprinklers, Inc.®",501-1000,365,$100M-$1B,Ocoee,Florida,Construction,Privately Held,apify-googlemaps:fls
+firetechnologiesinc.com,https://www.linkedin.com/company/fire-technologies-inc-,yes,Fire Technologies Inc.,1-10,10,<$1M,Castle Hayne,North Carolina,-,-,apify-googlemaps:fls
+absolutefirecontrol.com,https://www.linkedin.com/company/absolute-fire-control-inc.,yes,"Absolute Fire Control, Inc.",51-200,28,$10M-$50M,Charlotte,North Carolina,-,-,apify-googlemaps:fls
+zgodafire.com,https://www.linkedin.com/company/zgoda-fire-protection-llc,yes,Zgoda Fire Protection Llc,-,-,-,Raleigh,North Carolina,-,-,apify-googlemaps:fls
+d8fire.com,https://www.linkedin.com/company/double-eight-fire-protection,yes,Double Eight Fire Protection,51-200,10,$1M-$10M,Dublin,Ohio,-,-,apify-googlemaps:fls
+dawgfireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+aplusfirepros.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+orlandofireextinguishers.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+ashevillefireprotection.net,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+fifthelementfireprotection.net,https://www.linkedin.com/company/fifth-element-fire-protection,yes,Fifth Element Fire Protection,1-10,1,<$1M,Weaverville,North Carolina,Construction,-,apify-googlemaps:fls
+magnumfiresprinkler.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+raincityfireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+aefireinc.com,https://www.linkedin.com/company/a&e-fire-protection-inc-,yes,A&E Fire Protection Inc.,51-200,41,$10M-$50M,Canton,Massachusetts,Facilities Services,Privately Held,apify-googlemaps:fls
+nefiresystems.com,https://www.linkedin.com/company/northeast-fire-systems-llc,yes,"Northeast Fire Systems, LLC",1-10,5,<$1M,Vernon,Connecticut,Industrial Machinery Manufacturing,Privately Held,apify-googlemaps:fls
+northeastautomaticsprinkler.com,https://www.linkedin.com/company/northeast-automatic-sprinkler-co,yes,Northeast Automatic Sprinkler Co,11-50,9,$1M-$10M,Kingston,Massachusetts,Fire Protection,Partnership,apify-googlemaps:fls
+nefirestop.com,https://www.linkedin.com/company/northeast-firestopping-solutions,yes,National Firestopping Solutions,51-200,40,$10M-$50M,Saco,Maine,Construction,Public Company,apify-googlemaps:fls
+fireprotectioncontractorsma.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+firesystemsinc.net,https://www.linkedin.com/company/fire-systems-inc-altus,yes,Fire Systems Inc.,11-50,1,$1M-$10M,-,-,Facilities Services,Privately Held,apify-googlemaps:fls
+afpsme.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+albanyfire.com,https://www.linkedin.com/company/albany-fire-protection-inc,yes,Albany Fire Protection Inc,11-50,11,$1M-$10M,Watervliet,New York,Public Safety,-,apify-googlemaps:fls
+crawfordsprinkler-sc.com,https://www.linkedin.com/company/crawford-sprinkler-company-of-south-carolina,yes,Crawford Sprinkler Company of South Carolina,11-50,20,$1M-$10M,Lugoff,South Carolina,Construction,Privately Held,apify-googlemaps:fls
+safebetfireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+washingtonsprinkler.com,https://www.linkedin.com/company/washington-fire-protection-engineering,yes,Washington Fire Protection Engineering/ Washington Sprinkler,11-50,15,$1M-$10M,MANASSAS,Virginia,Construction,Privately Held,apify-googlemaps:fls
+galandscape.com,https://www.linkedin.com/company/ga-landscape,yes,Georgia Landscape,51-200,28,$10M-$50M,Hiram,Georgia,Environmental Services,Sole Proprietorship,apify-googlemaps:fls
+alliedfire.us,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+uprightfp.com,https://www.linkedin.com/company/upright-fire-protection,yes,Upright Fire Protection,11-50,9,$1M-$10M,-,-,Construction,Privately Held,apify-googlemaps:fls
+cghs.org,https://www.linkedin.com/company/columbia-greene-humane-society,yes,Columbia Greene Humane Society,11-50,15,$1M-$10M,Hudson,New York,Civic and Social Organizations,Nonprofit,apify-googlemaps:fls
+schohariecounty-ny.gov,https://www.linkedin.com/company/schoharie-county-dpw,yes,Schoharie County Dpw,1-10,14,<$1M,Schoharie,New York,Government Administration,-,apify-googlemaps:fls
+walmart.com,https://www.linkedin.com/company/walmart,yes,Walmart,10001+,501683,$1B+,Bentonville,Arkansas,Retail,Public Company,apify-googlemaps:fls
+mass.gov,https://www.linkedin.com/company/commonwealth-of-massachusetts,yes,Commonwealth of Massachusetts,10001+,14501,$1B+,Boston,Massachusetts,Government Administration,Government Agency,apify-googlemaps:fls
+phoenixfs.org,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+herculesfire.com,https://www.linkedin.com/company/hercules-fire-protection-&-plumbing-llc,yes,"HERCULES FIRE PROTECTION & PLUMBING, LLC",11-50,7,$1M-$10M,Grafton,Ohio,-,-,apify-googlemaps:fls
+coastalpipeandfire.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+truenorthfp.net,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+missionfiresprinkler.com,https://www.linkedin.com/company/mission-fire-sprinkler,yes,Mission Fire Sprinkler,51-200,7,$1M-$10M,Ringgold,Georgia,-,-,apify-googlemaps:fls
+allsouthsprinkler.com,https://www.linkedin.com/company/allsouth-sprinkler-company,yes,Allsouth Sprinkler Company,11-50,32,$1M-$10M,Buford,Georgia,Public Safety,Privately Held,apify-googlemaps:fls
+statesprinkler.com,https://www.linkedin.com/company/state-sprinkler-co-inc,yes,State Sprinkler Co Inc,11-50,7,$1M-$10M,Alpharetta,Georgia,Construction,-,apify-googlemaps:fls|nfsa:fls
+primofireprotection.com,https://www.linkedin.com/company/primo-fire-protection-llc,yes,Primo Fire Protection LLC,11-50,10,<$1M,Marietta,Georgia,Fire Protection,Self-Owned,apify-googlemaps:fls
+impmechanical.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+cincinnatidaytonfireprotection.com,https://www.linkedin.com/company/cincinnati-dayton-fire-protection-inc.,yes,"CINCINNATI DAYTON FIRE PROTECTION, INC.",11-50,24,$1M-$10M,WEST CHESTER,Ohio,Construction,-,apify-googlemaps:fls
+afshhi.com,https://www.linkedin.com/company/alarmfiresecure,yes,"Alarm, Fire, & Security",51-200,25,$10M-$50M,Bluffton,South Carolina,Construction,Privately Held,apify-googlemaps:fls
+aaafire.com,https://www.linkedin.com/company/aaa-fire-&-safety-inc.,yes,AAA Fire Protection,51-200,115,$10M-$50M,Seattle,Washington,Facilities Services,Privately Held,apify-googlemaps:fls
+mefireprotection.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+westgeorgiafire.com,https://www.linkedin.com/company/west-georgia-fire-extinguisher,yes,West Georgia Fire Extinguisher,1-10,8,<$1M,Carrollton,Georgia,Facilities Services,-,apify-googlemaps:fls
+tritekfire.com,https://www.linkedin.com/company/tritek-fire-&-security-llc,yes,TRITEK FIRE & SECURITY LLC,51-200,2,$1M-$10M,Augusta,Georgia,-,-,apify-googlemaps:fls
+seattleemergencyfirewatch.com,-,no,-,-,-,-,-,-,-,-,apify-googlemaps:fls
+yukonfire.com,https://www.linkedin.com/company/yukon-fire-protection-services-inc.,yes,"Yukon Fire Protection Services, Inc.",51-200,43,$1M-$10M,Anchorage,Alaska,Fire Protection,Privately Held,apify-googlemaps:fls
+dornfireprotection.com,https://www.linkedin.com/company/dorn-fire-protection,yes,Dorn Fire Protection,1-10,6,<$1M,Cincinnati,Ohio,Construction,Privately Held,apify-googlemaps:fls
+cempfire.com,https://www.linkedin.com/company/coastal-empire-fire-&-security-inc-,yes,"Coastal Empire Fire & Security, Inc.",11-50,8,$1M-$10M,Savannah,Georgia,Security and Investigations,Public Company,apify-googlemaps:fls
+grunaufire.com,https://www.linkedin.com/company/grunau-fire-protection,yes,Grunau Fire Protection,51-200,37,$10M-$50M,Midwest and East Coast,-,Fire Protection,Public Company,apify-googlemaps:fls
+johnsoncontrols.com,https://www.linkedin.com/company/johnson-controls,yes,Johnson Controls,10001+,61237,$1B+,Cork,Ireland,Industrial Machinery Manufacturing,Public Company,nfsa:fls
+siemens.com,https://www.linkedin.com/company/siemens,yes,Siemens,10001+,282397,$1B+,Munich,-,Automation Machinery Manufacturing,Public Company,nfsa:fls
+midwestalarmservices.com,https://www.linkedin.com/company/midwest-alarm-services,yes,Midwest Alarm Services,51-200,120,$10M-$50M,Urbandale,Iowa,Construction,Privately Held,nfsa:fls
+vfpfire.com,https://www.linkedin.com/company/vfp-fire-systems,yes,Viking Fire Protection Group,201-500,349,$10M-$50M,St. Paul,Minnesota,Construction,Privately Held,nfsa:fls
+orrprotection.com,https://www.linkedin.com/company/orrprotection,yes,ORR Protection,201-500,353,$50M-$100M,Louisville,Kentucky,Fire Protection,Privately Held,nfsa:fls
+jfahern.com,https://www.linkedin.com/company/j-f-ahern-co-,yes,Ahern,1001-5000,1160,$100M-$1B,Fond du Lac,Wisconsin,Construction,Privately Held,nfsa:fls
+shambaugh.com,https://www.linkedin.com/company/shambaugh-&-son-lp,yes,"Shambaugh & Son, L.P.",1001-5000,1037,$100M-$1B,Fort Wayne,Indiana,Construction,Partnership,nfsa:fls
+summitfire.com,https://www.linkedin.com/company/summit-fire-protection,yes,Summit Fire Protection,501-1000,443,$100M-$1B,SAINT PAUL,Minnesota,Facilities Services,Privately Held,nfsa:fls
+continental-fire.com,https://www.linkedin.com/company/continental-fire-sprinkler-company,yes,Continental Fire Sprinkler Company,201-500,166,$10M-$50M,Omaha,Nebraska,Construction,Privately Held,nfsa:fls
+davisulmer.com,https://www.linkedin.com/company/davis-ulmer-sprinkler-co-,yes,Davis-Ulmer Fire Protection,201-500,187,$50M-$100M,Rochester,New York,Fire Protection,Public Company,nfsa:fls
+vikingsprinkler.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+dalmatianfire.net,https://www.linkedin.com/company/dalmatian-fire,yes,Dalmatian Fire,51-200,89,$10M-$50M,Indianapolis,Indiana,Construction,Public Company,nfsa:fls
+grunau.com,https://www.linkedin.com/company/grunau-company,yes,Grunau Company,201-500,280,$50M-$100M,Oak Creek,Wisconsin,Specialty Trade Contractors,Public Company,nfsa:fls
+srifiresprinkler.com,https://www.linkedin.com/company/sri-fire-sprinkler-llc,yes,SRI Fire & Security,51-200,57,$10M-$50M,Albany,New York,Construction,Privately Held,nfsa:fls
+superherofireprotection.com,https://www.linkedin.com/company/superhero-fire-protection-llc-,yes,"SuperHero Fire Protection,LLC.",51-200,185,$10M-$50M,Lawrenceville,Georgia,Construction,Partnership,nfsa:fls
+wmfireprotection.com,https://www.linkedin.com/company/wmfireandsecurity,yes,W&M Fire & Security,51-200,73,$10M-$50M,Tri-State Area,-,Construction,Privately Held,nfsa:fls
+wesavelives.com,https://www.linkedin.com/company/advanced-fire-protection-services-inc,yes,"Advanced Fire Protection Services, Inc",51-200,58,$10M-$50M,Fort Walton Beach,Florida,Construction,Privately Held,nfsa:fls
+summersfire.com,https://www.linkedin.com/company/summers-fire-sprinklers-inc.,yes,"Summers Fire Sprinklers, Inc.",51-200,29,$10M-$50M,Boca Raton,Florida,Fire Protection,Privately Held,nfsa:fls
+accelfiresystem.com,https://www.linkedin.com/company/accel-fire-system-inc.,yes,"ACCEL FIRE SYSTEM, INC.",11-50,4,$1M-$10M,Anchorage,Alaska,Construction,-,nfsa:fls
+amsindustries.com,https://www.linkedin.com/company/amsindustries-inc,yes,"AMS Industries, Inc.",501-1000,395,$100M-$1B,Woodridge,Illinois,Construction,Privately Held,nfsa:fls
+blairfireprotection.com,https://www.linkedin.com/company/blair-fire-protection-llc,yes,Blair Fire Protection,51-200,47,$10M-$50M,Butler,Wisconsin,Construction,Privately Held,nfsa:fls
+brownsprinkler.com,https://www.linkedin.com/company/brown-sprinkler-corporation,yes,Brown Sprinkler Corporation,51-200,42,$10M-$50M,Louisville,Kentucky,Construction,Privately Held,nfsa:fls
+centralconsolidated.net,https://www.linkedin.com/company/central-consolidated-inc-,yes,Central Consolidated Inc.,51-200,62,$10M-$50M,Wichita,Kansas,Construction,Partnership,nfsa:fls
+firecontrolsprinklers.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+hillgrp.com,https://www.linkedin.com/company/hill-mechanical-group,yes,The Hill Group,501-1000,334,$100M-$1B,Franklin Park,Illinois,Construction,Privately Held,nfsa:fls
+intfs.com,https://www.linkedin.com/company/intfsservices,yes,Integrated Facility Services,201-500,117,$50M-$100M,Fenton,Missouri,Construction,Privately Held,nfsa:fls
+jayhawkfire.com,https://www.linkedin.com/company/jayhawkfiresprinklerco,yes,Jayhawk Fire Sprinkler Co.,51-200,43,$10M-$50M,Olathe,Kansas,Construction,Privately Held,nfsa:fls
+landmarksprinkler.com,https://www.linkedin.com/company/landmark-sprinkler-inc,yes,"Landmark Sprinkler, Inc",51-200,25,$10M-$50M,Lexington,Kentucky,Construction,Privately Held,nfsa:fls
+ozarkfs.com,https://www.linkedin.com/company/ozark-fire-sprinkler-co-inc,yes,"Ozark Fire Sprinkler Co., Inc",11-50,17,$1M-$10M,Warsaw,Missouri,Construction,Privately Held,nfsa:fls
+rsqfireprotection.com,https://www.linkedin.com/company/rsq-fire-protection,yes,RSQ,51-200,53,$10M-$50M,Indianapolis,Indiana,Construction,Privately Held,nfsa:fls
+valleyfire.com,https://www.linkedin.com/company/valley-fire-&-protection,yes,Valley Fire Protection & Plumbing,51-200,72,$10M-$50M,St Charles,Illinois,Construction,Privately Held,nfsa:fls
+aefireprotection.net,https://www.linkedin.com/company/ae-fire-protection,yes,Ae Fire Protection,11-50,1,-,Cookeville,Tennessee,-,-,nfsa:fls
+associatedfireservices.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+jbouchard.com,https://www.linkedin.com/company/john-bouchard-&-sons-co-,yes,John Bouchard & Sons Co.,51-200,85,$10M-$50M,Nashville,Tennessee,Specialty Trade Contractors,Privately Held,nfsa:fls
+doubledpiping.com,https://www.linkedin.com/company/double-d-piping,yes,Double D Piping,51-200,22,$10M-$50M,Cleveland,Tennessee,Construction,Sole Proprietorship,nfsa:fls
+ironsmithfire.com,https://www.linkedin.com/company/ironsmith-fire-llc,yes,"Ironsmith Fire, LLC",51-200,55,$10M-$50M,Arlington,Tennessee,Construction,Privately Held,nfsa:fls
+mullins-mechanical.com,https://www.linkedin.com/company/mullins-mechanial,yes,Mullins Mechanical,51-200,259,$10M-$50M,Carrollton,Georgia,Construction,Privately Held,nfsa:fls
+mcfs.us,https://www.linkedin.com/company/music-city-fire-sprinkler-llc,yes,"MUSIC CITY FIRE SPRINKLER, LLC",11-50,24,$1M-$10M,Hendersonville,Tennessee,Construction,-,nfsa:fls
+nationalfire.us,https://www.linkedin.com/company/national-fire-life-safety,yes,National Fire & Life Safety,51-200,15,$10M-$50M,Goodlettsville,Tennessee,Fire Protection,Partnership,nfsa:fls
+asifire.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+allinonetechnology.com,https://www.linkedin.com/company/aiot,yes,"All In One Technology, Inc.",1-10,6,<$1M,Naples,Florida,Information Technology and Services,Partnership,nfsa:fls
+baysidefireprotection.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+beachlakesprinkler.com,https://www.linkedin.com/company/beach-lake-sprinkler,yes,Beach Lake Sprinkler,51-200,12,$1M-$10M,Honesdale,Pennsylvania,Construction,Privately Held,nfsa:fls
+dacarfirepro.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+elitefirefl.com,https://www.linkedin.com/company/elite-fire-protection-inc,yes,"Elite Fire Protection, Inc",11-50,1,<$1M,-,-,Fire Protection,Partnership,nfsa:fls
+epicfiresystems.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+floridapipingsolutions.com,https://www.linkedin.com/company/florida-piping-solutions-llc,yes,Florida Piping Solutions LLC,1-10,3,-,Bradenton,Florida,-,-,nfsa:fls
+gatorfire.net,https://www.linkedin.com/company/gator-fire-equipment-company,yes,Gator Fire Equipment Company,1-10,17,<$1M,-,-,Construction,-,nfsa:fls
+globalfiresprinklers.com,https://www.linkedin.com/company/globalfireprotection,yes,Global Fire Protection,51-200,57,$10M-$50M,Florence,Alabama,Fire Protection,Partnership,nfsa:fls
+grp1.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+facebook.com,https://www.linkedin.com/company/verizon-wireless-world,yes,Verizon Wireless World,11-50,1420,$1M-$10M,New Milford,New Jersey,Telecommunications,Sole Proprietorship,nfsa:fls
+lifesafetymanagement.com,https://www.linkedin.com/company/life-safety-management,yes,Life Safety Management,1-10,10,<$1M,Boynton Beach,Florida,Security and Investigations,-,nfsa:fls
+luctofire.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+mcconkeyfire.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+natlfire.com,https://www.linkedin.com/company/national-fire-protection-llc,yes,National Fire Protection,51-200,118,$10M-$50M,Gaithersburg,Maryland,Construction,Privately Held,nfsa:fls
+perronefire.com,-,no,-,-,-,-,-,-,-,-,nfsa:fls
+rbkfiresystems.com,https://www.linkedin.com/company/rbk-fire-systems-inc,yes,RBK Fire Systems Inc,11-50,6,<$1M,West Palm Beach,Florida,Fire Protection,Privately Held,nfsa:fls
+readypfp.com,https://www.linkedin.com/company/ready-plumbing-fire-protection,yes,Ready Plumbing & Fire Protection,11-50,2,<$1M,Longwood,Florida,Specialty Trade Contractors,Privately Held,nfsa:fls
+sciensusa.com,https://www.linkedin.com/company/sciensbuildingsolutions,yes,Sciens Building Solutions,1001-5000,565,$100M-$1B,Pleasanton,California,Facilities Services,Privately Held,nfsa:fls
+cn-seamless.com,https://www.linkedin.com/company/cn-seamless-inc,yes,"CN-Seamless, Inc.",11-50,11,<$1M,Raleigh,North Carolina,Metalworking Machinery Manufacturing,Privately Held,fabtech:mfg
+costasanders.com,https://www.linkedin.com/company/costa-sanders,yes,COSTA SANDERS,11-50,14,$1M-$10M,Archdale,North Carolina,Machinery Manufacturing,Privately Held,fabtech:mfg
+cronsrud.com,https://www.linkedin.com/company/cronsrud,yes,"CR Onsrud, Inc.",51-200,119,$10M-$50M,Troutman,North Carolina,Industrial Automation,Privately Held,fabtech:mfg
+epistoliousa.com,-,no,-,-,-,-,-,-,-,-,fabtech:mfg
+furickcup.com,-,no,-,-,-,-,-,-,-,-,fabtech:mfg
+hertzkompressoren.com,-,no,-,-,-,-,-,-,-,-,fabtech:mfg
+mssnitrogen.com,-,no,-,-,-,-,-,-,-,-,fabtech:mfg
+nano-purification.com,https://www.linkedin.com/company/nano-purification-solutions,yes,nano-purification solutions,201-500,68,$10M-$50M,Charlotte,North Carolina,Machinery Manufacturing,Public Company,fabtech:mfg
+ozenairtech.com,https://www.linkedin.com/company/ozen-air-technology,yes,OZEN AIR TECHNOLOGY,51-200,11,$10M-$50M,Charlotte,North Carolina,Machinery Manufacturing,Privately Held,fabtech:mfg
+patriotpowder.com,https://www.linkedin.com/company/patriot-powder-coatings,yes,Patriot Powder Coatings,11-50,1,-,Mooresville,North Carolina,Manufacturing,Privately Held,fabtech:mfg
+proscale.com,https://www.linkedin.com/company/accurate-technology-inc,yes,Accurate Technology Inc,1-10,18,<$1M,Fletcher,North Carolina,Appliances; Electrical; and Electronics Manufacturing,Privately Held,fabtech:mfg
+imaschelling.us,https://www.linkedin.com/company/imaschellingusa,yes,IMA Schelling USA,51-200,36,$10M-$50M,Morrisville,North Carolina,Machinery Manufacturing,Privately Held,fabtech:mfg
+schmalz.com,https://www.linkedin.com/company/schmalz-usa,yes,Schmalz USA,1001-5000,127,$100M-$1B,Raleigh,North Carolina,Automation Machinery Manufacturing,Privately Held,fabtech:mfg
+sia-abrasives.com,https://www.linkedin.com/company/siaabrasives,yes,sia Abrasives,1001-5000,354,$100M-$1B,Frauenfeld,Thurgau,Chemical Manufacturing,Privately Held,fabtech:mfg
+siouxtools.com,https://www.linkedin.com/company/sioux-tools,yes,Sioux Tools,11-50,9,-,Murphy,North Carolina,-,-,fabtech:mfg
+southatlanticllc.com,https://www.linkedin.com/company/south-atlantic-galvanizing,yes,"South Atlantic, LLC",201-500,248,$10M-$50M,Wilmington,North Carolina,Mining,Privately Held,fabtech:mfg
+southteksystems.com,https://www.linkedin.com/company/south-tek-systems,yes,South-Tek Systems,51-200,42,$10M-$50M,Wilmington,North Carolina,Automation Machinery Manufacturing,Privately Held,fabtech:mfg
+spartan-robotics.com,https://www.linkedin.com/company/spartan-robotics,yes,Spartan Robotics,1-10,2,-,Nashville,Tennessee,Industrial Machinery Manufacturing,Self-Owned,fabtech:mfg
+stiwa.com,https://www.linkedin.com/company/stiwa,yes,STIWA Group,1001-5000,588,$100M-$1B,Attnang-Puchheim,Upper Austria,Automation Machinery Manufacturing,Privately Held,fabtech:mfg
+tecnofirma.com,https://www.linkedin.com/company/tecnofirma-spa,yes,TECNOFIRMA SPA,51-200,7,$10M-$50M,MONZA,Mb,Machinery Manufacturing,-,fabtech:mfg
+unitedfinishing.net,https://www.linkedin.com/company/united-finishing-systems,yes,United Finishing Systems,11-50,9,-,-,-,Industrial Machinery Manufacturing,Public Company,fabtech:mfg
+victoryweldingalloys.com,https://www.linkedin.com/company/victory-welding-alloys-inc-,yes,"Victory Welding Alloys, Inc.",11-50,13,$1M-$10M,Charlotte,North Carolina,Mining,Privately Held,fabtech:mfg
+washingtonalloy.com,https://www.linkedin.com/company/washingtonalloy,yes,Washington Alloy Co.,51-200,29,$10M-$50M,Charlotte,North Carolina,Wholesale,Privately Held,fabtech:mfg
+waterjetdepot.com,https://www.linkedin.com/company/waterjet-depot,yes,Waterjet Depot,1-10,2,$1M-$10M,Hickory,North Carolina,Parts Distribution,Privately Held,fabtech:mfg
+wisersystems.com,https://www.linkedin.com/company/wisersystems,yes,WISER Systems,11-50,13,$1M-$10M,Raleigh,North Carolina,Wireless Services,Privately Held,fabtech:mfg
+atlascopco.com,https://www.linkedin.com/company/atlas-copco,yes,Atlas Copco,10001+,35619,$1B+,Stockholm,-,Machinery Manufacturing,Public Company,fabtech:mfg
+csinstruments.com,-,no,-,-,-,-,-,-,-,-,fabtech:mfg
+digitizedesigns.com,https://www.linkedin.com/company/digitize-designs,yes,Digitize Designs,11-50,15,$1M-$10M,Greenville,South Carolina,Manufacturing,Privately Held,fabtech:mfg
+jobscope.com,https://www.linkedin.com/company/jobscope,yes,Jobscope,51-200,25,$10M-$50M,Greenville,South Carolina,Software Development,Privately Held,fabtech:mfg
+kellerusa.com,https://www.linkedin.com/company/keller-usa-inc.,yes,"Keller USA, Inc.",11-50,18,$1M-$10M,Fort Mill,South Carolina,Environmental Services,Privately Held,fabtech:mfg
+mankiewicz.com,https://www.linkedin.com/company/mankiewicz-coatings,yes,Mankiewicz Coating Solutions,1001-5000,580,$100M-$1B,Hamburg,-,Paint; Coating; and Adhesive Manufacturing,Privately Held,fabtech:mfg
+multi-industries.com,https://www.linkedin.com/company/multi-industries-of-greenville,yes,Multi Industries of Greenville,51-200,19,$10M-$50M,Taylors,South Carolina,Industrial Machinery Manufacturing,Privately Held,fabtech:mfg
+norelemusa.com,https://www.linkedin.com/company/norelem-us,yes,norelem US,201-500,9,$10M-$50M,"Greenville, SC 29607",-,Machinery Manufacturing,Public Company,fabtech:mfg
+oasisscientific.com,https://www.linkedin.com/company/oasis-scientific-inc-,yes,Oasis Scientific Inc.,1-10,6,<$1M,Taylors,South Carolina,Retail Office Equipment,Privately Held,fabtech:mfg
+wenkerinc.com,-,no,-,-,-,-,-,-,-,-,fabtech:mfg
+msj.edu,https://www.linkedin.com/company/a-family-owned-business,yes,A Family Owned Business,1001-5000,1076,-,Charlotte,North Carolina,Manufacturing,-,exa:mfg
+citizenssprinkler.com,https://www.linkedin.com/company/citizens-sprinkler-inc,yes,Citizens Sprinkler Inc.,11-50,2,$1M-$10M,Charlotte,North Carolina,Construction,Privately Held,exa:fls
+wesworshamfireprotection.com,https://www.linkedin.com/company/worsham-sprinkler-company,yes,Worsham Sprinkler Company,11-50,2,$1M-$10M,Raleigh,North Carolina,Construction,-,exa:fls
+a1firesec.com,https://www.linkedin.com/company/a-1-fire-alarm,yes,A 1 Fire Alarm,1-10,2,<$1M,Bristolville,Ohio,Public Safety,-,exa:fls
+alliancefire.com,https://www.linkedin.com/company/alliance-fire-systems,yes,Alliance Fire Systems,11-50,4,<$1M,Loganville,Georgia,Construction,-,exa:fls
+phoenixfire.com,https://www.linkedin.com/company/phoenixfiresystemsinc,yes,"Phoenix Fire Systems, Inc",51-200,24,$10M-$50M,Frankfort,Illinois,Construction,Privately Held,exa:fls
