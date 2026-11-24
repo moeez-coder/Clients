@@ -23,16 +23,16 @@
   - Sourcing engineer: `-` (unassigned)
 - **Slack channel ID:** C0CC9P7M8JC
 - **HeyReach workspace:** `170370` (heyreachConnected: true). In sessions this is the HeyReach connector `mcp__18d10a27-ea89-4cf6-85b4-c7cc82b76e83__*`, the only connector whose `list_workspaces` returns 170370. Instantly, Smartlead and PlusVibe are not connected, and masterInboxWorkspaceId is `-`.
-- **Infrastructure:** not submitted to infra (`infrastructure` is `{}`).
+- **Infrastructure:** submitted to infra 2026-11-16 09:32 UTC (`vaSeatCount` 10, `linkedinSeatCount` 10). It was `{}` up to the 2026-11-05 resync.
 - **Booking link:** `-` (blank)
 - **Gaps in tracking_clients:** these are recorded, not filled by guessing.
   - `callTranscript` is empty. (`website`, `clientBrief` and `clientDescription` were filled in tracking_clients between 2026-10-29 and 2026-11-05.)
-  - SDR defaults (headline, about, position, location, banner) are empty.
+  - SDR defaults are now set (first seen at the 2026-11-24 resync): position "Client Partnerships Manager", location "Ronkonkoma, New York, United States", plus headline, about and banner. They were empty up to 2026-11-05.
 - **DNC:** `dncList` has 160 entries and `dncSkipped` is false. All 160 are historical clients scraped from `elitetechnical.com/for-business/clients-served/`. Every row has the status "Review before outreach; exclude pending account-owner confirmation". **No row has a domain** (`Company Domain (verify)` is blank on all 160), so exclusion has to match on company name.
   - By industry: Aerospace & Defense 53; Commercial Enterprise/Financial/Media 43; Health Care/Medical Device 21; Systems Integrators 16; Emerging Technology 14; Federal & State Governments 13.
   - None of the five "dream companies" in the ICP form (AeroVironment, TransMedics, Varonis, Tenable, Commvault) is on the DNC list.
 - **Tracking client ID:** `254dc33b-4f9f-4712-9b6b-eca49c5a5ffc`
-- **Last synced:** 2026-11-05 via `get_client` + `list_sourcing_configs`
+- **Last synced:** 2026-11-24 via `get_client` + `list_sourcing_configs` (14 configs, unchanged from the table below)
 
 ## Sourcing configs
 
@@ -153,6 +153,25 @@ On 2026-10-30 Moe asked to set up the "top 5" campaigns from the Oct 26 proposal
 
   That gives about 7×25 + 4×3 = **187 connection requests a day** across the pool at current limits. With no Sales Nav seat on any account, Sales Nav search URLs can't be run from this workspace.
 
+## HeyReach schedules (workspace 170370)
+
+This is the only record of each campaign's schedule: no HeyReach tool reads a schedule back. The rule is CLAUDE.md's "HeyReach schedule rule" (7 days a week). Status is from `get_all_campaigns` on 2026-11-24.
+
+| HeyReach id | Campaign | Status 2026-11-24 | Days | Daily window | Timezone | Recorded since |
+|---|---|---|---|---|---|---|
+| `710103` | US \| Recruiter \| Cybersecurity Open Roles \| Moe v1 | IN_PROGRESS | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | set at creation 2026-11-05 |
+| `710044` | US \| Recruiter \| IT Support Open Roles \| Moe v1 | IN_PROGRESS | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | set at creation 2026-11-05 |
+| `710042` | US \| Recruiter \| Software Eng Open Roles \| Moe v1 | DRAFT | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | set at creation 2026-11-05 |
+| `710046` | US \| Recruiter \| Elec & Controls Roles \| Moe v1 | DRAFT | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | set at creation 2026-11-05 |
+| `710104` | US \| Recruiter \| Data & AI Open Roles \| Moe v1 | DRAFT | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | set at creation 2026-11-05 |
+| `710105` | US \| Recruiter \| Cloud DevOps Open Roles \| Moe v1 | DRAFT | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | set at creation 2026-11-05 |
+| `710107` | US \| Recruiter \| ERP & Apps Open Roles \| Moe v1 | DRAFT | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | set at creation 2026-11-05 |
+| `710108` | US \| Recruiter \| Mech & Mfg Open Roles \| Moe v1 | DRAFT | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | set at creation 2026-11-05 |
+| `695764` / `695765` / `695766` / `695767` / `695768` | C8 / C9 / C10 / C2 / C3 | DRAFT, except C9 `695765` PAUSED | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | set at creation 2026-10-30 |
+| `693168` | US \| C1 Cleared Talent Fed Contracts \| Moe v1 | PAUSED | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | 2026-10-30, per Moe (Mon–Fri before that) |
+| `695698` | US \| C1b Fed Contracts 12mo \| Moe v1 | PAUSED | 7 (Mon–Sun) | 08:00–17:00 | America/New_York | 2026-10-30, same as C1 |
+| `695700` | US \| C1 Cleared Talent Fed Contracts \| Moe v2 | PAUSED | `-` (never recorded) | `-` | `-` | not created by a recorded session; see the 2026-11-0x History entries. Set it to 7 days before it is ever resumed. |
+
 ## GTM Sheets
 
 Folder **Clients / Elite Technical** (`b87ff0a8-59d1-4093-af63-b9e38440ed60`), at https://dashboard.algoacquisition.ai/gtm-sheet#/gtm-sheet?folder=b87ff0a8-59d1-4093-af63-b9e38440ed60.
@@ -250,6 +269,13 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
   - Tools: Blitz `tam-by-jobs` + `jobs/company` + `waterfall-icp-keyword`. Details: `2026-11-05-leads.query.md`.
 
 ## History
+
+- **2026-11-24**: **7-day schedule check on every IN_PROGRESS HeyReach campaign. No campaign was changed.** This was Moe's approval of 2026-11-24 (orchestrator session) for the CLAUDE.md "HeyReach schedule rule".
+  - `get_all_campaigns` (workspace 170370) listed 16 campaigns. Two are IN_PROGRESS: `710103` (Cybersecurity) and `710044` (IT Support).
+  - Both were already recorded as 7 days, 08:00–17:00 America/New_York, in the 2026-11-05 entry ("All 8 HeyReach campaigns use all 11 senders and the 7-day NY schedule"). Per the approval they were left running, with no pause or schedule call. `get_campaign` on 2026-11-24 confirms both are IN_PROGRESS.
+  - Paused and draft campaigns, and all senders, were left untouched. `695700` (C1 v2, PAUSED) has no recorded schedule, which is flagged in the new **HeyReach schedules** table.
+  - Also resynced the Profile: SDR defaults are now set, and infra was submitted 2026-11-16 (10 VA / 10 LinkedIn seats). The 14 sourcing configs are unchanged.
+  - No campaign or doc was created, so no task-board entry is due.
 
 - **2026-11-06**: **IT Infrastructure & Support job-change check via GTM Sheets Enrich Person; 80 leads excluded from HeyReach `710044`** (scheduled follow-up to the launch).
   - Enrich Person was filled on 2,816 of 2,817 rows. Row 2069 has a Sales-Nav-style URL, and the only provider for that kind of URL (HarvestAPI) is out of credits.
