@@ -233,6 +233,27 @@ Other rules that still apply to every doc:
 - Commit each version's markdown to `clients/<slug>/campaign-docs/` with its
   tracking_clients doc id, and add a History entry for each status change.
 
+## Task log rule — every campaign or doc created goes on Moe's task board
+
+(Standard set by the repo owner, 2026-11-24.) Whenever a session **creates a
+campaign** or **creates a campaign doc** for a client, it logs that work as a
+task on the tracking_clients task board, marked done the same day:
+- What counts as creating a campaign: a tracking_clients campaign
+  (`create_campaign` / `create_campaigns_from_plan`), a HeyReach campaign, or
+  a GTM Sheets campaign workbook. What counts as creating a doc:
+  `create_campaign_doc`.
+- `create_task` with:
+  - `owner: "me"` (Moe's token)
+  - `client`: the client id
+  - `title`: `<Client> | Created campaign: <name>` or `<Client> | Created campaign doc: <title>`
+  - `description`: the ids (tracking_clients, HeyReach, doc) and one line on why
+  - `due_date`: today
+  - `status: "done"`, `progress: 100`
+- If the task doesn't come back as done, call `complete_task` with its id.
+- One task per campaign or doc. A campaign built in tracking_clients and
+  HeyReach together is one task that lists both ids.
+- Record the task id in the client README History entry for that creation.
+
 ## listbuild — the exhaustive-recall engine (project skill, `.claude/skills/listbuild/`)
 
 A self-contained, tested (123 tests) Python pipeline shipped *inside this repo*
@@ -534,6 +555,33 @@ shared across types, never reused from another vertical.
 No delete-campaign tool exists — only pause; a wrongly-created campaign gets
 paused and flagged for manual deletion in the UI. `delete_webhook` requires
 deactivating it first (`update_webhook`, `isActive: false`).
+
+## HeyReach schedule rule — every campaign runs 7 days a week
+
+(Standard set by the repo owner, 2026-11-16.) This applies to every HeyReach
+campaign, for every client and every campaign type, including Vertical
+Launch, MPC / open-role, Casual Connections and single-sequence campaigns.
+
+- **New campaigns:** before `start_campaign`, call `update_campaign_schedule`
+  with all seven `enabled<Day>` flags `true`.
+  - The daily window and timezone are chosen per client and recorded. A
+    session may propose them, but the owner decides.
+  - Cloning from a template does **not** guarantee a 7-day schedule. Set it
+    explicitly every time.
+- **Running campaigns:** HeyReach only changes the schedule on a DRAFT,
+  SCHEDULED or PAUSED campaign. Making a live campaign 7-day means
+  `pause_campaign` → `update_campaign_schedule` → `resume_campaign`.
+  - That briefly stops a live campaign, so it needs the owner's go-ahead
+    for each campaign (or batch) at the time.
+  - Confirm the status afterwards with `get_campaign`.
+- **Record the schedule every time it is set.** No HeyReach tool *reads* a
+  campaign's schedule; `get_campaign` doesn't return it. The client README
+  is the only record. Each campaign entry states its days, its daily
+  window and its timezone, and the History entry for each change says what
+  it was before and after.
+- If a client explicitly asks for a non-7-day schedule, that exception
+  must be on record in the client README History, with the date and who
+  asked. Otherwise 7 days is the rule.
 
 ## Sourcing protocol — tool order, scope, and what to pull
 
