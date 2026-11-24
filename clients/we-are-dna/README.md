@@ -15,7 +15,7 @@
 - **Infrastructure:** `{"vaSeatCount": 10}`. `callTranscript` and `notes` are empty.
 - **Created in tracking_clients:** 2026-11-02 (`createdBy: sales`)
 - **Tracking client ID:** `f5ff426b-c514-4a64-91b0-0e141a6a0669`
-- **Last synced:** 2026-11-23 via `get_client` + `list_sourcing_configs` + `list_campaigns` + `list_campaign_docs`. Drift since 2026-11-18: `infrastructure` now also holds `clientConnectsLinkedin: true`; Campaign 6 (`6ce9ac82-…`) shows step 18, last saved 2026-11-22 20:35 UTC by another session or the dashboard. Otherwise unchanged: DNC 143, 1 sourcing config, 1 campaign, doc 1 `client_review` (0 comments, 0 changes), Doc 2 `draft`.
+- **Last synced:** 2026-11-24 via `get_client` + `list_sourcing_configs` + `gtm_sheet_list_heyreach_campaigns`. No drift from 2026-11-23: same profile fields, DNC 143, `infrastructure` `{vaSeatCount: 10, clientConnectsLinkedin: true}`, 4 sourcing configs (all `draft`, 1 campaign each).
 
 **Who they are:** a Bristol creative agency, trading since 2010. They work across three pillars: Employer Branding, Employee Engagement, and Marketing Solutions, using their BrandShift™ method. **They are not a recruitment agency** and charge no placement fees. Deal value is about $45k and the sales cycle is about 12 weeks (ICP form).
 
@@ -66,10 +66,10 @@ Webhook URLs are not stored in the repo. Get them from `gtm_sheet_get_table`. A 
 
 | Campaign | HeyReach id | List | Status | Senders | Schedule (days, window, timezone) |
 |---|---|---|---|---|---|
-| UK \| PE-Backed Growth \| C6 \| Moe v1 | 735291 | 1170661 | DRAFT | 10 | not recorded (set before start) |
-| UK \| Employer Reputation CEO \| Doc1 C1 | 756183 | 1210620 | DRAFT, 0 leads | 10 (all seats) | Mon-Sun, 09:00-17:00, Europe/London (set 2026-11-23 via HeyReach MCP `update_campaign_schedule`) |
-| UK \| Employer Reputation People \| Doc1 C2 | 756186 | 1210624 | **IN_PROGRESS** (started 2026-11-23), 818 + 281 launch-set leads pushed; tracking_clients status `running` | 10 (all seats) | Mon-Sun, 09:00-17:00, Europe/London (set 2026-11-23 via HeyReach MCP `update_campaign_schedule`) |
-| UK \| Employer Reputation TA \| Doc1 C3 | 756187 | 1210625 | DRAFT, 0 leads | 10 (all seats) | Mon-Sun, 09:00-17:00, Europe/London (set 2026-11-23) |
+| UK \| PE-Backed Growth \| C6 \| Moe v1 | 735291 | 1170661 | DRAFT | 10 | not recorded; must be set to 7 days before start (left alone 2026-11-24: draft, not active) |
+| UK \| Employer Reputation CEO \| Doc1 C1 | 756183 | 1210620 | DRAFT, 0 leads | 10 (all seats) | Mon-Sun, 09:00-17:00, Europe/London (set 2026-11-23 via HeyReach MCP `update_campaign_schedule`; draft, not touched 2026-11-24) |
+| UK \| Employer Reputation People \| Doc1 C2 | 756186 | 1210624 | **IN_PROGRESS** (started 2026-11-23), 818 + 281 launch-set leads pushed; tracking_clients status `running` | 10 (all seats) | Mon-Sun, 09:00-17:00, Europe/London (set 2026-11-23 via HeyReach MCP `update_campaign_schedule`, before start). 2026-11-24 7-day check: before = after = Mon-Sun 09:00-17:00 London; no change needed, not paused |
+| UK \| Employer Reputation TA \| Doc1 C3 | 756187 | 1210625 | DRAFT, 0 leads | 10 (all seats) | Mon-Sun, 09:00-17:00, Europe/London (set 2026-11-23; draft, not touched 2026-11-24) |
 
 C1-3 copy as saved (variable-free connection notes Moe chose, messages, fallbacks): `campaign-docs/2026-11-23-doc1-c1-3-heyreach.json`. Message 1 goes 1 day after acceptance, then +3, +3 days; unaccepted requests are withdrawn after 25 days. Replies and the 10-day reputation snapshot: **Algo handles both** (Moe, 2026-11-23); bookings go to the booking link above.
 
@@ -112,6 +112,12 @@ C1-3 copy as saved (variable-free connection notes Moe chose, messages, fallback
 - `sourcing/tam/2026-11-12-tam-read.query.md` with `tam_counts.py`/`tam_counts.json` (Blitz API `POST /v2/search/companies` + `POST /v2/jobs/search`, count-only, `max_results: 1`), `tam_samples.py`/`tam_samples.json` (Blitz `POST /v2/jobs/search`, 25 most recent postings per segment), and `2026-11-12-clay-sample-seg4.json` (Clay MCP `search-companies`, 20 rows). This is the TAM/SAM read for doc 1's five open-role segments, pulled 2026-11-12. No config exists yet (config UUID `-`). 145 Blitz records used.
 
 ## History
+
+- **2026-11-24**: **7-day schedule check on active HeyReach campaigns: nothing to change.** Done under Moe's 2026-11-24 approval (given in the orchestrator session) that every IN_PROGRESS campaign sends 7 days a week (CLAUDE.md "HeyReach schedule rule").
+  - **Live check:** `gtm_sheet_list_heyreach_campaigns` (client We Are DNA, workspace 172307) shows 4 campaigns. Only **756186** (UK | Employer Reputation People | Doc1 C2) is IN_PROGRESS. 756183 (C1), 756187 (C3) and 735291 (C6) are DRAFT, so they were left alone as the batch rules say.
+  - **756186:** already 7-day. It was set to Mon-Sun, 09:00-17:00 `Europe/London` on 2026-11-23 before it started (History below). Before: Mon-Sun 09:00-17:00 London. After: the same. It was **not** paused, updated or resumed, because doing that would have stopped a live campaign without changing anything. Senders were not touched.
+  - **Open:** C6 (735291) still has no recorded schedule. It must be set to 7 days before it starts. The proposed 08:00-18:00 window in older entries was for the Casual Connections campaign. Live C1-3 use 09:00-17:00.
+  - Also merged `origin/claude/initialize-u03yyd` (CLAUDE.md task log rule). Resync: no drift. No campaign or doc was created, so there is no task log entry. (session_013MzxQfx1nmt7ee8awqF1mG)
 
 - **2026-11-23**: **Snapshot 3 (Prospeo + AI Ark gap-fill) built and loaded; C2 marked running in tracking_clients; 281 more C2 leads pushed** (Moe: "Prospeo, cap 400", "Yes, push new C2 leads", "make it live in tracking clients aswell").
   - **Leads** (`2026-11-23-3-leads.query.md`): C1 1,869 launch set at 999 companies, C2 1,099 at 749, C3 453 at 311 (from 1,588/806, 818/521, 122/108 in snapshot 1). Prospeo 97 credits (14,896 left), AI Ark 36 (64 left), within the 400 cap. Snapshot 2 files were accidentally rebuilt once and restored from git before commit.
