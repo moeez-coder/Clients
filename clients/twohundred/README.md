@@ -41,7 +41,7 @@
   - It almost certainly holds existing/past partners. The form names Oracle, Palo Alto Networks, SAP, Workday, Wonderful, Wiz and Zscaler as past partners, and the brief adds Ivalua.
   - **No sourcing pull should go to HeyReach until that file is loaded.**
 - **Tracking client ID:** `6de16a2e-b5af-4380-acad-685a519744b5`
-- **Last synced:** 2026-11-06 via `get_client` + `list_sourcing_configs` (+ `list_icp_configs`, `list_campaigns`)
+- **Last synced:** 2026-11-24 via `get_client` + `list_sourcing_configs`. The profile fields above are unchanged since 2026-11-06. There are now 11 configs, with C11 added.
 
 ## Sourcing configs
 
@@ -57,8 +57,9 @@
 | C8 Open Roles Field/Event Marketing: Blitz jobs + Clay hiring managers | C8 Open Roles, Field and Event Marketing | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
 | C9 Open Roles Country/Sales Leadership: Blitz jobs + Clay hiring managers | C9 Open Roles, Country and Sales Leadership | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
 | C10 Open Roles ABM/Demand/Partner Marketing: Blitz jobs + Clay hiring managers | C10 Open Roles, ABM, Demand and Partner Marketing | Nordics + NL; see ICP config | draft | 1 | 0 | `-` |
+| C11 Consulting and Advisory Firms: Blitz (Nordic/NL GTM and partner leaders) | C11 Consulting and Advisory Firms | Business Consulting and Services; Information Services | draft | 1 | 0 | `-` |
 
-Mirrored from `list_sourcing_configs` on 2026-11-12. All 10 configs use the Custom module, are static, have `campaign_split: false` (one campaign per list, so a split has no meaning), and have no Clay table yet. `company_count` and `lead_count` are both 0.
+Mirrored from `list_sourcing_configs` on 2026-11-24 (11 configs; C11 `8c8faf96-07d3-42a1-94eb-9675136d7f29` was added 2026-11-17). All configs use the Custom module, are static, have `campaign_split: false` (one campaign per list, so a split has no meaning), and have no Clay table yet. `company_count` and `lead_count` are both 0.
 
 ## Campaigns (tracking_clients, new system)
 
@@ -76,6 +77,29 @@ All 10 were created 2026-11-12 from approved doc `a4c10f55-28e7-420e-9040-d8fe8a
 | C8 | Open Roles, Field and Event Marketing | `c8b08608-897e-4ec0-8568-fc26c2525827` | `41d63fbf-1b66-44d1-ba91-2ad0b2def817` | `99443fa9-fbcf-450e-bcfe-89a57e40b5a1` | `729842` / `1152313` |
 | C9 | Open Roles, Country and Sales Leadership | `f7d16968-870a-4477-90d9-1cc32d3fd0bc` | `25cf23a0-bd3d-4d32-a8aa-9f91fb131150` | `01f08a0f-2a51-426f-9aad-7c0f8b128671` | `729843` / `1152315` |
 | C10 | Open Roles, ABM, Demand and Partner Marketing | `65ed1c2f-4a4e-4b3e-9fe5-9b7502d6c97f` | `55fb215f-cad1-4d8b-890a-72f366e81b38` | `f9c2c642-d732-420c-bf3f-7b90812be327` | `729844` / `1152317` |
+
+## HeyReach senders and schedule (2026-11-24)
+
+The state of workspace 172772 after the 2026-11-24 batch; see History 2026-11-24.
+- **Sender pool:** 10 accounts, all signed in, and none with broken auth (`get_campaign_senders`).
+  - **8 confirmed branded by Moe:** Erika Stefani 182761, Delosjene Encarnado 182788, Joanne Alfonso 182870, Joanna Alipio 185097, Shiela Inoc 230019, Milca Lavarias 243800, Chavali Praneeth 265480 and Sheryl Yare 277636.
+  - **2 held for Moe, branding not confirmed:** Artia Sanchez 277690 (login `lhaicalianga`) and Joshua Ramon 277872 (new, never audited).
+- **Schedule:** no tool in this session can read or set it, so every campaign's schedule is **not recorded**.
+
+| HeyReach id | Campaign | Status | Senders before → after | Schedule |
+|---|---|---|---|---|
+| 743543 | C1 CPO and CSCO Table v2 | IN_PROGRESS | 8 → 8 (no change) | not recorded, not changed |
+| 743545 | C5 The CISO Room v2 | IN_PROGRESS | 8 → 8 (no change) | not recorded, not changed |
+| 743546 | C7 Finance and People Leaders v2 | IN_PROGRESS | 8 → 8 (no change) | not recorded, not changed |
+| 743548 | C6 Nordic CIO Pulse v2 | IN_PROGRESS | 8 → 8 (no change) | not recorded, not changed |
+| 743550 | C11 Consulting and Advisory Firms v2 | PAUSED | 4 → 4: the add was blocked; see History | not recorded |
+| 729835 | C2 Beyond the Expo Hall v1 | DRAFT | 0 → 8 | not recorded |
+| 729836 | C3 New in the Seat v1 | DRAFT | 0 → 8 | not recorded |
+| 729837 | C4 Entering the Nordics v1 | DRAFT | 0 → 8 | not recorded |
+| 729842 | C8 Open Roles Field & Event Mktg v1 | DRAFT | 0 → 8 | not recorded |
+| 729843 | C9 Open Roles Country & Sales Lead v1 | DRAFT | 0 → 8 | not recorded |
+| 729844 | C10 Open Roles ABM Demand Partner v1 | DRAFT | 0 → 8 | not recorded |
+| 729831, 729838, 729840, 729841, 739441 | C1/C5/C6/C7/C11 v1 (superseded) | PAUSED | not recorded → unchanged | not recorded |
 
 ## HeyReach state (2026-11-13)
 
@@ -164,6 +188,22 @@ Webhook URLs can write to their tables, so they are not stored here. Get them fr
 
 ## History
 
+- **2026-11-24**: **All branded senders on every reachable campaign; the 7-day schedule is blocked.** This follows Moe's 2026-11-24 approval, relayed by the orchestrator session: (1) use all sender accounts on all campaigns, and (2) every IN_PROGRESS campaign sends 7 days a week.
+  - **Resync:** `get_client` showed no profile change. `list_sourcing_configs` now returns 11 configs (C11 added to the table).
+  - **No HeyReach connector reaches 172772.** All 31 HeyReach connectors were tried with `get_campaign` on 743543 and workspaceId 172772. Each returned 401 or "Workspace 172772 isn't available for this key". So `get_all_linked_in_accounts`, `update_campaign_accounts`, `update_campaign_schedule`, `pause_campaign` and `resume_campaign` could not run. Senders went through tracking_clients instead (`get_campaign_senders`, `set_campaign_senders`).
+  - **Sender pool:** 10 accounts, all signed in.
+    - Eight are the ones Moe confirmed branded (2026-11-18 and 2026-11-20).
+    - **Held for Moe, not added:** Artia Sanchez 277690 (login `lhaicalianga`; the 2026-11-20 check found no profile and its sign-in was broken then) and Joshua Ramon 277872 (new, never audited).
+    - Angelyn Pamisa 277691 is no longer in the workspace.
+  - **Factual-accuracy check:** I read the HeyReach sequences for 743543, 743550, 729835 to 729837 and 729842 to 729844. None names or speaks as one specific person; they use "we" or an unnamed "I". 743545, 743546 and 743548 were not read because their senders did not change.
+  - **Changes:**
+    - Added the 8 senders to DRAFT C2 729835, C3 729836, C4 729837, C8 729842, C9 729843 and C10 729844: 0 → 8 each. They stay in DRAFT.
+    - The 4 live v2 campaigns already had all 8 (no change).
+  - **Blocked:**
+    - The PAUSED C11 v2 (743550) add (Delosjene, Joanne, Joanna, Sheryl) was refused by this session's auto-mode permission check. It is still 4 senders.
+    - The paused v1 campaigns are not linked in tracking_clients, so they are out of reach.
+  - **7-day schedule: not done.** No tool reaches workspace 172772's schedule, so none of the 4 IN_PROGRESS campaigns was paused, and none was changed. Their schedules are not recorded. Default when it is done: 08:00–18:00 Europe/Copenhagen.
+  - No campaign or doc was created, so no task-log entry is needed.
 - **2026-11-20**: **4 more senders added to the 4 active v2 campaigns, confirmed by Moe from HeyReach profile cards** (Moe: "Aside from angelyn pamisa, add all of the rest to all the active campaigns").
   - **Added** with `set_campaign_senders`: Joanna Alipio (185097), Delosjene Encarnado (182788), Sheryl Yare (277636) and Joanne Alfonso (182870).
   - **Campaigns:** C1 v2 (743543), C5 v2 (743545), C7 v2 (743546) and C6 v2 (743548). Each now has 8 senders and was confirmed IN_PROGRESS afterwards. C6 briefly read STARTING, then IN_PROGRESS.
