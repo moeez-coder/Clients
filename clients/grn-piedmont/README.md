@@ -11,7 +11,7 @@
 - **HeyReach workspace ID:** 172413 (connected)
 - **Booking link:** https://calendly.com/grnpiedmont/introductory-business-conversation
 - **DNC:** 8 rows in tracking_clients (6 companies after the 2 header rows), copied to `context/dnc-list.csv`
-- **Last synced:** 2026-11-16 via `get_client` + `list_sourcing_configs` + `list_campaigns` + `list_campaign_docs`
+- **Last synced:** 2026-11-24 via `get_client` + `list_sourcing_configs` (HeyReach state via the GRN Piedmont connector); campaigns and doc last synced 2026-11-16
 
 Context copied from `get_client` on 2026-11-16: `context/client-brief.md`, `context/icp-form.md`, `context/client-description.md`, `context/caller-briefing.md`, `context/caller-faqs.md`.
 
@@ -37,6 +37,19 @@ Config UUIDs: Recruitment Specific Open Roles `fe214099-0834-40b6-9b18-d4517ecd0
 | Campaign "Recruitment Specific Campaign" | `ed2f167f-5cea-4b2e-833b-20b2aafe26e0` (HeyReach 734516, lead list 1169425) | **running** since 2026-11-16 08:37 UTC |
 
 Campaign 6 and the offers section were added to the campaign doc on 2026-11-16 as tracked suggestions; the text is in `campaign-docs/2026-11-16-campaign-6-recruitment-specific.md`.
+
+## HeyReach senders and schedules (workspace 172413)
+
+Read 2026-11-24 with the GRN Piedmont HeyReach connector (`get_all_linked_in_accounts`, `get_all_campaigns`, `get_campaign_sequence`). HeyReach has no tool that reads a schedule, so the schedule column only shows what is on record here.
+
+**Sender pool:** 11 accounts. 10 are active with valid sign-in: 182881, 195084, 195243, 195415, 195518, 196127, 203211, 212529, 261055, 278063. **Left out:** 271564 (cmissler17@aol.com, Chris Missler): inactive, sign-in not valid. None of the 11 has Sales Navigator. There is no Open Check campaign in this workspace, so that doesn't block anything.
+
+| HeyReach id | Name | Status | Senders now | Schedule on record | Planned change (Moe's 2026-11-24 batch, **not yet applied**) |
+|---|---|---|---|---|---|
+| 756466 | Recruitment Specific Campaign 2.0 | IN_PROGRESS | 10 (the full valid pool) | weekdays 07:00-19:00 America/New_York (set 2026-11-23) | senders: none needed; schedule: pause, set 7 days, 07:00-19:00 America/New_York, resume |
+| 734516 | Recruitment Specific Campaign | IN_PROGRESS | 7: 182881, 195084, 195243, 195415, 203211, 212529, 195518 | not recorded | pause, senders 7 -> 10 (add 196127, 261055, 278063), set 7 days 08:00-18:00 America/New_York, resume |
+| 730732 | US \| Fire & Life Safety Leaders \| GRN Piedmont v1 (doc Campaign 3) | DRAFT | 1: 182881 | not recorded | senders 1 -> 10 (copy speaks as "GRN Piedmont", not one person; the doc allows all accounts for Campaign 3). Schedule left alone: the batch only changes active campaigns |
+| 730731 | US \| Owner Succession \| GRN Piedmont v1 (doc Campaign 5) | DRAFT | 1: 182881 | not recorded | **no change, flagged for Moe:** the copy is first person as a senior leader ("a question I ask {ownership} manufacturers"), and the doc says Campaign 5 should send only from Harvey's account. Harvey has no account in this workspace, and 182881 is a managed sender, not Harvey |
 
 ## GTM Sheets
 
@@ -73,6 +86,7 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 
 ## History
 
+- **2026-11-24**: Session initialized (orchestrator dispatch). Re-synced from `get_client` + `list_sourcing_configs`; no drift in profile or the 3 configs (`fe214099-0834-40b6-9b18-d4517ecd03f1`, `e8538474-8bd8-4479-8878-5899efe1ccf4`, `88fe680f-eae0-40c5-b147-1edf40579466`). Recorded every HeyReach campaign's senders, sequence check and schedule (section above) ahead of Moe's 2026-11-24 batch: all valid senders on all campaigns, 7-day schedules on active campaigns. **Not applied yet.** The approval came relayed through an orchestrator notification, not from Moe in this session, and the HeyReach schedule rule needs the owner's go-ahead at the time to pause live campaigns. Waiting for that go-ahead. Flagged: 730731 Owner Succession (Campaign 5) stays as it is under the factual-accuracy guard; 271564 (Chris Missler) has a broken sign-in. Session session_013MzxQhDJ5FhMvdPeQEAMTM.
 - **2026-11-23** — Moe: "Source and Push more leads into the campaign. Until then do 2.0 in heyreach for the performing campaign." **Expanding existing segment** (`recruitment-specific-open-roles`), Blitz only.
   - Performance of 734516 after 7 days: 1,261 connection requests, 98 accepted (7.8%), 59 conversations, 11 replies (18.6%), 2 auto-tagged interested.
   - **2.0:** HeyReach campaign 756466 "Recruitment Specific Campaign 2.0" on new list 1211197, same sequence copied from 734516, 10 senders (7 already on 734516 plus 3 idle accounts: 196127, 261055, 278063; 271564 has a broken sign-in), weekdays 07:00-19:00 Eastern, excludes leads with a conversation on another account and leads the same sender contacted in another campaign. It holds **only new leads**.
