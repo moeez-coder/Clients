@@ -10,14 +10,14 @@
 - **Slack channel ID:** C0CDR13H0MV
 - **Tracking client ID:** `94da4a2f-8f90-4bc0-87e6-22ff98fafd6a`
 - **Campaign strategist:** moeez@algoacquisition.ai (GTM engineer, sourcing engineer, closer: `-`)
-- **HeyReach workspace:** `172344` (heyreachConnected: true). In sessions this is the `Gigworks` HeyReach connector (`mcp__Gigworks__*`). Instantly, Smartlead and PlusVibe are not connected. masterInboxWorkspaceId `-`. DNC list: 0 entries (`dncSkipped: false`).
+- **HeyReach workspace:** `172344` (heyreachConnected: true). In sessions this is the `Gigworks` HeyReach connector (`mcp__Gigworks__*`). Instantly, Smartlead and PlusVibe are not connected. masterInboxWorkspaceId `-`. DNC list: 0 entries (`dncSkipped: true` as of 2026-11-24; was `false`).
 - **What they sell:** On-demand, shift-based W-2 staffing. Businesses post shifts in a web portal, vetted workers claim them in an app, and GigWorx handles payroll, insurance and compliance. They bill only for hours worked, with no subscription or minimums. Live markets are Bozeman/Helena MT, Salt Lake City UT and South Bend–Elkhart IN. Founded in 2018.
 - **Offer:** GigWorx comps the client's first shift.
 - **Pricing line:** "It depends, book a call." Pay rate plus a transparent markup.
 - **Meeting hours:** EDT 08:30–18:00
 - **Sales Nav:** no
 - **Onboarding form:** submitted 2026-10-29. The client was added to `tracking_clients` on 2026-11-02.
-- **Last synced:** 2026-11-17 via `get_client` + `list_sourcing_configs` + `list_icp_configs` + `list_campaigns` + `list_campaign_docs`
+- **Last synced:** 2026-11-24 via `get_client` + `list_sourcing_configs` (no drift except `dncSkipped`). Earlier full sync 2026-11-17 via `get_client` + `list_sourcing_configs` + `list_icp_configs` + `list_campaigns` + `list_campaign_docs`
 
 ## ICP (from `list_icp_configs`)
 
@@ -118,7 +118,29 @@ Session IDs: original placeholder `84fdb583-6cb5-4920-99c7-3004d79e8aca` (pre-do
 - **Custom fields:** `company_name`, `role_title` (the most-posted hourly Indeed title at that company, cleaned; blank for 184 leads so they get the approved fallback copy), `posted_month`, `open_roles`, `other_roles`. Payload: `sourcing/c7-multiple-open-roles/2026-11-18-heyreach-payload.json`.
 - **tracking_clients:** no C7 campaign record yet; create one and link HeyReach 743845.
 
+## HeyReach campaign schedules (workspace 172344)
+
+No HeyReach tool reads a campaign's schedule, so this table is the only record. Checked 2026-11-24 with `get_all_campaigns`.
+
+| HeyReach id | Campaign | Status 2026-11-24 | Schedule on record | Target (7-day rule) |
+|---|---|---|---|---|
+| 743845 | US \| C7 Multiple Open Roles \| GigWorx \|Moe v1 | IN_PROGRESS | 7 days, 08:30–17:30 `Eastern Standard Time` (set at launch 2026-11-18) | same, re-applied: **not yet done**, pause blocked |
+| 739134 | US \| C1 Hourly Roles Won't Close \| GigWorx \|Moe v1 | IN_PROGRESS | not recorded (created 2026-11-17 by another session) | 7 days, 08:00–18:00 `Eastern Standard Time`: **not yet done**, pause blocked |
+| 739110 | US \| C5 Owner on the Floor \| GigWorx \|Moe v1 | FINISHED | not recorded | skipped: finished |
+| 739135 / 739136 / 739137 / 739138 | C2 / C3 / C4 / C6 | PAUSED | not recorded | skipped: paused, running state not to be changed |
+
+C1's timezone: every prospect is in South Bend / Elkhart, Indiana. Northern Indiana uses Eastern time with daylight saving, so HeyReach's `Eastern Standard Time` applies.
+
 ## History
+
+- **2026-11-24** — **7-day schedule rule: blocked, nothing changed in HeyReach.** Moe approved this on 2026-11-24 in the orchestrator session: every IN_PROGRESS campaign gets pause → `update_campaign_schedule` (all 7 days) → resume.
+  - In scope: C7 743845 and C1 739134, the only IN_PROGRESS campaigns. C5 739110 is FINISHED; C2/C3/C4/C6 are PAUSED. These were left untouched. The pending "Resume Campaign" approval from the GigWorx Main session (2026-11-17) was checked against live state, not assumed: those four are still paused.
+  - `pause_campaign` was denied on both by this session's auto-mode permission classifier, so no schedule was changed and both campaigns are still IN_PROGRESS. Planned schedules are in the table above:
+    - C7: before 7 days 08:30–17:30 Eastern (recorded); after unchanged.
+    - C1: before not recorded; target 7 days 08:00–18:00 Eastern.
+  - Needs the owner to allow `pause_campaign` / `update_campaign_schedule` / `resume_campaign` on the GigWorx HeyReach connector, or to make the change in the HeyReach UI.
+  - Also resynced: `get_client` shows `dncSkipped: true` (was `false`); sourcing configs unchanged.
+  - Session: branch `claude/practical-darwin-ejgil8`.
 
 - **2026-11-18** — **C7 launched in HeyReach** on the repo owner's instruction ("Add all 564 and make them live"). That instruction stands in for the campaign-doc approval step; **Mathew has not reviewed C7 specifically**, but its copy is his approved C1 copy with message 1 reworded (see the C7 section above). Campaign 743845, list 1185139, 564 leads, 7 days 08:30–17:30 Eastern, sender 276172.
   - Capacity note: one sender at about 25 connection requests a day, shared with C1/C5 (live) and C2/C3/C4/C6 (paused), so 564 leads take several weeks.
