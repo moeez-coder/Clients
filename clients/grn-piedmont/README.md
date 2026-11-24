@@ -123,6 +123,7 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 - `sourcing/tam/2026-11-24-mpc-segments-companies.csv` — 1,282 hiring companies, one row each: segment flags, repost/prolonged counts, whether they're in the live campaign. Derived from the jobs file (`mpc_segments_size.py`), 2026-11-24
 - `sourcing/tam/2026-11-24-mpc-segments-sample-leads.csv` — 143 rows (92 with a LinkedIn URL, 51 `-` placeholders for companies with no match) at 93 sampled companies, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-24, keyed by `linkedin_url`. Reachability sample only, not a launch list (`mpc_segments_sample.py`)
 - `sourcing/tam/2026-11-24-mpc-segments-posting-check.csv` — 120 postings checked open or closed on the public LinkedIn posting page, 2026-11-24 (not an API pull)
+- `sourcing/tam/2026-11-24-apify-charlotte-jobs.csv` — 600 job postings (392 Indeed, 208 LinkedIn), Apify actor `LzsIpToRTUZSnqjbS` via GTM Sheets table `1a3119fc-23ee-42e3-a466-56c778e5cd3f` (Charlotte NC 100 mi, last 7 days, capped at 600 items), pulled 2026-11-24, coverage test against the Blitz pull (no config; `apify_compare.py`)
 - `sourcing/tam/2026-11-24-mpc-segments.query.md` + `-size.json` — the segment read: table, sample results, TAM/SAM, message wording, Apify fit
 - `sourcing/mpc-executive/2026-11-24-leads.csv` — 361 rows (107 launch set; the rest are marked removed with a reason, mostly people already in 734516/756466), config **MPC Executive** `05b28816-06e7-4d7d-9a6d-d9b606f39a68`, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-24, keyed by `linkedin_url`. The same folder holds `2026-11-24-companies.csv` (every company assigned to the segment, with leads per company), `-jobs.csv` (its kept postings) and `-role-phrases.csv` (final posting, open/closed, role, JD phrase, open line). Query record: `sourcing/mpc-build/2026-11-24-leads.query.md`
 - `sourcing/mpc-operations-plant/2026-11-24-leads.csv` — 724 rows (39 launch set; the rest are marked removed with a reason, mostly people already in 734516/756466), config **MPC Operations & Plant** `eeb54cb5-55bf-47ac-b39a-744e747f2609`, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-24, keyed by `linkedin_url`. The same folder holds `2026-11-24-companies.csv` (every company assigned to the segment, with leads per company), `-jobs.csv` (its kept postings) and `-role-phrases.csv` (final posting, open/closed, role, JD phrase, open line). Query record: `sourcing/mpc-build/2026-11-24-leads.query.md`
@@ -132,6 +133,11 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 
 ## History
 
+- **2026-11-24**: **Apify coverage test** (Moe approved).
+  - Actor `LzsIpToRTUZSnqjbS` on GRN's titles, Charlotte 100 mi, last 7 days, $5 cap. 600 rows (capped).
+  - Only 2 of 257 companies with a leadership posting overlap the Blitz pull. Apify has no industry or size filter, so most of its employers are outside the ICP; about 2 ICP manufacturers in the sample were Apify-only.
+  - Recommendation: keep Blitz as the MPC feed. A wider state-level test with a Blitz company match would settle whether Indeed adds enough. Details: `sourcing/tam/2026-11-24-mpc-segments.query.md`.
+  - Session session_013MzxQhML2MDSCMvFCprgqD.
 - **2026-11-24**: **5 MPC segment campaigns built in HeyReach and GTM Sheets, left in DRAFT** (Moe: "Yes to all 3").
   - **HeyReach** (workspace 172413):
     - Campaigns and lists: 760469/1218894 Executive, 760470/1218896 Ops & Plant, 760471/1218897 Eng & Quality, 760473/1218898 Supply Chain, 760475/1218899 EHS & Maint. Each is linked to its tracking_clients campaign.

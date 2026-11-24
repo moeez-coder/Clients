@@ -126,3 +126,27 @@ Read with `gtm_sheet_signals` (client Talent Edge), 2026-11-24.
 **Coverage comparison:** not run yet. It needs a GTM Sheets table and spends Apify credits, and creating anything waits for Moe's go-ahead. Proposed test:
 - one run: Charlotte NC, 100 mi, `hoursOld` 168, GRN's titles, cap $5;
 - then match its employers against the same week of Blitz postings (this file) to count companies only Apify finds.
+
+## Apify coverage test: result (run 2026-11-24, approved by Moe)
+
+**The run:**
+- Actor `LzsIpToRTUZSnqjbS` (Indeed + LinkedIn), started from GTM Sheets table `1a3119fc-23ee-42e3-a466-56c778e5cd3f` (workbook `2dc34e83-4191-4b4a-afc4-ede398922778`).
+- Input: location Charlotte NC, `distance` 100 mi, `hoursOld` 168, 16 GRN titles, staffing firms excluded, `maxItems` 600, cap $5.
+- It **hit the 600-item cap**, so it is a sample, not the full week.
+- Rows: `2026-11-24-apify-charlotte-jobs.csv`. Comparison: `apify_compare.py`.
+
+**Results:**
+- **Postings:** 600 (392 Indeed, 208 LinkedIn) at 407 companies, all in NC/SC. After the same title gates as Blitz plus a leadership-title check, 357 postings at 257 companies remain.
+- **Overlap with Blitz:** only **2 of the 257** are in the Blitz 120-day pull. The reason is that the Blitz pull is filtered to manufacturing industries and 201 to 1,000 employees, and Apify filters neither: most of its employers are hospitals, construction firms, services and 10,000+ companies.
+- **Company size, where Indeed states one:** 14 of the 257 are in 201 to 1,000, 93 are outside it, and 150 are unknown.
+  - Of the 16 ICP-size companies, about 2 look like manufacturers that Blitz did not have: Elementia (building materials) and Bracco Medical Technologies.
+  - The rest are healthcare, construction, services or distribution.
+- **The other direction:** Blitz had 6 kept same-week postings in cities Apify covered, and Apify returned only 1 of those companies (Bison). The 600 cap limits how much this proves.
+
+**Read:** Apify adds Indeed, but as a GRN feed it costs a city-by-city setup plus a firmographic match step, and in this sample it added about 2 ICP manufacturers per metro-week. Blitz `POST /v2/jobs/search` with industry, size and HQ filters stays the primary feed for the MPC segments.
+
+If Apify is used, the next test would be:
+- one wider run per state, with no item cap;
+- a Blitz company match, which costs about 1 record per company.
+
+That would show whether the Indeed-only share is worth the setup.
