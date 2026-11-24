@@ -1,0 +1,407 @@
+{
+ "executive": {
+  "name": "US | Recruiter | MPC Executive | Moe v1",
+  "sequence": {
+   "nodeType": "CONNECTION_REQUEST",
+   "actionDelay": 0,
+   "actionDelayUnit": "HOUR",
+   "payload": {
+    "messages": [],
+    "fallbackMessage": null,
+    "toBeWithdrawnAfterDays": 21
+   },
+   "conditionalNode": {
+    "nodeType": "MESSAGE",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY",
+    "payload": {
+     "messageVersions": [
+      {
+       "type": "TEXT",
+       "message": "Hey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?"
+      }
+     ],
+     "fallbackMessage": "Hey there, thanks for connecting.\n\nSaw your team has a leadership role listed.\n\nNot sure if that's a fresh one or something you've had open for a bit, but either way I have a candidate who fits that pretty closely.\n\nWant me to send their profile over so you can take a look?"
+    },
+    "conditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 0,
+     "actionDelayUnit": "HOUR"
+    },
+    "unconditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 2,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messageVersions": [
+       {
+        "type": "TEXT",
+        "message": "Hey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other senior leadership role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+       }
+      ],
+      "fallbackMessage": "Hey there, following up on this, didn't want it to get buried in your inbox.\n\nIf you have a senior leadership role still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 2,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messageVersions": [
+        {
+         "type": "TEXT",
+         "message": "No worries if the timing's off, {FIRST_NAME}.\n\nSenior leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+        }
+       ],
+       "fallbackMessage": "No worries if the timing's off.\n\nSenior leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR"
+      },
+      "unconditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 1,
+       "actionDelayUnit": "DAY"
+      }
+     }
+    }
+   },
+   "unconditionalNode": {
+    "nodeType": "END",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY"
+   }
+  },
+  "text": "Connection request: blank (no note).\n\nMessage 1 (1 day after accepting):\nHey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?\n\nMessage 2 (2 days later):\nHey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other senior leadership role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?\n\nMessage 3 (2 days later):\nNo worries if the timing's off, {FIRST_NAME}.\n\nSenior leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+ },
+ "operations-plant": {
+  "name": "US | Recruiter | MPC Ops & Plant | Moe v1",
+  "sequence": {
+   "nodeType": "CONNECTION_REQUEST",
+   "actionDelay": 0,
+   "actionDelayUnit": "HOUR",
+   "payload": {
+    "messages": [],
+    "fallbackMessage": null,
+    "toBeWithdrawnAfterDays": 21
+   },
+   "conditionalNode": {
+    "nodeType": "MESSAGE",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY",
+    "payload": {
+     "messageVersions": [
+      {
+       "type": "TEXT",
+       "message": "Hey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?"
+      }
+     ],
+     "fallbackMessage": "Hey there, thanks for connecting.\n\nSaw your team has a leadership role listed.\n\nNot sure if that's a fresh one or something you've had open for a bit, but either way I have a candidate who fits that pretty closely.\n\nWant me to send their profile over so you can take a look?"
+    },
+    "conditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 0,
+     "actionDelayUnit": "HOUR"
+    },
+    "unconditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 2,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messageVersions": [
+       {
+        "type": "TEXT",
+        "message": "Hey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other plant or operations leadership role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+       }
+      ],
+      "fallbackMessage": "Hey there, following up on this, didn't want it to get buried in your inbox.\n\nIf you have a plant or operations leadership role still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 2,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messageVersions": [
+        {
+         "type": "TEXT",
+         "message": "No worries if the timing's off, {FIRST_NAME}.\n\nPlant and operations leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+        }
+       ],
+       "fallbackMessage": "No worries if the timing's off.\n\nPlant and operations leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR"
+      },
+      "unconditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 1,
+       "actionDelayUnit": "DAY"
+      }
+     }
+    }
+   },
+   "unconditionalNode": {
+    "nodeType": "END",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY"
+   }
+  },
+  "text": "Connection request: blank (no note).\n\nMessage 1 (1 day after accepting):\nHey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?\n\nMessage 2 (2 days later):\nHey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other plant or operations leadership role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?\n\nMessage 3 (2 days later):\nNo worries if the timing's off, {FIRST_NAME}.\n\nPlant and operations leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+ },
+ "engineering-quality": {
+  "name": "US | Recruiter | MPC Eng & Quality | Moe v1",
+  "sequence": {
+   "nodeType": "CONNECTION_REQUEST",
+   "actionDelay": 0,
+   "actionDelayUnit": "HOUR",
+   "payload": {
+    "messages": [],
+    "fallbackMessage": null,
+    "toBeWithdrawnAfterDays": 21
+   },
+   "conditionalNode": {
+    "nodeType": "MESSAGE",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY",
+    "payload": {
+     "messageVersions": [
+      {
+       "type": "TEXT",
+       "message": "Hey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?"
+      }
+     ],
+     "fallbackMessage": "Hey there, thanks for connecting.\n\nSaw your team has a leadership role listed.\n\nNot sure if that's a fresh one or something you've had open for a bit, but either way I have a candidate who fits that pretty closely.\n\nWant me to send their profile over so you can take a look?"
+    },
+    "conditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 0,
+     "actionDelayUnit": "HOUR"
+    },
+    "unconditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 2,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messageVersions": [
+       {
+        "type": "TEXT",
+        "message": "Hey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other engineering or quality leadership role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+       }
+      ],
+      "fallbackMessage": "Hey there, following up on this, didn't want it to get buried in your inbox.\n\nIf you have a engineering or quality leadership role still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 2,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messageVersions": [
+        {
+         "type": "TEXT",
+         "message": "No worries if the timing's off, {FIRST_NAME}.\n\nEngineering and quality leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+        }
+       ],
+       "fallbackMessage": "No worries if the timing's off.\n\nEngineering and quality leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR"
+      },
+      "unconditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 1,
+       "actionDelayUnit": "DAY"
+      }
+     }
+    }
+   },
+   "unconditionalNode": {
+    "nodeType": "END",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY"
+   }
+  },
+  "text": "Connection request: blank (no note).\n\nMessage 1 (1 day after accepting):\nHey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?\n\nMessage 2 (2 days later):\nHey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other engineering or quality leadership role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?\n\nMessage 3 (2 days later):\nNo worries if the timing's off, {FIRST_NAME}.\n\nEngineering and quality leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+ },
+ "supply-chain-purchasing": {
+  "name": "US | Recruiter | MPC Supply Chain | Moe v1",
+  "sequence": {
+   "nodeType": "CONNECTION_REQUEST",
+   "actionDelay": 0,
+   "actionDelayUnit": "HOUR",
+   "payload": {
+    "messages": [],
+    "fallbackMessage": null,
+    "toBeWithdrawnAfterDays": 21
+   },
+   "conditionalNode": {
+    "nodeType": "MESSAGE",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY",
+    "payload": {
+     "messageVersions": [
+      {
+       "type": "TEXT",
+       "message": "Hey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?"
+      }
+     ],
+     "fallbackMessage": "Hey there, thanks for connecting.\n\nSaw your team has a leadership role listed.\n\nNot sure if that's a fresh one or something you've had open for a bit, but either way I have a candidate who fits that pretty closely.\n\nWant me to send their profile over so you can take a look?"
+    },
+    "conditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 0,
+     "actionDelayUnit": "HOUR"
+    },
+    "unconditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 2,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messageVersions": [
+       {
+        "type": "TEXT",
+        "message": "Hey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other supply chain or purchasing role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+       }
+      ],
+      "fallbackMessage": "Hey there, following up on this, didn't want it to get buried in your inbox.\n\nIf you have a supply chain or purchasing role still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 2,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messageVersions": [
+        {
+         "type": "TEXT",
+         "message": "No worries if the timing's off, {FIRST_NAME}.\n\nSupply chain and purchasing roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+        }
+       ],
+       "fallbackMessage": "No worries if the timing's off.\n\nSupply chain and purchasing roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR"
+      },
+      "unconditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 1,
+       "actionDelayUnit": "DAY"
+      }
+     }
+    }
+   },
+   "unconditionalNode": {
+    "nodeType": "END",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY"
+   }
+  },
+  "text": "Connection request: blank (no note).\n\nMessage 1 (1 day after accepting):\nHey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?\n\nMessage 2 (2 days later):\nHey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other supply chain or purchasing role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?\n\nMessage 3 (2 days later):\nNo worries if the timing's off, {FIRST_NAME}.\n\nSupply chain and purchasing roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+ },
+ "ehs-maintenance": {
+  "name": "US | Recruiter | MPC EHS & Maint | Moe v1",
+  "sequence": {
+   "nodeType": "CONNECTION_REQUEST",
+   "actionDelay": 0,
+   "actionDelayUnit": "HOUR",
+   "payload": {
+    "messages": [],
+    "fallbackMessage": null,
+    "toBeWithdrawnAfterDays": 21
+   },
+   "conditionalNode": {
+    "nodeType": "MESSAGE",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY",
+    "payload": {
+     "messageVersions": [
+      {
+       "type": "TEXT",
+       "message": "Hey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?"
+      }
+     ],
+     "fallbackMessage": "Hey there, thanks for connecting.\n\nSaw your team has a leadership role listed.\n\nNot sure if that's a fresh one or something you've had open for a bit, but either way I have a candidate who fits that pretty closely.\n\nWant me to send their profile over so you can take a look?"
+    },
+    "conditionalNode": {
+     "nodeType": "END",
+     "actionDelay": 0,
+     "actionDelayUnit": "HOUR"
+    },
+    "unconditionalNode": {
+     "nodeType": "MESSAGE",
+     "actionDelay": 2,
+     "actionDelayUnit": "DAY",
+     "payload": {
+      "messageVersions": [
+       {
+        "type": "TEXT",
+        "message": "Hey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other EHS or maintenance leadership role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+       }
+      ],
+      "fallbackMessage": "Hey there, following up on this, didn't want it to get buried in your inbox.\n\nIf you have a EHS or maintenance leadership role still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?"
+     },
+     "conditionalNode": {
+      "nodeType": "END",
+      "actionDelay": 0,
+      "actionDelayUnit": "HOUR"
+     },
+     "unconditionalNode": {
+      "nodeType": "MESSAGE",
+      "actionDelay": 2,
+      "actionDelayUnit": "DAY",
+      "payload": {
+       "messageVersions": [
+        {
+         "type": "TEXT",
+         "message": "No worries if the timing's off, {FIRST_NAME}.\n\nEHS and maintenance leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+        }
+       ],
+       "fallbackMessage": "No worries if the timing's off.\n\nEHS and maintenance leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+      },
+      "conditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 0,
+       "actionDelayUnit": "HOUR"
+      },
+      "unconditionalNode": {
+       "nodeType": "END",
+       "actionDelay": 1,
+       "actionDelayUnit": "DAY"
+      }
+     }
+    }
+   },
+   "unconditionalNode": {
+    "nodeType": "END",
+    "actionDelay": 1,
+    "actionDelayUnit": "DAY"
+   }
+  },
+  "text": "Connection request: blank (no note).\n\nMessage 1 (1 day after accepting):\nHey {FIRST_NAME}, thanks for connecting.\n\nSaw {Company_Name} has a {Job_Title_Open_} role listed, looks like you need someone with {Job_Description}.\n\n{Open_Line}\n\nWant me to send their profile over so you can take a look?\n\nMessage 2 (2 days later):\nHey {FIRST_NAME}, following up on this, didn't want it to get buried in your inbox.\n\nIf the {Job_Title_Open_} role or any other EHS or maintenance leadership role is still open, happy to send over a candidate or two who could be a fit.\n\nWorth a quick look, even just to compare against who's already in your pipeline?\n\nMessage 3 (2 days later):\nNo worries if the timing's off, {FIRST_NAME}.\n\nEHS and maintenance leadership roles sometimes sit for a while or get filled quietly, so if it's still open I'll send a profile over, and if not, no hard feelings.\n\nJust let me know either way."
+ }
+}
