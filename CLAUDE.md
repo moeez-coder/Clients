@@ -233,6 +233,26 @@ Other rules that still apply to every doc:
 - Commit each version's markdown to `clients/<slug>/campaign-docs/` with its
   tracking_clients doc id, and add a History entry for each status change.
 
+## Tracking_clients campaigns are created only when going live
+
+(Standard set by the repo owner, 2026-11-24.) A campaign is created in
+tracking_clients (`create_campaign` / `create_campaigns_from_plan`) **only
+when it is ready to go live**. Ready means:
+- the leads are built and checked
+- the HeyReach campaign and sequence are ready
+- the client has approved it (or Moe, where he has waived client approval)
+
+The board should hold live campaigns, not ones still being worked on.
+- Work in progress lives in the repo (client README, `campaign-docs/`,
+  `sourcing/`), GTM Sheets and, if needed, a DRAFT HeyReach campaign. It
+  does not live in a tracking_clients `creation` card.
+- Don't create placeholder or test campaigns there.
+- An approved campaign doc doesn't by itself mean "create the configs".
+  Create each campaign as it goes live, then set the doc to
+  `configs_created` once all of them exist.
+- Existing `creation`-stage campaigns are cleaned up case by case with Moe:
+  delete, or keep until launch. Never delete one without his say-so.
+
 ## Task log rule — log work done on Moe's task board
 
 (Standard set by the repo owner, 2026-11-24.) A task is a unit of **work
