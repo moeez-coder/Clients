@@ -10,11 +10,11 @@
 - **HeyReach workspace:** `170993` (`heyreachConnected: true`)
 - **Staff:** campaign strategist Moeez; infrastructure John Paul; closer Rueban; GTM engineer `-` (unassigned); sourcing engineer `-` (unassigned)
 - **Booking link:** https://healthlinkdimensions.chilipiper.com/me/algoacquistion-algoacquistion (set in tracking_clients since the last sync; was empty)
-- **DNC list:** 210 entries, uploaded 2026-11-19 with `update_client_dnc` (merge into an empty list): 198 unique accounts from `context/2026-11-12-dnc-accounts.csv` (199 rows, Ionis Pharma listed twice) plus the 12 named contacts from `context/2026-11-12-dnc-named-contacts.csv`. The named contacts carry their agency in `agency_note`, not `company`, so their agencies stay open.
-- **Infrastructure:** `{"vaSeatCount": 10}` (changed from `{}` since the 2026-11-09 sync)
+- **DNC list:** 210 entries, uploaded 2026-11-19 with `update_client_dnc` (merge into an empty list): 198 unique accounts from `context/2026-11-12-dnc-accounts.csv` (199 rows, Ionis Pharma listed twice) plus the 12 named contacts from `context/2026-11-12-dnc-named-contacts.csv`. The named contacts carry their agency in `agency_note`, not `company`, so their agencies stay open. **2026-11-24 resync:** tracking_clients now holds 218 entries (8 more than the 210 uploaded here; the 8 were added outside this repo).
+- **Infrastructure:** `{"vaSeatCount": 10, "linkedinSeats": [], "linkedinSeatCount": 0, "submittedToInfraAt": "2026-11-24T00:36:45.530Z"}`. Submitted to infra 2026-11-24; earlier it was `{"vaSeatCount": 10}`.
 - **Created in tracking_clients:** 2026-10-26 (by sales)
 - **Tracking client ID:** `8f80aeaa-1ca1-4b9a-9f27-756c2a5be696`
-- **Last synced:** 2026-11-18 (Doc 2 sizing session) via `get_client` + `list_sourcing_configs`: 0 configs; one drift, the booking link is now set. DNC is still 0 entries in tracking_clients. Previous sync: 2026-11-18 (earlier session).
+- **Last synced:** 2026-11-24 via `get_client` + `list_sourcing_configs`: 2 configs (C1 `0c33f341`, C9 `4573aa11`), both `ready` with campaign_count 1, matching the table below. Drift found: DNC 210 → 218, and infrastructure submitted. Booking link unchanged. Previous sync: 2026-11-18.
 
 ## Context files
 
@@ -51,6 +51,19 @@ Synced 2026-11-19 for both C1 and C9 (C9: segment `efba1aca-7103-4c26-a917-66a16
 - **Segment and persona:** segment `5caf1726-edab-4915-a146-c302386e5e67`, persona `071da678-c28f-4c94-be23-2575a93e9843`.
 - **Lead list:** static, with `campaign_split: false` (Moe: "No split").
 - **Client approval:** none. The client has not approved Doc 2, and Moe skipped approval for the first launches.
+
+## HeyReach campaigns: senders and schedule
+
+Workspace `170993`. Read with the HealthLink Dimensions HeyReach connector (`get_all_campaigns`, `get_all_linked_in_accounts`, `get_campaign`) on 2026-11-24. No HeyReach tool reads a schedule back, so this table is the only record of each schedule.
+
+| HeyReach id | Campaign | Status | Senders before → after (2026-11-24) | Schedule before | Schedule after (2026-11-24) |
+|---|---|---|---|---|---|
+| `747212` | US \| Pharma \| C1 Brand Marketing \| v1 | IN_PROGRESS | 8 → 8 (no change needed) | Mon–Fri 08:00–17:30 America/New_York (set at launch 2026-11-19) | Mon–Sun 08:00–17:30 America/New_York |
+| `747297` | US \| Agency \| C9 Agency Leadership \| v1 | IN_PROGRESS | 8 → 8 (no change needed) | Mon–Fri 08:00–17:30 America/New_York (set at launch 2026-11-19) | Mon–Sun 08:00–17:30 America/New_York |
+
+**Sender pool (both campaigns):** 195527 Ebenezer Sebastian, 205687 Ron Cedillo, 222480 Fernilie Lua, 227745 Bernadette Bautista, 233452 Crisol Jabla, 260715 Birendra Kumar, 266379 Eulalio Naño, 273108 Jerah Buna. All are active with valid auth. None has Sales Navigator.
+
+**Left out (inactive in HeyReach, `isActive: false`, auth valid):** 224256 Jacel Anzano, 224258 Judy Lopez, 278399 Hannah Alia (has Sales Navigator). These need activating in the HeyReach UI before they can be added. There is no Open Check campaign yet, so Hannah's Sales Navigator seat isn't needed.
 
 ## Sourced data in this repo
 
@@ -112,6 +125,12 @@ Synced 2026-11-19 for both C1 and C9 (C9: segment `efba1aca-7103-4c26-a917-66a16
 
 ## History
 
+- **2026-11-24**: **All-senders and 7-day schedule check on both live campaigns.** Moe approved this batch on 2026-11-24 in the orchestrator session, and gave his own go-ahead in this session before the pause. Session: claude.ai/code session_013MzxQhcCUxrmG1KF6c4TVz.
+  - **Senders:** HeyReach has 11 accounts. 8 are active with valid auth, and both campaigns already had exactly those 8, so `update_campaign_accounts` was not called. 3 are inactive and stay out: 224256, 224258 and 278399. The copy guard passed: both sequences (a blank connection request, then `{message1}`, `{message2}`, `{message3}`, with fallbacks that name no sender) speak as no specific person.
+  - **Schedule:** both C1 `747212` and C9 `747297` were `pause_campaign` → `update_campaign_schedule` (all 7 days, 08:00–17:30 America/New_York, keeping the window from the 2026-11-19 launch) → `resume_campaign`. `get_campaign` confirmed both are back to IN_PROGRESS. Before: Mon–Fri, same window. After: Mon–Sun.
+  - **Profile resync:** DNC is now 218 in tracking_clients (was 210), and infrastructure was submitted 2026-11-24.
+  - **Branch:** merged `origin/claude/initialize-u03yyd` to pick up the current CLAUDE.md. The README conflict was resolved by keeping this branch's newer HLD content.
+  - **No task logged:** nothing was created, so the task log rule doesn't apply.
 - **2026-11-19 15:35 UTC**: **Final push sweep: both campaigns fully loaded** (session `session_013MzxQeLxrp2aPyVTnp1YUd`, scheduled sweep). HeyReach C1 `747212`: 1,060 leads (237 in progress, 818 pending, 5 failed). C9 `747297`: 1,032 leads (275 in progress, 746 pending, 4 failed, 1 excluded by blacklist, and the 6 Deerfield Group leads confirmed manually stopped). Still held in GTM: Publicis Health (10, waiting on Moe's call), plus blank-name and non-fit rows.
 - **2026-11-19**: **C1 and C9 expanded past 1,000 leads each** (Moe: "we need atleast 1000 leads in each campaign", then "that is fine" to the plan; session `session_013MzxQeLxrp2aPyVTnp1YUd`). Expanding existing segments.
   - **C1, 1,063 leads.** Cap raised to 30 at the 9 big-pharma companies (+225, from the cache). Added 51–200 employee biotechs: 412 companies, 89 Rx-fit, +218 leads at cap 5. Topped up the other fit companies to 10 (+188). Files: `leads-4`, `leads-5`, `small-*`.
