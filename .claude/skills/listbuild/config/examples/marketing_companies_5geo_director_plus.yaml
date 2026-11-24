@@ -1,0 +1,86 @@
+# Generic ICP. This is the only file a future skill needs to swap per vertical.
+name: marketing_companies_5geo_director_plus
+company_hq_countries: [US, GB, CA, AU, NZ]
+person_countries: [US, GB, CA, AU, NZ]
+revenue_min_usd: 1000000
+seniority: director_plus
+
+# Per-provider industry mapping. Values must be the exact enum strings each provider accepts.
+industries:
+  clay:
+    - Marketing Services
+    - Advertising Services
+    - Business Consulting and Services
+    - Strategic Management Services
+  blitz:
+    # Blitz lists both legacy and current LinkedIn labels as separate values; include both.
+    - Marketing Services
+    - Advertising Services
+    - Marketing and Advertising
+    - Business Consulting and Services
+    - Management Consulting
+    - Strategic Management Services
+  discolike:
+    - ADVERTISING_AND_MARKETING
+  # BUSINESS_PRODUCTS_AND_SERVICES is DiscoLike's only consulting bucket; too coarse for paid pulls. Off by default.
+  discolike_optional:
+    - BUSINESS_PRODUCTS_AND_SERVICES
+
+# Provider-native seniority enums for "director and above".
+seniority_map:
+  clay: [C-suite, VP, Director, Head, Founder, Owner, Partner, Board Member]
+  blitz: [C-Team, VP, Director]
+  discolike: [executive, vp, director]
+
+# Clay annual_revenue buckets that satisfy revenue_min_usd.
+clay_revenue_buckets: [1M-5M, 5M-10M, 10M-25M, 25M-75M, 75M-200M, 200M-500M, 500M-1B, 1B-10B, 10B-100B, 100B-1T]
+
+# Country names as Clay spells them.
+clay_country_names:
+  US: United States
+  GB: United Kingdom
+  CA: Canada
+  AU: Australia
+  NZ: New Zealand
+
+# DiscoLike cannot filter revenue; use an employee floor as a proxy and post-filter on returned revenue_range.
+discolike_employee_floor: 11
+
+# ICP fit rules applied after the sweeps (company level).
+# core: any company in these industry labels is a fit. keyword_gated: companies in these catch-all labels are a fit
+# only if Blitz's company search finds one of the keywords in their description/specialties/categories.
+fit:
+  core_industries:
+    - Marketing Services
+    - Advertising Services
+    - Marketing and Advertising
+    - ADVERTISING_AND_MARKETING
+  keyword_gated_industries:
+    - Business Consulting and Services
+    - Management Consulting
+    - Strategic Management Services
+  keywords:
+    - marketing
+    - advertising
+    - branding
+    - brand strategy
+    - digital agency
+    - creative agency
+    - public relations
+    - communications agency
+    - media buying
+    - media planning
+    - SEO
+    - social media
+    - content marketing
+    - demand generation
+    - lead generation
+    - growth marketing
+    - performance marketing
+    - influencer marketing
+    - digital marketing
+    - marketing strategy
+    - go-to-market
+    - customer acquisition
+    - market research
+    - marketing consultancy
