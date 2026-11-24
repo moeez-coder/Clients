@@ -251,6 +251,63 @@ All rows below are for ICP config **Cleared Talent for New Federal Contracts** `
 
 ## History
 
+- **2026-11-06**: **IT Infrastructure & Support job-change check via GTM Sheets Enrich Person; 80 leads excluded from HeyReach `710044`** (scheduled follow-up to the launch).
+  - Enrich Person was filled on 2,816 of 2,817 rows. Row 2069 has a Sales-Nav-style URL, and the only provider for that kind of URL (HarvestAPI) is out of credits.
+  - **Still at Company = NO on 95 rows.** 12 were already removed by the HeyReach check. 3 are kept as aliases:
+    - BKD LLP → Forvis Mazars
+    - Mercy Health Services ≈ Mercy Medical Center Baltimore
+    - NCAR is operated by UCAR
+  - **80 excluded:** 71 from today's GTM Sheets push, and 9 in the first 800 that HeyReach's own `companyName` check missed because HeyReach hadn't enriched them yet. They are listed in `sourcing/recruiter-open-roles-it-support/2026-11-06-2-heyreach-removed.csv`.
+  - **How they were excluded:**
+    - `stop_lead_in_campaign` worked for 3 in-progress leads.
+    - 1 lead was already FAILED in HeyReach.
+    - For still-pending leads (no workflow yet) it errors, so all 80 were added to the **workspace lead blacklist** (`add_blacklist_leads`, entries 139345–139424). The campaign has `excludeFromLeadBlacklist: true`, so they are skipped when reached. The blacklist is workspace-wide; undo with `remove_blacklist_leads` if needed.
+  - Lesson for the next launch: run Enrich Person in GTM Sheets **before** pushing to HeyReach. It catches job changes HeyReach hasn't enriched yet.
+
+- **2026-11-06**: **Reply handling corrected; IT workbook enrichment added.**
+  - Moe clarified that replies are not answered with a profile. The goal of every reply is a **call**, where we confirm our candidate fits; the profile is shared after the call. Joseph does not need profiles ready.
+  - The client PDF (regenerated, same filename) and the consolidated doc `c43affbb-…` were corrected to match.
+  - The 2026-11-05 note that "M1 claims a candidate, so Elite must be ready to send a profile" is superseded.
+  - Moe asked to set the IT Infrastructure & Support workbook up completely and run enrichment where needed. The **3. Leads** table (`96dcb4cb-…`) now has:
+    - **Enrich Person**: GTM Sheets free person lookup by LinkedIn URL, run on all rows
+    - field columns **Current Company**, **Current Title**, **Current Company LinkedIn**, **In Role Since**, **Work Email (enrich)**
+    - a **Still at Company** formula (yes / NO / unknown)
+  - Its first flags matched people the HeyReach freshness check had already removed. It is the job-change check for the 2,018 leads pushed into the live campaign today. NO rows get `stop_lead_in_campaign` at the follow-up check.
+  - Paid email/phone enrichment (Findymail/BetterContact) was **not** run, because a LinkedIn-only campaign doesn't need it. Moe can decide.
+
+- **2026-11-06**: **Client-facing campaign update PDF for Joseph** (`reports/2026-11-06-elite-campaign-update.pdf`, built by `reports/build_2026-11-06_campaign_update.py`). Moe asked for an overview of what has run, what is queued, and how strategy moved toward the campaigns showing the most interest.
+  - Numbers: HeyReach `get_overall_stats` per campaign, pulled 2026-11-06 ~12:50 UTC.
+    - C1 v1: 73 sent, 5 accepted
+    - C1 v2: 92 sent, 7 accepted
+    - C1b: 170 sent, 10 accepted, 1 reply
+    - C9: 415 sent, 59 accepted (14.2%)
+    - Cybersecurity: 148 sent, 7 accepted
+    - IT: 0 sent
+    - Total: 898 sent, 88 accepted, 15 conversations, 1 reply
+  - The story it tells: C9 (a hiring signal) got about 2× the acceptance of the federal-award campaigns, which justified the move to job-post-based recruiter campaigns.
+  - The PDF follows the client-facing rules: no em dashes, Central Time, no internal IDs or tool names.
+
+- **2026-11-06**: **IT Infrastructure & Support recruiter campaign launched; consolidated live-campaigns doc created** (Moe: "Make the next logical one live as well … the ones that we are making live create a consolidated document for it and put it in the docs").
+  - **Why IT next:** it is the other of Moe's best-fit three (Software / IT / Cyber). Elite's ICP form leads with IT titles (VP of IT, Director of IT, IT Operations, Infrastructure), and IT staffing is Elite's core.
+  - **Pre-launch checks on the 800 leads already in HeyReach list `1118014`:**
+    - custom fields matched on all 800
+    - 55 `companyName` differences; 15 are clear aliases and are kept
+    - **40 removed** for a company change or a side role
+    - **4 removed** whose LinkedIn first name would render badly ("Carl (Casey)", "Anjan (AJ)", "Erin (Gardner)", "David.")
+    - **1 wrong profile** from the 2026-11-05 hand-typed upload (`deanna-walton2024`; the correct `deanna-walton-4653812` was pushed instead)
+  - 44 unique profiles were deleted from the list (aj-shah failed two checks). They are recorded in `sourcing/recruiter-open-roles-it-support/2026-11-06-heyreach-removed.csv`.
+  - HeyReach `710044` started 2026-11-06 11:58 UTC with 756 leads; `get_campaign` shows IN_PROGRESS.
+  - The other **2,016 launch-set leads** (GTM Sheets Leads rows 802–2817, plus row 141 for the corrected Deanna) were pushed into the running campaign through the GTM Sheets **Push to HeyReach** column (`gtm_sheet_run_column`, rows scope). No per-lead MCP calls were used. 995 had been processed at the time of commit.
+  - **They still need the same freshness check** once HeyReach has enriched their profiles; any failures get `stop_lead_in_campaign` before contact.
+  - tracking_clients campaign `5565a579-3839-4fa6-a667-62e43719b2ff` is linked to HeyReach `710044` and marked **running**.
+  - **Consolidated doc:** "Live Recruiter Campaigns (consolidated)", campaign doc `c43affbb-58f5-4c8c-bd4a-28ee4cdfb90b` on the client's Docs tab. It is a **draft and hidden from the client**. It has one section per live campaign: ICP, persona, lead-list funnel, messaging, ids and open items. Update it each time a campaign goes live.
+  - The GTM Sheets IT Leads table still shows the 43 removed rows as "launch set". Webhook field columns can't be edited in place, so the removal record is the CSV above.
+
+- **2026-11-06**: **tracking_clients Cybersecurity campaign `b8e4cb3d-6475-42a0-8df2-0e28d8b95965` moved to running** on Moe's instruction ("make it live").
+  - The missing launch check was the HeyReach link. `link_platform_campaign` (heyreach, `710103`) now succeeds for new-system campaigns; on 2026-10-29 it was Smartlead-only.
+  - `move_campaign` then went from creation to running via mark-running.
+  - `get_campaign_live_status`: IN_PROGRESS, 1,402 leads (147 finished, 18 failed, 274 in progress, 1,237 remaining).
+
 - **2026-11-05**: **Cybersecurity recruiter campaign launched: HeyReach `710103` started 18:21 UTC with 1,402 leads.**
   - After Moe moved the session out of auto mode, the 98 freshness-check removals (`sourcing/recruiter-open-roles-cybersecurity/2026-11-05-heyreach-removed.csv`) were deleted from list `1118017` with `delete_leads_from_list_by_profile_url`. None were reported missing, and the list now holds 1,402.
   - `start_campaign`, then `get_campaign`, shows status **IN_PROGRESS** with `startedAt` 2026-11-05T18:21:45Z. HeyReach's progress counter still showed 1,500 right after the start.
