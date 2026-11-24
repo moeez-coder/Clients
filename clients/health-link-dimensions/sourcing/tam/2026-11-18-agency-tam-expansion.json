@@ -1,0 +1,1817 @@
+{
+ "counts": {
+  "0_current_core": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 260
+  },
+  "1_add_11_50": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "11-50"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 519
+  },
+  "2_add_5001plus": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "5001-10000",
+      "10001+"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 15
+  },
+  "3_broad_kw_51plus_ad": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma",
+       "healthcare marketing",
+       "healthcare advertising",
+       "health communications",
+       "healthcare media",
+       "life sciences",
+       "medical marketing",
+       "HCP engagement",
+       "omnichannel healthcare",
+       "healthcare agency"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 578
+  },
+  "4_PR_industry_pharma_kw_51plus": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Public Relations and Communications Services",
+       "Public Relations and Communications"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 47
+  },
+  "5_market_research_pharma_kw_51plus": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Market Research"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 103
+  },
+  "6_health_industries_agency_kw_11plus": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Hospitals and Health Care",
+       "Hospital and Health Care",
+       "Pharmaceutical Manufacturing",
+       "Pharmaceuticals",
+       "Biotechnology Research",
+       "Health and Human Services",
+       "Medical Equipment Manufacturing"
+      ]
+     },
+     "employee_range": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "healthcare marketing agency",
+       "healthcare advertising agency",
+       "pharmaceutical marketing agency",
+       "pharma agency",
+       "health agency",
+       "HCP marketing",
+       "healthcare media agency",
+       "healthcare communications agency",
+       "medical communications agency",
+       "life sciences agency",
+       "omnichannel agency",
+       "media agency"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 1368
+  },
+  "7_data_media_industries_agency_kw_11plus": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Data Infrastructure and Analytics",
+       "Business Consulting and Services",
+       "IT Services and IT Consulting",
+       "Information Services",
+       "Online Audio and Video Media",
+       "Online Media",
+       "Media Production"
+      ]
+     },
+     "employee_range": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "healthcare marketing agency",
+       "healthcare advertising agency",
+       "pharmaceutical marketing agency",
+       "pharma agency",
+       "health agency",
+       "HCP marketing",
+       "healthcare media agency",
+       "healthcare communications agency",
+       "medical communications agency",
+       "life sciences agency",
+       "omnichannel agency",
+       "media agency",
+       "HCP",
+       "pharma marketing",
+       "pharmaceutical marketing"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 1073
+  },
+  "records_used": 8
+ },
+ "samples": {
+  "3_incremental_broad_kw": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Advertising Services",
+       "Marketing and Advertising",
+       "Marketing Services"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "healthcare marketing",
+       "healthcare advertising",
+       "health communications",
+       "healthcare media",
+       "life sciences",
+       "medical marketing",
+       "HCP engagement",
+       "omnichannel healthcare",
+       "healthcare agency"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living",
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 15
+   },
+   "total_results": 318,
+   "rows": [
+    {
+     "name": "Jack Morton Worldwide",
+     "linkedin_url": "https://www.linkedin.com/company/jack-morton-worldwide",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 1499,
+     "about": "We\u2019re a global agency focused on building experience brands. We\u2019re best known for event & experiential marketing, integrated campaigns, digital & content marketing, sponsorship marketing and employee engagement. We also "
+    },
+    {
+     "name": "Moloco",
+     "linkedin_url": "https://www.linkedin.com/company/moloco",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 971,
+     "about": "Moloco\u2019s mission is to empower businesses of all sizes to grow through operational machine learning. With Moloco\u2019s machine learning platform for growth and performance, every app publisher, commerce marketplace, and stre"
+    },
+    {
+     "name": "Rise, a Quad agency",
+     "linkedin_url": "https://www.linkedin.com/company/risequadagency",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 386,
+     "about": "With a history in digital media, analytics, and customer experience, Rise proudly joins Quad,\u202fa global Marketing Experience company, to challenge the status quo and redefine the future of integrated marketing, together. "
+    },
+    {
+     "name": "Publicis Groupe India",
+     "linkedin_url": "https://www.linkedin.com/company/publicis-groupe-india",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 116,
+     "about": "Publicis Groupe India leads in marketing communications and digital transformation, driven by the alchemy of data, creativity, media, and technology.\n\n With over 200 capabilities globally including creative, media, digit"
+    },
+    {
+     "name": "eLocal",
+     "linkedin_url": "https://www.linkedin.com/company/elocal",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 228,
+     "about": "eLocal, part of HomeServe Plc, global leader in the home services industry, is a fast-growing and highly profitable national leader in pay-for-performance digital advertising. eLocal connects millions of local consumers "
+    },
+    {
+     "name": "Woven Health Collective",
+     "linkedin_url": "https://www.linkedin.com/company/wovenhc",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 498,
+     "about": "Woven Health collective emerged from the understanding that biopharmaceutical industry challenges are increasingly interconnected and truly integrated agency solutions are essential to \u200bhelping healthcare thrive.\n\nWe bri"
+    },
+    {
+     "name": "BDA, LLC",
+     "linkedin_url": "https://www.linkedin.com/company/bdainc",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 1186,
+     "about": "Bensussen Deutsch & Associates, LLC (BDA) is a global Merchandise Agency\u2122 providing customized marketing, branded merchandise, e-commerce, and fulfillment solutions for iconic sports organizations, entertainment properti"
+    },
+    {
+     "name": "Havas Health Network",
+     "linkedin_url": "https://www.linkedin.com/company/havashealth",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 708,
+     "about": "Havas Health Network unites Havas Life, Havas Lynx, and Jacques, all wholly owned health and communications networks, with the consumer health businesses and practices of Havas Creative Network. The network's approach is"
+    },
+    {
+     "name": "Spectrum Reach",
+     "linkedin_url": "https://www.linkedin.com/company/spectrum-reach",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 3258,
+     "about": "From coast to coast. From the Great Lakes to the gulf. There are 3,000 of us in 100 offices across 36 states. We\u2019re the regulars at your restaurants, parents in your PTA, and volunteers in your community.  We know your n"
+    },
+    {
+     "name": "Salaria Sales Solutions",
+     "linkedin_url": "https://www.linkedin.com/company/salaria-sales",
+     "industry": "Marketing Services",
+     "employees_on_linkedin": 192,
+     "about": "Salaria Sales Solutions is a B2B lead generation and sales development agency. We enable you to scale without adding headcount, either by seamlessly augmenting your internal team or fully managing your sales operations f"
+    },
+    {
+     "name": "Razorfish Health",
+     "linkedin_url": "https://www.linkedin.com/company/razorfish-health",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 218,
+     "about": "Razorfish Health is a full-service agency built for the modern age of medicine. Our driving purpose is to help healthcare providers and patients make better connections for better outcomes. We do so with a foundation tha"
+    },
+    {
+     "name": "bohan Advertising",
+     "linkedin_url": "https://www.linkedin.com/company/bohan",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 122,
+     "about": "Established in 1990, Nashville-based bohan Advertising is an independent, full-service advertising and marketing agency. We are straight-talking, advertising experts that grow the brands we serve by creating ideas that w"
+    },
+    {
+     "name": "Opus Agency",
+     "linkedin_url": "https://www.linkedin.com/company/opusagency",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 574,
+     "about": "Opus Agency partners with world-shaping brands to catalyze movements through four types of shared experiences\u2014brand, customer, employee, and digital.\u200b\n\nWith our clients, we form and fuel how people relate, think, work, a"
+    },
+    {
+     "name": "linqd.",
+     "linkedin_url": "https://www.linkedin.com/company/getlinqd",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 276,
+     "about": "Linqd powers revenue growth for companies selling through complex distribution channels.\n\nBuilding & Industrial and Healthcare brands work with us to activate hidden opportunities across their manufacturer, distributor, "
+    },
+    {
+     "name": "Pivot Design",
+     "linkedin_url": "https://www.linkedin.com/company/pivot-design",
+     "industry": "Advertising Services",
+     "employees_on_linkedin": 126,
+     "about": "Pivot Design is a creative agency that leverages the power of design to make health more compelling. We bring a unique vision for what healthcare brands can be, from trusted global leaders to pioneering startups. At ever"
+    }
+   ]
+  },
+  "4_PR": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Public Relations and Communications Services",
+       "Public Relations and Communications"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 10
+   },
+   "total_results": 47,
+   "rows": [
+    {
+     "name": "BCW Global",
+     "linkedin_url": "https://www.linkedin.com/company/bcw-global",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 448,
+     "about": "BCW is the global communications agency built to move people. BCW partners with clients in the B2B, consumer, corporate, crisis management, healthcare, public affairs, purpose and technology sectors to set strategic dire"
+    },
+    {
+     "name": "MikeWorldWide",
+     "linkedin_url": "https://www.linkedin.com/company/mww-group",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 442,
+     "about": "MWW is one of the world\u2019s leading independent, integrated PR agencies with offices across the US and UK, and a global network of partners.\n\nWith dedicated insights, strategy, data, and analytics, digital and content and "
+    },
+    {
+     "name": "Ruder Finn",
+     "linkedin_url": "https://www.linkedin.com/company/ruder-finn",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 1106,
+     "about": "Ruder Finn is one of the world\u2019s largest independent global communications and creative agencies. Founded in 1948, Ruder Finn has defined and redefined PR for 75 years, shaping communications that move industry-defining "
+    },
+    {
+     "name": "Sunshine Sachs Morgan & Lylis",
+     "linkedin_url": "https://www.linkedin.com/company/ssmandl",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 337,
+     "about": "Sunshine Sachs Morgan & Lylis is an independent, full-service firm specializing in communications and narrative strategy. We are a collective dedicated to defining public identity through integrated earned, owned, and pa"
+    },
+    {
+     "name": "Cohn & Wolfe",
+     "linkedin_url": "https://www.linkedin.com/company/cohn-&-wolfe",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 184,
+     "about": "Cohn & Wolfe, a global communications agency, builds brands and corporate reputations through an uncompromising commitment to creativity. The agency\u2019s strategic approach unearths fresh, relevant insights leading to commu"
+    },
+    {
+     "name": "PAN",
+     "linkedin_url": "https://www.linkedin.com/company/pan-communications",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 321,
+     "about": "PAN is a global mid-size integrated marketing and public relations agency for B2B technology and healthcare brands. We partner with companies to transform ideas into captivating stories and coveted user experiences that "
+    },
+    {
+     "name": "Coyne PR",
+     "linkedin_url": "https://www.linkedin.com/company/coyne-pr",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 192,
+     "about": "Every day is Independence Day at Coyne PR.\n\nWith more than 135 full-time professionals, Coyne is one of the Top 20 Independent public relations firms in the U.S. \n\nFounded in 1991, we have grown steadily with a reputatio"
+    },
+    {
+     "name": "Marina Maher Communications (MMC)",
+     "linkedin_url": "https://www.linkedin.com/company/marina-maher-communications",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 215,
+     "about": "Hello! We\u2019re MMC \u2014 an integrated marketing and communications agency, composed of MMC and RXMOSAIC. But we are so much more than that.  \n\nFor over 40 years, we\u2019ve shattered sales records and glass ceilings; launched brea"
+    },
+    {
+     "name": "G&S Business Communications, a G&S Agency",
+     "linkedin_url": "https://www.linkedin.com/company/gs-business-communications",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 217,
+     "about": "We are G&S Business Communications, a G&S Agency. We are more than a public relations firm, digital agency or creative shop. We are a team of researchers, media strategists, storytellers and engagement experts who meet o"
+    },
+    {
+     "name": "Jackson Spalding",
+     "linkedin_url": "https://www.linkedin.com/company/jackson-spalding",
+     "industry": "Public Relations and Communications Services",
+     "employees_on_linkedin": 153,
+     "about": "At Jackson Spalding, we love a good story. Our team of communication strategists will dive into your business, study your goals and targets, and help you say what you want to say in a way that resonates. We are your one-"
+    }
+   ]
+  },
+  "5_MR": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Market Research"
+      ]
+     },
+     "employee_range": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "pharmaceutical marketing",
+       "pharma marketing",
+       "pharmaceutical advertising",
+       "pharma advertising",
+       "medical communications",
+       "life sciences marketing",
+       "life sciences communications",
+       "HCP marketing",
+       "HCP",
+       "biopharma",
+       "healthcare communications",
+       "health and wellness communications",
+       "pharmaceutical",
+       "pharma"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 10
+   },
+   "total_results": 103,
+   "rows": [
+    {
+     "name": "Radius",
+     "linkedin_url": "https://www.linkedin.com/company/radius-global-market-research",
+     "industry": "Market Research",
+     "employees_on_linkedin": 329,
+     "about": "Companies rely on us for strategic business-building guidance to optimize brand offerings, identify clear innovations, and develop compelling customer propositions. This is our single-minded focus: taking brands to highe"
+    },
+    {
+     "name": "The Directions Group",
+     "linkedin_url": "https://www.linkedin.com/company/directions-group",
+     "industry": "Market Research",
+     "employees_on_linkedin": 262,
+     "about": "A strategic insights firm helping businesses grow, innovate, and differentiate through integrated intelligence.  \n\nExperts in Integrated Intelligence: We connect the dots across human understanding, business insights, an"
+    },
+    {
+     "name": "Konovo",
+     "linkedin_url": "https://www.linkedin.com/company/hello-konovo",
+     "industry": "Market Research",
+     "employees_on_linkedin": 333,
+     "about": "Konovo is a global healthcare intelligence company on a mission to transform healthcare research by connecting insights across the life science ecosystem.\n\nOriginally launched in 2019 as Apollo Intelligence, Konovo was b"
+    },
+    {
+     "name": "Track Opinion",
+     "linkedin_url": "https://www.linkedin.com/company/trackopinion",
+     "industry": "Market Research",
+     "employees_on_linkedin": 78,
+     "about": "Founded in 2009 and global headquarter in US, Track Opinion is a global leader in delivering tailored market research and strategic insights. We empower brands through high-quality and scalable research solutions, design"
+    },
+    {
+     "name": "Adelphi Research | Global Pharma Market Insight Consultancy",
+     "linkedin_url": "https://www.linkedin.com/company/adelphi-research",
+     "industry": "Market Research",
+     "employees_on_linkedin": 152,
+     "about": "Adelphi Research is a global healthcare market insight consultancy that navigates brand challenges, informs decisions and inspires stakeholders to take action.\n\nEstablished for over 30 years, we help pharma and healthcar"
+    },
+    {
+     "name": "Paradigm Sample",
+     "linkedin_url": "https://www.linkedin.com/company/paradigm-sample",
+     "industry": "Market Research",
+     "employees_on_linkedin": 66,
+     "about": "Since 2009, Paradigm has been providing real-time market research, giving leading companies a strong foundation to support all types of business and marketing decisions. Our pioneering spirit and commitment to our client"
+    },
+    {
+     "name": "MarketVision Research",
+     "linkedin_url": "https://www.linkedin.com/company/marketvision-research",
+     "industry": "Market Research",
+     "employees_on_linkedin": 220,
+     "about": "For 40 years, MarketVision Research has provided its clients with innovative design, execution and interpretation of marketing research to deliver fresh consumer insights and market knowledge to clients worldwide. As a f"
+    },
+    {
+     "name": "BioInformatics Inc.",
+     "linkedin_url": "https://www.linkedin.com/company/bioinformatics-llc",
+     "industry": "Market Research",
+     "employees_on_linkedin": 32,
+     "about": "BioInformatics helps companies in the life science space navigate the dynamic life science industry with confidence. Our market research reports, and custom market research services provide the data and insights needed t"
+    },
+    {
+     "name": "Spherix Global Insights",
+     "linkedin_url": "https://www.linkedin.com/company/spherix-global-insights",
+     "industry": "Market Research",
+     "employees_on_linkedin": 68,
+     "about": "Spherix Global Insights is a leading provider of market research, business intelligence and advisory services to the global life sciences industry. \n\nThe company\u2019s unique service offerings are powered by deep therapeutic"
+    },
+    {
+     "name": "M3 Global Research Community",
+     "linkedin_url": "https://www.linkedin.com/company/m3-global-research-community",
+     "industry": "Market Research",
+     "employees_on_linkedin": 5,
+     "about": "By becoming a registered M3 Global Research Panel member you will be able to have your voice heard on the future of healthcare by completing paid research studies about a wide range of medical and pharmaceutical topics a"
+    }
+   ]
+  },
+  "6_health_ind": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Hospitals and Health Care",
+       "Hospital and Health Care",
+       "Pharmaceutical Manufacturing",
+       "Pharmaceuticals",
+       "Biotechnology Research",
+       "Health and Human Services",
+       "Medical Equipment Manufacturing"
+      ]
+     },
+     "employee_range": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "healthcare marketing agency",
+       "healthcare advertising agency",
+       "pharmaceutical marketing agency",
+       "pharma agency",
+       "health agency",
+       "HCP marketing",
+       "healthcare media agency",
+       "healthcare communications agency",
+       "medical communications agency",
+       "life sciences agency",
+       "omnichannel agency",
+       "media agency"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 15
+   },
+   "total_results": 1368,
+   "rows": [
+    {
+     "name": "Agency for Healthcare Research and Quality",
+     "linkedin_url": "https://www.linkedin.com/company/agency-for-healthcare-research-and-quality",
+     "industry": "Hospitals and Health Care",
+     "employees_on_linkedin": 448,
+     "about": "The purpose of the Agency for Healthcare Research and Quality (AHRQ) is to enhance the quality, appropriateness, and effectiveness of health services, and access to such services, through the establishment of a broad bas"
+    },
+    {
+     "name": "Firefly Health",
+     "linkedin_url": "https://www.linkedin.com/company/firefly-health",
+     "industry": "Hospitals and Health Care",
+     "employees_on_linkedin": 106,
+     "about": "By eliminating barriers between primary care, specialty care, and plan coverage, Firefly creates a frictionless, virtual-first experience unrivaled in the healthcare industry. \n\n\n-- SCAM ALERT -- \nFirefly Health has been"
+    },
+    {
+     "name": "ECRI",
+     "linkedin_url": "https://www.linkedin.com/company/ecri-org",
+     "industry": "Hospitals and Health Care",
+     "employees_on_linkedin": 509,
+     "about": "ECRI is an independent, nonprofit organization improving the safety, quality, and cost effectiveness of care across all healthcare settings. The combination of evidence-based research, medical device testing, and knowled"
+    },
+    {
+     "name": "IPG Health Medical Communications",
+     "linkedin_url": "https://www.linkedin.com/company/ipg-health-medical-communications",
+     "industry": "Pharmaceutical Manufacturing",
+     "employees_on_linkedin": 637,
+     "about": "IPG Health Medical Communications is home to the world\u2019s most celebrated and awarded Med Comms agencies, driven by a healthy obsession with creating novel marketing solutions, and harnessing creativity, technology, scien"
+    },
+    {
+     "name": "Noven Pharmaceuticals",
+     "linkedin_url": "https://www.linkedin.com/company/noven-pharmaceuticals",
+     "industry": "Pharmaceutical Manufacturing",
+     "employees_on_linkedin": 946,
+     "about": "Noven Pharmaceuticals, Inc. is a dynamic specialty pharmaceutical company engaged in the research, development, manufacture, marketing and sale of prescription pharmaceutical products. We are committed to developing and "
+    },
+    {
+     "name": "Legacy Community Health",
+     "linkedin_url": "https://www.linkedin.com/company/legacy-community-health-services",
+     "industry": "Hospitals and Health Care",
+     "employees_on_linkedin": 1111,
+     "about": "Legacy Community Health is a full-service health care system comprised of over 50 locations in the Texas Gulf Coast region offering primary care, pediatrics, OB/GYN, behavioral health, dental, vision, specialty care, and"
+    },
+    {
+     "name": "BOLDSCIENCE",
+     "linkedin_url": "https://www.linkedin.com/company/boldscience",
+     "industry": "Pharmaceutical Manufacturing",
+     "employees_on_linkedin": 271,
+     "about": "We are BOLDSCIENCE.  \n\nWe are a scientifically creative global medical communications agency.  \n\nWhat exactly does that mean? It means our staff are made up of talented science communicators, artists, and curious disrupt"
+    },
+    {
+     "name": "Baptist Health Boca Raton Regional Hospital",
+     "linkedin_url": "https://www.linkedin.com/company/boca-raton-regional-hospital",
+     "industry": "Hospitals and Health Care",
+     "employees_on_linkedin": 1685,
+     "about": "About Boca Raton Regional Hospital \u2013 Advancing the boundaries of medicine.\r\nBoca Raton Regional Hospital is an advanced, tertiary medical center (BRRH.com) with 400 beds and more than 800 primary and specialty physicians"
+    },
+    {
+     "name": "The Harris Center for Mental Health and IDD",
+     "linkedin_url": "https://www.linkedin.com/company/the-harris-center",
+     "industry": "Hospitals and Health Care",
+     "employees_on_linkedin": 1854,
+     "about": "The Harris Center for Mental Health and IDD (formerly Mental Health & Mental Retardation Authority of Harris County)\n\nThe Harris Center, Harris County's state-designated Local Mental Health Authority and Local Intellectu"
+    },
+    {
+     "name": "CenterLight Health System",
+     "linkedin_url": "https://www.linkedin.com/company/centerlight-health-system",
+     "industry": "Hospitals and Health Care",
+     "employees_on_linkedin": 1,
+     "about": "CenterLight Health System is a leading resource for community-based healthcare, offering the largest not-for-profit and single-state Program of All-Inclusive Care for the Elderly (PACE) in the nation, as well as a licens"
+    },
+    {
+     "name": "Knipper Health",
+     "linkedin_url": "https://www.linkedin.com/company/knipper-health",
+     "industry": "Pharmaceutical Manufacturing",
+     "employees_on_linkedin": 627,
+     "about": "Knipper Health is a leading force in the healthcare industry, serving the pharmaceutical, biotechnology, & medical device industries for more than 35 years. Our mission is to help our clients manage their brands anywhere"
+    },
+    {
+     "name": "Propel Health",
+     "linkedin_url": "https://www.linkedin.com/company/propelhealth",
+     "industry": "Pharmaceutical Manufacturing",
+     "employees_on_linkedin": 321,
+     "about": "Propel Health: an independent network of agencies creating exponentially meaningful brand experiences and relationships.\n\nPropel Health brings a new vision, new branding, and next-level capabilities to build brands and c"
+    },
+    {
+     "name": "Premier Infusion and Healthcare Services, Inc.",
+     "linkedin_url": "https://www.linkedin.com/company/premierinfusion",
+     "industry": "Pharmaceutical Manufacturing",
+     "employees_on_linkedin": 176,
+     "about": "Since 2004, Premier Infusion and Healthcare Services has been providing intravenous home infusion therapies to patients. We provide the most clinically comprehensive and cost effective management for patients with acute "
+    },
+    {
+     "name": "Caudex | An IPG Health Company",
+     "linkedin_url": "https://www.linkedin.com/company/caudex",
+     "industry": "Pharmaceutical Manufacturing",
+     "employees_on_linkedin": 124,
+     "about": "In an ever evolving world of health innovations, Caudex is proud of our work in multichannel communications and the positive impact it has on patients\u2019 lives.  We are experts in our field, with a bold and insatiable curi"
+    },
+    {
+     "name": "Joint Trauma System (JTS) DoD Center of Excellence for Trauma",
+     "linkedin_url": "https://www.linkedin.com/company/jointtraumasystem",
+     "industry": "Hospitals and Health Care",
+     "employees_on_linkedin": 44,
+     "about": "Official site of the Joint Trauma System (JTS), the Department of Defense Center of Excellence for Trauma, a component of the Defense Health Agency.\n\nFollowing, shares, likes & links \u2260 endorsement. \n\nThe mission of the J"
+    }
+   ]
+  },
+  "7_data_media_ind": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Data Infrastructure and Analytics",
+       "Business Consulting and Services",
+       "IT Services and IT Consulting",
+       "Information Services",
+       "Online Audio and Video Media",
+       "Online Media",
+       "Media Production"
+      ]
+     },
+     "employee_range": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "healthcare marketing agency",
+       "healthcare advertising agency",
+       "pharmaceutical marketing agency",
+       "pharma agency",
+       "health agency",
+       "HCP marketing",
+       "healthcare media agency",
+       "healthcare communications agency",
+       "medical communications agency",
+       "life sciences agency",
+       "omnichannel agency",
+       "media agency",
+       "HCP",
+       "pharma marketing",
+       "pharmaceutical marketing"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 15
+   },
+   "total_results": 1073,
+   "rows": [
+    {
+     "name": "VICE Media",
+     "linkedin_url": "https://www.linkedin.com/company/vice-media",
+     "industry": "Media Production",
+     "employees_on_linkedin": 1747,
+     "about": "VICE Media is a global media company focused on producing high-quality content on the edge of culture across film, television, news documentaries, digital, and advertising. The company has three divisions: VICE Studios G"
+    },
+    {
+     "name": "Precision AQ",
+     "linkedin_url": "https://www.linkedin.com/company/precision-aq",
+     "industry": "Business Consulting and Services",
+     "employees_on_linkedin": 1278,
+     "about": "Precision AQ is the commercialization partner of choice for biopharma innovators, market access leaders, and brand strategists.  \n\nTrusted by all 30 of the world\u2019s top pharmaceutical companies and leading biotechs, we sp"
+    },
+    {
+     "name": "ProcDNA",
+     "linkedin_url": "https://www.linkedin.com/company/procdna",
+     "industry": "Business Consulting and Services",
+     "employees_on_linkedin": 458,
+     "about": "ProcDNA is a life sciences\u2013focused global analytics consulting firm, empowering leaders to make better, data-driven decisions across commercial and clinical functions. We are a passionate team of 400+ professionals acros"
+    },
+    {
+     "name": "P360",
+     "linkedin_url": "https://www.linkedin.com/company/p360",
+     "industry": "IT Services and IT Consulting",
+     "employees_on_linkedin": 337,
+     "about": "P360 empowers life science enterprises to integrate AI technology into every facet of their operations, spanning sales, marketing, and analytics. Boasting a dedicated in-house team with top-tier global tech expertise, P3"
+    },
+    {
+     "name": "Newpage Solutions",
+     "linkedin_url": "https://www.linkedin.com/company/newpage-solutions",
+     "industry": "IT Services and IT Consulting",
+     "employees_on_linkedin": 155,
+     "about": "Newpage Solutions is a technology solution provider for the life sciences industry. We are a trusted partner for pharmaceutical, biotechnology and healthcare companies in the areas of Artificial Intelligence, Marketing T"
+    },
+    {
+     "name": "1000Media",
+     "linkedin_url": "https://www.linkedin.com/company/nasdaily1",
+     "industry": "Media Production",
+     "employees_on_linkedin": 439,
+     "about": "1000Media is a global media agency with offices in New York, Dubai, Israel, and Singapore.\n\nBorn as the creative force behind Nas Daily, we\u2019ve grown into a global agency managing channels with 70M+ followers and billions"
+    },
+    {
+     "name": "Dyninno Group",
+     "linkedin_url": "https://www.linkedin.com/company/dyninno-group",
+     "industry": "IT Services and IT Consulting",
+     "employees_on_linkedin": 2100,
+     "about": "At Dyninno, we turn bold ideas into smart solutions with cutting-edge tech and a fierce drive for innovation. Present in 20 countries, we create and promote our own products in travel, finance, and entertech, always adap"
+    },
+    {
+     "name": "Newlink\u00ae",
+     "linkedin_url": "https://www.linkedin.com/company/newlinkglobal",
+     "industry": "Business Consulting and Services",
+     "employees_on_linkedin": 475,
+     "about": "Newlink is a global consulting firm founded in 1998 by Sergio Roitberg, headquartered in Miami with offices in Argentina, Mexico, Peru, Spain, and the Dominican Republic, and a global partner network. It has evolved from"
+    },
+    {
+     "name": "Smart IMS Inc.",
+     "linkedin_url": "https://www.linkedin.com/company/smart-ims",
+     "industry": "IT Services and IT Consulting",
+     "employees_on_linkedin": 899,
+     "about": "Headquartered in Plainsboro, NJ, Smart IMS delivers enterprise IT, cloud, cybersecurity, and digital transformation services to clients across life sciences, insurance, financial services, and telecommunications. With a "
+    },
+    {
+     "name": "DigitalMarketer",
+     "linkedin_url": "https://www.linkedin.com/company/digital-marketer",
+     "industry": "Business Consulting and Services",
+     "employees_on_linkedin": 322,
+     "about": "Where AI meets real-world marketing for real-world businesses.\n\nAt DigitalMarketer, we help marketers, entrepreneurs, and business owners plan smarter, execute faster, and grow with AI-enhanced marketing systems that act"
+    },
+    {
+     "name": "Pixe",
+     "linkedin_url": "https://www.linkedin.com/company/pixeloo",
+     "industry": "Information Services",
+     "employees_on_linkedin": 44,
+     "about": "We\u2019re a certified corp and have been creating logos, Animations, building digital marketing projects,websites and domain research since 2011. Our home base is the India, but we serve clients all over the world. PIXE has "
+    },
+    {
+     "name": "HMP Global",
+     "linkedin_url": "https://www.linkedin.com/company/hmp-global",
+     "industry": "Media Production",
+     "employees_on_linkedin": 565,
+     "about": "Every day we strive to make healthcare practical.\n \nWho we help: \nHealthcare professionals and organizations\u2014including more than 2 million clinicians across 600 medical specialties.\n\nWhat we do: \nOrganize more than 450 a"
+    },
+    {
+     "name": "84.51\u02da",
+     "linkedin_url": "https://www.linkedin.com/company/84-51",
+     "industry": "Business Consulting and Services",
+     "employees_on_linkedin": 1362,
+     "about": "84.51\u00b0 is a retail data science, insights and media company. We help The Kroger Co., consumer packaged goods companies, agencies, publishers and affiliated partners create more personalized and valuable experiences for s"
+    },
+    {
+     "name": "Doceree",
+     "linkedin_url": "https://www.linkedin.com/company/doceree",
+     "industry": "IT Services and IT Consulting",
+     "employees_on_linkedin": 250,
+     "about": "Doceree is the only AI-powered Operating System for healthcare marketing. We believe the role of AI is to bring richer context to every HCP interaction. Hence, our patented AI understands multiple layers of context to en"
+    },
+    {
+     "name": "Definitive Healthcare",
+     "linkedin_url": "https://www.linkedin.com/company/definitive-healthcare",
+     "industry": "Information Services",
+     "employees_on_linkedin": 737,
+     "about": "Definitive Healthcare is the leading provider of data and analytics, focusing on the business side of healthcare. The healthcare market is complex \u2013 our intelligence makes it clearer. We cut through the noise, offering t"
+    }
+   ]
+  },
+  "records_used": 65
+ },
+ "pharma_industry_agencies": {
+  "6b_pharma_mfg_agency_kw": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Pharmaceutical Manufacturing",
+       "Pharmaceuticals"
+      ]
+     },
+     "employee_range": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "healthcare marketing agency",
+       "healthcare advertising agency",
+       "pharmaceutical marketing agency",
+       "pharma agency",
+       "health agency",
+       "healthcare communications agency",
+       "medical communications agency",
+       "life sciences agency",
+       "healthcare media agency",
+       "HCP marketing",
+       "medical communications",
+       "omnichannel agency",
+       "advertising agency",
+       "creative agency"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living",
+       "contract manufacturing",
+       "CDMO",
+       "CRO",
+       "clinical research",
+       "drug development",
+       "generic",
+       "API manufacturing",
+       "pharmacy",
+       "infusion",
+       "distribution",
+       "compounding"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 89
+  },
+  "6c_biotech_agency_kw": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Biotechnology Research",
+       "Biotechnology"
+      ]
+     },
+     "employee_range": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "healthcare marketing agency",
+       "healthcare advertising agency",
+       "pharmaceutical marketing agency",
+       "pharma agency",
+       "health agency",
+       "healthcare communications agency",
+       "medical communications agency",
+       "life sciences agency",
+       "healthcare media agency",
+       "HCP marketing",
+       "medical communications",
+       "omnichannel agency",
+       "advertising agency",
+       "creative agency"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living",
+       "contract manufacturing",
+       "CDMO",
+       "CRO",
+       "clinical research",
+       "drug development",
+       "generic",
+       "API manufacturing",
+       "pharmacy",
+       "infusion",
+       "distribution",
+       "compounding"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 1
+   },
+   "total_results": 17
+  },
+  "6b_sample15": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Pharmaceutical Manufacturing",
+       "Pharmaceuticals"
+      ]
+     },
+     "employee_range": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "healthcare marketing agency",
+       "healthcare advertising agency",
+       "pharmaceutical marketing agency",
+       "pharma agency",
+       "health agency",
+       "healthcare communications agency",
+       "medical communications agency",
+       "life sciences agency",
+       "healthcare media agency",
+       "HCP marketing",
+       "medical communications",
+       "omnichannel agency",
+       "advertising agency",
+       "creative agency"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living",
+       "contract manufacturing",
+       "CDMO",
+       "CRO",
+       "clinical research",
+       "drug development",
+       "generic",
+       "API manufacturing",
+       "pharmacy",
+       "infusion",
+       "distribution",
+       "compounding"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 15
+   },
+   "rows": [
+    {
+     "name": "The Medical Affairs Company (TMAC)",
+     "linkedin_url": "https://www.linkedin.com/company/the-medical-affairs-company",
+     "employees_on_linkedin": 186,
+     "about": "The Medical Affairs Company (TMAC) is one of the world\u2019s leading outsourced medical affairs solutions providers that partners with biopharmaceutical, diagnostic, and medical device companies to establish or augment their"
+    },
+    {
+     "name": "Touchpoint Solutions",
+     "linkedin_url": "https://www.linkedin.com/company/touchpoint-solutions1",
+     "employees_on_linkedin": 669,
+     "about": "Touchpoint Solutions (Touchpoint) designs and implements customized healthcare sales, service, and communications teams. We listen to our clients and create cross-channel solutions that achieve their goals.  From in-fiel"
+    },
+    {
+     "name": "IPG Health Medical Communications",
+     "linkedin_url": "https://www.linkedin.com/company/ipg-health-medical-communications",
+     "employees_on_linkedin": 637,
+     "about": "IPG Health Medical Communications is home to the world\u2019s most celebrated and awarded Med Comms agencies, driven by a healthy obsession with creating novel marketing solutions, and harnessing creativity, technology, scien"
+    },
+    {
+     "name": "BOLDSCIENCE",
+     "linkedin_url": "https://www.linkedin.com/company/boldscience",
+     "employees_on_linkedin": 271,
+     "about": "We are BOLDSCIENCE.  \n\nWe are a scientifically creative global medical communications agency.  \n\nWhat exactly does that mean? It means our staff are made up of talented science communicators, artists, and curious disrupt"
+    },
+    {
+     "name": "Two Labs",
+     "linkedin_url": "https://www.linkedin.com/company/two-labs-marketing-llc",
+     "employees_on_linkedin": 150,
+     "about": "Two Labs, founded in 2003 and headquartered in Columbus, Ohio, is a leading pharmaceutical services company that partners with pharma and biotech companies across the globe. \n\nWe know that no two paths to launch are alik"
+    },
+    {
+     "name": "Propel Health",
+     "linkedin_url": "https://www.linkedin.com/company/propelhealth",
+     "employees_on_linkedin": 321,
+     "about": "Propel Health: an independent network of agencies creating exponentially meaningful brand experiences and relationships.\n\nPropel Health brings a new vision, new branding, and next-level capabilities to build brands and c"
+    },
+    {
+     "name": "Caudex | An IPG Health Company",
+     "linkedin_url": "https://www.linkedin.com/company/caudex",
+     "employees_on_linkedin": 124,
+     "about": "In an ever evolving world of health innovations, Caudex is proud of our work in multichannel communications and the positive impact it has on patients\u2019 lives.  We are experts in our field, with a bold and insatiable curi"
+    },
+    {
+     "name": "Atlantis Health",
+     "linkedin_url": "https://www.linkedin.com/company/atlantis-health",
+     "employees_on_linkedin": 243,
+     "about": "As a global patient agency and strategic partner to pharmaceutical and life sciences companies, Atlantis Health co-designs and delivers personalized patient engagement solutions using the latest behavioral science and te"
+    },
+    {
+     "name": "Masuu Global Solutions",
+     "linkedin_url": "https://www.linkedin.com/company/masuu-global",
+     "employees_on_linkedin": 105,
+     "about": "Masuu with over 280 Subject Matter Experts (SMEs) and a leadership/scientific advisory team featuring former personnel from health authorities like the USFDA, EMA, MHRA, ANVISA, AIFA, TGA, and INVIMA, Masuu Global is rec"
+    },
+    {
+     "name": "Evolution Health Group, LLC",
+     "linkedin_url": "https://www.linkedin.com/company/evolution-medical-communications-llc",
+     "employees_on_linkedin": 82,
+     "about": "Evolution Health Group is a full-service healthcare communications agency which has broad strategic capabilities and consists of 3 main divisions, Evolution Medical Communications (with expertise with respect to deliveri"
+    },
+    {
+     "name": "AREA 23 on Hudson | An IPG Health Company",
+     "linkedin_url": "https://www.linkedin.com/company/area23onhudson",
+     "employees_on_linkedin": 109,
+     "about": "AREA 23 on Hudson, an IPG Health Company, is a team of creative problem-solvers who don\u2019t believe in a cookie-cutter approach to medical communications. Driven by a shared vision with our client partners, we innovate sol"
+    },
+    {
+     "name": "Trio | An IPG Health Company",
+     "linkedin_url": "https://www.linkedin.com/company/trioipg",
+     "employees_on_linkedin": 32,
+     "about": "Med ed isn\u2018t one-size-fits-all anymore. As such, we specialize in optimizing connections between content, technology, and data sciences to deliver unequivocal peer-to-peer experiences that are inviting, involving, and in"
+    },
+    {
+     "name": "AlphaGroup - a Red Nucleus company",
+     "linkedin_url": "https://www.linkedin.com/company/alphagroupmedicalcommunication",
+     "employees_on_linkedin": 12,
+     "about": "The AlphaGroup (AlphaBioCom, AlphaScientia and AlphaQsci) page is being sunset. Please follow our main Red Nucleus page for updates on our global Medical Communications services."
+    },
+    {
+     "name": "Symbiotix, LLC",
+     "linkedin_url": "https://www.linkedin.com/company/symbiotix",
+     "employees_on_linkedin": 78,
+     "about": "At Symbiotix, we recognize the challenges our clients face in today\u2019s fiercely competitive and rapidly changing marketplace. As a scientific medical communications agency, we solve these challenges and help our clients b"
+    },
+    {
+     "name": "Citrus Health Group",
+     "linkedin_url": "https://www.linkedin.com/company/citrus-health-group",
+     "employees_on_linkedin": 190,
+     "about": "Citrus Health Group is a dynamic, boutique strategic consultancy that supports our clients along the science-to-value continuum to optimize effective commercial development of their assets by ensuring they focus on key e"
+    }
+   ]
+  },
+  "6b_11_50_sample10": {
+   "body": {
+    "company": {
+     "industry": {
+      "include": [
+       "Pharmaceutical Manufacturing",
+       "Pharmaceuticals"
+      ]
+     },
+     "employee_range": [
+      "11-50"
+     ],
+     "hq": {
+      "country_code": [
+       "US"
+      ]
+     },
+     "keywords": {
+      "include": [
+       "healthcare marketing agency",
+       "healthcare advertising agency",
+       "pharmaceutical marketing agency",
+       "pharma agency",
+       "health agency",
+       "healthcare communications agency",
+       "medical communications agency",
+       "life sciences agency",
+       "healthcare media agency",
+       "HCP marketing",
+       "medical communications",
+       "omnichannel agency",
+       "advertising agency",
+       "creative agency"
+      ],
+      "exclude": [
+       "staffing",
+       "SEO",
+       "hospital marketing",
+       "dental marketing",
+       "senior living",
+       "contract manufacturing",
+       "CDMO",
+       "CRO",
+       "clinical research",
+       "drug development",
+       "generic",
+       "API manufacturing",
+       "pharmacy",
+       "infusion",
+       "distribution",
+       "compounding"
+      ]
+     },
+     "name": {
+      "exclude": [
+       "Publicis Health Media",
+       "EVERSANA",
+       "Relevate Health",
+       "HealthLink Dimensions",
+       "Health Link Dimensions",
+       "Throtle",
+       "DeepIntent",
+       "PulsePoint",
+       "OptimizeRx",
+       "IQVIA",
+       "Komodo"
+      ]
+     }
+    },
+    "max_results": 10
+   },
+   "total_results": 49,
+   "rows": [
+    {
+     "name": "Complete Regulatory | An IPG Health Company",
+     "linkedin_url": "https://www.linkedin.com/company/complete-regulatory-an-ipg-health-company",
+     "employees_on_linkedin": 12,
+     "about": "Complete Regulatory is a specialized group of experienced regulatory writers that provides high-quality medical writing and project management services.\n\nWe support a large range of regulatory documents and have experien"
+    },
+    {
+     "name": "BluePath Solutions",
+     "linkedin_url": "https://www.linkedin.com/company/bluepath-solutions",
+     "employees_on_linkedin": 30,
+     "about": "BluePath Solutions is a consulting firm specializing in health economics and value communications. We help clients in the biopharmaceutical, medical device, and medical diagnostic space to attain, maximize, and retain th"
+    },
+    {
+     "name": "Decera Clinical Communications",
+     "linkedin_url": "https://www.linkedin.com/company/deceraclinicalcommunications",
+     "employees_on_linkedin": 43,
+     "about": "Decera Clinical Communications (formerly ECIR) combines real-world, real-time insights with strategic vision to decode complex science and activate healthcare professionals to improve clinical outcomes. Our exclusive net"
+    },
+    {
+     "name": "TriRadial Solutions",
+     "linkedin_url": "https://www.linkedin.com/company/triradialsolutions",
+     "employees_on_linkedin": 18,
+     "about": "TriRadial Solutions, (www.triradial.com), is a unique consulting organization focused on helping rapidly growing life science companies improve Performance, Partnerships, and Compliance.  We develop targeted growth strat"
+    },
+    {
+     "name": "Connexion Healthcare",
+     "linkedin_url": "https://www.linkedin.com/company/clinical-connexion",
+     "employees_on_linkedin": 17,
+     "about": "At Connexion Healthcare, our mission is to improve the patient journey, reduce the time to diagnosis and ultimately improve patient outcomes through clear and effective communication and education.\n\nAs the very first sci"
+    },
+    {
+     "name": "Lighthouse Medical Communications US",
+     "linkedin_url": "https://www.linkedin.com/company/lighthouse-medical-communications-us",
+     "employees_on_linkedin": 1,
+     "about": "Today\u2019s healthcare marketing landscape is more complex and challenging than ever\u2014the \u201cstandard\u201d playbook no longer guarantees success. Lucid is purpose-built to help you make the most of unexpected opportunities, challen"
+    },
+    {
+     "name": "Science & Medicine",
+     "linkedin_url": "https://www.linkedin.com/company/science-&-medicine",
+     "employees_on_linkedin": 59,
+     "about": "Science & Medicine is part of the Publicis Medical Education Group. The Science & Medicine offerings focus on full-service medical education in the consultative and non-CME realms and provide expertise in Strategic scien"
+    },
+    {
+     "name": "Eubio",
+     "linkedin_url": "https://www.linkedin.com/company/eubio",
+     "employees_on_linkedin": 4,
+     "about": "Eubio is more than simply a collection of scientists, physicians, and creatives who deliver exceptional scientific communications. We are Life Enthusiasts who aspire to inspire one another to experience the wonder of lif"
+    },
+    {
+     "name": "CPE Communications",
+     "linkedin_url": "https://www.linkedin.com/company/cpe-communications",
+     "employees_on_linkedin": 12,
+     "about": "CPE Communications is a privately owned, full service, medical communications company with over 20 years of experience developing content and programming for physicians and other key stakeholders in healthcare. We collab"
+    },
+    {
+     "name": "Evoke Navience",
+     "linkedin_url": "https://www.linkedin.com/company/navience-healthcare-solutions",
+     "employees_on_linkedin": 9,
+     "about": "Evoke Navience is now Inizio Evoke Access, a full-service market access agency that navigates the complexities of the market access landscape to identify and build the right solutions to maximize business potential and s"
+    }
+   ]
+  },
+  "records_used": 27
+ },
+ "records_used": 100
+}

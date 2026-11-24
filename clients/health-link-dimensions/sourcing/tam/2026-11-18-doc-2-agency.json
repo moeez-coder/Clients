@@ -1,0 +1,234 @@
+{
+ "core": {
+  "data_analytics/influencers": {
+   "post_dnc": 31
+  },
+  "data_analytics/decision_makers": {
+   "post_dnc": 38
+  },
+  "data_analytics/advocates": {
+   "post_dnc": 21
+  },
+  "investment/influencers": {
+   "post_dnc": 2
+  },
+  "investment/decision_makers": {
+   "post_dnc": 2
+  },
+  "investment/advocates": {
+   "post_dnc": 1
+  },
+  "planning_activation/influencers": {
+   "post_dnc": 21
+  },
+  "planning_activation/decision_makers": {
+   "post_dnc": 53
+  },
+  "planning_activation/advocates": {
+   "post_dnc": 21
+  },
+  "leadership/influencers": {
+   "post_dnc": 177
+  },
+  "leadership/decision_makers": {
+   "post_dnc": 299
+  }
+ },
+ "wide": {
+  "dl_rank_1_300/data_analytics/influencers": 57,
+  "dl_rank_1_300/data_analytics/decision_makers": 74,
+  "dl_rank_1_300/data_analytics/advocates": 50,
+  "dl_rank_1_300/investment/influencers": 9,
+  "dl_rank_1_300/investment/decision_makers": 21,
+  "dl_rank_1_300/investment/advocates": 14,
+  "dl_rank_1_300/planning_activation/influencers": 63,
+  "dl_rank_1_300/planning_activation/decision_makers": 121,
+  "dl_rank_1_300/planning_activation/advocates": 70,
+  "dl_rank_1_300/leadership/influencers": 286,
+  "dl_rank_1_300/leadership/decision_makers": 341,
+  "dl_rank_301_600/data_analytics/influencers": 60,
+  "dl_rank_301_600/data_analytics/decision_makers": 85,
+  "dl_rank_301_600/data_analytics/advocates": 69,
+  "dl_rank_301_600/investment/influencers": 43,
+  "dl_rank_301_600/investment/decision_makers": 84,
+  "dl_rank_301_600/investment/advocates": 66,
+  "dl_rank_301_600/planning_activation/influencers": 45,
+  "dl_rank_301_600/planning_activation/decision_makers": 194,
+  "dl_rank_301_600/planning_activation/advocates": 99,
+  "dl_rank_301_600/leadership/influencers": 269,
+  "dl_rank_301_600/leadership/decision_makers": 285,
+  "blitz_core_not_in_dl/data_analytics/influencers": 18,
+  "blitz_core_not_in_dl/data_analytics/decision_makers": 18,
+  "blitz_core_not_in_dl/data_analytics/advocates": 12,
+  "blitz_core_not_in_dl/investment/influencers": 1,
+  "blitz_core_not_in_dl/investment/decision_makers": 0,
+  "blitz_core_not_in_dl/investment/advocates": 0,
+  "blitz_core_not_in_dl/planning_activation/influencers": 7,
+  "blitz_core_not_in_dl/planning_activation/decision_makers": 28,
+  "blitz_core_not_in_dl/planning_activation/advocates": 7,
+  "blitz_core_not_in_dl/leadership/influencers": 105,
+  "blitz_core_not_in_dl/leadership/decision_makers": 139
+ },
+ "core_name_exclude": [
+  "Publicis Health Media",
+  "EVERSANA",
+  "Relevate Health",
+  "HealthLink Dimensions",
+  "Health Link Dimensions",
+  "Throtle",
+  "DeepIntent",
+  "PulsePoint",
+  "OptimizeRx",
+  "IQVIA",
+  "Komodo",
+  "CMI Media",
+  "Fingerpaint",
+  "GSW",
+  "Syneos",
+  "Health Monitor",
+  "Hibbert",
+  "InStep Health",
+  "NEON",
+  "Vaniam",
+  "Underscore",
+  "Evolution Health",
+  "Quaintise",
+  "Prairie Dog",
+  "Conexiant",
+  "Weinbach",
+  "Cadent",
+  "Unlock Health",
+  "Alloy Marketing",
+  "MediaSpace",
+  "PDQ Communications",
+  "MKC Strategies",
+  "Doceree",
+  "WebMD",
+  "MJH Life Sciences",
+  "Deerfield Agency",
+  "Matrix Medical Communications",
+  "Paradigm Medical Communications",
+  "Rational 360",
+  "Sensified",
+  "Laughlin Constable",
+  "Power Digital",
+  "LionShare",
+  "Rebellion Group"
+ ],
+ "wide_groups": {
+  "dl_rank_1_300": 265,
+  "dl_rank_301_600": 234,
+  "blitz_core_not_in_dl": 101
+ },
+ "wide_removed_dnc": [
+  [
+   "EVERSANA INTOUCH",
+   "Eversana InTouch"
+  ],
+  [
+   "Underscore",
+   "Underscore"
+  ],
+  [
+   "GSW",
+   "Syneos Health (GSW is its agency)"
+  ],
+  [
+   "Evolution Health Group",
+   "Evolution Health Group"
+  ],
+  [
+   "Quaintise, LLC",
+   "Quaintise"
+  ],
+  [
+   "Prairie Dog",
+   "Prairie Dog"
+  ],
+  [
+   "Conexiant",
+   "Conexiant (FKA BroadcastMed)"
+  ],
+  [
+   "The Weinbach Group",
+   "The Weinbach Group Inc."
+  ],
+  [
+   "Cadent Medical Communications",
+   "Cadent"
+  ],
+  [
+   "/prompt",
+   "Prompt"
+  ],
+  [
+   "Hibbert Corporate",
+   "The Hibbert Group"
+  ],
+  [
+   "Unlock Health",
+   "Unlock Health"
+  ],
+  [
+   "Alloy Marketing LLC",
+   "Alloy Marketing"
+  ],
+  [
+   "Fingerpaint Medical",
+   "Fingerpaint"
+  ],
+  [
+   "CMI Media Group",
+   "CMI Media Group"
+  ],
+  [
+   "InStep Health",
+   "InStep Health"
+  ],
+  [
+   "Neon",
+   "NEON"
+  ],
+  [
+   "WebMD Ignite",
+   "WebMD LLC"
+  ],
+  [
+   "CMI Media Group",
+   "CMI Media Group"
+  ],
+  [
+   "Fingerpaint Group",
+   "Fingerpaint"
+  ],
+  [
+   "Fingerpaint Medical",
+   "Fingerpaint"
+  ],
+  [
+   "GSW, powered by Syneos Health",
+   "Syneos Health (GSW is its agency)"
+  ],
+  [
+   "Health Monitor Network",
+   "Health Monitor"
+  ],
+  [
+   "Hibbert",
+   "The Hibbert Group"
+  ],
+  [
+   "InStep Health",
+   "InStep Health"
+  ],
+  [
+   "NEON",
+   "NEON"
+  ],
+  [
+   "Vaniam Group",
+   "Vaniam Group LLC"
+  ]
+ ],
+ "records_used": 146
+}

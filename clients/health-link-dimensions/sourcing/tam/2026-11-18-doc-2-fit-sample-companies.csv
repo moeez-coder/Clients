@@ -1,0 +1,51 @@
+company_linkedin_url,company_name,sample,employees_on_linkedin,industry,domain,fit_verdict
+https://www.linkedin.com/company/neuralink,Neuralink,pharma_201_500,709,Biotechnology Research,neuralink.com,"noise: device, pre-commercial"
+https://www.linkedin.com/company/genetix-biotherapeutics,Genetix Biotherapeutics,pharma_201_500,165,Biotechnology Research,genetixbiotx.com,fit: marketed gene therapies
+https://www.linkedin.com/company/bluebirdbio,bluebird bio,pharma_201_500,341,Biotechnology Research,linkedin.com,fit (duplicate page of Genetix)
+https://www.linkedin.com/company/sage-therapeutics,Sage Therapeutics,pharma_201_500,234,Biotechnology Research,sagerx.com,fit: marketed (Zurzuvae)
+https://www.linkedin.com/company/crispr-therapeutics,CRISPR Therapeutics,pharma_201_500,344,Biotechnology Research,crisprtx.com,borderline: Casgevy marketed by Vertex
+https://www.linkedin.com/company/nference,nference,pharma_201_500,338,Biotechnology Research,nference.com,noise: data/AI vendor
+https://www.linkedin.com/company/psc-biotech-corp,PSC Biotech® Corporation,pharma_201_500,566,Biotechnology Research,biotech.com,noise: consulting/services
+https://www.linkedin.com/company/in-silico-medicine,Insilico Medicine,pharma_201_500,286,Biotechnology Research,insilico.com,noise: clinical stage
+https://www.linkedin.com/company/servier-pharmaceuticals,Servier Pharmaceuticals,pharma_201_500,992,Pharmaceutical Manufacturing,servier.us,fit: marketed
+https://www.linkedin.com/company/phrma,PhRMA,pharma_201_500,746,Pharmaceutical Manufacturing,phrma.org,noise: trade association
+https://www.linkedin.com/company/bluerocktx,BlueRock Therapeutics,pharma_201_500,488,Biotechnology Research,bluerocktx.com,noise: clinical stage
+https://www.linkedin.com/company/zoskinhealth,"ZO Skin Health, Inc.",pharma_201_500,556,Pharmaceutical Manufacturing,zoskinhealth.com,borderline: physician-dispensed skincare
+https://www.linkedin.com/company/allogene-therapeutics,Allogene Therapeutics,pharma_201_500,236,Biotechnology,allogene.com,noise: clinical stage
+https://www.linkedin.com/company/deciphera-pharmaceuticals,Deciphera Pharmaceuticals,pharma_201_500,565,Pharmaceutical Manufacturing,deciphera.com,fit: marketed (Qinlock)
+https://www.linkedin.com/company/wyssinstitute,Wyss Institute at Harvard University,pharma_201_500,369,Biotechnology Research,hsforms.com,noise: research institute
+https://www.linkedin.com/company/intercept-pharmaceuticals,Intercept Pharmaceuticals,pharma_201_500,326,Pharmaceutical Manufacturing,interceptpharma.com,fit: marketed
+https://www.linkedin.com/company/calico-life-sciences-llc,Calico Life Sciences,pharma_201_500,496,Biotechnology Research,calicolabs.com,noise: research
+https://www.linkedin.com/company/altoslabs,Altos Labs,pharma_201_500,580,Biotechnology Research,altoslabs.com,noise: research
+https://www.linkedin.com/company/biosintex-laboratorio,Biosintex Laboratorio,pharma_201_500,182,Pharmaceutical Manufacturing,biosintex.com.ar,noise: non-US
+https://www.linkedin.com/company/summit-therapeutics,"Summit Therapeutics, Inc.",pharma_201_500,428,Biotechnology Research,smmttx.com,borderline: launch-stage (ivonescimab)
+https://www.linkedin.com/company/modernatx,Moderna,pharma_501_5000,6172,Biotechnology Research,modernatx.com,fit: marketed vaccines
+https://www.linkedin.com/company/precision-medicine-group,Precision Medicine Group,pharma_501_5000,3711,Pharmaceutical Manufacturing,precisionmedicinegrp.com,noise: CRO/services (now name-excluded)
+https://www.linkedin.com/company/lupin-pharmaceuticals,Lupin Pharmaceuticals,pharma_501_5000,5596,Pharmaceutical Manufacturing,lupin.com,fit: marketed brands + generics
+https://www.linkedin.com/company/merz-aesthetics-inc.,Merz Aesthetics,pharma_501_5000,3258,Pharmaceutical Manufacturing,merzaesthetics.com,fit: HCP aesthetics
+https://www.linkedin.com/company/10xgenomics,10x Genomics,pharma_501_5000,2532,Biotechnology Research,10xgenomics.com,noise: research tools (now name-excluded)
+https://www.linkedin.com/company/otsuka-pharmaceutical-companies,Otsuka Pharmaceutical Companies (U.S.),pharma_501_5000,3877,Pharmaceutical Manufacturing,otsuka-us.com,fit: marketed
+https://www.linkedin.com/company/uspharmacopeia,US Pharmacopeia,pharma_501_5000,1709,Pharmaceutical Manufacturing,usp.org,noise: standards body (now name-excluded)
+https://www.linkedin.com/company/adium-argentina,Adium Argentina,pharma_501_5000,710,Pharmaceutical Manufacturing,adium.com.ar,noise: non-US
+https://www.linkedin.com/company/twist-bioscience,Twist Bioscience,pharma_501_5000,1314,Biotechnology Research,twistbioscience.com,noise: research tools (now name-excluded)
+https://www.linkedin.com/company/legendbiotechco.,Legend Biotech,pharma_501_5000,2684,Biotechnology Research,legendbiotech.com,fit: marketed (Carvykti)
+https://www.linkedin.com/company/qure.ai,Qure.ai,device_51_200,420,Medical Device,qure.ai,borderline: AI imaging software
+https://www.linkedin.com/company/inmode-aesthetics,InMode,device_51_200,580,Medical Equipment Manufacturing,inmodemd.com,fit: aesthetic HCPs
+https://www.linkedin.com/company/butterflynetwork,"Butterfly Network, Inc.",device_51_200,470,Medical Equipment Manufacturing,butterflynetwork.com,fit: point-of-care ultrasound
+https://www.linkedin.com/company/anatomage-inc.,Anatomage Inc.,device_51_200,143,Medical Equipment Manufacturing,anatomage.com,noise: education hardware
+https://www.linkedin.com/company/vive-health,Vive Health,device_51_200,173,Medical Equipment Manufacturing,vivehealth.com,noise: consumer products
+https://www.linkedin.com/company/kestra-medical-technologies-inc.,"Kestra Medical Technologies, Inc.",device_51_200,542,Medical Equipment Manufacturing,kestramedical.com,fit: cardiology
+https://www.linkedin.com/company/thinksurgical,THINK Surgical,device_51_200,206,Medical Equipment Manufacturing,thinksurgical.com,fit: orthopaedic surgeons
+https://www.linkedin.com/company/topcon-healthcare,Topcon Healthcare,device_51_200,638,Medical Equipment Manufacturing,topconhealthcare.com,fit: eye care
+https://www.linkedin.com/company/synchron-inc-,Synchron,device_51_200,126,Medical Equipment Manufacturing,synchron.com,noise: pre-commercial
+https://www.linkedin.com/company/blackrock-neurotech,Blackrock Neurotech,device_51_200,189,Medical Equipment Manufacturing,blackrockneurotech.com,noise: pre-commercial
+https://www.linkedin.com/company/accuray,Accuray,device_201_1000,1046,Medical Equipment Manufacturing,accuray.com,fit: radiation oncology
+https://www.linkedin.com/company/thehydrafacialcompany,Hydrafacial,device_201_1000,689,Medical Equipment Manufacturing,hydrafacial.com,noise: spa/consumer aesthetics
+https://www.linkedin.com/company/atec-spine,ATEC Spine,device_201_1000,1134,Medical Equipment Manufacturing,atecspine.com,fit: spine surgeons
+https://www.linkedin.com/company/procept-corporation,PROCEPT BioRobotics,device_201_1000,912,Medical Equipment Manufacturing,procept-biorobotics.com,fit: urologists
+https://www.linkedin.com/company/sol-millennium-medical-group,Sol-Millennium Medical Group,device_201_1000,194,Medical Equipment Manufacturing,solm.com,noise: commodity needles/syringes
+https://www.linkedin.com/company/candelamedical,Candela Medical,device_201_1000,596,Medical Device,candelamedical.com,fit: dermatology
+https://www.linkedin.com/company/sciton,SCITON,device_201_1000,509,Medical Equipment Manufacturing,sciton.com,fit: dermatology/aesthetics
+https://www.linkedin.com/company/advanced-bionics,Advanced Bionics,device_201_1000,1122,Medical Equipment Manufacturing,advancedbionics.com,fit: ENT/audiology
+https://www.linkedin.com/company/heartflow-inc,Heartflow,device_201_1000,906,Medical Equipment Manufacturing,heartflow.com,fit: cardiology
+https://www.linkedin.com/company/cynosure-inc-,"Cynosure, LLC.",device_201_1000,825,Medical Equipment Manufacturing,cynosure.com,fit: dermatology/aesthetics

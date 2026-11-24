@@ -1,0 +1,367 @@
+{
+ "prospeo_10000plus": {
+  "filters": "company_industry Medical Equipment Manufacturing, 10000+, US",
+  "rows": [
+   [
+    "Medtronic",
+    "medtronic.com",
+    "https://www.linkedin.com/company/medtronic"
+   ],
+   [
+    "Stryker",
+    "stryker.com",
+    "https://www.linkedin.com/company/stryker"
+   ],
+   [
+    "Boston Scientific",
+    "bsci.com",
+    "https://www.linkedin.com/company/boston-scientific"
+   ],
+   [
+    "BD",
+    "bd.com",
+    "https://www.linkedin.com/company/bd1"
+   ],
+   [
+    "Baxter International",
+    "baxter.com",
+    "https://www.linkedin.com/company/baxter-healthcare"
+   ],
+   [
+    "Zimmer Biomet",
+    "zimmerbiomet.com",
+    "https://www.linkedin.com/company/zimmerbiomet"
+   ],
+   [
+    "Medline",
+    "medline.com",
+    "https://www.linkedin.com/company/medline-industries"
+   ],
+   [
+    "Edwards Lifesciences",
+    "edwards.com",
+    "https://www.linkedin.com/company/edwards-lifesciences"
+   ],
+   [
+    "Intuitive",
+    "intusurg.com",
+    "https://www.linkedin.com/company/intuitivesurgical"
+   ],
+   [
+    "Align Technology",
+    "aligntech.com",
+    "https://www.linkedin.com/company/align-technology"
+   ],
+   [
+    "Dentsply Sirona",
+    "dentsplysirona.com",
+    "https://www.linkedin.com/company/dentsplysirona"
+   ],
+   [
+    "Beckman Coulter Diagnostics",
+    "beckman.com",
+    "https://www.linkedin.com/company/beckman-coulter"
+   ],
+   [
+    "Henry Schein",
+    "henryschein.com",
+    "https://www.linkedin.com/company/henry-schein"
+   ],
+   [
+    "STERIS",
+    "steris.com",
+    "https://www.linkedin.com/company/steris-corporation"
+   ],
+   [
+    "Solventum",
+    "mmm.com",
+    "https://www.linkedin.com/company/solventumhealth"
+   ],
+   [
+    "Straumann Group",
+    "straumann.com",
+    "https://www.linkedin.com/company/straumann-group"
+   ],
+   [
+    "Danaher",
+    null,
+    "https://www.linkedin.com/company/danaher"
+   ]
+  ]
+ },
+ "blitz_10001plus": {
+  "body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Medical Equipment Manufacturing",
+      "Medical Device"
+     ]
+    },
+    "employee_range": [
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ]
+    }
+   },
+   "max_results": 50
+  },
+  "total": 135,
+  "rows": [
+   [
+    "Medtronic",
+    100408,
+    "https://www.linkedin.com/company/medtronic"
+   ],
+   [
+    "Stryker",
+    52388,
+    "https://www.linkedin.com/company/stryker"
+   ],
+   [
+    "Boston Scientific",
+    55187,
+    "https://www.linkedin.com/company/boston-scientific"
+   ],
+   [
+    "BD",
+    46210,
+    "https://www.linkedin.com/company/bd1"
+   ],
+   [
+    "Baxter International Inc.",
+    2,
+    "https://www.linkedin.com/company/baxter-healthcare"
+   ],
+   [
+    "Zimmer Biomet",
+    1,
+    "https://www.linkedin.com/company/zimmerbiomet"
+   ],
+   [
+    "Intuitive",
+    13398,
+    "https://www.linkedin.com/company/intuitivesurgical"
+   ],
+   [
+    "Medline",
+    19198,
+    "https://www.linkedin.com/company/medlineinc"
+   ],
+   [
+    "Danaher Corporation",
+    1,
+    "https://www.linkedin.com/company/danaher"
+   ],
+   [
+    "Edwards Lifesciences",
+    14351,
+    "https://www.linkedin.com/company/edwards-lifesciences"
+   ],
+   [
+    "Beckman Coulter Diagnostics",
+    10748,
+    "https://www.linkedin.com/company/beckman-coulter"
+   ],
+   [
+    "Dentsply Sirona",
+    11320,
+    "https://www.linkedin.com/company/dentsplysirona"
+   ],
+   [
+    "Arthrex",
+    9275,
+    "https://www.linkedin.com/company/arthrex"
+   ],
+   [
+    "Align Technology",
+    13465,
+    "https://www.linkedin.com/company/align-technology"
+   ],
+   [
+    "Varian",
+    9629,
+    "https://www.linkedin.com/company/varian-medical-systems"
+   ],
+   [
+    "Dexcom",
+    9202,
+    "https://www.linkedin.com/company/dexcom"
+   ],
+   [
+    "Teleflex",
+    9961,
+    "https://www.linkedin.com/company/teleflex"
+   ],
+   [
+    "Henry Schein",
+    10754,
+    "https://www.linkedin.com/company/henry-schein"
+   ],
+   [
+    "B. Braun Medical Inc. (US)",
+    7616,
+    "https://www.linkedin.com/company/b--braun-medical-inc.-us"
+   ],
+   [
+    "Covidien (Medtronic Minimally Invasive Therapies Group)",
+    7666,
+    "https://www.linkedin.com/company/covidien-2"
+   ],
+   [
+    "ZEISS Vision",
+    2100,
+    "https://www.linkedin.com/company/zeiss-vision"
+   ],
+   [
+    "Cook Medical",
+    8431,
+    "https://www.linkedin.com/company/cookmedical"
+   ],
+   [
+    "STERIS",
+    11260,
+    "https://www.linkedin.com/company/steris-corporation"
+   ],
+   [
+    "Solventum",
+    11308,
+    "https://www.linkedin.com/company/solventumhealth"
+   ],
+   [
+    "St. Jude Medical",
+    6023,
+    "https://www.linkedin.com/company/st--jude-medical"
+   ],
+   [
+    "Ethicon, Inc.",
+    4920,
+    "https://www.linkedin.com/company/ethicon"
+   ],
+   [
+    "Hillrom",
+    3473,
+    "https://www.linkedin.com/company/hillrom"
+   ],
+   [
+    "MicroPort",
+    2429,
+    "https://www.linkedin.com/company/microport"
+   ],
+   [
+    "Vantive",
+    6139,
+    "https://www.linkedin.com/company/vantivehealth"
+   ],
+   [
+    "CR Bard",
+    2326,
+    "https://www.linkedin.com/company/cr-bard"
+   ],
+   [
+    "Integer Holdings Corporation",
+    3916,
+    "https://www.linkedin.com/company/integer-holdings"
+   ],
+   [
+    "CareFusion",
+    2618,
+    "https://www.linkedin.com/company/carefusion"
+   ],
+   [
+    "Biomet",
+    2065,
+    "https://www.linkedin.com/company/biomet"
+   ],
+   [
+    "Hoya",
+    1987,
+    "https://www.linkedin.com/company/hoya"
+   ],
+   [
+    "Jabil Healthcare",
+    3850,
+    "https://www.linkedin.com/company/jabil-healthcare"
+   ],
+   [
+    "Envista Holdings Corporation",
+    2278,
+    "https://www.linkedin.com/company/envista-co"
+   ],
+   [
+    "Boston Scientific Urology",
+    90,
+    "https://www.linkedin.com/company/bsc-urology"
+   ],
+   [
+    "United Imaging - North America",
+    271,
+    "https://www.linkedin.com/company/united-imaging-healthcare-north-america"
+   ],
+   [
+    "Patterson Veterinary Supply",
+    597,
+    "https://www.linkedin.com/company/patterson-veterinary"
+   ],
+   [
+    "Nipro Medical Corporation",
+    1236,
+    "https://www.linkedin.com/company/nipro-medical-corporation"
+   ],
+   [
+    "Nypro, A Jabil Company",
+    2186,
+    "https://www.linkedin.com/company/nypro"
+   ],
+   [
+    "CooperCompanies",
+    310,
+    "https://www.linkedin.com/company/coopercompanies"
+   ],
+   [
+    "Konica Minolta Healthcare Americas, Inc.",
+    395,
+    "https://www.linkedin.com/company/konica-minolta-healthcare-americas"
+   ],
+   [
+    "MedCepts Medical Sales & Marketing Network - Medical Devices / Pharmaceuticals",
+    267,
+    "https://www.linkedin.com/company/medcepts-medical-sales-network"
+   ],
+   [
+    "Medtronic CEMA",
+    81,
+    "https://www.linkedin.com/company/medtronic-cema"
+   ],
+   [
+    "Gambro",
+    1094,
+    "https://www.linkedin.com/company/gambro"
+   ],
+   [
+    "Dexcom Ireland - Athenry",
+    203,
+    "https://www.linkedin.com/company/dexcom-ireland-athenry"
+   ],
+   [
+    "DePuy Synthes",
+    2680,
+    "https://www.linkedin.com/company/depuysynthesorthopaedics"
+   ],
+   [
+    "Baxter Cardiac Care Solutions - US",
+    108,
+    "https://www.linkedin.com/company/baxter-cardiac-care-solutions"
+   ],
+   [
+    "Fenwal, Inc., a Fresenius Kabi Company",
+    1023,
+    "https://www.linkedin.com/company/fenwal-inc-a-fresenius-kabi-company"
+   ]
+  ],
+  "records_used": 50
+ }
+}
