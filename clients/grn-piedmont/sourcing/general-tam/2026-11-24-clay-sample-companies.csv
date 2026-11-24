@@ -1,0 +1,21 @@
+company_linkedin_url,company_name,company_domain,clay_industry,clay_hq,clay_est_employees,fit_read,in_blitz_tam,blitz_qc_tier,source_tool,pulled_on
+https://www.linkedin.com/company/boston-dynamics,Boston Dynamics,bostondynamics.com,Automation Machinery Manufacturing,"Waltham, MA",1769,fit,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/fanuc-america-corporation,FANUC America Corporation,fanucamerica.com,Automation Machinery Manufacturing,"Rochester Hills, MI",1948,"fit (US arm of foreign parent; est. headcount above 1,000)",yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/mitsubishi-electric-us-industrial-automation,Mitsubishi Electric US – Industrial Automation,mitsubishielectric.com,Automation Machinery Manufacturing,"Vernon Hills, IL",1996,"fit (US arm; est. headcount above 1,000)",yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/gao-tek-inc-,GAOTek Inc.,gaotek.com,"Appliances, Electrical, and Electronics Manufacturing","New York, NY",3690,"not fit: reseller/supplier, headcount implausible",yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/bark-thedogcompany,BARK,bark.co,Manufacturing,"New York, NY",1004,not fit: consumer subscription brand,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/intech-automation-and-intelligence,INTECH Automation & Intelligence,intechww.com,Automation Machinery Manufacturing,"Houston, TX",957,borderline: systems integrator,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/locus-robotics,Locus Robotics,locusrobotics.com,Automation Machinery Manufacturing,"Wilmington, MA",474,fit (venture-backed),no,-,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/makino,Makino,makino.com,Machinery Manufacturing,"Mason, OH",1332,fit (US arm),yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/danieldefense,"Daniel Defense, LLC",danieldefense.com,Manufacturing,"Black Creek, GA",318,fit (family-owned),yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/form-energy,Form Energy,formenergy.com,Manufacturing,"Somerville, MA",914,fit,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/power-plant-services,Power Plant Services,ppsvcs.com,Industrial Machinery Manufacturing,"Melrose Park, IL",1966,fit,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/metushvac,Mitsubishi Electric Trane US,mitsubishicomfort.com,"Appliances, Electrical, and Electronics Manufacturing","Suwanee, GA",783,borderline: JV sales/distribution arm,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/jcb-north-america,JCB North America,jcb.com,Machinery Manufacturing,"Pooler, GA",788,fit (US arm),yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/the-farmer's-dog,The Farmer's Dog,thefarmersdog.com,Manufacturing,"New York, NY",1065,not fit: DTC pet food subscription,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/evident-industrial,Evident Industrial,evidentscientific.com,"Appliances, Electrical, and Electronics Manufacturing","Waltham, MA",488,fit,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/ben-&-jerry's,Ben & Jerry's,benjerry.com,Manufacturing,"South Burlington, VT",1784,borderline: Unilever-owned brand,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/novus,"Novus International, Inc.",novusint.com,Food and Beverage Manufacturing,"Chesterfield, MO",779,fit,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/hytorc-division-unex-corporation,HYTORC,hytorc.com,Industrial Machinery Manufacturing,"Mahwah, NJ",786,fit,yes,core,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/markforged,Markforged,markforged.com,Industrial Machinery Manufacturing,"Waltham, MA",235,fit,yes,review,Clay MCP search-companies,2026-11-24
+https://www.linkedin.com/company/optimas-solutions,Optimas Solutions,optimas.com,Manufacturing,"Wood Dale, IL",950,borderline: manufacturer/distributor,no,-,Clay MCP search-companies,2026-11-24
