@@ -342,6 +342,7 @@ GTM Sheets is Algo Acquisition's own Clay-style table app inside Tracking Client
   - Webhook URLs can write to their tables: never commit them.
   - A webhook load appends, so a re-run duplicates rows.
 - Link the Leads table to its lead list (`gtm_sheet_update_table` `lead_list`). Record every workbook and table id in the client README.
+- **Every full TAM pull also lands in GTM Sheets** (Moe, 2026-11-24: "Whenever there is a full TAM pull, make sure that they are added in a clients table in gtm sheets"). A TAM isn't a campaign, so it gets its own workbook in the client's folder, named `<Client> | General TAM | <date>`, with no campaign link. It holds a Companies table loaded from the TAM's companies CSV through the webhook, the same way as above. Load every row, including those a QC pass marks as drop. Put the QC columns in the table so it can be filtered rather than trimmed. Check the row count against the CSV, and record the workbook and table ids in the client README.
 
 ## Required sections in every `clients/<slug>/README.md`
 
