@@ -1,0 +1,717 @@
+{
+ "records_used": 244,
+ "companies": [
+  {
+   "company": "Falcon Plastics",
+   "segment": "manufacturing",
+   "n": 3,
+   "tiers": {
+    "1": 2,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Maswer Usa, Inc",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Weetabix North America / Barbara's Bakery Inc.",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Southern Classic Food Group, LLC.",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Echo Lake Foods, LLC",
+   "segment": "manufacturing",
+   "n": 2,
+   "tiers": {
+    "1": 1,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Firehook",
+   "segment": "manufacturing",
+   "n": 2,
+   "tiers": {
+    "1": 1,
+    "2": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Custom Glass Solutions, LLC",
+   "segment": "manufacturing",
+   "n": 4,
+   "tiers": {
+    "1": 1,
+    "2": 2,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "McCall Farms Inc",
+   "segment": "manufacturing",
+   "n": 2,
+   "tiers": {
+    "2": 1,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "37th Street Bakery, LLC",
+   "segment": "manufacturing",
+   "n": 2,
+   "tiers": {
+    "1": 1,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "SEKISUI KYDEX",
+   "segment": "manufacturing",
+   "n": 10,
+   "tiers": {
+    "1": 1,
+    "2": 2,
+    "3": 7
+   },
+   "error": null
+  },
+  {
+   "company": "PowerSecure, Inc.",
+   "segment": "manufacturing",
+   "n": 10,
+   "tiers": {
+    "1": 3,
+    "3": 7
+   },
+   "error": null
+  },
+  {
+   "company": "Quality Industries",
+   "segment": "manufacturing",
+   "n": 2,
+   "tiers": {
+    "1": 2
+   },
+   "error": null
+  },
+  {
+   "company": "Appleton Coated LLC",
+   "segment": "manufacturing",
+   "n": 1,
+   "tiers": {
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Chemstream",
+   "segment": "manufacturing",
+   "n": 5,
+   "tiers": {
+    "1": 1,
+    "3": 4
+   },
+   "error": null
+  },
+  {
+   "company": "Hydraulic Supply Company",
+   "segment": "manufacturing",
+   "n": 2,
+   "tiers": {
+    "1": 1,
+    "2": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Paul B. Zimmerman, Inc.",
+   "segment": "manufacturing",
+   "n": 2,
+   "tiers": {
+    "2": 1,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "TPI Corporation",
+   "segment": "manufacturing",
+   "n": 10,
+   "tiers": {
+    "1": 1,
+    "2": 1,
+    "3": 8
+   },
+   "error": null
+  },
+  {
+   "company": "HDM Hydraulics, a Ligon Company",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Norris Cylinder Company",
+   "segment": "manufacturing",
+   "n": 1,
+   "tiers": {
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Enesco, LLC",
+   "segment": "manufacturing",
+   "n": 7,
+   "tiers": {
+    "1": 1,
+    "2": 1,
+    "3": 5
+   },
+   "error": null
+  },
+  {
+   "company": "Newman & Company",
+   "segment": "manufacturing",
+   "n": 3,
+   "tiers": {
+    "1": 2,
+    "2": 1
+   },
+   "error": null
+  },
+  {
+   "company": "IPG Genesis Systems",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Lufkin Gears",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Ayrshire Electronics",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Blistex Inc.",
+   "segment": "manufacturing",
+   "n": 10,
+   "tiers": {
+    "1": 1,
+    "2": 1,
+    "3": 8
+   },
+   "error": null
+  },
+  {
+   "company": "Infiltrator Water Technologies (Decentralized Wastewater Treatment Solutions)",
+   "segment": "manufacturing",
+   "n": 4,
+   "tiers": {
+    "1": 1,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "PRP Wine International",
+   "segment": "manufacturing",
+   "n": 4,
+   "tiers": {
+    "1": 3,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Anchor Lamina America Inc.",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Elkhart Plastics",
+   "segment": "manufacturing",
+   "n": 1,
+   "tiers": {
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Verdant Specialty Solutions",
+   "segment": "manufacturing",
+   "n": 4,
+   "tiers": {
+    "1": 1,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "Latina Boulevard Foods, LLC.",
+   "segment": "manufacturing",
+   "n": 3,
+   "tiers": {
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "Novipax",
+   "segment": "manufacturing",
+   "n": 3,
+   "tiers": {
+    "1": 1,
+    "3": 2
+   },
+   "error": null
+  },
+  {
+   "company": "Valley Forge Fabrics, Inc.",
+   "segment": "manufacturing",
+   "n": 4,
+   "tiers": {
+    "1": 1,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "Wood-Mode, LLC",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Prototek Digital Manufacturing",
+   "segment": "manufacturing",
+   "n": 6,
+   "tiers": {
+    "1": 1,
+    "3": 5
+   },
+   "error": null
+  },
+  {
+   "company": "Cypress Industries",
+   "segment": "manufacturing",
+   "n": 3,
+   "tiers": {
+    "1": 1,
+    "2": 1,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Mark Andy Inc.",
+   "segment": "manufacturing",
+   "n": 10,
+   "tiers": {
+    "1": 1,
+    "2": 1,
+    "3": 8
+   },
+   "error": null
+  },
+  {
+   "company": "Great Kitchens Food Company",
+   "segment": "manufacturing",
+   "n": 2,
+   "tiers": {
+    "2": 1,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Transparent Container",
+   "segment": "manufacturing",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Cold Jet",
+   "segment": "manufacturing",
+   "n": 8,
+   "tiers": {
+    "1": 1,
+    "2": 1,
+    "3": 6
+   },
+   "error": null
+  },
+  {
+   "company": "Brooks Safety Solutions",
+   "segment": "fls_specialist",
+   "n": 7,
+   "tiers": {
+    "1": 2,
+    "2": 1,
+    "3": 4
+   },
+   "error": null
+  },
+  {
+   "company": "International Fire Protection",
+   "segment": "fls_specialist",
+   "n": 3,
+   "tiers": {
+    "1": 1,
+    "3": 2
+   },
+   "error": null
+  },
+  {
+   "company": "Kennedy Valve Company",
+   "segment": "fls_specialist",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Summit Fire Protection",
+   "segment": "fls_specialist",
+   "n": 5,
+   "tiers": {
+    "1": 1,
+    "3": 4
+   },
+   "error": null
+  },
+  {
+   "company": "American Fire Protection Group, Inc.",
+   "segment": "fls_specialist",
+   "n": 5,
+   "tiers": {
+    "1": 1,
+    "3": 4
+   },
+   "error": null
+  },
+  {
+   "company": "DynaFire",
+   "segment": "fls_specialist",
+   "n": 4,
+   "tiers": {
+    "2": 1,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "Total Fire Protection",
+   "segment": "fls_specialist",
+   "n": 7,
+   "tiers": {
+    "1": 2,
+    "3": 5
+   },
+   "error": null
+  },
+  {
+   "company": "Viking Fire Protection Group",
+   "segment": "fls_specialist",
+   "n": 2,
+   "tiers": {
+    "3": 2
+   },
+   "error": null
+  },
+  {
+   "company": "Fire Safety and Protection",
+   "segment": "fls_specialist",
+   "n": 5,
+   "tiers": {
+    "1": 2,
+    "2": 1,
+    "3": 2
+   },
+   "error": null
+  },
+  {
+   "company": "Total Fire Protection, Inc.",
+   "segment": "fls_specialist",
+   "n": 7,
+   "tiers": {
+    "1": 2,
+    "2": 2,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "LaForce",
+   "segment": "fls_specialist",
+   "n": 4,
+   "tiers": {
+    "2": 1,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "AFA Protective Systems, Inc.",
+   "segment": "fls_specialist",
+   "n": 2,
+   "tiers": {
+    "2": 1,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Fortis Fire & Safety",
+   "segment": "fls_specialist",
+   "n": 4,
+   "tiers": {
+    "1": 1,
+    "2": 2,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Sprinklermatic",
+   "segment": "fls_specialist",
+   "n": 4,
+   "tiers": {
+    "1": 1,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "Kings III Emergency Communications",
+   "segment": "fls_specialist",
+   "n": 10,
+   "tiers": {
+    "1": 3,
+    "2": 1,
+    "3": 6
+   },
+   "error": null
+  },
+  {
+   "company": "Buckeye Fire Equipment",
+   "segment": "fls_specialist",
+   "n": 1,
+   "tiers": {
+    "2": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Firetron, Inc.",
+   "segment": "fls_specialist",
+   "n": 5,
+   "tiers": {
+    "1": 1,
+    "2": 1,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "Davis-Ulmer Fire Protection",
+   "segment": "fls_specialist",
+   "n": 4,
+   "tiers": {
+    "3": 4
+   },
+   "error": null
+  },
+  {
+   "company": "Fire Equipment Incorporated",
+   "segment": "fls_specialist",
+   "n": 5,
+   "tiers": {
+    "1": 2,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "Continental Fire Sprinkler Company",
+   "segment": "fls_specialist",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "BFPE International",
+   "segment": "fls_specialist",
+   "n": 2,
+   "tiers": {
+    "2": 1,
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Sobieski Mechanical & Fire Protection",
+   "segment": "fls_specialist",
+   "n": 3,
+   "tiers": {
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "Fireline",
+   "segment": "fls_specialist",
+   "n": 1,
+   "tiers": {
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "WIGINTON FIRE SYSTEMS",
+   "segment": "fls_specialist",
+   "n": 5,
+   "tiers": {
+    "1": 1,
+    "3": 4
+   },
+   "error": null
+  },
+  {
+   "company": "Great Lakes Plumbing Heating Fire Protection Company",
+   "segment": "fls_specialist",
+   "n": 4,
+   "tiers": {
+    "1": 2,
+    "3": 2
+   },
+   "error": null
+  },
+  {
+   "company": "Sirina Fire Protection Corp.",
+   "segment": "fls_specialist",
+   "n": 1,
+   "tiers": {
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "American Fire Systems, Inc.",
+   "segment": "fls_specialist",
+   "n": 5,
+   "tiers": {
+    "1": 1,
+    "2": 1,
+    "3": 3
+   },
+   "error": null
+  },
+  {
+   "company": "Nelbud Services, LLC",
+   "segment": "fls_specialist",
+   "n": 4,
+   "tiers": {
+    "1": 3,
+    "2": 1
+   },
+   "error": null
+  },
+  {
+   "company": "Firecom LLC",
+   "segment": "fls_specialist",
+   "n": 1,
+   "tiers": {
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "F.E. Moran Special Hazard Systems | Fire Protection | Power | Chemical | Industrial",
+   "segment": "fls_specialist",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Rapid Fire Protection Inc",
+   "segment": "fls_specialist",
+   "n": 1,
+   "tiers": {
+    "3": 1
+   },
+   "error": null
+  },
+  {
+   "company": "National Fire Protection, LLC",
+   "segment": "fls_specialist",
+   "n": 2,
+   "tiers": {
+    "3": 2
+   },
+   "error": null
+  },
+  {
+   "company": "Chesapeake Fire Protection",
+   "segment": "fls_specialist",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Maccarone Plumbing",
+   "segment": "fls_specialist",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "New York Plumbing, Heating & Cooling Corp.",
+   "segment": "fls_specialist",
+   "n": 0,
+   "tiers": {},
+   "error": null
+  },
+  {
+   "company": "Averus Fire Services",
+   "segment": "fls_specialist",
+   "n": 1,
+   "tiers": {
+    "3": 1
+   },
+   "error": null
+  }
+ ]
+}

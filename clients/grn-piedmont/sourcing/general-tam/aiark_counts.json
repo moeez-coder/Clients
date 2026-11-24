@@ -1,0 +1,513 @@
+{
+ "_credits_before": 63.7,
+ "mfg/us-any-office": {
+  "body": {
+   "account": {
+    "employeeSize": {
+     "type": "RANGE",
+     "range": [
+      {
+       "start": 201,
+       "end": 500
+      },
+      {
+       "start": 501,
+       "end": 1000
+      }
+     ]
+    },
+    "location": {
+     "any": {
+      "include": [
+       "United States"
+      ]
+     }
+    },
+    "industries": {
+     "any": {
+      "include": {
+       "mode": "STRICT",
+       "content": [
+        "manufacturing",
+        "appliances, electrical, and electronics manufacturing",
+        "machinery manufacturing",
+        "motor vehicle manufacturing",
+        "food and beverage manufacturing",
+        "industrial machinery manufacturing",
+        "furniture and home furnishings manufacturing",
+        "textile manufacturing",
+        "chemical manufacturing",
+        "paper and forest product manufacturing",
+        "plastics manufacturing",
+        "automation machinery manufacturing",
+        "beverage manufacturing",
+        "glass, ceramics and concrete manufacturing",
+        "defense and space manufacturing",
+        "packaging and containers manufacturing",
+        "dairy product manufacturing",
+        "aviation and aerospace component manufacturing",
+        "railroad equipment manufacturing",
+        "industrial manufacturing",
+        "plastics and rubber manufacturing",
+        "paper manufacturing",
+        "industrial automation"
+       ]
+      }
+     }
+    }
+   },
+   "page": 0,
+   "size": 1
+  },
+  "totalElements": 6091,
+  "sample": "Gregory Poole Equipment Company"
+ },
+ "mfg/et-ct-any-office": {
+  "body": {
+   "account": {
+    "employeeSize": {
+     "type": "RANGE",
+     "range": [
+      {
+       "start": 201,
+       "end": 500
+      },
+      {
+       "start": 501,
+       "end": 1000
+      }
+     ]
+    },
+    "location": {
+     "any": {
+      "include": [
+       "Alabama",
+       "Arkansas",
+       "Connecticut",
+       "Delaware",
+       "District of Columbia",
+       "Florida",
+       "Georgia",
+       "Illinois",
+       "Indiana",
+       "Iowa",
+       "Kansas",
+       "Kentucky",
+       "Louisiana",
+       "Maine",
+       "Maryland",
+       "Massachusetts",
+       "Michigan",
+       "Minnesota",
+       "Mississippi",
+       "Missouri",
+       "Nebraska",
+       "New Hampshire",
+       "New Jersey",
+       "New York",
+       "North Carolina",
+       "North Dakota",
+       "Ohio",
+       "Oklahoma",
+       "Pennsylvania",
+       "Rhode Island",
+       "South Carolina",
+       "South Dakota",
+       "Tennessee",
+       "Texas",
+       "Vermont",
+       "Virginia",
+       "West Virginia",
+       "Wisconsin"
+      ]
+     }
+    },
+    "industries": {
+     "any": {
+      "include": {
+       "mode": "STRICT",
+       "content": [
+        "manufacturing",
+        "appliances, electrical, and electronics manufacturing",
+        "machinery manufacturing",
+        "motor vehicle manufacturing",
+        "food and beverage manufacturing",
+        "industrial machinery manufacturing",
+        "furniture and home furnishings manufacturing",
+        "textile manufacturing",
+        "chemical manufacturing",
+        "paper and forest product manufacturing",
+        "plastics manufacturing",
+        "automation machinery manufacturing",
+        "beverage manufacturing",
+        "glass, ceramics and concrete manufacturing",
+        "defense and space manufacturing",
+        "packaging and containers manufacturing",
+        "dairy product manufacturing",
+        "aviation and aerospace component manufacturing",
+        "railroad equipment manufacturing",
+        "industrial manufacturing",
+        "plastics and rubber manufacturing",
+        "paper manufacturing",
+        "industrial automation"
+       ]
+      }
+     }
+    }
+   },
+   "page": 0,
+   "size": 1
+  },
+  "totalElements": 4630,
+  "sample": "Gregory Poole Equipment Company"
+ },
+ "fls-keyword/us/any-industry": {
+  "body": {
+   "account": {
+    "employeeSize": {
+     "type": "RANGE",
+     "range": [
+      {
+       "start": 201,
+       "end": 500
+      },
+      {
+       "start": 501,
+       "end": 1000
+      }
+     ]
+    },
+    "location": {
+     "any": {
+      "include": [
+       "United States"
+      ]
+     }
+    },
+    "keyword": {
+     "any": {
+      "include": {
+       "sources": [
+        {
+         "mode": "SMART",
+         "source": "NAME"
+        },
+        {
+         "mode": "SMART",
+         "source": "DESCRIPTION"
+        },
+        {
+         "mode": "SMART",
+         "source": "KEYWORD"
+        }
+       ],
+       "content": [
+        "fire protection",
+        "fire sprinkler",
+        "fire alarm",
+        "fire suppression",
+        "life safety"
+       ]
+      }
+     }
+    }
+   },
+   "page": 0,
+   "size": 1
+  },
+  "totalElements": 640,
+  "sample": "Western States Fire Protection"
+ },
+ "fls-keyword/et-ct/any-industry": {
+  "body": {
+   "account": {
+    "employeeSize": {
+     "type": "RANGE",
+     "range": [
+      {
+       "start": 201,
+       "end": 500
+      },
+      {
+       "start": 501,
+       "end": 1000
+      }
+     ]
+    },
+    "location": {
+     "any": {
+      "include": [
+       "Alabama",
+       "Arkansas",
+       "Connecticut",
+       "Delaware",
+       "District of Columbia",
+       "Florida",
+       "Georgia",
+       "Illinois",
+       "Indiana",
+       "Iowa",
+       "Kansas",
+       "Kentucky",
+       "Louisiana",
+       "Maine",
+       "Maryland",
+       "Massachusetts",
+       "Michigan",
+       "Minnesota",
+       "Mississippi",
+       "Missouri",
+       "Nebraska",
+       "New Hampshire",
+       "New Jersey",
+       "New York",
+       "North Carolina",
+       "North Dakota",
+       "Ohio",
+       "Oklahoma",
+       "Pennsylvania",
+       "Rhode Island",
+       "South Carolina",
+       "South Dakota",
+       "Tennessee",
+       "Texas",
+       "Vermont",
+       "Virginia",
+       "West Virginia",
+       "Wisconsin"
+      ]
+     }
+    },
+    "keyword": {
+     "any": {
+      "include": {
+       "sources": [
+        {
+         "mode": "SMART",
+         "source": "NAME"
+        },
+        {
+         "mode": "SMART",
+         "source": "DESCRIPTION"
+        },
+        {
+         "mode": "SMART",
+         "source": "KEYWORD"
+        }
+       ],
+       "content": [
+        "fire protection",
+        "fire sprinkler",
+        "fire alarm",
+        "fire suppression",
+        "life safety"
+       ]
+      }
+     }
+    }
+   },
+   "page": 0,
+   "size": 1
+  },
+  "totalElements": 484,
+  "sample": "Western Midstream"
+ },
+ "fls-keyword/et-ct/construction+facilities+security": {
+  "body": {
+   "account": {
+    "employeeSize": {
+     "type": "RANGE",
+     "range": [
+      {
+       "start": 201,
+       "end": 500
+      },
+      {
+       "start": 501,
+       "end": 1000
+      }
+     ]
+    },
+    "location": {
+     "any": {
+      "include": [
+       "Alabama",
+       "Arkansas",
+       "Connecticut",
+       "Delaware",
+       "District of Columbia",
+       "Florida",
+       "Georgia",
+       "Illinois",
+       "Indiana",
+       "Iowa",
+       "Kansas",
+       "Kentucky",
+       "Louisiana",
+       "Maine",
+       "Maryland",
+       "Massachusetts",
+       "Michigan",
+       "Minnesota",
+       "Mississippi",
+       "Missouri",
+       "Nebraska",
+       "New Hampshire",
+       "New Jersey",
+       "New York",
+       "North Carolina",
+       "North Dakota",
+       "Ohio",
+       "Oklahoma",
+       "Pennsylvania",
+       "Rhode Island",
+       "South Carolina",
+       "South Dakota",
+       "Tennessee",
+       "Texas",
+       "Vermont",
+       "Virginia",
+       "West Virginia",
+       "Wisconsin"
+      ]
+     }
+    },
+    "industries": {
+     "any": {
+      "include": {
+       "mode": "STRICT",
+       "content": [
+        "construction",
+        "facilities services",
+        "security and investigations"
+       ]
+      }
+     }
+    },
+    "keyword": {
+     "any": {
+      "include": {
+       "sources": [
+        {
+         "mode": "SMART",
+         "source": "NAME"
+        },
+        {
+         "mode": "SMART",
+         "source": "DESCRIPTION"
+        },
+        {
+         "mode": "SMART",
+         "source": "KEYWORD"
+        }
+       ],
+       "content": [
+        "fire protection",
+        "fire sprinkler",
+        "fire alarm",
+        "fire suppression",
+        "life safety"
+       ]
+      }
+     }
+    }
+   },
+   "page": 0,
+   "size": 1
+  },
+  "totalElements": 135,
+  "sample": "Shambaugh & Son, L.P."
+ },
+ "mfg/et-ct/name-or-desc 'manufactur' any industry": {
+  "body": {
+   "account": {
+    "employeeSize": {
+     "type": "RANGE",
+     "range": [
+      {
+       "start": 201,
+       "end": 500
+      },
+      {
+       "start": 501,
+       "end": 1000
+      }
+     ]
+    },
+    "location": {
+     "any": {
+      "include": [
+       "Alabama",
+       "Arkansas",
+       "Connecticut",
+       "Delaware",
+       "District of Columbia",
+       "Florida",
+       "Georgia",
+       "Illinois",
+       "Indiana",
+       "Iowa",
+       "Kansas",
+       "Kentucky",
+       "Louisiana",
+       "Maine",
+       "Maryland",
+       "Massachusetts",
+       "Michigan",
+       "Minnesota",
+       "Mississippi",
+       "Missouri",
+       "Nebraska",
+       "New Hampshire",
+       "New Jersey",
+       "New York",
+       "North Carolina",
+       "North Dakota",
+       "Ohio",
+       "Oklahoma",
+       "Pennsylvania",
+       "Rhode Island",
+       "South Carolina",
+       "South Dakota",
+       "Tennessee",
+       "Texas",
+       "Vermont",
+       "Virginia",
+       "West Virginia",
+       "Wisconsin"
+      ]
+     }
+    },
+    "keyword": {
+     "any": {
+      "include": {
+       "sources": [
+        {
+         "mode": "SMART",
+         "source": "NAME"
+        },
+        {
+         "mode": "SMART",
+         "source": "DESCRIPTION"
+        },
+        {
+         "mode": "SMART",
+         "source": "KEYWORD"
+        }
+       ],
+       "content": [
+        "manufacturer",
+        "manufacturing"
+       ]
+      }
+     }
+    }
+   },
+   "page": 0,
+   "size": 1
+  },
+  "totalElements": 3264,
+  "sample": "MLC"
+ },
+ "_credits_after": 63.1
+}
