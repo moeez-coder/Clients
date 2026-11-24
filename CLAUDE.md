@@ -242,16 +242,14 @@ task on the tracking_clients task board, marked done the same day:
   (`create_campaign` / `create_campaigns_from_plan`), a HeyReach campaign, or
   a GTM Sheets campaign workbook. What counts as creating a doc:
   `create_campaign_doc`.
-- `create_task` with:
-  - `owner: "me"` (Moe's token)
-  - `client`: the client id
-  - `title`: `<Client> | Created campaign: <name>` or `<Client> | Created campaign doc: <title>`
-  - `description`: the ids (tracking_clients, HeyReach, doc) and one line on why
-  - `due_date`: today
-  - `status: "done"`, `progress: 100`
+- `create_task` with `owner: "me"`, `client` (the client id), `due_date`
+  (today), `status: "done"` and `progress: 100`. **Keep it to one short
+  sentence** (owner's instruction): the `title` alone says what was created,
+  e.g. `Created campaign doc 1 for HealthLink Dimensions`. Don't add a long
+  `description`; the ids go in the client README, not the task.
 - If the task doesn't come back as done, call `complete_task` with its id.
 - One task per campaign or doc. A campaign built in tracking_clients and
-  HeyReach together is one task that lists both ids.
+  HeyReach together is one task.
 - Record the task id in the client README History entry for that creation.
 
 ## listbuild — the exhaustive-recall engine (project skill, `.claude/skills/listbuild/`)
