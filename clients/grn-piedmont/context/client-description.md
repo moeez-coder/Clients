@@ -1,0 +1,19 @@
+<!-- Source: tracking_clients get_client (client 3abc2243-889c-4177-a75a-3ac680766d20), pulled 2026-11-16. Field: clientDescription. Re-pull rather than hand-edit. -->
+
+## What they do
+
+GRN Piedmont is a permanent-placement recruiting firm — the Piedmont office of the Global Recruiters Network (Global Recruiters of Piedmont), based at 3721 Wesley Drive, Suite 135, Myrtle Beach, SC. Founded in 2013, it specialises in forging connections in the realms of manufacturing and government leadership, positioning itself as a partner for professionals seeking new roles and organisations pursuing top-tier talent. The core service is executive and professional search for direct-hire roles — "World-Class Permanent Placement," with a candidate inventory that is constantly upgraded to maintain the highest level of talented professionals.
+
+How it works: the firm positions its process around four pillars. It runs a focused Search working only with executive profiles that match a company's unique needs; provides Solutions support from the moment a candidate is discovered through to after they are hired; builds Knowledge by getting to know a company's background and culture before the search begins; and uses Technology — exclusive, award-winning recruitment software that connects clients to any of its 500 search consultants around the world. On the candidate side, GRN Piedmont identifies with candidates to understand technical ability, cultural fit, outlook and career-development goals in order to match them with a world-class organisation. The firm frames its value as speed and quality, stating that technology, industry knowledge and expert recruiting processes allow it to streamline the search and drastically reduce time to hire.
+
+What makes it distinct: two features stand out. First, it is part of a large recruiting network — GRN Piedmont belongs to a rapidly growing network of search professionals assisting clients in virtually every industry, profession and geography, with more than 134 offices worldwide, using a unique team approach to present qualified candidates in record time. Second, it is positioned for government work: it is GSA Contract approved (Cage code 9LWA1, UEI DU5PG4LCSGN8, NAICS 561311), and describes itself as a strategic partner with insights into the workings of government agencies at local, state and federal levels, specialising in identifying talent from legislative aides to department heads. It handles civil-service rules, security clearances and the specific qualifications government positions demand.
+
+## Who they target
+
+The firm serves two audiences — hiring organisations (clients) and job-seeking professionals (candidates) — but its buyers are employers. Its stated specialisms are concentrated functions: GRN Piedmont connects people with companies that have challenges identifying key influential personnel, specialising in Executive Management, Operations and Engineering. Alongside these, the site surfaces desks in Manufacturing, Purchasing and Supply Chain, consistent with its self-description as focused on manufacturing and government leadership.
+
+On buyer roles, the focus is senior and executive: the firm works only with executive profiles that match a company's unique needs. In the public sector its recruitment reach spans a wide range of positions — administrative roles that keep agencies running, technical specialists who implement infrastructure projects, policy analysts, and executives who lead agencies. Industry coverage is deliberately broad through its parent network: it assists clients in virtually every industry, profession and geography via the Global Recruiters Network's 134-plus offices worldwide. The GSA contracting and government-agency focus signals targeting of public-sector employers at local, state and federal level, in addition to private manufacturing and industrial firms.
+
+## Pricing
+
+No public pricing found.

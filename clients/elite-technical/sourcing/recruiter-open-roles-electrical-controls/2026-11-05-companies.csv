@@ -1,0 +1,974 @@
+company_name,company_linkedin_url,company_domain,hq_state,company_industry,employees_on_linkedin,revenue_range,matched_jobs_30d,leads_selected
+"Milestone Technologies, Inc.",https://www.linkedin.com/company/milestone-technologies,milestone.tech,California,IT Services and IT Consulting,3013,$100M-$1B,2,0
+NexGen Tech Solutions,https://www.linkedin.com/company/nexgen-techsolutions,nexgentechsolutions.com,Texas,IT Services and IT Consulting,525,$100M-$1B,1,0
+SA Technologies Inc.,https://www.linkedin.com/company/sa-technologies-inc,satincorp.com,California,IT Services and IT Consulting,684,$100M-$1B,5,0
+Clark Pacific,https://www.linkedin.com/company/clark-pacific,clarkpacific.com,California,Construction,808,$100M-$1B,1,0
+CPI Card Group,https://www.linkedin.com/company/cpi-card-group,cpicardgroup.com,Colorado,Financial Services,813,$100M-$1B,1,0
+"Zeeco, Inc.",https://www.linkedin.com/company/zeeco-inc-,zeeco.com,Oklahoma,Oil and Gas,1862,$100M-$1B,2,6
+RGBSI,https://www.linkedin.com/company/rgbsi,rgbsi.com,Michigan,Engineering Services,1270,$100M-$1B,4,2
+Brooks Automation,https://www.linkedin.com/company/brooks-automation,brooks.com,Massachusetts,Semiconductor Manufacturing,2085,$100M-$1B,13,5
+Digi International,https://www.linkedin.com/company/digi-international,digi.com,Minnesota,Telecommunications,1002,$100M-$1B,1,5
+Iridium,https://www.linkedin.com/company/iridium,linktr.ee,Virginia,Satellite Telecommunications,1096,$100M-$1B,9,0
+Detroit Engineered Products,https://www.linkedin.com/company/detroit-engineered-products,depusa.com,Michigan,Motor Vehicle Manufacturing,525,$100M-$1B,1,0
+MidAmerican Energy Company,https://www.linkedin.com/company/midamerican-energy,midamericanenergy.com,Iowa,Utilities,2343,$100M-$1B,1,0
+Colliers Engineering & Design,https://www.linkedin.com/company/collierseng,colliersengineering.com,New Jersey,Professional Services,3094,$100M-$1B,3,0
+Vantage Data Centers,https://www.linkedin.com/company/vantage-data-centers,vantage-dc.com,Colorado,IT Services and IT Consulting,2650,$100M-$1B,1,4
+DMG MORI USA,https://www.linkedin.com/company/dmgmoriusa,dmgmori.com,Illinois,Machinery Manufacturing,779,$100M-$1B,1,6
+TransCore,https://www.linkedin.com/company/transcorelp,transcore.com,Tennessee,IT Services and IT Consulting,2106,$100M-$1B,1,6
+CAE USA,https://www.linkedin.com/company/cae-usa,cae.com,Florida,Defense and Space,1478,$100M-$1B,9,3
+Geosyntec Consultants,https://www.linkedin.com/company/geosyntec-consultants,geosyntec.com,Florida,Environmental Services,2620,$100M-$1B,1,0
+"Webber, a Ferrovial company",https://www.linkedin.com/company/webber,wwebber.com,Texas,Construction,1881,$100M-$1B,1,0
+Tris Pharma,https://www.linkedin.com/company/trispharma,trispharma.com,New Jersey,Pharmaceutical Manufacturing,520,$100M-$1B,1,2
+"Air Distribution Technologies, Inc.",https://www.linkedin.com/company/air-distribution-technologies-inc-,airdistribution.com,Texas,Wholesale Building Materials,540,$100M-$1B,1,7
+Fairbanks Morse Defense,https://www.linkedin.com/company/fairbanks-morse-defense,fmdefense.com,Wisconsin,Machinery Manufacturing,743,$100M-$1B,1,7
+AUTOKINITON,https://www.linkedin.com/company/autokiniton,autokiniton.com,Michigan,Motor Vehicle Manufacturing,1971,$100M-$1B,1,10
+CoreWeave,https://www.linkedin.com/company/coreweave,coreweave.com,New York,Technology; Information and Internet,3160,$100M-$1B,10,8
+Ascendum Solutions,https://www.linkedin.com/company/ascendum-solutions,ascendum.com,Ohio,IT Services and IT Consulting,1023,$100M-$1B,2,0
+CannonDesign,https://www.linkedin.com/company/cannon-design,cannondesign.com,New York,Architecture and Planning,1795,$100M-$1B,1,2
+Rite-Hite,https://www.linkedin.com/company/rite-hite,ritehite.com,Wisconsin,Machinery Manufacturing,1931,$100M-$1B,3,4
+Crane Currency,https://www.linkedin.com/company/crane-ab,cranecurrency.com,-,International Trade and Development,615,$100M-$1B,1,2
+"Epsilon Systems Solutions, Inc.",https://www.linkedin.com/company/epsilon-systems-solutions-inc.,epsilonsystems.com,California,Defense and Space Manufacturing,685,$100M-$1B,3,1
+5.11,https://www.linkedin.com/company/5.11,511tactical.com,California,Retail,1956,$100M-$1B,1,0
+Plug Power,https://www.linkedin.com/company/plug-power,plugpower.com,New York,Industrial Machinery Manufacturing,2000,$100M-$1B,1,9
+Shimmick Corporation,https://www.linkedin.com/company/shimmick-corporation,shimmick.com,California,Construction,798,$100M-$1B,5,0
+SharkNinja,https://www.linkedin.com/company/sharkninja,sharkninja.com,Massachusetts,Appliances; Electrical; and Electronics Manufacturing,4417,$100M-$1B,2,10
+Qualus,https://www.linkedin.com/company/qualus,qualuscorp.com,-,Engineering Services,1741,$100M-$1B,9,0
+AEVEX,https://www.linkedin.com/company/aevex-aerospace,aevex.com,California,Aviation and Aerospace Component Manufacturing,614,$100M-$1B,4,5
+Altium Packaging,https://www.linkedin.com/company/altium-packaging,altiumpkg.com,Georgia,Packaging and Containers Manufacturing,1981,$100M-$1B,2,1
+PROENERGY,https://www.linkedin.com/company/proenergy-services,proenergyservices.com,Missouri,Fossil Fuel Electric Power Generation,918,$100M-$1B,1,7
+Samsara,https://www.linkedin.com/company/samsara,samsara.com,California,Software Development,5807,$100M-$1B,13,7
+Knauf North America,https://www.linkedin.com/company/knaufna,knaufnorthamerica.com,Indiana,Wholesale Building Materials,510,$100M-$1B,1,3
+MPW Industrial Services,https://www.linkedin.com/company/mpw-industrial-services,mpwservices.com,Ohio,Facilities Services,1700,$100M-$1B,3,2
+Ardurra,https://www.linkedin.com/company/ardurra,ardurra.com,Florida,Civil Engineering,1534,$100M-$1B,3,0
+Central Pacific Bank,https://www.linkedin.com/company/central-pacific-bank,cpb.bank,Hawaii,Banking,777,$100M-$1B,3,0
+Regal Rexnord,https://www.linkedin.com/company/regal-rexnord,regalrexnord.com,Wisconsin,Electric Power Transmission; Control; and Distribution,6149,$100M-$1B,1,8
+Brown and Caldwell,https://www.linkedin.com/company/brown-and-caldwell,brownandcaldwell.com,California,Environmental Services,2583,$100M-$1B,20,5
+New Jersey Resources,https://www.linkedin.com/company/newjerseyresources,njresources.com,New Jersey,Utilities,505,$100M-$1B,2,0
+"SPX FLOW, Inc.",https://www.linkedin.com/company/spx-flow,spxflow.com,North Carolina,Industrial Machinery Manufacturing,4115,$100M-$1B,1,7
+Optimized Process Designs LLC,https://www.linkedin.com/company/optimized-process-designs,opdepc.com,Texas,Oil and Gas,506,$100M-$1B,6,0
+Ellsworth Adhesives,https://www.linkedin.com/company/ellsworth-adhesives,ellsworth.com,Wisconsin,Chemical Manufacturing,765,$100M-$1B,1,0
+Bank OZK,https://www.linkedin.com/company/bank-ozk,ozk.com,Arkansas,Banking,3092,$100M-$1B,1,0
+NORC at the University of Chicago,https://www.linkedin.com/company/norc,norc.org,Illinois,Research Services,2304,$100M-$1B,2,0
+"Canon Virginia, Inc",https://www.linkedin.com/company/canon-virginia-inc,canon.com,Virginia,Machinery Manufacturing,526,$100M-$1B,1,0
+Tampa Electric,https://www.linkedin.com/company/tampa-electric,tampaelectric.com,Florida,Utilities,1290,$100M-$1B,1,0
+Tandem Diabetes Care,https://www.linkedin.com/company/tandemdiabetes,tandemdiabetes.com,California,Medical Equipment Manufacturing,2206,$100M-$1B,1,3
+Potter Global Technologies,https://www.linkedin.com/company/potter-global-tech,potterglobaltech.com,-,Appliances; Electrical; and Electronics Manufacturing,627,$100M-$1B,1,0
+Sports Endeavors,https://www.linkedin.com/company/sports-endeavors,sportsendeavors.com,North Carolina,Retail,694,$100M-$1B,1,0
+Mitsubishi Power Americas,https://www.linkedin.com/company/mitsubishi-power-americas,mhi.com,Florida,Renewable Energy Semiconductor Manufacturing,2121,$100M-$1B,7,0
+Sargent & Lundy,https://www.linkedin.com/company/sargent-&-lundy,sargentlundy.com,Illinois,Professional Services,4730,$100M-$1B,137,10
+sweetgreen,https://www.linkedin.com/company/sweetgreen,sweetgreen.com,California,Food and Beverage Services,2879,$100M-$1B,1,3
+BW Design Group,https://www.linkedin.com/company/barry-wehmiller-design-group,bwdesigngroup.com,Missouri,Engineering Services,1783,$100M-$1B,34,7
+Extron,https://www.linkedin.com/company/extron-,extron.com,California,Appliances; Electrical; and Electronics Manufacturing,1620,$100M-$1B,5,0
+Circet USA,https://www.linkedin.com/company/circetusa,circetusa.com,Georgia,Telecommunications,660,$100M-$1B,1,5
+TRUMPF North America,https://www.linkedin.com/company/trumpf-north-america,trumpf.com,Connecticut,Machinery Manufacturing,1003,$100M-$1B,1,5
+"MobileComm Professionals, Inc",https://www.linkedin.com/company/ustglobal-mobilecomm,ust.com,Texas,Telecommunications,738,$100M-$1B,1,0
+VIAVI Solutions,https://www.linkedin.com/company/viavi-solutions,viavisolutions.com,Arizona,Telecommunications,5107,$100M-$1B,1,9
+Kentucky Farm Bureau Insurance,https://www.linkedin.com/company/kentucky-farm-bureau,kyfb.com,Kentucky,Insurance,1219,$100M-$1B,1,0
+Relevance Lab,https://www.linkedin.com/company/relevance-lab,relevancelab.com,California,IT Services and IT Consulting,698,$100M-$1B,7,0
+The Vincit Group,https://www.linkedin.com/company/vincit-group,vincitgroup.com,Tennessee,Chemical Manufacturing,531,$100M-$1B,2,1
+Brookhaven National Laboratory,https://www.linkedin.com/company/brookhavenlab,bnl.gov,New York,Research Services,3308,$100M-$1B,3,1
+Fluke Corporation,https://www.linkedin.com/company/fluke-corporation,fluke.com,Washington,Appliances; Electrical; and Electronics Manufacturing,3171,$100M-$1B,2,8
+Caesars Sportsbook & Casino,https://www.linkedin.com/company/caesarssportsbookandcasino,oraclecloud.com,Nevada,Gambling Facilities and Casinos,800,$100M-$1B,2,5
+"Hawkins, Inc.",https://www.linkedin.com/company/hawkins-inc-,hawkinsinc.com,Minnesota,Chemical Manufacturing,545,$100M-$1B,1,1
+Coinbase,https://www.linkedin.com/company/coinbase,coinbase.com,-,Financial Services,6979,$100M-$1B,5,0
+Sigma Defense Systems LLC,https://www.linkedin.com/company/sigma-defense-systems-llc,sigmadefense.com,Georgia,Defense and Space Manufacturing,526,$100M-$1B,21,1
+Moen,https://www.linkedin.com/company/moen-incorporated,moen.com,Illinois,Wholesale Building Materials,2221,$100M-$1B,1,4
+Astrion,https://www.linkedin.com/company/astrion,astrion.us,Alabama,Defense and Space Manufacturing,1836,$100M-$1B,71,2
+Quiddity,https://www.linkedin.com/company/quiddity-engineering,quiddity.com,Texas,Civil Engineering,643,$100M-$1B,3,6
+KBI Biopharma,https://www.linkedin.com/company/kbi-biopharma,kbibiopharma.com,North Carolina,Biotechnology Research,1701,$100M-$1B,1,3
+Blueprint,https://www.linkedin.com/company/blueprinttech,bpcs.com,Washington,IT Services and IT Consulting,779,$100M-$1B,3,1
+GAF,https://www.linkedin.com/company/gaf,gaf.com,New Jersey,Wholesale Building Materials,3538,$100M-$1B,4,9
+Fortra,https://www.linkedin.com/company/fortra,fortra.com,Minnesota,Software Development,1762,$100M-$1B,1,0
+Empower AI,https://www.linkedin.com/company/empowerai,empower.ai,Virginia,IT Services and IT Consulting,503,$100M-$1B,1,0
+Overhead Door Corporation,https://www.linkedin.com/company/overhead-door-corporation,ohdcorporation.com,Texas,Wholesale Building Materials,3358,$100M-$1B,3,6
+SRC,https://www.linkedin.com/company/srcdefense,srcinc.com,New York,Defense and Space Manufacturing,2816,$100M-$1B,5,4
+Mercury,https://www.linkedin.com/company/mercuryhq,mercury.com,California,Financial Services,1819,$100M-$1B,4,0
+Materion Corporation,https://www.linkedin.com/company/materion-corporation,materion.com,Ohio,Manufacturing,1776,$100M-$1B,2,4
+SPX Technologies,https://www.linkedin.com/company/spx-technologies,spx.com,North Carolina,Industrial Machinery Manufacturing,2637,$100M-$1B,1,6
+Barrios Technology,https://www.linkedin.com/company/barrios-technology,barrios.com,Texas,Professional Services,641,$100M-$1B,7,0
+ETS-Lindgren,https://www.linkedin.com/company/ets-lindgren,ets-lindgren.com,Texas,Appliances; Electrical; and Electronics Manufacturing,573,$100M-$1B,1,2
+Form Energy,https://www.linkedin.com/company/form-energy,formenergy.com,Massachusetts,Manufacturing,914,$100M-$1B,16,4
+Heath,https://www.linkedin.com/company/heath-consultants,heathus.com,Texas,Oil and Gas,989,$100M-$1B,1,2
+Holtec International,https://www.linkedin.com/company/holtec-international,holtecinternational.com,Florida,Engineering Services,1325,$100M-$1B,4,6
+Light & Wonder,https://www.linkedin.com/company/lightnwonder,lnw.com,Nevada,Gambling Facilities and Casinos,5969,$100M-$1B,2,8
+Steptoe LLP,https://www.linkedin.com/company/steptoe-llp,steptoe.com,District of Columbia,Law Practice,1245,$100M-$1B,1,0
+Fox News Media,https://www.linkedin.com/company/fox-news-channel,foxnews.com,-,Broadcast Media Production and Distribution,3163,$100M-$1B,2,5
+Marotta Controls,https://www.linkedin.com/company/marotta-controls,marotta.com,New Jersey,Defense and Space Manufacturing,731,$100M-$1B,4,0
+TAS Energy,https://www.linkedin.com/company/tas_3,tas.com,Texas,Manufacturing,621,$100M-$1B,1,3
+Hunter Industries,https://www.linkedin.com/company/hunter-industries,hunterindustries.com,California,Manufacturing,1486,$100M-$1B,2,7
+Victaulic,https://www.linkedin.com/company/victaulic,victaulic.com,Pennsylvania,Industrial Machinery Manufacturing,3541,$100M-$1B,1,7
+Unison,https://www.linkedin.com/company/unison-aerospace,unisonindustries.com,Florida,Aviation and Aerospace Component Manufacturing,724,$100M-$1B,1,0
+ProMach,https://www.linkedin.com/company/pro-mach-inc,promachbuilt.com,Kentucky,Machinery Manufacturing,1027,$100M-$1B,3,2
+Nelson Mullins Riley & Scarborough,https://www.linkedin.com/company/nelson-mullins,nelsonmullins.com,South Carolina,Law Practice,2117,$100M-$1B,1,0
+Dashiell Corporation,https://www.linkedin.com/company/dashiell-corporation,dashiell.com,Texas,Utilities,1184,$100M-$1B,1,7
+Twin Rivers Paper Company,https://www.linkedin.com/company/twin-rivers-paper-company,twinriverspaper.com,Maine,Paper and Forest Product Manufacturing,510,$100M-$1B,1,0
+Aligned Data Centers,https://www.linkedin.com/company/aligneddc,aligneddc.com,Texas,IT Services and IT Consulting,608,$100M-$1B,1,1
+Intralox,https://www.linkedin.com/company/intralox,intralox.com,Louisiana,Automation Machinery Manufacturing,2342,$100M-$1B,1,4
+Valiant Integrated Services,https://www.linkedin.com/company/valiant-integrated-services,onevaliant.com,Virginia,Defense and Space Manufacturing,1984,$100M-$1B,1,0
+Lendmark Financial Services,https://www.linkedin.com/company/lendmark-financial-services,lendmarkfinancial.com,Georgia,Financial Services,1531,$100M-$1B,1,0
+Voyager Technologies,https://www.linkedin.com/company/voyagertechnologies-inc,voyagertechnologies.com,Colorado,Defense and Space Manufacturing,793,$100M-$1B,29,7
+LP Building Solutions,https://www.linkedin.com/company/lp-building-solutions,lpcorp.com,-,Wholesale Building Materials,713,$100M-$1B,1,2
+"CST Industries, Inc.",https://www.linkedin.com/company/cst-industries-inc-,cstindustries.com,Missouri,Machinery Manufacturing,564,$100M-$1B,1,0
+Accion Labs,https://www.linkedin.com/company/accionlabs,accionlabs.com,Pennsylvania,Information Technology and Services,3278,$100M-$1B,3,0
+Software Engineering Institute | Carnegie Mellon University,https://www.linkedin.com/company/software-engineering-institute,cmu.edu,Pennsylvania,Software Development,1063,$100M-$1B,2,3
+"HRL Laboratories, LLC",https://www.linkedin.com/company/hrl-laboratories,hrl.com,California,Research Services,794,$100M-$1B,9,3
+Marshall+Sterling,https://www.linkedin.com/company/marshallsterling,linktr.ee,New York,Insurance,534,$100M-$1B,1,0
+Apogee,https://www.linkedin.com/company/apogeeusa,apogeeusa.com,Colorado,Business Consulting and Services,529,$100M-$1B,9,0
+Stormont Vail Health,https://www.linkedin.com/company/stormont-vail-healthcare,stormontvail.org,Kansas,Hospitals and Health Care,2771,$100M-$1B,3,0
+Insulet Corporation,https://www.linkedin.com/company/insulet-corporation,insulet.com,Massachusetts,Medical Equipment Manufacturing,5521,$100M-$1B,6,9
+Comtech Telecommunications Corp.,https://www.linkedin.com/company/comtech-telecommunications-corp,comtech.com,Arizona,Technology; Information and Internet,1759,$100M-$1B,1,7
+LiDestri Foods,https://www.linkedin.com/company/lidestri-foods-inc-,lidestrifoods.com,New York,Food and Beverage Services,771,$100M-$1B,1,0
+Edmund Optics,https://www.linkedin.com/company/edmund-optics,edmundoptics.com,New Jersey,Industrial Machinery Manufacturing,654,$100M-$1B,1,4
+Smart IT Frame LLC,https://www.linkedin.com/company/smart-it-frame-llc,smartitframe.com,New Jersey,Software Development,949,$100M-$1B,13,0
+CSI,https://www.linkedin.com/company/computer-services-inc-,csiweb.com,Kentucky,Software Development,2366,$100M-$1B,1,1
+"ICR, Inc.",https://www.linkedin.com/company/icr-team,icr-team.com,Colorado,Defense and Space Manufacturing,645,$100M-$1B,1,1
+Parametrix,https://www.linkedin.com/company/parametrix,parametrix.com,Washington,Civil Engineering,905,$100M-$1B,4,1
+Fresenius Kabi USA,https://www.linkedin.com/company/fresenius-kabi-usa,fresenius-kabi.com,Illinois,Pharmaceutical Manufacturing,1802,$100M-$1B,5,6
+The Weitz Company,https://www.linkedin.com/company/the-weitz-company,weitz.com,Iowa,Construction,1290,$100M-$1B,3,1
+Allen Institute,https://www.linkedin.com/company/allen-institute,alleninstitute.org,Washington,Research Services,1538,$100M-$1B,1,0
+Core States Group,https://www.linkedin.com/company/core-states-group,core-states.com,Pennsylvania,Architecture and Planning,2197,$100M-$1B,26,3
+Fivetran,https://www.linkedin.com/company/fivetran,bit.ly,California,Software Development,1934,$100M-$1B,1,9
+Molecular Devices,https://www.linkedin.com/company/molecular-devices,moleculardevices.com,California,Biotechnology Research,719,$100M-$1B,2,5
+IPG,https://www.linkedin.com/company/intertape-polymer-group,itape.com,Florida,Packaging and Containers Manufacturing,1714,$100M-$1B,2,6
+Baltimore Gas and Electric,https://www.linkedin.com/company/baltimore-gas-and-electric,bge.com,Maryland,Utilities,1533,$100M-$1B,2,0
+Tower Research Capital,https://www.linkedin.com/company/tower-research-capital,tower-research.com,New York,Financial Services,1503,$100M-$1B,1,5
+Aditi Consulting,https://www.linkedin.com/company/aditiconsulting,aditiconsulting.com,Washington,IT Services and IT Consulting,1250,$100M-$1B,27,0
+VT Group (VTG),https://www.linkedin.com/company/vtgdefense,vtgdefense.com,Virginia,Defense and Space Manufacturing,1376,$100M-$1B,12,1
+LCS,https://www.linkedin.com/company/lcs-care,lcsliving.com,Iowa,Hospitality,2592,$100M-$1B,1,0
+BankPlus,https://www.linkedin.com/company/bankplus,bankplus.net,-,Banking,910,$100M-$1B,2,0
+Oldcastle Infrastructure,https://www.linkedin.com/company/oldcastle-infrastructure,oldcastleinfrastructure.com,Georgia,Construction,2721,$100M-$1B,1,8
+System Soft Technologies,https://www.linkedin.com/company/systemsofttech,sstech.us,Florida,IT Services and IT Consulting,1317,$100M-$1B,3,0
+Tower Hill Insurance Group,https://www.linkedin.com/company/tower-hill-insurance-group,thig.com,Florida,Insurance,574,$100M-$1B,1,1
+Rogers Electric,https://www.linkedin.com/company/rogers-electric,rogerselectric.com,Georgia,Construction,711,$100M-$1B,4,1
+Gentex Corp.,https://www.linkedin.com/company/gentex,gentexcorp.com,Pennsylvania,Defense and Space Manufacturing,628,$100M-$1B,2,6
+Ducommun Incorporated,https://www.linkedin.com/company/ducommun-incorporated,ducommun.com,California,Aviation and Aerospace Component Manufacturing,1662,$100M-$1B,2,7
+Hoffman Construction Company,https://www.linkedin.com/company/hoffmancorp,hoffmancorp.com,Oregon,Construction,1477,$100M-$1B,3,0
+Monotype,https://www.linkedin.com/company/monotype,monotype.com,Massachusetts,Design Services,1684,$100M-$1B,1,2
+"CyberTech Systems and Software, Inc",https://www.linkedin.com/company/cybertech,cybertech.com,Illinois,IT Services and IT Consulting,858,$100M-$1B,1,0
+PROCEPT BioRobotics,https://www.linkedin.com/company/procept-corporation,procept-biorobotics.com,California,Medical Equipment Manufacturing,912,$100M-$1B,4,7
+Pharmavite,https://www.linkedin.com/company/pharmavite,pharmavite.com,California,Manufacturing,1432,$100M-$1B,1,6
+Integrated Power Services,https://www.linkedin.com/company/integrated-power-services,ips.us,South Carolina,Industrial Machinery Manufacturing,1961,$100M-$1B,4,7
+Institute for Defense Analyses,https://www.linkedin.com/company/institute-for-defense-analyses,ida.org,Virginia,Defense and Space Manufacturing,1545,$100M-$1B,1,0
+Vallourec - North America,https://www.linkedin.com/company/vallourec---north-america,vallourec.com,Texas,Oil and Gas,589,$100M-$1B,1,0
+SCIENTIFIC GAMES,https://www.linkedin.com/company/scientific-games-lottery,scientificgames.com,Georgia,IT Services and IT Consulting,1569,$100M-$1B,1,0
+W-Industries,https://www.linkedin.com/company/w-industries,w-industries.com,Texas,Oil and Gas,629,$100M-$1B,1,3
+Zipline,https://www.linkedin.com/company/flyzipline,flyzipline.com,California,Transportation; Logistics; Supply Chain and Storage,1974,$100M-$1B,20,3
+Cordis,https://www.linkedin.com/company/cordis,cordis.com,Florida,Medical Equipment Manufacturing,3142,$100M-$1B,1,0
+IntrepidGS,https://www.linkedin.com/company/intrepid-global-services,intrepidgs.com,Florida,Defense and Space Manufacturing,1403,$100M-$1B,2,1
+Enlyte,https://www.linkedin.com/company/enlytegroup,enlyte.com,-,Information Services,4913,$100M-$1B,2,0
+Motiva Enterprises LLC,https://www.linkedin.com/company/motiva-llc,motiva.com,Texas,Oil and Gas,2801,$100M-$1B,2,6
+Amsted Automotive,https://www.linkedin.com/company/amsted-automotive,amstedauto.com,Illinois,Motor Vehicle Parts Manufacturing,675,$100M-$1B,2,8
+CITGO,https://www.linkedin.com/company/citgo,citgo.com,Texas,Oil and Gas,5368,$100M-$1B,1,7
+"Sub-Zero Group, Inc.",https://www.linkedin.com/company/sub-zero-group-inc-,subzero-wolf.com,Wisconsin,Manufacturing,1831,$100M-$1B,2,4
+Superior Essex,https://www.linkedin.com/company/superior-essex,superioressex.com,Georgia,Appliances; Electrical; and Electronics Manufacturing,1092,$100M-$1B,1,7
+ONE Gas,https://www.linkedin.com/company/one-gas,onegas.jobs,Oklahoma,Utilities,2435,$100M-$1B,2,0
+MacLean Power Systems,https://www.linkedin.com/company/maclean-power-systems,macleanpower.com,South Carolina,Utilities,1052,$100M-$1B,1,7
+RESA Power,https://www.linkedin.com/company/resa-power-solutions,resapower.com,Texas,Appliances; Electrical; and Electronics Manufacturing,639,$100M-$1B,2,1
+MaineGeneral Health,https://www.linkedin.com/company/mainegeneral-health,mainegeneral.org,Maine,Hospitals and Health Care,1793,$100M-$1B,1,2
+Electric Power Systems,https://www.linkedin.com/company/electric-power-systems,voltyx.com,Missouri,Utilities,736,$100M-$1B,4,3
+Engine,https://www.linkedin.com/company/engine,engine.com,Colorado,Software Development,1194,$100M-$1B,1,9
+Kodiak Gas Services,https://www.linkedin.com/company/kodiak-gas-services,kodiakgas.com,Texas,Oil and Gas,636,$100M-$1B,1,1
+Keytronic,https://www.linkedin.com/company/keytronic,keytronic.com,Washington,Appliances; Electrical; and Electronics Manufacturing,1020,$100M-$1B,3,4
+TAIT,https://www.linkedin.com/company/tait-towers,taittowers.com,Pennsylvania,Entertainment Providers,1394,$100M-$1B,7,6
+Everfox,https://www.linkedin.com/company/everfox,everfox.com,Virginia,Software Development,804,$100M-$1B,1,0
+MAG Aerospace,https://www.linkedin.com/company/magaerospace,magaero.com,Virginia,Aviation and Aerospace Component Manufacturing,1978,$100M-$1B,1,0
+AdvanSix,https://www.linkedin.com/company/advansix,advansix.com,New Jersey,Chemical Manufacturing,756,$100M-$1B,1,2
+AGS - American Gaming Systems,https://www.linkedin.com/company/american-gaming-systems,playags.com,Nevada,Gambling Facilities and Casinos,859,$100M-$1B,2,4
+KellyOCG,https://www.linkedin.com/company/kellyocg,outlook.com,Michigan,Business Consulting and Services,1872,$100M-$1B,1,0
+"Farnsworth Group, Inc.",https://www.linkedin.com/company/farnsworth-group-inc-,f-w.com,Illinois,Design,666,$100M-$1B,29,0
+Onto Innovation,https://www.linkedin.com/company/onto-innovation,ontoinnovation.com,Massachusetts,Semiconductor Manufacturing,1419,$100M-$1B,21,7
+SMC Ltd,https://www.linkedin.com/company/smc-ltd,smcltd.com,Wisconsin,Medical Device,1808,$100M-$1B,1,3
+DRW,https://www.linkedin.com/company/drw,drw.com,Illinois,Financial Services,2511,$100M-$1B,5,8
+Beam Therapeutics,https://www.linkedin.com/company/beamtx,beamtx.com,Massachusetts,Biotechnology Research,610,$100M-$1B,1,0
+Alarm.com,https://www.linkedin.com/company/alarm-com,alarm.com,Virginia,IT Services and IT Consulting,1391,$100M-$1B,5,3
+SI Group,https://www.linkedin.com/company/si-group,siigroup.com,Texas,Chemical Manufacturing,2001,$100M-$1B,1,2
+Enovis,https://www.linkedin.com/company/enovis,enovis.com,Delaware,Hospitals and Health Care,3262,$100M-$1B,1,0
+SMS group USA,https://www.linkedin.com/company/sms-group-inc,sms-group.us,Pennsylvania,Machinery Manufacturing,928,$100M-$1B,1,0
+Shift4,https://www.linkedin.com/company/shift4,shift4.com,Pennsylvania,Financial Services,2490,$100M-$1B,1,0
+HID,https://www.linkedin.com/company/hidglobal,hidglobal.com,Texas,Security and Investigations,4191,$100M-$1B,1,9
+Badger Meter,https://www.linkedin.com/company/badger-meter,badgermeter.com,Wisconsin,Utilities,1386,$100M-$1B,4,4
+MGT,https://www.linkedin.com/company/mgtimpactsolutions,mgt.us,Florida,Business Consulting and Services,791,$100M-$1B,1,0
+CereCore,https://www.linkedin.com/company/cerecore-tech,cerecore.net,Tennessee,IT Services and IT Consulting,850,$100M-$1B,1,0
+Baker Botts,https://www.linkedin.com/company/baker-botts-llp,bakerbotts.com,Texas,Law Practice,1595,$100M-$1B,1,0
+Aurora,https://www.linkedin.com/company/auroradriver,aurora.tech,Pennsylvania,Software Development,2630,$100M-$1B,8,6
+Shield AI,https://www.linkedin.com/company/shield-ai,shield.ai,California,Software Development,2007,$100M-$1B,39,9
+NinjaOne,https://www.linkedin.com/company/ninjaone,ninjaone.com,Texas,Software Development,2590,$100M-$1B,8,0
+HEICO,https://www.linkedin.com/company/heico-aerospace,heico.com,Florida,Aviation and Aerospace Component Manufacturing,913,$100M-$1B,21,6
+Indium,https://www.linkedin.com/company/indiumsoftware,indium.tech,California,IT Services and IT Consulting,3645,$100M-$1B,1,0
+Venture Global LNG,https://www.linkedin.com/company/venture-global-lng-inc.,venturegloballng.com,Virginia,Oil and Gas,2209,$100M-$1B,4,0
+Kirby,https://www.linkedin.com/company/kirby,kirbycorp.com,-,Transportation; Logistics; Supply Chain and Storage,2003,$100M-$1B,1,2
+"CMTA, Inc.",https://www.linkedin.com/company/cmta-inc.,cmta.com,Kentucky,Construction,1047,$100M-$1B,43,1
+Canon USA,https://www.linkedin.com/company/canonusa,canon.com,New York,Computers and Electronics Manufacturing,9711,$100M-$1B,5,0
+LMI,https://www.linkedin.com/company/lmi,lmisolutions.com,Virginia,Software Development,3152,$100M-$1B,3,0
+"Cupertino Electric, Inc.",https://www.linkedin.com/company/cupertino-electric-inc-,cei.com,California,Construction,2064,$100M-$1B,1,3
+ALOIS Solutions,https://www.linkedin.com/company/alois-solutions,aloissolutions.com,California,IT Services and IT Consulting,542,$100M-$1B,3,0
+CRB,https://www.linkedin.com/company/crbgrp,hubs.la,Missouri,Construction,2040,$100M-$1B,5,1
+"Miracle Software Systems, Inc",https://www.linkedin.com/company/miraclesoft,miraclesoft.com,Michigan,Information Technology and Services,2730,$100M-$1B,1,0
+HDT Global,https://www.linkedin.com/company/bladedefenseco,hdtglobal.com,Ohio,Defense and Space,631,$100M-$1B,1,9
+USA Compression,https://www.linkedin.com/company/usa-compression,usacompression.com,Texas,Oil and Gas,716,$100M-$1B,2,0
+Nuro,https://www.linkedin.com/company/nuro-inc.,nuro.ai,California,Software Development,1158,$100M-$1B,5,8
+NV5,https://www.linkedin.com/company/nv5,nv5.com,Florida,Engineering Services,3686,$100M-$1B,7,9
+"Cohu, Inc.",https://www.linkedin.com/company/cohu,cohu.com,California,Appliances; Electrical; and Electronics Manufacturing,2075,$100M-$1B,7,0
+Two Six Technologies,https://www.linkedin.com/company/twosixtechnologies,twosixtech.com,Virginia,Software Development,653,$100M-$1B,5,3
+Stealth Mode,https://www.linkedin.com/company/stealthmode14,brogliebox.com,-,Software Development,3532,$100M-$1B,1,7
+Stanley Consultants,https://www.linkedin.com/company/stanleyconsultants,stanleyconsultants.com,Iowa,Civil Engineering,1233,$100M-$1B,18,1
+Oshkosh AeroTech,https://www.linkedin.com/company/oshkosh-aerotech-llc,oshkoshaerotech.com,-,Airlines and Aviation,581,$100M-$1B,3,6
+InDyne,https://www.linkedin.com/company/indynefl,indyneinc.com,Florida,Defense and Space Manufacturing,551,$100M-$1B,2,0
+Clark Schaefer Hackett,https://www.linkedin.com/company/clark-schaefer-hackett,cshco.com,Ohio,Professional Services,707,$100M-$1B,1,0
+Axcelis Technologies,https://www.linkedin.com/company/axcelis-technologies,axcelis.com,Massachusetts,Semiconductor Manufacturing,1434,$100M-$1B,6,7
+Incedo Inc.,https://www.linkedin.com/company/incedo-inc,incedoinc.com,-,IT Services and IT Consulting,4462,$100M-$1B,1,2
+ID Logistics US,https://www.linkedin.com/company/idlogistics-us,id-logistics.com,Pennsylvania,Transportation; Logistics; Supply Chain and Storage,1431,$100M-$1B,3,3
+Xplor Technologies,https://www.linkedin.com/company/xplor-technologies,xplortechnologies.com,Georgia,Software Development,1491,$100M-$1B,1,0
+Applied Medical,https://www.linkedin.com/company/appliedmedical,appliedmedical.com,California,Medical Equipment Manufacturing,4067,$100M-$1B,2,10
+Weston & Sampson,https://www.linkedin.com/company/weston-&-sampson-engineers,westonandsampson.com,Massachusetts,Civil Engineering,999,$100M-$1B,10,0
+BBG Inc.,https://www.linkedin.com/company/bbg-real-estate-services,bbgres.com,Texas,Business Consulting and Services,1055,$100M-$1B,1,0
+"TransMedics, Inc.",https://www.linkedin.com/company/transmedics,transmedics.com,Massachusetts,Medical Equipment Manufacturing,708,$100M-$1B,2,2
+HGA,https://www.linkedin.com/company/hga,hga.com,Minnesota,Architecture and Planning,2117,$100M-$1B,2,1
+Bloom Energy,https://www.linkedin.com/company/bloom-energy,bloomenergy.com,California,Fuel Cell Manufacturing,2424,$100M-$1B,4,5
+McKinstry,https://www.linkedin.com/company/mckinstry,mckinstry.com,Washington,Construction,2319,$100M-$1B,11,8
+PCI Pharma Services,https://www.linkedin.com/company/pciservices,pci.com,Pennsylvania,Pharmaceutical Manufacturing,5033,$100M-$1B,1,8
+Atlas,https://www.linkedin.com/company/atlastechnicalconsultants,oneatlas.com,Colorado,Civil Engineering,4531,$100M-$1B,1,5
+Mutual of Omaha Mortgage,https://www.linkedin.com/company/mutualmortgage,mutualmortgage.com,California,Financial Services,1172,$100M-$1B,1,0
+Chobani,https://www.linkedin.com/company/chobani,chobani.com,New York,Food and Beverage Services,2434,$100M-$1B,1,7
+Notion,https://www.linkedin.com/company/notionhq,notion.so,California,Software Development,7211,$100M-$1B,1,8
+DigiKey,https://www.linkedin.com/company/digikey,digikey.com,Minnesota,Appliances; Electrical; and Electronics Manufacturing,2693,$100M-$1B,1,0
+Ozinga,https://www.linkedin.com/company/ozinga,ozinga.com,Illinois,Wholesale Building Materials,689,$100M-$1B,1,1
+SSOE Group,https://www.linkedin.com/company/ssoe-group,ssoe.com,Ohio,Engineering Services,1658,$100M-$1B,26,6
+"Advanced Drainage Systems, Inc.",https://www.linkedin.com/company/advanced-drainage-systems-inc-,adspipe.com,Ohio,Construction,2387,$100M-$1B,1,7
+ACL Digital,https://www.linkedin.com/company/acl-digital,acldigital.com,California,IT Services and IT Consulting,3842,$100M-$1B,6,0
+National Carwash Solutions,https://www.linkedin.com/company/national-carwash-solutions,ncswash.com,Iowa,Manufacturing,1009,$100M-$1B,1,0
+Vermeer Corporation,https://www.linkedin.com/company/vermeer-corporation,vermeer.com,Iowa,Machinery Manufacturing,2612,$100M-$1B,1,0
+Resource Innovations,https://www.linkedin.com/company/resourceinnovations,resource-innovations.com,California,Environmental Services,1090,$100M-$1B,4,0
+Chicago Trading Company,https://www.linkedin.com/company/chicago-trading-company,chicagotrading.com,Illinois,Financial Services,778,$100M-$1B,1,0
+CareCentrix,https://www.linkedin.com/company/carecentrix,carecentrix.com,Connecticut,Hospitals and Health Care,1637,$100M-$1B,1,1
+SMS Infocomm,https://www.linkedin.com/company/sms-infocomm,smsinfocomm.com,Texas,Consumer Electronics,747,$100M-$1B,2,0
+Suburban Propane,https://www.linkedin.com/company/suburban-propane,suburbanpropane.com,New Jersey,Oil and Gas,2067,$100M-$1B,1,0
+KKR,https://www.linkedin.com/company/kkr,kkr.com,New York,Financial Services,8477,$100M-$1B,1,0
+Susquehanna International Group,https://www.linkedin.com/company/susquehanna-international-group,sig.com,Pennsylvania,Financial Services,4041,$100M-$1B,1,0
+Ultra Maritime,https://www.linkedin.com/company/ultramaritime,umaritime.com,Massachusetts,Defense and Space Manufacturing,1337,$100M-$1B,3,4
+RoviSys Building Technologies,https://www.linkedin.com/company/rovisys-building-technologies,rovisysbt.com,Ohio,Facilities Services,677,$100M-$1B,12,0
+SOCOTEC USA,https://www.linkedin.com/company/socotec-usa,socotec.us,New York,Facilities Services,1161,$100M-$1B,2,0
+Simpli.fi,https://www.linkedin.com/company/simpli.fi,simpli.fi,Texas,Technology; Information and Internet,588,$100M-$1B,1,1
+DLR Group,https://www.linkedin.com/company/dlrgroup,dlrgroup.com,globally,Architecture and Planning,2098,$100M-$1B,15,1
+On Lok,https://www.linkedin.com/company/on-lok,onlok.org,California,Hospitals and Health Care,506,$100M-$1B,1,0
+Hawaiian Electric,https://www.linkedin.com/company/hawaiianelectric,hawaiianelectric.com,Hawaii,Utilities,1752,$100M-$1B,2,3
+First American Bank,https://www.linkedin.com/company/first-american-bank,firstambank.com,Illinois,Banking,1269,$100M-$1B,1,0
+ZT Systems,https://www.linkedin.com/company/zt-systems,ztsystems.com,New Jersey,Computer Hardware Manufacturing,1892,$100M-$1B,4,5
+AvePoint,https://www.linkedin.com/company/avepoint,avepoint.com,New Jersey,Data Security Software Products,2866,$100M-$1B,5,0
+"Shambaugh & Son, L.P.",https://www.linkedin.com/company/shambaugh-&-son-lp,shambaugh.com,Indiana,Construction,1022,$100M-$1B,1,1
+Titan America,https://www.linkedin.com/company/titan-america,titanamerica.com,Virginia,Wholesale Building Materials,1177,$100M-$1B,1,2
+Re:Build Manufacturing,https://www.linkedin.com/company/re-build-manufacturing,rebuildmanufacturing.com,Massachusetts,Automation Machinery Manufacturing,1205,$100M-$1B,16,4
+Panduit,https://www.linkedin.com/company/panduit,panduit.com,Illinois,Appliances; Electrical; and Electronics Manufacturing,4720,$100M-$1B,1,9
+Central Plateau Cleanup Company,https://www.linkedin.com/company/cpcchanford,hanford.gov,Washington,Environmental Services,513,$100M-$1B,2,5
+Otterbein SeniorLife,https://www.linkedin.com/company/otterbein-seniorlife,otterbein.org,Ohio,Hospitals and Health Care,1199,$100M-$1B,1,0
+"A10 Networks, Inc",https://www.linkedin.com/company/a10networks,a10networks.com,California,Software Development,764,$100M-$1B,4,3
+Fashion Nova,https://www.linkedin.com/company/fashion-nova,fashionnova.com,California,Retail Apparel and Fashion,4540,$100M-$1B,1,1
+QinetiQ US,https://www.linkedin.com/company/qinetiqus,qinetiq.com,Virginia,Defense and Space Manufacturing,1484,$100M-$1B,16,4
+"Jayco, Inc.",https://www.linkedin.com/company/jaycofamily,jaycofamily.com,Indiana,Motor Vehicle Manufacturing,1094,$100M-$1B,1,10
+Workiva,https://www.linkedin.com/company/workiva,workiva.com,Iowa,Software Development,3362,$100M-$1B,1,0
+Metrolina Greenhouses INC,https://www.linkedin.com/company/metrolina-greenhouses-inc,metrolinagreenhouses.com,North Carolina,Horticulture,553,$100M-$1B,2,0
+RailPros,https://www.linkedin.com/company/railpros-inc-,railpros.com,Texas,Business Consulting and Services,680,$100M-$1B,2,8
+Karman Space & Defense,https://www.linkedin.com/company/karman-space-defense,karman-sd.com,California,Defense and Space Manufacturing,760,$100M-$1B,5,8
+Qcells North America,https://www.linkedin.com/company/qcells-northamerica,qcells.com,California,Renewable Energy Semiconductor Manufacturing,1279,$100M-$1B,4,6
+Tallgrass,https://www.linkedin.com/company/tallgrassenergy,tallgrass.com,Colorado,Oil and Gas,1124,$100M-$1B,6,7
+TRAX International Corporation,https://www.linkedin.com/company/trax-international-corporation,traxintl.com,Nevada,Defense and Space Manufacturing,715,$100M-$1B,5,0
+Semtech,https://www.linkedin.com/company/semtech,semtech.com,California,Technology; Information and Internet,1811,$100M-$1B,1,6
+Middough Inc.,https://www.linkedin.com/company/middough,middough.com,Ohio,Engineering Services,585,$100M-$1B,2,4
+Rimkus,https://www.linkedin.com/company/rimkus,rimkus.com,Texas,Business Consulting and Services,1314,$100M-$1B,3,1
+Innospec Inc.,https://www.linkedin.com/company/innospec,innospec.com,Colorado,Chemical Manufacturing,1396,$100M-$1B,1,1
+Milwaukee Brewers,https://www.linkedin.com/company/milwaukee-brewers-baseball-club,teamworkonline.com,Wisconsin,Spectator Sports,1161,$100M-$1B,1,0
+"Yamaha Motor Corporation, USA",https://www.linkedin.com/company/yamaha-motor-corporation-usa,yamaha-motor.com,California,Manufacturing,3777,$100M-$1B,1,6
+FAENA,https://www.linkedin.com/company/faena-group,faena.com,Florida,Hospitality,901,$100M-$1B,1,0
+"nLIGHT, Inc.",https://www.linkedin.com/company/nlight,nlight.net,Washington,Appliances; Electrical; and Electronics Manufacturing,551,$100M-$1B,1,9
+Relativity Space,https://www.linkedin.com/company/relativity,relativityspace.com,California,Aviation and Aerospace Component Manufacturing,2015,$100M-$1B,40,1
+Tennant Company,https://www.linkedin.com/company/tennant-company,tennantco.com,Minnesota,Machinery Manufacturing,3004,$100M-$1B,3,7
+Lutron Electronics,https://www.linkedin.com/company/lutron-electronics,lutron.com,Pennsylvania,Appliances; Electrical; and Electronics Manufacturing,3419,$100M-$1B,5,7
+RJ Young,https://www.linkedin.com/company/rjyoung,rjyoung.com,Tennessee,Business Consulting and Services,984,$100M-$1B,2,1
+Blend,https://www.linkedin.com/company/blend-,blend.com,California,Software Development,741,$100M-$1B,2,6
+Agile Defense,https://www.linkedin.com/company/agiledefense,agiledefense.com,Virginia,IT Services and IT Consulting,1579,$100M-$1B,2,0
+Evolent,https://www.linkedin.com/company/evolent,evolent.com,Virginia,Hospitals and Health Care,3800,$100M-$1B,1,0
+M3 Engineering & Technology Corp.,https://www.linkedin.com/company/m3-engineering-&-technology,m3eng.com,Arizona,Design Services,836,$100M-$1B,5,1
+Company 3,https://www.linkedin.com/company/company-3,company3.com,California,Entertainment Providers,5637,$100M-$1B,2,2
+"Chugach Government Solutions, LLC",https://www.linkedin.com/company/chugachgov,chugachgov.com,Alaska,Defense and Space Manufacturing,1122,$100M-$1B,1,0
+"Brentwood Industries, Inc.",https://www.linkedin.com/company/brentwood-industries,brentwoodindustries.com,Pennsylvania,Plastics Manufacturing,750,$100M-$1B,1,3
+Hard Rock Digital,https://www.linkedin.com/company/hardrockdigital,hardrockdigital.com,Florida,Software Development,1430,$100M-$1B,1,0
+Ascendion,https://www.linkedin.com/company/ascendion,ascendion.com,New Jersey,Technology; Information and Internet,8162,$100M-$1B,3,7
+Natera,https://www.linkedin.com/company/natera,natera.com,Texas,Biotechnology Research,6082,$100M-$1B,3,2
+Hagerty,https://www.linkedin.com/company/hagertycars,hagerty.com,Michigan,Insurance,1742,$100M-$1B,1,0
+"Flambeau, Inc.",https://www.linkedin.com/company/flambeau-inc-_2,flambeau.com,Wisconsin,Plastics Manufacturing,558,$100M-$1B,1,5
+"HX5, LLC",https://www.linkedin.com/company/hx5-llc,hxfive.com,Florida,Business Consulting and Services,725,$100M-$1B,7,3
+Neapco,https://www.linkedin.com/company/neapco,neapco.com,Michigan,Motor Vehicle Manufacturing,882,$100M-$1B,1,4
+Current Lighting,https://www.linkedin.com/company/current-lighting,currentlighting.com,South Carolina,Appliances; Electrical; and Electronics Manufacturing,824,$100M-$1B,1,8
+Omnicell,https://www.linkedin.com/company/omnicell,omnicell.com,Texas,Hospitals and Health Care,3402,$100M-$1B,3,0
+Pinnacle Infotech,https://www.linkedin.com/company/pinnacle-infotech,pinnacleinfotech.com,Texas,IT Services and IT Consulting,4587,$100M-$1B,1,1
+Puget Sound Energy,https://www.linkedin.com/company/pugetsoundenergy,pse.com,Washington,Utilities,3155,$100M-$1B,4,0
+Life Cycle Engineering,https://www.linkedin.com/company/life-cycle-engineering,lce.com,South Carolina,Business Consulting and Services,582,$100M-$1B,5,1
+Axiom Space,https://www.linkedin.com/company/axiom-space,axiomspace.com,Texas,Aviation and Aerospace Component Manufacturing,811,$100M-$1B,5,4
+Atlas HXM,https://www.linkedin.com/company/atlashxm,hubs.la,Illinois,Human Resources Services,2131,$100M-$1B,2,0
+Verathon,https://www.linkedin.com/company/verathon,verathon.com,Washington,Medical Equipment Manufacturing,796,$100M-$1B,1,1
+Zayo Group,https://www.linkedin.com/company/zayo-group,zayo.com,Colorado,Telecommunications,4682,$100M-$1B,2,9
+Nicolet National Bank,https://www.linkedin.com/company/nicolet-national-bank,nicoletbank.com,Wisconsin,Banking,944,$100M-$1B,3,0
+AMERICAN SYSTEMS,https://www.linkedin.com/company/american-systems_6609,americansystems.com,Virginia,IT Services and IT Consulting,2270,$100M-$1B,12,2
+AAA Life Insurance Company,https://www.linkedin.com/company/aaa-life-insurance-company,aaalife.com,Michigan,Insurance,1078,$100M-$1B,1,0
+ITAC,https://www.linkedin.com/company/itacfamily,itac.us.com,Virginia,Construction,510,$100M-$1B,2,7
+Pursuit Aerospace,https://www.linkedin.com/company/pursuit-aerospace,pursuitaero.com,Connecticut,Aviation and Aerospace Component Manufacturing,1207,$100M-$1B,1,4
+"Sumitomo Electric Wiring Systems, Inc.",https://www.linkedin.com/company/sumitomo-electric-wiring-systems,sewsus.com,Kentucky,Motor Vehicle Manufacturing,2816,$100M-$1B,1,10
+"Atwell, LLC",https://www.linkedin.com/company/atwell-llc,atwell.com,Michigan,Civil Engineering,1766,$100M-$1B,22,2
+Rosendin,https://www.linkedin.com/company/rosendininc,rosendin.com,California,Construction,6414,$100M-$1B,21,10
+Midmark Corporation,https://www.linkedin.com/company/midmark-corporation,midmark.com,Ohio,Medical Equipment Manufacturing,1393,$100M-$1B,2,8
+CSAT Solutions LP,https://www.linkedin.com/company/csat-solutions,csat.com,Texas,Computer Hardware Manufacturing,649,$100M-$1B,3,2
+Abacus Technology Corporation,https://www.linkedin.com/company/abacus-technology,abacustech.com,Maryland,Information Technology and Services,703,$100M-$1B,12,2
+ZOLL Medical Corporation,https://www.linkedin.com/company/zoll-medical-corporation,zoll.com,01824,Medical Equipment Manufacturing,6432,$100M-$1B,2,5
+NAPCO Security Technologies,https://www.linkedin.com/company/napco-security-technologies,napcosecurity.com,New York,Appliances; Electrical; and Electronics Manufacturing,562,$100M-$1B,1,4
+Big-D Construction,https://www.linkedin.com/company/big-d-construction,big-d.com,Utah,Construction,1070,$100M-$1B,2,1
+Therma,https://www.linkedin.com/company/therma,therma.com,California,Facilities Services,554,$100M-$1B,2,2
+Confluence Health,https://www.linkedin.com/company/confluence-health,confluencehealth.org,Washington,Hospitals and Health Care,2236,$100M-$1B,1,1
+Stord,https://www.linkedin.com/company/stord,stord.com,Georgia,Transportation; Logistics; Supply Chain and Storage,2124,$100M-$1B,2,0
+STV,https://www.linkedin.com/company/stv,stvinc.com,New York,Civil Engineering,4378,$100M-$1B,5,5
+Hudson River Trading,https://www.linkedin.com/company/hudson-river-trading,hudson-trading.com,New York,Financial Services,1404,$100M-$1B,9,1
+Aspen Technology,https://www.linkedin.com/company/aspen-technology,aspentech.com,Massachusetts,Software Development,4032,$100M-$1B,1,4
+"Gaylor Electric, Inc.",https://www.linkedin.com/company/gaylor-inc-,gaylor.com,Indiana,Construction,1779,$100M-$1B,1,7
+"Stuller, Inc.",https://www.linkedin.com/company/stullerinc,stuller.com,Louisiana,Retail Luxury Goods and Jewelry,1217,$100M-$1B,1,2
+Challenge Manufacturing,https://www.linkedin.com/company/challenge-mfg-company,challenge-mfg.com,Michigan,Motor Vehicle Manufacturing,1682,$100M-$1B,1,6
+Kratos Defense and Security Solutions,https://www.linkedin.com/company/kratos-defense-and-security-solutions,kratosdefense.com,California,Defense and Space Manufacturing,3070,$100M-$1B,73,9
+Nevada Gold Mines,https://www.linkedin.com/company/nevadagoldmines,nevadagoldmines.com,Nevada,Mining,2962,$100M-$1B,1,3
+Redwire,https://www.linkedin.com/company/redwire,redwirespace.com,Florida,Aviation and Aerospace Component Manufacturing,1268,$100M-$1B,21,9
+Samsung Research America (SRA),https://www.linkedin.com/company/sra-samsungreasearchamerica,samsung.com,California,Software Development,813,$100M-$1B,2,3
+"E2 Consulting Engineers, Inc.",https://www.linkedin.com/company/e2-consulting-engineers-inc.,e2.com,California,Engineering Services,547,$100M-$1B,2,1
+RBC Bearings,https://www.linkedin.com/company/rbc-bearings,rbcbearings.com,Connecticut,Aviation and Aerospace Component Manufacturing,1121,$100M-$1B,1,7
+"Coalition, Inc.",https://www.linkedin.com/company/coalitioninc,coalitioninc.com,California,Insurance,693,$100M-$1B,1,0
+Kitchell,https://www.linkedin.com/company/kitchell,kitchell.com,Arizona,Construction,939,$100M-$1B,8,0
+"CHA Consulting, Inc.",https://www.linkedin.com/company/chasolutions,chasolutions.com,New York,Civil Engineering,2151,$100M-$1B,2,2
+Businessolver,https://www.linkedin.com/company/businessolver,businessolver.com,Colorado,Human Resources Services,1574,$100M-$1B,1,0
+Trystar,https://www.linkedin.com/company/trystar,trystar.com,Minnesota,Manufacturing,570,$100M-$1B,9,9
+Clover,https://www.linkedin.com/company/clovernetwork,clover.com,California,Technology; Information and Internet,1710,$100M-$1B,1,0
+Astreya,https://www.linkedin.com/company/astreya,astreya.com,California,IT Services and IT Consulting,2590,$100M-$1B,1,1
+EquipmentShare,https://www.linkedin.com/company/equipmentshare,equipmentshare.com,Missouri,Construction,4390,$100M-$1B,4,6
+Syska Hennessy Group,https://www.linkedin.com/company/syska-hennessy-group,syska.com,-,Design Services,852,$100M-$1B,33,0
+FANUC America Corporation,https://www.linkedin.com/company/fanuc-america-corporation,fanucamerica.com,Michigan,Automation Machinery Manufacturing,1948,$100M-$1B,5,10
+Loenbro,https://www.linkedin.com/company/loenbro,loenbro.com,Colorado,Construction,1080,$100M-$1B,3,0
+Alignment Health,https://www.linkedin.com/company/alignment-health,alignmenthealth.com,California,Hospitals and Health Care,1197,$100M-$1B,2,1
+"GAI Consultants, Inc.",https://www.linkedin.com/company/gai-consultants-inc-,gaiconsultants.com,Pennsylvania,Civil Engineering,1026,$100M-$1B,3,10
+Caris Life Sciences,https://www.linkedin.com/company/caris-life-sciences,carislifesciences.com,Texas,Biotechnology Research,1758,$100M-$1B,1,1
+Thermon,https://www.linkedin.com/company/thermon,thermon.com,Texas,Appliances; Electrical; and Electronics Manufacturing,1174,$100M-$1B,4,5
+Koniag Government Services,https://www.linkedin.com/company/koniag-government-services,koniag-gs.com,Virginia,IT Services and IT Consulting,1629,$100M-$1B,8,0
+Integra,https://www.linkedin.com/company/integra-mission-critical,integra.com,Texas,Technology; Information and Internet,715,$100M-$1B,2,0
+EMCOR Services Mesa Energy,https://www.linkedin.com/company/emcor-services-mesa-energy-systems,mesaenergy.com,California,Facilities Services,706,$100M-$1B,2,4
+Heartland Business Systems,https://www.linkedin.com/company/heartland-business-systems,hbs.net,Wisconsin,IT Services and IT Consulting,682,$100M-$1B,3,8
+Grubhub,https://www.linkedin.com/company/grubhub-seamless,grubhub.com,Illinois,Technology; Information and Internet,6635,$100M-$1B,1,0
+Solugenix,https://www.linkedin.com/company/solugenix,solugenix.com,California,IT Services and IT Consulting,1197,$100M-$1B,4,1
+Programming.com,https://www.linkedin.com/company/programmingcom,programming.com,California,IT Services and IT Consulting,1633,$100M-$1B,18,0
+Idexcel,https://www.linkedin.com/company/idexcel-inc,idexcel.com,Virginia,IT Services and IT Consulting,887,$100M-$1B,1,0
+Enpro Inc.,https://www.linkedin.com/company/about-enpro,enpro.com,North Carolina,Industrial Machinery Manufacturing,2326,$100M-$1B,1,1
+UCAR - The University Corporation for Atmospheric Research,https://www.linkedin.com/company/university-corporation-for-atmospheric-research,ucar.edu,Colorado,Research Services,586,$100M-$1B,3,0
+Collectors,https://www.linkedin.com/company/collectors-holdings,collectors.com,California,Consumer Services,1415,$100M-$1B,2,5
+GovCIO,https://www.linkedin.com/company/govcio,govcio.com,Virginia,IT System Data Services,3256,$100M-$1B,19,1
+Worthington Enterprises,https://www.linkedin.com/company/worthingtonenterprises,worthingtonenterprises.com,-,Manufacturing,1016,$100M-$1B,1,0
+WD Partners,https://www.linkedin.com/company/wd-partners,wdpartners.com,Ohio,Design Services,747,$100M-$1B,1,0
+Allient,https://www.linkedin.com/company/allient-inc,allient.com,New York,Automation Machinery Manufacturing,531,$100M-$1B,6,5
+Oatey Company,https://www.linkedin.com/company/oatey-company,oatey.com,Ohio,Manufacturing,762,$100M-$1B,1,0
+MP Biomedicals,https://www.linkedin.com/company/mpbiomedicals,mpbio.com,California,Biotechnology Research,668,$100M-$1B,1,0
+Daniels Health,https://www.linkedin.com/company/daniels-health-pty-ltd,danielshealth.com,Illinois,Hospitals and Health Care,1127,$100M-$1B,6,0
+IPG Photonics,https://www.linkedin.com/company/ipg-photonics,ipgphotonics.com,Massachusetts,Appliances; Electrical; and Electronics Manufacturing,1909,$100M-$1B,1,7
+Creative Liquid Coatings,https://www.linkedin.com/company/creative-liquid-coatings,creativeliquidcoatings.com,Indiana,Motor Vehicle Manufacturing,515,$100M-$1B,2,3
+Hoffmaster,https://www.linkedin.com/company/hoffmaster-group-inc-,hoffmaster.com,Wisconsin,Paper and Forest Product Manufacturing,545,$100M-$1B,1,1
+Ventura Foods,https://www.linkedin.com/company/ventura-foods,venturafoods.com,California,Food and Beverage Manufacturing,2770,$100M-$1B,1,0
+Wolfspeed,https://www.linkedin.com/company/wolfspeed,wolfspeed.com,North Carolina,Semiconductor Manufacturing,2414,$100M-$1B,2,8
+Allegro MicroSystems,https://www.linkedin.com/company/allegro-microsystems,allegromicro.com,New Hampshire,Semiconductors,2943,$100M-$1B,1,0
+ERMCO-ECI,https://www.linkedin.com/company/ermco-eci,ermco-eci.com,Tennessee,Electrical Equipment Manufacturing,883,$100M-$1B,2,4
+Radiance Technologies,https://www.linkedin.com/company/radiance-technologies,radiancetech.com,Alabama,Defense and Space Manufacturing,1090,$100M-$1B,38,0
+JT4,https://www.linkedin.com/company/jt3,jt4llc.com,Nevada,Defense and Space Manufacturing,1749,$100M-$1B,2,7
+"Orbital Engineering, Inc.",https://www.linkedin.com/company/orbital-engineering-inc.,orbitalengr.com,Pennsylvania,Engineering Services,587,$100M-$1B,6,6
+Specialized Bicycle Components,https://www.linkedin.com/company/specialized-bicycle-components,specialized.com,-,Retail,2520,$100M-$1B,1,8
+MLC,https://www.linkedin.com/company/mississippi-lime-company,mississippilime.com,Missouri,Chemical Manufacturing,1041,$100M-$1B,1,1
+AMERICAN Cast Iron Pipe Company,https://www.linkedin.com/company/american-cast-iron-pipe-company,american-usa.com,Alabama,Manufacturing,1024,$100M-$1B,1,0
+Vontier,https://www.linkedin.com/company/vontier,vontier.com,North Carolina,Transportation Equipment Manufacturing,6236,$100M-$1B,2,1
+Verkada,https://www.linkedin.com/company/verkada,verkada.com,California,Software Development,3162,$100M-$1B,2,3
+Linde Advanced Material Technologies,https://www.linkedin.com/company/linde-advanced-material-technologies,linde-amt.com,Indiana,Manufacturing,813,$100M-$1B,2,4
+Wells Enterprises,https://www.linkedin.com/company/wells-enterprises,wellsenterprisesinc.com,Iowa,Food and Beverage Manufacturing,2003,$100M-$1B,1,5
+Carlisle Construction Materials,https://www.linkedin.com/company/carlisle-construction-materials,carlisleconstructionmaterials.com,Pennsylvania,Wholesale Building Materials,1403,$100M-$1B,1,8
+ENTRUST Solutions Group,https://www.linkedin.com/company/entrustsolutionsgroup,entrustsol.com,Illinois,Utilities,2925,$100M-$1B,10,9
+Dollar Bank,https://www.linkedin.com/company/dollar-bank,dollar.bank,Pennsylvania,Banking,1470,$100M-$1B,1,1
+Best Buy Health,https://www.linkedin.com/company/best-buy-health,bestbuyhealth.com,Massachusetts,Hospitals and Health Care,1251,$100M-$1B,2,0
+DEKA Research & Development,https://www.linkedin.com/company/deka-research-&-development,linktr.ee,New Hampshire,Biotechnology Research,870,$100M-$1B,3,1
+Dinsmore & Shohl LLP,https://www.linkedin.com/company/dinsmore-&-shohl-llp,dinsmore.com,Ohio,Law Practice,1738,$100M-$1B,1,0
+iFIT,https://www.linkedin.com/company/ifit---fitness-technology,ifit.com,Utah,Wellness and Fitness Services,1460,$100M-$1B,1,0
+Roswell Park Comprehensive Cancer Center,https://www.linkedin.com/company/roswellpark,roswellpark.org,New York,Hospitals and Health Care,3822,$100M-$1B,1,0
+Zoox,https://www.linkedin.com/company/zoox-inc,zoox.com,California,Automotive,5029,$100M-$1B,14,8
+"Partner Engineering & Science, Inc.",https://www.linkedin.com/company/partner-engineering-&-science-inc.,partneresi.com,California,Environmental Services,1506,$100M-$1B,3,1
+Mack Technologies,https://www.linkedin.com/company/mack-technologies,macktech.com,Massachusetts,Appliances; Electrical; and Electronics Manufacturing,524,$100M-$1B,1,5
+ASTEC,https://www.linkedin.com/company/astecindustries,astecindustries.com,-,Machinery Manufacturing,2113,$100M-$1B,7,8
+Watlow,https://www.linkedin.com/company/watlow,watlow.com,Missouri,Industrial Machinery Manufacturing,2898,$100M-$1B,2,9
+Rotech Healthcare,https://www.linkedin.com/company/rotech-healthcare,rotech.com,Florida,Hospitals and Health Care,2752,$100M-$1B,1,0
+"Weston Solutions, Inc.",https://www.linkedin.com/company/weston-solutions-inc-,westonsolutions.com,Pennsylvania,Environmental Services,1467,$100M-$1B,1,1
+"Affiliated Engineers, Inc.",https://www.linkedin.com/company/affiliated-engineers,aeieng.com,Wisconsin,Professional Services,1089,$100M-$1B,8,3
+Synaptics Incorporated,https://www.linkedin.com/company/synaptics,synaptics.com,California,Semiconductor Manufacturing,2088,$100M-$1B,3,7
+SRI,https://www.linkedin.com/company/sri-international,sri.com,California,Research Services,3042,$100M-$1B,1,0
+ONEOK,https://www.linkedin.com/company/oneok,oneok.com,Oklahoma,Oil and Gas,6603,$100M-$1B,1,10
+Verily,https://www.linkedin.com/company/verily,verily.com,Texas,Hospitals and Health Care,1097,$100M-$1B,1,0
+Lewis Brisbois,https://www.linkedin.com/company/lewis-brisbois,lewisbrisbois.com,California,Law Practice,3181,$100M-$1B,5,0
+SmithRx,https://www.linkedin.com/company/smithrx,smithrx.com,California,Hospitals and Health Care,622,$100M-$1B,6,3
+Colonial Pipeline Company,https://www.linkedin.com/company/colonial-pipeline-company,colpipe.com,Georgia,Oil and Gas,1057,$100M-$1B,1,6
+ST Engineering iDirect,https://www.linkedin.com/company/st-engineering-idirect,idirect.net,Virginia,Telecommunications,960,$100M-$1B,1,7
+Virginia Transformer Corp,https://www.linkedin.com/company/virginia-transformer-corp_2,vatransformer.com,Virginia,Manufacturing,1055,$100M-$1B,2,3
+Precor,https://www.linkedin.com/company/precor,precor.com,Washington,Wellness and Fitness Services,769,$100M-$1B,1,2
+Debevoise & Plimpton,https://www.linkedin.com/company/debevoise,debevoise.com,New York,Law Practice,2063,$100M-$1B,2,0
+SMUD,https://www.linkedin.com/company/smud,smud.org,California,Utilities,2232,$100M-$1B,4,2
+Adtran,https://www.linkedin.com/company/adtran,adtran.com,Alabama,Telecommunications,2474,$100M-$1B,1,9
+Analogic,https://www.linkedin.com/company/analogic,analogic.com,Massachusetts,Security and Investigations,1133,$100M-$1B,1,2
+IEWC,https://www.linkedin.com/company/iewc,iewc.com,Wisconsin,Wholesale,506,$100M-$1B,1,0
+FormFactor Inc.,https://www.linkedin.com/company/formfactor,formfactor.com,California,Semiconductor Manufacturing,1816,$100M-$1B,5,6
+Moss & Associates (Construction),https://www.linkedin.com/company/mossconstruct,mosscm.com,Florida,Construction,3101,$100M-$1B,3,7
+The Waldinger Corporation,https://www.linkedin.com/company/the-waldinger-corporation,waldinger.com,Iowa,Construction,943,$100M-$1B,1,1
+"Integration Innovation, Inc.",https://www.linkedin.com/company/integration-innovation-inc-,linktr.ee,Alabama,Defense and Space Manufacturing,688,$100M-$1B,25,0
+McMaster-Carr,https://www.linkedin.com/company/mcmaster-carr,mcmaster.com,Illinois,Transportation; Logistics; Supply Chain and Storage,4025,$100M-$1B,1,10
+Figma,https://www.linkedin.com/company/figma,figma.com,California,Design Services,3012,$100M-$1B,3,0
+Ulteig,https://www.linkedin.com/company/ulteig,ulteig.com,North Dakota,Civil Engineering,1554,$100M-$1B,4,3
+TekSynap,https://www.linkedin.com/company/teksynap,teksynap.com,1900 Oracle Way,IT Services and IT Consulting,935,$100M-$1B,2,0
+ComPsych,https://www.linkedin.com/company/compsych,compsych.com,Illinois,Mental Health Care,1247,$100M-$1B,2,0
+Sparton,https://www.linkedin.com/company/sparton,sparton.com,Florida,Defense and Space Manufacturing,808,$100M-$1B,1,2
+Millennium Space Systems,https://www.linkedin.com/company/millennium-space-systems,millennium-space.com,California,Defense and Space Manufacturing,965,$100M-$1B,30,7
+COGENT Infotech,https://www.linkedin.com/company/cogentinfo,cogentinfo.com,Pennsylvania,IT Services and IT Consulting,899,$100M-$1B,2,0
+OGE Energy Corp.,https://www.linkedin.com/company/oge-energy-corp,oge.com,Oklahoma,Utilities,1897,$100M-$1B,2,7
+Parkhill,https://www.linkedin.com/company/parkhill-1945,parkhill.com,Texas,Architecture and Planning,708,$100M-$1B,6,1
+Trace3,https://www.linkedin.com/company/trace3,trace3.com,California,Information Technology and Services,1509,$100M-$1B,1,5
+Spacelabs Healthcare,https://www.linkedin.com/company/spacelabs-healthcare,spacelabshealthcare.com,Washington,Medical Equipment Manufacturing,834,$100M-$1B,2,2
+The LiRo Group,https://www.linkedin.com/company/the-liro-group,liro-hill.com,New York,Construction,933,$100M-$1B,1,1
+FTI,https://www.linkedin.com/company/faithtechinc,faithtechinc.com,Wisconsin,Construction,3467,$100M-$1B,3,10
+Veterans United Home Loans,https://www.linkedin.com/company/veteransunited,veteransunited.com,Missouri,Financial Services,3443,$100M-$1B,1,0
+Eurofins | EAG Laboratories,https://www.linkedin.com/company/eag-laboratories,eag.com,California,Research,806,$100M-$1B,2,3
+MGS Mfg. Group,https://www.linkedin.com/company/mgs-mfg-group,mgsmfg.com,Wisconsin,Plastics Manufacturing,834,$100M-$1B,1,0
+Checkpoint Systems,https://www.linkedin.com/company/checkpoint-systems,checkpointsystems.com,New Jersey,Retail,1977,$100M-$1B,1,0
+Generations Healthcare,https://www.linkedin.com/company/generations-healthcare,lifegen.net,California,Hospitals and Health Care,1073,$100M-$1B,1,0
+Ameresco,https://www.linkedin.com/company/ameresco,ameresco.com,Massachusetts,Services for Renewable Energy,1501,$100M-$1B,2,6
+dormakaba Americas,https://www.linkedin.com/company/dormakabaamericas,dormakaba.com,Indiana,Wholesale Building Materials,1071,$100M-$1B,2,5
+"Edgewater Federal Solutions, Inc.",https://www.linkedin.com/company/edgewater-federal-solutions-inc-,edgewaterit.com,Maryland,Information Technology and Services,501,$100M-$1B,3,0
+SMX,https://www.linkedin.com/company/smxtech,smxtech.com,Maryland,IT Services and IT Consulting,1973,$100M-$1B,3,0
+Choice Hotels International,https://www.linkedin.com/company/choice-hotels-international,choicehotels.com,Maryland,Hospitality,1913,$100M-$1B,1,2
+Guardant Health,https://www.linkedin.com/company/guardanthealth,guardanthealth.com,California,Biotechnology Research,4920,$100M-$1B,1,3
+Business Wire,https://www.linkedin.com/company/business-wire,businesswire.com,California,Public Relations and Communications Services,918,$100M-$1B,1,1
+E Tech Group,https://www.linkedin.com/company/etechgroup,etechgroup.com,Ohio,Automation Machinery Manufacturing,1085,$100M-$1B,26,8
+"Davis H. Elliot Company, Inc.",https://www.linkedin.com/company/davishelliot,dhec.com,Kentucky,Utilities,826,$100M-$1B,2,1
+Rapiscan Systems,https://www.linkedin.com/company/rapiscan-systems,rapiscansystems.com,California,Security and Investigations,1501,$100M-$1B,3,0
+COLSA,https://www.linkedin.com/company/colsa,colsa.com,Alabama,Defense and Space Manufacturing,1510,$100M-$1B,6,1
+"Ichor Systems, Inc.",https://www.linkedin.com/company/ichor-systems-inc.,ichorsystems.com,California,Semiconductor Manufacturing,1213,$100M-$1B,1,8
+Peterbilt Motors Company,https://www.linkedin.com/company/peterbilt-motors-company,peterbilt.com,Texas,Truck Transportation,1736,$100M-$1B,5,0
+Woods Hole Oceanographic Institution,https://www.linkedin.com/school/woods-hole-oceanographic-institution,whoi.edu,Massachusetts,Research Services,1315,$100M-$1B,2,2
+BraunAbility,https://www.linkedin.com/company/braunability,braunability.com,Indiana,Motor Vehicle Manufacturing,708,$100M-$1B,1,6
+VAST Data,https://www.linkedin.com/company/vast-data,vastdata.com,-,Software Development,1281,$100M-$1B,1,6
+"BISSELL Homecare, Inc.",https://www.linkedin.com/company/bissell-homecare-inc-,bissell.com,Michigan,Manufacturing,1469,$100M-$1B,2,0
+NexTier Completion Solutions,https://www.linkedin.com/company/nextierofs,nextierofs.com,Texas,Oil and Gas,1691,$100M-$1B,1,5
+Bruker Daltonics,https://www.linkedin.com/company/bruker-daltonics,bruker.com,Massachusetts,Biotechnology Research,931,$100M-$1B,2,0
+Morrison Foerster,https://www.linkedin.com/company/morrison-foerster-llp,mofo.com,California,Law Practice,2959,$100M-$1B,10,0
+Advanced Technology Services (ATS),https://www.linkedin.com/company/advanced-technology-services,advancedtech.com,Illinois,Commercial and Industrial Machinery Maintenance,2511,$100M-$1B,1,2
+Pacific Life,https://www.linkedin.com/company/pacific-life,pacificlife.com,California,Financial Services,4939,$100M-$1B,6,3
+Zurn Elkay Water Solutions,https://www.linkedin.com/company/zurnelkaywatersolutions,zurnelkay.com,Wisconsin,Wholesale Building Materials,1289,$100M-$1B,1,4
+Craig Hospital,https://www.linkedin.com/company/craig-hospital,craighospital.org,Colorado,Hospitals and Health Care,916,$100M-$1B,1,0
+VySystems,https://www.linkedin.com/company/vysystems,vysystems.com,California,Information Technology and Services,606,$100M-$1B,5,0
+Hendrick Motorsports,https://www.linkedin.com/company/hendrick-motorsports,hendrickmotorsports.com,-,Spectator Sports,619,$100M-$1B,1,2
+FlexTrade,https://www.linkedin.com/company/flextrade,flextrade.com,New York,Financial Services,770,$100M-$1B,1,0
+NORDAM,https://www.linkedin.com/company/nordam,nordam.com,Oklahoma,Aviation and Aerospace Component Manufacturing,1642,$100M-$1B,1,5
+The Marzetti Company,https://www.linkedin.com/company/marzetti-company,tmarzetticompany.com,Ohio,Food and Beverage Manufacturing,1393,$100M-$1B,1,1
+Baker Construction,https://www.linkedin.com/company/bakerconstruction,bakerconstruction.com,Ohio,Construction,2733,$100M-$1B,3,8
+Williams International,https://www.linkedin.com/company/williams-international,williams-int.com,Michigan,Aviation and Aerospace Component Manufacturing,1677,$100M-$1B,3,5
+Solidigm,https://www.linkedin.com/company/solidigmtechnology,solidigm.com,California,Computer Hardware Manufacturing,1957,$100M-$1B,2,8
+Amalgamated Sugar Company,https://www.linkedin.com/company/the-amalgamated-sugar-company,amalgamatedsugar.com,Idaho,Food and Beverage Manufacturing,809,$100M-$1B,1,0
+Carter Machinery,https://www.linkedin.com/company/carter-machinery,cartermachinery.com,Virginia,Machinery Manufacturing,1444,$100M-$1B,2,0
+Winland Foods,https://www.linkedin.com/company/winland-foods,winlandfoods.com,Illinois,Food and Beverage Manufacturing,979,$100M-$1B,1,0
+LECO,https://www.linkedin.com/company/leco,leco.com,Michigan,Appliances; Electrical; and Electronics Manufacturing,1112,$100M-$1B,1,0
+Waymo,https://www.linkedin.com/company/waymo,waymo.com,California,Technology; Information and Internet,4925,$100M-$1B,3,9
+MRO,https://www.linkedin.com/company/mro,mrocorp.com,Pennsylvania,Hospitals and Health Care,2576,$100M-$1B,2,1
+Consolidated Precision Products Corp,https://www.linkedin.com/company/consolidated-precision-products-corp-,cppcorp.com,Ohio,Aviation and Aerospace Component Manufacturing,1147,$100M-$1B,2,5
+Glidewell Dental,https://www.linkedin.com/company/glidewell,glidewelldental.com,California,Medical Equipment Manufacturing,2245,$100M-$1B,1,6
+Apexon,https://www.linkedin.com/company/apexon,apexon.com,California,IT Services and IT Consulting,4237,$100M-$1B,4,1
+Vuori,https://www.linkedin.com/company/vuori-inc-,vuoriclothing.com,California,Retail Apparel and Fashion,2720,$100M-$1B,1,0
+Planet,https://www.linkedin.com/company/planet-labs,planet.com,California,Software Development,1765,$100M-$1B,3,4
+Automated Logic Corporation,https://www.linkedin.com/company/automated-logic-corporation,automatedlogic.com,Georgia,Facilities Services,1361,$100M-$1B,1,0
+DriveTime,https://www.linkedin.com/company/drivetime,drivetime.com,Arizona,Retail,2279,$100M-$1B,1,4
+WCG,https://www.linkedin.com/company/wcg-clinical,wcgclinical.com,North Carolina,Research Services,1491,$100M-$1B,1,1
+Blue Bird Corporation,https://www.linkedin.com/company/blue-bird-corporation,blue-bird.com,Georgia,Motor Vehicle Manufacturing,1098,$100M-$1B,1,0
+Gowan Company,https://www.linkedin.com/company/gowan-company,gowanco.com,Arizona,Chemical Manufacturing,627,$100M-$1B,1,0
+S&C Electric Company,https://www.linkedin.com/company/s&c-electric-company,sandc.com,Illinois,Electrical Equipment Manufacturing,2794,$100M-$1B,3,7
+Messer Americas,https://www.linkedin.com/company/messeramericas,messer-us.com,New Jersey,Chemical Manufacturing,1553,$100M-$1B,1,7
+Land O'Frost,https://www.linkedin.com/company/land-o%27frost,landofrost.com,Indiana,Food and Beverage Manufacturing,640,$100M-$1B,1,2
+Enterprise Solutions Inc.,https://www.linkedin.com/company/enterprise-solution-inc-,enterprisesolutioninc.com,Illinois,IT Services and IT Consulting,563,$100M-$1B,3,0
+The Haskell Company,https://www.linkedin.com/company/the-haskell-company,haskell.com,Florida,Construction,2956,$100M-$1B,15,6
+"Chickasaw Nation Industries, Inc.",https://www.linkedin.com/company/chickasaw-nations-industries,chickasaw.com,Oklahoma,Government Relations Services,1108,$100M-$1B,5,0
+"Vizient, Inc",https://www.linkedin.com/company/vizient,vizientinc.com,Texas,Business Consulting and Services,7198,$100M-$1B,1,0
+Graco,https://www.linkedin.com/company/gracoinc,graco.com,Minnesota,Machinery Manufacturing,5043,$100M-$1B,1,9
+MaxLinear,https://www.linkedin.com/company/maxlinear,maxlinear.com,California,Semiconductor Manufacturing,1233,$100M-$1B,1,0
+Southland Industries,https://www.linkedin.com/company/southland-industries,southlandind.com,California,Construction,4840,$100M-$1B,4,3
+Alliant Energy,https://www.linkedin.com/company/alliant-energy,alliantenergy.com,Wisconsin,Utilities,2660,$100M-$1B,1,0
+OSI Digital,https://www.linkedin.com/company/osidigital,osidigital.com,California,IT Services and IT Consulting,1443,$100M-$1B,1,0
+Basin Electric Power Cooperative,https://www.linkedin.com/company/basin-electric-power-cooperative,basinelectric.com,North Dakota,Utilities,1066,$100M-$1B,1,0
+RK,https://www.linkedin.com/company/rkindustriesllc,rkindustries.com,Colorado,Construction,3808,$100M-$1B,2,2
+Marmon Foodservice Technologies,https://www.linkedin.com/company/marmon-foodservice-technologies,marmonfoodservice.com,Illinois,Food and Beverage Services,698,$100M-$1B,1,6
+Scoular,https://www.linkedin.com/company/the-scoular-company,scoular.com,Nebraska,Transportation; Logistics; Supply Chain and Storage,914,$100M-$1B,1,1
+TYLin,https://www.linkedin.com/company/tylin,tylin.com,California,Civil Engineering,3308,$100M-$1B,29,4
+"AWC, Inc.",https://www.linkedin.com/company/awc,awc-inc.com,Louisiana,Industrial Automation,1145,$100M-$1B,1,3
+ETAP Software,https://www.linkedin.com/company/operation-technology-inc-,etap.com,California,Software Development,633,$100M-$1B,6,1
+MIT Lincoln Laboratory,https://www.linkedin.com/company/mit-lincoln-laboratory,mit.edu,Massachusetts,Defense and Space Manufacturing,4134,$100M-$1B,4,7
+"Tyto Athene, LLC",https://www.linkedin.com/company/gotyto,gotyto.com,Virginia,IT Services and IT Consulting,972,$100M-$1B,1,0
+Archer,https://www.linkedin.com/company/flyarcher,archer.com,California,Airlines and Aviation,1969,$100M-$1B,2,5
+"Arrow International, Inc.",https://www.linkedin.com/company/arrow-international-inc-,arrowinternational.com,Ohio,Manufacturing,609,$100M-$1B,1,0
+Viridien,https://www.linkedin.com/company/weareviridien,viridiengroup.com,-,Technology; Information and Internet,1035,$100M-$1B,1,0
+The MIL Corporation,https://www.linkedin.com/company/mil,milcorp.com,Maryland,Information Technology and Services,955,$100M-$1B,1,0
+FUJIFILM Biotechnologies,https://www.linkedin.com/company/fujifilm-biotechnologies,fujifilmdiosynth.com,North Carolina,Biotechnology Research,5981,$100M-$1B,3,5
+Aeroflow Health,https://www.linkedin.com/company/aeroflow-health,aeroflowhealth.com,North Carolina,Medical Equipment Manufacturing,735,$100M-$1B,1,4
+SonicWall,https://www.linkedin.com/company/sonicwall,bit.ly,California,Computer and Network Security,1966,$100M-$1B,3,0
+TREMEC,https://www.linkedin.com/company/tremec---transmission-technologies-corporation,tremec.com,Michigan,Motor Vehicle Manufacturing,969,$100M-$1B,1,0
+"ActioNet, Inc.",https://www.linkedin.com/company/actionet-inc-,actionet.com,Virginia,IT Services and IT Consulting,541,$100M-$1B,3,0
+Tradeweb,https://www.linkedin.com/company/tradeweb,tradeweb.com,New York,Financial Services,1881,$100M-$1B,1,0
+Troy Design and Manufacturing - A wholly owned Ford Motor Company subsidiary,https://www.linkedin.com/company/troy-design-and-manufacturing,troydm.com,-,Motor Vehicle Manufacturing,605,$100M-$1B,1,8
+CBTS,https://www.linkedin.com/company/cbts-technology-covered,cbts.com,Ohio,IT Services and IT Consulting,2631,$100M-$1B,3,2
+Bobcat Company,https://www.linkedin.com/company/bobcat-company,bobcat.com,North Dakota,Machinery Manufacturing,4445,$100M-$1B,3,0
+Safe Fleet,https://www.linkedin.com/company/safe-fleet,safefleet.net,Missouri,Truck Transportation,509,$100M-$1B,4,1
+MedSpeed,https://www.linkedin.com/company/medspeed,medspeed.com,Illinois,Hospitals and Health Care,1030,$100M-$1B,1,0
+Sundt Construction,https://www.linkedin.com/company/sundt-construction,sundt.com,Arizona,Construction,3066,$100M-$1B,5,0
+"BGE, Inc.",https://www.linkedin.com/company/bgeinc,bgeinc.com,Texas,Civil Engineering,1329,$100M-$1B,8,0
+Ergon Inc.,https://www.linkedin.com/company/ergon-inc,ergon.com,Mississippi,Oil and Gas,974,$100M-$1B,1,1
+STACK Infrastructure,https://www.linkedin.com/company/stackinfrastructure,stackinfra.com,Colorado,IT Services and IT Consulting,1359,$100M-$1B,1,1
+Atmos Energy,https://www.linkedin.com/company/atmos-energy,atmosenergy.com,Texas,Utilities,4887,$100M-$1B,1,0
+"Yaskawa America, Inc. -  Drives & Motion Division",https://www.linkedin.com/company/yaskawaamericainc,yaskawa.com,Illinois,Automation Machinery Manufacturing,757,$100M-$1B,2,7
+University of Dayton Research Institute,https://www.linkedin.com/company/udri,udayton.edu,Ohio,Research Services,864,$100M-$1B,3,3
+IPS-Integrated Project Services,https://www.linkedin.com/company/ips,ipsdb.com,Pennsylvania,Business Consulting and Services,3949,$100M-$1B,3,5
+HENSEL PHELPS,https://www.linkedin.com/company/hensel-phelps-construction-co-,henselphelps.com,Colorado,Construction,4332,$100M-$1B,1,1
+Mercury Systems,https://www.linkedin.com/company/mercury-systems,mrcy.com,Massachusetts,Defense and Space Manufacturing,2301,$100M-$1B,12,7
+Inframark,https://www.linkedin.com/company/inframark,inframark.com,Pennsylvania,Utilities,1496,$100M-$1B,7,0
+Helen of Troy,https://www.linkedin.com/company/helen-of-troy,helenoftroy.com,Texas,Manufacturing,2441,$100M-$1B,4,6
+"Resource Management Concepts, Inc.",https://www.linkedin.com/company/resource-management-concepts-inc-,rmcweb.com,Maryland,IT Services and IT Consulting,515,$100M-$1B,2,0
+BECU,https://www.linkedin.com/company/becu,becu.org,Washington,Banking,3002,$100M-$1B,9,0
+Merrick & Company,https://www.linkedin.com/company/merrick&company,merrick.com,Colorado,Design Services,1194,$100M-$1B,5,3
+"Loram Maintenance of Way, Inc.",https://www.linkedin.com/company/loram,loram.com,Minnesota,Railroad Equipment Manufacturing,1149,$100M-$1B,6,4
+RigUp,https://www.linkedin.com/company/rigup,rigup.com,Texas,Technology; Information and Internet,908,$100M-$1B,5,1
+Bendix Commercial Vehicle Systems LLC,https://www.linkedin.com/company/bendix-commercial-vehicle-systems-llc,bendix.com,Ohio,Truck Transportation,9307,$100M-$1B,1,0
+Torc Robotics,https://www.linkedin.com/company/torc-robotics,torc.ai,Virginia,Software Development,875,$100M-$1B,6,8
+"Bray International, Inc.",https://www.linkedin.com/company/bray-controls,bray.com,Texas,Industrial Machinery Manufacturing,2052,$100M-$1B,1,6
+SmithGroup,https://www.linkedin.com/company/smithgroup,smithgroup.com,Michigan,Architecture and Planning,1849,$100M-$1B,5,0
+Legence,https://www.linkedin.com/company/legence,wearelegence.com,California,Construction,3827,$100M-$1B,2,0
+Laborie,https://www.linkedin.com/company/laborie,laborie.com,New Hampshire,Medical Device,1114,$100M-$1B,1,2
+Crane Aerospace & Electronics,https://www.linkedin.com/company/craneae,craneae.com,Washington,Aviation and Aerospace,2106,$100M-$1B,4,9
+PayJoy,https://www.linkedin.com/company/payjoy,payjoy.com,California,Financial Services,2172,$100M-$1B,1,0
+"Enercon Services, Inc.",https://www.linkedin.com/company/enercon-services,enercon.com,Georgia,Utilities,1960,$100M-$1B,75,10
+SOC LLC,https://www.linkedin.com/company/soc-llc,soc-usa.com,Virginia,Defense and Space Manufacturing,1404,$100M-$1B,2,0
+ChargePoint,https://www.linkedin.com/company/chargepoint,chargepoint.com,California,Electrical Equipment Manufacturing,1418,$100M-$1B,4,5
+"Infinite Electronics, Inc.",https://www.linkedin.com/company/infinite-electronics-inc.,infiniteelectronics.com,CA - California,Appliances; Electrical; and Electronics Manufacturing,541,$100M-$1B,1,3
+Silicon Labs,https://www.linkedin.com/company/siliconlabs,silabs.com,Texas,Semiconductor Manufacturing,2609,$100M-$1B,2,7
+"Peak Technologies, Inc.",https://www.linkedin.com/company/peaktechna,peaktech.com,Maryland,IT Services and IT Consulting,650,$100M-$1B,1,1
+"GPI / Greenman-Pedersen, Inc.",https://www.linkedin.com/company/greenman-pedersen-inc-,gpinet.com,New York,Design Services,1424,$100M-$1B,1,8
+Hendrickson,https://www.linkedin.com/company/hendrickson,hendrickson-intl.com,Illinois,Truck Transportation,2277,$100M-$1B,1,9
+DigitalOcean,https://www.linkedin.com/company/digitalocean,digitalocean.com,Colorado,Software Development,2522,$100M-$1B,5,9
+Snohomish County PUD,https://www.linkedin.com/company/snohomish-county-pud,snopud.com,Washington,Utilities,845,$100M-$1B,1,2
+Trigent Software Inc,https://www.linkedin.com/company/trigent-software,trigent.com,Massachusetts,IT Services and IT Consulting,1451,$100M-$1B,1,0
+Net Health,https://www.linkedin.com/company/net-health-systems-inc-,nethealth.com,Pennsylvania,Software Development,570,$100M-$1B,1,0
+Commonwealth Fusion Systems,https://www.linkedin.com/company/commonwealth-fusion-systems,cfs.energy,Massachusetts,Energy Technology,1127,$100M-$1B,11,10
+ARi,https://www.linkedin.com/company/ariglobal,arigs.com,Illinois,Industrial Machinery Manufacturing,1198,$100M-$1B,5,0
+Princeton Plasma Physics Laboratory (PPPL),https://www.linkedin.com/company/princeton-plasma-physics-lab,pppl.gov,New Jersey,Research,804,$100M-$1B,2,2
+Google Fiber,https://www.linkedin.com/company/gfiber,g.co,California,Technology; Information and Internet,2332,$100M-$1B,1,4
+New Relic,https://www.linkedin.com/company/new-relic-inc-,newrelic.com,California,Software Development,3092,$100M-$1B,3,0
+Space Dynamics Laboratory,https://www.linkedin.com/company/space-dynamics-laboratory,usu.edu,Utah,Defense and Space Manufacturing,1137,$100M-$1B,4,2
+FORTNA,https://www.linkedin.com/company/fortna,fortna.com,Georgia,Transportation; Logistics; Supply Chain and Storage,1725,$100M-$1B,3,9
+Ambarella Inc,https://www.linkedin.com/company/ambarella,ambarella.com,California,Semiconductor Manufacturing,788,$100M-$1B,1,0
+LVT (LiveView Technologies),https://www.linkedin.com/company/lvt,lvt.com,Utah,Software Development,748,$100M-$1B,1,0
+Kärcher North America Inc.,https://www.linkedin.com/company/karcher-us,kaercher.com,Colorado,Machinery Manufacturing,656,$100M-$1B,1,3
+Motional,https://www.linkedin.com/company/motionaldrive,motional.com,Massachusetts,Motor Vehicle Manufacturing,1031,$100M-$1B,5,5
+Inogen,https://www.linkedin.com/company/inogen,inogen.com,California,Medical Equipment Manufacturing,856,$100M-$1B,2,0
+Mutual of Omaha,https://www.linkedin.com/company/mutual-of-omaha,mutualofomaha.com,Nebraska,Financial Services,9773,$100M-$1B,1,1
+Waupaca Foundry,https://www.linkedin.com/company/waupaca-foundry,waupacafoundry.com,Wisconsin,Mining,1562,$100M-$1B,1,1
+Qentelli,https://www.linkedin.com/company/qentelli,qentelli.com,Texas,Technology; Information and Internet,1269,$100M-$1B,8,2
+Siemens EDA (Siemens Digital Industries Software),https://www.linkedin.com/company/siemens-eda,siemens.com,-,Software Development,5082,$100M-$1B,3,8
+PIP Global Safety,https://www.linkedin.com/company/pip-global-safety,pipglobal.com,New York,Manufacturing,1342,$100M-$1B,2,0
+Extreme Networks,https://www.linkedin.com/company/extreme-networks,extremenetworks.com,North Carolina,Software Development,4076,$100M-$1B,9,7
+Arthrex,https://www.linkedin.com/company/arthrex,arthrex.com,Florida,Medical Equipment Manufacturing,9283,$100M-$1B,8,0
+"DXP Enterprises, Inc.",https://www.linkedin.com/company/dxp-enterprises-inc-,dxpe.com,Texas,Wholesale,2198,$100M-$1B,2,1
+U.S. Pipe,https://www.linkedin.com/company/us-pipe-and-foundry,uspipe.com,Alabama,Utilities,673,$100M-$1B,1,3
+Centific,https://www.linkedin.com/company/centificglobal,centific.com,Washington,Software Development,3565,$100M-$1B,1,0
+Facility Solutions Group,https://www.linkedin.com/company/facility-solutions-group,fsg.com,Texas,Specialty Trade Contractors,1538,$100M-$1B,1,5
+GILLIG,https://www.linkedin.com/company/gillig-llc,gillig.com,California,Motor Vehicle Manufacturing,638,$100M-$1B,3,7
+Invenergy,https://www.linkedin.com/company/invenergy-llc,invenergy.com,Illinois,Electric Power Generation,2487,$100M-$1B,1,0
+TechStar Group,https://www.linkedin.com/company/techstargroup,techstargroup.com,Texas,IT Services and IT Consulting,605,$100M-$1B,1,0
+Matrix Service Company,https://www.linkedin.com/company/matrix-service-company,matrixservicecompany.com,Oklahoma,Construction,807,$100M-$1B,1,1
+Barge Design Solutions,https://www.linkedin.com/company/barge-design-solutions-inc,bargedesign.com,Tennessee,Design Services,686,$100M-$1B,1,0
+"Mission Technologies, a division of HII",https://www.linkedin.com/company/mission-technologies-a-division-of-hii,hii.com,Virginia,Defense and Space Manufacturing,5212,$100M-$1B,33,10
+Ghafari Associates,https://www.linkedin.com/company/ghafari-associates,ghafari.com,Michigan,Architecture and Planning,739,$100M-$1B,1,0
+Associated Bank,https://www.linkedin.com/company/associated-bank,associatedbank.com,Wisconsin,Financial Services,5110,$100M-$1B,9,0
+Henny Penny,https://www.linkedin.com/company/henny-penny,hennypenny.com,Ohio,Food and Beverage Services,742,$100M-$1B,1,7
+Mortenson,https://www.linkedin.com/company/mortenson,mortenson.com,Minnesota,Construction,6831,$100M-$1B,12,6
+IES Holdings,https://www.linkedin.com/company/ies,ies-co.com,Texas,Construction,2884,$100M-$1B,1,0
+PBF Energy,https://www.linkedin.com/company/pbf-energy,pbfenergy.com,New Jersey,Oil and Gas,1945,$100M-$1B,1,0
+TSC,https://www.linkedin.com/company/tsc-detectdefenddefeat,tsc.com,Virginia,Defense and Space Manufacturing,2792,$100M-$1B,6,6
+QTS Data Centers,https://www.linkedin.com/company/qtsdatacenters,qtsdatacenters.com,Virginia,IT Services and IT Consulting,2749,$100M-$1B,1,0
+Roush,https://www.linkedin.com/company/roush-industries,roush.com,Michigan,Motor Vehicle Manufacturing,2272,$100M-$1B,6,8
+Link Engineering Company,https://www.linkedin.com/company/link-engineering-company,linkeng.com,Michigan,Industrial Machinery Manufacturing,557,$100M-$1B,1,5
+Garver,https://www.linkedin.com/company/garverusa,garverusa.com,Arkansas,Civil Engineering,1599,$100M-$1B,2,1
+Draper,https://www.linkedin.com/company/draper,draper.com,Massachusetts,Defense and Space Manufacturing,3053,$100M-$1B,25,3
+Auria,https://www.linkedin.com/company/auriasolutions,auriasolutions.com,Michigan,Motor Vehicle Manufacturing,1099,$100M-$1B,1,7
+Quantum,https://www.linkedin.com/company/quantum,quantum.com,Colorado,IT Services and IT Consulting,952,$100M-$1B,3,10
+Planned Systems International,https://www.linkedin.com/company/planned-systems-international,plan-sys.com,Maryland,IT Services and IT Consulting,667,$100M-$1B,1,0
+Midcontinent Independent System Operator (MISO),https://www.linkedin.com/company/midcontinent-iso,misoenergy.org,Indiana,Utilities,1393,$100M-$1B,8,4
+Aleut Federal,https://www.linkedin.com/company/aleut-federal,aleutfederal.com,Virginia,Professional Services,538,$100M-$1B,2,0
+Programmers.io,https://www.linkedin.com/company/programmers-io,programmers.io,Texas,IT Services and IT Consulting,1308,$100M-$1B,31,0
+AprilAire,https://www.linkedin.com/company/aprilaire,aprilaire.com,Wisconsin,Manufacturing,551,$100M-$1B,2,7
+Panasonic Energy Corporation of North America,https://www.linkedin.com/company/panasonicenergycorpna,panasonic.com,Nevada,Services for Renewable Energy,1307,$100M-$1B,3,4
+Riverside Research,https://www.linkedin.com/company/riverside-research,riversideresearch.org,Virginia,Research Services,795,$100M-$1B,4,0
+"Wunderlich-Malec Engineering, Inc.",https://www.linkedin.com/company/wunderlich-malec-engineering,wmeng.com,Minnesota,Engineering Services,707,$100M-$1B,5,9
+AOI,https://www.linkedin.com/company/appliedopto,ao-inc.com,Texas,Telecommunications,718,$100M-$1B,2,0
+Mitsubishi Chemical America,https://www.linkedin.com/company/mitsubishi-chemical-america,mitsubishi-chemical.com,North Carolina,Chemical Manufacturing,1847,$100M-$1B,4,0
+Altera Digital Health,https://www.linkedin.com/company/altera-health,alterahealth.com,-,Software Development,3024,$100M-$1B,1,2
+Cricut,https://www.linkedin.com/company/cricut,cricut.com,Utah,Software Development,1068,$100M-$1B,3,5
+Ring,https://www.linkedin.com/company/ring-labs,ring.com,California,Computers and Electronics Manufacturing,1304,$100M-$1B,2,2
+Pacific Scientific Energetic Materials Company,https://www.linkedin.com/company/pacific-scientific,psemc.com,Arizona,Defense and Space Manufacturing,695,$100M-$1B,7,4
+Root Inc.,https://www.linkedin.com/company/rootinsurance,joinroot.com,Ohio,Insurance,1208,$100M-$1B,1,0
+NEOTech,https://www.linkedin.com/company/neo-technology-solutions,neotech.com,California,Appliances; Electrical; and Electronics Manufacturing,1281,$100M-$1B,1,5
+Qcells EPC,https://www.linkedin.com/company/qcells-epc,qcellsusa.com,California,Renewable Energy Semiconductor Manufacturing,610,$100M-$1B,9,8
+HOK,https://www.linkedin.com/company/hok,hok.com,New York,Architecture and Planning,3151,$100M-$1B,1,0
+"DuBois Chemicals, Inc.",https://www.linkedin.com/company/dubois-chemicals-inc-,duboischemicals.com,Ohio,Chemical Manufacturing,950,$100M-$1B,1,1
+"Penumbra, Inc.",https://www.linkedin.com/company/penumbra-inc,penumbrainc.com,California,Medical Equipment Manufacturing,3270,$100M-$1B,5,3
+ERCOT,https://www.linkedin.com/company/ercot,ercot.com,Texas,Utilities,1170,$100M-$1B,3,2
+Camaco,https://www.linkedin.com/company/camaco-amvian,camacollc.com,Michigan,Motor Vehicle Manufacturing,1114,$100M-$1B,1,4
+Piper Aircraft,https://www.linkedin.com/company/piper-aircraft,piper.com,Florida,Aviation and Aerospace Component Manufacturing,901,$100M-$1B,1,0
+CarParts.com,https://www.linkedin.com/company/carparts-com,carparts.com,California,Software Development,1313,$100M-$1B,1,0
+Nova Biomedical,https://www.linkedin.com/company/nova-biomedical-corp,novabiomedical.com,Massachusetts,Medical Device,1515,$100M-$1B,3,3
+Forum Energy Technologies,https://www.linkedin.com/company/forum-energy-technologies,f-e-t.com,Texas,Oil and Gas,1287,$100M-$1B,1,8
+Woodgrain,https://www.linkedin.com/company/woodgrain,woodgrain.com,Idaho,Wholesale Building Materials,2055,$100M-$1B,1,1
+Fermilab,https://www.linkedin.com/company/fermilab,fnal.gov,Illinois,Research Services,2363,$100M-$1B,1,6
+Sierra Nevada Corporation,https://www.linkedin.com/company/sierra-nevada-corporation,sncorp.com,Nevada,Defense and Space Manufacturing,5303,$100M-$1B,36,9
+NETGEAR,https://www.linkedin.com/company/netgear,netgear.com,California,Software Development,1493,$100M-$1B,1,8
+"ENSCO, Inc.",https://www.linkedin.com/company/ensco-inc,ensco.com,Virginia,Defense and Space Manufacturing,738,$100M-$1B,2,0
+"Monolithic Power Systems, Inc.",https://www.linkedin.com/company/monolithic-power-systems,monolithicpower.com,Washington,Semiconductor Manufacturing,1346,$100M-$1B,3,4
+Blattner,https://www.linkedin.com/company/blattner-company,blattnercompany.com,Minnesota,Construction,3932,$100M-$1B,3,10
+Crestron Electronics,https://www.linkedin.com/company/crestron,crestron.com,New Jersey,Appliances; Electrical; and Electronics Manufacturing,2298,$100M-$1B,1,8
+"Bechtel Plant Machinery, Inc. (BPMI)",https://www.linkedin.com/company/bechtel-plant-machinery-inc,bpmionline.com,Pennsylvania,Engineering Services,842,$100M-$1B,1,10
+MTS Systems Corporation,https://www.linkedin.com/company/mtssystemscorporation,mts.com,Minnesota,Mechanical Or Industrial Engineering,1699,$100M-$1B,2,8
+Pike Corporation,https://www.linkedin.com/company/pike-electric,pike.com,North Carolina,Construction,2397,$100M-$1B,5,1
+ABEC,https://www.linkedin.com/company/abec,abec.com,Pennsylvania,Biotechnology Research,610,$100M-$1B,3,0
+Idaho National Laboratory,https://www.linkedin.com/company/idaho-national-laboratory,inl.gov,Idaho,Research Services,3988,$100M-$1B,5,8
+AV,https://www.linkedin.com/company/avinc,linktr.ee,Virginia,Defense and Space Manufacturing,3087,$100M-$1B,39,7
+AIS (Applied Information Sciences),https://www.linkedin.com/company/appliedis,ais.com,Virginia,IT Services and IT Consulting,776,$100M-$1B,2,0
+Griffith Foods,https://www.linkedin.com/company/griffith-foods,griffithfoods.com,Illinois,Food and Beverage Manufacturing,3534,$100M-$1B,1,6
+G&W Electric Co.,https://www.linkedin.com/company/g&w-electric-co-,gwelectric.com,Illinois,Appliances; Electrical; and Electronics Manufacturing,1050,$100M-$1B,1,5
+SEH,https://www.linkedin.com/company/seh,sehinc.com,Minnesota,Civil Engineering,1112,$100M-$1B,1,0
+"AAON, Inc.",https://www.linkedin.com/company/aaon,aaon.com,Oklahoma,Machinery Manufacturing,1701,$100M-$1B,1,8
+Tential Solutions,https://www.linkedin.com/company/tential,tential.com,Maryland,Information Technology and Services,533,$100M-$1B,1,0
+"Reinsurance Group of America, Incorporated",https://www.linkedin.com/company/rga-reinsurance-group-of-america-incorporated,rgare.com,Missouri,Insurance,4535,$100M-$1B,1,0
+Care Access,https://www.linkedin.com/company/careaccess,careaccess.com,Massachusetts,Research Services,910,$100M-$1B,1,0
+LG&E and KU Energy LLC,https://www.linkedin.com/company/lgeku,lge-ku.com,Kentucky,Utilities,1722,$100M-$1B,1,2
+Farm Bureau Insurance of Michigan,https://www.linkedin.com/company/farm-bureau-insurance-of-michigan,farmbureauinsurance.com,Michigan,Insurance,1447,$100M-$1B,1,0
+InfoVision Inc.,https://www.linkedin.com/company/infovision,infovision.com,Texas,IT Services and IT Consulting,1957,$100M-$1B,2,0
+"Science and Engineering Services, LLC",https://www.linkedin.com/company/science-and-engineering-services-inc-,sesllc-us.com,Alabama,Airlines and Aviation,593,$100M-$1B,2,0
+Highline Warren,https://www.linkedin.com/company/highline-warren,highlinewarren.com,Tennessee,Repair and Maintenance,936,$100M-$1B,1,0
+Veeco,https://www.linkedin.com/company/veeco-instruments,veeco.com,New York,Semiconductor Manufacturing,1487,$100M-$1B,4,8
+Delta Dental of Michigan,https://www.linkedin.com/company/delta-dental-of-michigan,deltadentalmi.com,Michigan,Insurance,1081,$100M-$1B,1,0
+Rehlko,https://www.linkedin.com/company/rehlko,rehlko.com,Wisconsin,Manufacturing,2870,$100M-$1B,7,8
+Shermco Industries,https://www.linkedin.com/company/shermco-industries,shermco.com,Texas,Appliances; Electrical; and Electronics Manufacturing,1422,$100M-$1B,3,5
+"PowerSecure, Inc.",https://www.linkedin.com/company/powersecure,powersecure.com,North Carolina,Electrical Equipment Manufacturing,885,$100M-$1B,1,7
+Post Consumer Brands,https://www.linkedin.com/company/postconsumerbrands,postconsumerbrands.com,Minnesota,Manufacturing,2470,$100M-$1B,1,7
+Keystone Engineering Inc,https://www.linkedin.com/company/keystoneengr,keystoneengr.com,Louisiana,Engineering Services,507,$100M-$1B,1,3
+Cboe Global Markets,https://www.linkedin.com/company/cboe,cboe.com,Illinois,Financial Services,1599,$100M-$1B,2,0
+The Okonite Company,https://www.linkedin.com/company/the-okonite-company,okonite.com,New Jersey,Appliances; Electrical; and Electronics Manufacturing,534,$100M-$1B,1,2
+FCX Performance,https://www.linkedin.com/company/fcx-performance,fcxperformance.com,Ohio,Industrial Machinery Manufacturing,993,$100M-$1B,2,0
+Western & Southern Financial Group,https://www.linkedin.com/company/western-&-southern-financial-group,westernsouthern.com,Ohio,Financial Services,5320,$100M-$1B,3,0
+Coffman Engineers,https://www.linkedin.com/company/coffman-engineers,coffman.com,Washington,Design Services,880,$100M-$1B,10,1
+"Greenberg Traurig, LLP",https://www.linkedin.com/company/greenberg-traurig-llp,gtlaw.com,New York,Law Practice,5846,$100M-$1B,7,0
+Fishbeck,https://www.linkedin.com/company/fishbeck-thompson-carr-and-huber-inc,fishbeck.com,Michigan,Professional Services,696,$100M-$1B,1,0
+United Therapeutics Corporation,https://www.linkedin.com/company/unitedtherapeutics,unither.com,Maryland,Pharmaceutical Manufacturing,1575,$100M-$1B,2,6
+Hazen and Sawyer,https://www.linkedin.com/company/hazen-and-sawyer,hazenandsawyer.com,New York,Environmental Services,2355,$100M-$1B,12,0
+Magna Legal Services,https://www.linkedin.com/company/magna-legal-services,magnals.com,Pennsylvania,Legal Services,629,$100M-$1B,1,0
+GitHub,https://www.linkedin.com/company/github,github.com,California,Software Development,6977,$100M-$1B,1,0
+STP Nuclear Operating Company,https://www.linkedin.com/company/stp-nuclear-operating-company,stpnoc.com,Texas,Utilities,1363,$100M-$1B,1,0
+Frontgrade Technologies,https://www.linkedin.com/company/frontgrade-technologies,frontgrade.com,Colorado,Defense and Space Manufacturing,521,$100M-$1B,4,7
+Myriad Genetics,https://www.linkedin.com/company/myriad-genetics,myriad.com,Utah,Biotechnology Research,2915,$100M-$1B,1,3
+TMEIC,https://www.linkedin.com/company/tmeic,tmeic.com,Texas,Automation Machinery Manufacturing,1225,$100M-$1B,1,9
+Toyo Tires,https://www.linkedin.com/company/toyo-tires,toyotires.com,California,Motor Vehicle Manufacturing,1891,$100M-$1B,1,2
+Sparq,https://www.linkedin.com/company/teamsparq,teamsparq.com,Georgia,Software Development,688,$100M-$1B,2,1
+Dewberry,https://www.linkedin.com/company/dewberry,dewberry.com,Virginia,Engineering Services,2975,$100M-$1B,6,5
+Tokio Marine HCC,https://www.linkedin.com/company/tokiomarinehcc,tmhcc.com,Texas,Insurance,4084,$100M-$1B,1,0
+ISO New England Inc.,https://www.linkedin.com/company/iso-new-england,iso-ne.com,Massachusetts,Utilities,788,$100M-$1B,2,0
+OCLC,https://www.linkedin.com/company/oclc,oclc.org,Ohio,Software Development,1398,$100M-$1B,1,2
+DoiT,https://www.linkedin.com/company/doitintl,doit.com,California,Technology; Information and Internet,777,$100M-$1B,2,1
+The Shaw Group,https://www.linkedin.com/company/shaw-group,theshawgrp.com,Texas,Construction,1275,$100M-$1B,1,0
+OTC Industrial Technologies,https://www.linkedin.com/company/otc-industrial-technologies,otcindustrial.com,Ohio,Automation Machinery Manufacturing,801,$100M-$1B,1,0
+Cresco Labs,https://www.linkedin.com/company/cresco-labs,crescolabs.com,Illinois,Alternative Medicine,1302,$100M-$1B,5,1
+WHSmith North America,https://www.linkedin.com/company/whsmithna,marshallretailgroup.com,Nevada,Retail,860,$100M-$1B,1,0
+ARA,https://www.linkedin.com/company/ara,ara.com,New Mexico,Defense and Space Manufacturing,3286,$100M-$1B,3,7
+Anaplan,https://www.linkedin.com/company/anaplan,anaplan.com,Florida,Software Development,3128,$100M-$1B,4,3
+Virgin Galactic,https://www.linkedin.com/company/virgin-galactic,virgingalactic.com,California,Aviation and Aerospace Component Manufacturing,978,$100M-$1B,3,0
+AGC Automotive Americas,https://www.linkedin.com/company/agc-automotive-americas,agc-automotive.com,Michigan,Motor Vehicle Manufacturing,741,$100M-$1B,1,4
+Elbit Systems of America,https://www.linkedin.com/company/elbitsystemsofamerica,elbitamerica.com,Texas,Defense and Space Manufacturing,1721,$100M-$1B,4,9
+Omaha Public Power District,https://www.linkedin.com/company/omaha-public-power-district,oppd.com,Nebraska,Utilities,2065,$100M-$1B,19,5
+Affirm,https://www.linkedin.com/company/affirm,affirm.com,California,Financial Services,3199,$100M-$1B,13,0
+"MedImpact Healthcare Systems, Inc.",https://www.linkedin.com/company/medimpact,medimpact.com,California,Hospitals and Health Care,2020,$100M-$1B,1,1
+ECS,https://www.linkedin.com/company/ecstechhq,ecstech.com,Virginia,IT System Data Services,4037,$100M-$1B,6,3
+IMEG,https://www.linkedin.com/company/imeg-corp,imegcorp.com,Illinois,Design Services,2428,$100M-$1B,8,1
+Tektronix,https://www.linkedin.com/company/tektronix,tek.com,Oregon,Appliances; Electrical; and Electronics Manufacturing,4281,$100M-$1B,4,7
+Shure,https://www.linkedin.com/company/shure-incorporated,shure.com,Illinois,Computers and Electronics Manufacturing,2337,$100M-$1B,2,0
+"McKim & Creed, Inc.",https://www.linkedin.com/company/mckim-&-creed,mckimcreed.com,North Carolina,Civil Engineering,909,$100M-$1B,2,7
+"EBSCO Industries, Inc.",https://www.linkedin.com/company/ebsco-industries-inc,ebscoind.com,Alabama,Information Services,565,$100M-$1B,1,0
+NWN,https://www.linkedin.com/company/nwncompany,nwncarousel.com,Massachusetts,Information Technology and Services,1784,$100M-$1B,1,0
+BigBear.ai,https://www.linkedin.com/company/bigbearai,bigbear.ai,Virginia,Software Development,536,$100M-$1B,2,3
+"Mercedes-Benz Vans, LLC (Charleston, SC)",https://www.linkedin.com/company/mercedes-benz-van,linktr.ee,South Carolina,Motor Vehicle Manufacturing,755,$100M-$1B,1,0
+CTI Foods,https://www.linkedin.com/company/cti-foods,ctifoods.com,Texas,Food and Beverage Manufacturing,729,$100M-$1B,1,0
+Allegiant,https://www.linkedin.com/company/allegiant-air,allegiantair.com,Nevada,Airlines and Aviation,3824,$100M-$1B,1,5
+Tubi,https://www.linkedin.com/company/tubi-tv,tubitv.com,California,Entertainment Providers,965,$100M-$1B,1,0
+Ruger Firearms,https://www.linkedin.com/company/ruger-firearms,ruger.com,Connecticut,Sporting Goods Manufacturing,646,$100M-$1B,1,2
+Cirtec Medical,https://www.linkedin.com/company/cirtec-medical,cirtecmed.com,Minnesota,Medical Equipment Manufacturing,845,$100M-$1B,1,5
+Dennis Group,https://www.linkedin.com/company/dennis-group,dennisgroup.com,Massachusetts,Food and Beverage Services,689,$100M-$1B,7,1
+Standex International,https://www.linkedin.com/company/standex-international,standex.com,New Hampshire,Manufacturing,1121,$100M-$1B,2,0
+Westwood Professional Services,https://www.linkedin.com/company/westwood-professional-services,westwoodps.com,Texas,Engineering Services,1761,$100M-$1B,4,10
+"Whitman, Requardt and Associates, LLP",https://www.linkedin.com/company/whitman-requardt-and-associates-llp,wrallp.com,Maryland,Civil Engineering,798,$100M-$1B,3,1
+AFL,https://www.linkedin.com/company/aflglobal,aflglobal.com,South Carolina,Telecommunications,3812,$100M-$1B,1,7
+ENGIE North America Inc.,https://www.linkedin.com/company/engie-north-america-inc,engie-na.com,Texas,Renewable Energy Power Generation,3258,$100M-$1B,1,7
+Sierra Space,https://www.linkedin.com/company/sierraspace,sierraspace.com,Colorado (CO),Aviation and Aerospace Component Manufacturing,1370,$100M-$1B,25,10
+Cars Commerce,https://www.linkedin.com/company/cars-commerce,carscommerce.inc,Illinois,Software Development,2075,$100M-$1B,1,4
+Apex Fintech Solutions,https://www.linkedin.com/company/apex-fintech,apexfintechsolutions.com,Texas,Financial Services,1047,$100M-$1B,1,6
+Kleinfelder,https://www.linkedin.com/company/kleinfelder,kleinfelder.com,California,Civil Engineering,2702,$100M-$1B,2,7
+McNaughton-McKay Electric Company,https://www.linkedin.com/company/mcnaughtonmckay,mc-mc.com,Michigan,Wholesale,833,$100M-$1B,1,6
+Storable,https://www.linkedin.com/company/storableinc,storable.com,Texas,Software Development,954,$100M-$1B,1,0
+QuantumScape,https://www.linkedin.com/company/quantumscape,quantumscape.com,California,Renewable Energy Equipment Manufacturing,674,$100M-$1B,2,6
+Thrive,https://www.linkedin.com/company/thrivenextgen,thrivenextgen.com,Massachusetts,IT Services and IT Consulting,2098,$100M-$1B,1,1
+ConstructConnect,https://www.linkedin.com/company/constructconnect,constructconnect.com,Ohio,Software Development,1093,$100M-$1B,1,0
+Belkin,https://www.linkedin.com/company/belkin,belkin.com,California,Computers and Electronics Manufacturing,1424,$100M-$1B,2,1
+New Belgium Brewing,https://www.linkedin.com/company/new-belgium-brewing-company,newbelgium.com,Colorado,Food and Beverage Services,803,$100M-$1B,1,3
+"Mitsubishi Electric Power Products, Inc.",https://www.linkedin.com/company/mitsubishi-electric-power-products-inc.,meppi.com,Pennsylvania,Appliances; Electrical; and Electronics Manufacturing,1034,$100M-$1B,14,0
+Credence,https://www.linkedin.com/company/credence-management-solutions-llc,credence-llc.com,Virginia,Engineering Services,1423,$100M-$1B,5,1
+NAES,https://www.linkedin.com/company/naes-corporation,naes.com,Washington,Utilities,2362,$100M-$1B,3,1
+Redwood Logistics,https://www.linkedin.com/company/redwood-logistics-,redwoodlogistics.com,Illinois,Transportation; Logistics; Supply Chain and Storage,905,$100M-$1B,1,0
+STR,https://www.linkedin.com/company/str-us,str.us,Massachusetts,Technology; Information and Internet,1036,$100M-$1B,12,0
+Sonny's Enterprises Inc. - Conveyorized Car Wash Equipment Leader,https://www.linkedin.com/company/sonny%27s-enterprises,sonnysdirect.com,Florida,Motor Vehicle Manufacturing,939,$100M-$1B,1,5
+Power Integrations,https://www.linkedin.com/company/power-integrations,power.com,California,Semiconductor Manufacturing,1126,$100M-$1B,2,0
+Cambrex,https://www.linkedin.com/company/cambrex,cambrex.com,New Jersey,Pharmaceutical Manufacturing,1762,$100M-$1B,1,4
+Yulista Holding LLC,https://www.linkedin.com/company/yulista-holding-llc,yulista.com,Alabama,Aviation and Aerospace Component Manufacturing,1090,$100M-$1B,3,1
+Stock Yards Bank & Trust,https://www.linkedin.com/company/stock-yards-bank-&-trust,syb.com,Kentucky,Banking,1000,$100M-$1B,1,1
+Packsize,https://www.linkedin.com/company/packsize,packsize.com,Utah,Packaging and Containers Manufacturing,928,$100M-$1B,2,0
+Gulf Companies,https://www.linkedin.com/company/gulf-companies,gulfcompanies.com,Texas,Oil and Gas,1283,$100M-$1B,3,2
+"Tri-City Electrical Contractors, Inc.",https://www.linkedin.com/company/tri-city-electrical-contractors-inc-,tcelectric.com,Florida,Construction,565,$100M-$1B,3,0
+BW Converting,https://www.linkedin.com/company/bw-converting,barrywehmiller.com,Wisconsin,Industrial Machinery Manufacturing,1388,$100M-$1B,1,0
+Kirby Risk,https://www.linkedin.com/company/kirby-risk,kirbyrisk.com,Indiana,Appliances; Electrical; and Electronics Manufacturing,881,$100M-$1B,2,0
+Hargrove Engineers & Constructors,https://www.linkedin.com/company/hargrove-epc,hargrove-epc.com,Alabama,Industrial Machinery Manufacturing,1995,$100M-$1B,6,7
+Greene Tweed,https://www.linkedin.com/company/greene-tweed,gtweed.com,Pennsylvania,Manufacturing,1253,$100M-$1B,3,10
+American Arbitration Association,https://www.linkedin.com/company/american-arbitration-association,adr.org,New York,Alternative Dispute Resolution,1396,$100M-$1B,1,0
+Arcfield,https://www.linkedin.com/company/arcfieldco,arcfield.com,Virginia,Engineering Services,1002,$100M-$1B,53,10
+ThoughtSpot,https://www.linkedin.com/company/thoughtspot,thoughtspot.com,California,Software Development,1796,$100M-$1B,1,0
+Ingevity,https://www.linkedin.com/company/ingevity,ingevity.com,South Carolina,Chemical Manufacturing,1069,$100M-$1B,1,1
+Albireo Energy,https://www.linkedin.com/company/albireo-energy,albireoenergy.com,New Jersey,Environmental Services,688,$100M-$1B,11,9
+Algoworks,https://www.linkedin.com/company/algoworks,algoworks.com,New Jersey,Engineering Services,670,$100M-$1B,5,0
+Excelerate Energy,https://www.linkedin.com/company/excelerate-energy,excelerateenergy.com,Texas,Oil and Gas,634,$100M-$1B,2,0
+Golub Capital,https://www.linkedin.com/company/golub-capital,golubcapital.com,New York,Financial Services,1190,$100M-$1B,1,0
+KCI,https://www.linkedin.com/company/kci-technologies-inc-,kci.com,Maryland,Engineering Services,2924,$100M-$1B,2,3
+Dandy,https://www.linkedin.com/company/dandyofficial,meetdandy.com,New York,Medical and Diagnostic Laboratories,2117,$100M-$1B,1,7
+Vast,https://www.linkedin.com/company/vastspace,vastspace.com,California,Defense and Space Manufacturing,1196,$100M-$1B,15,7
+Timmons Group,https://www.linkedin.com/company/timmons-group,timmons.com,Virginia,Civil Engineering,1088,$100M-$1B,1,1
+The Henry M. Jackson Foundation for the Advancement of Military Medicine,https://www.linkedin.com/company/hjf,hjf.org,Maryland,Research Services,2040,$100M-$1B,6,0
+Silgan Containers,https://www.linkedin.com/company/silgan-containers,silgancontainers.com,California,Packaging and Containers Manufacturing,1857,$100M-$1B,2,2
+Charles River Associates,https://www.linkedin.com/company/charles-river-associates,crai.com,Massachusetts,Business Consulting and Services,1655,$100M-$1B,6,0
+MWH,https://www.linkedin.com/company/mwhconstructors,mwhconstructors.com,Colorado,Construction,775,$100M-$1B,2,3
+Ampere,https://www.linkedin.com/company/amperecomp,amperecomputing.com,California,Semiconductor Manufacturing,1385,$100M-$1B,11,10
+"Cheniere Energy, Inc.",https://www.linkedin.com/company/cheniere-energy-inc,cheniere.com,Texas,Oil and Gas,1868,$100M-$1B,1,0
+Gradiant,https://www.linkedin.com/company/gradiant-corporation,gradiant.com,Massachusetts,Environmental Services,933,$100M-$1B,2,1
+ECI,https://www.linkedin.com/company/eci-1995,eci.com,Massachusetts,Information Technology and Services,1943,$100M-$1B,4,0
+GetixHealth,https://www.linkedin.com/company/getixhealth,getixhealth.com,Texas,Hospitals and Health Care,1183,$100M-$1B,1,0
+Valkyrie Enterprises,https://www.linkedin.com/company/valkyrie-enterprises,valkyrie.com,Virginia,Defense and Space Manufacturing,562,$100M-$1B,6,0
+Metrea,https://www.linkedin.com/company/metreaaero,metrea.aero,District of Columbia,Defense and Space Manufacturing,821,$100M-$1B,2,0
+BWI GROUP,https://www.linkedin.com/company/bwi-group,bwigroup.com,Ohio,Automotive,1675,$100M-$1B,2,8
+Lincoln Center for the Performing Arts,https://www.linkedin.com/company/lincolncenter,lincolncenter.org,-,Performing Arts,872,$100M-$1B,1,0
+Columbus McKinnon,https://www.linkedin.com/company/columbus-mckinnon,cmco.com,North Carolina,Machinery Manufacturing,1904,$100M-$1B,2,6
+Visual Edge IT,https://www.linkedin.com/company/visual-edge-it,visualedgeit.com,Ohio,IT Services and IT Consulting,661,$100M-$1B,1,1
+Mirion Technologies,https://www.linkedin.com/company/miriontechnologies,mirion.com,-,Measuring and Control Instrument Manufacturing,588,$100M-$1B,3,0
+Wedbush,https://www.linkedin.com/company/wedbush,wedbush.com,California,Financial Services,1025,$100M-$1B,1,0
+TelevisaUnivision,https://www.linkedin.com/company/televisaunivision,televisaunivision.com,-,Entertainment Providers,8786,$100M-$1B,1,2
+FUJIFILM Healthcare Americas Corporation,https://www.linkedin.com/company/fujifilm-healthcare-americas-corp,fujifilm.com,Massachusetts,Medical Equipment Manufacturing,1706,$100M-$1B,1,4
+JE Dunn Construction,https://www.linkedin.com/company/je-dunn-construction,jedunn.com,Missouri,Construction,5152,$100M-$1B,4,10
+"Par Pacific Holdings, Inc.",https://www.linkedin.com/company/par-pacific,parpacific.com,Texas,Oil and Gas,804,$100M-$1B,3,1
+Teknor Apex Company,https://www.linkedin.com/company/teknor-apex-company,teknorapex.com,Rhode Island,Plastics Manufacturing,1245,$100M-$1B,1,3
+"Precise Systems, Inc.",https://www.linkedin.com/company/precise-systems-inc-,goprecise.com,Maryland,Defense and Space Manufacturing,843,$100M-$1B,31,0
+DataBank,https://www.linkedin.com/company/databank,databank.com,Texas,IT Services and IT Consulting,1012,$100M-$1B,1,5
+Ash Grove Cement Company,https://www.linkedin.com/company/ash-grove-cement-company,ashgrove.com,Kansas,Wholesale Building Materials,1017,$100M-$1B,1,3
+Firefly Aerospace,https://www.linkedin.com/company/fireflyaerospace,fireflyspace.com,Texas,Aviation and Aerospace,1218,$100M-$1B,28,8
+"DEPCOM Power, Inc",https://www.linkedin.com/company/depcom-power,depcompower.com,Arizona,Solar Electric Power Generation,712,$100M-$1B,12,9
+Okland Construction,https://www.linkedin.com/company/okland-construction,okland.com,Utah,Construction,1104,$100M-$1B,1,1
+Katmai Government Services,https://www.linkedin.com/company/katmai-government-services,katmaicorp.com,Alaska,Defense and Space Manufacturing,715,$100M-$1B,1,0
+Atlas Air,https://www.linkedin.com/company/atlas-air,atlasairworldwide.com,New York,Airlines and Aviation,3518,$100M-$1B,1,0
+Mead & Hunt,https://www.linkedin.com/company/mead-&-hunt,meadhunt.com,Wisconsin,Professional Services,1456,$100M-$1B,1,6
+Saksoft,https://www.linkedin.com/company/saksoft,saksoft.com,-,IT Services and IT Consulting,2438,$100M-$1B,2,0
+Apollo.io,https://www.linkedin.com/company/apolloio,apollo.io,California,Software Development,987,$100M-$1B,1,5
+Thorlabs,https://www.linkedin.com/company/thorlabs,thorlabs.com,New Jersey,Industrial Machinery Manufacturing,1584,$100M-$1B,4,7
+Clopay Corporation,https://www.linkedin.com/company/clopay-building-products,clopaydoor.com,Ohio,Wholesale Building Materials,1169,$100M-$1B,2,3
+The Applied Research Laboratory at Penn State University,https://www.linkedin.com/company/arlatpennstate,psu.edu,Pennsylvania,Defense and Space,617,$100M-$1B,8,0
+Baltimore Aircoil Company,https://www.linkedin.com/company/baltimore-aircoil-company,baltimoreaircoil.com,Maryland,Industrial Machinery Manufacturing,1332,$100M-$1B,9,9
+SCN BestCo,https://www.linkedin.com/company/scnbestco,scnbestco.com,Colorado,Manufacturing,578,$100M-$1B,2,2
+United Launch Alliance (ULA),https://www.linkedin.com/company/ulalaunch,ulalaunch.com,Colorado,Defense and Space Manufacturing,3165,$100M-$1B,15,6
+FlightSafety International,https://www.linkedin.com/company/flightsafety-international,flightsafety.com,Ohio,Airlines and Aviation,5555,$100M-$1B,3,0
+SeatGeek,https://www.linkedin.com/company/seatgeek,seatgeek.com,New York,Software Development,849,$100M-$1B,1,10
+BOK Financial,https://www.linkedin.com/company/bok-financial,bokfinancial.com,Oklahoma,Financial Services,6941,$100M-$1B,1,0
+QuidelOrtho,https://www.linkedin.com/company/quidelortho,quidelortho.com,-,Medical Equipment Manufacturing,3858,$100M-$1B,1,7
+MD&A,https://www.linkedin.com/company/md&a,mdaturbines.com,New York,Oil and Gas,506,$100M-$1B,2,0
+Intelliswift - An LTTS Company,https://www.linkedin.com/company/intelliswift,intelliswift.com,California,IT Services and IT Consulting,1430,$100M-$1B,9,0
+Monterey Bay Aquarium,https://www.linkedin.com/company/monterey-bay-aquarium,montereybayaquarium.org,California,Museums; Historical Sites; and Zoos,900,$100M-$1B,1,0
+KANINI,https://www.linkedin.com/company/kanini,kanini.com,Tennessee,Software Development,1093,$100M-$1B,2,0
+Berkshire Hathaway GUARD Insurance Companies,https://www.linkedin.com/company/berkshire-hathaway-guard,guard.com,Pennsylvania,Insurance,870,$100M-$1B,5,1
+EthosEnergy,https://www.linkedin.com/company/ethosenergy,ethosenergy.com,Texas,Utilities,1923,$100M-$1B,1,2
+WASH,https://www.linkedin.com/company/wash-multifamily-laundry-systems-fka-web-service-company,wash.com,California,Consumer Services,605,$100M-$1B,2,1
+IES Communications,https://www.linkedin.com/company/iescomm,iescomm.com,Arizona,Telecommunications,2605,$100M-$1B,4,0
+Cogent Communications,https://www.linkedin.com/company/cogent-communications,cogentco.com,District of Columbia,Telecommunications,2883,$100M-$1B,1,5
+National Institute of Standards and Technology (NIST),https://www.linkedin.com/company/nist,nist.gov,Maryland,Research Services,4949,$100M-$1B,1,2
+CooperSurgical,https://www.linkedin.com/company/coopersurgical,coopersurgical.com,Connecticut,Medical Equipment Manufacturing,1905,$100M-$1B,2,1
+Hussmann,https://www.linkedin.com/company/hussmann,hussmann.com,Missouri,Retail Groceries,3197,$100M-$1B,2,9
+WGI,https://www.linkedin.com/company/wginc,wginc.com,Florida,Civil Engineering,820,$100M-$1B,2,0
+Cirrus Logic,https://www.linkedin.com/company/cirrus-logic,cirrus.com,Texas,Semiconductor Manufacturing,1930,$100M-$1B,4,6
+Granite Construction,https://www.linkedin.com/company/granite-construction,graniteconstruction.com,California,Construction,5415,$100M-$1B,1,0
+Lattice Semiconductor,https://www.linkedin.com/company/lattice-semiconductor,latticesemi.com,Oregon,Semiconductor Manufacturing,1710,$100M-$1B,3,7
+"SHAZAM Network - ITS, Inc.",https://www.linkedin.com/company/shazam-network-its-inc,shazam.net,Iowa,Financial Services,581,$100M-$1B,1,0
+ExtraHop,https://www.linkedin.com/company/extrahop-networks,extrahop.com,Washington,Computer and Network Security,770,$100M-$1B,1,0
+KARL STORZ North America,https://www.linkedin.com/company/karl-storz-north-america,karlstorz.com,California,Medical Equipment Manufacturing,2323,$100M-$1B,4,5
+Joby Aviation,https://www.linkedin.com/company/jobyaviation,jobyaviation.com,California,Airlines and Aviation,2139,$100M-$1B,8,10
+"Lexicon, Inc.",https://www.linkedin.com/company/lexicon-inc-,lexicon-inc.com,Arkansas,Construction,974,$100M-$1B,1,1
+ValueMomentum,https://www.linkedin.com/company/valuemomentum,valuemomentum.com,New Jersey,IT Services and IT Consulting,4941,$100M-$1B,3,0
+Duravant,https://www.linkedin.com/company/duravant,duravant.com,Illinois,Machinery Manufacturing,2019,$100M-$1B,2,3
+NKC Health,https://www.linkedin.com/company/nkc-health,nkch.org,Missouri,Hospitals and Health Care,2689,$100M-$1B,1,0
+Lindsay Corporation,https://www.linkedin.com/company/lindsay-corporation,lindsay.com,Nebraska,Machinery Manufacturing,925,$100M-$1B,1,6
+Salas O'Brien,https://www.linkedin.com/company/salasobrien,salasobrien.com,California,Engineering Services,2424,$100M-$1B,47,6
+ORBCOMM,https://www.linkedin.com/company/orbcomm,orbcomm.com,Virginia,Telecommunications,865,$100M-$1B,1,1
+"Bell Techlogix, Inc.",https://www.linkedin.com/company/bell-techlogix-inc-,belltechlogix.com,Indiana,IT Services and IT Consulting,539,$100M-$1B,1,0
+Teledyne FLIR,https://www.linkedin.com/company/teledyne-flir,teledyneflir.com,Oregon,Defense and Space Manufacturing,2035,$100M-$1B,5,9
+"HR Green, Inc.",https://www.linkedin.com/company/hr-green-inc,hrgreen.com,Iowa,Civil Engineering,713,$100M-$1B,1,0
+GDT - General Datatech,https://www.linkedin.com/company/general-datatech,gdt.com,Texas,IT Services and IT Consulting,1340,$100M-$1B,1,1
+Kearfott Corporation,https://www.linkedin.com/company/kearfott-corporation,kearfott.com,New Jersey,Aviation and Aerospace Component Manufacturing,613,$100M-$1B,18,3
+Columbia Bank New Jersey,https://www.linkedin.com/company/columbia-bank-new-jersey,columbiabankonline.com,New Jersey,Banking,799,$100M-$1B,1,0
+SpanIdea Systems,https://www.linkedin.com/company/spanidea-systems,spanidea.com,California,Software Development,752,$100M-$1B,4,1
+Exponent,https://www.linkedin.com/company/exponent,exponent.com,California,Business Consulting and Services,1773,$100M-$1B,4,5
+Pridgeon & Clay,https://www.linkedin.com/company/pridgeon-and-clay,pridgeonandclay.com,Michigan,Motor Vehicle Parts Manufacturing,615,$100M-$1B,1,7
+Ceragon Networks,https://www.linkedin.com/company/ceragon-networks,ceragon.com,Texas,Telecommunications,2001,$100M-$1B,1,0
+CONVERGIX Automation Solutions,https://www.linkedin.com/company/convergix-automation-solutions,convergixautomation.com,Michigan,Automation Machinery Manufacturing,959,$100M-$1B,3,3
+"David Evans and Associates, Inc.",https://www.linkedin.com/company/deainc,deainc.com,Oregon,Civil Engineering,1101,$100M-$1B,41,2
+"Hyundai America Technical Center, Inc. (HATCI)",https://www.linkedin.com/company/hatci,hatci.com,Michigan,Motor Vehicle Manufacturing,869,$100M-$1B,7,10
+Butler Aerospace & Defense,https://www.linkedin.com/company/butler-aerospace-&-defense,butler.com,Connecticut,Engineering Services,515,$100M-$1B,2,2
+Crusoe,https://www.linkedin.com/company/crusoe,crusoe.ai,Colorado,Technology; Information and Internet,1820,$100M-$1B,9,8
+Nakupuna Companies,https://www.linkedin.com/company/nakupunacompanies,nakupuna.com,Hawaii,Business Consulting and Services,1057,$100M-$1B,3,0
+The Carlyle Group,https://www.linkedin.com/company/the-carlyle-group,carlyle.com,District of Columbia,Financial Services,2963,$100M-$1B,2,0
+EDG,https://www.linkedin.com/company/edg,edg.net,Louisiana,Oil and Gas,1080,$100M-$1B,7,5
+CAI,https://www.linkedin.com/company/caiconnected,cagents.com,Indiana,Pharmaceutical Manufacturing,1127,$100M-$1B,2,0
+Virtu Financial,https://www.linkedin.com/company/virtu-financial,virtu.com,New York,Financial Services,1047,$100M-$1B,2,1
+MACOM,https://www.linkedin.com/company/m-a-com-technology-solutions,macom.com,Massachusetts,Semiconductors,2218,$100M-$1B,4,10
+East West Bank,https://www.linkedin.com/company/east-west-bank,eastwestbank.com,California,Banking,4012,$100M-$1B,1,0
+Cherokee Federal,https://www.linkedin.com/company/cherokee-federal,cherokee-federal.com,Oklahoma,Business Consulting and Services,2230,$100M-$1B,8,2
+Nexxen,https://www.linkedin.com/company/nexxen-inc,nexxen.com,New York,Advertising Services,816,$100M-$1B,1,0
+MarinHealth,https://www.linkedin.com/company/marinhealth,mymarinhealth.org,California,Hospitals and Health Care,1820,$100M-$1B,1,1
+Kastle Systems,https://www.linkedin.com/company/kastle-systems,kastle.com,Virginia,IT Services and IT Consulting,712,$100M-$1B,4,0
+LendingTree,https://www.linkedin.com/company/lendingtree,lendingtree.com,North Carolina,Financial Services,1463,$100M-$1B,1,6
+Nikkiso Clean Energy & Industrial Gases,https://www.linkedin.com/company/nikkiso-ceig,nikkisoceig.com,California,Oil and Gas,905,$100M-$1B,9,6
+Pax8,https://www.linkedin.com/company/pax8,pax8.com,Colorado,Technology; Information and Internet,1868,$100M-$1B,2,4
+Haemonetics,https://www.linkedin.com/company/haemonetics,haemonetics.com,Massachusetts,Medical Equipment Manufacturing,2549,$100M-$1B,1,7
+SchoolsFirst Federal Credit Union,https://www.linkedin.com/company/schoolsfirst-federal-credit-union,schoolsfirstfcu.org,California,Financial Services,2381,$100M-$1B,1,0
+Crane NXT,https://www.linkedin.com/company/crane-nxt,cranenxt.com,-,Appliances; Electrical; and Electronics Manufacturing,2053,$100M-$1B,1,0
+Klaviyo,https://www.linkedin.com/company/klaviyo,klaviyo.com,Massachusetts,Marketing Services,2989,$100M-$1B,7,0
+Johns Hopkins Health Plans,https://www.linkedin.com/company/johns-hopkins-health-plans,hopkinshealthplans.org,Maryland,Hospitals and Health Care,1355,$100M-$1B,1,0
+TISTA Science and Technology Corporation,https://www.linkedin.com/company/tista-science-and-technology-corporation,tistatech.com,Maryland,Information Technology and Services,586,$100M-$1B,17,1
+First Tech Federal Credit Union,https://www.linkedin.com/company/first-tech-federal-credit-union,firsttechfed.com,Oregon,Financial Services,1826,$100M-$1B,2,2
+Alteryx,https://www.linkedin.com/company/alteryx,alteryx.com,California,Software Development,2320,$100M-$1B,2,0
+Carestream,https://www.linkedin.com/company/carestream-health,carestream.com,New York,Medical Equipment Manufacturing,3839,$100M-$1B,1,4
+Industrial Electric Mfg. (IEM),https://www.linkedin.com/company/industrial-electric-mfg,iemfg.com,California,Manufacturing,1636,$100M-$1B,2,4
+Arista Networks,https://www.linkedin.com/company/arista-networks-inc,arista.com,California,Computer Networking Products,5824,$100M-$1B,10,9
+Rubrik,https://www.linkedin.com/company/rubrik-inc,rbrk.co,California,Software Development,5177,$100M-$1B,1,0
+Stryten Energy,https://www.linkedin.com/company/stryten-energy,stryten.com,Georgia,Manufacturing,896,$100M-$1B,1,7
+Barr Engineering Co.,https://www.linkedin.com/company/barr-engineering-co,barr.com,Minnesota,Professional Services,1162,$100M-$1B,1,0
+Realtor.com,https://www.linkedin.com/company/realtor-com,realtor.com,Texas,Software Development,4044,$100M-$1B,2,6
+Turnberry Solutions,https://www.linkedin.com/company/turnberrysolutions,turnberrysolutions.com,Pennsylvania,Business Consulting and Services,794,$100M-$1B,3,0
+Entrust,https://www.linkedin.com/company/entrust,entrust.com,Minnesota,Software Development,3744,$100M-$1B,2,3
+"Modern Technology Solutions, Inc. (MTSI)",https://www.linkedin.com/company/mtsi,mtsi-va.com,Virginia,Space Research and Technology,2433,$100M-$1B,44,1
+The Foth Companies,https://www.linkedin.com/company/fothcompanies,foth.com,Wisconsin,Engineering Services,899,$100M-$1B,14,4
+Southwest Research Institute,https://www.linkedin.com/company/southwest-research-institute,swri.org,Texas,Research Services,3155,$100M-$1B,5,0
+Lucid Motors,https://www.linkedin.com/company/lucidmotors,lucidmotors.com,California,Motor Vehicle Manufacturing,7529,$100M-$1B,15,10
+10x Genomics,https://www.linkedin.com/company/10xgenomics,10xgenomics.com,California,Biotechnology Research,2532,$100M-$1B,2,5
+"Atlantic Constructors, Inc.",https://www.linkedin.com/company/atlantic-constructors,acibuilds.com,Virginia,Construction,536,$100M-$1B,7,0
+Teledyne Brown Engineering,https://www.linkedin.com/company/teledynebrown,tbe.com,-,Defense and Space Manufacturing,811,$100M-$1B,13,0
+"Kasai North America, Inc",https://www.linkedin.com/company/kasai-na,kasai-na.com,Tennessee,Motor Vehicle Manufacturing,1161,$100M-$1B,1,8
+UICGS / Bowhead Family of Companies,https://www.linkedin.com/company/bowheadfamilyofcompanies,bowhead.com,Virginia,IT Services and IT Consulting,1982,$100M-$1B,11,1
+Symbotic,https://www.linkedin.com/company/symbotic,symbotic.com,Massachusetts,Automation Machinery Manufacturing,2203,$100M-$1B,4,10
+Ware Malcomb,https://www.linkedin.com/company/ware-malcomb,waremalcomb.com,-,Design Services,1024,$100M-$1B,3,2
+Motive,https://www.linkedin.com/company/motive-inc,gomotive.com,California,Software Development,6461,$100M-$1B,1,0
+Pacific Northwest National Laboratory,https://www.linkedin.com/company/pacific-northwest-national-laboratory,pnnl.gov,Washington,Research Services,6227,$100M-$1B,6,5
+Formlabs,https://www.linkedin.com/company/formlabs,formlabs.com,Massachusetts,Computers and Electronics Manufacturing,775,$100M-$1B,8,2
+JR Automation,https://www.linkedin.com/company/jr-automation,jrautomation.com,Michigan,Automation Machinery Manufacturing,1980,$100M-$1B,22,9
+CalPortland,https://www.linkedin.com/company/calportland,calportland.com,California,Wholesale Building Materials,1309,$100M-$1B,1,1
+"iRhythm Technologies, Inc.",https://www.linkedin.com/company/irhythm-technologies-inc-,irhythmtech.com,California,Medical Equipment Manufacturing,1922,$100M-$1B,1,8
+Miller Electric Mfg. LLC,https://www.linkedin.com/company/millerwelders,millerwelds.com,Wisconsin,Machinery Manufacturing,1347,$100M-$1B,1,7
+Redwood Materials,https://www.linkedin.com/company/redwood-materials,redwoodmaterials.com,Nevada,Renewable Energy Equipment Manufacturing,759,$100M-$1B,14,8
+RUCKUS Networks,https://www.linkedin.com/company/ruckus-networks,ruckusnetworks.com,California,Computer Networking Products,1332,$100M-$1B,1,0
+SolomonEdwards,https://www.linkedin.com/company/solomonedwardsgroup,solomonedwards.com,Pennsylvania,Business Consulting and Services,856,$100M-$1B,1,0
+Olsson,https://www.linkedin.com/company/weareolsson,olsson.com,Nebraska,Engineering Services,2350,$100M-$1B,8,2
+FBSPL,https://www.linkedin.com/company/fbsplteam,fbspl.com,New York,Business Consulting and Services,1364,$100M-$1B,1,0
+Kidde Global Solutions,https://www.linkedin.com/company/kidde-global-solutions,kiddeglobalsolutions.com,-,Fire Protection,1374,$100M-$1B,2,8
+Blount Fine Foods,https://www.linkedin.com/company/blount-fine-foods,blountfinefoods.com,Rhode Island,Food and Beverage Manufacturing,951,$100M-$1B,1,2
+Klein Tools,https://www.linkedin.com/company/klein-tools,kleintools.com,Illinois,Manufacturing,1270,$100M-$1B,1,8
+Patelco Credit Union,https://www.linkedin.com/company/patelco-credit-union,patelco.org,California,Banking,1003,$100M-$1B,1,0
+Resonetics,https://www.linkedin.com/company/resonetics,resonetics.com,New Hampshire,Manufacturing,1098,$100M-$1B,1,4
+Desert Financial Credit Union,https://www.linkedin.com/company/desertfinancial,desertfinancial.com,Arizona,Financial Services,1077,$100M-$1B,1,1
+Roblox,https://www.linkedin.com/company/roblox,roblox.com,California,Software Development,8940,$100M-$1B,4,0
+Bowman Consulting,https://www.linkedin.com/company/bowman-consulting,bowman.com,Virginia,Engineering Services,2293,$100M-$1B,5,6
+Cribl,https://www.linkedin.com/company/cribl,cribl.io,California,Software Development,1319,$100M-$1B,1,8
+Heraeus Medevio,https://www.linkedin.com/company/heraeus-medevio,bit.ly,Minnesota,Medical Equipment Manufacturing,1191,$100M-$1B,1,4
+Cornerstone Building Brands,https://www.linkedin.com/company/cornerstone-building-brands,cornerstonebuildingbrands.com,North Carolina,Wholesale Building Materials,9392,$100M-$1B,1,9
+Applied Research Solutions,https://www.linkedin.com/company/applied-research-solutions,appliedres.com,Ohio,Defense and Space Manufacturing,735,$100M-$1B,3,0
+Forescout Technologies Inc.,https://www.linkedin.com/company/forescout-technologies,forescout.com,California,Computer and Network Security,1337,$100M-$1B,3,0
+PacBio,https://www.linkedin.com/company/pacbio,pacb.com,California,Biotechnology Research,557,$100M-$1B,7,2
+Webasto Americas,https://www.linkedin.com/company/webastoamericas,webasto.com,Michigan,Motor Vehicle Parts Manufacturing,682,$100M-$1B,2,1
+Unify Technologies,https://www.linkedin.com/company/unifytech,unifytech.com,Washington,Software Development,560,$100M-$1B,5,0
+"Torch Technologies, Inc.",https://www.linkedin.com/company/torch-technologies-inc.,torchtechnologies.com,Alabama,Defense and Space Manufacturing,1378,$100M-$1B,41,1
+Henderson Engineers,https://www.linkedin.com/company/henderson-engineers-inc,hendersonengineers.com,Kansas,Design Services,1156,$100M-$1B,35,10
+Cloudflare,https://www.linkedin.com/company/cloudflare,cloudflare.com,California,Computer and Network Security,7317,$100M-$1B,36,9
+Clayco,https://www.linkedin.com/company/clayco,claycorp.com,Illinois,Construction,2914,$100M-$1B,8,0
+Systems Planning & Analysis,https://www.linkedin.com/company/systems-planning-and-analysis-inc,spa.com,Virginia,Defense and Space Manufacturing,2292,$100M-$1B,17,0
+Kaiser Aluminum,https://www.linkedin.com/company/kaiser-aluminum,kaiseraluminum.com,Tennessee,Fabricated Metal Products,2096,$100M-$1B,3,7
+Georgia Ports Authority,https://www.linkedin.com/company/georgia-ports-authority,gaports.com,Georgia,Maritime Transportation,693,$100M-$1B,3,4
+Baker Group,https://www.linkedin.com/company/baker-group,thebakergroup.com,Iowa,Construction,859,$100M-$1B,15,2
+Reynolds Consumer Products,https://www.linkedin.com/company/reynolds-consumer-products-inc,reynoldsconsumerproducts.com,Illinois,Manufacturing,2692,$100M-$1B,1,8
+Powell,https://www.linkedin.com/company/powell,powellind.com,Texas,Appliances; Electrical; and Electronics Manufacturing,2893,$100M-$1B,4,5
+Pond & Company,https://www.linkedin.com/company/pond-&-company,pondco.com,Georgia,Engineering Services,954,$100M-$1B,3,3
+"PeopleTec, Inc.",https://www.linkedin.com/company/peopletec,peopletec.com,Alabama,Defense and Space Manufacturing,606,$100M-$1B,4,0
+Inteplast Group,https://www.linkedin.com/company/inteplast-group,inteplast.com,New Jersey,Plastics Manufacturing,1261,$100M-$1B,1,0
+Lozier Corporation,https://www.linkedin.com/company/lozier-corporation,lozier.com,Nebraska,Manufacturing,1075,$100M-$1B,1,0
+Diversified,https://www.linkedin.com/company/diversified-,onediversified.com,Texas,IT Services and IT Consulting,3146,$100M-$1B,1,10
+BKF Engineers,https://www.linkedin.com/company/bkf-engineers,bkf.com,California,Civil Engineering,849,$100M-$1B,6,10
+New York Power Authority,https://www.linkedin.com/company/new-york-power-authority,nypa.gov,New York,Utilities,2335,$100M-$1B,9,7
+Cherokee Nation Entertainment,https://www.linkedin.com/company/cherokee-nation-entertainment,onestarrewards.com,Oklahoma,Gambling Facilities and Casinos,1201,$100M-$1B,4,1
+Masimo,https://www.linkedin.com/company/masimo-corporation,masimo.com,California,Medical Equipment Manufacturing,3717,$100M-$1B,1,0
+Amy's Kitchen,https://www.linkedin.com/company/amy%27s-kitchen,amys.com,California,Food and Beverage Manufacturing,1317,$100M-$1B,1,0
+"Aerotech, Inc.",https://www.linkedin.com/company/aerotech-inc-,aerotech.com,Pennsylvania,Automation Machinery Manufacturing,768,$100M-$1B,1,0
+"Gaming Laboratories International, LLC",https://www.linkedin.com/company/gaming-laboratories-international,gaminglabs.com,New Jersey,Gambling Facilities and Casinos,1168,$100M-$1B,3,10
+Caddell Construction,https://www.linkedin.com/company/caddell-construction,caddell.com,Alabama,Construction,1472,$100M-$1B,1,0
+Delta Faucet Company,https://www.linkedin.com/company/delta-faucet-company,deltafaucetcompany.com,Indiana,Manufacturing,2008,$100M-$1B,1,5
+The Manitowoc Company,https://www.linkedin.com/company/the-manitowoc-company,manitowoc.com,Wisconsin,Machinery Manufacturing,2545,$100M-$1B,1,9
+Scientific Research Corporation,https://www.linkedin.com/company/scientific-research-corporation,scires.com,Georgia,Engineering Services,2589,$100M-$1B,5,0
+Denali Advanced Integration,https://www.linkedin.com/company/denaliadvancedintegration,denaliai.com,Washington,IT Services and IT Consulting,619,$100M-$1B,1,0
+Cleco,https://www.linkedin.com/company/cleco,cleco.com,Louisiana,Oil and Gas,933,$100M-$1B,1,1
+Sheppard,https://www.linkedin.com/company/sheppard-mullin,sheppardmullin.com,California,Law Practice,2380,$100M-$1B,2,0
+BASF Coatings,https://www.linkedin.com/showcase/basf-coatings,basf-coatings.com,-,Chemical Manufacturing,2498,$100M-$1B,1,0
+DCS Corp,https://www.linkedin.com/company/dcs-corp,dcscorp.com,Virginia,Defense and Space Manufacturing,2039,$100M-$1B,12,3
+Curia,https://www.linkedin.com/company/curia-cdmo,curiaglobal.com,New York,Pharmaceutical Manufacturing,3444,$100M-$1B,1,4
+Los Angeles County Sanitation Districts,https://www.linkedin.com/company/lacsd,lacsd.org,California,Environmental Services,1000,$100M-$1B,1,0
+BW Papersystems,https://www.linkedin.com/company/bw-papersystems,bwpapersystems.com,Wisconsin,Machinery Manufacturing,780,$100M-$1B,2,4
+Foley Equipment,https://www.linkedin.com/company/foley-equipment-company,foleyeq.com,Kansas,Construction,693,$100M-$1B,2,0
+ilani,https://www.linkedin.com/company/ilani,ilaniresort.com,Washington,Gambling Facilities and Casinos,543,$100M-$1B,1,1
+Winchester Ammunition,https://www.linkedin.com/company/winchester-ammunition,winchester.com,Illinois,Manufacturing,606,$100M-$1B,2,1
+Hydrafacial,https://www.linkedin.com/company/thehydrafacialcompany,hydrafacial.com,California,Medical Equipment Manufacturing,690,$100M-$1B,1,0
+Box,https://www.linkedin.com/company/box,box.com,California,Technology; Information and Internet,4464,$100M-$1B,2,9
+OneTrust,https://www.linkedin.com/company/onetrust,onetrust.com,Georgia,Software Development,2541,$100M-$1B,2,7
+WHOOP,https://www.linkedin.com/company/whoop,whoop.com,Massachusetts,Wellness and Fitness Services,1694,$100M-$1B,6,0
+The Whiting-Turner Contracting Company,https://www.linkedin.com/company/the-whiting-turner-contracting-company,whiting-turner.com,Maryland,Construction,5934,$100M-$1B,2,0
+The Pokémon Company International,https://www.linkedin.com/company/pokemon,pokemon.com,Washington,Entertainment Providers,2265,$100M-$1B,1,0
+Qualitrol,https://www.linkedin.com/company/qualitrol,qualitrolcorp.com,New York,Utilities,537,$100M-$1B,3,2
+"CGB Enterprises, Inc.",https://www.linkedin.com/company/cgb-enterprises,cgb.com,Louisiana,Food and Beverage Manufacturing,932,$100M-$1B,1,1
+Flexport,https://www.linkedin.com/company/flexport,flexport.com,California,Transportation; Logistics; Supply Chain and Storage,2978,$100M-$1B,5,10
+"Saab, Inc.",https://www.linkedin.com/company/saab-inc-us,saabinc.com,New York,Defense and Space Manufacturing,1171,$100M-$1B,3,4
+TSI Incorporated,https://www.linkedin.com/company/tsiincorporated,tsi.com,Minnesota,Industrial Machinery Manufacturing,1566,$100M-$1B,3,1
+Primient,https://www.linkedin.com/company/primient,primient.com,Illinois,Food and Beverage Manufacturing,901,$100M-$1B,2,0
+Switch,https://www.linkedin.com/company/switch-data-centers,switch.com,Nevada,Information Technology and Services,1425,$100M-$1B,11,6
+Johnson Outdoors,https://www.linkedin.com/company/johnson-outdoors,johnsonoutdoors.com,Wisconsin,Retail,1258,$100M-$1B,1,6
+Eastman Kodak Company,https://www.linkedin.com/company/eastman-kodak,kodak.com,New York,Manufacturing,8526,$100M-$1B,2,8
+Skydio,https://www.linkedin.com/company/skydio,skydio.com,California,Robotics Engineering,1091,$100M-$1B,5,8
+YipitData,https://www.linkedin.com/company/yipitllc,yipitdata.com,New York,Market Research,979,$100M-$1B,1,0
+Avalara,https://www.linkedin.com/company/avalara,avalara.com,North Carolina,Software Development,5619,$100M-$1B,3,6
+Stanadyne,https://www.linkedin.com/company/stanadyne,stanadyne.com,North Carolina,Motor Vehicle Manufacturing,755,$100M-$1B,2,4
+SEACORP,https://www.linkedin.com/company/seacorp-inc,seacorp.com,Rhode Island,Defense and Space Manufacturing,513,$100M-$1B,3,0
+Rocket Lab,https://www.linkedin.com/company/rocket-lab-corp,rocketlabusa.com,California,Aviation and Aerospace Component Manufacturing,2452,$100M-$1B,101,5
+ACI Worldwide,https://www.linkedin.com/company/aci-worldwide,aciworldwide.com,Nebraska,Software Development,4986,$100M-$1B,1,6
