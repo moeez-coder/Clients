@@ -1,0 +1,822 @@
+{
+ "1-specialty-pharma-commercial-biotech": {
+  "companies_total": 3090,
+  "companies_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Pharmaceutical Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology Research",
+      "Biotechnology"
+     ]
+    },
+    "employee_range": [
+     "201-500",
+     "501-1000",
+     "1001-5000"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_sample": [
+   "Moderna"
+  ],
+  "jobs_total_30d": 57,
+  "jobs_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Commercial Operations",
+      "Omnichannel",
+      "Marketing Analytics",
+      "Commercial Analytics",
+      "Marketing Operations",
+      "CRM",
+      "Customer Engagement",
+      "Brand Manager",
+      "Brand Director",
+      "Multichannel",
+      "HCP Marketing",
+      "Digital Marketing"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Pharmaceutical Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology Research",
+      "Biotechnology"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_sample": [
+   [
+    "Associate Director, US HCP Peer-to-Peer Marketing, GMG & NMOSD, Rare Neurology",
+    "Alexion Pharmaceuticals, Inc."
+   ]
+  ],
+  "records_used": 3,
+  "errors": [],
+  "jobs_total_90d": 205,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Commercial Operations",
+      "Omnichannel",
+      "Marketing Analytics",
+      "Commercial Analytics",
+      "Marketing Operations",
+      "CRM",
+      "Customer Engagement",
+      "Brand Manager",
+      "Brand Director",
+      "Multichannel",
+      "HCP Marketing",
+      "Digital Marketing"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Pharmaceutical Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology Research",
+      "Biotechnology"
+     ]
+    },
+    "size": {
+     "include": [
+      "201-500",
+      "501-1000",
+      "1001-5000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "2-prelaunch-newly-launched-biotech": {
+  "companies_total": 22169,
+  "companies_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Pharmaceutical Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology Research",
+      "Biotechnology"
+     ]
+    },
+    "employee_range": [
+     "11-50",
+     "51-200"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_sample": [
+   "Redbock - an NES Fircroft company"
+  ],
+  "jobs_total_30d": 107,
+  "jobs_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Commercial Operations",
+      "Omnichannel",
+      "Marketing Analytics",
+      "Commercial Analytics",
+      "Marketing Operations",
+      "CRM",
+      "Customer Engagement",
+      "Brand Manager",
+      "Brand Director",
+      "Multichannel",
+      "HCP Marketing",
+      "Digital Marketing",
+      "Commercial Lead",
+      "Head of Commercial",
+      "Launch",
+      "Market Access",
+      "Sales Operations",
+      "Sales Force Effectiveness",
+      "Key Account Manager"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Pharmaceutical Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology Research",
+      "Biotechnology"
+     ]
+    },
+    "size": {
+     "include": [
+      "11-50",
+      "51-200"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_sample": [
+   [
+    "Senior Director, Marketing Capabilities and Operations",
+    "Innoviva Specialty Therapeutics, Inc."
+   ]
+  ],
+  "records_used": 3,
+  "errors": [],
+  "jobs_total_90d": 264,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Commercial Operations",
+      "Omnichannel",
+      "Marketing Analytics",
+      "Commercial Analytics",
+      "Marketing Operations",
+      "CRM",
+      "Customer Engagement",
+      "Brand Manager",
+      "Brand Director",
+      "Multichannel",
+      "HCP Marketing",
+      "Digital Marketing",
+      "Commercial Lead",
+      "Head of Commercial",
+      "Launch",
+      "Market Access",
+      "Sales Operations",
+      "Sales Force Effectiveness",
+      "Key Account Manager"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Pharmaceutical Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology Research",
+      "Biotechnology"
+     ]
+    },
+    "size": {
+     "include": [
+      "11-50",
+      "51-200"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "3-specialist-med-device": {
+  "companies_total": 5508,
+  "companies_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Medical Equipment Manufacturing",
+      "Medical Device"
+     ]
+    },
+    "employee_range": [
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_sample": [
+   "CONMED Corporation"
+  ],
+  "jobs_total_30d": 87,
+  "jobs_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Marketing Operations",
+      "CRM",
+      "Product Marketing",
+      "Marketing Analytics",
+      "Commercial Operations",
+      "Sales Operations",
+      "Digital Marketing",
+      "Professional Education",
+      "Marketing Manager"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Medical Equipment Manufacturing",
+      "Medical Device"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_sample": [
+   [
+    "Global Commercial Operations and Analytics Leader, Global Technology Innovation (GTI)",
+    "Terumo Blood and Cell Technologies"
+   ]
+  ],
+  "records_used": 3,
+  "errors": [],
+  "jobs_total_90d": 272,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Marketing Operations",
+      "CRM",
+      "Product Marketing",
+      "Marketing Analytics",
+      "Commercial Operations",
+      "Sales Operations",
+      "Digital Marketing",
+      "Professional Education",
+      "Marketing Manager"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Medical Equipment Manufacturing",
+      "Medical Device"
+     ]
+    },
+    "size": {
+     "include": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "4-large-pharma": {
+  "companies_total": 553,
+  "companies_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Pharmaceutical Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology Research",
+      "Biotechnology"
+     ]
+    },
+    "employee_range": [
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_sample": [
+   "Pfizer"
+  ],
+  "jobs_total_30d": 88,
+  "jobs_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Commercial Operations",
+      "Omnichannel",
+      "Marketing Analytics",
+      "Commercial Analytics",
+      "Marketing Operations",
+      "CRM",
+      "Customer Engagement",
+      "Brand Manager",
+      "Brand Director",
+      "Multichannel",
+      "HCP Marketing",
+      "Digital Marketing"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Pharmaceutical Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology Research",
+      "Biotechnology"
+     ]
+    },
+    "size": {
+     "include": [
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_sample": [
+   [
+    "Executive Director, Global Commercial Analytics- Decision Science",
+    "Vertex Pharmaceuticals"
+   ]
+  ],
+  "records_used": 3,
+  "errors": [],
+  "jobs_total_90d": 337,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Commercial Operations",
+      "Omnichannel",
+      "Marketing Analytics",
+      "Commercial Analytics",
+      "Marketing Operations",
+      "CRM",
+      "Customer Engagement",
+      "Brand Manager",
+      "Brand Director",
+      "Multichannel",
+      "HCP Marketing",
+      "Digital Marketing"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "is_agency": false,
+    "industry": {
+     "include": [
+      "Pharmaceutical Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology Research",
+      "Biotechnology"
+     ]
+    },
+    "size": {
+     "include": [
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  }
+ },
+ "5-hcp-agencies": {
+  "companies_total": 3317,
+  "companies_body": {
+   "company": {
+    "industry": {
+     "include": [
+      "Advertising Services",
+      "Marketing and Advertising",
+      "Marketing Services"
+     ]
+    },
+    "employee_range": [
+     "11-50",
+     "51-200",
+     "201-500",
+     "501-1000",
+     "1001-5000",
+     "5001-10000",
+     "10001+"
+    ],
+    "hq": {
+     "country_code": [
+      "US"
+     ]
+    },
+    "keywords": {
+     "include": [
+      "healthcare",
+      "pharma",
+      "pharmaceutical",
+      "life sciences",
+      "HCP",
+      "medical"
+     ]
+    }
+   },
+   "max_results": 1
+  },
+  "companies_sample": [
+   "VML"
+  ],
+  "jobs_total_30d": 597,
+  "jobs_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Programmatic",
+      "Media Planner",
+      "Media Director",
+      "Media Supervisor",
+      "Media Strategy",
+      "Data Strategy",
+      "HCP",
+      "Audience",
+      "Media Buyer",
+      "Activation"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 30
+    }
+   },
+   "company": {
+    "industry": {
+     "include": [
+      "Advertising Services",
+      "Marketing and Advertising",
+      "Marketing Services"
+     ]
+    },
+    "size": {
+     "include": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  },
+  "jobs_sample": [
+   [
+    "Senior Associate, Digital Activation",
+    "Hearts & Science"
+   ]
+  ],
+  "records_used": 3,
+  "errors": [],
+  "jobs_total_90d": 1862,
+  "jobs_90d_body": {
+   "job": {
+    "title": {
+     "include": [
+      "Programmatic",
+      "Media Planner",
+      "Media Director",
+      "Media Supervisor",
+      "Media Strategy",
+      "Data Strategy",
+      "HCP",
+      "Audience",
+      "Media Buyer",
+      "Activation"
+     ],
+     "exclude": [
+      "Intern",
+      "Internship",
+      "Warehouse"
+     ]
+    },
+    "location": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    },
+    "date_posted": {
+     "last_days": 90
+    }
+   },
+   "company": {
+    "industry": {
+     "include": [
+      "Advertising Services",
+      "Marketing and Advertising",
+      "Marketing Services"
+     ]
+    },
+    "size": {
+     "include": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001-10000",
+      "10001+"
+     ]
+    },
+    "hq": {
+     "country_code": {
+      "include": [
+       "US"
+      ]
+     }
+    }
+   },
+   "max_results": 1
+  }
+ }
+}
