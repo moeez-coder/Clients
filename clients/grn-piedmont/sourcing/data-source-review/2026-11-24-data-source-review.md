@@ -139,6 +139,26 @@ Notes:
 4. **Persona:** Blitz waterfall (as now). Compare Prospeo and ColdIQ people search once approved.
 5. **Signals:** Blitz jobs (as now); add a GTM Sheets daily Apify LinkedIn + Indeed signal for GRN, gated to the TAM list; NC/SC Commerce announcements; Prospeo `job_postings` as a free first pass; PE roll-up news for F&LS.
 
+## Loosening the ICP filter (Moe, 2026-11-24: "We can always loosen the icp filter if we find close enough companies")
+
+Counted with `loosen_counts.py` (Blitz `POST /v2/search/companies` at `max_results: 1`, 1 plan record per count; DiscoLike `GET /v1/count`, free). Output: `2026-11-24-loosen-counts.json`. All counts are Eastern/Central HQ and use the same F&LS filters as the review.
+
+| F&LS size band | Blitz (contractor labels + F&LS keywords) | Blitz `Fire Protection` label only | DiscoLike (website phrases) | Expected fits at Blitz's 24% type precision |
+|---|---|---|---|---|
+| 201-1,000 (ICP today) | 264 | 52 | 268 | ~65 (measured: 56-68) |
+| **51-200** | **782** | **259** | **798** | **~190** |
+| 1,001-5,000 | 61 | 11 | 66 | ~15 |
+| 11-50 | 1,822 | 663 | 7,022 | too small for GRN's offer |
+
+Resolved list companies (Exa, NFSA, Google Maps) in ET/CT tell the same story: 69 sit at 51-200 against 36 at 201-1,000.
+
+**Read:** adding the 51-200 band roughly quadruples the F&LS pool, from about 80 fits to about 270, which clears the 200-300 company bar. The "close enough" candidates, in order:
+1. **51-200 employees, F&LS core.** Largest gain. The same sources and classifier work: Blitz + Prospeo + DiscoLike + the NFSA directory, which is strongest in this band.
+2. **F&LS equipment makers and distributors** (`adjacent`, 67 in the union, e.g. Potter Electric Signal, Peerless Pump, Kidde Fire Systems). They hire plant and engineering leaders, like GRN's manufacturing clients.
+3. **1,001-5,000 employees:** about 15 more. These are mostly PE platforms (Pye-Barker, Summit, Impact). Their branch and regional leaders are reachable even though the parent is over the band.
+
+Manufacturing doesn't need loosening: NC/SC alone has 508 fits at 201-1,000. Neighbouring bands are already at hand for later (Blitz TAM `general-tam`, 22,367 companies across Eastern/Central).
+
 ## Open items for Moe
 
 - **Persona test for Prospeo and ColdIQ** (same 15 companies): about 15 Prospeo plan credits and a few ColdIQ credits (find_people may fall under ColdIQ's unlimited tier). Needs your go-ahead.
