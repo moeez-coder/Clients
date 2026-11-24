@@ -65,6 +65,11 @@ Read 2026-11-24 with the GRN Piedmont HeyReach connector (`get_all_linked_in_acc
 | 734516 | Recruitment Specific Campaign | IN_PROGRESS | 7: 182881, 195084, 195243, 195415, 203211, 212529, 195518 | not recorded | pause, senders 7 -> 10 (add 196127, 261055, 278063), set 7 days 08:00-18:00 America/New_York, resume |
 | 730732 | US \| Fire & Life Safety Leaders \| GRN Piedmont v1 (doc Campaign 3) | DRAFT | 1: 182881 | not recorded | senders 1 -> 10 (copy speaks as "GRN Piedmont", not one person; the doc allows all accounts for Campaign 3). Schedule left alone: the batch only changes active campaigns |
 | 730731 | US \| Owner Succession \| GRN Piedmont v1 (doc Campaign 5) | DRAFT | 1: 182881 | not recorded | **no change, flagged for Moe:** the copy is first person as a senior leader ("a question I ask {ownership} manufacturers"), and the doc says Campaign 5 should send only from Harvey's account. Harvey has no account in this workspace, and 182881 is a managed sender, not Harvey |
+| 760469 | US \| Recruiter \| MPC Executive \| Moe v1 (list 1218894) | DRAFT | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
+| 760470 | US \| Recruiter \| MPC Ops & Plant \| Moe v1 (list 1218896) | DRAFT | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
+| 760471 | US \| Recruiter \| MPC Eng & Quality \| Moe v1 (list 1218897) | DRAFT | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
+| 760473 | US \| Recruiter \| MPC Supply Chain \| Moe v1 (list 1218898) | DRAFT | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
+| 760475 | US \| Recruiter \| MPC EHS & Maint \| Moe v1 (list 1218899) | DRAFT | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
 
 ## GTM Sheets
 
@@ -77,6 +82,22 @@ Workbook **US | Recruiter | Recruitment Specific Open Roles | Moe v1** `4086bd52
 | 3 Leads | `3bfcb40c-0b6d-48e4-8f72-e2105ef426e0` | 1,563 | `2026-11-16-leads.csv` + `2026-11-16-role-phrases-3.csv`; linked to lead list `fe214099-0834-40b6-9b18-d4517ecd03f1`; Push to HeyReach column -> 734516, `run_if` Status = launch set |
 
 | 4 Leads Wave 2 (2.0) | `99a71d70-cb2a-4445-9068-f49d708ccbee` | 699 | `2026-11-23-leads.csv` + phrases; Push to HeyReach 2.0 column -> 756466 |
+
+**MPC segment workbooks (2026-11-24),** one per campaign, all in Clients / GRN Piedmont:
+- tracking_clients created the workbooks with the campaigns, already linked. I added the tables.
+- Each Leads table is linked to its lead list and has a **Push to HeyReach** column: `auto_run` off, `run_if` Status = launch set plus role, phrase and open line all filled. Custom fields: `Job_Title_Open_`, `Job_Description`, `Company_Name`, `Open_Line`.
+- Loaded with `gtm-sheets/load_mpc_segment.py`. Webhook URLs are passed as arguments, not committed.
+- Server row counts match the CSVs.
+
+| Workbook | id | 1 Companies | 2 Jobs | 3 Leads | HeyReach |
+|---|---|---|---|---|---|
+| MPC Executive | `76c64023-3879-45b9-81c1-d43a47b4da18` | `3a3e08bd-8133-44a7-ac75-564fd73425f0` (230) | `77112ae9-05b4-410b-afe4-bd1b5ae62098` (476) | `5f70a475-2dfb-4402-8c03-29700e9068e6` (361) | 760469 |
+| MPC Ops & Plant | `5b5178c5-afb7-45e3-8c5d-4710b6f256dd` | `ea352dde-00c4-4898-9c89-dc63d1b40288` (362) | `677ac353-31b0-467b-b5e5-385e65ea345a` (777) | `3f832d3e-865a-4ae5-9fe0-24f2519bf48b` (724) | 760470 |
+| MPC Eng & Quality | `3535ae28-d1ce-4a69-bd9a-97c2a9d5158e` | `061419d5-fbb5-4f7b-bf75-f424a486c5f9` (281) | `c465f748-4b84-45e2-8238-67e113f7f0bb` (806) | `703cfddf-5c09-404b-9323-32c32b766407` (593) | 760471 |
+| MPC Supply Chain | `11728e44-c543-409f-a5ad-60667593763c` | `186e80b9-c1b4-4429-bafd-b93cd051b802` (177) | `2d541f70-467b-4df4-afb4-b5a43cc40d23` (334) | `200985c4-3abd-40c8-a220-47cdf0e0b4b7` (379) | 760473 |
+| MPC EHS & Maint | `cddb05fc-72c8-4767-be2b-b9e5829a764e` | `26d76b99-cd0d-4055-9816-1b99564c0f2b` (206) | `a618c4f6-2dda-4531-8f09-4a622783bb12` (477) | `3f566cc1-5b9f-4de2-b739-7bb8b9b17472` (357) | 760475 |
+
+Apify coverage test workbook `2dc34e83-4191-4b4a-afc4-ede398922778`, table `1a3119fc-23ee-42e3-a466-56c778e5cd3f` (one-off, not a campaign).
 
 Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not committed). `Job Title Open` and `Job Description` are plain data, not an AI column: the GTM Sheets OpenRouter key hit its $1,000 total cap on 2026-11-16, so the phrases were written by Claude sub-agents and saved to the repo.
 
@@ -111,6 +132,22 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 
 ## History
 
+- **2026-11-24**: **5 MPC segment campaigns built in HeyReach and GTM Sheets, left in DRAFT** (Moe: "Yes to all 3").
+  - **HeyReach** (workspace 172413):
+    - Campaigns and lists: 760469/1218894 Executive, 760470/1218896 Ops & Plant, 760471/1218897 Eng & Quality, 760473/1218898 Supply Chain, 760475/1218899 EHS & Maint. Each is linked to its tracking_clients campaign.
+    - All 10 valid senders; lead and company blacklists on; exclude-in-other-campaigns, other-account-conversation and sender-in-other-campaign all on.
+    - Sequence = the live 756466 copy: blank connection request, then messages at +1, +2 and +2 days. Message 1 uses `{Open_Line}`; messages 2 and 3 use the segment's role-family wording (`sourcing/mpc-build/sequence.py`). Verified with `get_campaign_sequence`.
+  - **Schedule:** before, none (new campaigns). After: **7 days, 07:00-19:00 America/New_York**, set at creation. The window is copied from 756466; it's Moe's call to change.
+  - **GTM Sheets:** 5 workbooks, each with Companies, Jobs and Leads tables. Ids are in the GTM Sheets section above.
+  - **Leads not pushed yet:**
+    - A 20-row test push from the Executive table returned "the campaign is a draft and has no lead list to add to" for its 5 launch-set rows. GTM Sheets can only push once a campaign has been started.
+    - The SOP step 9 gate (Moe reviews the workbooks) also comes before the push.
+    - Nothing reached HeyReach. Next: Moe reviews, then start, push and verify the list counts (107 / 39 / 66 / 76 / 106).
+  - **Task log** (Moe's board): 2663bc3b-2d4d-4361-bb52-6499134bd33d, d61b6485-bb1d-422d-bef0-da0233bd81b0, 12972f05-61eb-4f79-a487-46880c651942, bc26be0a-f215-4fa7-9f05-ea6f28cc38bd, e0e1b489-a968-4faa-b557-54b3893e364f.
+    - The first attempt went through the shared tracking_clients connector, which logged the 5 tasks under Dave. They couldn't be reassigned ("Only the admin can change owner").
+    - Those 5 were retitled DUPLICATE: 2dea823e, 4eaf92f1, 13f602af, aa8e23f0, f7b8c9c4.
+  - **Not touched:** the pending sender/schedule batch for 734516/756466/730732; F&LS (folded into 730732, not built here).
+  - Session session_013MzxQhML2MDSCMvFCprgqD.
 - **2026-11-24**: **5 new MPC segments sourced and created in tracking_clients** (Moe: "Yes to all 3" — the 5-campaign build, EHS & Maintenance as a segment, and the Apify test). **New segments** `mpc-executive`, `mpc-operations-plant`, `mpc-engineering-quality`, `mpc-supply-chain-purchasing`, `mpc-ehs-maintenance`. Scope: Campaign-specific.
   - **Pull:** Blitz `POST /v2/search/waterfall-icp-keyword` on all 1,256 non-F&LS hiring companies from the 11-24 read, 2,415 records. Leads per segment: Executive 107, Ops & Plant 39, Eng & Quality 66, Supply Chain 76, EHS & Maintenance 106, **394 in total** at 189 companies.
   - **Exclusions:** 2,011 people already in 734516/756466 were marked removed. Overlap check (`tools/leads.py overlap`): every overlap with `2026-11-16-leads.csv` / `2026-11-23-leads.csv` is one of those removed rows, and the launch set has 0.
