@@ -1,0 +1,200 @@
+{
+ "executive": {
+  "companies": 353,
+  "postings": 483,
+  "companies_already_in_live_campaign": 257,
+  "companies_pulled_live_but_no_lead": 74,
+  "net_new_companies": 96,
+  "live_leads_at_these_companies": 648,
+  "never_pulled_companies": 22,
+  "first_seen_last_30d_not_live": 14
+ },
+ "operations-plant": {
+  "companies": 542,
+  "postings": 772,
+  "companies_already_in_live_campaign": 433,
+  "companies_pulled_live_but_no_lead": 104,
+  "net_new_companies": 109,
+  "live_leads_at_these_companies": 1072,
+  "never_pulled_companies": 5,
+  "first_seen_last_30d_not_live": 18
+ },
+ "engineering-quality": {
+  "companies": 432,
+  "postings": 683,
+  "companies_already_in_live_campaign": 347,
+  "companies_pulled_live_but_no_lead": 82,
+  "net_new_companies": 85,
+  "live_leads_at_these_companies": 869,
+  "never_pulled_companies": 3,
+  "first_seen_last_30d_not_live": 19
+ },
+ "supply-chain-purchasing": {
+  "companies": 342,
+  "postings": 447,
+  "companies_already_in_live_campaign": 268,
+  "companies_pulled_live_but_no_lead": 43,
+  "net_new_companies": 74,
+  "live_leads_at_these_companies": 695,
+  "never_pulled_companies": 31,
+  "first_seen_last_30d_not_live": 11
+ },
+ "ehs-maintenance": {
+  "companies": 343,
+  "postings": 485,
+  "companies_already_in_live_campaign": 232,
+  "companies_pulled_live_but_no_lead": 47,
+  "net_new_companies": 111,
+  "live_leads_at_these_companies": 575,
+  "never_pulled_companies": 64,
+  "first_seen_last_30d_not_live": 12
+ },
+ "fire-life-safety": {
+  "companies": 26,
+  "postings": 59,
+  "companies_already_in_live_campaign": 23,
+  "companies_pulled_live_but_no_lead": 1,
+  "net_new_companies": 3,
+  "live_leads_at_these_companies": 49,
+  "never_pulled_companies": 2,
+  "first_seen_last_30d_not_live": 2
+ },
+ "overlay:prolonged-60-120d": {
+  "companies": 888,
+  "postings": 1647,
+  "companies_already_in_live_campaign": 671,
+  "companies_pulled_live_but_no_lead": 155,
+  "net_new_companies": 217,
+  "live_leads_at_these_companies": 1634,
+  "never_pulled_companies": 62,
+  "first_seen_last_30d_not_live": 0
+ },
+ "overlay:prolonged-reposted": {
+  "companies": 116,
+  "postings": 143,
+  "companies_already_in_live_campaign": 94,
+  "companies_pulled_live_but_no_lead": 17,
+  "net_new_companies": 22,
+  "live_leads_at_these_companies": 232,
+  "never_pulled_companies": 5,
+  "first_seen_last_30d_not_live": 0
+ },
+ "overlay:multi-opening-3plus": {
+  "companies": 322,
+  "postings": 1635,
+  "companies_already_in_live_campaign": 273,
+  "companies_pulled_live_but_no_lead": 45,
+  "net_new_companies": 49,
+  "live_leads_at_these_companies": 744,
+  "never_pulled_companies": 4,
+  "first_seen_last_30d_not_live": 1
+ },
+ "vertical:aerospace-defense": {
+  "companies": 129,
+  "postings": 360,
+  "companies_already_in_live_campaign": 105,
+  "companies_pulled_live_but_no_lead": 16,
+  "net_new_companies": 24,
+  "live_leads_at_these_companies": 284,
+  "never_pulled_companies": 8,
+  "first_seen_last_30d_not_live": 5
+ },
+ "vertical:building-materials": {
+  "companies": 23,
+  "postings": 34,
+  "companies_already_in_live_campaign": 13,
+  "companies_pulled_live_but_no_lead": 8,
+  "net_new_companies": 10,
+  "live_leads_at_these_companies": 29,
+  "never_pulled_companies": 2,
+  "first_seen_last_30d_not_live": 2
+ },
+ "vertical:chemicals": {
+  "companies": 74,
+  "postings": 189,
+  "companies_already_in_live_campaign": 53,
+  "companies_pulled_live_but_no_lead": 9,
+  "net_new_companies": 21,
+  "live_leads_at_these_companies": 126,
+  "never_pulled_companies": 12,
+  "first_seen_last_30d_not_live": 3
+ },
+ "vertical:electrical-electronics": {
+  "companies": 96,
+  "postings": 194,
+  "companies_already_in_live_campaign": 62,
+  "companies_pulled_live_but_no_lead": 23,
+  "net_new_companies": 34,
+  "live_leads_at_these_companies": 162,
+  "never_pulled_companies": 11,
+  "first_seen_last_30d_not_live": 10
+ },
+ "vertical:food-beverage": {
+  "companies": 158,
+  "postings": 393,
+  "companies_already_in_live_campaign": 116,
+  "companies_pulled_live_but_no_lead": 31,
+  "net_new_companies": 42,
+  "live_leads_at_these_companies": 289,
+  "never_pulled_companies": 11,
+  "first_seen_last_30d_not_live": 7
+ },
+ "vertical:general-other-mfg": {
+  "companies": 251,
+  "postings": 580,
+  "companies_already_in_live_campaign": 176,
+  "companies_pulled_live_but_no_lead": 49,
+  "net_new_companies": 75,
+  "live_leads_at_these_companies": 419,
+  "never_pulled_companies": 26,
+  "first_seen_last_30d_not_live": 22
+ },
+ "vertical:machinery-automation": {
+  "companies": 263,
+  "postings": 566,
+  "companies_already_in_live_campaign": 187,
+  "companies_pulled_live_but_no_lead": 49,
+  "net_new_companies": 76,
+  "live_leads_at_these_companies": 394,
+  "never_pulled_companies": 27,
+  "first_seen_last_30d_not_live": 15
+ },
+ "vertical:metals-fabrication": {
+  "companies": 18,
+  "postings": 36,
+  "companies_already_in_live_campaign": 13,
+  "companies_pulled_live_but_no_lead": 3,
+  "net_new_companies": 5,
+  "live_leads_at_these_companies": 32,
+  "never_pulled_companies": 2,
+  "first_seen_last_30d_not_live": 0
+ },
+ "vertical:plastics-packaging-paper": {
+  "companies": 138,
+  "postings": 261,
+  "companies_already_in_live_campaign": 106,
+  "companies_pulled_live_but_no_lead": 24,
+  "net_new_companies": 32,
+  "live_leads_at_these_companies": 233,
+  "never_pulled_companies": 8,
+  "first_seen_last_30d_not_live": 5
+ },
+ "vertical:transportation-equipment": {
+  "companies": 106,
+  "postings": 257,
+  "companies_already_in_live_campaign": 65,
+  "companies_pulled_live_but_no_lead": 32,
+  "net_new_companies": 41,
+  "live_leads_at_these_companies": 159,
+  "never_pulled_companies": 9,
+  "first_seen_last_30d_not_live": 3
+ },
+ "_all_companies": {
+  "companies": 1282,
+  "postings": 2929,
+  "companies_already_in_live_campaign": 919,
+  "net_new_companies": 363,
+  "never_pulled_companies": 118,
+  "first_seen_last_30d_not_live": 74
+ }
+}

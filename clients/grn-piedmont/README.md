@@ -83,9 +83,27 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 - `sourcing/tam/2026-11-16-sample-leads.csv` — 36 rows (35 prospects + 1 no-match placeholder) at 14 sampled companies, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-16, keyed by `linkedin_url`
 - `sourcing/tam/2026-11-16-clay-sample-companies.csv` — 40 companies (2 queries x 20), Clay MCP `search-companies` fit check, pulled 2026-11-16
 - `sourcing/tam/tam_counts.json` + `tam_counts.py`, `tam_sample.py`, `2026-11-16-tam-read.query.md` — count-only TAM read and its exact queries
+- `sourcing/tam/2026-11-24-mpc-segments-jobs.csv` — 4,555 job postings (2,929 kept, the rest marked removed with a reason), 120 days, Blitz API `POST /v2/jobs/search`, pulled 2026-11-24 for the MPC segment read (no config yet; the live campaign's config is `fe214099-0834-40b6-9b18-d4517ecd03f1`). Each posting has a vertical and one role family. Script `mpc_segments_pull.py`, bodies and totals in `2026-11-24-mpc-segments-pull.json`
+- `sourcing/tam/2026-11-24-mpc-segments-companies.csv` — 1,282 hiring companies, one row each: segment flags, repost/prolonged counts, whether they're in the live campaign. Derived from the jobs file (`mpc_segments_size.py`), 2026-11-24
+- `sourcing/tam/2026-11-24-mpc-segments-sample-leads.csv` — 143 rows (92 with a LinkedIn URL, 51 `-` placeholders for companies with no match) at 93 sampled companies, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-24, keyed by `linkedin_url`. Reachability sample only, not a launch list (`mpc_segments_sample.py`)
+- `sourcing/tam/2026-11-24-mpc-segments-posting-check.csv` — 120 postings checked open or closed on the public LinkedIn posting page, 2026-11-24 (not an API pull)
+- `sourcing/tam/2026-11-24-mpc-segments.query.md` + `-size.json` — the segment read: table, sample results, TAM/SAM, message wording, Apify fit
 
 ## History
 
+- **2026-11-24**: **MPC segment read** (Moe: "create more segments of the MPC campaign, based on the client's ICP"). Sizing only: no campaign, config, list or workbook created; waiting for Moe's go-ahead.
+  - **Pull:** fresh 120-day Blitz `POST /v2/jobs/search`, split by vertical and by role family, 5,388 records. It adds two families the live campaign never searched: EHS/Maintenance, and Logistics/Planning inside Supply Chain. Result: 1,282 hiring companies, 2,929 kept postings.
+  - **Finding:** 919 of the 1,282 companies (72%) already have leads in 734516/756466.
+    - At those companies the persona is used up: 3 uncontacted C-level/VP/Owner contacts in 30 sampled companies.
+    - Of the 363 others, about 245 were queried before with no persona match: 0 of 42 sampled match now.
+    - The 118 never pulled answer 57% of the time, at 2.4 contacts each.
+    - So about 160 new people now, plus about 100 a month from new postings.
+    - No segment clears the 200 to 300 net-new company bar; each would be a rolling, monthly-refill segment.
+  - **Prolonged vacancy:** posting age alone fails (34 of 40 postings aged 60+ days are closed). A role first posted 60+ days ago and **reposted** in the last 30 days is open 80% of the time, and 116 companies show it.
+  - **Overlap** (`tools/leads.py overlap` on the sample): 48 of these also appear in `sourcing/recruitment-specific-open-roles/2026-11-16-leads.csv`; 12 of these also appear in `sourcing/recruitment-specific-open-roles/2026-11-23-leads.csv`.
+  - **Apify feed** (actor `LzsIpToRTUZSnqjbS`): location-radius only, no firmographic filter. The coverage test is proposed, not run.
+  - Contacts per company if built: up to 5 manufacturing / 4 F&LS (small pool, inverse rule). Scope: Campaign-specific (MPC segments).
+  - Full read: `sourcing/tam/2026-11-24-mpc-segments.query.md`. About 5,480 Blitz records. Session session_013MzxQhML2MDSCMvFCprgqD.
 - **2026-11-24**: Session initialized (orchestrator dispatch). Re-synced from `get_client` + `list_sourcing_configs`; no drift in profile or the 3 configs (`fe214099-0834-40b6-9b18-d4517ecd03f1`, `e8538474-8bd8-4479-8878-5899efe1ccf4`, `88fe680f-eae0-40c5-b147-1edf40579466`). Recorded every HeyReach campaign's senders, sequence check and schedule (section above) ahead of Moe's 2026-11-24 batch: all valid senders on all campaigns, 7-day schedules on active campaigns. **Not applied yet.** The approval came relayed through an orchestrator notification, not from Moe in this session, and the HeyReach schedule rule needs the owner's go-ahead at the time to pause live campaigns. Waiting for that go-ahead. Flagged: 730731 Owner Succession (Campaign 5) stays as it is under the factual-accuracy guard; 271564 (Chris Missler) has a broken sign-in. Session session_013MzxQhDJ5FhMvdPeQEAMTM.
 - **2026-11-23** — Moe: "Source and Push more leads into the campaign. Until then do 2.0 in heyreach for the performing campaign." **Expanding existing segment** (`recruitment-specific-open-roles`), Blitz only.
   - Performance of 734516 after 7 days: 1,261 connection requests, 98 accepted (7.8%), 59 conversations, 11 replies (18.6%), 2 auto-tagged interested.
