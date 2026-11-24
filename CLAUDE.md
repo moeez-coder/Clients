@@ -233,24 +233,24 @@ Other rules that still apply to every doc:
 - Commit each version's markdown to `clients/<slug>/campaign-docs/` with its
   tracking_clients doc id, and add a History entry for each status change.
 
-## Task log rule — every campaign or doc created goes on Moe's task board
+## Task log rule — log work done on Moe's task board
 
-(Standard set by the repo owner, 2026-11-24.) Whenever a session **creates a
-campaign** or **creates a campaign doc** for a client, it logs that work as a
-task on the tracking_clients task board, marked done the same day:
-- What counts as creating a campaign: a tracking_clients campaign
-  (`create_campaign` / `create_campaigns_from_plan`), a HeyReach campaign, or
-  a GTM Sheets campaign workbook. What counts as creating a doc:
-  `create_campaign_doc`.
-- `create_task` with `owner: "me"`, `client` (the client id), `due_date`
-  (today), `status: "done"` and `progress: 100`. **Keep it to one short
-  sentence** (owner's instruction): the `title` alone says what was created,
-  e.g. `Created campaign doc 1 for HealthLink Dimensions`. Don't add a long
-  `description`; the ids go in the client README, not the task.
-- If the task doesn't come back as done, call `complete_task` with its id.
-- One task per campaign or doc. A campaign built in tracking_clients and
-  HeyReach together is one task.
-- Record the task id in the client README History entry for that creation.
+(Standard set by the repo owner, 2026-11-24.) A task is a unit of **work
+done** for a client. Log each one on the tracking_clients board, marked done
+the same day.
+- Break work into the real steps, not one task per campaign. For example:
+  - Researched new segment for HealthLink Dimensions
+  - Sized TAM for We Are DNA Glassdoor campaign
+  - Wrote campaign doc 1 for GRN Piedmont
+  - Built HeyReach campaign for CG MQC
+  - Loaded 1,060 leads into HLD Campaign 1
+  - Launched Elite Technical Cybersecurity campaign
+- `create_task` with `owner: "me"`, `client`, `due_date` (today),
+  `status: "done"`, `progress: 100`. If it doesn't come back as done, call
+  `complete_task`.
+- **Title only, one short sentence, no fluff.** No description. Ids and
+  detail go in the client README.
+- Add the task id to that step's History entry.
 
 ## listbuild — the exhaustive-recall engine (project skill, `.claude/skills/listbuild/`)
 
