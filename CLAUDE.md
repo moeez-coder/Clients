@@ -233,6 +233,27 @@ Other rules that still apply to every doc:
 - Commit each version's markdown to `clients/<slug>/campaign-docs/` with its
   tracking_clients doc id, and add a History entry for each status change.
 
+## Task log rule — every campaign or doc created goes on Moe's task board
+
+(Standard set by the repo owner, 2026-11-24.) Whenever a session **creates a
+campaign** or **creates a campaign doc** for a client, it logs that work as a
+task on the tracking_clients task board, marked done the same day:
+- What counts as creating a campaign: a tracking_clients campaign
+  (`create_campaign` / `create_campaigns_from_plan`), a HeyReach campaign, or
+  a GTM Sheets campaign workbook. What counts as creating a doc:
+  `create_campaign_doc`.
+- `create_task` with:
+  - `owner: "me"` (Moe's token)
+  - `client`: the client id
+  - `title`: `<Client> | Created campaign: <name>` or `<Client> | Created campaign doc: <title>`
+  - `description`: the ids (tracking_clients, HeyReach, doc) and one line on why
+  - `due_date`: today
+  - `status: "done"`, `progress: 100`
+- If the task doesn't come back as done, call `complete_task` with its id.
+- One task per campaign or doc. A campaign built in tracking_clients and
+  HeyReach together is one task that lists both ids.
+- Record the task id in the client README History entry for that creation.
+
 ## listbuild — the exhaustive-recall engine (project skill, `.claude/skills/listbuild/`)
 
 A self-contained, tested (123 tests) Python pipeline shipped *inside this repo*
