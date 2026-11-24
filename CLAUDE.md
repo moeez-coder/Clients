@@ -249,7 +249,7 @@ task on the tracking_clients task board, marked done the same day:
   `description`; the ids go in the client README, not the task.
 - If the task doesn't come back as done, call `complete_task` with its id.
 - One task per campaign or doc. A campaign built in tracking_clients and
-  HeyReach together is one task that lists both ids.
+  HeyReach together is one task.
 - Record the task id in the client README History entry for that creation.
 
 ## listbuild — the exhaustive-recall engine (project skill, `.claude/skills/listbuild/`)
