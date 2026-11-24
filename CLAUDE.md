@@ -166,6 +166,94 @@ The skill roster for this workflow is expected to keep growing — don't treat
 the list above as fixed. Check what's actually available (the skills listing
 surfaced to the session) rather than assuming only these exist.
 
+## Campaign doc standard (client-facing campaign plans)
+
+A campaign doc (`create_campaign_doc` on the tracking_clients MCP) is the
+client's approval gate: no ICP, sourcing or campaign config is created until
+the client approves it. Every doc a session writes, and every revision of one,
+must meet the two rules below. (Standard set by the repo owner, 2026-11-13.)
+
+**1. Every campaign in the doc is sourceable: the data and the signal are
+shown to exist before the campaign goes in.** A campaign idea that can't be
+sourced is left out or reworked, not sent to the client.
+- **Signal:** name the trigger (open role, funding, leadership change, etc.),
+  the tool and endpoint that detects it (e.g. Blitz `POST /v2/jobs/search`,
+  Exa search), and the recency window it uses. If no tool we hold can
+  detect it, it isn't a signal for this doc.
+- **Data:** measure, don't estimate. Get counts from Clay + Blitz for:
+  - companies matching the firmographics
+  - those of them showing the signal in the window
+  - reachable contacts per company for the persona
+
+  Eyeball a sample to check the matches are real.
+- **Enough of it:** the bar is roughly **200–300+ target companies** per
+  campaign (the `campaign-plan-builder` skill's threshold). A smaller pool
+  can still go in, but the doc must say why it works, e.g. a rolling signal
+  that refills every month, or more contacts per company under the TAM/SAM
+  inverse rule. Never pad a pool to reach the bar.
+- **Where it shows:**
+  - In the doc, each campaign carries a `### Signal and data` section between
+    `### Persona` and `### Lead list`. It covers the signal, the source, and
+    the counts in plain words, so the client sees why the list will exist.
+  - In the repo, the TAM read and its exact queries are committed under
+    `clients/<slug>/sourcing/tam/` before the doc is created.
+- **The client's copy:** the client-facing doc states sources in plain
+  words, e.g. "live job postings from the last 90 days". The repo's
+  `sourcing/tam/` record keeps tool and endpoint names.
+
+**2. The doc ends with multiple offers for the client's feedback.** The last
+section of every doc is `## Offers for your feedback`.
+- **What it holds:** **at least three distinct offers** the outreach can lead
+  with. Examples:
+  - a free audit or assessment
+  - a guarantee or risk reversal
+  - a sample deliverable
+  - a pilot
+  - a benchmark or report
+- **What each offer gives:**
+  - what the prospect gets
+  - what it costs the client to deliver
+  - which campaigns in the doc it suits
+  - a `Your feedback:` line for the client to comment on in the portal
+- **Grounding:** base the offers on the client's own material (ICP form,
+  brief, call transcript, existing offers). Mark anything inferred as a
+  suggestion for them to confirm.
+- **Messaging:** the campaigns' messaging may lead with the strongest offer.
+  Name which one in each campaign's `### Messaging`, so the client's offer
+  feedback changes the copy before approval, not after launch.
+
+Other rules that still apply to every doc:
+- Layout: one `## Campaign N: <name>` section per campaign, with `### ICP`,
+  `### Persona`, `### Signal and data`, `### Lead list` and `### Messaging`.
+- No em dashes in client-facing copy, and the client's spelling (UK or US).
+- A doc stays a hidden draft until the repo owner says to send it;
+  `send_campaign_doc_to_client` posts in the client's own Slack.
+- Answer client comments with `review_campaign_doc`, never
+  `replace_markdown`, which drops every comment.
+- Commit each version's markdown to `clients/<slug>/campaign-docs/` with its
+  tracking_clients doc id, and add a History entry for each status change.
+
+## Task log rule — every campaign or doc created goes on Moe's task board
+
+(Standard set by the repo owner, 2026-11-24.) Whenever a session **creates a
+campaign** or **creates a campaign doc** for a client, it logs that work as a
+task on the tracking_clients task board, marked done the same day:
+- What counts as creating a campaign: a tracking_clients campaign
+  (`create_campaign` / `create_campaigns_from_plan`), a HeyReach campaign, or
+  a GTM Sheets campaign workbook. What counts as creating a doc:
+  `create_campaign_doc`.
+- `create_task` with:
+  - `owner: "me"` (Moe's token)
+  - `client`: the client id
+  - `title`: `<Client> | Created campaign: <name>` or `<Client> | Created campaign doc: <title>`
+  - `description`: the ids (tracking_clients, HeyReach, doc) and one line on why
+  - `due_date`: today
+  - `status: "done"`, `progress: 100`
+- If the task doesn't come back as done, call `complete_task` with its id.
+- One task per campaign or doc. A campaign built in tracking_clients and
+  HeyReach together is one task that lists both ids.
+- Record the task id in the client README History entry for that creation.
+
 ## listbuild — the exhaustive-recall engine (project skill, `.claude/skills/listbuild/`)
 
 A self-contained, tested (123 tests) Python pipeline shipped *inside this repo*
@@ -467,6 +555,33 @@ shared across types, never reused from another vertical.
 No delete-campaign tool exists — only pause; a wrongly-created campaign gets
 paused and flagged for manual deletion in the UI. `delete_webhook` requires
 deactivating it first (`update_webhook`, `isActive: false`).
+
+## HeyReach schedule rule — every campaign runs 7 days a week
+
+(Standard set by the repo owner, 2026-11-16.) This applies to every HeyReach
+campaign, for every client and every campaign type, including Vertical
+Launch, MPC / open-role, Casual Connections and single-sequence campaigns.
+
+- **New campaigns:** before `start_campaign`, call `update_campaign_schedule`
+  with all seven `enabled<Day>` flags `true`.
+  - The daily window and timezone are chosen per client and recorded. A
+    session may propose them, but the owner decides.
+  - Cloning from a template does **not** guarantee a 7-day schedule. Set it
+    explicitly every time.
+- **Running campaigns:** HeyReach only changes the schedule on a DRAFT,
+  SCHEDULED or PAUSED campaign. Making a live campaign 7-day means
+  `pause_campaign` → `update_campaign_schedule` → `resume_campaign`.
+  - That briefly stops a live campaign, so it needs the owner's go-ahead
+    for each campaign (or batch) at the time.
+  - Confirm the status afterwards with `get_campaign`.
+- **Record the schedule every time it is set.** No HeyReach tool *reads* a
+  campaign's schedule; `get_campaign` doesn't return it. The client README
+  is the only record. Each campaign entry states its days, its daily
+  window and its timezone, and the History entry for each change says what
+  it was before and after.
+- If a client explicitly asks for a non-7-day schedule, that exception
+  must be on record in the client README History, with the date and who
+  asked. Otherwise 7 days is the rule.
 
 ## Sourcing protocol — tool order, scope, and what to pull
 
