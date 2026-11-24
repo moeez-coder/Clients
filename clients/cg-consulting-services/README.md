@@ -15,7 +15,7 @@
 - **LinkedIn health flag:** `linkedinIsBelowRed: true`, but `linkedinRedThreshold` is **null**. The flag is set even though no threshold is configured and no outreach has run. Treat it as unexplained until someone confirms how it is computed. Sender check results are below.
 - **DNC:** `dncList` is empty and `dncSkipped: false`. **However, the ICP form has an uploaded do-not-contact file (`bf13fb07587e-Non_Connect`)** that was never loaded into tracking_clients. This must be resolved before any leads go live.
 - **Tracking client ID:** `4ca09bb2-25f9-4410-b269-9c8bcb816881`
-- **Last synced:** 2026-11-05 via `get_client` + `list_sourcing_configs` + `list_icp_configs` + `list_campaigns`; the open-role ICP configs and lead lists below were written by this session the same day (no drift from the record below; previous sync 2026-10-23)
+- **Last synced:** 2026-11-24 via `get_client` + `list_sourcing_configs`. That sync added the missing MQC config row; the profile was unchanged. Previous sync: 2026-11-05 via `get_client` + `list_sourcing_configs` + `list_icp_configs` + `list_campaigns`; the open-role ICP configs and lead lists below were written by this session the same day (no drift from the record below; previous sync 2026-10-23)
 
 ## Sourcing configs
 
@@ -26,6 +26,7 @@
 | Recruiter Open Role LS Regulatory & Quality - Blitz (jobs + waterfall) | Recruiter \| Open Role \| LS Regulatory & Quality | Life Sciences | ready | 1 | 0 (lead_count not updated by tracking_clients; leads pushed via GTM Sheets, see below) | `-` |
 | Recruiter Open Role LS Medical Affairs - Blitz (jobs + waterfall) | Recruiter \| Open Role \| LS Medical Affairs | Life Sciences | ready | 1 | 0 (lead_count not updated by tracking_clients; leads pushed via GTM Sheets, see below) | `-` |
 | Recruiter Open Role Tech Eng, Security & Data - Blitz (jobs + waterfall) | Recruiter \| Open Role \| Tech Eng, Security & Data | Technology, Financial Services, Healthcare, Retail, Education, Consulting | ready | 1 | 0 (lead_count not updated by tracking_clients; leads pushed via GTM Sheets, see below) | `-` |
+| MQC Talent Leaders - Blitz (tam-by-jobs + waterfall) (`34f9a071-4735-42a7-b969-fad77babec80`) | MQC \| Talent Leaders \| Hiring Companies | Life Sciences, Technology, Financial Services, Healthcare, Education, Retail | ready | 1 | 0 | `-` |
 
 Config detail (tracking_clients):
 - Sourcing config `09be87f3-0db4-4e2d-842d-b70af7d29d7c`, module **Custom** (`dd10c77c-109c-42e0-bc9a-a34ee0844fad`, granularity `company`), refresh `static`, `platform_leads_enabled: true`, `distribution_enabled: false`, empty module_config, no Clay table, workbook or webhook.
@@ -92,7 +93,7 @@ Built from the SOP [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-
 - **HeyReach settings (all 4):**
   - Campaigns created with `create_campaign_v2`.
   - **7 auth-valid senders:** 243652, 249292, 249296, 261910, 263687, 263737, 264146. 203834, 252010 and 264519 were left off with invalid auth.
-  - Weekdays 07:00–19:00 Eastern Standard Time.
+  - **Schedule (2026-11-24): Mon–Sun 07:00–19:00, "Eastern Standard Time"**, on all 4 campaigns. It was weekdays 07:00–19:00 at launch; Saturday and Sunday were added 2026-11-16 (commit `430e837`, PR #17, branch `claude/cg-open-role-campaigns`). Confirmed `IN_PROGRESS` 2026-11-24, with no change needed (see History).
   - **exclude-in-other-campaigns ON**, lead and company blacklists on.
   - Connection request with a note, withdrawn after 21 days.
   - Messages at +2/+2/+2 days; a reply ends the sequence.
@@ -142,7 +143,7 @@ Built from the SOP [`docs/sops/open-role-moe-mpc.md`](../../docs/sops/open-role-
 - **Clean measurement:** companies already in any CG campaign are excluded, so no company is double-touched and a reply can't be credited elsewhere. HeyReach exclude-in-other-campaigns and exclude-has-other-conversations are both ON.
 - **Capacity:** the 7 auth-valid senders are shared by 7 campaigns. On 2026-11-12, 4 of them (261910, 263687, 263737, 264146) were on connection-request cooldown. So the list is a sharp 499 rather than thousands, and the test runs on fewer, more distinct variants. **No existing campaign was paused.**
 
-**Settings:** senders 243652, 249292, 249296, 261910, 263687, 263737, 264146 (203834, 252010 and 264519 have invalid auth). Weekdays 08:00–18:00 Eastern Standard Time. Lead and company blacklists ON. Connection request withdrawn after 21 days. Created with `create_campaign_v2`; sequence verified with `get_campaign_sequence_v2` (source JSON: `heyreach/mqc-v1-sequence.json`).
+**Settings:** senders 243652, 249292, 249296, 261910, 263687, 263737, 264146 (203834, 252010 and 264519 have invalid auth). Schedule: weekdays 08:00–18:00 Eastern Standard Time at build. **Conflicting record:** PR #17 (commit `430e837`, 2026-11-16) lists `727548` among the 5 campaigns moved to Mon–Sun 07:00–19:00 ET. No HeyReach tool reads a schedule back, so the current window is unverified. The campaign has been **PAUSED** since some time before 2026-11-24 and was left alone (see History 2026-11-24). Lead and company blacklists ON. Connection request withdrawn after 21 days. Created with `create_campaign_v2`; sequence verified with `get_campaign_sequence_v2` (source JSON: `heyreach/mqc-v1-sequence.json`).
 
 **Variants (HeyReach picks one version at random per lead):**
 
@@ -227,6 +228,17 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
 
 ## History
+
+- **2026-11-24**: **7-day schedule check on live CG campaigns (Moe's go-ahead, 2026-11-24, given in the orchestrator session).** Scope: every IN_PROGRESS campaign sends 7 days a week (CLAUDE.md "HeyReach schedule rule").
+  - **IN_PROGRESS per `get_all_campaigns` (workspace 169110):** open-role `723837`, `723838`, `723839`, `723841`. All 4 are recorded as Mon–Sun 07:00–19:00 "Eastern Standard Time" since 2026-11-16 (commit `430e837`, PR #17). **No pause/update/resume was needed.** All 4 are confirmed `IN_PROGRESS` with 7 senders each.
+  - **Schedules per campaign, before → after this session:** `723837`/`723838`/`723839`/`723841`: Mon–Sun 07:00–19:00 ET → unchanged.
+  - **MQC `727548` is PAUSED, not live.** `get_campaign` on 2026-11-24 shows `PAUSED`: 499 leads, 199 in progress, 254 pending, 39 finished, 7 failed. Its running state and schedule were left alone, per the brief (don't touch paused campaigns). **Open questions for Moe:**
+    1. Who paused it, and when? It isn't in this README; check-in 3 on 11-17 had it live.
+    2. Which schedule does it have? This README says weekdays 08:00–18:00 ET; PR #17 says Mon–Sun 07:00–19:00 ET. The schedule can't be read back, so it should be set explicitly (Mon–Sun, with the window Moe picks) before it is resumed.
+  - Not touched: Security and Data Bench `677893`/`686451` (not IN_PROGRESS), senders, drafts.
+  - No campaign or doc was created, so the task log rule did not apply (no `create_task`).
+  - Init resync: `get_client` + `list_sourcing_configs` (6 configs). The MQC config `34f9a071-…` was missing from the Sourcing configs table and has been added.
+  - CG session (MQC branch `claude/cg-mqc-campaign`).
 
 - **2026-11-17**: **MQC check-in 3 (end of the daily phase).** HeyReach `727548`: **42 requests sent, 6 accepted (14.3% of sent), 4 threads, message 1 sent 3 times (one each of V1/V2/V3), 0 replies.**
   - **Acceptance looks better than Bench (3.8%), but n is tiny.** 6 of 42 is a promising early sign for the TA/HR persona and nothing more.
