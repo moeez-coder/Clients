@@ -1,0 +1,5521 @@
+[
+ {
+  "id": 4186404,
+  "ceo": {
+   "id": 800198,
+   "name": "",
+   "title": "",
+   "photoUrl": null
+  },
+  "mode": "full",
+  "name": "TEMPS Services",
+  "size": "Unknown",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/TEMPS-Services-Jobs-E4186404.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/TEMPS-Services-Reviews-E4186404.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/TEMPS-Services-Benefits-E4186404.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-TEMPS-Services-EI_IE4186404.11,25.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/TEMPS-Services-Salaries-E4186404.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/TEMPS-Services-Interview-Questions-E4186404.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 1,
+   "salaryCount": 3,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 800198,
+    "name": "",
+    "title": "",
+    "largePhoto": null,
+    "regularPhoto": null
+   },
+   "ceoRating": null,
+   "reviewCount": 1,
+   "overallRating": 3,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 1,
+   "workLifeBalanceRating": 3,
+   "cultureAndValuesRating": 4,
+   "seniorManagementRating": 3,
+   "recommendToFriendRating": 1,
+   "careerOpportunitiesRating": 2,
+   "diversityAndInclusionRating": 5,
+   "compensationAndBenefitsRating": 3
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.tempsservices.ca",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:07.926Z",
+  "shortName": "TEMPS Services",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 4186404,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 11119082
+  },
+  "inputSource": "Tempus Services",
+  "reviewCount": 1,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Calgary, Canada",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/4186404/temps-services-squarelogo-1630396272820.png",
+  "sizeCategory": "UNKNOWN",
+  "subsidiaries": [],
+  "overallRating": 3,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/4186404/temps-services-squarelogo-1630396272820.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/4186404/temps-services-squarelogo-1630396272820.png",
+  "allReviewsCount": 1,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 1,
+  "filteredReviewsCount": 1,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 1,
+    "WONT_RECOMMEND": 0
+   },
+   "careerOpportunities": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 1,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 2281606,
+  "ceo": null,
+  "mode": "full",
+  "name": "Almondine Bakery",
+  "size": "1 to 50 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Almondine-Bakery-Jobs-E2281606.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Almondine-Bakery-Reviews-E2281606.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Almondine-Bakery-Benefits-E2281606.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Almondine-Bakery-EI_IE2281606.11,27.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Almondine-Bakery-Salaries-E2281606.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Almondine-Bakery-Interview-Questions-E2281606.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 0,
+   "salaryCount": 1,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 0,
+   "overallRating": null,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": null,
+   "workLifeBalanceRating": null,
+   "cultureAndValuesRating": null,
+   "seniorManagementRating": null,
+   "recommendToFriendRating": null,
+   "careerOpportunitiesRating": null,
+   "diversityAndInclusionRating": null,
+   "compensationAndBenefitsRating": null
+  },
+  "revenue": "$1 to $5 million (USD)",
+  "website": "https://www.almondinebakery.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:08.476Z",
+  "shortName": "Almondine Bakery",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 2281606,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 1111442
+  },
+  "inputSource": "Almondine",
+  "reviewCount": 0,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Brooklyn, NY",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/2281606/almondine-bakery-squarelogo-1692784166993.png",
+  "sizeCategory": "SMALL",
+  "subsidiaries": [],
+  "overallRating": null,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/2281606/almondine-bakery-squarelogo-1692784166993.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/2281606/almondine-bakery-squarelogo-1692784166993.png",
+  "allReviewsCount": 0,
+  "officeAddresses": [],
+  "primaryIndustry": {
+   "sectorId": 10021,
+   "industryId": 200099,
+   "sectorName": "Restaurants & Food Service",
+   "industryName": "Restaurants & Cafes"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200099,
+  "ratedReviewsCount": 0,
+  "filteredReviewsCount": 0,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 0,
+    "WONT_RECOMMEND": 0
+   },
+   "careerOpportunities": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": []
+ },
+ {
+  "id": 4669385,
+  "ceo": null,
+  "mode": "full",
+  "name": "Almond Air & Logistics Ltd",
+  "size": "51 to 200 Employees",
+  "type": "Contract",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Almond-Air-and-Logistics-Jobs-E4669385.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Almond-Air-and-Logistics-Reviews-E4669385.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Almond-Air-and-Logistics-Benefits-E4669385.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Almond-Air-and-Logistics-EI_IE4669385.11,35.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Almond-Air-and-Logistics-Salaries-E4669385.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Almond-Air-and-Logistics-Interview-Questions-E4669385.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 5,
+   "salaryCount": 3,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 5,
+   "overallRating": 4.9,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0.5,
+   "workLifeBalanceRating": 2.5,
+   "cultureAndValuesRating": 3.4,
+   "seniorManagementRating": 3.3,
+   "recommendToFriendRating": 1,
+   "careerOpportunitiesRating": 3.3,
+   "diversityAndInclusionRating": 3.4,
+   "compensationAndBenefitsRating": 1.8
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.almondair.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:08.876Z",
+  "shortName": "Almond Air & Logistics",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 4669385,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 2412894
+  },
+  "inputSource": "Almondine",
+  "reviewCount": 5,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Nairobi, Kenya",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/4669385/almond-air-and-logistics-squarelogo-1628056464758.png",
+  "sizeCategory": "SMALL_TO_MEDIUM",
+  "subsidiaries": [],
+  "overallRating": 4.9,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/4669385/almond-air-and-logistics-squarelogo-1628056464758.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/4669385/almond-air-and-logistics-squarelogo-1628056464758.png",
+  "allReviewsCount": 5,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 5,
+  "filteredReviewsCount": 5,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 4
+   },
+   "workLifeBalance": {
+    "1": 1,
+    "2": 0,
+    "3": 2,
+    "4": 0,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 1,
+    "3": 1,
+    "4": 0,
+    "5": 1
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 2,
+    "4": 1,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 4,
+    "WONT_RECOMMEND": 0
+   },
+   "careerOpportunities": {
+    "1": 0,
+    "2": 0,
+    "3": 2,
+    "4": 1,
+    "5": 0
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 1,
+    "3": 1,
+    "4": 0,
+    "5": 1
+   },
+   "compensationAndBenefits": {
+    "1": 2,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 5,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 2223653,
+  "ceo": null,
+  "mode": "full",
+  "name": "AlmondNet Inc",
+  "size": "1 to 50 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/AlmondNet-Group-Jobs-E2223653.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/AlmondNet-Group-Reviews-E2223653.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/AlmondNet-Group-Benefits-E2223653.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-AlmondNet-Group-EI_IE2223653.11,26.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/AlmondNet-Group-Salaries-E2223653.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/AlmondNet-Group-Interview-Questions-E2223653.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 3,
+   "salaryCount": 1,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 3,
+   "overallRating": 4.2,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 1,
+   "workLifeBalanceRating": 3,
+   "cultureAndValuesRating": 4,
+   "seniorManagementRating": 5,
+   "recommendToFriendRating": 1,
+   "careerOpportunitiesRating": 5,
+   "diversityAndInclusionRating": null,
+   "compensationAndBenefitsRating": 4
+  },
+  "revenue": "$1 to $5 million (USD)",
+  "website": "https://www.almondnet.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:09.406Z",
+  "shortName": "AlmondNet Group",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 2223653,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 1073197
+  },
+  "inputSource": "Almondine",
+  "reviewCount": 3,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "New York, NY",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/2223653/almondnet-group-squarelogo-1693387314098.png",
+  "sizeCategory": "SMALL",
+  "subsidiaries": [],
+  "overallRating": 4.2,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/2223653/almondnet-group-squarelogo-1693387314098.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/2223653/almondnet-group-squarelogo-1693387314098.png",
+  "allReviewsCount": 3,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 3,
+  "filteredReviewsCount": 3,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 2
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 2,
+    "WONT_RECOMMEND": 0
+   },
+   "careerOpportunities": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 3,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 7619933,
+  "ceo": {
+   "id": 1034953,
+   "name": "",
+   "title": "",
+   "photoUrl": null
+  },
+  "mode": "full",
+  "name": "European LifeCare Group",
+  "size": "Unknown",
+  "type": "Company - Public",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/European-LifeCare-Group-Jobs-E7619933.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/European-LifeCare-Group-Reviews-E7619933.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/European-LifeCare-Group-Benefits-E7619933.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-European-LifeCare-Group-EI_IE7619933.11,34.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/European-LifeCare-Group-Salaries-E7619933.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/European-LifeCare-Group-Interview-Questions-E7619933.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 1,
+   "salaryCount": 4,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 1
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 1034953,
+    "name": "",
+    "title": "",
+    "largePhoto": null,
+    "regularPhoto": null
+   },
+   "ceoRating": null,
+   "reviewCount": 1,
+   "overallRating": 3,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": null,
+   "workLifeBalanceRating": 3,
+   "cultureAndValuesRating": 2,
+   "seniorManagementRating": 3,
+   "recommendToFriendRating": null,
+   "careerOpportunitiesRating": 2,
+   "diversityAndInclusionRating": 3,
+   "compensationAndBenefitsRating": 3
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.europeanlifecaregroup.dk",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:09.792Z",
+  "shortName": "European LifeCare Group",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 7619933,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 11290784
+  },
+  "inputSource": "European LifeCare Group",
+  "reviewCount": 1,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Søborg, Denmark",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/7619933/european-lifecare-group-squarelogo-1661169353936.png",
+  "sizeCategory": "UNKNOWN",
+  "subsidiaries": [],
+  "overallRating": 3,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/7619933/european-lifecare-group-squarelogo-1661169353936.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/7619933/european-lifecare-group-squarelogo-1661169353936.png",
+  "allReviewsCount": 1,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 1,
+  "filteredReviewsCount": 1,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 0,
+    "WONT_RECOMMEND": 0
+   },
+   "careerOpportunities": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 1,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 3913815,
+  "ceo": null,
+  "mode": "full",
+  "name": "Karali Ltd",
+  "size": "1001 to 5000 Employees",
+  "type": "Franchise",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Karali-Group-Jobs-E3913815.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Karali-Group-Reviews-E3913815.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Karali-Group-Benefits-E3913815.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Karali-Group-EI_IE3913815.11,23.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Karali-Group-Salaries-E3913815.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Karali-Group-Interview-Questions-E3913815.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 22,
+   "salaryCount": 31,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 21,
+   "overallRating": 2.1,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0.15,
+   "workLifeBalanceRating": 1.4,
+   "cultureAndValuesRating": 1.7,
+   "seniorManagementRating": 1.6,
+   "recommendToFriendRating": 0.08,
+   "careerOpportunitiesRating": 1.7,
+   "diversityAndInclusionRating": 2.2,
+   "compensationAndBenefitsRating": 1.6
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.karali-group.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:10.557Z",
+  "shortName": "Karali Group",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 3913815,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 8851275
+  },
+  "inputSource": "Karali Limited",
+  "reviewCount": 22,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Ealing, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/3913815/karali-group-squarelogo-1646215936073.png",
+  "sizeCategory": "LARGE",
+  "subsidiaries": [],
+  "overallRating": 2.1,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/3913815/karali-group-squarelogo-1646215936073.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/3913815/karali-group-squarelogo-1646215936073.png",
+  "allReviewsCount": 22,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 21,
+  "filteredReviewsCount": 21,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 13,
+    "2": 2,
+    "3": 2,
+    "4": 0,
+    "5": 4
+   },
+   "workLifeBalance": {
+    "1": 13,
+    "2": 2,
+    "3": 1,
+    "4": 0,
+    "5": 1
+   },
+   "cultureAndValues": {
+    "1": 12,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1
+   },
+   "seniorManagement": {
+    "1": 13,
+    "2": 1,
+    "3": 1,
+    "4": 0,
+    "5": 2
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 2,
+    "WONT_RECOMMEND": 15
+   },
+   "careerOpportunities": {
+    "1": 11,
+    "2": 1,
+    "3": 3,
+    "4": 0,
+    "5": 2
+   },
+   "diversityAndInclusion": {
+    "1": 9,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 3
+   },
+   "compensationAndBenefits": {
+    "1": 12,
+    "2": 2,
+    "3": 1,
+    "4": 0,
+    "5": 2
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 21,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 8089646,
+  "ceo": null,
+  "mode": "full",
+  "name": "Karalu ltd",
+  "size": "Unknown",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Karalu-Jobs-E8089646.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Karalu-Reviews-E8089646.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Karalu-Benefits-E8089646.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Karalu-EI_IE8089646.11,17.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Karalu-Salaries-E8089646.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Karalu-Interview-Questions-E8089646.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 0,
+   "salaryCount": 0,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 0,
+   "overallRating": null,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": null,
+   "workLifeBalanceRating": null,
+   "cultureAndValuesRating": null,
+   "seniorManagementRating": null,
+   "recommendToFriendRating": null,
+   "careerOpportunitiesRating": null,
+   "diversityAndInclusionRating": null,
+   "compensationAndBenefitsRating": null
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": null,
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:10.898Z",
+  "shortName": "Karalu",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 8089646,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 11381691
+  },
+  "inputSource": "Karali Limited",
+  "reviewCount": 0,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "London, United Kingdom",
+  "largeLogoUrl": null,
+  "sizeCategory": "UNKNOWN",
+  "subsidiaries": [],
+  "overallRating": null,
+  "squareLogoUrl": null,
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": null,
+  "allReviewsCount": 0,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 0,
+  "filteredReviewsCount": 0,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 0,
+    "WONT_RECOMMEND": 0
+   },
+   "careerOpportunities": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": []
+ },
+ {
+  "id": 2446761,
+  "ceo": null,
+  "mode": "full",
+  "name": "Chaiiwala",
+  "size": "51 to 200 Employees",
+  "type": "Company - Public",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Chaiiwala-Jobs-E2446761.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Chaiiwala-Reviews-E2446761.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Chaiiwala-Benefits-E2446761.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Chaiiwala-EI_IE2446761.11,20.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Chaiiwala-Salaries-E2446761.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Chaiiwala-Interview-Questions-E2446761.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 71,
+   "salaryCount": 93,
+   "benefitCount": 7,
+   "globalJobCount": {
+    "jobCount": 5
+   },
+   "interviewCount": 3
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 68,
+   "overallRating": 3.6,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0.6,
+   "workLifeBalanceRating": 3.7,
+   "cultureAndValuesRating": 3.9,
+   "seniorManagementRating": 3.6,
+   "recommendToFriendRating": 0.6,
+   "careerOpportunitiesRating": 3.5,
+   "diversityAndInclusionRating": 4.3,
+   "compensationAndBenefitsRating": 3.1
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.chaiiwala.co.uk",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:11.257Z",
+  "shortName": "Chaiiwala",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 2446761,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 8408887
+  },
+  "inputSource": "chaiiwala",
+  "reviewCount": 71,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Batley, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/2446761/chaiiwala-squarelogo-1583828758283.png",
+  "sizeCategory": "SMALL_TO_MEDIUM",
+  "subsidiaries": [],
+  "overallRating": 3.6,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/2446761/chaiiwala-squarelogo-1583828758283.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/2446761/chaiiwala-squarelogo-1583828758283.png",
+  "allReviewsCount": 71,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 68,
+  "filteredReviewsCount": 68,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 8,
+    "2": 10,
+    "3": 15,
+    "4": 16,
+    "5": 19
+   },
+   "workLifeBalance": {
+    "1": 6,
+    "2": 2,
+    "3": 14,
+    "4": 11,
+    "5": 14
+   },
+   "cultureAndValues": {
+    "1": 7,
+    "2": 4,
+    "3": 9,
+    "4": 7,
+    "5": 20
+   },
+   "seniorManagement": {
+    "1": 12,
+    "2": 5,
+    "3": 6,
+    "4": 8,
+    "5": 15
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 21,
+    "WONT_RECOMMEND": 21
+   },
+   "careerOpportunities": {
+    "1": 11,
+    "2": 6,
+    "3": 10,
+    "4": 8,
+    "5": 13
+   },
+   "diversityAndInclusion": {
+    "1": 3,
+    "2": 6,
+    "3": 3,
+    "4": 8,
+    "5": 22
+   },
+   "compensationAndBenefits": {
+    "1": 12,
+    "2": 6,
+    "3": 13,
+    "4": 5,
+    "5": 11
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 68,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 4981573,
+  "ceo": null,
+  "mode": "full",
+  "name": "Chaiwala.com",
+  "size": "1 to 50 Employees",
+  "type": "Self-employed",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Chaiwala-com-Jobs-E4981573.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Chaiwala-com-Reviews-E4981573.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Chaiwala-com-Benefits-E4981573.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Chaiwala-com-EI_IE4981573.11,23.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Chaiwala-com-Salaries-E4981573.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Chaiwala-com-Interview-Questions-E4981573.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 15,
+   "salaryCount": 22,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 15,
+   "overallRating": 3.5,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0.33,
+   "workLifeBalanceRating": 3,
+   "cultureAndValuesRating": 3.7,
+   "seniorManagementRating": 2.6,
+   "recommendToFriendRating": 0.73,
+   "careerOpportunitiesRating": 2.4,
+   "diversityAndInclusionRating": 4.2,
+   "compensationAndBenefitsRating": 3.2
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.chaiwala.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:12.179Z",
+  "shortName": "Chaiwala.com",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 4981573,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 2590358
+  },
+  "inputSource": "chaiiwala",
+  "reviewCount": 15,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Rock Hill, SC",
+  "largeLogoUrl": null,
+  "sizeCategory": "SMALL",
+  "subsidiaries": [],
+  "overallRating": 3.5,
+  "squareLogoUrl": null,
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": null,
+  "allReviewsCount": 15,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 15,
+  "filteredReviewsCount": 15,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 1,
+    "2": 3,
+    "3": 2,
+    "4": 5,
+    "5": 4
+   },
+   "workLifeBalance": {
+    "1": 1,
+    "2": 1,
+    "3": 5,
+    "4": 1,
+    "5": 1
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 1,
+    "3": 3,
+    "4": 2,
+    "5": 2
+   },
+   "seniorManagement": {
+    "1": 2,
+    "2": 2,
+    "3": 3,
+    "4": 1,
+    "5": 1
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 6,
+    "WONT_RECOMMEND": 2
+   },
+   "careerOpportunities": {
+    "1": 2,
+    "2": 3,
+    "3": 2,
+    "4": 1,
+    "5": 1
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 1,
+    "3": 1,
+    "4": 3,
+    "5": 4
+   },
+   "compensationAndBenefits": {
+    "1": 2,
+    "2": 0,
+    "3": 4,
+    "4": 1,
+    "5": 2
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 15,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 6312648,
+  "ceo": null,
+  "mode": "full",
+  "name": "MBA Chai Wala",
+  "size": "1 to 50 Employees",
+  "type": "Company - Public",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/MBA-Chai-Wala-Jobs-E6312648.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/MBA-Chai-Wala-Reviews-E6312648.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/MBA-Chai-Wala-Benefits-E6312648.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-MBA-Chai-Wala-EI_IE6312648.11,24.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/MBA-Chai-Wala-Salaries-E6312648.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/MBA-Chai-Wala-Interview-Questions-E6312648.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 8,
+   "salaryCount": 9,
+   "benefitCount": 2,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 1
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 8,
+   "overallRating": 2.4,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0.19,
+   "workLifeBalanceRating": 2.6,
+   "cultureAndValuesRating": 2.5,
+   "seniorManagementRating": 2.8,
+   "recommendToFriendRating": 0.32,
+   "careerOpportunitiesRating": 2.1,
+   "diversityAndInclusionRating": 2.8,
+   "compensationAndBenefitsRating": 2.5
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.mbachaiwala.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:12.836Z",
+  "shortName": "MBA Chai Wala",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 6312648,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 9544900
+  },
+  "inputSource": "chaiiwala",
+  "reviewCount": 8,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Ahmedabad, India",
+  "largeLogoUrl": null,
+  "sizeCategory": "SMALL",
+  "subsidiaries": [],
+  "overallRating": 2.4,
+  "squareLogoUrl": null,
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": null,
+  "allReviewsCount": 8,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 8,
+  "filteredReviewsCount": 8,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 3,
+    "2": 1,
+    "3": 3,
+    "4": 0,
+    "5": 1
+   },
+   "workLifeBalance": {
+    "1": 3,
+    "2": 1,
+    "3": 0,
+    "4": 2,
+    "5": 1
+   },
+   "cultureAndValues": {
+    "1": 3,
+    "2": 0,
+    "3": 3,
+    "4": 0,
+    "5": 1
+   },
+   "seniorManagement": {
+    "1": 3,
+    "2": 0,
+    "3": 1,
+    "4": 2,
+    "5": 1
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 2,
+    "WONT_RECOMMEND": 4
+   },
+   "careerOpportunities": {
+    "1": 4,
+    "2": 0,
+    "3": 2,
+    "4": 0,
+    "5": 1
+   },
+   "diversityAndInclusion": {
+    "1": 3,
+    "2": 0,
+    "3": 2,
+    "4": 0,
+    "5": 2
+   },
+   "compensationAndBenefits": {
+    "1": 3,
+    "2": 0,
+    "3": 3,
+    "4": 0,
+    "5": 1
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 8,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 1259289,
+  "ceo": null,
+  "mode": "full",
+  "name": "SJD Accountancy",
+  "size": "51 to 200 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/SJD-Accountancy-Jobs-E1259289.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/SJD-Accountancy-Reviews-E1259289.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/SJD-Accountancy-Benefits-E1259289.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-SJD-Accountancy-EI_IE1259289.11,26.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/SJD-Accountancy-Salaries-E1259289.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/SJD-Accountancy-Interview-Questions-E1259289.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 70,
+   "salaryCount": 101,
+   "benefitCount": 6,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 5
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 70,
+   "overallRating": 3,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0.18,
+   "workLifeBalanceRating": 2.8,
+   "cultureAndValuesRating": 2.9,
+   "seniorManagementRating": 2.6,
+   "recommendToFriendRating": 0.31,
+   "careerOpportunitiesRating": 3,
+   "diversityAndInclusionRating": 3.5,
+   "compensationAndBenefitsRating": 2.7
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.sjdaccountancy.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:14.416Z",
+  "shortName": "SJD Accountancy",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 1259289,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 7941848
+  },
+  "inputSource": "SJD Accountancy",
+  "reviewCount": 70,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Hemel Hempstead, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/1259289/sjd-accountancy-squarelogo-1499235308102.png",
+  "sizeCategory": "SMALL_TO_MEDIUM",
+  "subsidiaries": [],
+  "overallRating": 3,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/1259289/sjd-accountancy-squarelogo-1499235308102.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/1259289/sjd-accountancy-squarelogo-1499235308102.png",
+  "allReviewsCount": 70,
+  "officeAddresses": [
+   {
+    "id": 297881,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Edinburgh",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 387945,
+    "administrativeAreaName1": "SCT"
+   }
+  ],
+  "primaryIndustry": {
+   "sectorId": 10010,
+   "industryId": 200001,
+   "sectorName": "Financial Services",
+   "industryName": "Accounting & Tax"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200001,
+  "ratedReviewsCount": 70,
+  "filteredReviewsCount": 70,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 16,
+    "2": 14,
+    "3": 16,
+    "4": 9,
+    "5": 15
+   },
+   "workLifeBalance": {
+    "1": 15,
+    "2": 9,
+    "3": 14,
+    "4": 5,
+    "5": 11
+   },
+   "cultureAndValues": {
+    "1": 14,
+    "2": 8,
+    "3": 10,
+    "4": 9,
+    "5": 12
+   },
+   "seniorManagement": {
+    "1": 18,
+    "2": 13,
+    "3": 8,
+    "4": 4,
+    "5": 11
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 14,
+    "WONT_RECOMMEND": 32
+   },
+   "careerOpportunities": {
+    "1": 14,
+    "2": 9,
+    "3": 13,
+    "4": 6,
+    "5": 12
+   },
+   "diversityAndInclusion": {
+    "1": 2,
+    "2": 3,
+    "3": 11,
+    "4": 4,
+    "5": 9
+   },
+   "compensationAndBenefits": {
+    "1": 15,
+    "2": 13,
+    "3": 12,
+    "4": 3,
+    "5": 10
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 70,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 36494,
+  "ceo": {
+   "id": 791531,
+   "name": "Duncan Everett",
+   "title": "CEO",
+   "photoUrl": "https://media.glassdoor.com/people/sql/36494/noble-foods-ceo1603837304887.png"
+  },
+  "mode": "full",
+  "name": "Noble Foods Ltd",
+  "size": "1001 to 5000 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Noble-Foods-Jobs-E36494.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Noble-Foods-Reviews-E36494.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Noble-Foods-Benefits-E36494.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Noble-Foods-EI_IE36494.11,22.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Noble-Foods-Salaries-E36494.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Noble-Foods-Interview-Questions-E36494.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": 25,
+   "reviewCount": 43,
+   "salaryCount": 111,
+   "benefitCount": 7,
+   "globalJobCount": {
+    "jobCount": 36
+   },
+   "interviewCount": 4
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 791531,
+    "name": "Duncan Everett",
+    "title": "CEO",
+    "largePhoto": "https://media.glassdoor.com/people/sqll/36494/noble-foods-ceo1603837304887.png",
+    "regularPhoto": "https://media.glassdoor.com/people/sql/36494/noble-foods-ceo1603837304887.png"
+   },
+   "ceoRating": 0.78,
+   "reviewCount": 42,
+   "overallRating": 3.2,
+   "ceoRatingsCount": 14,
+   "businessOutlookRating": 0.47,
+   "workLifeBalanceRating": 3.1,
+   "cultureAndValuesRating": 3,
+   "seniorManagementRating": 3.1,
+   "recommendToFriendRating": 0.48,
+   "careerOpportunitiesRating": 3.1,
+   "diversityAndInclusionRating": 3.1,
+   "compensationAndBenefitsRating": 2.8
+  },
+  "revenue": "$5 to $25 million (USD)",
+  "website": "https://www.noblefoods.co.uk",
+  "overview": {
+   "mission": null,
+   "description": "Noble Foods (formerly Deans Foods Ltd) should win a prize for knowing the secrets of the egg. As one of the largest UK egg producers, the company oversees all aspects of the chicken/egg cycle. Laying hens live on 250 company-owned farms and eat feed from company-owned mills. Noble packs more than 60 million fresh shell eggs weekly for its major retail customers and produces value-added egg products for its industrial and foodservice accounts. Its retail egg brands include Big & Fresh, Church & Manor, Goldenlay, and Woodland. At the end of their laying careers, Noble's hens become poultry products at the company processing plant."
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:15.419Z",
+  "shortName": "Noble Foods",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 36494,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 36684
+  },
+  "inputSource": "Noble Foods Ltd",
+  "reviewCount": 43,
+  "rowsWritten": {},
+  "yearFounded": 1920,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Staines, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/36494/noble-foods-squareLogo-1652989224246.png",
+  "sizeCategory": "LARGE",
+  "subsidiaries": [],
+  "overallRating": 3.2,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/36494/noble-foods-squareLogo-1652989224575.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/36494/noble-foods-squareLogo-1652989224179.png",
+  "allReviewsCount": 43,
+  "officeAddresses": [
+   {
+    "id": 499184,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Derby",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576143,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499196,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Tring",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576149,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499197,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Tring",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576149,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499189,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "East Dereham",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576146,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499202,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Harrogate",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576152,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499200,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Killamarsh",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576151,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499183,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Beckingham",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576142,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 387578,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Lincoln",
+    "postalCode": "LN6 9HA",
+    "countryName": "United Kingdom",
+    "addressLine1": "Hives Lane, North Scarle",
+    "addressLine2": "",
+    "officeLocationId": 475181,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499185,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Gainsborough",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576144,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499193,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Staines",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576147,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499190,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Kirkcaldy",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 475180,
+    "administrativeAreaName1": "SCT"
+   },
+   {
+    "id": 499191,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Kirkcaldy",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 475180,
+    "administrativeAreaName1": "SCT"
+   },
+   {
+    "id": 387577,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Kirkcaldy",
+    "postalCode": "KY1 4DX",
+    "countryName": "United Kingdom",
+    "addressLine1": "Strathore Mill, Strathore Road, Thornton",
+    "addressLine2": "",
+    "officeLocationId": 475180,
+    "administrativeAreaName1": "SCT"
+   },
+   {
+    "id": 499201,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Middlesbrough",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 475179,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 387576,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Middlesbrough",
+    "postalCode": "TS9 5NQ",
+    "countryName": "United Kingdom",
+    "addressLine1": "The Mill, Seamer Hill, Seamer",
+    "addressLine2": "",
+    "officeLocationId": 475179,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499195,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Taunton",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576148,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499194,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Gloucester",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 475177,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 387574,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Gloucester",
+    "postalCode": "GL16 8JR",
+    "countryName": "United Kingdom",
+    "addressLine1": "Clearwell Mill, Nr Coleford",
+    "addressLine2": "",
+    "officeLocationId": 475177,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499192,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Finmere",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 475178,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 387575,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Finmere",
+    "postalCode": "MK18 4JA",
+    "countryName": "United Kingdom",
+    "addressLine1": "Finmere Mill, Tingewick",
+    "addressLine2": "",
+    "officeLocationId": 475178,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499199,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Cannock",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576150,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499188,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Nottingham",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 475176,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 387573,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Nottingham",
+    "postalCode": "NG22 8TX",
+    "countryName": "United Kingdom",
+    "addressLine1": "Noble Foods, Belle Eau Park, The Mill, Bilsthorpe",
+    "addressLine2": "",
+    "officeLocationId": 475176,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499186,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Newark on Trent",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576145,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 499187,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Newark on Trent",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 576145,
+    "administrativeAreaName1": "ENG"
+   }
+  ],
+  "primaryIndustry": {
+   "sectorId": 10015,
+   "industryId": 200071,
+   "sectorName": "Manufacturing",
+   "industryName": "Food & Beverage Manufacturing"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200071,
+  "ratedReviewsCount": 42,
+  "filteredReviewsCount": 41,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 10,
+    "2": 6,
+    "3": 4,
+    "4": 5,
+    "5": 17
+   },
+   "workLifeBalance": {
+    "1": 9,
+    "2": 5,
+    "3": 6,
+    "4": 6,
+    "5": 9
+   },
+   "cultureAndValues": {
+    "1": 14,
+    "2": 1,
+    "3": 3,
+    "4": 6,
+    "5": 11
+   },
+   "seniorManagement": {
+    "1": 11,
+    "2": 4,
+    "3": 2,
+    "4": 7,
+    "5": 10
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 16,
+    "WONT_RECOMMEND": 16
+   },
+   "careerOpportunities": {
+    "1": 11,
+    "2": 5,
+    "3": 5,
+    "4": 6,
+    "5": 10
+   },
+   "diversityAndInclusion": {
+    "1": 6,
+    "2": 6,
+    "3": 2,
+    "4": 5,
+    "5": 8
+   },
+   "compensationAndBenefits": {
+    "1": 12,
+    "2": 4,
+    "3": 7,
+    "4": 5,
+    "5": 8
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 41,
+    "isoLanguage": "eng"
+   },
+   {
+    "count": 1,
+    "isoLanguage": "spa"
+   }
+  ]
+ },
+ {
+  "id": 6183745,
+  "ceo": null,
+  "mode": "full",
+  "name": "Vesuvius Sensors & Probes",
+  "size": "201 to 500 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Vesuvius-Sensors-and-Probes-Jobs-E6183745.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Vesuvius-Sensors-and-Probes-Reviews-E6183745.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Vesuvius-Sensors-and-Probes-Benefits-E6183745.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Vesuvius-Sensors-and-Probes-EI_IE6183745.11,38.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Vesuvius-Sensors-and-Probes-Salaries-E6183745.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Vesuvius-Sensors-and-Probes-Interview-Questions-E6183745.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 18,
+   "salaryCount": 22,
+   "benefitCount": 3,
+   "globalJobCount": {
+    "jobCount": 1
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 18,
+   "overallRating": 3.5,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0.43,
+   "workLifeBalanceRating": 3.6,
+   "cultureAndValuesRating": 3.4,
+   "seniorManagementRating": 2.8,
+   "recommendToFriendRating": 0.6,
+   "careerOpportunitiesRating": 2.6,
+   "diversityAndInclusionRating": 3.5,
+   "compensationAndBenefitsRating": 3.5
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": null,
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:46.685Z",
+  "shortName": "Vesuvius Sensors & Probes",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 6183745,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 9507464
+  },
+  "inputSource": "Vesuvius",
+  "reviewCount": 18,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Piedade, Brazil",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/6183745/vesuvius-sensors-and-probes-squarelogo-1722950842573.png",
+  "sizeCategory": "MEDIUM",
+  "subsidiaries": [],
+  "overallRating": 3.5,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/6183745/vesuvius-sensors-and-probes-squarelogo-1722950842573.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/6183745/vesuvius-sensors-and-probes-squarelogo-1722950842573.png",
+  "allReviewsCount": 18,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 18,
+  "filteredReviewsCount": 0,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 2,
+    "2": 1,
+    "3": 4,
+    "4": 9,
+    "5": 2
+   },
+   "workLifeBalance": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 6,
+    "5": 3
+   },
+   "cultureAndValues": {
+    "1": 1,
+    "2": 4,
+    "3": 1,
+    "4": 3,
+    "5": 5
+   },
+   "seniorManagement": {
+    "1": 3,
+    "2": 3,
+    "3": 4,
+    "4": 1,
+    "5": 3
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 9,
+    "WONT_RECOMMEND": 5
+   },
+   "careerOpportunities": {
+    "1": 3,
+    "2": 2,
+    "3": 7,
+    "4": 1,
+    "5": 1
+   },
+   "diversityAndInclusion": {
+    "1": 1,
+    "2": 3,
+    "3": 2,
+    "4": 3,
+    "5": 5
+   },
+   "compensationAndBenefits": {
+    "1": 1,
+    "2": 3,
+    "3": 3,
+    "4": 2,
+    "5": 5
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 14,
+    "isoLanguage": "por"
+   },
+   {
+    "count": 3,
+    "isoLanguage": "ita"
+   },
+   {
+    "count": 1,
+    "isoLanguage": "spa"
+   }
+  ]
+ },
+ {
+  "id": 3097143,
+  "ceo": null,
+  "mode": "full",
+  "name": "Vesuvius Holdings, LLC",
+  "size": "1 to 50 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Vesuvius-Holdings-Jobs-E3097143.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Vesuvius-Holdings-Reviews-E3097143.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Vesuvius-Holdings-Benefits-E3097143.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Vesuvius-Holdings-EI_IE3097143.11,28.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Vesuvius-Holdings-Salaries-E3097143.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Vesuvius-Holdings-Interview-Questions-E3097143.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 3,
+   "salaryCount": 5,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 3,
+   "overallRating": 2.9,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0,
+   "workLifeBalanceRating": 3.7,
+   "cultureAndValuesRating": 2.4,
+   "seniorManagementRating": 2.4,
+   "recommendToFriendRating": 0.35,
+   "careerOpportunitiesRating": 2.4,
+   "diversityAndInclusionRating": 1,
+   "compensationAndBenefitsRating": 2.4
+  },
+  "revenue": "$1 to $5 million (USD)",
+  "website": "https://www.vesuviushld.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:48.668Z",
+  "shortName": "Vesuvius Holdings",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 3097143,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 1505825
+  },
+  "inputSource": "Vesuvius",
+  "reviewCount": 3,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Frisco, TX",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/3097143/vesuvius-holdings-squarelogo-1644401438744.png",
+  "sizeCategory": "SMALL",
+  "subsidiaries": [],
+  "overallRating": 2.9,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/3097143/vesuvius-holdings-squarelogo-1644401438744.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/3097143/vesuvius-holdings-squarelogo-1644401438744.png",
+  "allReviewsCount": 3,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 3,
+  "filteredReviewsCount": 3,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 1
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 1
+   },
+   "cultureAndValues": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+   },
+   "seniorManagement": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 1,
+    "WONT_RECOMMEND": 1
+   },
+   "careerOpportunities": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+   },
+   "diversityAndInclusion": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 3,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 19803,
+  "ceo": {
+   "id": 511638,
+   "name": "Patrick Andre",
+   "title": "Chief Executive",
+   "photoUrl": null
+  },
+  "mode": "full",
+  "name": "Vesuvius Group S.A./N.V.",
+  "size": "10000+ Employees",
+  "type": "Subsidiary or Business Segment",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Vesuvius-Jobs-E19803.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Vesuvius-Reviews-E19803.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Vesuvius-Benefits-E19803.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Vesuvius-EI_IE19803.11,19.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Vesuvius-Salaries-E19803.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Vesuvius-Interview-Questions-E19803.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 498,
+   "salaryCount": 779,
+   "benefitCount": 224,
+   "globalJobCount": {
+    "jobCount": 36
+   },
+   "interviewCount": 40
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 511638,
+    "name": "Patrick Andre",
+    "title": "Chief Executive",
+    "largePhoto": null,
+    "regularPhoto": null
+   },
+   "ceoRating": 0.63,
+   "reviewCount": 433,
+   "overallRating": 3.4,
+   "ceoRatingsCount": 165,
+   "businessOutlookRating": 0.56,
+   "workLifeBalanceRating": 3.2,
+   "cultureAndValuesRating": 3.2,
+   "seniorManagementRating": 2.8,
+   "recommendToFriendRating": 0.56,
+   "careerOpportunitiesRating": 3.1,
+   "diversityAndInclusionRating": 3.4,
+   "compensationAndBenefitsRating": 3.7
+  },
+  "revenue": "$1 to $5 billion (USD)",
+  "website": "https://www.vesuvius.com",
+  "overview": {
+   "mission": "Vesuvius delivers value to its customers by continual improvement of their process performance, through its contribution to safety, quality, productivity and sustainability of their activity.",
+   "description": "Vesuvius is a global leader in metal flow engineering, providing a full range of engineering services and solutions to its customers worldwide, principally serving the steel and foundry industries."
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:50.186Z",
+  "shortName": "Vesuvius",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 19803,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 19998
+  },
+  "inputSource": "Vesuvius",
+  "reviewCount": 498,
+  "rowsWritten": {},
+  "yearFounded": 1916,
+  "activeStatus": "INACTIVE",
+  "headquarters": "London, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/19803/vesuvius-squarelogo-1460122211134.png",
+  "sizeCategory": "GIANT",
+  "subsidiaries": [],
+  "overallRating": 3.4,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/19803/vesuvius-squarelogo-1460122211134.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/19803/vesuvius-squarelogo-1460122211134.png",
+  "allReviewsCount": 498,
+  "officeAddresses": [
+   {
+    "id": 7568,
+    "country": {
+     "id": 1,
+     "name": "United States",
+     "continent": {
+      "id": 5,
+      "name": "North America"
+     }
+    },
+    "cityName": "Champaign",
+    "postalCode": "0",
+    "countryName": "US",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 107823,
+    "administrativeAreaName1": "IL"
+   },
+   {
+    "id": 193980,
+    "country": {
+     "id": 1,
+     "name": "United States",
+     "continent": {
+      "id": 5,
+      "name": "North America"
+     }
+    },
+    "cityName": "Chicago",
+    "postalCode": "",
+    "countryName": "US",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 285025,
+    "administrativeAreaName1": "IL"
+   },
+   {
+    "id": 7567,
+    "country": {
+     "id": 1,
+     "name": "United States",
+     "continent": {
+      "id": 5,
+      "name": "North America"
+     }
+    },
+    "cityName": "Pittsburgh",
+    "postalCode": "0",
+    "countryName": "US",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 107822,
+    "administrativeAreaName1": "PA"
+   },
+   {
+    "id": 193979,
+    "country": {
+     "id": 1,
+     "name": "United States",
+     "continent": {
+      "id": 5,
+      "name": "North America"
+     }
+    },
+    "cityName": "Chicago Heights",
+    "postalCode": "",
+    "countryName": "US",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 285024,
+    "administrativeAreaName1": "IL"
+   }
+  ],
+  "primaryIndustry": {
+   "sectorId": 10015,
+   "industryId": 200073,
+   "sectorName": "Manufacturing",
+   "industryName": "Machinery Manufacturing"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200073,
+  "ratedReviewsCount": 433,
+  "filteredReviewsCount": 265,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 61,
+    "2": 57,
+    "3": 99,
+    "4": 113,
+    "5": 103
+   },
+   "workLifeBalance": {
+    "1": 62,
+    "2": 53,
+    "3": 95,
+    "4": 88,
+    "5": 78
+   },
+   "cultureAndValues": {
+    "1": 71,
+    "2": 60,
+    "3": 68,
+    "4": 82,
+    "5": 88
+   },
+   "seniorManagement": {
+    "1": 121,
+    "2": 57,
+    "3": 63,
+    "4": 68,
+    "5": 62
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 196,
+    "WONT_RECOMMEND": 148
+   },
+   "careerOpportunities": {
+    "1": 90,
+    "2": 60,
+    "3": 85,
+    "4": 80,
+    "5": 61
+   },
+   "diversityAndInclusion": {
+    "1": 36,
+    "2": 34,
+    "3": 55,
+    "4": 62,
+    "5": 88
+   },
+   "compensationAndBenefits": {
+    "1": 32,
+    "2": 52,
+    "3": 95,
+    "4": 115,
+    "5": 82
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 265,
+    "isoLanguage": "eng"
+   },
+   {
+    "count": 87,
+    "isoLanguage": "por"
+   },
+   {
+    "count": 45,
+    "isoLanguage": "spa"
+   },
+   {
+    "count": 25,
+    "isoLanguage": "fra"
+   },
+   {
+    "count": 6,
+    "isoLanguage": "deu"
+   },
+   {
+    "count": 3,
+    "isoLanguage": "ita"
+   },
+   {
+    "count": 2,
+    "isoLanguage": "nld"
+   }
+  ]
+ },
+ {
+  "id": 6331266,
+  "ceo": null,
+  "mode": "full",
+  "name": "BILLINGTON FOODS",
+  "size": "Unknown",
+  "type": "Company - Public",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/BILLINGTON-FOODS-Jobs-E6331266.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/BILLINGTON-FOODS-Reviews-E6331266.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/BILLINGTON-FOODS-Benefits-E6331266.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-BILLINGTON-FOODS-EI_IE6331266.11,27.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/BILLINGTON-FOODS-Salaries-E6331266.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/BILLINGTON-FOODS-Interview-Questions-E6331266.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 2,
+   "salaryCount": 7,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 1
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 2,
+   "overallRating": 2.1,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0,
+   "workLifeBalanceRating": 4,
+   "cultureAndValuesRating": 1,
+   "seniorManagementRating": 3,
+   "recommendToFriendRating": 0,
+   "careerOpportunitiesRating": 1,
+   "diversityAndInclusionRating": 1,
+   "compensationAndBenefitsRating": 2
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.billington-foods.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:51.719Z",
+  "shortName": "BILLINGTON FOODS",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 6331266,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 3693743
+  },
+  "inputSource": "Billington Foods",
+  "reviewCount": 2,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Wellingborough, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/6331266/billington-foods-squarelogo-1648793323252.png",
+  "sizeCategory": "UNKNOWN",
+  "subsidiaries": [],
+  "overallRating": 2.1,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/6331266/billington-foods-squarelogo-1648793323252.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/6331266/billington-foods-squarelogo-1648793323252.png",
+  "allReviewsCount": 2,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 2,
+  "filteredReviewsCount": 2,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 1,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 0,
+    "WONT_RECOMMEND": 2
+   },
+   "careerOpportunities": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "diversityAndInclusion": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 2,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 36181,
+  "ceo": {
+   "id": 89391,
+   "name": "Lloyd Whiteley",
+   "title": "Chairman",
+   "photoUrl": null
+  },
+  "mode": "full",
+  "name": "The Billington Food Group Limited",
+  "size": "51 to 200 Employees",
+  "type": "Subsidiary or Business Segment",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Billington-Food-Jobs-E36181.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Billington-Food-Reviews-E36181.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Billington-Food-Benefits-E36181.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Billington-Food-EI_IE36181.11,26.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Billington-Food-Salaries-E36181.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Billington-Food-Interview-Questions-E36181.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 7,
+   "salaryCount": 13,
+   "benefitCount": 3,
+   "globalJobCount": {
+    "jobCount": 1
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 89391,
+    "name": "Lloyd Whiteley",
+    "title": "Chairman",
+    "largePhoto": null,
+    "regularPhoto": null
+   },
+   "ceoRating": 0,
+   "reviewCount": 7,
+   "overallRating": 3,
+   "ceoRatingsCount": 1,
+   "businessOutlookRating": 0,
+   "workLifeBalanceRating": 2.9,
+   "cultureAndValuesRating": 3,
+   "seniorManagementRating": 2.4,
+   "recommendToFriendRating": 0.16,
+   "careerOpportunitiesRating": 2.8,
+   "diversityAndInclusionRating": 3.4,
+   "compensationAndBenefitsRating": 2.9
+  },
+  "revenue": "$25 to $100 million (USD)",
+  "website": "https://www.billingtons.co.uk",
+  "overview": {
+   "mission": null,
+   "description": "How sweet it is. The Billington Food Group (better known as Billington's) offers a line of organic and unrefined brown cane sugars for use in baking and as a sweetener for coffee and tea. The types of sugar marketed by the UK company include caster, demerara, granulated, icing sugar, and muscovado, as well as dried molasses. It imports its sugar from Mauritius, which it then packs and distributes from its facility in Ipswich to both retail food and food-manufacturing customers. Billington's has been a a subsidiary of Associated British Foods since 2004."
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:52.588Z",
+  "shortName": "Billington Food",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 36181,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 36371
+  },
+  "inputSource": "Billington Foods",
+  "reviewCount": 7,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Peterborough, United Kingdom",
+  "largeLogoUrl": null,
+  "sizeCategory": "SMALL_TO_MEDIUM",
+  "subsidiaries": [],
+  "overallRating": 3,
+  "squareLogoUrl": null,
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": null,
+  "allReviewsCount": 7,
+  "officeAddresses": [],
+  "primaryIndustry": {
+   "sectorId": 10015,
+   "industryId": 200071,
+   "sectorName": "Manufacturing",
+   "industryName": "Food & Beverage Manufacturing"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200071,
+  "ratedReviewsCount": 7,
+  "filteredReviewsCount": 7,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 2,
+    "3": 3,
+    "4": 2,
+    "5": 0
+   },
+   "workLifeBalance": {
+    "1": 1,
+    "2": 1,
+    "3": 4,
+    "4": 1,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 3,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 1,
+    "WONT_RECOMMEND": 4
+   },
+   "careerOpportunities": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 0
+   },
+   "diversityAndInclusion": {
+    "1": 1,
+    "2": 0,
+    "3": 2,
+    "4": 1,
+    "5": 2
+   },
+   "compensationAndBenefits": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 7,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 974351,
+  "ceo": null,
+  "mode": "full",
+  "name": "RBS Accountants Limited",
+  "size": "1 to 50 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/RBS-Accountants-Jobs-E974351.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/RBS-Accountants-Reviews-E974351.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/RBS-Accountants-Benefits-E974351.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-RBS-Accountants-EI_IE974351.11,26.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/RBS-Accountants-Salaries-E974351.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/RBS-Accountants-Interview-Questions-E974351.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 1,
+   "salaryCount": 54,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 1,
+   "overallRating": 4,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 1,
+   "workLifeBalanceRating": 4,
+   "cultureAndValuesRating": 3,
+   "seniorManagementRating": 4,
+   "recommendToFriendRating": 1,
+   "careerOpportunitiesRating": 5,
+   "diversityAndInclusionRating": 3,
+   "compensationAndBenefitsRating": 2
+  },
+  "revenue": "Less than $1 million (USD)",
+  "website": "https://www.rbsca.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:54.701Z",
+  "shortName": "RBS Accountants",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 974351,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 275480
+  },
+  "inputSource": "RBS ACCOUNTANTS LTD",
+  "reviewCount": 1,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "London, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/974351/rbs-accountants-squarelogo-1643975020969.png",
+  "sizeCategory": "SMALL",
+  "subsidiaries": [],
+  "overallRating": 4,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/974351/rbs-accountants-squarelogo-1643975020969.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/974351/rbs-accountants-squarelogo-1643975020969.png",
+  "allReviewsCount": 1,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 1,
+  "filteredReviewsCount": 1,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 1,
+    "WONT_RECOMMEND": 0
+   },
+   "careerOpportunities": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 1,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 997177,
+  "ceo": {
+   "id": 489977,
+   "name": "Tom Molnar",
+   "title": "Owner",
+   "photoUrl": "https://media.glassdoor.com/people/sql/997177/gail-s-bread-ceo1494277403107.png"
+  },
+  "mode": "full",
+  "name": "GAIL’s Limited",
+  "size": "1001 to 5000 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/GAIL-s-Bakery-Jobs-E997177.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/GAIL-s-Bakery-Reviews-E997177.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/GAIL-s-Bakery-Benefits-E997177.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-GAIL-s-Bakery-EI_IE997177.11,24.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/GAIL-s-Bakery-Salaries-E997177.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/GAIL-s-Bakery-Interview-Questions-E997177.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": 9,
+   "reviewCount": 860,
+   "salaryCount": 1134,
+   "benefitCount": 155,
+   "globalJobCount": {
+    "jobCount": 246
+   },
+   "interviewCount": 106
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 489977,
+    "name": "Tom Molnar",
+    "title": "Owner",
+    "largePhoto": "https://media.glassdoor.com/people/sqll/997177/gail-s-bread-ceo1494277403107.png",
+    "regularPhoto": "https://media.glassdoor.com/people/sql/997177/gail-s-bread-ceo1494277403107.png"
+   },
+   "ceoRating": 0.54,
+   "reviewCount": 826,
+   "overallRating": 3.2,
+   "ceoRatingsCount": 334,
+   "businessOutlookRating": 0.39,
+   "workLifeBalanceRating": 3.2,
+   "cultureAndValuesRating": 3.2,
+   "seniorManagementRating": 2.9,
+   "recommendToFriendRating": 0.55,
+   "careerOpportunitiesRating": 3.4,
+   "diversityAndInclusionRating": 3.9,
+   "compensationAndBenefitsRating": 3.1
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.gailsbread.co.uk",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:56.284Z",
+  "shortName": "GAIL’s Bakery",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 997177,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 736920
+  },
+  "inputSource": "GAIL's",
+  "reviewCount": 860,
+  "rowsWritten": {},
+  "yearFounded": 2005,
+  "activeStatus": "ACTIVE",
+  "headquarters": "London, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/997177/gail-s-bakery-squareLogo-1619601009738.png",
+  "sizeCategory": "LARGE",
+  "subsidiaries": [],
+  "overallRating": 3.2,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/997177/gail-s-bakery-squareLogo-1619601009666.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/997177/gail-s-bakery-squareLogo-1619601009629.png",
+  "allReviewsCount": 861,
+  "officeAddresses": [],
+  "primaryIndustry": {
+   "sectorId": 10021,
+   "industryId": 200099,
+   "sectorName": "Restaurants & Food Service",
+   "industryName": "Restaurants & Cafes"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200099,
+  "ratedReviewsCount": 827,
+  "filteredReviewsCount": 822,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 146,
+    "2": 113,
+    "3": 181,
+    "4": 188,
+    "5": 197
+   },
+   "workLifeBalance": {
+    "1": 151,
+    "2": 95,
+    "3": 124,
+    "4": 128,
+    "5": 125
+   },
+   "cultureAndValues": {
+    "1": 134,
+    "2": 87,
+    "3": 113,
+    "4": 125,
+    "5": 167
+   },
+   "seniorManagement": {
+    "1": 192,
+    "2": 90,
+    "3": 107,
+    "4": 83,
+    "5": 144
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 273,
+    "WONT_RECOMMEND": 257
+   },
+   "careerOpportunities": {
+    "1": 109,
+    "2": 98,
+    "3": 131,
+    "4": 127,
+    "5": 161
+   },
+   "diversityAndInclusion": {
+    "1": 56,
+    "2": 48,
+    "3": 93,
+    "4": 125,
+    "5": 218
+   },
+   "compensationAndBenefits": {
+    "1": 137,
+    "2": 101,
+    "3": 126,
+    "4": 135,
+    "5": 127
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 822,
+    "isoLanguage": "eng"
+   },
+   {
+    "count": 2,
+    "isoLanguage": "spa"
+   },
+   {
+    "count": 1,
+    "isoLanguage": "fra"
+   },
+   {
+    "count": 1,
+    "isoLanguage": "deu"
+   },
+   {
+    "count": 1,
+    "isoLanguage": "ita"
+   }
+  ]
+ },
+ {
+  "id": 1095158,
+  "ceo": {
+   "id": 657519,
+   "name": "Gail Worth",
+   "title": "President",
+   "photoUrl": "https://media.glassdoor.com/people/sql/1095158/gail-s-harley-davidson-ceo1570505933023.png"
+  },
+  "mode": "full",
+  "name": "Gail's Harley-Davidson",
+  "size": "51 to 200 Employees",
+  "type": "Company - Public",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Gail-s-Harley-Davidson-Jobs-E1095158.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Gail-s-Harley-Davidson-Reviews-E1095158.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Gail-s-Harley-Davidson-Benefits-E1095158.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Gail-s-Harley-Davidson-EI_IE1095158.11,33.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Gail-s-Harley-Davidson-Salaries-E1095158.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Gail-s-Harley-Davidson-Interview-Questions-E1095158.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 8,
+   "salaryCount": 5,
+   "benefitCount": 2,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 657519,
+    "name": "Gail Worth",
+    "title": "President",
+    "largePhoto": "https://media.glassdoor.com/people/sqll/1095158/gail-s-harley-davidson-ceo1570505933023.png",
+    "regularPhoto": "https://media.glassdoor.com/people/sql/1095158/gail-s-harley-davidson-ceo1570505933023.png"
+   },
+   "ceoRating": 0.64,
+   "reviewCount": 8,
+   "overallRating": 3.8,
+   "ceoRatingsCount": 4,
+   "businessOutlookRating": 0.49,
+   "workLifeBalanceRating": 3.1,
+   "cultureAndValuesRating": 3.8,
+   "seniorManagementRating": 3.8,
+   "recommendToFriendRating": 0.49,
+   "careerOpportunitiesRating": 3.1,
+   "diversityAndInclusionRating": 4,
+   "compensationAndBenefitsRating": 3.4
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.gailsharleydavidson.com",
+  "overview": {
+   "mission": "",
+   "description": "Gail’s Harley Davidson in Grandview, Missouri, We’re more than a motorcycle dealership; we’re proud to be your local Harley paradise! We offer one of the largest inventories of  Harley-Davidson motorcycles,  parts, accessories,official Harley-Davidson merchandise and MotorClothes in the Midwest.\r\nWe also have a great service center and a helpful finance center. \r\nOur dealership family lives by a simple truth: Every Day is an Excuse to Have Fun! Gail,  owner and president, rebuilt this dealership to be more than just a place to buy Harleys. Her dream was a Harley-Davidson DESTINATION! A place where all bikers could come to have fun, meet new friends and check out the latest and greatest Harley bikes. Gail’s vision culminated in our present-day location: all 55,000 square feet and 10 acres of the biker bliss. \r\n\r\n"
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:57.503Z",
+  "shortName": "Gail's Harley-Davidson",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 1095158,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 350347
+  },
+  "inputSource": "GAIL's",
+  "reviewCount": 8,
+  "rowsWritten": {},
+  "yearFounded": 1978,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Grandview, MO",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/1095158/gail-s-harley-davidson-squarelogo-1446219308485.png",
+  "sizeCategory": "SMALL_TO_MEDIUM",
+  "subsidiaries": [],
+  "overallRating": 3.8,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/1095158/gail-s-harley-davidson-squarelogo-1446219308485.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/1095158/gail-s-harley-davidson-squarelogo-1446219308485.png",
+  "allReviewsCount": 8,
+  "officeAddresses": [],
+  "primaryIndustry": {
+   "sectorId": 10022,
+   "industryId": 200115,
+   "sectorName": "Retail & Wholesale",
+   "industryName": "Other Retail Stores"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200115,
+  "ratedReviewsCount": 8,
+  "filteredReviewsCount": 8,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 4
+   },
+   "workLifeBalance": {
+    "1": 2,
+    "2": 2,
+    "3": 0,
+    "4": 0,
+    "5": 3
+   },
+   "cultureAndValues": {
+    "1": 1,
+    "2": 0,
+    "3": 2,
+    "4": 1,
+    "5": 3
+   },
+   "seniorManagement": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 3
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 3,
+    "WONT_RECOMMEND": 3
+   },
+   "careerOpportunities": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 0,
+    "5": 3
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 1,
+    "5": 1
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 3,
+    "3": 1,
+    "4": 0,
+    "5": 3
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 8,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 10967245,
+  "ceo": null,
+  "mode": "full",
+  "name": "Gail’s Ltd",
+  "size": "1001 to 5000 Employees",
+  "type": "Company - Public",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Gail-s-Jobs-E10967245.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Gail-s-Reviews-E10967245.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Gail-s-Benefits-E10967245.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Gail-s-EI_IE10967245.11,17.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Gail-s-Salaries-E10967245.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Gail-s-Interview-Questions-E10967245.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 2,
+   "salaryCount": 3,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 1
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 2,
+   "overallRating": 2,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0,
+   "workLifeBalanceRating": 3,
+   "cultureAndValuesRating": 3,
+   "seniorManagementRating": 1,
+   "recommendToFriendRating": 0,
+   "careerOpportunitiesRating": 1,
+   "diversityAndInclusionRating": 3,
+   "compensationAndBenefitsRating": 3
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.gails.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:16:58.857Z",
+  "shortName": "Gail’s",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 10967245,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 15738502
+  },
+  "inputSource": "GAIL's",
+  "reviewCount": 2,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Victoria, United Kingdom",
+  "largeLogoUrl": null,
+  "sizeCategory": "LARGE",
+  "subsidiaries": [],
+  "overallRating": 2,
+  "squareLogoUrl": null,
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": null,
+  "allReviewsCount": 2,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 2,
+  "filteredReviewsCount": 2,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 1,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 0,
+    "WONT_RECOMMEND": 1
+   },
+   "careerOpportunities": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 2,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 2225129,
+  "ceo": {
+   "id": 543987,
+   "name": "",
+   "title": "",
+   "photoUrl": null
+  },
+  "mode": "full",
+  "name": "Claridge's",
+  "size": "201 to 500 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Claridge-s-Jobs-E2225129.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Claridge-s-Reviews-E2225129.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Claridge-s-Benefits-E2225129.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Claridge-s-EI_IE2225129.11,21.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Claridge-s-Salaries-E2225129.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Claridge-s-Interview-Questions-E2225129.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": 7,
+   "reviewCount": 59,
+   "salaryCount": 85,
+   "benefitCount": 13,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 8
+  },
+  "parent": {
+   "employer": {
+    "id": 698528,
+    "name": "Maybourne Hotel Group",
+    "counts": {
+     "reviewCount": 45,
+     "salaryCount": 104,
+     "globalJobCount": {
+      "jobCount": 94
+     }
+    },
+    "isValid": true,
+    "ratings": {
+     "overallRating": 3.1
+    },
+    "shortName": "Maybourne Hotel Group",
+    "headquarters": "London, United Kingdom",
+    "squareLogoUrl": "https://media.glassdoor.com/sql/698528/maybourne-hotel-group-squarelogo-1474626557675.png",
+    "approvalStatus": "APPROVED"
+   }
+  },
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 543987,
+    "name": "",
+    "title": "",
+    "largePhoto": null,
+    "regularPhoto": null
+   },
+   "ceoRating": null,
+   "reviewCount": 52,
+   "overallRating": 4.2,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": 0.8,
+   "workLifeBalanceRating": 3.7,
+   "cultureAndValuesRating": 4.3,
+   "seniorManagementRating": 3.6,
+   "recommendToFriendRating": 0.89,
+   "careerOpportunitiesRating": 3.7,
+   "diversityAndInclusionRating": 4.3,
+   "compensationAndBenefitsRating": 4.3
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.claridges.co.uk",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [
+   {
+    "employer": {
+     "id": 765833,
+     "name": "The Berkeley Hotel",
+     "counts": {
+      "reviewCount": 37,
+      "salaryCount": 46,
+      "globalJobCount": {
+       "jobCount": 0
+      }
+     },
+     "isValid": true,
+     "ratings": {
+      "overallRating": 4.2
+     },
+     "shortName": "The Berkeley Hotel",
+     "headquarters": "London, United Kingdom",
+     "squareLogoUrl": "https://media.glassdoor.com/sql/765833/the-berkeley-hotel-squarelogo-1397235532553.png",
+     "approvalStatus": "APPROVED"
+    }
+   },
+   {
+    "employer": {
+     "id": 1952266,
+     "name": "The Connaught Hotel ",
+     "counts": {
+      "reviewCount": 34,
+      "salaryCount": 55,
+      "globalJobCount": {
+       "jobCount": 0
+      }
+     },
+     "isValid": true,
+     "ratings": {
+      "overallRating": 4.1
+     },
+     "shortName": "The Connaught Hotel (London)",
+     "headquarters": "London, United Kingdom",
+     "squareLogoUrl": "https://media.glassdoor.com/sql/1952266/the-connaught-hotel-london-squarelogo-1527594846761.png",
+     "approvalStatus": "APPROVED"
+    }
+   }
+  ],
+  "scrapedAt": "2026-11-17T10:17:02.516Z",
+  "shortName": "Claridge's",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 2225129,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 1073304
+  },
+  "inputSource": "Claridge's",
+  "reviewCount": 59,
+  "rowsWritten": {},
+  "yearFounded": 1812,
+  "activeStatus": "INACTIVE",
+  "headquarters": "London, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/2225129/claridge-s-squarelogo-1534345618957.png",
+  "sizeCategory": "MEDIUM",
+  "subsidiaries": [],
+  "overallRating": 4.2,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/2225129/claridge-s-squarelogo-1534345618957.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/2225129/claridge-s-squarelogo-1534345618957.png",
+  "allReviewsCount": 59,
+  "officeAddresses": [],
+  "primaryIndustry": {
+   "sectorId": 10025,
+   "industryId": 200139,
+   "sectorName": "Hotels & Travel Accommodation",
+   "industryName": "Hotels & Resorts"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200139,
+  "ratedReviewsCount": 52,
+  "filteredReviewsCount": 47,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 2,
+    "2": 0,
+    "3": 13,
+    "4": 18,
+    "5": 19
+   },
+   "workLifeBalance": {
+    "1": 5,
+    "2": 5,
+    "3": 16,
+    "4": 8,
+    "5": 8
+   },
+   "cultureAndValues": {
+    "1": 3,
+    "2": 1,
+    "3": 7,
+    "4": 13,
+    "5": 17
+   },
+   "seniorManagement": {
+    "1": 4,
+    "2": 5,
+    "3": 7,
+    "4": 13,
+    "5": 12
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 27,
+    "WONT_RECOMMEND": 7
+   },
+   "careerOpportunities": {
+    "1": 0,
+    "2": 3,
+    "3": 13,
+    "4": 11,
+    "5": 12
+   },
+   "diversityAndInclusion": {
+    "1": 2,
+    "2": 1,
+    "3": 7,
+    "4": 11,
+    "5": 15
+   },
+   "compensationAndBenefits": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 15,
+    "5": 19
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 47,
+    "isoLanguage": "eng"
+   },
+   {
+    "count": 3,
+    "isoLanguage": "fra"
+   },
+   {
+    "count": 2,
+    "isoLanguage": "deu"
+   }
+  ]
+ },
+ {
+  "id": 620736,
+  "ceo": {
+   "id": 493111,
+   "name": "Atul Lall",
+   "title": "General Manager",
+   "photoUrl": "https://media.glassdoor.com/people/sql/620736/the-claridges-hotels-and-resorts-ceo1495609890105.png"
+  },
+  "mode": "full",
+  "name": "The Claridges Hotels and Resorts",
+  "size": "201 to 500 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/The-Claridges-Hotels-and-Resorts-Jobs-E620736.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/The-Claridges-Hotels-and-Resorts-Reviews-E620736.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/The-Claridges-Hotels-and-Resorts-Benefits-E620736.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-The-Claridges-Hotels-and-Resorts-EI_IE620736.11,43.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/The-Claridges-Hotels-and-Resorts-Salaries-E620736.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/The-Claridges-Hotels-and-Resorts-Interview-Questions-E620736.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 29,
+   "salaryCount": 16,
+   "benefitCount": 13,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 3
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 493111,
+    "name": "Atul Lall",
+    "title": "General Manager",
+    "largePhoto": "https://media.glassdoor.com/people/sqll/620736/the-claridges-hotels-and-resorts-ceo1495609890105.png",
+    "regularPhoto": "https://media.glassdoor.com/people/sql/620736/the-claridges-hotels-and-resorts-ceo1495609890105.png"
+   },
+   "ceoRating": 1,
+   "reviewCount": 28,
+   "overallRating": 4,
+   "ceoRatingsCount": 7,
+   "businessOutlookRating": 0.59,
+   "workLifeBalanceRating": 3.2,
+   "cultureAndValuesRating": 3.6,
+   "seniorManagementRating": 3.4,
+   "recommendToFriendRating": 0.74,
+   "careerOpportunitiesRating": 3.8,
+   "diversityAndInclusionRating": 3.1,
+   "compensationAndBenefitsRating": 3.9
+  },
+  "revenue": "$500 million to $1 billion (USD)",
+  "website": "https://www.claridges.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:17:04.312Z",
+  "shortName": "The Claridges Hotels and Resorts",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 620736,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 756118
+  },
+  "inputSource": "Claridge's",
+  "reviewCount": 29,
+  "rowsWritten": {},
+  "yearFounded": 1955,
+  "activeStatus": "INACTIVE",
+  "headquarters": "New Delhi, India",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/620736/the-claridges-hotels-and-resorts-squarelogo-1534345138415.png",
+  "sizeCategory": "MEDIUM",
+  "subsidiaries": [],
+  "overallRating": 4,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/620736/the-claridges-hotels-and-resorts-squarelogo-1534345138415.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/620736/the-claridges-hotels-and-resorts-squarelogo-1534345138415.png",
+  "allReviewsCount": 29,
+  "officeAddresses": [],
+  "primaryIndustry": {
+   "sectorId": 10025,
+   "industryId": 200139,
+   "sectorName": "Hotels & Travel Accommodation",
+   "industryName": "Hotels & Resorts"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200139,
+  "ratedReviewsCount": 28,
+  "filteredReviewsCount": 28,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 2,
+    "3": 8,
+    "4": 6,
+    "5": 12
+   },
+   "workLifeBalance": {
+    "1": 3,
+    "2": 4,
+    "3": 5,
+    "4": 9,
+    "5": 5
+   },
+   "cultureAndValues": {
+    "1": 1,
+    "2": 3,
+    "3": 6,
+    "4": 9,
+    "5": 7
+   },
+   "seniorManagement": {
+    "1": 1,
+    "2": 4,
+    "3": 5,
+    "4": 10,
+    "5": 5
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 18,
+    "WONT_RECOMMEND": 4
+   },
+   "careerOpportunities": {
+    "1": 1,
+    "2": 2,
+    "3": 8,
+    "4": 5,
+    "5": 9
+   },
+   "diversityAndInclusion": {
+    "1": 1,
+    "2": 0,
+    "3": 3,
+    "4": 3,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 2,
+    "3": 6,
+    "4": 10,
+    "5": 8
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 28,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 10716136,
+  "ceo": null,
+  "mode": "full",
+  "name": "Clairdges Flowers",
+  "size": "1 to 50 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Clairdges-Flowers-Jobs-E10716136.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Clairdges-Flowers-Reviews-E10716136.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Clairdges-Flowers-Benefits-E10716136.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Clairdges-Flowers-EI_IE10716136.11,28.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Clairdges-Flowers-Salaries-E10716136.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Clairdges-Flowers-Interview-Questions-E10716136.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 1,
+   "salaryCount": 1,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": null,
+   "ceoRating": null,
+   "reviewCount": 1,
+   "overallRating": 5,
+   "ceoRatingsCount": 0,
+   "businessOutlookRating": null,
+   "workLifeBalanceRating": null,
+   "cultureAndValuesRating": null,
+   "seniorManagementRating": null,
+   "recommendToFriendRating": null,
+   "careerOpportunitiesRating": null,
+   "diversityAndInclusionRating": null,
+   "compensationAndBenefitsRating": null
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.claridgesflowers.co.uk",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:17:06.624Z",
+  "shortName": "Clairdges Flowers",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 10716136,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 15469952
+  },
+  "inputSource": "Claridge's",
+  "reviewCount": 1,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "London, United Kingdom",
+  "largeLogoUrl": null,
+  "sizeCategory": "SMALL",
+  "subsidiaries": [],
+  "overallRating": 5,
+  "squareLogoUrl": null,
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": null,
+  "allReviewsCount": 1,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 1,
+  "filteredReviewsCount": 1,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 0,
+    "WONT_RECOMMEND": 0
+   },
+   "careerOpportunities": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 1,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 1050537,
+  "ceo": {
+   "id": 1447574,
+   "name": "Kate Terroni",
+   "title": "CEO ",
+   "photoUrl": "https://media.glassdoor.com/people/sql/1050537/united-response-ceo1745933831184.png"
+  },
+  "mode": "full",
+  "name": "United Response",
+  "size": "1001 to 5000 Employees",
+  "type": "Nonprofit Organization",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/United-Response-Jobs-E1050537.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/United-Response-Reviews-E1050537.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/United-Response-Benefits-E1050537.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-United-Response-EI_IE1050537.11,26.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/United-Response-Salaries-E1050537.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/United-Response-Interview-Questions-E1050537.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": 2,
+   "reviewCount": 143,
+   "salaryCount": 391,
+   "benefitCount": 25,
+   "globalJobCount": {
+    "jobCount": 59
+   },
+   "interviewCount": 10
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 1447574,
+    "name": "Kate Terroni",
+    "title": "CEO",
+    "largePhoto": "https://media.glassdoor.com/people/sqll/1050537/united-response-ceo1745933831184.png",
+    "regularPhoto": "https://media.glassdoor.com/people/sql/1050537/united-response-ceo1745933831184.png"
+   },
+   "ceoRating": 0.49,
+   "reviewCount": 135,
+   "overallRating": 3.5,
+   "ceoRatingsCount": 4,
+   "businessOutlookRating": 0.51,
+   "workLifeBalanceRating": 3.7,
+   "cultureAndValuesRating": 3.6,
+   "seniorManagementRating": 3.1,
+   "recommendToFriendRating": 0.55,
+   "careerOpportunitiesRating": 3.1,
+   "diversityAndInclusionRating": 3.6,
+   "compensationAndBenefitsRating": 2.9
+  },
+  "revenue": "$100 to $500 million (USD)",
+  "website": "https://www.unitedresponse.org.uk",
+  "overview": {
+   "mission": "Our mission is to ensure that people with learning disabilities, mental and physical support needs have the opportunity to live their lives to the full",
+   "description": "           "
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:17:10.596Z",
+  "shortName": "United Response",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 1050537,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 673929
+  },
+  "inputSource": "United Response",
+  "reviewCount": 143,
+  "rowsWritten": {},
+  "yearFounded": 1973,
+  "activeStatus": "ACTIVE",
+  "headquarters": "Wimbledon, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/1050537/united-response-squarelogo-1560866988971.png",
+  "sizeCategory": "LARGE",
+  "subsidiaries": [],
+  "overallRating": 3.5,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/1050537/united-response-squarelogo-1560866988971.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/1050537/united-response-squarelogo-1560866988971.png",
+  "allReviewsCount": 143,
+  "officeAddresses": [
+   {
+    "id": 289794,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Derby",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 379952,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365884,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Welwyn Garden City",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454934,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 289790,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "London",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 379948,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365886,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Folkestone",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454936,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365887,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Maidstone",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454937,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365881,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Manchester",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454931,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 289789,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Bradford",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 379947,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 478214,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Bristol",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 557028,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365882,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Chesterfield",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454932,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 289795,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Newcastle upon Tyne",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 379953,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 289791,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "York",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 379949,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365885,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Ipswich",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454935,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 289796,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Darlington",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 379954,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 289797,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Totnes",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 379955,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365880,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Liverpool",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454930,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365879,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Leeds",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454929,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365888,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Wimbledon",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454938,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 289798,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Nottingham",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 379956,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 365883,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Mansfield",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 454933,
+    "administrativeAreaName1": "ENG"
+   }
+  ],
+  "primaryIndustry": {
+   "sectorId": 10018,
+   "industryId": 200087,
+   "sectorName": "Nonprofit & NGO",
+   "industryName": "Grantmaking & Charitable Foundations"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200087,
+  "ratedReviewsCount": 135,
+  "filteredReviewsCount": 135,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 16,
+    "2": 14,
+    "3": 32,
+    "4": 29,
+    "5": 44
+   },
+   "workLifeBalance": {
+    "1": 20,
+    "2": 15,
+    "3": 23,
+    "4": 29,
+    "5": 28
+   },
+   "cultureAndValues": {
+    "1": 16,
+    "2": 9,
+    "3": 16,
+    "4": 28,
+    "5": 47
+   },
+   "seniorManagement": {
+    "1": 33,
+    "2": 12,
+    "3": 15,
+    "4": 22,
+    "5": 32
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 63,
+    "WONT_RECOMMEND": 40
+   },
+   "careerOpportunities": {
+    "1": 25,
+    "2": 17,
+    "3": 25,
+    "4": 24,
+    "5": 25
+   },
+   "diversityAndInclusion": {
+    "1": 8,
+    "2": 9,
+    "3": 12,
+    "4": 23,
+    "5": 27
+   },
+   "compensationAndBenefits": {
+    "1": 29,
+    "2": 15,
+    "3": 29,
+    "4": 29,
+    "5": 14
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 135,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 804669,
+  "ceo": {
+   "id": 322037,
+   "name": "Paul Gordon Prescott",
+   "title": "Director",
+   "photoUrl": null
+  },
+  "mode": "full",
+  "name": "Scottish Autism",
+  "size": "501 to 1000 Employees",
+  "type": "Unknown",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Scottish-Autism-Jobs-E804669.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Scottish-Autism-Reviews-E804669.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Scottish-Autism-Benefits-E804669.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Scottish-Autism-EI_IE804669.11,26.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Scottish-Autism-Salaries-E804669.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Scottish-Autism-Interview-Questions-E804669.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 56,
+   "salaryCount": 125,
+   "benefitCount": 7,
+   "globalJobCount": {
+    "jobCount": 14
+   },
+   "interviewCount": 8
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 322037,
+    "name": "Paul Gordon Prescott",
+    "title": "Director",
+    "largePhoto": null,
+    "regularPhoto": null
+   },
+   "ceoRating": 0.48,
+   "reviewCount": 52,
+   "overallRating": 2.9,
+   "ceoRatingsCount": 18,
+   "businessOutlookRating": 0.22,
+   "workLifeBalanceRating": 2.8,
+   "cultureAndValuesRating": 2.9,
+   "seniorManagementRating": 2.5,
+   "recommendToFriendRating": 0.41,
+   "careerOpportunitiesRating": 2.6,
+   "diversityAndInclusionRating": 3.3,
+   "compensationAndBenefitsRating": 2.6
+  },
+  "revenue": "$25 to $100 million (USD)",
+  "website": "https://www.scottishautism.org",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:17:13.547Z",
+  "shortName": "Scottish Autism",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 804669,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 10922152
+  },
+  "inputSource": "Scottish Autism",
+  "reviewCount": 56,
+  "rowsWritten": {},
+  "yearFounded": 1968,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Alloa, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/804669/scottish-autism-squarelogo-1474881951565.png",
+  "sizeCategory": "MEDIUM_TO_LARGE",
+  "subsidiaries": [],
+  "overallRating": 2.9,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/804669/scottish-autism-squarelogo-1474881951565.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/804669/scottish-autism-squarelogo-1474881951565.png",
+  "allReviewsCount": 56,
+  "officeAddresses": [
+   {
+    "id": 271001,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Alloa",
+    "postalCode": "",
+    "countryName": "United Kingdom",
+    "addressLine1": "",
+    "addressLine2": "",
+    "officeLocationId": 361369,
+    "administrativeAreaName1": "SCT"
+   }
+  ],
+  "primaryIndustry": {
+   "sectorId": 10018,
+   "industryId": 200089,
+   "sectorName": "Nonprofit & NGO",
+   "industryName": "Civic & Social Services"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200089,
+  "ratedReviewsCount": 52,
+  "filteredReviewsCount": 52,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 12,
+    "2": 10,
+    "3": 10,
+    "4": 8,
+    "5": 12
+   },
+   "workLifeBalance": {
+    "1": 14,
+    "2": 7,
+    "3": 7,
+    "4": 4,
+    "5": 10
+   },
+   "cultureAndValues": {
+    "1": 13,
+    "2": 8,
+    "3": 4,
+    "4": 4,
+    "5": 12
+   },
+   "seniorManagement": {
+    "1": 17,
+    "2": 8,
+    "3": 3,
+    "4": 4,
+    "5": 9
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 16,
+    "WONT_RECOMMEND": 21
+   },
+   "careerOpportunities": {
+    "1": 14,
+    "2": 8,
+    "3": 7,
+    "4": 5,
+    "5": 7
+   },
+   "diversityAndInclusion": {
+    "1": 8,
+    "2": 2,
+    "3": 6,
+    "4": 3,
+    "5": 12
+   },
+   "compensationAndBenefits": {
+    "1": 16,
+    "2": 5,
+    "3": 9,
+    "4": 6,
+    "5": 6
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 52,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 417178,
+  "ceo": {
+   "id": 312058,
+   "name": "Clive Beecham",
+   "title": "Founder",
+   "photoUrl": null
+  },
+  "mode": "full",
+  "name": "Kinnerton Confectionery Company Ltd.",
+  "size": "501 to 1000 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Kinnerton-Confectionery-Jobs-E417178.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Kinnerton-Confectionery-Reviews-E417178.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Kinnerton-Confectionery-Benefits-E417178.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Kinnerton-Confectionery-EI_IE417178.11,34.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Kinnerton-Confectionery-Salaries-E417178.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Kinnerton-Confectionery-Interview-Questions-E417178.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 18,
+   "salaryCount": 32,
+   "benefitCount": 6,
+   "globalJobCount": {
+    "jobCount": 4
+   },
+   "interviewCount": 3
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 312058,
+    "name": "Clive Beecham",
+    "title": "Founder",
+    "largePhoto": null,
+    "regularPhoto": null
+   },
+   "ceoRating": 0.54,
+   "reviewCount": 17,
+   "overallRating": 3.2,
+   "ceoRatingsCount": 7,
+   "businessOutlookRating": 0.15,
+   "workLifeBalanceRating": 3.5,
+   "cultureAndValuesRating": 2.9,
+   "seniorManagementRating": 2.9,
+   "recommendToFriendRating": 0.53,
+   "careerOpportunitiesRating": 2.6,
+   "diversityAndInclusionRating": 3.3,
+   "compensationAndBenefitsRating": 2.6
+  },
+  "revenue": "$25 to $100 million (USD)",
+  "website": "https://www.kinnerton.com",
+  "overview": {
+   "mission": null,
+   "description": "Kinnerton Confectionery is Britain’s largest independent manufacturer of chocolate and novelty confectionery specialising in character merchandising.\r\n\r\nOperating across three manufacturing sites in the UK and one in Ireland, we offer the ability to make Novelty, Panned and Boxed Chocolates. We currently employ around 800 employees and strive to never stand still, so innovation is at the heart of what we do! "
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:17:16.832Z",
+  "shortName": "Kinnerton Confectionery",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 417178,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 60656
+  },
+  "inputSource": "Kinnerton Confectionery",
+  "reviewCount": 18,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "London, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/417178/kinnerton-confectionery-squarelogo-1392294416621.png",
+  "sizeCategory": "MEDIUM_TO_LARGE",
+  "subsidiaries": [],
+  "overallRating": 3.2,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/417178/kinnerton-confectionery-squarelogo-1392294416621.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/417178/kinnerton-confectionery-squarelogo-1392294416621.png",
+  "allReviewsCount": 18,
+  "officeAddresses": [
+   {
+    "id": 93904,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Wisbech",
+    "postalCode": "PE13 4AE",
+    "countryName": "United Kingdom",
+    "addressLine1": "Wisbech Fen, Guyhirn",
+    "addressLine2": "",
+    "officeLocationId": 190853,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 93898,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "London",
+    "postalCode": "NW5 1TL",
+    "countryName": "United Kingdom",
+    "addressLine1": "1000 Highgate Studios, 53 - 79 Highgate Road",
+    "addressLine2": "",
+    "officeLocationId": 190849,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 93901,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Fakenham",
+    "postalCode": "NR21 8AF",
+    "countryName": "United Kingdom",
+    "addressLine1": "Units 1&2 Oxborough Lane",
+    "addressLine2": "",
+    "officeLocationId": 190850,
+    "administrativeAreaName1": "ENG"
+   },
+   {
+    "id": 93902,
+    "country": {
+     "id": 2,
+     "name": "United Kingdom",
+     "continent": {
+      "id": 4,
+      "name": "Europe"
+     }
+    },
+    "cityName": "Sherburn",
+    "postalCode": "LS25 6PJ",
+    "countryName": "United Kingdom",
+    "addressLine1": "4 Lincoln Way, Aviation Road",
+    "addressLine2": "",
+    "officeLocationId": 190851,
+    "administrativeAreaName1": "ENG"
+   }
+  ],
+  "primaryIndustry": {
+   "sectorId": 10015,
+   "industryId": 200071,
+   "sectorName": "Manufacturing",
+   "industryName": "Food & Beverage Manufacturing"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200071,
+  "ratedReviewsCount": 17,
+  "filteredReviewsCount": 17,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 3,
+    "2": 1,
+    "3": 8,
+    "4": 2,
+    "5": 3
+   },
+   "workLifeBalance": {
+    "1": 1,
+    "2": 2,
+    "3": 4,
+    "4": 8,
+    "5": 1
+   },
+   "cultureAndValues": {
+    "1": 4,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 2
+   },
+   "seniorManagement": {
+    "1": 3,
+    "2": 3,
+    "3": 5,
+    "4": 4,
+    "5": 1
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 7,
+    "WONT_RECOMMEND": 8
+   },
+   "careerOpportunities": {
+    "1": 4,
+    "2": 3,
+    "3": 6,
+    "4": 2,
+    "5": 1
+   },
+   "diversityAndInclusion": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2
+   },
+   "compensationAndBenefits": {
+    "1": 3,
+    "2": 4,
+    "3": 7,
+    "4": 1,
+    "5": 1
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 17,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 5101560,
+  "ceo": {
+   "id": 920437,
+   "name": "Alessandra Cama",
+   "title": "Vorsitzende der Geschäftsführung",
+   "photoUrl": "https://media.glassdoor.com/people/sql/5101560/kinnerton-confectionery-company-ceo1632887420643.png"
+  },
+  "mode": "full",
+  "name": "Kinnerton Confectionery Company Ltd",
+  "size": "Unknown",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Kinnerton-Confectionery-Company-Jobs-E5101560.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Kinnerton-Confectionery-Company-Reviews-E5101560.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Kinnerton-Confectionery-Company-Benefits-E5101560.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Kinnerton-Confectionery-Company-EI_IE5101560.11,42.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Kinnerton-Confectionery-Company-Salaries-E5101560.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Kinnerton-Confectionery-Company-Interview-Questions-E5101560.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 7,
+   "salaryCount": 11,
+   "benefitCount": null,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 0
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 920437,
+    "name": "Alessandra Cama",
+    "title": "Vorsitzende der Geschäftsführung",
+    "largePhoto": "https://media.glassdoor.com/people/sqll/5101560/kinnerton-confectionery-company-ceo1632887420642.png",
+    "regularPhoto": "https://media.glassdoor.com/people/sql/5101560/kinnerton-confectionery-company-ceo1632887420643.png"
+   },
+   "ceoRating": 1,
+   "reviewCount": 7,
+   "overallRating": 3.2,
+   "ceoRatingsCount": 2,
+   "businessOutlookRating": 1,
+   "workLifeBalanceRating": 4.5,
+   "cultureAndValuesRating": 4,
+   "seniorManagementRating": 3.5,
+   "recommendToFriendRating": 1,
+   "careerOpportunitiesRating": 3.6,
+   "diversityAndInclusionRating": 4.6,
+   "compensationAndBenefitsRating": 3
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.kinnerton.com",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:17:18.404Z",
+  "shortName": "Kinnerton Confectionery Company",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 5101560,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 11192667
+  },
+  "inputSource": "Kinnerton Confectionery",
+  "reviewCount": 7,
+  "rowsWritten": {},
+  "yearFounded": null,
+  "activeStatus": "INACTIVE",
+  "headquarters": "Fakenham, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/5101560/kinnerton-confectionery-company-squarelogo-1626741798851.png",
+  "sizeCategory": "UNKNOWN",
+  "subsidiaries": [],
+  "overallRating": 3.2,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/5101560/kinnerton-confectionery-company-squarelogo-1626741798851.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/5101560/kinnerton-confectionery-company-squarelogo-1626741798851.png",
+  "allReviewsCount": 7,
+  "officeAddresses": [],
+  "primaryIndustry": null,
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": null,
+  "ratedReviewsCount": 7,
+  "filteredReviewsCount": 7,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 0,
+    "2": 2,
+    "3": 3,
+    "4": 0,
+    "5": 2
+   },
+   "workLifeBalance": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 3
+   },
+   "cultureAndValues": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 2,
+    "5": 1
+   },
+   "seniorManagement": {
+    "1": 0,
+    "2": 0,
+    "3": 2,
+    "4": 2,
+    "5": 0
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 2,
+    "WONT_RECOMMEND": 0
+   },
+   "careerOpportunities": {
+    "1": 1,
+    "2": 0,
+    "3": 2,
+    "4": 0,
+    "5": 2
+   },
+   "diversityAndInclusion": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 2,
+    "5": 2
+   },
+   "compensationAndBenefits": {
+    "1": 0,
+    "2": 2,
+    "3": 0,
+    "4": 2,
+    "5": 0
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 7,
+    "isoLanguage": "eng"
+   }
+  ]
+ },
+ {
+  "id": 865857,
+  "ceo": {
+   "id": 344053,
+   "name": "Andrew Bromley",
+   "title": "Managing Director",
+   "photoUrl": null
+  },
+  "mode": "full",
+  "name": "Russell & Bromley Ltd",
+  "size": "201 to 500 Employees",
+  "type": "Company - Private",
+  "links": {
+   "jobsUrl": "https://www.glassdoor.com/Jobs/Russell-and-Bromley-Jobs-E865857.htm",
+   "reviewsUrl": "https://www.glassdoor.com/Reviews/Russell-and-Bromley-Reviews-E865857.htm",
+   "benefitsUrl": "https://www.glassdoor.com/Benefits/Russell-and-Bromley-Benefits-E865857.htm",
+   "overviewUrl": "https://www.glassdoor.com/Overview/Working-at-Russell-and-Bromley-EI_IE865857.11,30.htm",
+   "salariesUrl": "https://www.glassdoor.com/Salary/Russell-and-Bromley-Salaries-E865857.htm",
+   "interviewUrl": "https://www.glassdoor.com/Interview/Russell-and-Bromley-Interview-Questions-E865857.htm"
+  },
+  "awards": [],
+  "counts": {
+   "photoCount": null,
+   "reviewCount": 219,
+   "salaryCount": 291,
+   "benefitCount": 50,
+   "globalJobCount": {
+    "jobCount": 0
+   },
+   "interviewCount": 38
+  },
+  "parent": null,
+  "status": "complete",
+  "isValid": true,
+  "ratings": {
+   "ratedCeo": {
+    "id": 344053,
+    "name": "Andrew Bromley",
+    "title": "Managing Director",
+    "largePhoto": null,
+    "regularPhoto": null
+   },
+   "ceoRating": 0.58,
+   "reviewCount": 208,
+   "overallRating": 3.6,
+   "ceoRatingsCount": 95,
+   "businessOutlookRating": 0.33,
+   "workLifeBalanceRating": 3.7,
+   "cultureAndValuesRating": 3.6,
+   "seniorManagementRating": 3.4,
+   "recommendToFriendRating": 0.53,
+   "careerOpportunitiesRating": 3.2,
+   "diversityAndInclusionRating": 3.6,
+   "compensationAndBenefitsRating": 3.5
+  },
+  "revenue": "Unknown / Non-Applicable",
+  "website": "https://www.russellandbromley.co.uk",
+  "overview": {
+   "mission": null,
+   "description": null
+  },
+  "siblings": [],
+  "scrapedAt": "2026-11-17T10:17:20.388Z",
+  "shortName": "Russell & Bromley",
+  "coverPhoto": {
+   "hiResUrl": null
+  },
+  "employerId": 865857,
+  "recordType": "company",
+  "bestProfile": {
+   "id": 176026
+  },
+  "inputSource": "Russell & Bromley",
+  "reviewCount": 219,
+  "rowsWritten": {},
+  "yearFounded": 1880,
+  "activeStatus": "INACTIVE",
+  "headquarters": "London, United Kingdom",
+  "largeLogoUrl": "https://media.glassdoor.com/sqll/865857/russell-and-bromley-squareLogo-1727426983969.png",
+  "sizeCategory": "MEDIUM",
+  "subsidiaries": [],
+  "overallRating": 3.6,
+  "squareLogoUrl": "https://media.glassdoor.com/sqls/865857/russell-and-bromley-squareLogo-1727426988799.png",
+  "approvalStatus": "APPROVED",
+  "failedSections": [],
+  "regularLogoUrl": "https://media.glassdoor.com/sql/865857/russell-and-bromley-squareLogo-1727426965658.png",
+  "allReviewsCount": 219,
+  "officeAddresses": [],
+  "primaryIndustry": {
+   "sectorId": 10022,
+   "industryId": 200105,
+   "sectorName": "Retail & Wholesale",
+   "industryName": "Department, Clothing & Shoe Stores"
+  },
+  "bestLedCompanies": [],
+  "bestPlacesToWork": [],
+  "primaryIndustryId": 200105,
+  "ratedReviewsCount": 208,
+  "filteredReviewsCount": 207,
+  "ratingCountDistribution": {
+   "overall": {
+    "1": 15,
+    "2": 22,
+    "3": 39,
+    "4": 68,
+    "5": 64
+   },
+   "workLifeBalance": {
+    "1": 18,
+    "2": 19,
+    "3": 36,
+    "4": 41,
+    "5": 47
+   },
+   "cultureAndValues": {
+    "1": 25,
+    "2": 9,
+    "3": 28,
+    "4": 40,
+    "5": 58
+   },
+   "seniorManagement": {
+    "1": 31,
+    "2": 13,
+    "3": 30,
+    "4": 42,
+    "5": 44
+   },
+   "recommendToFriend": {
+    "RECOMMEND": 100,
+    "WONT_RECOMMEND": 41
+   },
+   "careerOpportunities": {
+    "1": 19,
+    "2": 29,
+    "3": 44,
+    "4": 36,
+    "5": 29
+   },
+   "diversityAndInclusion": {
+    "1": 12,
+    "2": 8,
+    "3": 15,
+    "4": 31,
+    "5": 39
+   },
+   "compensationAndBenefits": {
+    "1": 10,
+    "2": 21,
+    "3": 43,
+    "4": 46,
+    "5": 40
+   }
+  },
+  "filteredReviewsCountByLang": [
+   {
+    "count": 207,
+    "isoLanguage": "eng"
+   },
+   {
+    "count": 1,
+    "isoLanguage": "spa"
+   }
+  ]
+ }
+]

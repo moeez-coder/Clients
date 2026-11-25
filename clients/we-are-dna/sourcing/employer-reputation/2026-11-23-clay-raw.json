@@ -1,0 +1,3100 @@
+{
+ "tool": "Clay MCP search-contacts (workspace 770250), 2026-11-23, gap-fill on companies Blitz left empty. Stopped by Moe after 35 of 188 batches (c1c2 0-12 of 98, c3 0-21 of 90). Contacts from inline results were transcribed by subagents via clay_append.py --stdin; file-saved results via --file.",
+ "calls": [
+  {
+   "campaign": "c1c2",
+   "batch": 0,
+   "taskId": "mcp-task_0toyef2eTfanfPyaVBn",
+   "contacts": [
+    {
+     "name": "Ian Kelly",
+     "latest_experience_title": "Managing Director, Head of Private Markets International",
+     "url": "https://www.linkedin.com/in/ian-kelly-719ba09/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "sscglobeop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ss&c-globeop",
+     "profile_id": "548018019",
+     "latest_experience_start_date": "2022-10"
+    },
+    {
+     "name": "Rob Pardon",
+     "latest_experience_title": "Deputy Director of People and Workforce Development",
+     "url": "https://www.linkedin.com/in/rob-pardon-4821bb14/",
+     "location_name": "Whittlebury, England, United Kingdom",
+     "domain": "linktr.ee/standrewscare",
+     "companyIdentifier": "https://www.linkedin.com/company/st-andrew%27s-healthcare",
+     "profile_id": "441316151",
+     "latest_experience_start_date": "2025-02"
+    },
+    {
+     "name": "Alexandra Bode-Tunji - FCIPD",
+     "latest_experience_title": "Chief People Officer",
+     "url": "https://www.linkedin.com/in/alexandra-bode-tunji-fcipd-08216611/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "changegrowlive.org",
+     "companyIdentifier": "https://www.linkedin.com/company/change-grow-live",
+     "profile_id": "69458012",
+     "latest_experience_start_date": "2024-10"
+    },
+    {
+     "name": "Richard Ingram",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/richard-ingram-0125773/",
+     "location_name": "Bredgar, England, United Kingdom",
+     "domain": "sscglobeop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ss&c-globeop",
+     "profile_id": "405240840",
+     "latest_experience_start_date": "2023-04"
+    },
+    {
+     "name": "Punit Satsangi",
+     "latest_experience_title": "Managing Director, Head of International Business Development",
+     "url": "https://www.linkedin.com/in/punit-satsangi-b639356/",
+     "location_name": "St Albans, England, United Kingdom",
+     "domain": "sscglobeop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ss&c-globeop",
+     "profile_id": "617966964",
+     "latest_experience_start_date": "2012-02"
+    },
+    {
+     "name": "Jonathan Sherman, CFA",
+     "latest_experience_title": "Managing Director - Hybrid Funds",
+     "url": "https://www.linkedin.com/in/jonathan-sherman-cfa-902a685/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "sscglobeop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ss&c-globeop",
+     "profile_id": "571596032",
+     "latest_experience_start_date": "2013-09"
+    },
+    {
+     "name": "Emma Hughes Chartered FCIPD",
+     "latest_experience_title": "Head of People Practices",
+     "url": "https://www.linkedin.com/in/emma-hughes-22511a42/",
+     "location_name": "Edinburgh, Scotland, United Kingdom",
+     "domain": "tescobank.com",
+     "companyIdentifier": "https://www.linkedin.com/company/tesco-bank",
+     "profile_id": "22767424",
+     "latest_experience_start_date": "2025-07"
+    },
+    {
+     "name": "Catherine Storie",
+     "latest_experience_title": "Managing Director: Commercial Finance (incl Commercial Finance, FP&A, Costs and Procurement)",
+     "url": "https://www.linkedin.com/in/catherine-storie-98404a19/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "tescobank.com",
+     "companyIdentifier": "https://www.linkedin.com/company/tesco-bank",
+     "profile_id": "786289134",
+     "latest_experience_start_date": "2023-04"
+    },
+    {
+     "name": "Ellie Ward",
+     "latest_experience_title": "Executive Assistant to CFO, COO (& Head of Liverpool) and Finance Director",
+     "url": "https://www.linkedin.com/in/ellie-ward-a7992368/",
+     "location_name": "Ingatestone, England, United Kingdom",
+     "domain": "taylorwessing.com",
+     "companyIdentifier": "https://www.linkedin.com/company/taylor-wessing",
+     "profile_id": "566717884",
+     "latest_experience_start_date": "2023-07"
+    },
+    {
+     "name": "Nicolas Grenie",
+     "latest_experience_title": "Managing Director Development",
+     "url": "https://www.linkedin.com/in/nicolas-grenie-a64606/",
+     "location_name": "United Kingdom",
+     "domain": "sscglobeop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ss&c-globeop",
+     "profile_id": "552446463",
+     "latest_experience_start_date": "2004-07"
+    },
+    {
+     "name": "Neale Gamble",
+     "latest_experience_title": "Deputy Director of HR",
+     "url": "https://www.linkedin.com/in/neale-gamble-5198849/",
+     "location_name": "Greater Northampton Area, United Kingdom",
+     "domain": "linktr.ee/standrewscare",
+     "companyIdentifier": "https://www.linkedin.com/company/st-andrew%27s-healthcare",
+     "profile_id": "377547256",
+     "latest_experience_start_date": "2023-11"
+    },
+    {
+     "name": "Karen Bandoh FCIPD",
+     "latest_experience_title": "People Director",
+     "url": "https://www.linkedin.com/in/karen-bandoh-fcipd-a16bb45/",
+     "location_name": "United Kingdom",
+     "domain": "mountainwarehouse.com",
+     "companyIdentifier": "https://www.linkedin.com/company/mountain-warehouse",
+     "profile_id": "457368481",
+     "latest_experience_start_date": "2021-11"
+    },
+    {
+     "name": "Helen Faulkner Chartered FCIPD",
+     "latest_experience_title": "Head of People Services",
+     "url": "https://www.linkedin.com/in/helen-faulkner/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "tescobank.com",
+     "companyIdentifier": "https://www.linkedin.com/company/tesco-bank",
+     "profile_id": "131223494",
+     "latest_experience_start_date": "2024-10"
+    },
+    {
+     "name": "Rupert Hay",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/rupert-hay-046b83a0/",
+     "location_name": "Manchester Area, United Kingdom",
+     "domain": "crewclothing.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/crew-clothing-co",
+     "profile_id": "601540265",
+     "latest_experience_start_date": "2019-01"
+    },
+    {
+     "name": "Richard Atkinson",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/richard-atkinson-7b099020/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "sscglobeop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ss&c-globeop",
+     "profile_id": "269028707",
+     "latest_experience_start_date": "2002-02"
+    },
+    {
+     "name": "Louise Grimshaw",
+     "latest_experience_title": "Director of People",
+     "url": "https://www.linkedin.com/in/louise-grimshaw-010573110/",
+     "location_name": "Leeds, England, United Kingdom",
+     "domain": "changegrowlive.org",
+     "companyIdentifier": "https://www.linkedin.com/company/change-grow-live",
+     "profile_id": "374766215",
+     "latest_experience_start_date": "2021-12"
+    },
+    {
+     "name": "Stacey Carter",
+     "latest_experience_title": "HR Director",
+     "url": "https://www.linkedin.com/in/stacey-carter-a7b71645/",
+     "location_name": "Northampton, England, United Kingdom",
+     "domain": "linktr.ee/standrewscare",
+     "companyIdentifier": "https://www.linkedin.com/company/st-andrew%27s-healthcare",
+     "profile_id": "817664558",
+     "latest_experience_start_date": "2023-08"
+    },
+    {
+     "name": "Sarah Bond",
+     "latest_experience_title": "Interim Head of People Services",
+     "url": "https://www.linkedin.com/in/sarah-bond-7663b24a/",
+     "location_name": "Alloa, Scotland, United Kingdom",
+     "domain": "tescobank.com",
+     "companyIdentifier": "https://www.linkedin.com/company/tesco-bank",
+     "profile_id": "103705618",
+     "latest_experience_start_date": "2026-01"
+    },
+    {
+     "name": "Jane Hinchliffe",
+     "latest_experience_title": "Head of People Practises",
+     "url": "https://www.linkedin.com/in/jane-hinchliffe-02b253228/",
+     "location_name": "Helensburgh, Scotland, United Kingdom",
+     "domain": "tescobank.com",
+     "companyIdentifier": "https://www.linkedin.com/company/tesco-bank",
+     "profile_id": "757205617",
+     "latest_experience_start_date": "2022-03"
+    },
+    {
+     "name": "Daisy Harvey-Shelsky",
+     "latest_experience_title": "Senior MD In-Reach Worker",
+     "url": "https://www.linkedin.com/in/daisy-harvey-shelsky-988845255/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "changegrowlive.org",
+     "companyIdentifier": "https://www.linkedin.com/company/change-grow-live",
+     "profile_id": "115046859",
+     "latest_experience_start_date": "2026-04"
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 1,
+   "taskId": "mcp-task_0toyeginANJFAeZPPWi",
+   "contacts": [
+    {
+     "name": "William Cristanelli",
+     "latest_experience_title": "managing director UK and Europe",
+     "url": "https://www.linkedin.com/in/william-cristanelli-38bb8135/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "zumarestaurant.com",
+     "companyIdentifier": "https://www.linkedin.com/company/zuma",
+     "profile_id": "328680147",
+     "latest_experience_start_date": "2021-01"
+    },
+    {
+     "name": "Rafael Museri",
+     "latest_experience_title": "CEO",
+     "url": "https://www.linkedin.com/in/rafael-museri/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "selina.com",
+     "companyIdentifier": "https://www.linkedin.com/company/selina",
+     "profile_id": "305513476",
+     "latest_experience_start_date": "2015-04"
+    },
+    {
+     "name": "Anna Sparks",
+     "latest_experience_title": "Head of People & Talent",
+     "url": "https://www.linkedin.com/in/anna-sparks-49a9a843/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "thewhitecompany.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-white-company",
+     "profile_id": "984097291",
+     "latest_experience_start_date": "2024-07"
+    },
+    {
+     "name": "Laura Treacher",
+     "latest_experience_title": "Head of Human Resources",
+     "url": "https://www.linkedin.com/in/laura-treacher-76208081/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "kurtgeiger.com",
+     "companyIdentifier": "https://www.linkedin.com/company/kurt-geiger",
+     "profile_id": "601650113",
+     "latest_experience_start_date": "2020-11"
+    },
+    {
+     "name": "Helen Gardiner",
+     "latest_experience_title": "Chief Human Resources Officer",
+     "url": "https://www.linkedin.com/in/helen-gardiner-1b36ab1a/",
+     "location_name": "Worcester, England, United Kingdom",
+     "domain": "ontic.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ontic-engineering",
+     "profile_id": "170538777",
+     "latest_experience_start_date": "2017-10"
+    },
+    {
+     "name": "Lin Lloyd",
+     "latest_experience_title": "Executive Assistant to CEO & Executive Leadership Team",
+     "url": "https://www.linkedin.com/in/lin-lloyd-940890101/",
+     "location_name": "Gloucester, England, United Kingdom",
+     "domain": "ontic.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ontic-engineering",
+     "profile_id": "764253316",
+     "latest_experience_start_date": "2023-09"
+    },
+    {
+     "name": "Anna Whitehead",
+     "latest_experience_title": "Interim Head of People & Talent",
+     "url": "https://www.linkedin.com/in/annawhitehead/",
+     "location_name": "Brentwood, England, United Kingdom",
+     "domain": "thewhitecompany.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-white-company",
+     "profile_id": "116441865",
+     "latest_experience_start_date": "2026-08"
+    },
+    {
+     "name": "Jessica Mattock MCIPD",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/jessica-mattock-mcipd-a300a71a/",
+     "location_name": "Gloucestershire, England, United Kingdom",
+     "domain": "ontic.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ontic-engineering",
+     "profile_id": "31454139",
+     "latest_experience_start_date": "2021-12"
+    },
+    {
+     "name": "Candyce Newman",
+     "latest_experience_title": "Executive Assistant & Business Manager to CEO",
+     "url": "https://www.linkedin.com/in/candyce-newman-a6b4ab99/",
+     "location_name": "United Kingdom",
+     "domain": "thewhitecompany.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-white-company",
+     "profile_id": "75961517",
+     "latest_experience_start_date": "2025-02"
+    },
+    {
+     "name": "Fiona K.",
+     "latest_experience_title": "HR Director",
+     "url": "https://www.linkedin.com/in/fiona-k-65bb44b/",
+     "location_name": "Ludlow, England, United Kingdom",
+     "domain": "mandmdirect.com",
+     "companyIdentifier": "https://www.linkedin.com/company/mandmdirect",
+     "profile_id": "121029937",
+     "latest_experience_start_date": "2019-01"
+    },
+    {
+     "name": "Jo Preece",
+     "latest_experience_title": "Head of HR - Head Office & EU",
+     "url": "https://www.linkedin.com/in/jo-preece-b5249953/",
+     "location_name": "Hereford, England, United Kingdom",
+     "domain": "mandmdirect.com",
+     "companyIdentifier": "https://www.linkedin.com/company/mandmdirect",
+     "profile_id": "696062611",
+     "latest_experience_start_date": "2023-08"
+    },
+    {
+     "name": "Olivia Wills",
+     "latest_experience_title": "PA to Chief Executive Officer & Chief Creative Officer",
+     "url": "https://www.linkedin.com/in/oliviawills1993/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "kurtgeiger.com",
+     "companyIdentifier": "https://www.linkedin.com/company/kurt-geiger",
+     "profile_id": "593585265",
+     "latest_experience_start_date": "2017-10"
+    },
+    {
+     "name": "Anna Lunts",
+     "latest_experience_title": "Chief Executive Officer",
+     "url": "https://www.linkedin.com/in/anna-lunts-47737a338/",
+     "location_name": "Stockport, England, United Kingdom",
+     "domain": "creativesupport.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/creative-support",
+     "profile_id": "502209874",
+     "latest_experience_start_date": null
+    },
+    {
+     "name": "Tara Wills",
+     "latest_experience_title": "Head of Human Resources Operations",
+     "url": "https://www.linkedin.com/in/tara-wills-9166b31b3/",
+     "location_name": "United Kingdom",
+     "domain": "mandmdirect.com",
+     "companyIdentifier": "https://www.linkedin.com/company/mandmdirect",
+     "profile_id": "511909744",
+     "latest_experience_start_date": "2023-08"
+    },
+    {
+     "name": "Heather Pinder",
+     "latest_experience_title": "People Director",
+     "url": "https://www.linkedin.com/in/heather-pinder-80a37a188/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "thewhitecompany.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-white-company",
+     "profile_id": "683438202",
+     "latest_experience_start_date": "2019-02"
+    },
+    {
+     "name": "Anna Sparks",
+     "latest_experience_title": "Head of People & Talent",
+     "url": "https://www.linkedin.com/in/anna-sparks-49a9a843/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "thewhitecompany.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-white-company",
+     "profile_id": "785811678",
+     "latest_experience_start_date": "2024-07"
+    },
+    {
+     "name": "Sarah Dicken",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/sarah-dicken-8664a6150/",
+     "location_name": "Newcastle Upon Tyne, England, United Kingdom",
+     "domain": "creativesupport.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/creative-support",
+     "profile_id": "415523463",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 2,
+   "taskId": "mcp-task_0toyeh9WkC2RFoiDkGT",
+   "contacts": [
+    {
+     "name": "Lorraine Jarman (Higgins)",
+     "latest_experience_title": "Head of People & Culture, London",
+     "url": "https://www.linkedin.com/in/lorraine-jarman-higgins-65217b21/",
+     "location_name": "London Area, United Kingdom",
+     "domain": "thehoxton.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-hoxton-hotel",
+     "profile_id": "141951804",
+     "latest_experience_start_date": "2021-11"
+    },
+    {
+     "name": "Paul Wilkinson",
+     "latest_experience_title": "Group Deputy Managing Director (CEO)",
+     "url": "https://www.linkedin.com/in/paul-wilkinson-8151222b/",
+     "location_name": "Newcastle Upon Tyne, England, United Kingdom",
+     "domain": "barbour.com",
+     "companyIdentifier": "https://www.linkedin.com/company/j-barbour-&-sons-ltd",
+     "profile_id": "73185950",
+     "latest_experience_start_date": "2025-03"
+    },
+    {
+     "name": "Lynn Bassett",
+     "latest_experience_title": "Global Director of HR & Site Services",
+     "url": "https://www.linkedin.com/in/lynn-bassett-b463737/",
+     "location_name": "Greater Middlesbrough and Stockton Area",
+     "domain": "barbour.com",
+     "companyIdentifier": "https://www.linkedin.com/company/j-barbour-&-sons-ltd",
+     "profile_id": "575702856",
+     "latest_experience_start_date": "2026-04"
+    },
+    {
+     "name": "Mandy Bayliss",
+     "latest_experience_title": "Director of People Partnering and Development",
+     "url": "https://www.linkedin.com/in/mandybayliss/",
+     "location_name": "Nottingham, England, United Kingdom",
+     "domain": "toppstiles.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/toppstiles",
+     "profile_id": "539158231",
+     "latest_experience_start_date": "2025-03"
+    },
+    {
+     "name": "Majid Khan",
+     "latest_experience_title": "CFO/COO",
+     "url": "https://www.linkedin.com/in/majid-khan-77b32717/",
+     "location_name": "United Kingdom",
+     "domain": "regattagroupcareers.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-regatta-group",
+     "profile_id": "742276213",
+     "latest_experience_start_date": "2024-09"
+    },
+    {
+     "name": "George Wakely",
+     "latest_experience_title": "Chief People Officer",
+     "url": "https://www.linkedin.com/in/george-wakely-3315a510/",
+     "location_name": "Greater Southampton Area",
+     "domain": "thetoyshop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-entertainer",
+     "profile_id": "554751524",
+     "latest_experience_start_date": "2025-03"
+    },
+    {
+     "name": "Jon Savage",
+     "latest_experience_title": "Head Of People",
+     "url": "https://www.linkedin.com/in/jon-savage-41769813/",
+     "location_name": "Amersham, England, United Kingdom",
+     "domain": "thetoyshop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-entertainer",
+     "profile_id": "487249917",
+     "latest_experience_start_date": "1999-09"
+    },
+    {
+     "name": "Claire Ralphs",
+     "latest_experience_title": "EA to CEO",
+     "url": "https://www.linkedin.com/in/claire-ralphs-81254a14/",
+     "location_name": "United Kingdom, United Kingdom",
+     "domain": "toppstiles.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/toppstiles",
+     "profile_id": "843692918",
+     "latest_experience_start_date": "2017-12"
+    },
+    {
+     "name": "Callum Lafferty",
+     "latest_experience_title": "Chair of Colleague Advisory Board",
+     "url": "https://www.linkedin.com/in/callum-lafferty-26768749/",
+     "location_name": "High Wycombe, England, United Kingdom",
+     "domain": "thetoyshop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-entertainer",
+     "profile_id": "304873676",
+     "latest_experience_start_date": "2025-09"
+    },
+    {
+     "name": "Annelise Pass",
+     "latest_experience_title": "Executive Assistant To Chief Executive Officer",
+     "url": "https://www.linkedin.com/in/annelise-pass-4646564a/",
+     "location_name": "Amersham, England, United Kingdom",
+     "domain": "thetoyshop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-entertainer",
+     "profile_id": "770298305",
+     "latest_experience_start_date": "2022-01"
+    },
+    {
+     "name": "Nick Hargreaves",
+     "latest_experience_title": "Chief Operations Officer",
+     "url": "https://www.linkedin.com/in/nickhargreaves/",
+     "location_name": "Birmingham, England, United Kingdom",
+     "domain": "thetoyshop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-entertainer",
+     "profile_id": "550994241",
+     "latest_experience_start_date": "2018-05"
+    },
+    {
+     "name": "Zoe Bullock",
+     "latest_experience_title": "Head of People",
+     "url": "https://www.linkedin.com/in/zoe-bullock-a2b016392/",
+     "location_name": "Tonbridge, England, United Kingdom",
+     "domain": "oliverbonas.com",
+     "companyIdentifier": "https://www.linkedin.com/company/oliver-bonas",
+     "profile_id": "927034447",
+     "latest_experience_start_date": "2015-03"
+    },
+    {
+     "name": "Carolyn Bennett",
+     "latest_experience_title": "PA to MD",
+     "url": "https://www.linkedin.com/in/carolyn-bennett-57760320b/",
+     "location_name": "South Shields, England, United Kingdom",
+     "domain": "barbour.com",
+     "companyIdentifier": "https://www.linkedin.com/company/j-barbour-&-sons-ltd",
+     "profile_id": "788058348",
+     "latest_experience_start_date": "1985-08"
+    },
+    {
+     "name": "stephen lloyd",
+     "latest_experience_title": "MD",
+     "url": "https://www.linkedin.com/in/stephen-lloyd-39225240/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "thehoxton.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-hoxton-hotel",
+     "profile_id": "409119345",
+     "latest_experience_start_date": null
+    },
+    {
+     "name": "STEPHEN Adams",
+     "latest_experience_title": "Assistant to Chief Executive Officer",
+     "url": "https://www.linkedin.com/in/stephen-adams-385542385/",
+     "location_name": "Lisburn, Northern Ireland, United Kingdom",
+     "domain": "randox.com",
+     "companyIdentifier": "https://www.linkedin.com/company/randox",
+     "profile_id": "967398621",
+     "latest_experience_start_date": null
+    },
+    {
+     "name": "Joanne Shawcroft",
+     "latest_experience_title": "Group HR Director",
+     "url": "https://www.linkedin.com/in/joanneshawcroft/",
+     "location_name": "Chesterfield, England, United Kingdom",
+     "domain": "toppstiles.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/toppstiles",
+     "profile_id": "831230311",
+     "latest_experience_start_date": "2024-03"
+    },
+    {
+     "name": "jemima ward",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/jemima-ward-087953310/",
+     "location_name": "Leicester, England, United Kingdom",
+     "domain": "frankieandbennys.com",
+     "companyIdentifier": "https://www.linkedin.com/company/frankieandbennys",
+     "profile_id": "348591251",
+     "latest_experience_start_date": "2025"
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 3,
+   "taskId": "mcp-task_0toyehg3WfStXQCmwbD",
+   "contacts": [
+    {
+     "name": "Darren Hall",
+     "latest_experience_title": "Chief Operating Officer",
+     "url": "https://www.linkedin.com/in/halldj/",
+     "location_name": "Knutsford, England, United Kingdom",
+     "domain": "carpentersgroup.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/carpenters-group",
+     "profile_id": "452868163",
+     "latest_experience_start_date": "2024-06"
+    },
+    {
+     "name": "Heather Kaminetsky",
+     "latest_experience_title": "CEO Net-A-Porter",
+     "url": "https://www.linkedin.com/in/heather-kaminetsky-099540/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "net-a-porter.com",
+     "companyIdentifier": "https://www.linkedin.com/company/net-a-porter",
+     "profile_id": "421875249",
+     "latest_experience_start_date": "2025-04"
+    },
+    {
+     "name": "Stelios Elia",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/stelios-elia/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "icgam.com",
+     "companyIdentifier": "https://www.linkedin.com/company/icg-plc",
+     "profile_id": "168768215",
+     "latest_experience_start_date": "2023-11"
+    },
+    {
+     "name": "Donna Richards",
+     "latest_experience_title": "CEO",
+     "url": "https://www.linkedin.com/in/donna-richards-58265014/",
+     "location_name": "Liverpool, England, United Kingdom",
+     "domain": "carpentersgroup.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/carpenters-group",
+     "profile_id": "442192528",
+     "latest_experience_start_date": "2016-02"
+    },
+    {
+     "name": "Allan Marchington",
+     "latest_experience_title": "Managing Director, Head of Life Sciences at Intermediate Capital Group (ICG)",
+     "url": "https://www.linkedin.com/in/allanmarchington/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "icgam.com",
+     "companyIdentifier": "https://www.linkedin.com/company/icg-plc",
+     "profile_id": "248270045",
+     "latest_experience_start_date": "2021-01"
+    },
+    {
+     "name": "Rachel Woodcock",
+     "latest_experience_title": "People Director",
+     "url": "https://www.linkedin.com/in/rachel-woodcock-41843515/",
+     "location_name": "Greater Cheshire West and Chester Area",
+     "domain": "hickorys.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/hickorys-smokehouse",
+     "profile_id": "770693766",
+     "latest_experience_start_date": "2022-04"
+    },
+    {
+     "name": "Lauren Hoggard",
+     "latest_experience_title": "Head of People",
+     "url": "https://www.linkedin.com/in/lauren-hoggard/",
+     "location_name": "Stoke-On-Trent, England, United Kingdom",
+     "domain": "hickorys.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/hickorys-smokehouse",
+     "profile_id": "45274343",
+     "latest_experience_start_date": "2024-04"
+    },
+    {
+     "name": "Adam Golebiowski",
+     "latest_experience_title": "Managing Director, Co-Portfolio Manager of the Metropolitan Fund series",
+     "url": "https://www.linkedin.com/in/adam-golebiowski-15159423/",
+     "location_name": "London Area, United Kingdom",
+     "domain": "icgam.com",
+     "companyIdentifier": "https://www.linkedin.com/company/icg-plc",
+     "profile_id": "166395379",
+     "latest_experience_start_date": "2021-03"
+    },
+    {
+     "name": "Liam McGivern",
+     "latest_experience_title": "Managing Director - European Mid-Market Private Equity",
+     "url": "https://www.linkedin.com/in/liam-mcgivern-7a8a1042/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "icgam.com",
+     "companyIdentifier": "https://www.linkedin.com/company/icg-plc",
+     "profile_id": "296621796",
+     "latest_experience_start_date": "2019-12"
+    },
+    {
+     "name": "Quinn Kuiken, CFA",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/quinnk/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "icgam.com",
+     "companyIdentifier": "https://www.linkedin.com/company/icg-plc",
+     "profile_id": "797626189",
+     "latest_experience_start_date": "2026-09"
+    },
+    {
+     "name": "Luca Lelli",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/luca-lelli-3342ba8a/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "icgam.com",
+     "companyIdentifier": "https://www.linkedin.com/company/icg-plc",
+     "profile_id": "535265862",
+     "latest_experience_start_date": "2024-05"
+    },
+    {
+     "name": "John Welsh",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/john-welsh-5845b4102/",
+     "location_name": "Greater Cheshire West and Chester Area",
+     "domain": "hickorys.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/hickorys-smokehouse",
+     "profile_id": "315806520",
+     "latest_experience_start_date": "2017-09"
+    },
+    {
+     "name": "Matt Crossingham",
+     "latest_experience_title": "Managing Director / Senior Vice President",
+     "url": "https://www.linkedin.com/in/matt-crossingham-8b05b32a/",
+     "location_name": "United Kingdom, United Kingdom",
+     "domain": "crownpaints.com",
+     "companyIdentifier": "https://www.linkedin.com/company/crown-paints",
+     "profile_id": "776273995",
+     "latest_experience_start_date": "2025-08"
+    },
+    {
+     "name": "Chris Fenlon",
+     "latest_experience_title": "Head of HR Services",
+     "url": "https://www.linkedin.com/in/chris-fenlon-1b23904/",
+     "location_name": "Basingstoke, England, United Kingdom",
+     "domain": "gamedigitalplc.com",
+     "companyIdentifier": "https://www.linkedin.com/company/game-retail-ltd",
+     "profile_id": "407517264",
+     "latest_experience_start_date": null
+    },
+    {
+     "name": "Tim Freeman",
+     "latest_experience_title": "Deputy Managing Director",
+     "url": "https://www.linkedin.com/in/tim-freeman-b8783033/",
+     "location_name": "Derby, England, United Kingdom",
+     "domain": "toyotauk.com",
+     "companyIdentifier": "https://www.linkedin.com/company/toyota-motor-manufacturing-uk",
+     "profile_id": "125135262",
+     "latest_experience_start_date": "2020-01"
+    },
+    {
+     "name": "Victoria Bell",
+     "latest_experience_title": "Executive Assistant to CEO",
+     "url": "https://www.linkedin.com/in/victoria-bell-7b5ba619b/",
+     "location_name": "United Kingdom, United Kingdom",
+     "domain": "carpentersgroup.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/carpenters-group",
+     "profile_id": "826418217",
+     "latest_experience_start_date": "2023-09"
+    },
+    {
+     "name": "Rick Ellis-Sheldon",
+     "latest_experience_title": "CFO",
+     "url": "https://www.linkedin.com/in/rick-ellis-sheldon-6aa76b118/",
+     "location_name": "Greater Cheshire West and Chester Area",
+     "domain": "carpentersgroup.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/carpenters-group",
+     "profile_id": "635319916",
+     "latest_experience_start_date": "2022-08"
+    },
+    {
+     "name": "Sarah P.",
+     "latest_experience_title": "Head of People",
+     "url": "https://www.linkedin.com/in/sarahjpickerill/",
+     "location_name": "Liverpool, England, United Kingdom",
+     "domain": "carpentersgroup.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/carpenters-group",
+     "profile_id": "803765127",
+     "latest_experience_start_date": "2020-03"
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 4,
+   "taskId": "mcp-task_0toyehdXUgXC39EXaTH",
+   "contacts": [
+    {
+     "name": "Lindsay Stacey",
+     "latest_experience_title": "Head of HR",
+     "url": "https://www.linkedin.com/in/lindsay-stacey-2415a223/",
+     "location_name": "United Kingdom",
+     "domain": "hamleys.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hamleys-of-london",
+     "profile_id": "408962459",
+     "latest_experience_start_date": "2021-06"
+    },
+    {
+     "name": "Claire Lake",
+     "latest_experience_title": "Executive Director of People",
+     "url": "https://www.linkedin.com/in/claire-lake-59135b20/",
+     "location_name": "United Kingdom",
+     "domain": "necsu.nhs.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/north-of-england-care-system-support",
+     "profile_id": "303937948",
+     "latest_experience_start_date": "2022-11"
+    },
+    {
+     "name": "Kerry Bamblett",
+     "latest_experience_title": "Chief Executive Officer",
+     "url": "https://www.linkedin.com/in/kerry-bamblett-1a022b101/",
+     "location_name": "Greater Stoke-on-Trent Area",
+     "domain": "joythestore.com",
+     "companyIdentifier": "https://www.linkedin.com/company/joy_3",
+     "profile_id": "149917989",
+     "latest_experience_start_date": "2019"
+    },
+    {
+     "name": "barry tuck",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/barry-tuck-181958143/",
+     "location_name": "Greater Brighton and Hove Area",
+     "domain": "jccj-jewellery-paisley.b4r-uk.com",
+     "companyIdentifier": "https://www.linkedin.com/company/jewellers",
+     "profile_id": "382307984",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 5,
+   "taskId": "mcp-task_0toyeimm8grJ9n89zqT",
+   "contacts": [
+    {
+     "name": "Kevin Barrett",
+     "latest_experience_title": "Board Director / Managing Director, Head of Private & Commercial Banking",
+     "url": "https://www.linkedin.com/in/kevinbarrettbanking/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "arbuthnotlatham.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/arbuthnot-latham",
+     "profile_id": "764011070",
+     "latest_experience_start_date": "2020-03"
+    },
+    {
+     "name": "Diane Brooks",
+     "latest_experience_title": "Chief People Officer",
+     "url": "https://www.linkedin.com/in/diane-brooks-73796114/",
+     "location_name": "Greater Cardiff Area",
+     "domain": "hughjames.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hugh-james",
+     "profile_id": "142588916",
+     "latest_experience_start_date": "2025-05"
+    },
+    {
+     "name": "Eren Osman, CFA",
+     "latest_experience_title": "Managing Director, Wealth Management",
+     "url": "https://www.linkedin.com/in/eren-osman-cfa-0020b632/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "arbuthnotlatham.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/arbuthnot-latham",
+     "profile_id": "598824415",
+     "latest_experience_start_date": "2021-04"
+    },
+    {
+     "name": "Amy Richardson",
+     "latest_experience_title": "Managing Director, Business Development, CAMRADATA",
+     "url": "https://www.linkedin.com/in/amy-richardson-5206817/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "withintelligence.com",
+     "companyIdentifier": "https://www.linkedin.com/company/withintelligence1",
+     "profile_id": "743518679",
+     "latest_experience_start_date": "2023-01"
+    },
+    {
+     "name": "Nicholas Pickthall",
+     "latest_experience_title": "Chief Operating Officer",
+     "url": "https://www.linkedin.com/in/nicholas-pickthall-190b9a23/",
+     "location_name": "Cambridge, England, United Kingdom",
+     "domain": "cplaromas.com",
+     "companyIdentifier": "https://www.linkedin.com/company/cpl-aromas",
+     "profile_id": "488142507",
+     "latest_experience_start_date": "2015-01"
+    },
+    {
+     "name": "Nancy Lovell",
+     "latest_experience_title": "Executive Assistant to Deputy Chief Executive & Managing Director, Banking",
+     "url": "https://www.linkedin.com/in/nancy-lovell-6460664a/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "arbuthnotlatham.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/arbuthnot-latham",
+     "profile_id": "433465343",
+     "latest_experience_start_date": "2021-01"
+    },
+    {
+     "name": "Paul Evans",
+     "latest_experience_title": "Chief Financial Officer",
+     "url": "https://www.linkedin.com/in/paul-evans-71779518/",
+     "location_name": "Greater Cardiff Area",
+     "domain": "hughjames.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hugh-james",
+     "profile_id": "503279146",
+     "latest_experience_start_date": "2024-07"
+    },
+    {
+     "name": "Simon New",
+     "latest_experience_title": "Chief Operating Officer",
+     "url": "https://www.linkedin.com/in/simon-new-8999ba7/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "arbuthnotlatham.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/arbuthnot-latham",
+     "profile_id": "416855752",
+     "latest_experience_start_date": "2025-10"
+    },
+    {
+     "name": "Phoebe Orbell",
+     "latest_experience_title": "Head of People Operations",
+     "url": "https://www.linkedin.com/in/phoebe-orbell-853a8a147/",
+     "location_name": "Cardiff, Wales, United Kingdom",
+     "domain": "hughjames.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hugh-james",
+     "profile_id": "672799069",
+     "latest_experience_start_date": "2026-05"
+    },
+    {
+     "name": "Nicky Holdcroft FCIPD",
+     "latest_experience_title": "Group Human Resources Director",
+     "url": "https://www.linkedin.com/in/nickyholdcroft/",
+     "location_name": "Greater Northampton Area, United Kingdom",
+     "domain": "perrys.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/perrys-motor-sales",
+     "profile_id": "187829356",
+     "latest_experience_start_date": "2018-10"
+    },
+    {
+     "name": "Darren Ardron",
+     "latest_experience_title": "Managing Director",
+     "url": "https://www.linkedin.com/in/darren-ardron-22567792/",
+     "location_name": "Greater Oxford Area",
+     "domain": "perrys.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/perrys-motor-sales",
+     "profile_id": "587882676",
+     "latest_experience_start_date": "2015-01"
+    },
+    {
+     "name": "Alun Jones",
+     "latest_experience_title": "Managing Partner",
+     "url": "https://www.linkedin.com/in/alun-jones-b842331/",
+     "location_name": "Greater Cardiff Area",
+     "domain": "hughjames.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hugh-james",
+     "profile_id": "798670325",
+     "latest_experience_start_date": "2011-01"
+    },
+    {
+     "name": "Emma Pruden",
+     "latest_experience_title": "Personal Assistant to Managing Director, Wealth Management",
+     "url": "https://www.linkedin.com/in/emma-pruden-45b97a131/",
+     "location_name": "Rochford, England, United Kingdom",
+     "domain": "arbuthnotlatham.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/arbuthnot-latham",
+     "profile_id": "323322975",
+     "latest_experience_start_date": "2018-09"
+    },
+    {
+     "name": "Katharine Smith",
+     "latest_experience_title": "PA to CEO",
+     "url": "https://www.linkedin.com/in/katharine-smith-94696a108/",
+     "location_name": "Manchester Area, United Kingdom, United Kingdom",
+     "domain": "swinton.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/swinton-insurance",
+     "profile_id": "684771286",
+     "latest_experience_start_date": "1989-07"
+    },
+    {
+     "name": "Lisa Schooley",
+     "latest_experience_title": "EA to COO",
+     "url": "https://www.linkedin.com/in/lisa-schooley-2b376916b/",
+     "location_name": "South Croydon, England, United Kingdom",
+     "domain": "arbuthnotlatham.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/arbuthnot-latham",
+     "profile_id": "739768771",
+     "latest_experience_start_date": "2019-01"
+    },
+    {
+     "name": "Lisa Martin",
+     "latest_experience_title": "Md",
+     "url": "https://www.linkedin.com/in/lisa-martin-1084b673/",
+     "location_name": "Greater Manchester, England, United Kingdom",
+     "domain": "swinton.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/swinton-insurance",
+     "profile_id": "348458611",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 6,
+   "taskId": "mcp-task_0toyeiqvw3BahQfPmga",
+   "contacts": [
+    {
+     "name": "Sheraz Ramzan",
+     "latest_experience_title": "Chief Executive Officer",
+     "url": "https://www.linkedin.com/in/sheraz-ramzan-6719b37/",
+     "location_name": "Greater Glasgow Area",
+     "domain": "quizclothing.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/quiz-clothing",
+     "profile_id": "23047705",
+     "latest_experience_start_date": "2024-03"
+    },
+    {
+     "name": "Amanda Walden",
+     "latest_experience_title": "Head of People",
+     "url": "https://www.linkedin.com/in/amanda-walden-62363322/",
+     "location_name": "Hertford, England, United Kingdom",
+     "domain": "linktr.ee/mcmullens_brewing_pubs",
+     "companyIdentifier": "https://www.linkedin.com/company/mcmullen-&-sons-ltd",
+     "profile_id": "611962558",
+     "latest_experience_start_date": "2025-07"
+    },
+    {
+     "name": "Danielle Wakelin-Doak",
+     "latest_experience_title": "Head of Human Resources",
+     "url": "https://www.linkedin.com/in/danielle-wakelin-doak-49254479/",
+     "location_name": "Surrey, England, United Kingdom",
+     "domain": "accessorize.com",
+     "companyIdentifier": "https://www.linkedin.com/company/accessorize",
+     "profile_id": "412676441",
+     "latest_experience_start_date": "2022-10"
+    },
+    {
+     "name": "Stephanie Ross",
+     "latest_experience_title": "PA to CEO",
+     "url": "https://www.linkedin.com/in/stephanie-ross-4104b8127/",
+     "location_name": "Greater Glasgow Area",
+     "domain": "quizclothing.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/quiz-clothing",
+     "profile_id": "505026842",
+     "latest_experience_start_date": "2018-09"
+    },
+    {
+     "name": "Luke Flint",
+     "latest_experience_title": "Group Managing Director",
+     "url": "https://www.linkedin.com/in/luke-flint-012093150/",
+     "location_name": "Greater Sheffield Area",
+     "domain": "safestyle-windows.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/safestyle-uk",
+     "profile_id": "638153463",
+     "latest_experience_start_date": null
+    },
+    {
+     "name": "Chloe G.",
+     "latest_experience_title": "Personal Assistant to CEO/ Non-Executive Director",
+     "url": "https://www.linkedin.com/in/chloegemmell/",
+     "location_name": "Renfrew, Scotland, United Kingdom",
+     "domain": "quizclothing.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/quiz-clothing",
+     "profile_id": "770984286",
+     "latest_experience_start_date": "2016-10"
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 7,
+   "taskId": "mcp-task_0toyeiuSiwWWurtnck9",
+   "contacts": [
+    {
+     "name": "Riaan Stiglingh. M Dip Couns.CBT",
+     "latest_experience_title": "Assistant Director of People & Culture",
+     "url": "https://www.linkedin.com/in/riaanstiglingh/",
+     "location_name": "Greater Brighton and Hove Area",
+     "domain": "royalgardenhotel.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/royal-garden-hotel",
+     "profile_id": "10491483",
+     "latest_experience_start_date": "2026-04"
+    },
+    {
+     "name": "Echo Lu",
+     "latest_experience_title": "Chief Executive Officer",
+     "url": "https://www.linkedin.com/in/echo-lu-4345954/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "bootshearingcare.com",
+     "companyIdentifier": "https://www.linkedin.com/company/boots-hearingcare",
+     "profile_id": "485591046",
+     "latest_experience_start_date": "2022-07"
+    },
+    {
+     "name": "Suzanne Basson MCIPD",
+     "latest_experience_title": "Head of HR",
+     "url": "https://www.linkedin.com/in/suzannebasson/",
+     "location_name": "United Kingdom",
+     "domain": "bootshearingcare.com",
+     "companyIdentifier": "https://www.linkedin.com/company/boots-hearingcare",
+     "profile_id": "274093282",
+     "latest_experience_start_date": "2023-07"
+    },
+    {
+     "name": "Barbara Murphy",
+     "latest_experience_title": "Director of People & Culture",
+     "url": "https://www.linkedin.com/in/barbara-m-murphy/",
+     "location_name": "United Kingdom",
+     "domain": "royalgardenhotel.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/royal-garden-hotel",
+     "profile_id": "586450218",
+     "latest_experience_start_date": "2020-11"
+    },
+    {
+     "name": "Nick Barton MCIPD",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/nick-barton-mcipd-14b3341b/",
+     "location_name": "London Area, United Kingdom",
+     "domain": "bootshearingcare.com",
+     "companyIdentifier": "https://www.linkedin.com/company/boots-hearingcare",
+     "profile_id": "349871991",
+     "latest_experience_start_date": "2026-07"
+    },
+    {
+     "name": "Joanna B.",
+     "latest_experience_title": "Head of People",
+     "url": "https://www.linkedin.com/in/joanna-b-675b0544/",
+     "location_name": "Greater Coventry Area, United Kingdom",
+     "domain": "bravissimo.com",
+     "companyIdentifier": "https://www.linkedin.com/company/bravissimo",
+     "profile_id": "892244735",
+     "latest_experience_start_date": "2025-12"
+    },
+    {
+     "name": "Jo Healey",
+     "latest_experience_title": "Executive Assistant to Managing Director",
+     "url": "https://www.linkedin.com/in/jo-healey-73343437/",
+     "location_name": "Bristol, England, United Kingdom",
+     "domain": "co-oplegalservices.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/co-op-legal-services",
+     "profile_id": "138962492",
+     "latest_experience_start_date": "2016-09"
+    },
+    {
+     "name": "Susan Golding",
+     "latest_experience_title": "HR Director",
+     "url": "https://www.linkedin.com/in/susan-golding-352a57141/",
+     "location_name": "Staverton, England, United Kingdom",
+     "domain": "hazlewoods.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/hazlewoods",
+     "profile_id": "698844514",
+     "latest_experience_start_date": "2018-05"
+    },
+    {
+     "name": "sharon Brand",
+     "latest_experience_title": "HR Director",
+     "url": "https://www.linkedin.com/in/sharon-brand-83295b161/",
+     "location_name": "Greater Swansea Area",
+     "domain": "bootshearingcare.com",
+     "companyIdentifier": "https://www.linkedin.com/company/boots-hearingcare",
+     "profile_id": "417960994",
+     "latest_experience_start_date": "2012-05"
+    },
+    {
+     "name": "Julie Evans",
+     "latest_experience_title": "Central Support Manager & PA to the MD",
+     "url": "https://www.linkedin.com/in/julie-evans-883779154/",
+     "location_name": "United Kingdom",
+     "domain": "bootshearingcare.com",
+     "companyIdentifier": "https://www.linkedin.com/company/boots-hearingcare",
+     "profile_id": "257543844",
+     "latest_experience_start_date": "2004-01"
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 8,
+   "taskId": "mcp-task_0toyejjHcqNaahXtzSN",
+   "contacts": [
+    {
+     "name": "Adam Crampsie",
+     "latest_experience_title": "Chief Executive Officer",
+     "url": "https://www.linkedin.com/in/adamcrampsie/",
+     "location_name": "Tyneside Area",
+     "domain": "everyturn.org",
+     "companyIdentifier": "https://www.linkedin.com/company/everyturn-mental-health",
+     "profile_id": "747690024",
+     "latest_experience_start_date": "2020-12"
+    },
+    {
+     "name": "Eva McElroy",
+     "latest_experience_title": "Head of HR",
+     "url": "https://www.linkedin.com/in/eva-mcelroy-41626883/",
+     "location_name": "Lurgan, Northern Ireland, United Kingdom",
+     "domain": "thompsonaero.com",
+     "companyIdentifier": "https://www.linkedin.com/company/thompsonaeroseating",
+     "profile_id": "423890308",
+     "latest_experience_start_date": "2023-05"
+    },
+    {
+     "name": "Keith Anderson",
+     "latest_experience_title": "Chief Executive Officer",
+     "url": "https://www.linkedin.com/in/keith-anderson-9a943340/",
+     "location_name": "Belfast Metropolitan Area",
+     "domain": "thompsonaero.com",
+     "companyIdentifier": "https://www.linkedin.com/company/thompsonaeroseating",
+     "profile_id": "534974662",
+     "latest_experience_start_date": "2023-08"
+    },
+    {
+     "name": "Sarah Dewar Chartered FCIPD",
+     "latest_experience_title": "Executive Director of People, Digital & Transformation",
+     "url": "https://www.linkedin.com/in/sarah-dewar-chartered-fcipd-16b0b24b/",
+     "location_name": "Newcastle Upon Tyne, England, United Kingdom",
+     "domain": "everyturn.org",
+     "companyIdentifier": "https://www.linkedin.com/company/everyturn-mental-health",
+     "profile_id": "641458639",
+     "latest_experience_start_date": "2021-03"
+    },
+    {
+     "name": "Ryan Candlish",
+     "latest_experience_title": "People Director",
+     "url": "https://www.linkedin.com/in/ryan-candlish-343891110/",
+     "location_name": "Newcastle Upon Tyne, England, United Kingdom",
+     "domain": "everyturn.org",
+     "companyIdentifier": "https://www.linkedin.com/company/everyturn-mental-health",
+     "profile_id": "480628579",
+     "latest_experience_start_date": "2025-08"
+    },
+    {
+     "name": "Peter Bell",
+     "latest_experience_title": "Chief Financial Officer",
+     "url": "https://www.linkedin.com/in/peter-bell-78847122/",
+     "location_name": "Belfast Metropolitan Area",
+     "domain": "thompsonaero.com",
+     "companyIdentifier": "https://www.linkedin.com/company/thompsonaeroseating",
+     "profile_id": "740822836",
+     "latest_experience_start_date": "2017-06"
+    },
+    {
+     "name": "Carl Du Plessis MCIPD",
+     "latest_experience_title": "Interim Human Resources Director.",
+     "url": "https://www.linkedin.com/in/carlduplessis1/",
+     "location_name": "Bedford, England, United Kingdom",
+     "domain": "quantumcare.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/quantumcareltd",
+     "profile_id": "767195022",
+     "latest_experience_start_date": "2026-03"
+    },
+    {
+     "name": "Joanne Turnbull",
+     "latest_experience_title": "Executive Assistant to the Board, CEO, and Executive Director of People, Digital & Transformation",
+     "url": "https://www.linkedin.com/in/joanneturnbull/",
+     "location_name": "United Kingdom",
+     "domain": "everyturn.org",
+     "companyIdentifier": "https://www.linkedin.com/company/everyturn-mental-health",
+     "profile_id": "562969285",
+     "latest_experience_start_date": "2025-02"
+    },
+    {
+     "name": "Kelly Mance",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/kelly-mance-04782258/",
+     "location_name": "Penn, England, United Kingdom",
+     "domain": "quantumcare.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/quantumcareltd",
+     "profile_id": "253729299",
+     "latest_experience_start_date": "2025-08"
+    },
+    {
+     "name": "Lorraine Edwards",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/lorraine-edwards-aa0a93142/",
+     "location_name": "Telford, England, United Kingdom",
+     "domain": "radis.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/radis-group",
+     "profile_id": "784066367",
+     "latest_experience_start_date": "2025-12"
+    },
+    {
+     "name": "Helen Lazenby",
+     "latest_experience_title": "Head of HR",
+     "url": "https://www.linkedin.com/in/helen-lazenby-44b10546/",
+     "location_name": "Burntwood, England, United Kingdom",
+     "domain": "radis.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/radis-group",
+     "profile_id": "717759653",
+     "latest_experience_start_date": "2022-09"
+    },
+    {
+     "name": "Victoria C.",
+     "latest_experience_title": "Head of People Experience",
+     "url": "https://www.linkedin.com/in/victoria-c-2bbba952/",
+     "location_name": "Newcastle Upon Tyne, England, United Kingdom",
+     "domain": "everyturn.org",
+     "companyIdentifier": "https://www.linkedin.com/company/everyturn-mental-health",
+     "profile_id": "912014066",
+     "latest_experience_start_date": "2025-11"
+    },
+    {
+     "name": "Mark Aitchison",
+     "latest_experience_title": "CEO and Group Finance Director",
+     "url": "https://www.linkedin.com/in/mark-aitchison-8004949/",
+     "location_name": "Lymington, England, United Kingdom",
+     "domain": "coltencare.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/colten-care",
+     "profile_id": "320413444",
+     "latest_experience_start_date": "2011-06"
+    },
+    {
+     "name": "Karen Cahill",
+     "latest_experience_title": "Head of Human Resources",
+     "url": "https://www.linkedin.com/in/karen-cahill-183bba40b/",
+     "location_name": "Greater Southampton Area",
+     "domain": "coltencare.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/colten-care",
+     "profile_id": "984981542",
+     "latest_experience_start_date": "2025-03"
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 9,
+   "taskId": "mcp-task_0toyekmaZt35AHaEicv",
+   "contacts": [
+    {
+     "name": "Joanna Goff",
+     "latest_experience_title": "Chief Financial Officer",
+     "url": "https://www.linkedin.com/in/joanna-goff-0115902a/",
+     "location_name": "Greater Leeds Area",
+     "domain": null,
+     "companyIdentifier": "https://www.linkedin.com/company/wm-morrison-supermarkets-p-l-c",
+     "profile_id": "381049999",
+     "latest_experience_start_date": "2022-04"
+    },
+    {
+     "name": "Emma Foster",
+     "latest_experience_title": "Managing Director - Kohler Mira Ltd",
+     "url": "https://www.linkedin.com/in/emma-m-foster/",
+     "location_name": "Gloucester, England, United Kingdom",
+     "domain": "mirashowers.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/kohler-mira-ltd",
+     "profile_id": "484868362",
+     "latest_experience_start_date": "2023-01"
+    },
+    {
+     "name": "Hannah Bourne Chartered MCIPD",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/hannah-bourne-71752526/",
+     "location_name": "Bristol, England, United Kingdom",
+     "domain": "mirashowers.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/kohler-mira-ltd",
+     "profile_id": "623863263",
+     "latest_experience_start_date": "2023-11"
+    },
+    {
+     "name": "Eve Fullwood",
+     "latest_experience_title": "HR Coordinator",
+     "url": "https://www.linkedin.com/in/eve-fullwood-b615b9132/",
+     "location_name": "Gloucester, England, United Kingdom",
+     "domain": "mirashowers.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/kohler-mira-ltd",
+     "profile_id": "364433891",
+     "latest_experience_start_date": "2019-01"
+    },
+    {
+     "name": "Kim Roberts",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/kim-roberts-8707a4195/",
+     "location_name": "Wakefield, England, United Kingdom",
+     "domain": null,
+     "companyIdentifier": "https://www.linkedin.com/company/wm-morrison-supermarkets-p-l-c",
+     "profile_id": "180348822",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 10,
+   "taskId": "mcp-task_0toyekiHNBRud2trgJT",
+   "contacts": [
+    {
+     "name": "Mark Hindle",
+     "latest_experience_title": "Managing Director, UK & Ireland",
+     "url": "https://www.linkedin.com/in/mhindle/",
+     "location_name": "Manchester Area, United Kingdom",
+     "domain": "tunstall.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/tunstall-uk",
+     "profile_id": "776252090",
+     "latest_experience_start_date": "2025-03"
+    },
+    {
+     "name": "Stuart Affleck",
+     "latest_experience_title": "Director of People and Culture",
+     "url": "https://www.linkedin.com/in/stuart-affleck-62666a/",
+     "location_name": "Bournemouth, England, United Kingdom",
+     "domain": "lesteraldridge.com",
+     "companyIdentifier": "https://www.linkedin.com/company/lester-aldridge",
+     "profile_id": "446064647",
+     "latest_experience_start_date": "2024-01"
+    },
+    {
+     "name": "Hayley Curtis",
+     "latest_experience_title": "Head of People Communications & Engagement",
+     "url": "https://www.linkedin.com/in/hayley-curtis-b453253/",
+     "location_name": "Poole, England, United Kingdom",
+     "domain": "lesteraldridge.com",
+     "companyIdentifier": "https://www.linkedin.com/company/lester-aldridge",
+     "profile_id": "528138455",
+     "latest_experience_start_date": "2025-01"
+    },
+    {
+     "name": "Ross Shepley-Smith",
+     "latest_experience_title": "Chief Financial Officer",
+     "url": "https://www.linkedin.com/in/ross-shepley-smith-475a9114/",
+     "location_name": "Thames Ditton, England, United Kingdom",
+     "domain": "flightclubdarts.com",
+     "companyIdentifier": "https://www.linkedin.com/company/flightclubdarts",
+     "profile_id": "443447950",
+     "latest_experience_start_date": "2017-09"
+    },
+    {
+     "name": "Tom Alder",
+     "latest_experience_title": "Managing Partner",
+     "url": "https://www.linkedin.com/in/tom-alder-b1353020/",
+     "location_name": "Greater Southampton Area",
+     "domain": "lesteraldridge.com",
+     "companyIdentifier": "https://www.linkedin.com/company/lester-aldridge",
+     "profile_id": "757937821",
+     "latest_experience_start_date": "2025-03"
+    },
+    {
+     "name": "Heulwen Van de Weyer",
+     "latest_experience_title": "Head of People (NEXT WOB & Joint Ventures)",
+     "url": "https://www.linkedin.com/in/heulwen-van-de-weyer-72538a140/",
+     "location_name": "Beaconsfield, England, United Kingdom",
+     "domain": "next.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/next-wholly-owned-brands",
+     "profile_id": "207247989",
+     "latest_experience_start_date": "2020-02"
+    },
+    {
+     "name": "Claire Stewardson",
+     "latest_experience_title": "Personal Assistant to CFO",
+     "url": "https://www.linkedin.com/in/claire-stewardson-4a798a142/",
+     "location_name": "Greater Guildford Area, United Kingdom, United Kingdom",
+     "domain": "vertu.com",
+     "companyIdentifier": "https://www.linkedin.com/company/vertu",
+     "profile_id": "483745566",
+     "latest_experience_start_date": "2011-11"
+    },
+    {
+     "name": "Sarah Cooper",
+     "latest_experience_title": "MD",
+     "url": "https://www.linkedin.com/in/sarah-cooper-78929723/",
+     "location_name": "Wigan, England, United Kingdom",
+     "domain": "freshdirect.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/fresh-direct-uk-limited",
+     "profile_id": "16309745",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 11,
+   "taskId": "mcp-task_0toyelf9zh6vd8kYymS",
+   "contacts": [
+    {
+     "name": "Keith Duncan",
+     "latest_experience_title": "Group Managing Director",
+     "url": "https://www.linkedin.com/in/keith-duncan-3997593a/",
+     "location_name": "Greater Edinburgh Area",
+     "domain": "easternwestern.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/eastern-western-motor-group",
+     "profile_id": "161750568",
+     "latest_experience_start_date": "2023-01"
+    },
+    {
+     "name": "Magnus Wang",
+     "latest_experience_title": "Divisional Managing Director",
+     "url": "https://www.linkedin.com/in/magnus-wang-69b8b687/",
+     "location_name": "Broxburn, Scotland, United Kingdom",
+     "domain": "easternwestern.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/eastern-western-motor-group",
+     "profile_id": "484258199",
+     "latest_experience_start_date": "2023-01"
+    },
+    {
+     "name": "Zoe Harper",
+     "latest_experience_title": "Head of People & Culture",
+     "url": "https://www.linkedin.com/in/zoe-anne-harper/",
+     "location_name": "Addlestone, England, United Kingdom",
+     "domain": "gordonmurraygroup.com",
+     "companyIdentifier": "https://www.linkedin.com/company/gordon-murray-group",
+     "profile_id": "676352473",
+     "latest_experience_start_date": "2026-09"
+    },
+    {
+     "name": "Sadie Barker",
+     "latest_experience_title": "Head of HR & Training",
+     "url": "https://www.linkedin.com/in/sadie-barker-61876a13/",
+     "location_name": "Stansted, England, United Kingdom",
+     "domain": "cinnamoncc.com",
+     "companyIdentifier": "https://www.linkedin.com/company/cinnamoncarecollection",
+     "profile_id": "772482074",
+     "latest_experience_start_date": "2016-03"
+    },
+    {
+     "name": "Mornie Robertson",
+     "latest_experience_title": "Interim CPO and Head of Transformation",
+     "url": "https://www.linkedin.com/in/mornie-robertson-63ab374/",
+     "location_name": "United Kingdom",
+     "domain": "gordonmurraygroup.com",
+     "companyIdentifier": "https://www.linkedin.com/company/gordon-murray-group",
+     "profile_id": "657993196",
+     "latest_experience_start_date": "2025-11"
+    },
+    {
+     "name": "John La Trobe",
+     "latest_experience_title": "Divisional Managing Director",
+     "url": "https://www.linkedin.com/in/john-la-trobe-3a47ab37/",
+     "location_name": "Rumbling Bridge, Scotland, United Kingdom",
+     "domain": "easternwestern.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/eastern-western-motor-group",
+     "profile_id": "793844948",
+     "latest_experience_start_date": "2023-01"
+    },
+    {
+     "name": "Graham Affleck",
+     "latest_experience_title": "Divisional Managing Director",
+     "url": "https://www.linkedin.com/in/grahamaffleck/",
+     "location_name": "Greater Edinburgh Area",
+     "domain": "easternwestern.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/eastern-western-motor-group",
+     "profile_id": "526619440",
+     "latest_experience_start_date": "2023-01"
+    },
+    {
+     "name": "Richard Rust",
+     "latest_experience_title": "Group Chief Financial Officer",
+     "url": "https://www.linkedin.com/in/richard-rust-8550208/",
+     "location_name": "Harpenden, England, United Kingdom",
+     "domain": "aquarestaurantgroup.com",
+     "companyIdentifier": "https://www.linkedin.com/company/aqua-restaurant-group",
+     "profile_id": "417442829",
+     "latest_experience_start_date": "2024-05"
+    }
+   ]
+  },
+  {
+   "campaign": "c1c2",
+   "batch": 12,
+   "taskId": "mcp-task_0toyelhdXx7pW5RAwsr",
+   "contacts": [
+    {
+     "name": "Sally- Ann Williams MCIPD",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/sallywilliams-mcipd-9329b01a/",
+     "location_name": "Bromsgrove, England, United Kingdom",
+     "domain": "vax.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/vax",
+     "profile_id": "111136294",
+     "latest_experience_start_date": "2024-04"
+    },
+    {
+     "name": "Emma Knight  MCIPD",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/emma-knight-mcipd-75597715/",
+     "location_name": "South Croydon, England, United Kingdom",
+     "domain": "rawlinson-hunter.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/rawlinson-&-hunter",
+     "profile_id": "231249455",
+     "latest_experience_start_date": "2022-05"
+    },
+    {
+     "name": "Ngoc (Naomi) C.",
+     "latest_experience_title": "Chief Financial Officer \u2192 Chief Operating Officer",
+     "url": "https://www.linkedin.com/in/ngoc-c/",
+     "location_name": "United Kingdom",
+     "domain": "justzapp.com",
+     "companyIdentifier": "https://www.linkedin.com/company/zappquickcommerce",
+     "profile_id": "912442611",
+     "latest_experience_start_date": "2021-06"
+    },
+    {
+     "name": "Nishant Amin",
+     "latest_experience_title": "Chief Financial Officer",
+     "url": "https://www.linkedin.com/in/nishant-amin-827927/",
+     "location_name": "London Area, United Kingdom",
+     "domain": "justzapp.com",
+     "companyIdentifier": "https://www.linkedin.com/company/zappquickcommerce",
+     "profile_id": "680315814",
+     "latest_experience_start_date": "2024-02"
+    },
+    {
+     "name": "Sophia Lucas",
+     "latest_experience_title": "HR Director",
+     "url": "https://www.linkedin.com/in/sophia-lucas-34413b122/",
+     "location_name": "Rayleigh, England, United Kingdom",
+     "domain": "ipeco.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ipeco",
+     "profile_id": "396116733",
+     "latest_experience_start_date": "2024-06"
+    },
+    {
+     "name": "Sally Ann Rice",
+     "latest_experience_title": "Head of HR",
+     "url": "https://www.linkedin.com/in/sally-ann-rice-6635b025b/",
+     "location_name": "Worcestershire, England, United Kingdom",
+     "domain": "vax.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/vax",
+     "profile_id": "341324134",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 0,
+   "taskId": "mcp-task_0toyef0fdsNoXRKvSEg",
+   "contacts": [
+    {
+     "name": "Duwayne O'Neil Thomas",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/duwayne-o-neil-thomas-83344493/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "selfridges.com",
+     "companyIdentifier": "https://www.linkedin.com/company/selfridges",
+     "profile_id": "667512461",
+     "latest_experience_start_date": "2023-02"
+    },
+    {
+     "name": "Ciara Sweeney",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/ciara-sweeney-29213231/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "selfridges.com",
+     "companyIdentifier": "https://www.linkedin.com/company/selfridges",
+     "profile_id": "686903513",
+     "latest_experience_start_date": "2023"
+    },
+    {
+     "name": "Kayley Quinn",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/kayleyquinn/",
+     "location_name": "Greater Coventry Area",
+     "domain": "coventrycareers.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/coventry-building-society",
+     "profile_id": "154888402",
+     "latest_experience_start_date": "2026-06"
+    },
+    {
+     "name": "Andrew Bailey",
+     "latest_experience_title": "Human Resources Director",
+     "url": "https://www.linkedin.com/in/andrew-bailey-b266a911/",
+     "location_name": "Greater Leicester Area",
+     "domain": "coventrycareers.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/coventry-building-society",
+     "profile_id": "291005091",
+     "latest_experience_start_date": "2025-02"
+    },
+    {
+     "name": "Angela Bishop",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/angela-bishop-61b9156/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "twobirds.com",
+     "companyIdentifier": "https://www.linkedin.com/company/bird-&-bird-llp",
+     "profile_id": "461483458",
+     "latest_experience_start_date": "2022-08"
+    },
+    {
+     "name": "Gemma Johnson",
+     "latest_experience_title": "Partner Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/gemma-johnson-43492519/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "twobirds.com",
+     "companyIdentifier": "https://www.linkedin.com/company/bird-&-bird-llp",
+     "profile_id": "782342384",
+     "latest_experience_start_date": "2025-10"
+    },
+    {
+     "name": "Louanne Gronland",
+     "latest_experience_title": "Global Head of Talent Management",
+     "url": "https://www.linkedin.com/in/louannegronland/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "farfetch.com",
+     "companyIdentifier": "https://www.linkedin.com/company/farfetch.com",
+     "profile_id": "92507143",
+     "latest_experience_start_date": "2024-06"
+    },
+    {
+     "name": "Valentina Guarino",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/vguarino/",
+     "location_name": "London Area, United Kingdom, United Kingdom",
+     "domain": "caffenero.com",
+     "companyIdentifier": "https://www.linkedin.com/company/caffe-nero",
+     "profile_id": "597535702",
+     "latest_experience_start_date": "2025-09"
+    },
+    {
+     "name": "Amy Hawkins",
+     "latest_experience_title": "Senior Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/amy-walter-28b9bb28/",
+     "location_name": "Greater Coventry Area, United Kingdom",
+     "domain": "coventrycareers.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/coventry-building-society",
+     "profile_id": "473042352",
+     "latest_experience_start_date": "2022-03"
+    },
+    {
+     "name": "Niroopa Sawyer",
+     "latest_experience_title": "Workforce Planning Manager",
+     "url": "https://www.linkedin.com/in/niroopa-sawyer/",
+     "location_name": "Surbiton, England, United Kingdom",
+     "domain": "selfridges.com",
+     "companyIdentifier": "https://www.linkedin.com/company/selfridges",
+     "profile_id": "524183763",
+     "latest_experience_start_date": "2025-05"
+    },
+    {
+     "name": "Edith Tomlinson",
+     "latest_experience_title": "Retired Human Resource Manager",
+     "url": "https://www.linkedin.com/in/edith-tomlinson-0b18488a/",
+     "location_name": "Greater Preston Area",
+     "domain": "debenhams.com",
+     "companyIdentifier": "https://www.linkedin.com/company/debenhams",
+     "profile_id": "512012286",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 1,
+   "taskId": "mcp-task_0toyefmB6VRaR3cqi7C",
+   "contacts": [
+    {
+     "name": "Kirstie Sellens",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/kirstie-sellens-760882133/",
+     "location_name": "United Kingdom",
+     "domain": "dfs.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/dfsfurniture",
+     "profile_id": "365932425",
+     "latest_experience_start_date": "2025-12"
+    },
+    {
+     "name": "Martin Hamilton",
+     "latest_experience_title": "Vice President Talent Management",
+     "url": "https://www.linkedin.com/in/vptalent/",
+     "location_name": "London Area, United Kingdom",
+     "domain": "hbkworld.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hbkworld-test-and-measurement",
+     "profile_id": "14625798",
+     "latest_experience_start_date": "2021-09"
+    },
+    {
+     "name": "Clarissa S.",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/clarissa-s-b3b518118/",
+     "location_name": "United Kingdom",
+     "domain": "elysiumhealthcare.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/elysium-healthcare",
+     "profile_id": "375870887",
+     "latest_experience_start_date": "2025-03"
+    },
+    {
+     "name": "Sue Franklin",
+     "latest_experience_title": "Resourcing Manager",
+     "url": "https://www.linkedin.com/in/sue-franklin-6b30559/",
+     "location_name": "Greater Bournemouth Area",
+     "domain": "lv.com",
+     "companyIdentifier": "https://www.linkedin.com/company/lv",
+     "profile_id": "468303531",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 2,
+   "taskId": "mcp-task_0toyefz7d9e8Aos7cmg",
+   "contacts": [
+    {
+     "name": "Craig Robinson",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/craig-l-robinson/",
+     "location_name": "Birmingham, England, United Kingdom",
+     "domain": "cityplumbing.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/cityplumbing",
+     "profile_id": "560500768",
+     "latest_experience_start_date": "2026-08"
+    },
+    {
+     "name": "Marie Smart",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/marie-smart-talent-finder/",
+     "location_name": "Eastbourne, England, United Kingdom",
+     "domain": "markerstudygroup.com",
+     "companyIdentifier": "https://www.linkedin.com/company/markerstudy-group",
+     "profile_id": "222707213",
+     "latest_experience_start_date": "2024-01"
+    },
+    {
+     "name": "Andy Langley",
+     "latest_experience_title": "Group Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/andylangley/",
+     "location_name": "Chesterfield, England, United Kingdom",
+     "domain": "markerstudygroup.com",
+     "companyIdentifier": "https://www.linkedin.com/company/markerstudy-group",
+     "profile_id": "245852903",
+     "latest_experience_start_date": "2024-01"
+    },
+    {
+     "name": "Tricia Geraghty",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/tgeraghty/",
+     "location_name": "Glasgow, Scotland, United Kingdom",
+     "domain": "tescobank.com",
+     "companyIdentifier": "https://www.linkedin.com/company/tesco-bank",
+     "profile_id": "547730927",
+     "latest_experience_start_date": "2022-10"
+    },
+    {
+     "name": "Giuseppe Principe",
+     "latest_experience_title": "Retail Recruitment Manager and Online Training Manager",
+     "url": "https://www.linkedin.com/in/giuseppeprincipe/",
+     "location_name": "United Kingdom",
+     "domain": "games-workshop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/games-workshop",
+     "profile_id": "43218566",
+     "latest_experience_start_date": "2025-01"
+    },
+    {
+     "name": "Laura S.",
+     "latest_experience_title": "Strategic Talent Acquisition and Workforce Planning Manager",
+     "url": "https://www.linkedin.com/in/lauraspringett/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "financial-ombudsman.org.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/financial-ombudsman-service",
+     "profile_id": "189732254",
+     "latest_experience_start_date": "2025-10"
+    },
+    {
+     "name": "Valerie Cramb",
+     "latest_experience_title": "Head of Talent Development and Reporting",
+     "url": "https://www.linkedin.com/in/valerie-cramb-8b552961/",
+     "location_name": "Royal Tunbridge Wells, England, United Kingdom",
+     "domain": "markerstudygroup.com",
+     "companyIdentifier": "https://www.linkedin.com/company/markerstudy-group",
+     "profile_id": "26053452",
+     "latest_experience_start_date": "2020-12"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 3,
+   "taskId": "mcp-task_0toyeftc3jM86bMnXCZ",
+   "contacts": [
+    {
+     "name": "Matt Atkins",
+     "latest_experience_title": "Recruitment Manager via AMS",
+     "url": "https://www.linkedin.com/in/viewmattatkins/",
+     "location_name": "Birmingham, England, United Kingdom",
+     "domain": "evelyn.com",
+     "companyIdentifier": "https://www.linkedin.com/company/evelynpartners",
+     "profile_id": "390000167",
+     "latest_experience_start_date": "2026-06"
+    },
+    {
+     "name": "Chris Anderson",
+     "latest_experience_title": "Assistant Recruitment Manager",
+     "url": "https://www.linkedin.com/in/chrisjfanderson/",
+     "location_name": "Greater Glasgow Area, United Kingdom",
+     "domain": "huntswood.com",
+     "companyIdentifier": "https://www.linkedin.com/company/huntswood",
+     "profile_id": "529981192",
+     "latest_experience_start_date": "2022-04"
+    },
+    {
+     "name": "Stephen Ingielewicz",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/stepheningielewicz/",
+     "location_name": "City Of London, England, United Kingdom",
+     "domain": "evelyn.com",
+     "companyIdentifier": "https://www.linkedin.com/company/evelynpartners",
+     "profile_id": "173601642",
+     "latest_experience_start_date": "2023-06"
+    },
+    {
+     "name": "Kristian Stone",
+     "latest_experience_title": "Resourcing Manager",
+     "url": "https://www.linkedin.com/in/kristianstone/",
+     "location_name": "Reading, England, United Kingdom",
+     "domain": "huntswood.com",
+     "companyIdentifier": "https://www.linkedin.com/company/huntswood",
+     "profile_id": "369061974",
+     "latest_experience_start_date": "2025-06"
+    },
+    {
+     "name": "Danae Green",
+     "latest_experience_title": "Temporary Staffing Manager",
+     "url": "https://www.linkedin.com/in/danae-green-5056847/",
+     "location_name": "Abbots Langley, England, United Kingdom",
+     "domain": "whittington.nhs.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/whittingtonhealth",
+     "profile_id": "22460763",
+     "latest_experience_start_date": "2025-08"
+    },
+    {
+     "name": "Christina (Papageorgi) Scimeca",
+     "latest_experience_title": "Talent Acquisition Manager - Central Support",
+     "url": "https://www.linkedin.com/in/christinapapageorgi/",
+     "location_name": "West Midlands, England, United Kingdom",
+     "domain": "linnaeusgroup.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/linnaeus-uk",
+     "profile_id": "698817415",
+     "latest_experience_start_date": "2025-01"
+    },
+    {
+     "name": "Joel Ormsby",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/joel-ormsby-327076297/",
+     "location_name": "London Area, United Kingdom",
+     "domain": "youngs.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/youngspubs",
+     "profile_id": "307369192",
+     "latest_experience_start_date": "2023-10"
+    },
+    {
+     "name": "Kirsty H.",
+     "latest_experience_title": "Talent Acquisition Manager UK & Europe",
+     "url": "https://www.linkedin.com/in/kirsty-h-675676108/",
+     "location_name": "Glasgow, Scotland, United Kingdom",
+     "domain": "huntswood.com",
+     "companyIdentifier": "https://www.linkedin.com/company/huntswood",
+     "profile_id": "911878591",
+     "latest_experience_start_date": "2026-02"
+    },
+    {
+     "name": "Jane Jackson",
+     "latest_experience_title": "Resource Manager",
+     "url": "https://www.linkedin.com/in/jane-jackson-65a56b224/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "evelyn.com",
+     "companyIdentifier": "https://www.linkedin.com/company/evelynpartners",
+     "profile_id": "95599714",
+     "latest_experience_start_date": "2023-10"
+    },
+    {
+     "name": "Joycelyn Ponteen",
+     "latest_experience_title": "HR Temporary Staffing Manager",
+     "url": "https://www.linkedin.com/in/joycelyn-ponteen-534709a6/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "whittington.nhs.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/whittingtonhealth",
+     "profile_id": "95313961",
+     "latest_experience_start_date": "2000-09"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 4,
+   "taskId": "mcp-task_0toyefqn73oD5AwHwVS",
+   "contacts": [
+    {
+     "name": "Aaron Remedios",
+     "latest_experience_title": "Resource Manager",
+     "url": "https://www.linkedin.com/in/aaron-remedios-24856976/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "hfw.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hfw",
+     "profile_id": "286600913",
+     "latest_experience_start_date": "2025-09"
+    },
+    {
+     "name": "Ellie Blackburn",
+     "latest_experience_title": "Associate Director, Talent Acquisition",
+     "url": "https://www.linkedin.com/in/ellieblackburn/",
+     "location_name": "Newcastle Upon Tyne, England, United Kingdom",
+     "domain": "brewin.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/brewin-dolphin",
+     "profile_id": "568473121",
+     "latest_experience_start_date": "2026-03"
+    },
+    {
+     "name": "Phill Quigley",
+     "latest_experience_title": "Global Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/phill-quigley-82309152/",
+     "location_name": "Greater Leeds Area",
+     "domain": "ghdhair.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ghd_3",
+     "profile_id": "339367559",
+     "latest_experience_start_date": "2022-07"
+    },
+    {
+     "name": "Eshy Varma",
+     "latest_experience_title": "Care Operations Coordinator | Recruiting Manager | Training Specialist",
+     "url": "https://www.linkedin.com/in/eshwarvarmaunique/",
+     "location_name": "United Kingdom, United Kingdom",
+     "domain": "caremark.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/caremark-ltd",
+     "profile_id": "142313594",
+     "latest_experience_start_date": "2025-02"
+    },
+    {
+     "name": "Amy Loudoun",
+     "latest_experience_title": "Team Leader & Resource Manager",
+     "url": "https://www.linkedin.com/in/amy-loudoun-6aa46182/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "hfw.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hfw",
+     "profile_id": "603607313",
+     "latest_experience_start_date": "2020-08"
+    },
+    {
+     "name": "Tybee van Tienen",
+     "latest_experience_title": "Senior Resource Manager",
+     "url": "https://www.linkedin.com/in/tybee-van-tienen-241088206/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "hfw.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hfw",
+     "profile_id": "35324758",
+     "latest_experience_start_date": "2025-07"
+    },
+    {
+     "name": "Pedro Pinto",
+     "latest_experience_title": "Training and Recruitment Manager",
+     "url": "https://www.linkedin.com/in/pedromopinto/",
+     "location_name": "Greater Colchester Area",
+     "domain": "caremark.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/caremark-ltd",
+     "profile_id": "47362507",
+     "latest_experience_start_date": "2015-07"
+    },
+    {
+     "name": "Jenny Fright",
+     "latest_experience_title": "Franchise Recruitment Manager",
+     "url": "https://www.linkedin.com/in/jenny-fright-1264a461/",
+     "location_name": "Redhill, England, United Kingdom",
+     "domain": "caremark.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/caremark-ltd",
+     "profile_id": "71561826",
+     "latest_experience_start_date": "2012-10"
+    },
+    {
+     "name": "Melanie Gething",
+     "latest_experience_title": "Training/Recruitment Manager",
+     "url": "https://www.linkedin.com/in/melanie-gething-571ab556/",
+     "location_name": "Greater Stoke-on-Trent Area",
+     "domain": "caremark.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/caremark-ltd",
+     "profile_id": "16195609",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 5,
+   "taskId": "mcp-task_0toyegw6kPgG3iSJUbK",
+   "contacts": [
+    {
+     "name": "Craig Stafford",
+     "latest_experience_title": "Recruitment Manager - Global",
+     "url": "https://www.linkedin.com/in/craig-stafford-30b11892/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "ninetyone.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ninetyone",
+     "profile_id": "497455078",
+     "latest_experience_start_date": "2020-11"
+    },
+    {
+     "name": "Katie Bryant",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/katieroddis1808/",
+     "location_name": "Greater Cambridge Area",
+     "domain": "hotelchocolat.com",
+     "companyIdentifier": "https://www.linkedin.com/company/hotel-chocolat",
+     "profile_id": "63605474",
+     "latest_experience_start_date": "2022-03"
+    },
+    {
+     "name": "Pam Whittaker",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/pam-whittaker-7958b025/",
+     "location_name": "Greater Leeds Area",
+     "domain": "leedsbuildingsociety.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/leeds-building-society",
+     "profile_id": "178513554",
+     "latest_experience_start_date": "2013-01"
+    },
+    {
+     "name": "Chelsea Simmons",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/chelsea-simmons-9013a2a8/",
+     "location_name": "United Kingdom, United Kingdom",
+     "domain": "shoosmiths.com",
+     "companyIdentifier": "https://www.linkedin.com/company/shoosmiths",
+     "profile_id": "528935007",
+     "latest_experience_start_date": "2025-04"
+    },
+    {
+     "name": "Rachel Charlton",
+     "latest_experience_title": "Senior Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/rachcharlton/",
+     "location_name": "Manchester Area, United Kingdom",
+     "domain": "shoosmiths.com",
+     "companyIdentifier": "https://www.linkedin.com/company/shoosmiths",
+     "profile_id": "759636569",
+     "latest_experience_start_date": "2024-04"
+    },
+    {
+     "name": "Shabnam Javaherian",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/shabnam-javaherian-36672851/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "ninetyone.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ninetyone",
+     "profile_id": "441818309",
+     "latest_experience_start_date": "2013-04"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 6,
+   "taskId": "mcp-task_0toyegr5TgyK6x2fKd2",
+   "contacts": [
+    {
+     "name": "Maria Georgiades",
+     "latest_experience_title": "Senior Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/mariageorgiades/",
+     "location_name": "United Kingdom",
+     "domain": "thewhitecompany.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-white-company",
+     "profile_id": "688524504",
+     "latest_experience_start_date": "2022-08"
+    },
+    {
+     "name": "Anna Katyal (n\u00e9e Hambrook)",
+     "latest_experience_title": "Head of Talent Acquisition",
+     "url": "https://www.linkedin.com/in/ahambrook/",
+     "location_name": "United Kingdom",
+     "domain": "bmsgroup.com",
+     "companyIdentifier": "https://www.linkedin.com/company/bms-group",
+     "profile_id": "323028906",
+     "latest_experience_start_date": "2026-01"
+    },
+    {
+     "name": "Samantha Mackay",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/samjmackay/",
+     "location_name": "Basingstoke, England, United Kingdom",
+     "domain": "vanquis.com",
+     "companyIdentifier": "https://www.linkedin.com/company/vanquis",
+     "profile_id": "223390235",
+     "latest_experience_start_date": "2023-12"
+    },
+    {
+     "name": "Naima Govia",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/naima-govia/",
+     "location_name": "United Kingdom",
+     "domain": "lawsociety.org.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/the-law-society-of-england-and-wales",
+     "profile_id": "514151488",
+     "latest_experience_start_date": "2026-06"
+    },
+    {
+     "name": "Louise Cottell",
+     "latest_experience_title": "Global Head of Talent and Development at Inchcape",
+     "url": "https://www.linkedin.com/in/louise-cottell-a95924203/",
+     "location_name": "United Kingdom",
+     "domain": "inchcape.com",
+     "companyIdentifier": "https://www.linkedin.com/company/inchcape",
+     "profile_id": "195412605",
+     "latest_experience_start_date": "2023-07"
+    },
+    {
+     "name": "Rheannon Galloway",
+     "latest_experience_title": "Resourcing Manager",
+     "url": "https://www.linkedin.com/in/rheannongalloway/",
+     "location_name": "Linlithgow, Scotland, United Kingdom",
+     "domain": "bailliegifford.com",
+     "companyIdentifier": "https://www.linkedin.com/company/baillie-gifford",
+     "profile_id": "475043291",
+     "latest_experience_start_date": "2024-10"
+    },
+    {
+     "name": "David Forsyth",
+     "latest_experience_title": "Group Head of Talent Development",
+     "url": "https://www.linkedin.com/in/david-forsyth-a5b52017/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "bmsgroup.com",
+     "companyIdentifier": "https://www.linkedin.com/company/bms-group",
+     "profile_id": "655299991",
+     "latest_experience_start_date": "2022-01"
+    },
+    {
+     "name": "Maxine Burton",
+     "latest_experience_title": "Sales & recruitment manager",
+     "url": "https://www.linkedin.com/in/maxine-burton-b1579364/",
+     "location_name": "Hartlepool, England, United Kingdom",
+     "domain": "annsummers.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ann-summers",
+     "profile_id": "557122662",
+     "latest_experience_start_date": "2009-09"
+    },
+    {
+     "name": "Kelly Wilson",
+     "latest_experience_title": "Party and Recruitment Manager",
+     "url": "https://www.linkedin.com/in/kelly-wilson-12a92232/",
+     "location_name": "Greater Stoke-on-Trent Area, United Kingdom",
+     "domain": "annsummers.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ann-summers",
+     "profile_id": "89966260",
+     "latest_experience_start_date": "2009-02"
+    },
+    {
+     "name": "Naomi Wood",
+     "latest_experience_title": "Party & Recruitment Manager",
+     "url": "https://www.linkedin.com/in/naomi-wood-19082050/",
+     "location_name": "Leicester, England, United Kingdom",
+     "domain": "annsummers.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ann-summers",
+     "profile_id": "38192666",
+     "latest_experience_start_date": "2011-11"
+    },
+    {
+     "name": "Amanda Cox",
+     "latest_experience_title": "Party and Recruiting Manager",
+     "url": "https://www.linkedin.com/in/amanda-cox-97882133/",
+     "location_name": "Nottinghamshire, England, United Kingdom",
+     "domain": "annsummers.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ann-summers",
+     "profile_id": "787134979",
+     "latest_experience_start_date": "2008-06"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 7,
+   "taskId": "mcp-task_0toyeh0au8fTjUokJwv",
+   "contacts": [
+    {
+     "name": "Scott John Neilson (MCIPD) [LION]",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/scottjohnneilson/",
+     "location_name": "Greater Glasgow Area, United Kingdom",
+     "domain": "prezzo.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/prezzo-ltd",
+     "profile_id": "451403732",
+     "latest_experience_start_date": "2025-08"
+    },
+    {
+     "name": "Nicki Dawson",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/nickidawson/",
+     "location_name": "Epsom, England, United Kingdom",
+     "domain": "charlesrussellspeechlys.com",
+     "companyIdentifier": "https://www.linkedin.com/company/charles-russell-speechlys",
+     "profile_id": "631137640",
+     "latest_experience_start_date": "2023-10"
+    },
+    {
+     "name": "Hayley Halvatzis",
+     "latest_experience_title": "Senior Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/hayley-halvatzis-a7067b64/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "charlesrussellspeechlys.com",
+     "companyIdentifier": "https://www.linkedin.com/company/charles-russell-speechlys",
+     "profile_id": "813329639",
+     "latest_experience_start_date": "2023-11"
+    },
+    {
+     "name": "Hollie Ward",
+     "latest_experience_title": "HR and Recruitment Manager",
+     "url": "https://www.linkedin.com/in/hollie-ward-6b138991/",
+     "location_name": "Stockport, England, United Kingdom",
+     "domain": "creativesupport.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/creative-support",
+     "profile_id": "243180601",
+     "latest_experience_start_date": "2023-09"
+    },
+    {
+     "name": "Vlad Marin",
+     "latest_experience_title": "Warehouse Labour Manager and Resource Manager",
+     "url": "https://www.linkedin.com/in/vlad-marin-132b11a6/",
+     "location_name": "Leominster, England, United Kingdom",
+     "domain": "mandmdirect.com",
+     "companyIdentifier": "https://www.linkedin.com/company/mandmdirect",
+     "profile_id": "685626905",
+     "latest_experience_start_date": "2022-10"
+    },
+    {
+     "name": "Sam Horswell",
+     "latest_experience_title": "HR and Recruitment Manager",
+     "url": "https://www.linkedin.com/in/sam-horswell-59034845/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "yosushi.com",
+     "companyIdentifier": "https://www.linkedin.com/company/yo-sushi",
+     "profile_id": "757670576",
+     "latest_experience_start_date": null
+    },
+    {
+     "name": "Emma Holmes",
+     "latest_experience_title": "Regional Training & Recruitment Manager",
+     "url": "https://www.linkedin.com/in/emma-holmes-5334a5a5/",
+     "location_name": "Greater Bristol Area, United Kingdom",
+     "domain": "ceracare.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/allied-health-care",
+     "profile_id": "98069468",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 8,
+   "taskId": "mcp-task_0toyegqJZqqRfRGYmAu",
+   "contacts": [
+    {
+     "name": "Jenny Tod (AIOL)",
+     "latest_experience_title": "Head of Legal Recruitment",
+     "url": "https://www.linkedin.com/in/jenny-tod-aiol-4b062612/",
+     "location_name": "Peterborough, England, United Kingdom",
+     "domain": "taylor-rose.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/taylor-rose-law",
+     "profile_id": "216118357",
+     "latest_experience_start_date": "2026-08"
+    },
+    {
+     "name": "Diane Paul",
+     "latest_experience_title": "Global Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/diane-paul-97330789/",
+     "location_name": "United Kingdom",
+     "domain": "ontic.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ontic-engineering",
+     "profile_id": "487240694",
+     "latest_experience_start_date": "2020-02"
+    },
+    {
+     "name": "Katherine Turpie",
+     "latest_experience_title": "Resourcing Manager",
+     "url": "https://www.linkedin.com/in/katherine-turpie-92b2515b/",
+     "location_name": "Dartford, England, United Kingdom",
+     "domain": "thelondonclinic.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/the-london-clinic",
+     "profile_id": "81401767",
+     "latest_experience_start_date": "2023-10"
+    },
+    {
+     "name": "Christy Rickard",
+     "latest_experience_title": "Resourcing Manager",
+     "url": "https://www.linkedin.com/in/christy-rickard-121188b3/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "thelondonclinic.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/the-london-clinic",
+     "profile_id": "391837540",
+     "latest_experience_start_date": "2026-01"
+    },
+    {
+     "name": "Lynne Herlihy",
+     "latest_experience_title": "Senior Brand Resourcing Manager",
+     "url": "https://www.linkedin.com/in/lynne-herlihy-a9378873/",
+     "location_name": "Greater Glasgow Area",
+     "domain": "fenwick.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/fenwick-limited",
+     "profile_id": "497717293",
+     "latest_experience_start_date": "2025-08"
+    },
+    {
+     "name": "Sally Lloyd",
+     "latest_experience_title": "Pharmacist Resource and Recruitment Manager",
+     "url": "https://www.linkedin.com/in/sally-lloyd-45750010a/",
+     "location_name": "Wirral, England, United Kingdom",
+     "domain": "rowlandspharmacy.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/rowlands-pharmacy",
+     "profile_id": "654889801",
+     "latest_experience_start_date": "2023-11"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 9,
+   "taskId": "mcp-task_0toyei5qrsiDndNwZzf",
+   "contacts": [
+    {
+     "name": "Armani Saini",
+     "latest_experience_title": "Head of Talent Acquisition",
+     "url": "https://www.linkedin.com/in/armanisharif/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "teya.com",
+     "companyIdentifier": "https://www.linkedin.com/company/teya-global",
+     "profile_id": "792365289",
+     "latest_experience_start_date": "2025-12"
+    },
+    {
+     "name": "Jane Mitchell (Assoc CIPD)",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/jane-mitchell-assoc-cipd-a0525921/",
+     "location_name": "East Grinstead, England, United Kingdom",
+     "domain": "daylewis.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/daylewispharmacy",
+     "profile_id": "317879027",
+     "latest_experience_start_date": "2021-04"
+    },
+    {
+     "name": "Rena Patel",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/renapatelzircon/",
+     "location_name": "Marlborough, England, United Kingdom",
+     "domain": "raytheon.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/raytheon-uk",
+     "profile_id": "443631617",
+     "latest_experience_start_date": "2025-11"
+    },
+    {
+     "name": "Duncan Edgeley",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/duncan-edgeley-02453b184/",
+     "location_name": "Royal Leamington Spa, England, United Kingdom",
+     "domain": "bills-website.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/bill%27s-restaurants",
+     "profile_id": "147026598",
+     "latest_experience_start_date": "2023-06"
+    },
+    {
+     "name": "Mike Busby",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/mike-busby-77a739100/",
+     "location_name": "Leicester, England, United Kingdom",
+     "domain": "bills-website.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/bill%27s-restaurants",
+     "profile_id": "669485026",
+     "latest_experience_start_date": "2017-09"
+    },
+    {
+     "name": "Internal Recruiter",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/internal-recruiter-b4197913/",
+     "location_name": "South Croydon, England, United Kingdom",
+     "domain": "daylewis.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/daylewispharmacy",
+     "profile_id": "43721912",
+     "latest_experience_start_date": "2009-07"
+    },
+    {
+     "name": "Sue Hughes",
+     "latest_experience_title": "Medical Staffing Manager",
+     "url": "https://www.linkedin.com/in/sue-hughes-a50170112/",
+     "location_name": "Greater Cheshire West and Chester Area",
+     "domain": "coch.nhs.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/countess-of-chester-hospital",
+     "profile_id": "529401114",
+     "latest_experience_start_date": "1983-08"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 10,
+   "taskId": "mcp-task_0toyeifjuVbHmDqksuw",
+   "contacts": [
+    {
+     "name": "Ashleigh Boocock",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/ashleigh-boocock-b98597240/",
+     "location_name": "Leeds, England, United Kingdom",
+     "domain": "unitedresponse.org.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/united-response",
+     "profile_id": "292944462",
+     "latest_experience_start_date": "2024-01"
+    },
+    {
+     "name": "Megan Crisp",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/megan-crisp-0647b612a/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "paulsmith.com",
+     "companyIdentifier": "https://www.linkedin.com/company/paul-smith",
+     "profile_id": "509882834",
+     "latest_experience_start_date": "2024-07"
+    },
+    {
+     "name": "Richard Santiago",
+     "latest_experience_title": "Senior Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/richardsantiago/",
+     "location_name": "Fleet, England, United Kingdom",
+     "domain": "menzies.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/menzies-llp",
+     "profile_id": "308687334",
+     "latest_experience_start_date": "2026-04"
+    },
+    {
+     "name": "Irene Thompson",
+     "latest_experience_title": "Retired Recruitment Manager",
+     "url": "https://www.linkedin.com/in/irene-thompson-1aa6442b/",
+     "location_name": "Amersham, England, United Kingdom",
+     "domain": "thetoyshop.com",
+     "companyIdentifier": "https://www.linkedin.com/company/the-entertainer",
+     "profile_id": "682823710",
+     "latest_experience_start_date": "2010-01"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 11,
+   "taskId": "mcp-task_0toyei76PeWRiyaMvNz",
+   "contacts": [
+    {
+     "name": "Scarlett Phillips-Jacovides",
+     "latest_experience_title": "Head of Talent Development and EMEA HR",
+     "url": "https://www.linkedin.com/in/scarlettphillipsjacovides/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "alexandermcqueen.com",
+     "companyIdentifier": "https://www.linkedin.com/company/alexander-mcqueen",
+     "profile_id": "580075389",
+     "latest_experience_start_date": "2025-11"
+    },
+    {
+     "name": "Paul Kenna",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/pauljameskenna/",
+     "location_name": "Belfast, Northern Ireland, United Kingdom",
+     "domain": "randox.com",
+     "companyIdentifier": "https://www.linkedin.com/company/randox",
+     "profile_id": "204783725",
+     "latest_experience_start_date": "2025-09"
+    },
+    {
+     "name": "Gayle Moore",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/gaylemoore1/",
+     "location_name": "Reading, England, United Kingdom",
+     "domain": "twinings.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/twinings",
+     "profile_id": "197949830",
+     "latest_experience_start_date": "2026-09"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 12,
+   "taskId": "mcp-task_0toyei3zQGBHtjYcgxB",
+   "contacts": [
+    {
+     "name": "Lauren Dryden",
+     "latest_experience_title": "Global Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/lauren-dryden/",
+     "location_name": "Newcastle Upon Tyne, England, United Kingdom",
+     "domain": "barbour.com",
+     "companyIdentifier": "https://www.linkedin.com/company/j-barbour-&-sons-ltd",
+     "profile_id": "104798331",
+     "latest_experience_start_date": "2019-08"
+    },
+    {
+     "name": "Andrew Poxton",
+     "latest_experience_title": "Global Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/andrew-poxton-94129035/",
+     "location_name": "Tyneside Area",
+     "domain": "barbour.com",
+     "companyIdentifier": "https://www.linkedin.com/company/j-barbour-&-sons-ltd",
+     "profile_id": "571864858",
+     "latest_experience_start_date": "2026-02"
+    },
+    {
+     "name": "Jane Littler",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/janelittler/",
+     "location_name": "West Midlands, England, United Kingdom",
+     "domain": "shma.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/shakespeare-martineau",
+     "profile_id": "82490102",
+     "latest_experience_start_date": "2007-09"
+    },
+    {
+     "name": "Tara Davis",
+     "latest_experience_title": "Early Careers Recruitment Manager",
+     "url": "https://www.linkedin.com/in/tara-davis97/",
+     "location_name": "United Kingdom",
+     "domain": "macfarlanes.com",
+     "companyIdentifier": "https://www.linkedin.com/company/macfarlanes",
+     "profile_id": "10483712",
+     "latest_experience_start_date": "2026-07"
+    },
+    {
+     "name": "Katie Gibson",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/kvgshannon/",
+     "location_name": "Halifax, England, United Kingdom",
+     "domain": "coveainsurance.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/coveainsuranceplc",
+     "profile_id": "499844174",
+     "latest_experience_start_date": "2024-10"
+    },
+    {
+     "name": "Anne-Marie Day (FCIPD, FLPI)",
+     "latest_experience_title": "Head of Talent & Learning",
+     "url": "https://www.linkedin.com/in/anne-marie-day-fcipd-0b93151b/",
+     "location_name": "United Kingdom",
+     "domain": "paragonbankinggroup.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/paragon-banking-group-plc",
+     "profile_id": "526421810",
+     "latest_experience_start_date": "2016-06"
+    },
+    {
+     "name": "Sungeeta Jalaf",
+     "latest_experience_title": "Resourcing Manager",
+     "url": "https://www.linkedin.com/in/sungeeta-jalaf/",
+     "location_name": "United Kingdom, United Kingdom",
+     "domain": "macfarlanes.com",
+     "companyIdentifier": "https://www.linkedin.com/company/macfarlanes",
+     "profile_id": "236296257",
+     "latest_experience_start_date": "2026-02"
+    },
+    {
+     "name": "Jeyda Yilmaz",
+     "latest_experience_title": "Senior Recruitment Manager",
+     "url": "https://www.linkedin.com/in/jeyda-yilmaz-661b4b46/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "macfarlanes.com",
+     "companyIdentifier": "https://www.linkedin.com/company/macfarlanes",
+     "profile_id": "551547154",
+     "latest_experience_start_date": "2022-07"
+    },
+    {
+     "name": "Si\u00e2n Price",
+     "latest_experience_title": "Senior Resource Manager",
+     "url": "https://www.linkedin.com/in/si\u00e2n-price-449b41b1/",
+     "location_name": "United Kingdom, United Kingdom",
+     "domain": "macfarlanes.com",
+     "companyIdentifier": "https://www.linkedin.com/company/macfarlanes",
+     "profile_id": "162898422",
+     "latest_experience_start_date": "2025-09"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 13,
+   "taskId": "mcp-task_0toyejvsqQKnvC78FUM",
+   "contacts": [
+    {
+     "name": "Ryan Wilson",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/ryan-wilson-40212a77/",
+     "location_name": "Whitburn, Scotland, United Kingdom",
+     "domain": "rsewater.com",
+     "companyIdentifier": "https://www.linkedin.com/company/rsewater",
+     "profile_id": "63540580",
+     "latest_experience_start_date": "2026-05"
+    },
+    {
+     "name": "Pete Zoethout",
+     "latest_experience_title": "Head of Talent Acquisition UK at Cabot Credit Management",
+     "url": "https://www.linkedin.com/in/pete-zoethout-98a1a2a/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "cabotcm.com",
+     "companyIdentifier": "https://www.linkedin.com/company/cabot-credit-management",
+     "profile_id": "396482630",
+     "latest_experience_start_date": "2023-11"
+    },
+    {
+     "name": "Mike Rustill",
+     "latest_experience_title": "Global Head of Talent Management & AI Capability",
+     "url": "https://www.linkedin.com/in/mikerustill/",
+     "location_name": "Kingston Upon Hull, England, United Kingdom",
+     "domain": "cabotcm.com",
+     "companyIdentifier": "https://www.linkedin.com/company/cabot-credit-management",
+     "profile_id": "238691328",
+     "latest_experience_start_date": "2026-01"
+    },
+    {
+     "name": "Biral Joshi",
+     "latest_experience_title": "Global Head of Talent & Culture",
+     "url": "https://www.linkedin.com/in/biraljoshi/",
+     "location_name": "United Kingdom",
+     "domain": "icgam.com",
+     "companyIdentifier": "https://www.linkedin.com/company/icg-plc",
+     "profile_id": "611881332",
+     "latest_experience_start_date": "2026-09"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 14,
+   "taskId": "mcp-task_0toyekrw3ZVjU3TVji2",
+   "contacts": [
+    {
+     "name": "Emma Cook",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/emmacook1785/",
+     "location_name": "Manchester Area, United Kingdom",
+     "domain": "alexander-dennis.com",
+     "companyIdentifier": "https://www.linkedin.com/company/alexander-dennis",
+     "profile_id": "110062156",
+     "latest_experience_start_date": "2023-04"
+    },
+    {
+     "name": "Philippa Robson",
+     "latest_experience_title": "Health and Safety Operations Manager",
+     "url": "https://www.linkedin.com/in/philippa-robson-3a8488a2/",
+     "location_name": "Greater Cheshire West and Chester Area",
+     "domain": "hickorys.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/hickorys-smokehouse",
+     "profile_id": "160286826",
+     "latest_experience_start_date": "2017-03"
+    },
+    {
+     "name": "Luciano Di Pace CMgr FCMI",
+     "latest_experience_title": "UK Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/luciano-di-pace/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "fortnumandmason.com",
+     "companyIdentifier": "https://www.linkedin.com/company/fortnum-mason",
+     "profile_id": "31840603",
+     "latest_experience_start_date": "2025-03"
+    },
+    {
+     "name": "James Davies",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/james-davies-618724229/",
+     "location_name": "Broughton, England, United Kingdom",
+     "domain": "hickorys.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/hickorys-smokehouse",
+     "profile_id": "615862810",
+     "latest_experience_start_date": "2023-06"
+    },
+    {
+     "name": "Jane Hodge",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/jane-hodge-22405a121/",
+     "location_name": "Bishop's Stortford, England, United Kingdom",
+     "domain": "fortnumandmason.com",
+     "companyIdentifier": "https://www.linkedin.com/company/fortnum-mason",
+     "profile_id": "394557850",
+     "latest_experience_start_date": "2024-09"
+    },
+    {
+     "name": "Joanna Fairbairn",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/joanna-fairbairn-2241b826/",
+     "location_name": "Newcastle Upon Tyne, England, United Kingdom",
+     "domain": "newcastle.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/newcastle-building-society",
+     "profile_id": "919459782",
+     "latest_experience_start_date": "2016-03"
+    },
+    {
+     "name": "Nikki Luckhurst",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/nikki-luckhurst-a7518941/",
+     "location_name": "Hertfordshire, England, United Kingdom",
+     "domain": "majestic.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/majestic-wine",
+     "profile_id": "536810821",
+     "latest_experience_start_date": "2024-12"
+    },
+    {
+     "name": "Jennifer Hulse",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/jenniferahulse/",
+     "location_name": "Liverpool, England, United Kingdom",
+     "domain": "carpentersgroup.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/carpenters-group",
+     "profile_id": "205375242",
+     "latest_experience_start_date": "2021-12"
+    },
+    {
+     "name": "Neil Gatenby",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/neil-gatenby-a339a315/",
+     "location_name": "Newcastle Upon Tyne, England, United Kingdom",
+     "domain": "newcastle.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/newcastle-building-society",
+     "profile_id": "650554919",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 15,
+   "taskId": "mcp-task_0toyejoJwXtHSgf6cHW",
+   "contacts": [
+    {
+     "name": "Megan Hull",
+     "latest_experience_title": "Head of Talent",
+     "url": "https://www.linkedin.com/in/megan-hull-7a5800101/",
+     "location_name": "Edinburgh, Scotland, United Kingdom",
+     "domain": "vets-now.com",
+     "companyIdentifier": "https://www.linkedin.com/company/vets-now",
+     "profile_id": "175146353",
+     "latest_experience_start_date": "2024-01"
+    },
+    {
+     "name": "Jake Vinson",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/jake-vinson-7460b5149/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "britinsurance.com",
+     "companyIdentifier": "https://www.linkedin.com/company/brit-insurance",
+     "profile_id": "708486256",
+     "latest_experience_start_date": "2024-05"
+    },
+    {
+     "name": "Elizabeth Phinn",
+     "latest_experience_title": "senior area resource manager",
+     "url": "https://www.linkedin.com/in/elizabeth-phinn-b2a953b0/",
+     "location_name": "Glasgow, Scotland, United Kingdom",
+     "domain": "vets-now.com",
+     "companyIdentifier": "https://www.linkedin.com/company/vets-now",
+     "profile_id": "624416111",
+     "latest_experience_start_date": "2022-04"
+    },
+    {
+     "name": "Kerri Tatton",
+     "latest_experience_title": "Area Resource Manager",
+     "url": "https://www.linkedin.com/in/kerri-tatton-2276b1164/",
+     "location_name": "Sawtry, England, United Kingdom",
+     "domain": "vets-now.com",
+     "companyIdentifier": "https://www.linkedin.com/company/vets-now",
+     "profile_id": "810085932",
+     "latest_experience_start_date": "2022-06"
+    },
+    {
+     "name": "Toni Kitchen",
+     "latest_experience_title": "Head of Recruitment",
+     "url": "https://www.linkedin.com/in/toni-kitchen-56496817/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "britinsurance.com",
+     "companyIdentifier": "https://www.linkedin.com/company/brit-insurance",
+     "profile_id": "777106512",
+     "latest_experience_start_date": "2010-07"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 16,
+   "taskId": "mcp-task_0toyejsoEzg37omQdC9",
+   "contacts": [
+    {
+     "name": "Danielle Boothroyd",
+     "latest_experience_title": "MP Recruitment Manager",
+     "url": "https://www.linkedin.com/in/danielle-boothroyd-21539248/",
+     "location_name": "Burton Upon Trent, England, United Kingdom",
+     "domain": "punchpubs.com",
+     "companyIdentifier": "https://www.linkedin.com/company/punchpubs",
+     "profile_id": "33627770",
+     "latest_experience_start_date": "2026-08"
+    },
+    {
+     "name": "Sarah Bithell",
+     "latest_experience_title": "Managment Partnerships Recruitment Manager",
+     "url": "https://www.linkedin.com/in/sarah-bithell-259942176/",
+     "location_name": "Derby, England, United Kingdom",
+     "domain": "punchpubs.com",
+     "companyIdentifier": "https://www.linkedin.com/company/punchpubs",
+     "profile_id": "596281132",
+     "latest_experience_start_date": "2020-10"
+    },
+    {
+     "name": "Rob Chapman",
+     "latest_experience_title": "Head of Workforce Planning and Management",
+     "url": "https://www.linkedin.com/in/rob-chapman-02067b49/",
+     "location_name": "Greater Cardiff Area",
+     "domain": "targetgroup.com",
+     "companyIdentifier": "https://www.linkedin.com/company/target-group",
+     "profile_id": "768128690",
+     "latest_experience_start_date": "2023-11"
+    },
+    {
+     "name": "Donna Murray",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/donna-murray-96375922b/",
+     "location_name": "Swadlincote, England, United Kingdom",
+     "domain": "punchpubs.com",
+     "companyIdentifier": "https://www.linkedin.com/company/punchpubs",
+     "profile_id": "357703936",
+     "latest_experience_start_date": "2026-08"
+    },
+    {
+     "name": "Georgia Miles",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/georgia-miles-a5a144245/",
+     "location_name": "Hatton, England, United Kingdom",
+     "domain": "punchpubs.com",
+     "companyIdentifier": "https://www.linkedin.com/company/punchpubs",
+     "profile_id": "804481044",
+     "latest_experience_start_date": "2026-08"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 17,
+   "taskId": "mcp-task_0toyekjMhnZUZAFvRH6",
+   "contacts": [
+    {
+     "name": "Joni Spittle",
+     "latest_experience_title": "Group Resourcing Manager",
+     "url": "https://www.linkedin.com/in/findjoni/",
+     "location_name": "United Kingdom",
+     "domain": "boparanrestaurantgroup.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/boparan-ventures-ltd",
+     "profile_id": "448383210",
+     "latest_experience_start_date": "2024-04"
+    },
+    {
+     "name": "Emma Roche",
+     "latest_experience_title": "Talent and Resourcing Manager",
+     "url": "https://www.linkedin.com/in/emma-roche-9494823a/",
+     "location_name": "Greater Cardiff Area",
+     "domain": "principality.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/principality-building-society",
+     "profile_id": "160434855",
+     "latest_experience_start_date": "2024-06"
+    },
+    {
+     "name": "Max Bullock",
+     "latest_experience_title": "Resource Manager",
+     "url": "https://www.linkedin.com/in/max-bullock-702165379/",
+     "location_name": "Stoke-On-Trent, England, United Kingdom",
+     "domain": "altontowers.com",
+     "companyIdentifier": "https://www.linkedin.com/company/alton-towers-resort-operations-ltd-",
+     "profile_id": "926891476",
+     "latest_experience_start_date": "2026-01"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 18,
+   "taskId": "mcp-task_0toyekuEW5qzPHhjdk7",
+   "contacts": [
+    {
+     "name": "Matt Brown",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/matt-brown-coop/",
+     "location_name": "Lincoln, England, United Kingdom",
+     "domain": "lincolnshire.coop",
+     "companyIdentifier": "https://www.linkedin.com/company/lincolnshire-cooperative",
+     "profile_id": "348524198",
+     "latest_experience_start_date": "2025-03"
+    },
+    {
+     "name": "Natalie Bush",
+     "latest_experience_title": "Talent Acquisition Manager",
+     "url": "https://www.linkedin.com/in/natalie-bush-ba50a41a/",
+     "location_name": "Wilmslow, England, United Kingdom",
+     "domain": "jmw.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/jmwsolicitors",
+     "profile_id": "288192054",
+     "latest_experience_start_date": "2025-06"
+    },
+    {
+     "name": "Ian Loffel",
+     "latest_experience_title": "Recruitment manager",
+     "url": "https://www.linkedin.com/in/ian-loffel-42493066/",
+     "location_name": "Redhill, England, United Kingdom",
+     "domain": "carluccios.com",
+     "companyIdentifier": "https://www.linkedin.com/company/carluccio%27s",
+     "profile_id": "329236630",
+     "latest_experience_start_date": null
+    },
+    {
+     "name": "Scott Williamson",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/scott-williamson-2b124813/",
+     "location_name": "Greater London, England, United Kingdom",
+     "domain": "carluccios.com",
+     "companyIdentifier": "https://www.linkedin.com/company/carluccio%27s",
+     "profile_id": "394650860",
+     "latest_experience_start_date": null
+    },
+    {
+     "name": "Tabby Hussain",
+     "latest_experience_title": "Head of Talent Acquisition",
+     "url": "https://www.linkedin.com/in/tabby-hussain-210161328/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "tysers.com",
+     "companyIdentifier": "https://www.linkedin.com/company/tysers",
+     "profile_id": "268453639",
+     "latest_experience_start_date": null
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 19,
+   "taskId": "mcp-task_0toyelzqTxZQhnzGkm3",
+   "contacts": [
+    {
+     "name": "Petal Peters",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/petal-peters-71028420/",
+     "location_name": "Manchester Area, United Kingdom",
+     "domain": "expresssolicitors.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/express-solicitors",
+     "profile_id": "788435276",
+     "latest_experience_start_date": "2021-12"
+    },
+    {
+     "name": "Anna Gibbs",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/annagibbs/",
+     "location_name": "Salisbury, England, United Kingdom",
+     "domain": "pkf-l.com",
+     "companyIdentifier": "https://www.linkedin.com/company/littlejohn",
+     "profile_id": "245437761",
+     "latest_experience_start_date": "2023-04"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 20,
+   "taskId": "mcp-task_0toyelx8MQ5xpJREYER",
+   "contacts": [
+    {
+     "name": "Kathryn Bowring-  Assoc - CIPD",
+     "latest_experience_title": "Talent Acquisition Manager Group",
+     "url": "https://www.linkedin.com/in/kathrynbowring/",
+     "location_name": "Greater Lincoln Area, United Kingdom, United Kingdom",
+     "domain": "risewithcountrystyle.com",
+     "companyIdentifier": "https://www.linkedin.com/company/countrystyle",
+     "profile_id": "826696217",
+     "latest_experience_start_date": "2022-05"
+    },
+    {
+     "name": "Danielle Kenward",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/danielle-kenward-8295393ab/",
+     "location_name": "Oxfordshire, England, United Kingdom",
+     "domain": "mpdonline.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/motor-parts-direct-limited",
+     "profile_id": "945167568",
+     "latest_experience_start_date": "2026-03"
+    }
+   ]
+  },
+  {
+   "campaign": "c3",
+   "batch": 21,
+   "taskId": "mcp-task_0toyem38aP8BBaRQqfS",
+   "contacts": [
+    {
+     "name": "Polly Ryan",
+     "latest_experience_title": "Senior Talent and Resourcing Manager",
+     "url": "https://www.linkedin.com/in/polly-ryan-9206ab79/",
+     "location_name": "Totnes, England, United Kingdom",
+     "domain": "staustellbrewery.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/st-austell-brewery",
+     "profile_id": "299820033",
+     "latest_experience_start_date": "2022-08"
+    },
+    {
+     "name": "Matt Cannon",
+     "latest_experience_title": "Head of Talent Acquisition and Diversity & Inclusion",
+     "url": "https://www.linkedin.com/in/mattcannon1/",
+     "location_name": "Peterborough, England, United Kingdom",
+     "domain": "abagri.com",
+     "companyIdentifier": "https://www.linkedin.com/company/ab-agri",
+     "profile_id": "340417576",
+     "latest_experience_start_date": "2023-04"
+    },
+    {
+     "name": "Charlotte V.",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/charlotte-v-5864346a/",
+     "location_name": "London, England, United Kingdom",
+     "domain": "neilsonfs.com",
+     "companyIdentifier": "https://www.linkedin.com/company/neilson-financial-services",
+     "profile_id": "846790633",
+     "latest_experience_start_date": "2017-04"
+    },
+    {
+     "name": "Jenny Brown",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/jenny-brown-884a7a122/",
+     "location_name": "United Kingdom",
+     "domain": "farrer.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/farrer-&-co",
+     "profile_id": "795675765",
+     "latest_experience_start_date": "2023-05"
+    },
+    {
+     "name": "Razvan Manea",
+     "latest_experience_title": "Area Resource Manager",
+     "url": "https://www.linkedin.com/in/razvan-manea-bb991513a/",
+     "location_name": "Greater Stoke-on-Trent Area",
+     "domain": "eandj.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/eandj",
+     "profile_id": "202940879",
+     "latest_experience_start_date": "2017-07"
+    },
+    {
+     "name": "Agnieszka Olejniczak",
+     "latest_experience_title": "Operations Manager WW1",
+     "url": "https://www.linkedin.com/in/agnieszka-adamczyk-a8874934/",
+     "location_name": "United Kingdom",
+     "domain": "eandj.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/eandj",
+     "profile_id": "777687780",
+     "latest_experience_start_date": "2021-05"
+    },
+    {
+     "name": "Giles Adamson",
+     "latest_experience_title": "Recruitment Manager",
+     "url": "https://www.linkedin.com/in/giles-adamson-a037a3b9/",
+     "location_name": "Greater Leeds Area",
+     "domain": "eandj.co.uk",
+     "companyIdentifier": "https://www.linkedin.com/company/eandj",
+     "profile_id": "454560006",
+     "latest_experience_start_date": "2015-05"
+    }
+   ]
+  }
+ ]
+}
