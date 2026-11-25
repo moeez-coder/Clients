@@ -20,7 +20,9 @@ comps = {c["company_linkedin_url"]: c for c in json.load(open(os.path.join(RAW, 
 # companies that already have a row in jd.jsonl are reused, not fetched again.
 want = {r["company_linkedin_url"] for r in csv.DictReader(open(os.path.join(RAW, os.environ.get("LEADS", "leads-raw.csv")))) if r["status"] == "launch set"}
 out = os.path.join(RAW, os.environ.get("JDOUT", "jd.jsonl"))
-if os.environ.get("JDOUT"): want -= {json.loads(l)["company_linkedin_url"] for l in open(os.path.join(RAW, "jd.jsonl"))}; done = {json.loads(l)["company_linkedin_url"] for l in open(out)} if os.path.exists(out) else set()
+import glob as _g
+if os.environ.get("JDOUT"):  # skip companies already fetched in any earlier jd*.jsonl
+    want -= {json.loads(l)["company_linkedin_url"] for f in _g.glob(os.path.join(RAW, "jd*.jsonl")) if not f.endswith(os.environ["JDOUT"]) for l in open(f)}; done = {json.loads(l)["company_linkedin_url"] for l in open(out)} if os.path.exists(out) else set()
 
 def page(url):
     m = re.search(r"(\d{8,})", url)
