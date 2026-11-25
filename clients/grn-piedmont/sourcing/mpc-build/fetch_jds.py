@@ -16,8 +16,11 @@ for r in allj:
     if r["status"].startswith("removed: repost"):
         k = (r["company_linkedin_url"], r["title"].lower()); latest[k] = max(latest.get(k, ""), r["date_posted"])
 comps = {c["company_linkedin_url"]: c for c in json.load(open(os.path.join(RAW, "companies.json")))}
-want = {r["company_linkedin_url"] for r in csv.DictReader(open(os.path.join(RAW, "leads-raw.csv"))) if r["status"] == "launch set"}
-out = os.path.join(RAW, "jd.jsonl"); done = {json.loads(l)["company_linkedin_url"] for l in open(out)} if os.path.exists(out) else set()
+# LEADS/JDOUT let a later wave reuse this (2026-11-25 Ops & Plant Directors: LEADS=dir-leads-raw.csv JDOUT=jd-dir.jsonl);
+# companies that already have a row in jd.jsonl are reused, not fetched again.
+want = {r["company_linkedin_url"] for r in csv.DictReader(open(os.path.join(RAW, os.environ.get("LEADS", "leads-raw.csv")))) if r["status"] == "launch set"}
+out = os.path.join(RAW, os.environ.get("JDOUT", "jd.jsonl"))
+if os.environ.get("JDOUT"): want -= {json.loads(l)["company_linkedin_url"] for l in open(os.path.join(RAW, "jd.jsonl"))}; done = {json.loads(l)["company_linkedin_url"] for l in open(out)} if os.path.exists(out) else set()
 
 def page(url):
     m = re.search(r"(\d{8,})", url)
