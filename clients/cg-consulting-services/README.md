@@ -229,6 +229,14 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-25**: **MQC `727548` resumed on Moe's instruction ("proceed" → "Resume MQC 727548"). Schedule set explicitly first.**
+  - Before: `PAUSED`. 499 leads: 199 in progress, 254 pending, 39 finished, 7 failed. Who paused it is still not recorded; Moe chose to resume rather than investigate.
+  - `update_campaign_schedule`: **Mon–Sun 07:00–19:00, "Eastern Standard Time"**. This matches the 4 open-role campaigns and settles the 11-24 schedule question.
+  - `resume_campaign`, then `get_campaign`: **`IN_PROGRESS`**, 7 senders. Exclude-in-other-campaigns and exclude-has-other-conversations are still on.
+  - **DNC (`Non_Connect`):** Moe also asked for it to be applied. Google Drive was searched too (title/fulltext "Non_Connect"): nothing. Together with the 11-12 Gmail/Slack search, the file isn't reachable from any connected tool. **Blocked until Moe or Jon shares the file.** The HeyReach blacklists still hold only the 7 wave-1 removals.
+  - Also requested by Moe: a top-up for LS Clinical & Data `723837` and LS Medical Affairs `723839`. Both have **0 pending leads**: 723837 has 425 total (351 finished, 49 in progress); 723839 has 512 total (265 finished, 231 in progress). Handed to a new session.
+  - CG session (hand-off line `session_013MzxQfNdrQFixGQbZkZLsH`).
+
 - **2026-11-24**: **7-day schedule check on live CG campaigns (Moe's go-ahead, 2026-11-24, given in the orchestrator session).** Scope: every IN_PROGRESS campaign sends 7 days a week (CLAUDE.md "HeyReach schedule rule").
   - **IN_PROGRESS per `get_all_campaigns` (workspace 169110):** open-role `723837`, `723838`, `723839`, `723841`. All 4 are recorded as Mon–Sun 07:00–19:00 "Eastern Standard Time" since 2026-11-16 (commit `430e837`, PR #17). **No pause/update/resume was needed.** All 4 are confirmed `IN_PROGRESS` with 7 senders each.
   - **Schedules per campaign, before → after this session:** `723837`/`723838`/`723839`/`723841`: Mon–Sun 07:00–19:00 ET → unchanged.
