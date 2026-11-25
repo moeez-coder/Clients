@@ -1,0 +1,61 @@
+{
+ "variants": {
+  "base 201-1000 ET/CT 120d": {
+   "postings_total_results": 4666,
+   "sizes": [
+    "201-500",
+    "501-1000"
+   ],
+   "geo": true,
+   "days": 120
+  },
+  "lever2 +1001-5000": {
+   "postings_total_results": 5263,
+   "sizes": [
+    "1001-5000"
+   ],
+   "geo": true,
+   "days": 120
+  },
+  "lever2 +51-200": {
+   "postings_total_results": 2680,
+   "sizes": [
+    "51-200"
+   ],
+   "geo": true,
+   "days": 120
+  },
+  "lever3 Mountain/Pacific/AK/HI only (201-1000)": {
+   "postings_total_results": 1362,
+   "sizes": null,
+   "geo": "west",
+   "days": 120
+  },
+  "lever5 window 180d (201-1000 ET/CT)": {
+   "postings_total_results": 5575,
+   "sizes": [
+    "201-500",
+    "501-1000"
+   ],
+   "geo": true,
+   "days": 180
+  },
+  "lever5 window 365d (201-1000 ET/CT)": {
+   "postings_total_results": 5603,
+   "sizes": [
+    "201-500",
+    "501-1000"
+   ],
+   "geo": true,
+   "days": 365
+  }
+ },
+ "records_used": 204,
+ "director_sample": {
+  "companies": 80,
+  "companies_with_director": 56,
+  "directors": 180,
+  "directors_per_company_all": 2.25,
+  "at_cap_10": 1
+ }
+}

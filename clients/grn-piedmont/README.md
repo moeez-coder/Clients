@@ -123,6 +123,7 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 - `sourcing/tam/2026-11-24-mpc-segments-companies.csv` — 1,282 hiring companies, one row each: segment flags, repost/prolonged counts, whether they're in the live campaign. Derived from the jobs file (`mpc_segments_size.py`), 2026-11-24
 - `sourcing/tam/2026-11-24-mpc-segments-sample-leads.csv` — 143 rows (92 with a LinkedIn URL, 51 `-` placeholders for companies with no match) at 93 sampled companies, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-24, keyed by `linkedin_url`. Reachability sample only, not a launch list (`mpc_segments_sample.py`)
 - `sourcing/tam/2026-11-24-mpc-segments-posting-check.csv` — 120 postings checked open or closed on the public LinkedIn posting page, 2026-11-24 (not an API pull)
+- `sourcing/tam/2026-11-25-levers-director-sample.csv` — 180 Director-level people at 80 sampled hiring companies (56 with a match; placeholder rows for the rest), Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-25, sizing sample for lever 1 (no config). Counts for all levers: `2026-11-25-levers.json`, `lever_counts.py`; review: `2026-11-25-levers-review.md`
 - `sourcing/tam/2026-11-24-apify-charlotte-jobs.csv` — 600 job postings (392 Indeed, 208 LinkedIn), Apify actor `LzsIpToRTUZSnqjbS` via GTM Sheets table `1a3119fc-23ee-42e3-a466-56c778e5cd3f` (Charlotte NC 100 mi, last 7 days, capped at 600 items), pulled 2026-11-24, coverage test against the Blitz pull (no config; `apify_compare.py`)
 - `sourcing/tam/2026-11-24-mpc-segments.query.md` + `-size.json` — the segment read: table, sample results, TAM/SAM, message wording, Apify fit
 - `sourcing/mpc-executive/2026-11-24-leads.csv` — 361 rows (107 launch set; the rest are marked removed with a reason, mostly people already in 734516/756466), config **MPC Executive** `05b28816-06e7-4d7d-9a6d-d9b606f39a68`, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-24, keyed by `linkedin_url`. The same folder holds `2026-11-24-companies.csv` (every company assigned to the segment, with leads per company), `-jobs.csv` (its kept postings) and `-role-phrases.csv` (final posting, open/closed, role, JD phrase, open line). Query record: `sourcing/mpc-build/2026-11-24-leads.query.md`
@@ -133,6 +134,11 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 
 ## History
 
+- **2026-11-25**: **Lever review for ~800 leads per MPC campaign** (Moe: "do 1-3 and 5 and give me a review"). Blitz counts plus an 80-company Director sample, 204 records.
+  - **Directors:** 2.25 per hiring company, about 2,800 new leads, none of whom can already be in 734516/756466.
+  - **Size 1,001-5,000:** +113% postings. **51-200:** +57%. **Mountain/Pacific:** +29%. **Window 180/365 days:** only +19-20%.
+  - **Recommendation:** ask GRN to approve Director contacts first, then 1,001-5,000. Full review: `sourcing/tam/2026-11-25-levers-review.md`.
+  - Session session_013MzxQhML2MDSCMvFCprgqD.
 - **2026-11-25**: **MPC segments going live one a day** (Moe: "Go live on a schedule one daily starting with executive", then "live the whole creating and going live i tracking clients daily", then "confirm").
   - **Executive (760469) is live** since 11:31 UTC: started in HeyReach, and tracking_clients `start_campaign` confirms it is running with 10 senders. After a 5-row test (custom fields arrived), its 107 launch-set leads were pushed through GTM Sheets.
   - **The other four:** started and immediately paused at 11:31 UTC with empty lists, so nothing was sent. This was done before Moe clarified the daily plan; HeyReach can't return a started campaign to DRAFT, so they stay PAUSED.
