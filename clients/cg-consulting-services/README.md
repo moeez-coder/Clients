@@ -226,8 +226,20 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-leads.csv`: **1099 leads (top-up)** at 1099 new companies, keyed by `linkedin_url`. 81 in list `1056840`, 345 flagged `dupe_of`, **754 `live_eligible`**, pushed to HeyReach `723841`. Lead list **Tech Eng, Security & Data** `a28b5183-8b8d-487d-a198-f3086d62915b`. Blitz `waterfall-icp-keyword`, 2026-11-12. Query: `2026-11-12-leads.query.md`.
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-companies.csv`: **1300 new hiring companies** (30-day window, none from an earlier snapshot). Blitz `tam-by-jobs`, 2026-11-12.
 - `sourcing/recruiter-open-role-tech-eng-security-data/2026-11-12-jobs.csv`: **1300 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-12.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-25-leads.csv`: **41 leads (top-up 2)** at 18 of 29 new companies, keyed by `linkedin_url`. 7 flagged `dupe_of` (earlier CG leads files and/or a live HeyReach list), **34 `live_eligible`**, for HeyReach `723837`. Lead list **LS Clinical & Data** `992bac4f-c50a-4f2b-9b45-c266b9179b2e`. Blitz `waterfall-icp-keyword`, 2026-11-25. Query: `2026-11-25-leads.query.md`.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-25-companies.csv`: **29 new hiring companies** (60-day window, none from an earlier snapshot). Blitz `tam-by-jobs`, 2026-11-25.
+- `sourcing/recruiter-open-role-ls-clinical-data/2026-11-25-jobs.csv`: **29 open jobs**, one current posting per new company. Blitz `jobs/company`, 2026-11-25.
 
 ## History
+
+- **2026-11-25**: **Top-up 2: expanding the existing segment LS Clinical & Data (`recruiter-open-role-ls-clinical-data`). Blitz API, 41 leads, 34 live-eligible, for HeyReach `723837`** (Moe: `723837` had 0 pending of 425; repeat the 11-12 top-up).
+  - Same method as 11-12 (SOP Step 11): `tam-by-jobs` with the **60-day window** (covers every posting since the 11-12 pull), skip the 215 companies already sourced, then `jobs/company`, then the waterfall at **3 per company**. 211 companies paged, **29 new**, 18 with someone found.
+  - **TAM read:** the pool is nearly exhausted. Only 29 new hiring companies appeared in 13 days, so 3 per company stays (small pool, inverse rule).
+  - **Blitz records used: 281** (tam-by-jobs 211, jobs/company 29, waterfall 41).
+  - **Dedupe:** against every CG leads file (incl. `mqc-talent-leaders` and `security-and-data-bench`) **and** a live export of the HeyReach lists behind all 7 CG campaigns (`1056840`, `1141179`–`1141182`, `1149590`; 7,075 URLs). 0 in list `1056840`; **7 flagged `dupe_of`**: 3 in `723837`/clinical 11-12, 1 in `723838`/reg-quality 11-12, 2 in `723839`/medical-affairs, 1 in medical-affairs 11-05 only. Every HeyReach match was also caught by a repo file. `tools/leads.py overlap` agrees.
+  - `build_open_roles.py` gained an optional 4th argument, a HeyReach list export CSV; matches go into `dupe_of`, so the column set is unchanged.
+  - Method and requests: `2026-11-25-leads.query.md`.
+  - CG session (top-up 2).
 
 - **2026-11-25**: **MQC `727548` resumed on Moe's instruction ("proceed" → "Resume MQC 727548"). Schedule set explicitly first.**
   - Before: `PAUSED`. 499 leads: 199 in progress, 254 pending, 39 finished, 7 failed. Who paused it is still not recorded; Moe chose to resume rather than investigate.

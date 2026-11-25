@@ -1,6 +1,6 @@
 """Build the committed CSVs for one open-role segment from the raw Blitz JSONL (pull_open_roles.py).
 
-Usage: python3 build_open_roles.py <slug> <raw_dir> <date>
+Usage: python3 build_open_roles.py <slug> <raw_dir> <date> [heyreach_lists_csv]
 Writes into sourcing/<slug>/:  <date>-jobs.csv, <date>-companies.csv, <date>-leads.csv
 Dedupe (flagged, never dropped), by normalised LinkedIn URL:
   - in_heyreach_list_1056840: wave1 file + wave2 rows 1-2100 (the exact content of list 1056840 used by
@@ -8,6 +8,9 @@ Dedupe (flagged, never dropped), by normalised LinkedIn URL:
   - dupe_of: every other CG *-leads.csv in this repo (incl. the open-role segments built earlier in the
     order clinical-data -> regulatory-quality -> medical-affairs -> tech), so a person is kept live in the
     first segment only.
+  - optional heyreach_lists_csv (linkedin_url, heyreach_lists): a live export of HeyReach campaign lists
+    (added 2026-11-25). A match is added to dupe_of as "heyreach <list (campaigns)>", so the column set
+    stays the same and the row is not live_eligible.
 """
 import csv, json, os, re, sys, urllib.parse
 from glob import glob
@@ -41,7 +44,7 @@ def load_jsonl(p):
     return [json.loads(l) for l in open(p)] if os.path.exists(p) else []
 
 
-def main(slug, raw, date):
+def main(slug, raw, date, hr_csv=None):
     d = os.path.join(raw, slug)
     out = os.path.join(HERE, slug); os.makedirs(out, exist_ok=True)
     for kind in ("jobs", "companies", "leads"):
@@ -116,6 +119,11 @@ def main(slug, raw, date):
                 continue  # only the copy that stays live elsewhere blocks this one
             prior.setdefault(norm(r["linkedin_url"]), set()).add(tag)
 
+    if hr_csv:
+        for r in csv.DictReader(open(hr_csv)):
+            for lab in r["heyreach_lists"].split("; "):
+                prior.setdefault(norm(r["linkedin_url"]), set()).add(f"heyreach {lab}")
+
     # leads
     leads, seen = [], set()
     co_leads = {}
@@ -178,4 +186,4 @@ def main(slug, raw, date):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    main(*sys.argv[1:5])
