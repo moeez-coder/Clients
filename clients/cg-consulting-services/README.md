@@ -235,6 +235,19 @@ Code shared by all four: `sourcing/open_role_spec.py` (filters), `sourcing/pull_
 
 ## History
 
+- **2026-11-25**: **Top-up 2 is in GTM Sheets and pushed: `723837` pending 0 → 33, `723839` pending 0 → 57.**
+  - **GTM Sheets:** the 11-25 CSVs were appended to the existing tables with `gtm_sheet_import_csv` (`url` = raw GitHub file at commits `983e3fb` / `2a1ade7`, `auto_run: false`, no new columns). Row counts match exactly:
+    - LS Clinical & Data `85133b7d-…`: Leads 428 → **469** (+41), Companies 215 → **244** (+29), Open Jobs 386 → **415** (+29).
+    - LS Medical Affairs `ffdf9aaf-…`: Leads 526 → **587** (+61), Companies 225 → **256** (+31), Open Jobs 522 → **553** (+31).
+  - **JD Phrase AI:** tested on 3 rows per segment first (each read naturally in "looks like you need someone with ____"; First Name Clean was right), then run `only_empty` on the rest: 34 + 57 live-eligible rows, all filled.
+  - **Held back: 1 Clinical row** (row 441, Alira Health). Blitz returned no first name (`-`), so message 1 would have read "Hi -". It is still `live_eligible = yes` in the CSV and sheet but was **not pushed**. Clinical was pushed by row id (33 rows); Medical Affairs with `only_empty` (57). One pushed lead's first name is lowercase in the source ("jie", BlueRock); left as is.
+  - **HeyReach (`get_campaign` / `get_list_by_id`):** `723837` 425 total / 0 pending → **458 / 33 pending**, list `1141179` = 458. `723839` 512 / 0 → **569 / 57 pending**, list `1141181` = 569. Both `IN_PROGRESS`; no setting, schedule, sequence or sender was touched. Every push cell returned `added 1, failed 0`.
+  - **Not verified from HeyReach:** the custom fields (Open_Role / Company_Name / JD) on the new leads. The push column is wired to them, but `get_leads_from_list` was still returning the pre-push list (425) and `get_lead` doesn't show list custom fields. Check a new lead in the HeyReach UI.
+  - **The pool is thin:** a 60-day window gave only 29 + 31 new companies, so 33 + 57 leads. At the 11-12 pace (723837 used ~425 leads in 13 days) this lasts about a week. Widening further would mean a longer posting window or new title families; that is Moe's call.
+  - **DNC:** C&G's `Non_Connect` file is still unavailable; this went live without it, as Moe accepted.
+  - No campaign or doc was created, so the task-log rule did not apply.
+  - CG session (top-up 2).
+
 - **2026-11-25**: **Top-up 2: expanding the existing segment LS Medical Affairs (`recruiter-open-role-ls-medical-affairs`). Blitz API, 61 leads, 57 live-eligible, for HeyReach `723839`** (Moe: `723839` had 0 pending of 512; repeat the 11-12 top-up).
   - Same method as 11-12 (SOP Step 11): `tam-by-jobs` with the **60-day window**, skip the 225 companies already sourced, then `jobs/company`, then the waterfall at **3 per company**. 226 companies paged, **31 new**, 25 with someone found.
   - **TAM read:** nearly exhausted, as for Clinical (31 new companies in 13 days), so 3 per company stays.
