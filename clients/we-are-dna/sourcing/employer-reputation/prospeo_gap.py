@@ -15,8 +15,11 @@ TITLES = {"c1": ["CEO", "Chief Executive", "Managing Director", "Managing Partne
 def root(d):
     d = (d or "").lower().replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0].strip()
     return "" if d in ("", "-", "linktr.ee", "bit.ly") else d
-has = {r["company_linkedin_url"] for r in csv.DictReader(open(os.path.join(HERE, f"{D}-2-{NAMES[CAMP]}-leads.csv"))) if r["status"] == "launch set"}
-gap = [c for c in csv.DictReader(open(os.path.join(HERE, f"{D}-2-{NAMES[CAMP]}-companies.csv"))) if c["company_linkedin_url"] not in has and root(c["company_domain"])]
+# 2026-11-25: --in <prefix> reads <prefix>-<camp>-leads.csv (or -leads-raw.csv) / -companies.csv instead of <date>-2-...
+PRE = sys.argv[sys.argv.index("--in") + 1] if "--in" in sys.argv else f"{D}-2"
+_lp = os.path.join(HERE, f"{PRE}-{NAMES[CAMP]}-leads.csv"); _lp = _lp if os.path.exists(_lp) else _lp.replace("-leads.csv", "-leads-raw.csv")
+has = {r["company_linkedin_url"] for r in csv.DictReader(open(_lp)) if r["status"] == "launch set"}
+gap = [c for c in csv.DictReader(open(os.path.join(HERE, f"{PRE}-{NAMES[CAMP]}-companies.csv"))) if c["company_linkedin_url"] not in has and root(c["company_domain"])]
 gap = gap if N == "all" else gap[:int(N)]
 doms = sorted({root(c["company_domain"]) for c in gap})
 out = open(os.path.join(HERE, f"{D}-prospeo-{TAG}-{CAMP}-raw.jsonl"), "a"); credits = 0; total = None

@@ -59,6 +59,12 @@ WIDEN_CASCADES = {
  "c1": [{"include_title": ["Founder", "Co-Founder", "Owner", "Chairman", "Executive Chairman", "Chair", "Partner", "Director", "Proprietor"],
          "exclude_title": X_COMMON + ["Associate", "Sales", "Account", "Business Partner", "Talent Partner", "People Partner", "Non-Exec"],
          "location": GB, "include_headline_search": False}],
+ # C3 tier 3 (Moe, 2026-11-25: "Add TA Partner/Specialist titles"): the in-house TA person below manager/lead
+ "c3": [{"include_title": ["Talent Acquisition Partner", "Talent Partner", "Talent Acquisition Specialist", "Talent Acquisition Advisor",
+                           "Talent Acquisition Adviser", "Recruitment Partner", "Resourcing Partner", "Resourcing Specialist",
+                           "Recruitment Specialist", "Senior Talent Acquisition Partner", "Talent Acquisition Business Partner"],
+         "exclude_title": X_COMMON + ["Agency", "Consultant", "Sourcer", "Coordinator", "Co-ordinator", "Administrator", "Assistant"],
+         "location": GB, "include_headline_search": False}],
  "c2": [{"include_title": ["HR Manager", "Human Resources Manager", "People Manager", "People and Culture Manager", "People & Culture Manager",
                            "Senior HR Manager", "HR & Payroll Manager", "HR Lead", "People Lead"],
          "exclude_title": X_COMMON + ["Business Partner", "Recruitment", "Talent Acquisition", "Payroll Officer", "Systems", "Learning"],
@@ -68,9 +74,13 @@ TIER3 = {
                   r"|^\s*((co-?\s?)?founder|owner)\s*(and|&|/|,)\s*(director|ceo|managing director|chair(man)?)\s*$", re.I),
  "c1_partner": re.compile(r"^\s*(equity |senior |salaried )?partner\s*$", re.I),
  "c1_director": re.compile(r"^\s*(company |group )?director\s*$", re.I),
- "c2": re.compile(r"\b(senior )?(hr|human resources|people|people (and|&) culture|hr (and|&) payroll)\s+(manager|lead)\b", re.I)}
+ "c2": re.compile(r"\b(senior )?(hr|human resources|people|people (and|&) culture|hr (and|&) payroll)\s+(manager|lead)\b", re.I),
+ "c3": re.compile(r"\b(senior |lead |principal )?(talent acquisition|ta|talent|recruitment|resourcing)( business)? (partner|specialist|advis[eo]r)\b", re.I)}
 def classify_widen(camp, title, sector, size_band):
     t = title or ""
+    if camp == "c3":   # checked before BAD, which drops "advisor" for the other campaigns
+        if re.search(r"\b(assistant|intern|graduate|apprentice|trainee|coordinator|co-ordinator|administrator|agency|consultant|sourcer)\b", t, re.I): return None
+        return "3" if TIER3["c3"].search(t) else None
     if BAD.search(t) or re.search(r"non[- ]?exec|business partner|recruit", t, re.I): return None
     if camp == "c1" and re.search(r"\bowner\b", t, re.I) and not re.fullmatch(r"\s*(co-?\s?owner|owner|business owner|franchise owner|(co-?\s?)?founder\s*(and|&|/)\s*owner|owner\s*(and|&|/|,)\s*(director|managing director|ceo|founder))\s*", t, re.I): return None
     if camp == "c1" and re.search(r"\b(product|technical|concession|process|data|service|system|committee|board|advisory|council|of the|of colleague)\b", t, re.I): return None
