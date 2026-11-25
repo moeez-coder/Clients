@@ -66,7 +66,7 @@ Read 2026-11-24 with the GRN Piedmont HeyReach connector (`get_all_linked_in_acc
 | 730732 | US \| Fire & Life Safety Leaders \| GRN Piedmont v1 (doc Campaign 3) | DRAFT | 1: 182881 | not recorded | senders 1 -> 10 (copy speaks as "GRN Piedmont", not one person; the doc allows all accounts for Campaign 3). Schedule left alone: the batch only changes active campaigns |
 | 730731 | US \| Owner Succession \| GRN Piedmont v1 (doc Campaign 5) | DRAFT | 1: 182881 | not recorded | **no change, flagged for Moe:** the copy is first person as a senior leader ("a question I ask {ownership} manufacturers"), and the doc says Campaign 5 should send only from Harvey's account. Harvey has no account in this workspace, and 182881 is a managed sender, not Harvey |
 | 760469 | US \| Recruiter \| MPC Executive \| Moe v1 (list 1218894) | **IN_PROGRESS since 2026-11-25 11:31 UTC** | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
-| 760470 | US \| Recruiter \| MPC Ops & Plant \| Moe v1 (list 1218896) | PAUSED (started + paused empty 2026-11-25; goes live on its day, see History) | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
+| 760470 | US \| Recruiter \| MPC Ops & Plant \| Moe v1 (list 1218896) | **IN_PROGRESS since 2026-11-25 ~11:47 UTC** (resumed via tracking_clients) | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
 | 760471 | US \| Recruiter \| MPC Eng & Quality \| Moe v1 (list 1218897) | PAUSED (started + paused empty 2026-11-25; goes live on its day, see History) | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
 | 760473 | US \| Recruiter \| MPC Supply Chain \| Moe v1 (list 1218898) | PAUSED (started + paused empty 2026-11-25; goes live on its day, see History) | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
 | 760475 | US \| Recruiter \| MPC EHS & Maint \| Moe v1 (list 1218899) | PAUSED (started + paused empty 2026-11-25; goes live on its day, see History) | 10: the full valid pool | **7 days, 07:00-19:00 America/New_York, set at creation 2026-11-24** (window copied from 756466; Moe decides) | none; leads not pushed yet (needs a start, see History) |
@@ -134,6 +134,12 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 
 ## History
 
+- **2026-11-25**: **Ops & Plant (760470) live a day early** (Moe: "make the ops and plant live and then keep on adding the leads").
+  - Its 39 launch-set leads were pushed through GTM Sheets, and tracking_clients `start_campaign` resumed it (PAUSED to IN_PROGRESS, 10 senders, none removed).
+  - The 901-person Director wave will be pushed into the running campaign as soon as its phrases are written.
+  - The 11-26 scheduled task `trig_01X4bCkgQvXfoy28BsH3qwX9` now only pushes anything still unpushed and checks the count.
+  - The other three keep their days: Eng & Quality 11-27, Supply Chain 11-28, EHS & Maintenance 11-29.
+  - Session session_013MzxQhML2MDSCMvFCprgqD.
 - **2026-11-25**: **Lever review for ~800 leads per MPC campaign** (Moe: "do 1-3 and 5 and give me a review"). Blitz counts plus an 80-company Director sample, 204 records.
   - **Directors:** 2.25 per hiring company, about 2,800 new leads, none of whom can already be in 734516/756466.
   - **Size 1,001-5,000:** +113% postings. **51-200:** +57%. **Mountain/Pacific:** +29%. **Window 180/365 days:** only +19-20%.
