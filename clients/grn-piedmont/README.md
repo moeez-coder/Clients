@@ -145,6 +145,33 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 
 ## History
 
+- **2026-11-26**: **Size-expansion wave loaded into GTM Sheets and pushing to HeyReach.**
+  - **Load:** `load_mpc_segment.py` with `DATE=2026-11-26` appended the companies, jobs and leads to each MPC workbook. Every table's row count = earlier rows + the new CSV, checked with `gtm_sheet_get_workbook`:
+
+    | Campaign | Companies table | Jobs table | Leads table |
+    |---|---|---|---|
+    | Executive | 570 | 1,241 | 2,257 |
+    | Ops & Plant | 854 | 2,066 | 3,866 |
+    | Eng & Quality | 698 | 1,963 | 3,497 |
+    | Supply Chain | 433 | 994 | 2,112 |
+    | EHS & Maint | 466 | 1,179 | 2,258 |
+
+  - **Push to the two live campaigns** (Push to HeyReach, `only_empty`):
+
+    | Campaign | Queued | List | Expected list total |
+    |---|---|---|---|
+    | Ops & Plant | 1,700 | 1218896 | 722 + 1,700 = **2,422** |
+    | Executive | 1,037 | 1218894 | 544 + 1,037 = **1,581** |
+
+  - **Scheduled go-live tasks updated:** each still pushes its whole Leads table on its day; only the expected counts changed.
+
+    | Campaign | Go-live | Expected leads |
+    |---|---|---|
+    | Eng & Quality | 11-27 | **2,612** |
+    | Supply Chain | 11-28 | **1,571** |
+    | EHS & Maintenance | 11-29 | **1,790** |
+
+  - **All five campaigns total 9,976 launch-set leads** (3,017 before this wave).
 - **2026-11-26**: **MPC size-expansion leads built: expanding all five existing MPC segments** (follows the jobs pull below).
   - **Pull:** Blitz `/v2/search/waterfall-icp-keyword`, two passes per company (C-level/VP up to 5, Directors up to 10), the same persona gates as the 11-24/25 waves. 8,394 Blitz records.
   - **Job descriptions and phrases:** 1,505 companies had a lead; their live posting pages were fetched (788 postings now closed; kept, marked `posting_open` no, as in earlier waves). 10 Claude sub-agents wrote the JD phrases with Moe's prompt.
