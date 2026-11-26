@@ -10,9 +10,9 @@ from sequence import OPEN_FRESH, OPEN_REPOST
 OUT = {}  # companies outside the ICP found while writing phrases: url fragment -> note (filled after review)
 if os.path.exists(os.path.join(HERE, "directors_exclusions.json")): OUT = json.load(open(os.path.join(HERE, "directors_exclusions.json")))
 old = {r["company_linkedin_url"]: r for r in csv.DictReader(open(os.path.join(S, f"mpc-{SEG}", "2026-11-24-role-phrases.csv")))}
-jd = [json.loads(l) for l in open(os.path.join(RAW, f"jd-dir-{SEG}.jsonl"))]; ids = json.load(open(os.path.join(RAW, "phr3", "ids.json")))
+jd = [json.loads(l) for l in open(os.path.join(RAW, f"jd-dir-{SEG}.jsonl"))]; ids = json.load(open(os.path.join(RAW, os.environ.get("PHR", "phr3"), "ids.json")))
 ph = {}
-for f in glob.glob(os.path.join(RAW, "phr3", "out_*.json")):
+for f in glob.glob(os.path.join(RAW, os.environ.get("PHR", "phr3"), "out_*.json")):
     for o in json.load(open(f)): ph[ids[o["id"]]] = o
 comps = {c["company_linkedin_url"]: c for c in csv.DictReader(open(os.path.join(S, f"mpc-{SEG}", "2026-11-24-companies.csv")))}
 rp = {}

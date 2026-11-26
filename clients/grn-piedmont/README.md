@@ -138,6 +138,7 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 
 ## History
 
+- **2026-11-26**: **Executive and Ops & Plant marked running in tracking_clients** (Moe: "The campaigns that are live mark those live in tracking clients aswell"). `move_campaign` took 24c67d2e-1f05-45f9-832d-89f3de069502 and 3f5427d0-8ad8-4a01-b04a-af07a55cb817 from creation to running, via mark-running. The 11-27, 11-28 and 11-29 go-live tasks now also run `move_campaign` running on their own campaign. The Executive Director wave is in progress (`pull_directors.py` SEG=executive, 509 found before the ICP review). Session session_013MzxQhML2MDSCMvFCprgqD.
 - **2026-11-25**: **Director waves for Eng & Quality, Supply Chain and EHS & Maintenance: expanding existing segments** (Moe: "yes" to running the Ops & Plant Director expansion on the other three).
   - **Pull:** `pull_directors.py`, 1,793 Blitz records. Tiers: tier 1 = that family's Directors, tier 2 = every other manufacturing Director function, tier 3 = HR Directors. Up to 10 per company; Managers still excluded.
   - **Phrases and exclusions:** JDs for 429 new companies. Phrases written with Moe's prompt by 8 sub-agents, which flagged 81 off-ICP companies (`directors_exclusions.json`).

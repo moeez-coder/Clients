@@ -24,7 +24,9 @@ T3 = ["Director Engineering", "Director Manufacturing Engineering", "Director Qu
       "Director Finance", "Director Facilities", "Director Planning"]
 PASS = 2
 SEG = os.environ["SEG"]
-FAM = {"engineering-quality": ["Director Engineering", "Director Manufacturing Engineering", "Director Process Engineering", "Director Quality",
+FAM = {"executive": ["Director Operations", "Director Manufacturing", "Plant Director", "Director Finance", "Finance Director",
+                     "Director Human Resources", "HR Director", "Director Business Operations", "Head Operations", "Site Director"],
+       "engineering-quality": ["Director Engineering", "Director Manufacturing Engineering", "Director Process Engineering", "Director Quality",
                                "Director Quality Assurance", "Head Engineering", "Head Quality", "Director Product Engineering", "Director Engineering Quality"],
        "supply-chain-purchasing": ["Director Supply Chain", "Director Purchasing", "Director Procurement", "Director Materials", "Director Logistics",
                                    "Director Planning", "Director Sourcing", "Head Supply Chain", "Head Procurement"],
