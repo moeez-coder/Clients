@@ -124,6 +124,7 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 - `sourcing/tam/2026-11-24-mpc-segments-sample-leads.csv` — 143 rows (92 with a LinkedIn URL, 51 `-` placeholders for companies with no match) at 93 sampled companies, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-24, keyed by `linkedin_url`. Reachability sample only, not a launch list (`mpc_segments_sample.py`)
 - `sourcing/tam/2026-11-24-mpc-segments-posting-check.csv` — 120 postings checked open or closed on the public LinkedIn posting page, 2026-11-24 (not an API pull)
 - `sourcing/tam/2026-11-25-levers-director-sample.csv` — 180 Director-level people at 80 sampled hiring companies (56 with a match; placeholder rows for the rest), Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-25, sizing sample for lever 1 (no config). Counts for all levers: `2026-11-25-levers.json`, `lever_counts.py`; review: `2026-11-25-levers-review.md`
+- `sourcing/tam/2026-11-26-mpc-wide-jobs.csv` — 6,634 job postings (4,573 kept, at 1,765 companies) for the **MPC company expansion to 51-200 and 1,001-5,000 employees**, Blitz API `POST /v2/jobs/search`, last 120 days, pulled 2026-11-26. Feeds the five MPC segment configs (UUIDs in the MPC table above). Query: `2026-11-26-mpc-wide.query.md`, `2026-11-26-mpc-wide-pull.json`, `mpc_wide_pull.py`
 - `sourcing/tam/2026-11-24-apify-charlotte-jobs.csv` — 600 job postings (392 Indeed, 208 LinkedIn), Apify actor `LzsIpToRTUZSnqjbS` via GTM Sheets table `1a3119fc-23ee-42e3-a466-56c778e5cd3f` (Charlotte NC 100 mi, last 7 days, capped at 600 items), pulled 2026-11-24, coverage test against the Blitz pull (no config; `apify_compare.py`)
 - `sourcing/tam/2026-11-24-mpc-segments.query.md` + `-size.json` — the segment read: table, sample results, TAM/SAM, message wording, Apify fit
 - `sourcing/mpc-executive/2026-11-24-leads.csv` — 361 rows (107 launch set; the rest are marked removed with a reason, mostly people already in 734516/756466), config **MPC Executive** `05b28816-06e7-4d7d-9a6d-d9b606f39a68`, Blitz API `POST /v2/search/waterfall-icp-keyword`, pulled 2026-11-24, keyed by `linkedin_url`. The same folder holds `2026-11-24-companies.csv` (every company assigned to the segment, with leads per company), `-jobs.csv` (its kept postings) and `-role-phrases.csv` (final posting, open/closed, role, JD phrase, open line). Query record: `sourcing/mpc-build/2026-11-24-leads.query.md`
@@ -139,6 +140,22 @@ Loaded with `gtm-sheets/load_tables.py` (webhook URLs passed as arguments, not c
 
 ## History
 
+- **2026-11-26**: **MPC company expansion to 51-5,000 employees: expanding all five existing MPC segments** (Moe: "add 51 - 5000", after asking for "around 1000" companies).
+  - **Outside GRN's stated ICP** (201-1,000 employees). This is Moe's call.
+  - **Pull:** the same Blitz `/v2/jobs/search` pull as 11-24, run for the 51-200 and 1,001-5,000 bands. It returned 4,573 kept postings at **1,765 new companies**.
+  - **Companies per campaign, one campaign per company:**
+
+    | Campaign | Companies |
+    |---|---|
+    | Executive | 570 |
+    | Ops & Plant | 854 |
+    | Eng & Quality | 698 |
+    | Supply Chain | 433 |
+    | EHS & Maintenance | 466 |
+    | **All five** | **3,021** (was 1,256) |
+
+  - Reaching about 1,000 per campaign would need companies to sit in more than one campaign; that was not done.
+  - Details: `sourcing/tam/2026-11-26-mpc-wide.query.md`. The lead build follows in its own commit.
 - **2026-11-26**: **Ops & Plant and Executive pushes verified** (scheduled check `trig_01X4bCkgQvXfoy28BsH3qwX9`).
   - Re-ran Push to HeyReach on GTM Sheets table `3f832d3e-865a-4ae5-9fe0-24f2519bf48b`: 0 rows queued, so every launch-set row had already gone.
   - HeyReach list 1218896 = **722** (39 + 683, matches the CSVs); campaign 760470 IN_PROGRESS (342 in progress, 371 pending, 2 finished, 7 failed).
