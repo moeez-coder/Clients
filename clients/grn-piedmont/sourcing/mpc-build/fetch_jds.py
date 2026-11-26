@@ -3,24 +3,26 @@ Public posting page GET linkedin.com/jobs-guest/jobs/api/jobPosting/<id> (as ../
 Order per company: its chosen posting first, then its other kept postings in the same family, newest first; the first OPEN one
 wins (closed = 404/410 or "No longer accepting applications"). If none is open, the chosen posting is kept and marked closed.
 Also flags reposted_since: the first-seen date when the same title was first posted 60+ days ago and reposted in the last 30.
-Output $RAW/jd.jsonl (resumable) -> written to the segment CSVs by build_segments.py.  Usage: RAW=/path python3 fetch_jds.py"""
+Output $RAW/jd.jsonl (resumable) -> written to the segment CSVs by build_segments.py.  Usage: RAW=/path python3 fetch_jds.py
+2026-11-26 size expansion: TODAY=2026-11-26 JOBS=2026-11-26-mpc-wide-jobs.csv COMPS=wide-companies.json LEADS=wide-leads-raw.csv JDOUT=wide-jd.jsonl"""
 import csv, html, json, os, re, time, datetime, urllib.request, urllib.error, collections
 from concurrent.futures import ThreadPoolExecutor
 HERE = os.path.dirname(os.path.abspath(__file__)); S = os.path.join(HERE, ".."); RAW = os.environ["RAW"]
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36", "Accept-Language": "en-US"}
-T = datetime.date(2026, 11, 24)
-allj = list(csv.DictReader(open(os.path.join(S, "tam", "2026-11-24-mpc-segments-jobs.csv"))))
+T = datetime.date.fromisoformat(os.environ.get("TODAY", "2026-11-24"))
+allj = list(csv.DictReader(open(os.path.join(S, "tam", os.environ.get("JOBS", "2026-11-24-mpc-segments-jobs.csv")))))
 kept = [r for r in allj if r["status"] == "kept"]
 latest = {}
 for r in allj:
     if r["status"].startswith("removed: repost"):
         k = (r["company_linkedin_url"], r["title"].lower()); latest[k] = max(latest.get(k, ""), r["date_posted"])
-comps = {c["company_linkedin_url"]: c for c in json.load(open(os.path.join(RAW, "companies.json")))}
+comps = {c["company_linkedin_url"]: c for c in json.load(open(os.path.join(RAW, os.environ.get("COMPS", "companies.json"))))}
 # LEADS/JDOUT let a later wave reuse this (2026-11-25 Ops & Plant Directors: LEADS=dir-leads-raw.csv JDOUT=jd-dir.jsonl);
 # companies that already have a row in jd.jsonl are reused, not fetched again.
 want = {r["company_linkedin_url"] for r in csv.DictReader(open(os.path.join(RAW, os.environ.get("LEADS", "leads-raw.csv")))) if r["status"] == "launch set"}
 out = os.path.join(RAW, os.environ.get("JDOUT", "jd.jsonl"))
 import glob as _g
+done = set()
 if os.environ.get("JDOUT"):  # skip companies already fetched in any earlier jd*.jsonl
     want -= {json.loads(l)["company_linkedin_url"] for f in _g.glob(os.path.join(RAW, "jd*.jsonl")) if not f.endswith(os.environ["JDOUT"]) for l in open(f)}; done = {json.loads(l)["company_linkedin_url"] for l in open(out)} if os.path.exists(out) else set()
 
